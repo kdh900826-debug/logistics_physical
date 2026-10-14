@@ -1,0 +1,871 @@
+{
+  "asset_id": "seoknam",
+  "created_at": "2026-10-13T13:11:44+09:00",
+  "sheets": [
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p001",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 1,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 33 2.2.3 배치계획 본 건물은 서인천IC, 남청라IC 까지 15 분이내 접근가능해 광역교통망 이용이 용이하며, 인천항과 인천국제공항이 인접하여 항공 및 항만 물류 수요 대응이 용이하다. 또한 서울시청까지 30km 거리로 약 1 시간 내로 접근이 가능하며, 서울, 경기 서부 전역 접근이 가능하다 부지 서측 봉수대로(40m 도로)에서 진입구를 통해 1 층 입출하장 및 북",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p001.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": null,
+      "title": "건물 배치도",
+      "building_id": null,
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "DD p33. 2.2.3 배치계획 본문 + 건물 배치도 1장(대지경계·도로·램프 포함)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p002",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 2,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 39 - 본 건물 창고동의 각 층 평면도는 아래와 같다. 지하1 층 평면도 지상1 층 평면도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p002.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "지하1층 평면도 / 지상1층 평면도",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F"
+      ],
+      "readable": true,
+      "note": "DD p39. 평면도 2장 수록."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p003",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 3,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 40 지상2 층 평면도 지상3 층 평면도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p003.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "지상2층 평면도 / 지상3층 평면도",
+      "building_id": "main",
+      "floors": [
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "DD p40. 평면도 2장 수록."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p004",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 4,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 41 지상4 층 평면도 지상5 층~7 층평면도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p004.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "지상4층 평면도 / 지상5층~7층 평면도",
+      "building_id": "main",
+      "floors": [
+        "4F",
+        "5F",
+        "6F",
+        "7F"
+      ],
+      "readable": true,
+      "note": "DD p41. 평면도 2장 수록(5~7층은 대표 1장)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p005",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 5,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 42 지상8 층 평면도 지상9 층 평면도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p005.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "지상8층 평면도 / 지상9층 평면도",
+      "building_id": "main",
+      "floors": [
+        "8F",
+        "9F"
+      ],
+      "readable": true,
+      "note": "DD p42. 평면도 2장 수록."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p006",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 6,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 43 지상10 층 평면도 지붕층 평면도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p006.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p006_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "지상10층 평면도 / 지붕층 평면도",
+      "building_id": "main",
+      "floors": [
+        "10F",
+        "RF"
+      ],
+      "readable": true,
+      "note": "DD p43. 평면도 2장 수록."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p007",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 7,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 70 지상1 층 교통계획도 지상2 층 교통계획도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p007.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p007_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "지상1층 교통계획도 / 지상2층 교통계획도",
+      "building_id": "main",
+      "floors": [
+        "1F",
+        "2F"
+      ],
+      "readable": true,
+      "note": "DD p70. 유형표에 없는 교통(주차)계획도. 평면 위에 동선·주차대수·램프 경사/폭 범례 포함 -> 램프상세도 아님, 램프 관련 값 탐색 시 참고 후보."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p008",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 8,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 71 지상3 층 교통계획도 지상5 층~7 층 교통계획도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p008.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p008_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "지상3층 교통계획도 / 지상5층~7층 교통계획도",
+      "building_id": "main",
+      "floors": [
+        "3F",
+        "5F",
+        "6F",
+        "7F"
+      ],
+      "readable": true,
+      "note": "DD p71. 교통(주차)계획도. 램프 경사/폭 범례 포함."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p009",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 9,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 72 10 층 교통계획도 단지 진입도로 전경-1 단지 진입도로 전경-2",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p009.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p009_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "10층 교통계획도 / 단지 진입도로 전경",
+      "building_id": "main",
+      "floors": [
+        "10F"
+      ],
+      "readable": true,
+      "note": "DD p72. 교통계획도 1장 + 현장 사진 2장(단지 진입도로 전경)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p010",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 10,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 74 수직 동선 계획",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p010.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p010_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "수직 동선 계획",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p74. 코어(승강기·계단) 위치 표기 개념도. 대상 층 표기 없음(대표 층 추정, 평면도 아님)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p011",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 11,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 75 2.2.5 입면계획 본 건물의 창고층 외벽은 THK4.0 알루미늄 복합패널, THK75 그라스울 판넬, 외부수성페인트로 마감되어 있다 준공 도면 기준으로 개구부(창호) 위치 및 오프닝 부분을 육안으로 확인한 결과 준공도면과 일치하였고, 전체적으로 양호한 상태를 유지하고 있었다. - 창고동의 입면도는 다음과 같다. 정면도 우측면도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p011.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p011_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": null,
+      "title": "정면도 / 우측면도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p75. 입면도 2장. 외벽 마감 지시선(THK 표기) 포함. 본문 2.2.5 입면계획 텍스트 동반."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p012",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 12,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 76 배면도 좌측면도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p012.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p012_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": null,
+      "title": "배면도 / 좌측면도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p76. 입면도 2장."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p013",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 13,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 77 2.2.6 단면계획 층고는 지하1 층 6.9m, 지상1 층 10.0m, 지상2 층 지상10.0m, 지상3 층 10.0 m, 지상4 층 5.4m, 지상5 층 10.0m, 지상6 층 10.0m, 지상7 층10.0m, 지상8 층 5.2m, 지상9 층10.0m, 지상10 층 10.2m 로 계획되었고, 주요구조는 RC 구조 및 PC 구조로 되어 있다. 수직 이동을 위해 계단실",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p013.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p013_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": null,
+      "title": "횡단면도 / 종단면도",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F",
+        "4F",
+        "5F",
+        "6F",
+        "7F",
+        "8F",
+        "9F",
+        "10F",
+        "RF"
+      ],
+      "readable": true,
+      "note": "DD p77. 단면도 2장. 본문 2.2.6 단면계획(층고 텍스트) 동반."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p014",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 14,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 94 2.2.8 방수계획 전기실 및 발전기실 상부 우레탄복합방수 및 노출우레탄방수, 램프 및 차로구간 침투성방수, 옥탑층 바닥은 복합방수 및 벽은 고무화아스팔트 복합방수 적용하였고 각층 코어 화장실 방수는 침투식 액체방수를 적용하였다. 화물차량 진, 출입 램프 바닥은 방수를 적용하지 않고 밀실 하게 무근콘크리트 표면마감으로 하여 트렌치 등으로 유도, 배수하게 계획되었다. ",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p014.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p014_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "지하1층, 지상1층 방수계획도",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F"
+      ],
+      "readable": true,
+      "note": "DD p94. 방수계획도는 유형표에 없어 기타 처리. 2.2.8 방수계획 본문 동반."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p015",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 15,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 95 지하2 층, 지상3 층 방수계획도 지상4 층, 지상5~7 층, 9 층 방수계획도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p015.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p015_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "지상2층, 지상3층 방수계획도 / 지상4층, 지상5~7층, 9층 방수계획도",
+      "building_id": "main",
+      "floors": [
+        "2F",
+        "3F",
+        "4F",
+        "5F",
+        "6F",
+        "7F",
+        "9F"
+      ],
+      "readable": true,
+      "note": "DD p95. 방수계획도 4장. 제목은 \"지하2층\"으로 표기됐으나 도면 내부 라벨은 지상2층 -> 2F로 정규화."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p016",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 16,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 96 지상8 층, 지상10 층 방수계획도 지붕층, 옥탑 방수계획도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p016.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p016_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "지상8층, 지상10층 방수계획도 / 지붕층, 옥탑 방수계획도",
+      "building_id": "main",
+      "floors": [
+        "8F",
+        "10F",
+        "RF"
+      ],
+      "readable": true,
+      "note": "DD p96. 방수계획도 4장. 옥탑 지붕은 RF에 포함(별도 층 라벨 없음)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p017",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 17,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 98 - 본 건물의 단열계획은 아래와 같다. 9 층, 10 층 단열계획도 지상5 층~7 층, 8 층 단열계획도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p017.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p017_titleblock.png",
+      "drawing_type": "단열계획도",
+      "sheet_no": null,
+      "title": "9층, 10층 단열계획도 / 지상5층~7층, 8층 단열계획도",
+      "building_id": "main",
+      "floors": [
+        "5F",
+        "6F",
+        "7F",
+        "8F",
+        "9F",
+        "10F"
+      ],
+      "readable": true,
+      "note": "DD p98. 단열계획도 4장(코어부 중심 부분 도면)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p018",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 18,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 99 지상3 층, 지상4 층 단열계획도 지상1 층, 지상2 층 단열계획도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p018.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p018_titleblock.png",
+      "drawing_type": "단열계획도",
+      "sheet_no": null,
+      "title": "지상3층, 지상4층 단열계획도 / 지상1층, 지상2층 단열계획도",
+      "building_id": "main",
+      "floors": [
+        "1F",
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "DD p99. 단열계획도 4장."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p019",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 19,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 101 - 본 건물의 방화계획은 아래와 같다. 지하층, 지상1 층 방화계획도 지상2 층, 3 층 방화계획도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p019.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p019_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": null,
+      "title": "지하층, 지상1층 방화계획도 / 지상2층, 3층 방화계획도",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "DD p101. 방화계획도 4장."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p020",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 20,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 102 지하4 층, 지상5 층~7 층 방화계획도 지상8 층, 9 층 방화계획도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p020.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p020_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": null,
+      "title": "지하4층, 지상5층~7층 방화계획도 / 지상8층, 9층 방화계획도",
+      "building_id": "main",
+      "floors": [
+        "4F",
+        "5F",
+        "6F",
+        "7F",
+        "8F",
+        "9F"
+      ],
+      "readable": true,
+      "note": "DD p102. 방화계획도 4장. 상단 제목은 \"지하4층\"이나 도면 내부 라벨은 지상4층 방화구획도 -> 4F로 정규화."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p021",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 21,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 103 지상10 층 방화계획도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p021.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p021_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": null,
+      "title": "지상10층 방화계획도",
+      "building_id": "main",
+      "floors": [
+        "10F"
+      ],
+      "readable": true,
+      "note": "DD p103. 방화계획도 1장."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p022",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 22,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 130 2.4.4 냉·난방 설비 냉난방 배관 계통도 건물의 냉난방은 대부분 전기 히트 펌프 시스템(Electrical Heat Pump System)으로 하고 있으며, 사무실, 경비실, 용역원실, 기사 대기실, 방재실 등은 냉난방 겸용 EHP로 전기실 및 MDF실은 냉방 전용 EHP가 담당하고 있다. 대부분의 EHP 실외기는 옥상층 바닥에 설치 되어있고 1층 옥외에는 싱글",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p022.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p022_titleblock.png",
+      "drawing_type": "기계도면",
+      "sheet_no": null,
+      "title": "냉난방 배관 계통도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p130. 계통도(층별 구분 불명확하여 floors 비움). 2.4.4 냉난방 설비 본문 동반."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p023",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 23,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 133 2.4.5 환기 설비 사무공간과 이와 유사한 기능에는 실내 최소 환기량을 유지하기 위해 29 CMH/인의 환기가 공급되었으며 에너지 회수를 위해 폐열 회수형 환기유니트(전열교환기)가 설치되었다. 기계실, 전기실, 발전기실, 저온 기계실은 급배기 덕트와 팬을 통해 1 종 환기 방식을 적용하고 있고 화장실은 제3 종 환기방식을 적용 개별 배기 팬을 통해 옥외로 배출한다",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p023.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p023_titleblock.png",
+      "drawing_type": "기계도면",
+      "sheet_no": null,
+      "title": "환기덕트 계통도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p133. 계통도. 2.4.5 환기 설비 본문 동반."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p024",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 24,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 139 2.4.6 위생 설비 (1) 급수설비 건물에 필요한 시수는 시상수도관에서 Ø100으로 인입한 후, 지하1층 저수조에 담수한 후 담수된 물은 부스타펌프에 의해 화장실과 주방, 샤워실 및 냉각탑 보급수 등 사용처에 고층부 및 저층부 2개 존으로 분리하여 상향으로 공급하였다. 저수조 패드는 소방용수를 겸하므로 내진 성능인증제품이 사용되었다. 주방에는 별도의 전용 급수 미",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p024.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p024_titleblock.png",
+      "drawing_type": "기계도면",
+      "sheet_no": null,
+      "title": "위생 배관 계통도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p139. 급수·급탕 위생설비 계통도. 2.4.6 본문 동반."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p025",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 25,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 140 (3) 오배수설비 1 층 주방의 배수는 그리스트랩을 거쳐 정화 후 옥외 토목 오수로에 연결하였다. 지상 화장실의 오수와 배수는 각각 분리식으로 배관 되어있고 오수는 지하층에 위치한 정화조를 거쳐 1 차 처리 후 옥외 토목 오수 관로에 연결되었으며, 지면 보다 낮아 자연 구배로 배출이 불가능한 곳은 배수 집수정에 모은 후 배수 펌프에 의해 옥외 토목 오수 관로에 연결",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p025.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p025_titleblock.png",
+      "drawing_type": "기계도면",
+      "sheet_no": null,
+      "title": "오배수 배관 흐름도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p140. 오배수 흐름도(개념도)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p026",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 26,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 148 2.4.9 열선 설비 열선설비는 외기에 노출되어서 동파가 우려되는 모든 위생 배관에 적용하였고, 코어 #1, #2, #5 EPS 실 및 주방 기계실에 동파방지 열선 판넬이 설치 되어있고 방재실의 중앙 감시반에 운전 상태 감시 및 이상 경보 감시가 적용되어 있다. 열선설비는 외기에 노출되어 동파가 우려되는 아래의 장소에 설치되었다.  1 층 천정의 급수배관  2 ",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p026.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p026_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "열선 Diagram / 동파방지 열선 판넬 사진",
+      "building_id": "main",
+      "floors": [
+        "1F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "DD p148. 열선 작동 개념도 + EPS실 판넬 사진(1층, 4층). 바닥 단면·히팅 배관 상세가 아니므로 바닥상세도 아님."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p027",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 27,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 158 2.5.3 전력인입 및 수배전반 설비 현장을 방문하여 준공도면과 비교 검토하였으며, 해당 건축물의 전력공급은 본 건물의 측면 도로 한전의 옥외 전주를 통해 1 회선 수전하여 옥내의 전주를 거쳐 지중으로 22.9KV-Y,FR-CNCO-W 1/C-160 ㎟ x 3 x 2LINE 으로 수전(1 선 예비선로 포함)받고 있으며. 수전 용량은 7,500kVA, 발전기용량 80",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p027.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p027_titleblock.png",
+      "drawing_type": "단선결선도",
+      "sheet_no": null,
+      "title": "수변전설비 단선 결선도 / 전기 인입 진입도로와 전기실 위치 현황",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "DD p158. 22.9kV 수변전설비 단선결선도(큰 도면) + 전기인입 위치도 1장(지하1층 전기실)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p028",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 28,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 162 전력간선 설비 계통도 분전반 결선도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p028.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p028_titleblock.png",
+      "drawing_type": "전기도면",
+      "sheet_no": null,
+      "title": "전력간선 설비 계통도 / 분전반 결선도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p162. 전력간선 계통도 + 분전반 결선도 2장."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p029",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 29,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 165 조명제어설비 계통도 창고 내부 투광등 – 저온창고 복도- 다운라이트 작업장 투광등 전기실 레이스웨이",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p029.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p029_titleblock.png",
+      "drawing_type": "전기도면",
+      "sheet_no": null,
+      "title": "조명제어설비 계통도 / 조명 사진",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p165. 조명제어 수직 계통도 + 현장 사진 4장."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p030",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 30,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 168 2.5.6 전력, 조명제어 및 원격검침 설비 조명 제어 및 전력 제어 시스템 설비가 설치되어 방재실에서 감시할 수 있도록 구성되어 있다. 전력제어 설비는 수배전반 디지털 전력보호 감시장치를 통한 운전상태를 감시할 수 있고, 조명제어는 조명회로를 스마트 릴레이와 프로그램 스위치로 구성하여 로컬 및 중앙에서 조작할 수 있으며, 중앙에서 감시, 제어 및 기록이 가능하다 ",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p030.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p030_titleblock.png",
+      "drawing_type": "단선결선도",
+      "sheet_no": null,
+      "title": "전력제어설비 단선결선도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p168. 전력제어 시스템 단선결선도. 2.5.6 본문 동반."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p031",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 31,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 172 2.5.8 피뢰 및 접지 설비 접지설비는 최하층 바닥에 접지용 접지 동봉과 나동선을 포설하고 구조체와 본딩하였다. KS C IEC 62305 및 60364 에 따른 독립 접지 방식을 적용함. 피뢰 설비는 KS C IEC 62305 에 따라 회전구체법과 메쉬기법을 적용 지붕층에 피뢰침 및 수평피뢰 도선을 설치하여 건축물을 피뢰로부터 보호될 수 있도록 계획, 시공하였다",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p031.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p031_titleblock.png",
+      "drawing_type": "전기도면",
+      "sheet_no": null,
+      "title": "지하1층 피뢰 및 접지 설비 평면도 / 접지·피뢰 사진",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "DD p172. 접지 평면도 1장 + 사진 4장."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p032",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 32,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 174 2.5.10 정보통신설비 (통합배선 및 CATV 설비) 통합배선 설비는 통신용 CABLE TRAY 를 통하여 건물의MDF 실로 데이터 및 VOICE 를 각각 인입 하여 각 층 TPS 실의 IDF 에서 분기하여 사무실 회선이 구성되어 있으며 해당 건물 지상 1 층 MDF 실에 MDF RACK 이 설치되어 있다. VOICE MDF 는 국선 250P 사선 550P 용량,",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p032.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p032_titleblock.png",
+      "drawing_type": "전기도면",
+      "sheet_no": null,
+      "title": "통합배선(정보통신설비) 계통도 / CATV 계통도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "DD p174. 정보통신 계통도 2장."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p033",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 33,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 199 2.7 토목 및 조경 분야 2.7.1 일반사항 토목부분은 우수공사, 오수공사, 상수공사, 포장공사로 구성되어 있으며, 준공도서 및 준공서류 등의 자료를 제공받았다. 제공된 도서 중 우수, 오수, 상수, 포장도면을 바탕으로 토목시설물의 설치상태를 육안으로 점검하였다. 1) 부지 현황 및 조성계획 사업부지 주변으로 서측은 봉수대로(왕복8 차로, 40M 도로)가 남북으로",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p033.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p033_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": null,
+      "title": "배치도",
+      "building_id": null,
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "DD p199. 2.7.1 토목 일반사항 본문 + 배치도 1장(진출입구·도로 폭 표기)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p034",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 34,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 201 2) 부지경계 및 휀스 설치 현황 부지경계는 경계휀스 및 도로경계석으로 구분되어 있다. 북측은 RC 옹벽 및 경계휀스가 시공되어 있으며, 서측 및 남측은 부지경계석 및 경계휀스가 설치되어 있다. 동측은 인접부지의 담벽이 부지경계 주변으로 시공되어 있으며, 경계휀스는 미 시공되어 있다. 경계복원측량 성과도 및 현황측량도를 통해 부지경계를 확인하였으며, 부지경계 현황 ",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p034.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p034_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": null,
+      "title": "부지경계 및 휀스 설치 현황",
+      "building_id": null,
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "DD p201. 배치도 기반 경계 휀스 현황도 + 사진 2장."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p035",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 35,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 208 2.7.3 포장계획 1) 포장계획 포장공사는 아스콘포장, 인조화강석블럭포장, 보차도경계석으로 구성되어 있다. 부지내 지상1 층 진출입로, 지상1 층 주차장 및 하역장은 아스팔트 포장으로 계획되어 있다. 보행자 동선 및 근로자 쉼터 주변으로 인조화강석블럭 포장으로 계획되어 있다. 아스콘포장 면적은 3,015.0 ㎡ 이며, 포장두께는 보조기층을 포함하여 T=500mm ",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p035.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p035_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "포장계획평면도",
+      "building_id": null,
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "DD p208. 토목 포장계획 평면도 + 포장계획 표. 유형표에 없어 기타 처리."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p036",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 36,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 211 2.7.4 우수계획 1) 우수계획 우수관의 우수계획은 인천시 하수정비 기본계획(2015.10)을 기준으로 강우강도공식을 적용, 우수 유출량 산정을 위한 확률년수는 지선 관거 10 년을 적용하였다. 본 건물의 우수 시스템은 우수맨홀(D900, D1200, D1500), 집수정(600X600, 450X450), 우수관로 (흄관 D450, D600), U 형측구(300X",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p036.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p036_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "우수계획평면도",
+      "building_id": null,
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "DD p211. 토목 우수계획 평면도."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p037",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 37,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 215 2.7.5 오수계획 1) 오수계획 오수계획은 오수량 산정 시 건축물의 용도별 오수발생량 및 단독정화조 처리대상인원 산정기준 (환경부 고시)에 의하여 산정되었다. 오수 시스템은 물류센터의 북측 및 남측으로 오수관로(D200, D250) 및 오수맨홀(D700, D900)이 계획되어 시공되어 있다. 오수처리는 건물내 오수 중 생활오수는 부지내 오수맨홀에서 외부도로의 하수",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p037.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p037_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "오수계획평면도",
+      "building_id": null,
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "DD p215. 토목 오수계획 평면도 + 표."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p038",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 38,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 217 2.7.6 상수계획 1) 상수계획 급수계획은 부지 남측 외부도로의 기존 상수관로 D100mm 에서 인입하여 부지내 상수도관 D80mm 을 통해 건물 내부 설비배관에 연결하도록 계획하였다. 상수계획평면도 [표] 상수계획 명 칭 규 격 단 위 수 량 비 고 상수관 D80 M 62.0 제수변보호통 EA 1.0 2) 준공실사 결과 현장 실사 결과 상수공사는 급수관이 시급수",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p038.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p038_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "상수계획평면도",
+      "building_id": null,
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "DD p217. 토목 상수계획 평면도 + 표."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p039",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 39,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 219 식재계획평면도(지상층, 옥상층) 시설물계획도(지상층, 옥상층) 포장계획도(지상층, 옥상층) 우배수계획도(지상층, 옥상층)",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p039.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p039_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "식재계획평면도 / 시설물계획도 / 포장계획도 / 우배수계획도",
+      "building_id": null,
+      "floors": [
+        "1F",
+        "RF"
+      ],
+      "readable": true,
+      "note": "DD p219. 조경·토목 계획도 4장(각 지상층·옥상층)."
+    },
+    {
+      "sheet_id": "seoknam_실사보고서_수록도면_p040",
+      "file": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+      "page": 40,
+      "page_size_pt": [
+        595.4,
+        841.9
+      ],
+      "text_hint": "인천 석남 물류센터 Due Diligence Report Brookfield Properties Logistics Korea WSP Global Inc. Page 229 6) 경계복원측량 성과도 경계복원측량 성과도",
+      "thumb": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p040.png",
+      "titleblock": "output/wf2/seoknam/thumbs/seoknam_실사보고서_수록도면_p040_titleblock.png",
+      "drawing_type": "측량성과도",
+      "sheet_no": null,
+      "title": "경계복원측량 성과도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "DD p229. 지적 경계복원측량 성과도 1장."
+    }
+  ]
+}

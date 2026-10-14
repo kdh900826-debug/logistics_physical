@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "comments": [
+    {
+      "type": "spec",
+      "target": "building|main|-|dock_count / asset truck_yard_depth_m / terrain_multi_level_access / dock_route_column_conflict(B1~3F)",
+      "text": "도면 재확인 반영(채팅 지시): 도크 수 = 하역장 도크면 화물주차 구획 수(A-021 B1 46, 1F·2F·3F 각 49 → 193), 트럭야드 깊이 = 하역장 13,000 기준 13m, 지형 단차 접안 false(A-005·A-022), 램프→하역장 기둥 간섭 false(B1~3F, A-022·A-023)"
+    }
+  ],
+  "submitted_at": "2026-10-14T16:00:00+09:00"
+}

@@ -1,0 +1,274 @@
+# B. 스펙 기반 룰 (도면) — 7건
+
+공통: `scope: per_building`, 층별 필드는 창고 용도 층만(`warehouse_floors.*`). 벤치마크 위치는 `benchmark_field`로 지정해 `benchmark_context`에 넣는다(B01 흡수).
+
+## SP01. 바닥하중 미달
+
+```yaml
+id: SP01
+category: spec
+scope: per_building
+floor_filter: warehouse
+horizon: now
+inputs: [warehouse_floors.floor_load_tpm2]
+trigger: "true"
+severity:
+  red:    "warehouse_floors.floor_load_tpm2.min < th.floor_load.red"
+  yellow: "warehouse_floors.floor_load_tpm2.min < th.floor_load.yellow"
+  green:  "otherwise"
+on_missing: hold
+llm_adjust: up_one
+adjust_basis: []
+manifest_years: null
+benchmark_field: floor_load_tpm2
+provenance: {source: engine_v1, deals: [], approved: null}
+```
+
+- **근본 원인:** 설계하중이 낮으면 고단 랙·중량 화물·지게차 운용이 제한된다. 보강은 사실상 불가능하다.
+- **연쇄 리스크:**
+  - → 재무: 임대료 할인, 공실 기간 증가
+  - → 임대차: 중량물 임차인 유치 불가, 임차인 업종 제한
+- **DD 확인 포인트:**
+  - 구조일반사항 설계하중표의 층별 값
+  - 미달 층의 면적 비중과 현재 적재 하중
+  - 바닥 균열·처짐 흔적
+
+## SP02. 유효층고 미달
+
+```yaml
+id: SP02
+category: spec
+scope: per_building
+floor_filter: warehouse
+horizon: now
+inputs: [warehouse_floors.clear_height_m]
+trigger: "true"
+severity:
+  red:    "warehouse_floors.clear_height_m.min < th.clear_height.red"
+  yellow: "warehouse_floors.clear_height_m.min < th.clear_height.yellow"
+  green:  "otherwise"
+on_missing: hold
+llm_adjust: up_one
+adjust_basis: []
+manifest_years: null
+benchmark_field: clear_height_m
+provenance: {source: engine_v1, deals: [], approved: null}
+```
+
+- **근본 원인:** 유효층고가 낮으면 랙 단수가 줄어 보관 효율이 떨어진다. 이 룰은 **유효층고(바닥에서 천정·보·스프링클러 배관 하단까지)** 를 비교한다. 층고(FL~FL)가 아니다 — 시장 자료의 '층고 10m'를 그대로 기준으로 쓰지 않는다.
+- **연쇄 리스크:**
+  - → 재무: 평당 보관량 감소에 따른 임대료 경쟁력 저하
+  - → 임대차: 자동화·고단 랙 임차인 유치 제약
+- **DD 확인 포인트:**
+  - 단면도 층고와 보·배관 하단 실측 유효고
+  - 스프링클러 헤드 하단 이격 확보 여부
+  - 층별 편차(저층 vs 상층)
+
+## SP03. 기둥 스팬·랙 효율
+
+```yaml
+id: SP03
+category: spec
+scope: per_building
+horizon: now
+inputs: [column_span_x_m, column_span_y_m]
+trigger: "true"
+severity:
+  yellow: "column_span_x_m < th.column_span.yellow or column_span_y_m < th.column_span.yellow"
+  green:  "otherwise"
+on_missing: hold
+llm_adjust: up_one
+adjust_basis: []
+manifest_years: null
+benchmark_field: column_span_x_m
+provenance: {source: engine_v1, deals: [], approved: null}
+```
+
+- **근본 원인:** 기둥 간격이 좁으면 표준 랙·통로 배치가 맞지 않아 손실 면적이 생긴다.
+- **연쇄 리스크:**
+  - → 재무: 유효 보관 면적 감소
+  - → 임대차: 임차인 레이아웃 제약
+- **DD 확인 포인트:**
+  - 구조 그리드 치수와 표준 랙 배치 시뮬레이션
+  - 하역장 구간 기둥 간섭
+
+## SP04. 도크 부족
+
+```yaml
+id: SP04
+category: spec
+scope: per_building
+horizon: now
+inputs: [dock_density]
+trigger: "true"
+severity:
+  red:    "dock_density < th.dock_density.red"
+  yellow: "dock_density < th.dock_density.yellow"
+  green:  "otherwise"
+on_missing: hold
+llm_adjust: up_one
+adjust_basis: []
+manifest_years: null
+benchmark_field: dock_density
+provenance: {source: engine_v1, deals: [], approved: null}
+```
+
+- **근본 원인:** 연면적 대비 도크 수가 적으면 입출고 처리량이 제한된다.
+- **연쇄 리스크:**
+  - → 재무: 회전형(택배·이커머스) 임차인 대상 경쟁력 저하
+  - → 임대차: 피크 시간 대기 차량 증가, 임차인 불만
+- **DD 확인 포인트:**
+  - 도크·도크레벨러 실제 수량과 배치
+  - 층별 접안 가능 대수
+  - 도크 증설 가능 구간
+
+## SP05. 램프·차량 접근 제약
+
+```yaml
+id: SP05
+category: spec
+scope: per_building
+horizon: now
+inputs: [ramp_type, ramp_form, ramp_slope_pct, ramp_width_m, floors_without_direct_access, floors_above]
+trigger: "floors_above > 1 and ramp_type != '없음'"
+severity:
+  red:    "ramp_slope_pct > th.ramp_slope.red or ramp_width_m < th.ramp_width.red"
+  yellow: "count(floors_without_direct_access) > 0"     # 램프 경사·폭은 🔴 단일 등급(2026-10-13 사용자 결정)
+  green:  "otherwise"
+on_missing: hold
+llm_adjust: up_one
+adjust_basis: []
+manifest_years: null
+benchmark_field: ramp_slope_pct
+provenance: {source: engine_v1, deals: [], approved: null}
+```
+
+- **근본 원인:** 램프 경사가 급하거나 폭이 좁으면 대형 화물차 통행 속도·안전이 떨어지고, 직접접안이 안 되는 층은 수직반송에 의존한다.
+- **연쇄 리스크:**
+  - → 재무: 상층부 임대료 할인
+  - → 임대차: 동절기 결빙·사고 리스크, 대형차 운용 제약
+  - → 법률: 차량 사고 시 시설 책임
+- **DD 확인 포인트:**
+  - 램프 실측 경사·폭(곡선부 포함)
+  - 40FT 컨테이너·세미트레일러 출차 회전: 하역장 주차 위치에서 출차 램프까지 한 번에 진입 가능한지(도면 회전반경 표기, 현장 주차 위치가 준공도면과 같은지), 곡선구간 교행 가능 폭 — 사례: 이천 송온리 B2 램프 폭 4m·최좌측 40FT 1회 진입 불가(golden songon p40)
+  - 램프→하역장 진입 동선상 기둥 간섭: 램프 출구에서 하역장으로 꺾는 구간에 기둥이 있으면 40FT가 한 번에 들어가지 못하고 반대차선을 침범한다 — 대안(기둥보호대·안내원·대형차 다른 층 유도)과 그 층 임차인 차량 구성 확인. 사례: 송온리 1센터 2층(golden songon1 p21)
+  - 층별 직접접안 가능 여부
+  - 램프 결빙 방지(열선) 설비
+
+## SP06. 트럭야드 협소
+
+```yaml
+id: SP06
+category: spec
+scope: per_building
+horizon: now
+inputs: [truck_yard_depth_m]
+trigger: "true"
+severity:
+  red:    "truck_yard_depth_m < th.truck_yard_depth.red"
+  yellow: "truck_yard_depth_m < th.truck_yard_depth.yellow"
+  green:  "otherwise"
+on_missing: hold
+llm_adjust: up_one
+adjust_basis: []
+manifest_years: null
+benchmark_field: truck_yard_depth_m
+provenance: {source: engine_v1, deals: [], approved: null}
+```
+
+- **근본 원인:** 야드 깊이가 대형 트레일러 회전·후진 접안에 필요한 거리보다 짧다.
+- **연쇄 리스크:**
+  - → 재무: 대형차 임차인 유치 제약
+  - → 임대차: 접안 지연, 단지 내 정체
+- **DD 확인 포인트:**
+  - 도크 전면 야드 깊이 실측
+  - 대기 차량 공간과 진출입 동선
+  - 실내 하역주차장(지하층 등)의 대형차 회전 궤적: 주차 구획별로 40FT 차량이 출차할 수 있는지(golden songon p40)
+
+## SP08. 대형차 회전반경 부족
+
+```yaml
+id: SP08
+category: spec
+scope: per_building
+horizon: now
+inputs: [turning_radius_m]
+trigger: "true"
+severity:
+  red:    "turning_radius_m < th.turning_radius.red"
+  yellow: "turning_radius_m < th.turning_radius.yellow"
+  green:  "otherwise"
+on_missing: hold
+llm_adjust: up_one
+adjust_basis: []
+manifest_years: null
+benchmark_field: turning_radius_m
+provenance: {source: golden_songon, deals: [], approved: null}
+```
+
+- **근본 원인:** 램프 곡선부나 하역장→출차 램프 진입부의 회전반경이 대형차(세미트레일러·40FT 컨테이너)의 최소 회전반경에 못 미치거나 여유가 없으면, 차량이 한 번에 돌지 못해 후진·재진입이 필요하다. 주차 위치가 준공도면과 다르면 실제 여유는 도면보다 더 작다.
+- **연쇄 리스크:**
+  - → 재무: 대형차(컨테이너) 임차인 유치 제약, 동선 개선 공사비
+  - → 임대차: 출차 지연·정체, 주차 구획 축소로 운영 차질
+  - → 법률: 회전 중 충돌 사고 시 시설 책임
+- **DD 확인 포인트:**
+  - 도면 R 표기(램프 곡선부, 하역장 출차부)와 현장 주차 위치 일치 여부
+  - 40FT 컨테이너·세미트레일러 회전 궤적 검토(AutoTURN 등) 결과
+  - 저온층 상온 전환 시 대형차 운행 가능 여부 — 사례: 이천 송온리 B2 R-12M, 최좌측 40FT 1회 진입 불가(golden songon p40)
+
+## SP09. 하역 동선 기둥 간섭
+
+```yaml
+id: SP09
+category: spec
+scope: per_building
+horizon: now
+inputs: [floors_with_dock_column_conflict]
+trigger: "true"
+severity:
+  yellow: "count(floors_with_dock_column_conflict) > 0"
+  green:  "otherwise"
+on_missing: hold
+llm_adjust: up_one
+adjust_basis: []
+manifest_years: null
+provenance: {source: golden_songon1, deals: [], approved: null}
+```
+
+- **근본 원인:** 램프 출구에서 하역장으로 꺾는 동선에 기둥이 있으면 40FT 트레일러 같은 대형차가 한 번에 들어가지 못하고 반대차선을 침범한다. 구조 기둥이라 사후 개선이 어렵고, 운영(안내원·기둥보호대·대형차 다른 층 유도)으로만 대응한다.
+- **연쇄 리스크:**
+  - → 재무: 해당 층 대형차 임차인 유치 제약, 임대료 할인
+  - → 임대차: 진출입 지연·정체, 다른 층으로 유도하면 층별 운영 제약
+  - → 법률: 기둥·차량 충돌 사고 시 시설 책임
+- **DD 확인 포인트:**
+  - 간섭 층의 하역장 진입·진출구 평면과 대형차 회전 궤적
+  - 그 층 임차인의 차량 구성(40FT·세미트레일러 비중)과 대체 동선(다른 층 유도) 가능 여부
+  - 기둥보호대·유도 설비 설치 여부
+- **LLM 상향 기준:** 간섭 층이 대형차 주 하역층이거나 대체 동선이 없으면 🔴 검토. 사례: 송온리 1센터 2층(golden songon1 p21, p61)
+
+## SP07. 수직반송 의존
+
+```yaml
+id: SP07
+category: spec
+scope: per_building
+horizon: now
+inputs: [handling_type]
+trigger: "true"
+severity:
+  yellow: "handling_type == '다층 승강기형'"
+  green:  "otherwise"
+on_missing: hold
+llm_adjust: up_one
+adjust_basis: []
+manifest_years: null
+provenance: {source: engine_v1, deals: [], approved: null}
+```
+
+- **근본 원인:** 다층 승강기형은 상층부 입출고가 승강기·수직반송기 처리 용량에 묶인다.
+- **연쇄 리스크:**
+  - → 재무: 상층부 임대료 할인, 공실 장기화
+  - → 임대차: 승강기 고장 시 층 단위 운영 중단
+- **DD 확인 포인트:**
+  - 승강기·수직반송기 대수·용량 대비 층 면적
+  - 피크 시간 처리량 실적

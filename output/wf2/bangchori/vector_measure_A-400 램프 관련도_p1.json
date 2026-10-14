@@ -1,0 +1,189 @@
+{
+  "file": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+  "page": 1,
+  "scale_mm_per_pt": 423.33,
+  "scale_source": "1/1,200(A3) · 용지 A3",
+  "method": "vector",
+  "centers": [
+    {
+      "center_pt": [
+        599.22,
+        234.62
+      ],
+      "label": "W.P",
+      "inner_edge_m": 15.8,
+      "inner_edge_lines": 120,
+      "radial_lines": 234,
+      "arcs_m": [
+        15.82,
+        15.87,
+        20.14,
+        23.49,
+        25.68,
+        26.84
+      ]
+    },
+    {
+      "center_pt": [
+        599.22,
+        262.94
+      ],
+      "label": "W.P",
+      "inner_edge_m": 15.8,
+      "inner_edge_lines": 42,
+      "radial_lines": 196,
+      "arcs_m": [
+        15.82,
+        16.79,
+        19.23,
+        22.58,
+        24.76,
+        25.93,
+        29.03
+      ]
+    },
+    {
+      "center_pt": [
+        255.78,
+        234.62
+      ],
+      "label": "W.P",
+      "inner_edge_m": 15.9,
+      "inner_edge_lines": 32,
+      "radial_lines": 119,
+      "arcs_m": [
+        16.08,
+        20.14,
+        23.49,
+        25.68,
+        26.85
+      ]
+    },
+    {
+      "center_pt": [
+        942.66,
+        234.62
+      ],
+      "label": "W.P",
+      "inner_edge_m": 15.8,
+      "inner_edge_lines": 97,
+      "radial_lines": 221,
+      "arcs_m": [
+        15.8,
+        15.97,
+        20.14,
+        23.49,
+        25.68,
+        26.84
+      ]
+    },
+    {
+      "center_pt": [
+        942.66,
+        262.94
+      ],
+      "label": "W.P",
+      "inner_edge_m": 15.8,
+      "inner_edge_lines": 24,
+      "radial_lines": 187,
+      "arcs_m": [
+        15.85,
+        16.79,
+        19.23,
+        22.58,
+        24.77,
+        25.93
+      ]
+    },
+    {
+      "center_pt": [
+        255.54,
+        624.14
+      ],
+      "label": "W.P",
+      "inner_edge_m": 15.7,
+      "inner_edge_lines": 72,
+      "radial_lines": 219,
+      "arcs_m": [
+        15.8,
+        20.14,
+        23.49,
+        25.68,
+        26.84
+      ]
+    },
+    {
+      "center_pt": [
+        255.54,
+        652.46
+      ],
+      "label": "W.P",
+      "inner_edge_m": 15.8,
+      "inner_edge_lines": 29,
+      "radial_lines": 178,
+      "arcs_m": [
+        15.8,
+        16.79,
+        19.23,
+        22.58,
+        24.76,
+        25.93
+      ]
+    },
+    {
+      "center_pt": [
+        598.98,
+        624.14
+      ],
+      "label": "W.P",
+      "inner_edge_m": 15.7,
+      "inner_edge_lines": 73,
+      "radial_lines": 239,
+      "arcs_m": [
+        15.8,
+        20.14,
+        23.49,
+        25.68,
+        26.84
+      ]
+    },
+    {
+      "center_pt": [
+        598.98,
+        652.46
+      ],
+      "label": "W.P",
+      "inner_edge_m": 15.8,
+      "inner_edge_lines": 34,
+      "radial_lines": 148,
+      "arcs_m": [
+        15.73,
+        15.77,
+        15.82,
+        15.86,
+        19.23,
+        22.58,
+        24.76,
+        25.93,
+        29.18
+      ]
+    }
+  ],
+  "suggested": {
+    "field": "turning_radius_m",
+    "value": 15.7,
+    "unit": "m",
+    "precision": "approx",
+    "bbox": [
+      203.6,
+      572.2,
+      307.5,
+      676.1
+    ],
+    "range_m": [
+      15.7,
+      15.9
+    ],
+    "note": "벡터 좌표 측정: W.P 중심~차로면 내측 원호(빗금 72개 시작 반경). 축척 423.3mm/pt(1/1,200(A3) · 용지 A3). 중심 9곳 범위 15.7~15.9m. 도면 R 표기 아님 · 램프 곡선부 내측 반경(차량 회전 궤적·출차부 R 아님)"
+  }
+}

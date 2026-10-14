@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "comments": [
+    {
+      "type": "spec",
+      "target": "building|main|-|turning_radius_m",
+      "text": "램프 곡선부 내측 반경 15.8m — A-401 W.P~차로면 내측 원호 벡터 좌표 측정(도면 표기값 아님, 📐 표시) — 채팅 지시"
+    }
+  ],
+  "submitted_at": "2026-10-14T17:00:00+09:00"
+}

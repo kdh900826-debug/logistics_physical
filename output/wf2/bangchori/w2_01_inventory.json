@@ -1,0 +1,3338 @@
+{
+  "asset_id": "bangchori",
+  "created_at": "2026-10-14T13:28:24+09:00",
+  "im": [
+    {
+      "path": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "name": "202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "bytes": 7161027,
+      "format": "pdf_scan",
+      "pages": 35,
+      "scan_page_ratio": 0.51,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 3,
+          "text_chars": 120,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 4,
+          "text_chars": 235,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 5,
+          "text_chars": 318,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 6,
+          "text_chars": 459,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 7,
+          "text_chars": 481,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 8,
+          "text_chars": 29,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 9,
+          "text_chars": 314,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 10,
+          "text_chars": 153,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 11,
+          "text_chars": 415,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 12,
+          "text_chars": 182,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 13,
+          "text_chars": 160,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 14,
+          "text_chars": 224,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 15,
+          "text_chars": 274,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 16,
+          "text_chars": 278,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 17,
+          "text_chars": 676,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 18,
+          "text_chars": 685,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 19,
+          "text_chars": 370,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 20,
+          "text_chars": 355,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 21,
+          "text_chars": 968,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 22,
+          "text_chars": 968,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 23,
+          "text_chars": 159,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 24,
+          "text_chars": 151,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 25,
+          "text_chars": 142,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 26,
+          "text_chars": 225,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 27,
+          "text_chars": 354,
+          "scan": false,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 28,
+          "text_chars": 196,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            275,
+            190
+          ],
+          "est_tiles": 1
+        }
+      ],
+      "est_tiles": 18,
+      "readable": true
+    }
+  ],
+  "drawings": [
+    {
+      "path": "input/bangchori/drawings/A-000 도면목록표.pdf",
+      "name": "A-000 도면목록표.pdf",
+      "bytes": 3252163,
+      "format": "pdf_scan",
+      "pages": 3,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 6,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-001 설계개요.pdf",
+      "name": "A-001 설계개요.pdf",
+      "bytes": 67792,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 3691,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-001A 층별면적표.pdf",
+      "name": "A-001A 층별면적표.pdf",
+      "bytes": 57966,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2717,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-002 용적율산정근거.pdf",
+      "name": "A-002 용적율산정근거.pdf",
+      "bytes": 55032,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1063,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-003 대지지적도.pdf",
+      "name": "A-003 대지지적도.pdf",
+      "bytes": 985324,
+      "format": "pdf_scan",
+      "pages": 1,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 2,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-004 배치도.pdf",
+      "name": "A-004 배치도.pdf",
+      "bytes": 800495,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2405,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-005 대지 종횡단면도.pdf",
+      "name": "A-005 대지 종횡단면도.pdf",
+      "bytes": 1212774,
+      "format": "pdf_scan",
+      "pages": 1,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 2,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-006~009 면적산출근거표.pdf",
+      "name": "A-006~009 면적산출근거표.pdf",
+      "bytes": 519012,
+      "format": "pdf_vector",
+      "pages": 4,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 3015,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 3001,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 874,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 840,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-010~011 지하층 산정근거표.pdf",
+      "name": "A-010~011 지하층 산정근거표.pdf",
+      "bytes": 1903191,
+      "format": "pdf_scan",
+      "pages": 2,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 4,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+      "name": "A-021~024 주차계획도.pdf",
+      "bytes": 4846921,
+      "format": "pdf_vector",
+      "pages": 4,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 3089,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 2982,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 2443,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 2568,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-031~032 방화계획도.pdf",
+      "name": "A-031~032 방화계획도.pdf",
+      "bytes": 2329752,
+      "format": "pdf_vector",
+      "pages": 2,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 4838,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 4251,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-041~045 피난거리계획도.pdf",
+      "name": "A-041~045 피난거리계획도.pdf",
+      "bytes": 5233334,
+      "format": "pdf_vector",
+      "pages": 5,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2208,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 2310,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 2187,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 2703,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 1872,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-051~052 소방관진입창계획도.pdf",
+      "name": "A-051~052 소방관진입창계획도.pdf",
+      "bytes": 2537134,
+      "format": "pdf_vector",
+      "pages": 2,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2386,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 2009,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-055~057 포장계획도.pdf",
+      "name": "A-055~057 포장계획도.pdf",
+      "bytes": 2431137,
+      "format": "pdf_vector",
+      "pages": 3,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1749,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 1160,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 1456,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-061~063 조경계획도.pdf",
+      "name": "A-061~063 조경계획도.pdf",
+      "bytes": 3758472,
+      "format": "pdf_scan",
+      "pages": 3,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 6,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-071~073 단열계획도.pdf",
+      "name": "A-071~073 단열계획도.pdf",
+      "bytes": 2788167,
+      "format": "pdf_vector",
+      "pages": 3,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 4542,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 4022,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 2018,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-075~077 형별성능내역표.pdf",
+      "name": "A-075~077 형별성능내역표.pdf",
+      "bytes": 3623307,
+      "format": "pdf_scan",
+      "pages": 3,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 6,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-081~083 방수계획도.pdf",
+      "name": "A-081~083 방수계획도.pdf",
+      "bytes": 3108063,
+      "format": "pdf_vector",
+      "pages": 3,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2772,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 3021,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 3082,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-091~096 우수계획도.pdf",
+      "name": "A-091~096 우수계획도.pdf",
+      "bytes": 6354825,
+      "format": "pdf_vector",
+      "pages": 6,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2607,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 2538,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 2273,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 2267,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 2752,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 1965,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-099~102 실내재료 마감상세도.pdf",
+      "name": "A-099~102 실내재료 마감상세도.pdf",
+      "bytes": 5712777,
+      "format": "pdf_scan",
+      "pages": 6,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 12,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1000 외벽판넬상세 관련도.pdf",
+      "name": "A-1000 외벽판넬상세 관련도.pdf",
+      "bytes": 4543092,
+      "format": "pdf_scan",
+      "pages": 6,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 12,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "name": "A-1010 창호 관련도.pdf",
+      "bytes": 27986965,
+      "format": "pdf_scan",
+      "pages": 26,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 52,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "name": "A-1100 천장 관련도.pdf",
+      "bytes": 9723983,
+      "format": "pdf_scan",
+      "pages": 9,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 18,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-111 PIT 평면도.pdf",
+      "name": "A-111 PIT 평면도.pdf",
+      "bytes": 909456,
+      "format": "pdf_scan",
+      "pages": 1,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 2,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1110 충격보호대 관련도.pdf",
+      "name": "A-1110 충격보호대 관련도.pdf",
+      "bytes": 6709384,
+      "format": "pdf_scan",
+      "pages": 6,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 12,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-111~117 평면도.pdf",
+      "name": "A-111~117 평면도.pdf",
+      "bytes": 6952966,
+      "format": "pdf_vector",
+      "pages": 7,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1183,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 3111,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 2798,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 2738,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 2298,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 2234,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 1717,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1200 잡상세 관련도.pdf",
+      "name": "A-1200 잡상세 관련도.pdf",
+      "bytes": 6128750,
+      "format": "pdf_scan",
+      "pages": 7,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 14,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1250 분리수거장 상세 관련도.pdf",
+      "name": "A-1250 분리수거장 상세 관련도.pdf",
+      "bytes": 2881300,
+      "format": "pdf_scan",
+      "pages": 4,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 8,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "name": "A-1300 오수처리시설 관련도.pdf",
+      "bytes": 8293440,
+      "format": "pdf_scan",
+      "pages": 11,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 22,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1400 바닥 강화제 관련도.pdf",
+      "name": "A-1400 바닥 강화제 관련도.pdf",
+      "bytes": 6167354,
+      "format": "pdf_scan",
+      "pages": 5,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 10,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1500 콘크리트 커팅 관련도.pdf",
+      "name": "A-1500 콘크리트 커팅 관련도.pdf",
+      "bytes": 6870936,
+      "format": "pdf_vector",
+      "pages": 6,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2670,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 2593,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 2537,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 2018,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 2297,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 2148,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1600 영구배수 및 강재집수정 관련도.pdf",
+      "name": "A-1600 영구배수 및 강재집수정 관련도.pdf",
+      "bytes": 3246102,
+      "format": "pdf_scan",
+      "pages": 3,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 6,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-1700 영구배수 관련도.pdf",
+      "name": "A-1700 영구배수 관련도.pdf",
+      "bytes": 4938816,
+      "format": "pdf_scan",
+      "pages": 4,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 8,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-200 확대평면 관련도.pdf",
+      "name": "A-200 확대평면 관련도.pdf",
+      "bytes": 5248254,
+      "format": "pdf_scan",
+      "pages": 6,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 12,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "name": "A-300 확대입면 관련도.pdf",
+      "bytes": 12264357,
+      "format": "pdf_scan",
+      "pages": 13,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 26,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+      "name": "A-400 램프 관련도.pdf",
+      "bytes": 880929,
+      "format": "pdf_vector",
+      "pages": 2,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 3073,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 704,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-500 벽체,안내도 관련도.pdf",
+      "name": "A-500 벽체,안내도 관련도.pdf",
+      "bytes": 8843852,
+      "format": "pdf_scan",
+      "pages": 8,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 16,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+      "name": "A-600 외벽단면 관련도.pdf",
+      "bytes": 4803651,
+      "format": "pdf_scan",
+      "pages": 5,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 10,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-700 부분단면 관련도.pdf",
+      "name": "A-700 부분단면 관련도.pdf",
+      "bytes": 4918045,
+      "format": "pdf_scan",
+      "pages": 6,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 12,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "name": "A-800 수직계통 관련도.pdf",
+      "bytes": 29437605,
+      "format": "pdf_scan",
+      "pages": 35,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 27,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 28,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 70,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "name": "A-900 화장실 관련도.pdf",
+      "bytes": 9816881,
+      "format": "pdf_scan",
+      "pages": 10,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 20,
+      "readable": true
+    },
+    {
+      "path": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "name": "A-910 에너지 관련도.pdf",
+      "bytes": 12527593,
+      "format": "pdf_scan",
+      "pages": 11,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 22,
+      "readable": true
+    }
+  ],
+  "dwg_requests": [],
+  "mode": "정규",
+  "est_vision_tiles": 390,
+  "escalations": []
+}

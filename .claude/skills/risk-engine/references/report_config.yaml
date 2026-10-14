@@ -1,0 +1,9 @@
+# 보고서 설정 (설계서 §2.3 W2-⑩, U15)
+
+# Top 3 정렬 ④번 키: 카테고리 우선순위 (앞일수록 우선)
+category_priority: [fire, cold, location, spec, aging, consistency, benchmark]
+
+# 보고서 한계 문구 (§1.8-5)
+limitation: >-
+  본 보고서는 IM과 도면 기반의 스크리닝 결과이며 PCA·현장 실사를 대체하지 않는다.
+  ⚪ 판정 보류 항목은 '정상'이 아니라 입력이 확인되지 않아 평가하지 않은 항목이다.

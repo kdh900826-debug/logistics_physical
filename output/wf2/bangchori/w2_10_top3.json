@@ -1,0 +1,23 @@
+{
+  "asset_id": "bangchori",
+  "sort_keys": [
+    "severity",
+    "v01_related",
+    "correlation_links",
+    "category_priority",
+    "rule_id"
+  ],
+  "top3": [
+    {
+      "rank": 1,
+      "rule_id": "SP04",
+      "building_id": "main",
+      "title": "도크 부족",
+      "severity": "red",
+      "v01_related": false,
+      "links": 0,
+      "category": "spec",
+      "vector_inputs": []
+    }
+  ]
+}

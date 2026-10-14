@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+{% macro src(s) -%}
+  {%- if s -%}
+    {%- set urls = s | regex_urls -%}
+    <div class="small">{{ s | strip_urls }}{% for u in urls %} <a href="{{ u }}" target="_blank" rel="noopener">[원문{{ loop.index if urls|length > 1 }}]</a>{% endfor %}</div>
+  {%- else -%}<div class="small muted">출처 없음</div>{%- endif -%}
+{%- endmacro %}
+{% macro choice(id, verified, edit_label='값 수정', value=None, unit='') %}
+<div class="row-actions" data-id="{{ id }}">
+  {% if verified %}<span class="chip" style="background:#dff3e3;color:#1d6b2f">확정됨</span>{% endif %}
+  <label><input type="radio" name="{{ id }}" value="hold" checked> 보류</label>
+  <label><input type="radio" name="{{ id }}" value="verify"> 확정</label>
+  <label><input type="radio" name="{{ id }}" value="edit"> {{ edit_label }}</label>
+  <span class="edit-fields">
+    <input type="text" class="v" placeholder="새 값{% if unit %} ({{ unit }}){% endif %}" size="10">
+    <input type="text" class="s" placeholder="출처(바꿀 때만)" size="28">
+  </span>
+  <input type="text" class="c" placeholder="메모(선택)" size="22">
+</div>
+{% endmacro %}
+
+{% macro golden(it, current) %}
+<div class="golden" data-dir="{{ it.examples[0].direction if it.examples else '' }}" data-current="{{ current if current is not none else '' }}">
+  {% for e in it.examples %}
+  <span class="gx" data-value="{{ e.value if e.value is not none else '' }}">
+    <b>{{ e.name }}</b> {{ e.var_label }}
+    {% if e.value is none %}<span class="muted">값 없음</span>{% else %}<span class="gv">{{ e.value }}</span>{% endif %}
+    <span class="hit"></span>{% if e.extra %}<span class="muted"> · {{ e.extra }}</span>{% endif %}
+  </span>
+  {% endfor %}
+</div>
+{% endmacro %}
+{% block title %}임계값 확인표{% endblock %}
+{% block header %}
+<h1>임계값·법규 시행일 확인표</h1>
+<span class="chip">임계값 {{ d.thresholds|length }}</span>
+<span class="chip">값 없음 {{ d.missing|length }}</span>
+<span class="chip">법규 {{ d.regulations|length }}</span>
+<span id="progress" class="small muted"></span>
+{% endblock %}
+{% block body %}
+<div class="banner small">
+'확정'한 항목만 룰 판정에 쓰입니다. 확정하지 않은 기준값에 의존하는 룰은 ⚪(기준값 미검증)로 남습니다.
+출처는 Claude가 조사한 초안입니다. 법령은 미러 사이트에서 읽은 것이 많으니 [원문] 링크나 law.go.kr로 확인해 주세요.
+'보류'는 아무것도 바꾸지 않습니다. 제출하면 YAML 파일에 바로 반영되고 이력은 <code>kb/threshold_review_log.json</code>에 남습니다.
+</div>
+
+<h2>0. 골든 사례로 보는 판정 — 지금 초안을 전부 확정하면</h2>
+<p class="small muted">청라·석남의 골든 정답(실사 보고서로 확인한 스펙)으로 룰을 돌린 결과입니다. 아래 표의 임계값·법규 초안이 <b>모두 확정됐다고 가정</b>했습니다.
+각 칸 아래에는 실사 보고서의 해당 소견(결함·경미·양호)을 붙였습니다. <b>⚠ 표시</b>는 엔진 판정과 실사 소견이 어긋나는 곳입니다 — 🟢인데 실사에서 결함이 나왔거나, 🔴·🟡인데 실사에서 양호로 본 경우. 임계값이나 룰 정의를 다시 볼 신호입니다.
+단, 두 건에 맞춰 임계값을 정하면 과적합이 됩니다 — 기준은 출처로 정하고, 사례는 점검용으로만 쓰세요.</p>
+{% set emo = {"red":"🔴","yellow":"🟡","green":"🟢","hold":"⚪", None: "—"} %}
+<table class="sim">
+<tr><th>룰</th>{% for a, n in d.golden_assets.items() %}<th>{{ n }}</th>{% endfor %}</tr>
+{% for rid, r in d.simulation.items() if not rid.startswith('_') %}
+<tr><td><b>{{ rid }}</b> {{ r.title }}</td>
+{% for a in d.golden_assets %}{% set x = r.get(a) %}
+<td>{% if x %}{{ emo[x.severity] }}{% if x.reason %} <span class="small muted">{{ x.reason }}{% if x.missing %}: {{ x.missing|join(', ') }}{% endif %}</span>{% endif %}
+  {% if x.mismatch %}<div class="mm">⚠ {{ x.mismatch }}</div>{% endif %}
+  {% for f in x.findings %}<div class="fd fd-{{ f.severity_hint }}">{% if f.source %}<b>{{ f.source }}</b>{% if f.dd_flagged == 'yes' %} (DD 지적){% elif f.dd_flagged == 'no' %} (DD 미지적){% endif %}{% else %}실사 p{{ f.page }}{% endif %}: {{ f.text }}</div>{% endfor %}
+{% else %}—{% endif %}</td>
+{% endfor %}</tr>
+{% endfor %}
+</table>
+{% if d.simulation._error %}<div class="banner">시뮬레이션 오류: {{ d.simulation._error }}</div>{% endif %}
+
+<h2>1. 값이 있는 임계값 ({{ d.thresholds|length }})</h2>
+<table>
+<tr><th style="width:18%">항목 · 등급</th><th style="width:9%">값</th><th>출처 · 근거</th><th style="width:8%">룰</th></tr>
+{% for t in d.thresholds %}
+<tr>
+  <td><b>{{ t.name }}</b> {{ t.level_label }}<div class="small muted">{{ t.scope }} · {{ t.direction }}</div>
+      {% if t.policy %}<span class="chip">내부 정책값</span>{% endif %}</td>
+  <td class="val">{{ t.value }} <span class="small muted">{{ t.unit }}</span></td>
+  <td>{{ src(t.source) }}{% if t.note %}<details><summary class="small">근거 메모</summary><div class="small">{{ t.note }}</div></details>{% endif %}
+      {{ golden(t, t.value) }}
+      {{ choice(t.id, t.verified, unit=t.unit) }}</td>
+  <td class="small">{{ t.rules|join(', ') or '— (2단계 룰)' }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<h2>2. 룰이 쓰는데 값이 없는 임계값 ({{ d.missing|length }})</h2>
+<p class="small muted">비워 두면 해당 등급은 판정에서 건너뜁니다. '선택'은 같은 항목의 다른 등급이 있어 비워도 룰이 돌아가는 경우, '필수'는 비우면 룰 전체가 ⚪입니다.
+값을 넣으려면 출처(또는 "내부 정책: …")를 반드시 적어 주세요.</p>
+<table>
+<tr><th style="width:18%">항목 · 등급</th><th>조사 결과 · 입력</th><th style="width:8%">룰</th></tr>
+{% for m in d.missing %}
+<tr>
+  <td><b>{{ m.name }}</b> {{ m.level_label }}
+      <div>{% if m.optional %}<span class="chip">선택</span>{% else %}<span class="chip sens">필수</span>{% endif %}
+      {% if m.policy %}<span class="chip">내부 정책값</span>{% endif %}</div></td>
+  <td>{% if m.finding %}<div class="small">{{ m.finding }}</div>{% endif %}
+      {% if m.searched %}<div class="small muted">검색: {{ m.searched }}</div>{% endif %}
+      {{ golden(m, none) }}
+      <div class="row-actions" data-id="{{ m.id }}">
+        <label><input type="radio" name="{{ m.id }}" value="hold" checked> 비워 둠</label>
+        <label><input type="radio" name="{{ m.id }}" value="set"> 값 입력</label>
+        <span class="edit-fields"><input type="text" class="v" placeholder="값 ({{ m.unit }})" size="10">
+        <input type="text" class="s" placeholder="출처 또는 '내부 정책: 사유'" size="34"></span>
+        <input type="text" class="c" placeholder="메모(선택)" size="18">
+      </div></td>
+  <td class="small">{{ m.rules|join(', ') }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<h2>3. 법규 시행일 ({{ d.regulations|length }})</h2>
+<p class="small muted">대부분의 개정은 시행일 이후 <b>건축허가 신청분</b>부터 적용됩니다. 엔진은 지금 준공연도로 비교하므로, 허가 시점과 준공이 몇 년 떨어진 자산은 판정이 어긋날 수 있습니다.</p>
+<table>
+<tr><th style="width:24%">규정</th><th style="width:11%">시행일</th><th>근거</th><th style="width:7%">룰</th></tr>
+{% for r in d.regulations %}
+<tr>
+  <td><b>{{ r.title }}</b><div class="small muted">{{ r.law }}</div></td>
+  <td class="val" style="font-size:14px">{{ r.effective_date or '—' }}{% if r.effective_date_basis %}<div class="small muted">{{ r.effective_date_basis }}</div>{% endif %}</td>
+  <td><div class="small">{{ r.summary }}</div><div class="small muted">적용: {{ r.applies_to }}</div>{{ src(r.source_url) }}
+      {{ choice(r.id, r.verified, '시행일 수정', unit='YYYY-MM-DD') }}</td>
+  <td class="small">{{ (r.rule_refs or [])|join(', ') }}</td>
+</tr>
+{% endfor %}
+</table>
+{% if d.unresolved_regulations %}
+<details><summary>시행일을 찾지 못한 법규 ({{ d.unresolved_regulations|length }})</summary>
+<ul class="small">{% for u in d.unresolved_regulations %}<li>{{ u.key or u.id or u }} — {{ u.finding or u.note or '' }}</li>{% endfor %}</ul></details>
+{% endif %}
+
+<h2>4. 분류 정의 (내부 정책)</h2>
+{% for p in d.policy %}
+<div class="card">
+  <b>{{ p.name }}</b> {% if p.verified %}<span class="chip">확정됨</span>{% endif %}
+  <div class="small">현재: 상온 &lt; {{ p['values'].ambient_max }}, 저온 ≥ {{ p['values'].cold_min }}, 그 사이 복합</div>
+  <div class="small muted">{{ p.note }}</div>
+  <div class="row-actions" data-id="{{ p.id }}" data-kind="profile">
+    <label><input type="radio" name="{{ p.id }}" value="hold" checked> 보류</label>
+    <label><input type="radio" name="{{ p.id }}" value="verify"> 확정</label>
+    <label><input type="radio" name="{{ p.id }}" value="edit"> 값 수정</label>
+    <span class="edit-fields">상온 &lt; <input type="text" class="amb" size="5" placeholder="{{ p['values'].ambient_max }}">
+    저온 ≥ <input type="text" class="cold" size="5" placeholder="{{ p['values'].cold_min }}"></span>
+  </div>
+</div>
+{% endfor %}
+
+<div class="card">
+  <button id="submit">제출 (YAML에 반영)</button> <span id="msg" class="small"></span>
+</div>
+<style>
+.row-actions{margin-top:6px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.row-actions .edit-fields{display:none}
+.row-actions:has(input[value=edit]:checked) .edit-fields,.row-actions:has(input[value=set]:checked) .edit-fields{display:inline}
+td .val{font-size:15px}
+.golden{margin-top:6px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;background:var(--chip);border-radius:6px;padding:4px 8px}
+.golden .gv{font-weight:600}.golden .hit.on{color:var(--red);font-weight:600}.golden .hit.off{color:var(--green)}
+table.sim td,table.sim th{font-size:12px}
+.fd{font-size:11px;color:var(--muted);margin-top:2px}.fd-결함{color:var(--red)}.fd-경미{color:var(--yellow)}.fd-양호{color:var(--green)}
+.mm{font-size:11px;font-weight:600;color:#b45309;margin-top:2px}
+</style>
+{% endblock %}
+{% block script %}
+<script>
+function collect(){
+  const out={};
+  document.querySelectorAll('.row-actions').forEach(el=>{
+    const r=el.querySelector('input[type=radio]:checked'); if(!r||r.value==='hold') return;
+    const d={action:r.value};
+    const v=el.querySelector('.v'), s=el.querySelector('.s'), c=el.querySelector('.c');
+    if(v&&v.value.trim()) d.value=v.value.trim();
+    if(s&&s.value.trim()) d.source=s.value.trim();
+    if(c&&c.value.trim()) d.comment=c.value.trim();
+    if(el.dataset.kind==='profile'){const a=el.querySelector('.amb').value.trim(),b=el.querySelector('.cold').value.trim(); if(a)d.ambient_max=a; if(b)d.cold_min=b;}
+    out[el.dataset.id]=d;
+  });
+  return out;
+}
+function judge(el){
+  // 골든 사례 발동 여부: 입력 중인 새 값이 있으면 그 값, 없으면 현재 값으로
+  const g=el.querySelector('.golden'); if(!g||!g.dataset.dir) return;
+  const v=el.querySelector('.row-actions .v'); const typed=v&&v.value.trim()!==''?parseFloat(v.value.replace(/,/g,'')):NaN;
+  const th=!isNaN(typed)?typed:parseFloat(g.dataset.current);
+  g.querySelectorAll('.gx').forEach(x=>{
+    const h=x.querySelector('.hit'); const val=parseFloat(x.dataset.value);
+    if(isNaN(val)||isNaN(th)){h.textContent='';h.className='hit';return;}
+    const d=g.dataset.dir; const on=d==='lower'?val<th:(d==='higher_eq'?val>=th:val>th);
+    h.textContent=on?` → 발동 (기준 ${th})`:` → 미발동 (기준 ${th})`; h.className='hit '+(on?'on':'off');
+  });
+}
+function judgeAll(){document.querySelectorAll('tr').forEach(judge)}
+document.addEventListener('input',judgeAll); judgeAll();
+function progress(){document.getElementById('progress').textContent=`변경 ${Object.keys(collect()).length}건`}
+document.addEventListener('change',progress); document.addEventListener('input',progress); progress();
+document.getElementById('submit').onclick=async()=>{
+  const decisions=collect();
+  for(const [k,d] of Object.entries(decisions)){
+    if((d.action==='edit'||d.action==='set') && !d.value && !(d.ambient_max||d.cold_min)){document.getElementById('msg').textContent=`${k}: 새 값을 입력하세요`;return;}
+    if(d.action==='set' && !d.source){document.getElementById('msg').textContent=`${k}: 출처 또는 '내부 정책: 사유'를 입력하세요`;return;}
+  }
+  const res=await fetch('/api/thresholds',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({decisions})});
+  const j=await res.json();
+  document.getElementById('msg').textContent=j.ok?`${j.changed}건 반영했습니다. 새로고침하면 '확정됨' 표시가 보입니다.`:('반영 실패: '+j.error);
+};
+</script>
+{% endblock %}

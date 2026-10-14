@@ -1,0 +1,4293 @@
+{
+  "asset_id": "cheongna",
+  "created_at": "2026-10-13T13:46:59+09:00",
+  "mode": "정규",
+  "items": [
+    {
+      "slot": "building|main|-|cold_ratio_pct",
+      "label": "저온·냉동 면적 비율(기재값) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_ratio_pct",
+      "unit": "pct",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 13.0,
+          "unit": "pct",
+          "raw_text": "상온87%, 저온13% 비중으로 구성",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 3,
+            "table": 2,
+            "row": 2
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:1",
+          "origin": "im",
+          "value": 13.0,
+          "unit": "pct",
+          "raw_text": "상온87%, 저온13%로 구성",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 16
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|completion_year",
+      "label": "준공연도(사용승인) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "completion_year",
+      "unit": "year",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "미기재",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 2022,
+          "unit": "year",
+          "raw_text": "사용승인일 2022년11월",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:1",
+          "origin": "im",
+          "value": 2022,
+          "unit": "year",
+          "raw_text": "2022년11월경 준공한 청라로지스틱스센터",
+          "precision": "approx",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:2",
+          "origin": "im",
+          "value": 2022,
+          "unit": "year",
+          "raw_text": "준공년도 2022",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 50,
+            "table": 1,
+            "row": 2
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|power_capacity_kw",
+      "label": "수전 용량 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "power_capacity_kw",
+      "unit": "kW",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "판독불가",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 24750.0,
+          "unit": "kW",
+          "raw_text": "수전용량 24,750kW",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:1",
+          "origin": "im",
+          "value": 24750.0,
+          "unit": "kW",
+          "raw_text": "국내 최고 수준인 24,750kW(청라변전소, 원창변전소 2개라인)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 14
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:2",
+          "origin": "im",
+          "value": 24750.0,
+          "unit": "kW",
+          "raw_text": "24,750kW의 풍부한 전기용량",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 3
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|ramp_form",
+      "label": "램프 형상 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_form",
+      "unit": null,
+      "rule_input": true,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "나선형",
+          "unit": null,
+          "raw_text": "양단부 타원형 램프(OPEN) / 내려감·올라감 표기",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r1c0.png",
+            "tile_box": [
+              0.267,
+              0.023,
+              0.363,
+              0.226
+            ],
+            "bbox": [
+              139.8,
+              479.8,
+              190.1,
+              555.1
+            ],
+            "crop": "output/wf2/cheongna/crops/building_main_x_ramp_type_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/building_main_x_ramp_type_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "hinted:0",
+          "origin": "hinted",
+          "value": "나선형",
+          "unit": null,
+          "raw_text": "양단부 타원형 2차로 램프(OPEN) / 좌측 내려감·내려옴, 우측 올라감·올라옴",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r1c0.png",
+            "tile_box": [
+              0.267,
+              0.023,
+              0.363,
+              0.226
+            ],
+            "bbox": [
+              139.8,
+              479.8,
+              190.1,
+              555.1
+            ],
+            "crop": "output/wf2/cheongna/crops/building_main_x_ramp_type_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/building_main_x_ramp_type_0.png",
+          "method": "vision_hinted",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|ramp_slope_pct",
+      "label": "램프 경사 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_slope_pct",
+      "unit": "pct",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "미기재",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 7.5,
+          "unit": "pct",
+          "raw_text": "경사도 7.5% 이하 (통상 10% 수준)",
+          "precision": "upper_bound",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 13
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|ramp_type",
+      "label": "램프 통행 방향 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_type",
+      "unit": null,
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "단방향",
+          "unit": null,
+          "raw_text": "상·하행 램프가 분리된 One-way 구조",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 13
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:1",
+          "origin": "im",
+          "value": "단방향",
+          "unit": null,
+          "raw_text": "최신 원웨이(one-way) 램프구조",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 3
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|ramp_width_m",
+      "label": "램프 폭 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_width_m",
+      "unit": "m",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "미기재",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 7.4,
+          "unit": "m",
+          "raw_text": "램프는 폭 7.4m, 회전 반경 12m",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 13
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:1",
+          "origin": "im",
+          "value": 7.4,
+          "unit": "m",
+          "raw_text": "7.4m (램프 사진 치수 표기)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 13
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|solar_installed",
+      "label": "태양광 설치 여부 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "solar_installed",
+      "unit": null,
+      "rule_input": true,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "태양광패널",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.848,
+              0.367,
+              0.898,
+              0.386
+            ],
+            "bbox": [
+              444.0,
+              192.2,
+              470.2,
+              202.1
+            ],
+            "crop": "output/wf2/cheongna/crops/building_main_x_solar_installed_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/building_main_x_solar_installed_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|structure_type",
+      "label": "구조형식 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "structure_type",
+      "unit": null,
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "복합",
+          "unit": null,
+          "raw_text": "건물구조 프리캐스트콘크리트(PC), 철골철근콘크리트",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|wall_panel_core",
+      "label": "외벽 패널 심재 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "wall_panel_core",
+      "unit": null,
+      "rule_input": true,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "글라스울",
+          "unit": null,
+          "raw_text": "THK100 글라스울 샌드위치 패널",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 7,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p007/r0c0.png",
+            "tile_box": [
+              0.539,
+              0.405,
+              0.604,
+              0.422
+            ],
+            "bbox": [
+              282.2,
+              212.1,
+              316.3,
+              221.0
+            ],
+            "crop": "output/wf2/cheongna/crops/building_main_x_wall_panel_core_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/building_main_x_wall_panel_core_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:1",
+          "origin": "drawing",
+          "value": "글라스울",
+          "unit": null,
+          "raw_text": "THK100 글라스울 샌드위치 패널",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 7,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p007/r0c0.png",
+            "tile_box": [
+              0.382,
+              0.966,
+              0.485,
+              0.985
+            ],
+            "bbox": [
+              200.0,
+              505.8,
+              253.9,
+              515.7
+            ],
+            "crop": "output/wf2/cheongna/crops/building_main_x_wall_panel_core_1.png"
+          },
+          "crop": "output/wf2/cheongna/crops/building_main_x_wall_panel_core_1.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|10F|area_m2",
+      "label": "층 면적 (main 10F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "10F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 7115.1733,
+          "unit": "m2",
+          "raw_text": "Cafeteria, Lounge 2,152.34",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 2
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|1F|area_m2",
+      "label": "층 면적 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 59561.6837,
+          "unit": "m2",
+          "raw_text": "상온, 저온 18,017.41",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|2F|area_m2",
+      "label": "층 면적 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 6793.6857,
+          "unit": "m2",
+          "raw_text": "사무실 2,055.09",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 10
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|3F|area_m2",
+      "label": "층 면적 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 68661.2867,
+          "unit": "m2",
+          "raw_text": "상온, 저온 20,770.04",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 9
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|4F|area_m2",
+      "label": "층 면적 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 68661.2867,
+          "unit": "m2",
+          "raw_text": "상온 20,770.04",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 8
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|5F|area_m2",
+      "label": "층 면적 (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 5238.3139,
+          "unit": "m2",
+          "raw_text": "사무실 1,584.59",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 7
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|5F|use",
+      "label": "층 용도 (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "판독불가",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 7
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|6F|area_m2",
+      "label": "층 면적 (main 6F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "6F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 68661.2867,
+          "unit": "m2",
+          "raw_text": "상온 20,770.04",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 6
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|7F|area_m2",
+      "label": "층 면적 (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 68661.2867,
+          "unit": "m2",
+          "raw_text": "상온 20,770.04",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|8F|area_m2",
+      "label": "층 면적 (main 8F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "8F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 5238.3139,
+          "unit": "m2",
+          "raw_text": "사무실 1,584.59",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 4
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|9F|area_m2",
+      "label": "층 면적 (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 68816.6916,
+          "unit": "m2",
+          "raw_text": "상온 20,817.05",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 3
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|B1|area_m2",
+      "label": "층 면적 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "도면없음",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 2843.9007,
+          "unit": "m2",
+          "raw_text": "기계전기실 등 860.28",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 12
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "building|main|-|gross_floor_area_m2",
+      "label": "연면적 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "gross_floor_area_m2",
+      "unit": "m2",
+      "rule_input": true,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "미기재",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 430252.92,
+          "unit": "m2",
+          "raw_text": "연면적 430,252.92㎡(130,151.51평)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:1",
+          "origin": "im",
+          "value": 430252.9095,
+          "unit": "m2",
+          "raw_text": "연면적 430,252.92㎡(130,151.51평)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:2",
+          "origin": "im",
+          "value": 430252.9095,
+          "unit": "m2",
+          "raw_text": "합계 130,151.51",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 13
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": false,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|1F|temp",
+      "label": "층 온도대 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "temp",
+      "unit": null,
+      "rule_input": true,
+      "state": "불일치",
+      "direction": "neutral",
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "혼합",
+          "unit": null,
+          "raw_text": "상온, 저온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "저온",
+          "unit": null,
+          "raw_text": "저온창고(C급) / 저온창고(C&F급)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.455,
+              0.571,
+              0.512,
+              0.6
+            ],
+            "bbox": [
+              238.2,
+              299.0,
+              268.1,
+              314.2
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_1F_temp_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_1F_temp_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:1",
+          "origin": "drawing",
+          "value": "저온",
+          "unit": null,
+          "raw_text": "저온창고(C&F급)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.81,
+              0.573,
+              0.854,
+              0.6
+            ],
+            "bbox": [
+              424.1,
+              300.0,
+              447.2,
+              314.2
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_1F_temp_1.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_1F_temp_1.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "hinted:0",
+          "origin": "hinted",
+          "value": "저온",
+          "unit": null,
+          "raw_text": "1층: 하역장 / 저온작업장 / 저온창고(C급) / 저온창고(C&F급)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.455,
+              0.571,
+              0.512,
+              0.6
+            ],
+            "bbox": [
+              238.2,
+              299.0,
+              268.1,
+              314.2
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_1F_temp_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_1F_temp_0.png",
+          "method": "vision_hinted",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": false,
+      "default_action": null
+    }
+  ],
+  "reference_items": [
+    {
+      "slot": "asset|-|-|site_area_m2",
+      "label": "대지면적",
+      "level": "asset",
+      "building_id": null,
+      "floor": null,
+      "field": "site_area_m2",
+      "unit": "m2",
+      "rule_input": false,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": "미기재",
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 98905.4,
+          "unit": "m2",
+          "raw_text": "대지면적 98,905.40㎡(29,918.75평)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:1",
+          "origin": "im",
+          "value": 98904.955,
+          "unit": "m2",
+          "raw_text": "대지면적 98,905.40㎡(29,918.75평)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "im:2",
+          "origin": "im",
+          "value": 98905.4,
+          "unit": "m2",
+          "raw_text": "총대지면적은 98,905.40㎡(29,918.7평)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 6
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "claim"
+    },
+    {
+      "slot": "building|main|-|rack_owner",
+      "label": "랙 소유 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "rack_owner",
+      "unit": null,
+      "rule_input": false,
+      "state": "IM만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "임차인",
+          "unit": null,
+          "raw_text": "쿠팡이 랙, 자동화설비, 동선최적화 등 상당한 자체 CAPEX를 집행",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 54,
+            "table": 1,
+            "row": 3
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "claim"
+    },
+    {
+      "slot": "floor|main|10F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 10F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "10F",
+      "field": "floor_height_m",
+      "unit": "m",
+      "rule_input": false,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 5.2,
+          "unit": "m",
+          "raw_text": "5,200 (10TH FFL EL+60,800 ~ PH FFL EL+66,000)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.359,
+              0.26,
+              0.384
+            ],
+            "bbox": [
+              102.1,
+              188.0,
+              136.1,
+              201.1
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_10F_floor_height_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_10F_floor_height_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "drawing:0"
+    },
+    {
+      "slot": "floor|main|1F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "floor_height_m",
+      "unit": "m",
+      "rule_input": false,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "10,000 (1ST FFL EL±0 ~ 3RD FFL EL+10,000)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.56,
+              0.26,
+              0.602
+            ],
+            "bbox": [
+              102.1,
+              293.2,
+              136.1,
+              315.2
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_1F_floor_height_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_1F_floor_height_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "drawing:0"
+    },
+    {
+      "slot": "floor|main|3F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "floor_height_m",
+      "unit": "m",
+      "rule_input": false,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "10,000 (3RD FFL EL+10,000 ~ 4TH FFL EL+20,000)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.523,
+              0.26,
+              0.565
+            ],
+            "bbox": [
+              102.1,
+              273.8,
+              136.1,
+              295.8
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_3F_floor_height_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_3F_floor_height_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "drawing:0"
+    },
+    {
+      "slot": "floor|main|4F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "floor_height_m",
+      "unit": "m",
+      "rule_input": false,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "10,000 (4TH FFL EL+20,000 ~ 6TH FFL EL+30,000)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.487,
+              0.26,
+              0.531
+            ],
+            "bbox": [
+              102.1,
+              255.0,
+              136.1,
+              278.0
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_4F_floor_height_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_4F_floor_height_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "drawing:0"
+    },
+    {
+      "slot": "floor|main|6F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 6F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "6F",
+      "field": "floor_height_m",
+      "unit": "m",
+      "rule_input": false,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "10,000 (6TH FFL EL+30,000 ~ 7TH FFL EL+40,000)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.451,
+              0.26,
+              0.495
+            ],
+            "bbox": [
+              102.1,
+              236.1,
+              136.1,
+              259.2
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_6F_floor_height_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_6F_floor_height_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "drawing:0"
+    },
+    {
+      "slot": "floor|main|7F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "floor_height_m",
+      "unit": "m",
+      "rule_input": false,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "10,000 (7TH FFL EL+40,000 ~ 9TH FFL EL+50,000)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.414,
+              0.26,
+              0.458
+            ],
+            "bbox": [
+              102.1,
+              216.8,
+              136.1,
+              239.8
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_7F_floor_height_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_7F_floor_height_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "drawing:0"
+    },
+    {
+      "slot": "floor|main|9F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "floor_height_m",
+      "unit": "m",
+      "rule_input": false,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 10.8,
+          "unit": "m",
+          "raw_text": "10,800 (9TH FFL EL+50,000 ~ 10TH FFL EL+60,800)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.378,
+              0.26,
+              0.422
+            ],
+            "bbox": [
+              102.1,
+              197.9,
+              136.1,
+              221.0
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_9F_floor_height_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_9F_floor_height_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "drawing:0"
+    },
+    {
+      "slot": "floor|main|B1|floor_height_m",
+      "label": "층고(바닥~바닥) (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "floor_height_m",
+      "unit": "m",
+      "rule_input": false,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 8.5,
+          "unit": "m",
+          "raw_text": "8,500 (B1ST FFL EL-8,500 ~ 1ST FFL EL±0)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.596,
+              0.26,
+              0.638
+            ],
+            "bbox": [
+              102.1,
+              312.1,
+              136.1,
+              334.1
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_B1_floor_height_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_B1_floor_height_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": "drawing:0"
+    }
+  ],
+  "auto_confirmed": [
+    {
+      "slot": "building|main|-|column_span_x_m",
+      "label": "기둥 스팬(장변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_x_m",
+      "unit": "m",
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "11m x 11m 표준 모듈",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "11,000 (X1~X39 그리드, 양단 11,100, 총 419,700)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r0c0.png",
+            "tile_box": [
+              0.286,
+              0.875,
+              0.439,
+              0.894
+            ],
+            "bbox": [
+              149.7,
+              458.2,
+              229.9,
+              468.1
+            ],
+            "crop": "output/wf2/cheongna/crops/building_main_x_column_span_x_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/building_main_x_column_span_x_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "building|main|-|column_span_y_m",
+      "label": "기둥 스팬(단변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_y_m",
+      "unit": "m",
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "11m x 11m 표준 모듈",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "11,000 (Y1~Y16 그리드, 총 174,000)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r1c0.png",
+            "tile_box": [
+              0.202,
+              0.307,
+              0.229,
+              0.415
+            ],
+            "bbox": [
+              105.8,
+              585.1,
+              119.9,
+              625.1
+            ],
+            "crop": "output/wf2/cheongna/crops/building_main_x_column_span_y_m_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/building_main_x_column_span_y_m_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "building|main|-|floors_above",
+      "label": "지상층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_above",
+      "unit": "floor",
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 10,
+          "unit": "floor",
+          "raw_text": "B1F ~ 10F(창고6개층, 사무실3개층)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 10,
+          "unit": "floor",
+          "raw_text": "10TH FFL EL+60,800 (최상층 레벨; 상부는 PH FFL)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.371,
+              0.237,
+              0.388
+            ],
+            "bbox": [
+              102.1,
+              194.3,
+              124.1,
+              203.2
+            ],
+            "crop": "output/wf2/cheongna/crops/building_main_x_floors_above_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/building_main_x_floors_above_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "building|main|-|floors_below",
+      "label": "지하층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_below",
+      "unit": "floor",
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": 1,
+          "unit": "floor",
+          "raw_text": "B1F ~ 10F(창고6개층, 사무실3개층)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": 1,
+          "unit": "floor",
+          "raw_text": "B1ST FFL EL-8,500",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.195,
+              0.621,
+              0.237,
+              0.638
+            ],
+            "bbox": [
+              102.1,
+              325.2,
+              124.1,
+              334.1
+            ],
+            "crop": "output/wf2/cheongna/crops/building_main_x_floors_below_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/building_main_x_floors_below_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|10F|use",
+      "label": "층 용도 (main 10F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "10F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "기타",
+          "unit": null,
+          "raw_text": "Cafeteria, Lounge",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 2
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "기타",
+          "unit": null,
+          "raw_text": "옥외테라스·전처리실·냉장실1·조리실·세척실·탈의실·사무실 / 차량통로",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.302,
+              0.363,
+              0.573,
+              0.386
+            ],
+            "bbox": [
+              158.1,
+              190.1,
+              300.0,
+              202.1
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_10F_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_10F_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|1F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "direct_truck_access",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": true,
+          "unit": null,
+          "raw_text": "전층 직접 접안 가능 (101대 ~ 133대)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 / 차량통로 / OHD",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.584,
+              0.575,
+              0.68,
+              0.6
+            ],
+            "bbox": [
+              305.8,
+              301.1,
+              356.0,
+              314.2
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_1F_direct_truck_access_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_1F_direct_truck_access_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|1F|use",
+      "label": "층 용도 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온, 저온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "저온창고(C급) / 저온작업장 / 하역장",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.455,
+              0.571,
+              0.512,
+              0.6
+            ],
+            "bbox": [
+              238.2,
+              299.0,
+              268.1,
+              314.2
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_1F_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_1F_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|2F|use",
+      "label": "층 용도 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 10
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실 #1~#6 / 냉동기실 #1~#4 / 2ND FFL±0",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r0c0.png",
+            "tile_box": [
+              0.353,
+              0.435,
+              0.573,
+              0.477
+            ],
+            "bbox": [
+              184.8,
+              227.8,
+              300.0,
+              249.8
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_2F_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_2F_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|3F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "direct_truck_access",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": true,
+          "unit": null,
+          "raw_text": "전층 직접 접안 가능 (101대 ~ 133대)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 / 차량통로 / OHD",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.584,
+              0.539,
+              0.68,
+              0.561
+            ],
+            "bbox": [
+              305.8,
+              282.2,
+              356.0,
+              293.7
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_3F_direct_truck_access_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_3F_direct_truck_access_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:1",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "차량통로 하역주차 143대",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r1c0.png",
+            "tile_box": [
+              0.569,
+              0.21,
+              0.646,
+              0.247
+            ],
+            "bbox": [
+              297.9,
+              549.1,
+              338.2,
+              562.8
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_3F_direct_truck_access_1.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_3F_direct_truck_access_1.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|3F|temp",
+      "label": "층 온도대 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "temp",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "혼합",
+          "unit": null,
+          "raw_text": "상온, 저온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 9
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "혼합",
+          "unit": null,
+          "raw_text": "상온창고 #1-1~#1-12(남측) / 저온창고 #2-1~#2-8 (C&F급)(북측)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r0c0.png",
+            "tile_box": [
+              0.344,
+              0.964,
+              0.43,
+              0.993
+            ],
+            "bbox": [
+              180.1,
+              504.8,
+              225.1,
+              519.9
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_3F_temp_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_3F_temp_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|3F|use",
+      "label": "층 용도 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온, 저온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 9
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온창고 #1-1~#1-12 / 저온창고 #2-1~#2-8(C&F급) / 하역장",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r0c0.png",
+            "tile_box": [
+              0.344,
+              0.964,
+              0.43,
+              0.993
+            ],
+            "bbox": [
+              180.1,
+              504.8,
+              225.1,
+              519.9
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_3F_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_3F_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|4F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "direct_truck_access",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": true,
+          "unit": null,
+          "raw_text": "전층 직접 접안 가능 (101대 ~ 133대)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 / 차량통로 / OHD",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.584,
+              0.504,
+              0.68,
+              0.527
+            ],
+            "bbox": [
+              305.8,
+              263.9,
+              356.0,
+              275.9
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_4F_direct_truck_access_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_4F_direct_truck_access_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|4F|temp",
+      "label": "층 온도대 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "temp",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "상온",
+          "unit": null,
+          "raw_text": "상온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 8
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "상온",
+          "unit": null,
+          "raw_text": "상온창고",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.424,
+              0.504,
+              0.47,
+              0.527
+            ],
+            "bbox": [
+              222.0,
+              263.9,
+              246.1,
+              275.9
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_4F_temp_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_4F_temp_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|4F|use",
+      "label": "층 용도 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 8
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온창고",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.424,
+              0.504,
+              0.47,
+              0.527
+            ],
+            "bbox": [
+              222.0,
+              263.9,
+              246.1,
+              275.9
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_4F_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_4F_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|6F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 6F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "6F",
+      "field": "direct_truck_access",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": true,
+          "unit": null,
+          "raw_text": "전층 직접 접안 가능 (101대 ~ 133대)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 / 차량통로 / OHD",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.584,
+              0.468,
+              0.68,
+              0.491
+            ],
+            "bbox": [
+              305.8,
+              245.0,
+              356.0,
+              257.1
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_6F_direct_truck_access_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_6F_direct_truck_access_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|6F|temp",
+      "label": "층 온도대 (main 6F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "6F",
+      "field": "temp",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "상온",
+          "unit": null,
+          "raw_text": "상온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 6
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "상온",
+          "unit": null,
+          "raw_text": "상온창고",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.424,
+              0.468,
+              0.47,
+              0.491
+            ],
+            "bbox": [
+              222.0,
+              245.0,
+              246.1,
+              257.1
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_6F_temp_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_6F_temp_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|6F|use",
+      "label": "층 용도 (main 6F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "6F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 6
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온창고",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.424,
+              0.468,
+              0.47,
+              0.491
+            ],
+            "bbox": [
+              222.0,
+              245.0,
+              246.1,
+              257.1
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_6F_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_6F_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|7F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "direct_truck_access",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": true,
+          "unit": null,
+          "raw_text": "전층 직접 접안 가능 (101대 ~ 133대)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 / 차량통로 / OHD",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.584,
+              0.432,
+              0.68,
+              0.455
+            ],
+            "bbox": [
+              305.8,
+              226.2,
+              356.0,
+              238.2
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_7F_direct_truck_access_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_7F_direct_truck_access_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:1",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "차량통로 하역주차 145대",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 4,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p004/r1c0.png",
+            "tile_box": [
+              0.569,
+              0.142,
+              0.646,
+              0.18
+            ],
+            "bbox": [
+              297.9,
+              523.9,
+              338.2,
+              538.0
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_7F_direct_truck_access_1.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_7F_direct_truck_access_1.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|7F|temp",
+      "label": "층 온도대 (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "temp",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "상온",
+          "unit": null,
+          "raw_text": "상온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "상온",
+          "unit": null,
+          "raw_text": "상온창고 #1-1~#1-12, #2-1~#2-8",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 4,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p004/r1c0.png",
+            "tile_box": [
+              0.286,
+              0.293,
+              0.382,
+              0.326
+            ],
+            "bbox": [
+              149.7,
+              579.9,
+              200.0,
+              592.1
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_7F_temp_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_7F_temp_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|7F|use",
+      "label": "층 용도 (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 5
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온창고 #1-1~#1-12, #2-1~#2-8 / 하역장",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 4,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p004/r1c0.png",
+            "tile_box": [
+              0.286,
+              0.293,
+              0.382,
+              0.326
+            ],
+            "bbox": [
+              149.7,
+              579.9,
+              200.0,
+              592.1
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_7F_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_7F_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|8F|use",
+      "label": "층 용도 (main 8F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "8F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 4
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실#1~#5 / 8TH FFL±0",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 5,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p005/r0c0.png",
+            "tile_box": [
+              0.353,
+              0.493,
+              0.458,
+              0.519
+            ],
+            "bbox": [
+              184.8,
+              258.1,
+              239.8,
+              271.7
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_8F_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_8F_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|9F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "direct_truck_access",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": true,
+          "unit": null,
+          "raw_text": "전층 직접 접안 가능 (101대 ~ 133대)",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 11
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 / 차량통로 / OHD",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 9,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+            "tile_box": [
+              0.584,
+              0.395,
+              0.68,
+              0.418
+            ],
+            "bbox": [
+              305.8,
+              206.8,
+              356.0,
+              218.9
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_9F_direct_truck_access_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_9F_direct_truck_access_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:1",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "차량통로 하역주차 145대",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 5,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p005/r1c0.png",
+            "tile_box": [
+              0.573,
+              0.193,
+              0.649,
+              0.231
+            ],
+            "bbox": [
+              300.0,
+              542.8,
+              339.8,
+              556.9
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_9F_direct_truck_access_1.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_9F_direct_truck_access_1.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|9F|temp",
+      "label": "층 온도대 (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "temp",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "상온",
+          "unit": null,
+          "raw_text": "상온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 3
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "상온",
+          "unit": null,
+          "raw_text": "상온창고 #1-1~#1-12, #2-1~#2-8",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 5,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p005/r1c0.png",
+            "tile_box": [
+              0.286,
+              0.342,
+              0.382,
+              0.374
+            ],
+            "bbox": [
+              149.7,
+              598.0,
+              200.0,
+              609.9
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_9F_temp_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_9F_temp_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|9F|use",
+      "label": "층 용도 (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 3
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "창고",
+          "unit": null,
+          "raw_text": "상온창고 #1-1~#1-12, #2-1~#2-8 / 하역장",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 5,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p005/r1c0.png",
+            "tile_box": [
+              0.286,
+              0.342,
+              0.382,
+              0.374
+            ],
+            "bbox": [
+              149.7,
+              598.0,
+              200.0,
+              609.9
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_9F_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_9F_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    },
+    {
+      "slot": "floor|main|B1|use",
+      "label": "층 용도 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "use",
+      "unit": null,
+      "rule_input": true,
+      "state": "일치",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "im:0",
+          "origin": "im",
+          "value": "기계",
+          "unit": null,
+          "raw_text": "기계전기실 등",
+          "precision": "exact",
+          "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+          "locator": {
+            "page": 9,
+            "table": 1,
+            "row": 12
+          },
+          "crop": null,
+          "method": "im_text",
+          "confidence": "medium",
+          "flags": [],
+          "granularity": null
+        },
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": "기계",
+          "unit": null,
+          "raw_text": "기계실·소화용수조·저수조실·전기실·발전기실",
+          "precision": "exact",
+          "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+          "locator": {
+            "page": 1,
+            "sheet_no": null,
+            "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p001/r0c0.png",
+            "tile_box": [
+              0.286,
+              0.477,
+              0.392,
+              0.573
+            ],
+            "bbox": [
+              149.7,
+              249.8,
+              205.3,
+              300.0
+            ],
+            "crop": "output/wf2/cheongna/crops/floor_main_B1_use_0.png"
+          },
+          "crop": "output/wf2/cheongna/crops/floor_main_B1_use_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null,
+      "adopted": "drawing:0"
+    }
+  ],
+  "claims": [
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "1층 상온 9,819평 쿠팡로지스틱스서비스 4차 임대차 대응 인테리어 공사(2025.11.03 인도 후 약 5개월, 2026.04.02까지)",
+      "quote": "인도일(2025년11월3일)로부터 약 5개월의 인테리어 공사기간이 경과한 이후 임대차계약이 개시될 예정",
+      "year": 2025,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 24
+      },
+      "item": "1층 상온 인테리어 공사(임차인 4차 임대차)",
+      "scope": "1F South 9,819평",
+      "note": "임차 개시 전 인테리어 공사. 설비 교체/대수선 여부는 미기재",
+      "claim_id": "claim:0"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "총투자비 중 'TI(임차인지급) 3,500백만원 / 1층 Capex 공사금액'",
+      "quote": "TI(임차인지급) 3,500 ... 1층 Capex 공사금액",
+      "year": 2025,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 30,
+        "table": 1,
+        "row": 9
+      },
+      "item": "1층 Capex 공사(TI)",
+      "scope": "1F",
+      "note": "연도 명시 없음. 매입 시점(2025.12) 부대비용 항목",
+      "claim_id": "claim:1"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "층 구성도에서 South Wing 1~2F 구간이 'Dry (Converted)'로 표기(전환 이력 시사, 전환 전 용도·시기 미기재)",
+      "quote": "Dry (Converted)",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 9
+      },
+      "item": "South Wing 하층부 Dry 전환",
+      "scope": "South Wing 1F(도식 상 1F/2F 구간)",
+      "note": "도식 라벨만 존재. 시기·내용 미기재",
+      "claim_id": "claim:2"
+    },
+    {
+      "type": "ownership",
+      "building_id": "main",
+      "field": "rack_owner",
+      "text": "쿠팡이 랙, 자동화설비, 동선최적화 등 상당한 자체 CAPEX를 집행",
+      "quote": "본건 자산은 쿠팡이 랙, 자동화설비, 동선최적화 등 상당한 자체 CAPEX를 집행하였으며",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 54,
+        "table": 1,
+        "row": 3
+      },
+      "owner": "임차인",
+      "claim_id": "claim:3"
+    },
+    {
+      "type": "ownership",
+      "building_id": "main",
+      "field": null,
+      "text": "쿠팡이 약 2,000억원 CAPEX 설비투자를 기 투입(대상 설비 종류 미특정)",
+      "quote": "쿠팡은 약 2,000억의 CAPEX 설비투자를 기 투입한 바 있음",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 22
+      },
+      "owner": "임차인",
+      "claim_id": "claim:4"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "최신 물류 운영 수요에 부합하는 최고 수준의 물리적 스펙을 갖춘 Prime급 물류센터",
+      "quote": "최고수준의 물리적 스펙을 갖춘 Prime급 물류센터",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 3
+      },
+      "claim_id": "claim:5"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "power_capacity_kw",
+      "text": "수전용량 24,750kW는 국내 최고 수준(평당 0.19kW로 비교 표 1위)",
+      "quote": "국내 최고 수준인 24,750kW",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 14
+      },
+      "claim_id": "claim:6"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "ramp_slope_pct",
+      "text": "램프 경사도 7.5% 이하로 통상(10% 수준)보다 완만, 대형 차량 운송·회전·층간 이동 원활",
+      "quote": "경사도 7.5% 이하 (통상 10% 수준)로 설계되어",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 13
+      },
+      "claim_id": "claim:7"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "램프 구조로 각 층 면적이 거의 동일하여 전체 창고층에서 초대형 Floor plate 확보. 연면적 국내 2위, Floor plate 5위",
+      "quote": "본 자산은 램프구조로 각 층 면적이 거의 동일하여 전체 창고층에서 초대형 Floor plate를 확보",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 10
+      },
+      "claim_id": "claim:8"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "렉·메자닌·컨베이어벨트 등 다양한 물류설비 구축에 적합한 물리적 스펙",
+      "quote": "렉, 메자닌, 컨베이어벨트 등 다양한 물류설비 구축에 적합한 물리적 스펙",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 11
+      },
+      "claim_id": "claim:9"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "층별 약 19,000평 임대면적으로 대규모 자동화 설비 구축에 적합",
+      "quote": "층별 19,000평 규모의 넓은 임대면적으로 설계되어",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 9
+      },
+      "claim_id": "claim:10"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "소방시설 물리실사를 완료했으며 대체로 양호하게 관리 중",
+      "quote": "소방시설에 대한 물리실사를 완료하였으며, 대체로 양호한 상태로 관리되고 있습니다",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 54,
+        "table": 1,
+        "row": 6
+      },
+      "claim_id": "claim:11"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "건축물 길이 400m·높이 70m 초과 물류센터는 경기도 기준상 신규 개발 불가하여 희소성 부각",
+      "quote": "건축물의 길이가 400미터, 높이가 70미터가 넘는 물류센터는 개발이 불가하며",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 12
+      },
+      "claim_id": "claim:12"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "text": "층고 10m~10.8m(층 특정 없음, 층고/유효고 구분 미기재)",
+      "quote": "10m ~ 10.8m의 높은 층고로 설계",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 11
+      },
+      "note": "층 미특정이라 floors[]에 넣지 않음",
+      "claim_id": "claim:13"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "랙 사진에 수직 화살표와 '10m' 표기(층고/유효고 구분·대상 층 미기재)",
+      "quote": "10m (사진 내 표기)",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 11
+      },
+      "note": "p11 좌측 사진 주기",
+      "claim_id": "claim:14"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "dock_count",
+      "text": "층별 101~133대 동시접안(Cross-dock층 219대), 오버헤드 도어 Berth 전면 설치. 도크 수 자체는 미기재",
+      "quote": "층별 101대 ~ 133대(Cross-dock층 219대) 동시 접안이 가능",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 11
+      },
+      "note": "접안 대수(차량)이며 dock_count 필드로는 전사하지 않음. 1층(South) Cross Dock 설계",
+      "claim_id": "claim:15"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "Berth 전면 주행로(Path) 폭 16m 표기",
+      "quote": "Path 16m",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 11
+      },
+      "note": "p11 우측 사진 주기",
+      "claim_id": "claim:16"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "cold_area_m2",
+      "text": "저온은 North Wing 1F·3F 구획(평면도 파란색 Cold), 나머지 상온(Dry). 9F·4F·6F·7F는 전층 Dry",
+      "quote": "상온, 저온 / Cold",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 9
+      },
+      "note": "저온 면적 수치는 IM에 미기재(비율 13%만 기재)",
+      "claim_id": "claim:17"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "평면 치수: 1F North(저온) 331.5m x 55m, South 386.5m x 55m. 3F North 331.5m x 55m, South 397.5m x 77m. 4F·6F·7F 동일 치수, 9F 동일 치수",
+      "quote": "331.5m / 386.5m / 397.5m / 55m / 77m",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 56
+      },
+      "note": "p56(1F,2F), p57(3F, 4F·6F·7F), p58(5F·8F, 9F) 평면도 치수 표기",
+      "claim_id": "claim:18"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "건물 규모: 건축면적 68,865.06㎡, 건폐율 69.63%, 용적률 334.58%, 높이 74.1m(지하포함), 장변길이 397.5m, 전용률 89.4%, 임대면적 384,805.02㎡(116,403.52평)",
+      "quote": "건축면적 68,865.06㎡ ... 높이 74.1m(지하 포함)",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 5
+      },
+      "claim_id": "claim:19"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "Floor 마감: 평탄도 FM3, 표면마모저항도 AR1. LEED Gold(Core & Shell). 주차 1,435대(화물 883/일반 552/법정 834)",
+      "quote": "평탄도 FM3, 표면마모저항도 AR1",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 5
+      },
+      "claim_id": "claim:20"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "ramp_form",
+      "text": "상·하행 램프 분리 One-way, 화물차와 승용차 진출입로 분리. 램프 폭 7.4m, 회전반경 12m (램프 형상 필드는 직접 기재 없음)",
+      "quote": "램프는 폭 7.4m, 회전 반경 12m",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 13
+      },
+      "note": "형상(직선/곡선/나선) 명시 없음. 평면 도식상 타원형 램프로 보이나 전사하지 않음",
+      "claim_id": "claim:21"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "solar_installed",
+      "text": "자산전경 사진(p59 우측 항공사진)에 지붕 위 태양광 패널로 보이는 설치물. 텍스트 기재 없음",
+      "quote": "Appendix | 자산 전경 (사진)",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 59
+      },
+      "confidence": "low",
+      "note": "사진 판독, 텍스트 근거 없음. 도면(지붕평면도) 교차 확인 필요",
+      "claim_id": "claim:22"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "저온설비 포함 자산으로 구조적 특성상 화재 위험이 상온 물류센터보다 상대적으로 높다고 IM이 위험 고지",
+      "quote": "저온 설비가 포함된 본 자산은 구조적 특성상 화재 발생의 위험이 상온물류센터보다 상대적으로 높으며",
+      "year": null,
+      "source_doc": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "source_locator": {
+        "page": 54,
+        "table": 1,
+        "row": 6
+      },
+      "claim_id": "claim:23"
+    }
+  ],
+  "unresolved_missing": [
+    {
+      "level": "asset",
+      "building_id": null,
+      "field": "truck_yard_depth_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "배치도",
+        "평면도"
+      ],
+      "note": "야드 깊이 치수 없음. 동 중앙 Y9~Y10 그리드 16,000은 차량통로(차로) 폭이라 야드 깊이로 보지 않음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "면적표"
+      ],
+      "note": "평면도에 실 면적 표기 없음, 면적표 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "dock_count",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도",
+        "배치도"
+      ],
+      "note": "하역장 도크 구획은 도시되나 도어 번호·수량 문자 없음/흐림. 평면도 '하역주차 143대'(3F)·'145대'(7F·9F)는 접안 차량 대수라 도크 수로 쓰지 않음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "dock_leveler_count",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도"
+      ],
+      "note": "레벨러 기호 해상도 부족으로 식별 불가"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "freight_elevator_count",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도",
+        "기계도면"
+      ],
+      "note": "코어#1~#27에 승강기 기호는 있으나 화물용 구분 문자 판독불가. 기계도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "freight_elevator_capacity_t",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "기계도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "vrc_count",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도",
+        "기계도면"
+      ],
+      "note": "6층 평면도(쿠팡 대수선) 'MEZ Lifter' 표기 2곳 있으나 수직반송기 해당 여부 불명. 기계도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "roof_panel_core",
+      "missing_reason": "도면없음",
+      "searched": [
+        "외벽상세도",
+        "마감표",
+        "단면도"
+      ],
+      "note": "외벽상세도·마감표 없음. 단면도 지붕 주기는 '노출우레탄방수 / THK185 단열재 / THK10 불연 세라믹 코팅', 'THK150 무근콘크리트 차량통로'로 패널 지붕 아님(단열재 종류 미기재)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "roof_area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "지붕평면도"
+      ],
+      "note": "지붕평면도 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "fire_compartment_max_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "방화계획도",
+        "소방도면",
+        "평면도"
+      ],
+      "note": "방화계획도·소방도면 없음. 평면도에 방화구획 면적 표기 없음(단면도에 '스틸방화셔터' 표기만)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "sprinkler_type",
+      "missing_reason": "도면없음",
+      "searched": [
+        "소방도면"
+      ],
+      "note": "소방도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "refrigerant",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "기계도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "refrigeration_system",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "기계도면 없음. 2층 평면도에 '냉동기실 #1~#4' 실명만 있음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_floor_heave_protection",
+      "missing_reason": "도면없음",
+      "searched": [
+        "바닥상세도",
+        "기계도면",
+        "단면도"
+      ],
+      "note": "바닥상세도·기계도면 없음. 주단면도-1 저온창고 하부 주기 'THK60 버림콘크리트 / THK0.03 PE필름 2겹 / 통기관 Ø100 PVC PIPE @700' 있으나 '동상방지' 명시 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_insulation_material",
+      "missing_reason": "도면없음",
+      "searched": [
+        "단면상세도",
+        "단열계획도",
+        "단면도"
+      ],
+      "note": "단면상세도·단열계획도 없음. 단면도 저온작업장 벽 '방열패널'(심재 미기재), 하역장측 'THK200 글라스울패널' 표기"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_insulation_thickness_mm",
+      "missing_reason": "도면없음",
+      "searched": [
+        "단면상세도",
+        "단열계획도",
+        "단면도"
+      ],
+      "note": "단면상세도·단열계획도 없음. 저온실 방열패널 두께 미기재"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "transformer_capacity_kva",
+      "missing_reason": "판독불가",
+      "searched": [
+        "단선결선도"
+      ],
+      "note": "주 수변전 단선결선도의 변압기(-1: 4대, -2: 5대) 용량 문자 판독불가 → 총용량 기재 확인 불가. 부전기실 EE-101은 TR-1 C:2000kVA, TR-2 C:2000kVA, TR-3 C:1000kVA 판독(부분값이라 총용량으로 기록하지 않음)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "5F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "6F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "7F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "9F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "10F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "6F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "7F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "9F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "코어부 사무층(2ND EL+5,000 / 5TH EL+25,000 / 8TH EL+45,000) 레벨만 있고 층고 치수선 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "코어부 사무층(2ND EL+5,000 / 5TH EL+25,000 / 8TH EL+45,000) 레벨만 있고 층고 치수선 없음",
+      "floor": "5F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "코어부 사무층(2ND EL+5,000 / 5TH EL+25,000 / 8TH EL+45,000) 레벨만 있고 층고 치수선 없음",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "temp",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도"
+      ],
+      "note": "5층 실명·온도대 문자 판독불가",
+      "floor": "5F"
+    }
+  ],
+  "location": null,
+  "summary": {
+    "needs_review": 24,
+    "auto_confirmed": 25,
+    "reference": 10,
+    "claims": 24,
+    "hint_requests": 0
+  }
+}

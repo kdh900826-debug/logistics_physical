@@ -1,0 +1,1860 @@
+{
+  "asset_id": "seoknam",
+  "record_type": "golden_spec",
+  "created_at": "2026-10-13T12:00:00+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 26792.0,
+        "unit": "m2",
+        "raw_text": "대지면적 26,792.00 ㎡ (8,104.58 평)",
+        "precision": "exact",
+        "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+        "source_locator": {
+          "page": 16,
+          "sheet_no": null,
+          "bbox": null,
+          "crop": null
+        },
+        "method": "user",
+        "confidence": "high",
+        "source_grade": "확정",
+        "status": "확정",
+        "conflict": false,
+        "note": null
+      }
+    ],
+    "truck_yard_depth_m": [
+      {
+        "value": 13.0,
+        "unit": "m",
+        "raw_text": "하역장 13.0m, 차로구간16.0m",
+        "precision": "exact",
+        "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+        "source_locator": {
+          "page": 38,
+          "sheet_no": null,
+          "bbox": null,
+          "crop": null
+        },
+        "method": "user",
+        "confidence": "high",
+        "source_grade": "확정",
+        "status": "확정",
+        "conflict": false,
+        "note": "램프업 다층형: 층별 내부 하역장(도크 앞 트럭 주차) 깊이 13.0m, 중앙 차로 16.0m. 필드 정의(야드 깊이) 매핑 검토 필요"
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "창고동",
+      "phase": "원준공",
+      "fields": {
+        "completion_year": [
+          {
+            "value": 2023,
+            "unit": "year",
+            "raw_text": "사용승인일 2023년 06월01일",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 16,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 148238.05,
+            "unit": "m2",
+            "raw_text": "연 면 적 148,238.05 ㎡ (44,842.01 평)",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 16,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 10,
+            "unit": "floor",
+            "raw_text": "물류창고 1개동(지하1층~지상10층)",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 16,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "물류창고 1개동(지하1층~지상10층)",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 16,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "복합",
+            "unit": null,
+            "raw_text": "구조 철근콘크리트조, PC 구조",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 16,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "RC+PC 복합. p120: 지상1~10층 프리캐스트 콘크리트구조, 지하1층 철근콘크리트구조"
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "창고 평면 모듈은 11m X 11m Span",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 38,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "창고 평면 모듈은 11m X 11m Span",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 38,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "단방향",
+            "unit": null,
+            "raw_text": "북측 상행램프를 이용하여 지상 2층~지상 10층으로 진입하고 남측 하행램프를 이용하여 … 출차",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 33,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "상행·하행 램프 분리(각 램프 일방통행). enum 매핑(단방향/양방향) 검토 필요"
+          }
+        ],
+        "ramp_slope_pct": [
+          {
+            "value": 8.2,
+            "unit": "pct",
+            "raw_text": "도면: 램프경사도 확인 직선로8.2%, 곡선로8.2%",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 27,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "ramp_width_m": [
+          {
+            "value": 6500,
+            "unit": "mm",
+            "raw_text": "도면: 램프폭 6,500mm",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 26,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "현장 실측 폭 6,536mm / 2026-10-13: DD 내 상충 — p26 도면 6,500mm·실측 6,536mm, p70 교통계획도 범례 \"1차로 7.5m\". 실측 기준 6.5를 정답으로, 범례값 7.5도 정답으로 인정(accept_also)",
+            "accept_also": [
+              7.5
+            ]
+          }
+        ],
+        "freight_elevator_count": [
+          {
+            "value": 1,
+            "unit": "ea",
+            "raw_text": "소방구조용 승강기 8대, 화물용 승강기 1대가 운영 중",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 170,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p171 9호기 화물용(권상식 VVVF), 운행구간층수 1-10(8). 용량(t) DD 미기재"
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "창고층 외벽은 THK4.0 알루미늄 복합패널, THK75 그라스울 판넬",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 75,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p93 상온창고 벽체 THK200 그라스울 판넬; 내화구조 인증서 그라스울판넬 125T/150T/200T(p104-105)"
+          }
+        ],
+        "fire_compartment_max_m2": [
+          {
+            "value": 3000,
+            "unit": "m2",
+            "raw_text": "각층마다 3,000m2 마다 구획(스프링클러 등 자동식 소화설비시설)",
+            "precision": "upper_bound",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 100,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p38: 창고 내부는 3,000㎡ 기준으로 방화벽체, 방화 셔터 등으로 방화구획 / 2026-10-13: DD p38 \"3,000㎡ 기준으로 방화구획\", p100 \"3,000m2 마다 구획\" — 실제 최대 구획 면적이 아니라 구획 기준(상한)이므로 upper_bound"
+          }
+        ],
+        "sprinkler_type": [
+          {
+            "value": "표준형",
+            "unit": null,
+            "raw_text": "창고지역 등에는 건식 배관인 준비작동식 밸브 … 반자가 없는 부분은 상향식 스프링클러",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 179,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "DD에 ESFR·랙인랙 언급 없음. 준비작동식(창고·차로), 알람밸브(저온창고 전실·사무실), 상향/하향식 헤드 → '표준형'으로 분류(enum 매핑 검토 필요)"
+          }
+        ],
+        "cold_insulation_material": [
+          {
+            "value": "우레탄",
+            "unit": null,
+            "raw_text": "냉동 창고 벽체 및 천정 우레탄 단열 뿜칠",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "저온층 바닥 단열은 비드법보온판(EPS) 2종2호 THK110 등(p97). 저온동 단열재 두께는 부위별 상이하여 미기재"
+          }
+        ],
+        "transformer_capacity_kva": [
+          {
+            "value": 7500,
+            "unit": "kVA",
+            "raw_text": "변압기의 시설용량은 7,500KVA",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 12,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "1,500kVA x 5대(조명·전열 1, 비상·동력 2, 냉동부하 2), p159"
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "나선형",
+            "unit": null,
+            "raw_text": "지상2층 교통계획도 — 양 끝 타원형 연속 램프(주차램프#1·#2)",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 70
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "2026-10-13 추가: 본문 텍스트에 형상 기재 없음. DD 수록 교통계획도(p70) 이미지로 확인. 본문 p27은 '직선로·곡선로' 경사만 기재"
+          }
+        ],
+        "turning_radius_m": [
+          {
+            "value": 12.5,
+            "unit": "m",
+            "raw_text": "램프 회전 반경 … 도면: 회전반경 R12,500 시공 현황: 최소 회전반경 R12,500 이상 적용됨",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 27,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "램프 회전반경(준공도서 R12,500, 현장 이상 적용). p28 '11 Ton 차량 최소 반경_최소 회전 반경이 상회함'"
+          }
+        ],
+        "ohd_sprinkler_gap": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "오버헤드 도어가 열린(90° 개방)상태에서 상부에 설치되어 있는 스프링클러 헤드가 개방되어 소화수가 방출되어도 하부 바닥면까지 도달하지 않으므로 추가 헤드 설치 등 … 조치를 취하여야 한다",
+            "precision": "exact",
+            "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+            "source_locator": {
+              "page": 184,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "지상 상온창고 차로-하역장 사이 OHD. p185 사진 'OHD 하부 SP 헤드 살수 장애'"
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "기계",
+                "unit": null,
+                "raw_text": "지하1층 기계/전기실",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "p120: 지하1층 철근콘크리트구조 / 전기실, 기계실"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 1107.54,
+                "unit": "m2",
+                "raw_text": "지하1층 기계/전기실 1,107.54",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 6.9,
+                "unit": "m",
+                "raw_text": "층고는 지하1층 6.9m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "1층 저온창고/식당 18,534.76 10.0",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "p38 비고: 저온창고(경비실)"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "1층 저온창고/식당",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 18534.76,
+                "unit": "m2",
+                "raw_text": "1층 저온창고/식당 18,534.76",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "p38 면적표상 경비실 17.02㎡ 포함 수치. IM 층별개요(건축물대장)는 1층 5,601.62평 + 경비실동 5.15평으로 분리 기재"
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25.0,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 121,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계하중표의 '저온창고' 항목을 저온창고 층(1~3F)에 적용. 하역장 25.0 kN/㎡, RAMP 23.0 kN/㎡ 별도"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 7584,
+                "unit": "mm",
+                "raw_text": "저온창고-3(SP 배관하단) 7,584mm",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 78,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "DD는 창고별 다점 실측(SP 배관하단·보 하단·전등 하단)만 제시. SP 배관하단 실측값 중 최저값을 기재(선택만, 계산 없음). 1F SP 배관하단 7,584~7,869mm, 보 하단 8,458~8,498mm"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상1층 10.0m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "진입구를 통해 1층 입출하장 및 북측 상행램프를 이용",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 33,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "p38: 1F 하역주차장 1,817.69㎡, 하역장차로 1,872.64㎡"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "2층 저온창고 18,451.20 10.0",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "2층 저온창고",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 18451.2,
+                "unit": "m2",
+                "raw_text": "2층 저온창고 18,451.20",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25.0,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 121,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "'저온창고' 항목을 2F에 적용"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 7839,
+                "unit": "mm",
+                "raw_text": "저온창고-4(SP 배관하단) 7,839mm",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 78,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "DD는 창고별 다점 실측(SP 배관하단·보 하단·전등 하단)만 제시. SP 배관하단 실측값 중 최저값을 기재(선택만, 계산 없음). 2F SP 배관하단 7,839~7,857mm, 보 하단 8,485~8,523mm"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상2층 지상10.0m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "북측 상행램프를 이용하여 지상 2층~지상 10층으로 진입",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 33,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "북측 상행램프로 2~10층 진입(p33), p38 면적표에 하역주차장·하역장차로 면적 존재. 4F/8F는 하역장 없음(면적표상 부속시설만)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "3층 저온창고 18,451.19 10.0",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "3층 저온창고",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 18451.19,
+                "unit": "m2",
+                "raw_text": "3층 저온창고 18,451.19",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25.0,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 121,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "'저온창고' 항목을 3F에 적용"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상3층 10.0 m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "2026-10-13 확인: DD p17·p77 층고 10.0m 유지. 4F·8F는 코어부 메자닌(부대시설)이라 단면도 코어 구간 치수(4.6/5.4, 4.8/5.2)와 다름 — 창고 공간 기준 층고는 10.0m"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "북측 상행램프를 이용하여 지상 2층~지상 10층으로 진입",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 33,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "북측 상행램프로 2~10층 진입(p33), p38 면적표에 하역주차장·하역장차로 면적 존재. 4F/8F는 하역장 없음(면적표상 부속시설만). 3F 창고 유효고는 DD 미측정(하역장 메자닌 하부 SP 4,178~4,188mm만 측정)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "지상4층 프리캐스트 콘크리트구조 사무실",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 120,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "p17 용도 '부대시설'"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 2470.45,
+                "unit": "m2",
+                "raw_text": "4층 부대시설 2,470.45",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 5.4,
+                "unit": "m",
+                "raw_text": "지상4층 5.4m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "5F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "5층 상온창고 18,451.19 10.0",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "5층 상온창고",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 18451.19,
+                "unit": "m2",
+                "raw_text": "5층 상온창고 18,451.19",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20.0,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 121,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "'상온창고' 항목을 상온 층에 적용"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8142,
+                "unit": "mm",
+                "raw_text": "5F 상온창고(SP 배관하단) 8,142mm",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 79,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "SP 배관하단 실측(전등 하단 8,299mm)"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상5층 10.0m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "북측 상행램프를 이용하여 지상 2층~지상 10층으로 진입",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 33,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "북측 상행램프로 2~10층 진입(p33), p38 면적표에 하역주차장·하역장차로 면적 존재. 4F/8F는 하역장 없음(면적표상 부속시설만)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "6F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "6층 상온창고 18,451.19 10.0",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "6층 상온창고",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 18451.19,
+                "unit": "m2",
+                "raw_text": "6층 상온창고 18,451.19",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20.0,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 121,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "'상온창고' 항목을 상온 층에 적용"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8170,
+                "unit": "mm",
+                "raw_text": "6F 상온창고(SP 배관하단) 8,170mm",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 79,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "SP 배관하단 실측(전등 하단 8,332mm)"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상6층 10.0m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "북측 상행램프를 이용하여 지상 2층~지상 10층으로 진입",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 33,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "북측 상행램프로 2~10층 진입(p33), p38 면적표에 하역주차장·하역장차로 면적 존재. 4F/8F는 하역장 없음(면적표상 부속시설만)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "7F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "7층 상온창고 18,451.19 10.0",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "7층 상온창고",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 18451.19,
+                "unit": "m2",
+                "raw_text": "7층 상온창고 18,451.19",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20.0,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 121,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "'상온창고' 항목을 상온 층에 적용"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8181,
+                "unit": "mm",
+                "raw_text": "7F 상온창고(SP 배관하단) 8,181mm",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 79,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "SP 배관하단 실측(전등 하단 8,348mm). 7F 하역장 메자닌 하부 OHD 하단 4,148~4,158mm"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상7층10.0m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "2026-10-13 확인: DD p17·p77 층고 10.0m 유지. 4F·8F는 코어부 메자닌(부대시설)이라 단면도 코어 구간 치수(4.6/5.4, 4.8/5.2)와 다름 — 창고 공간 기준 층고는 10.0m"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "북측 상행램프를 이용하여 지상 2층~지상 10층으로 진입",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 33,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "북측 상행램프로 2~10층 진입(p33), p38 면적표에 하역주차장·하역장차로 면적 존재. 4F/8F는 하역장 없음(면적표상 부속시설만)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "8F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "지상8층 프리캐스트 콘크리트구조 사무실",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 120,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "p17 용도 '부대시설'"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 2472.65,
+                "unit": "m2",
+                "raw_text": "8층 부대시설 2,472.65",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 5.2,
+                "unit": "m",
+                "raw_text": "지상8층 5.2m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "9F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "9층 상온창고 18,451.19 10.0",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "9층 상온창고",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 18451.19,
+                "unit": "m2",
+                "raw_text": "9층 상온창고 18,451.19",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20.0,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 121,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "'상온창고' 항목을 상온 층에 적용"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8158,
+                "unit": "mm",
+                "raw_text": "9F 상온창고(SP 배관하단) 8,158mm",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 79,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "SP 배관하단 실측(전등 하단 8,340mm)"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상9층10.0m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "북측 상행램프를 이용하여 지상 2층~지상 10층으로 진입",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 33,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "북측 상행램프로 2~10층 진입(p33), p38 면적표에 하역주차장·하역장차로 면적 존재. 4F/8F는 하역장 없음(면적표상 부속시설만)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "10F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "10층 상온창고 12,945.50 10.2",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "10층 상온창고",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 12945.5,
+                "unit": "m2",
+                "raw_text": "10층 상온창고 12,945.50",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20.0,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 121,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "'상온창고' 항목을 상온 층에 적용"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8140,
+                "unit": "mm",
+                "raw_text": "10F 상온창고(SP 배관하단) 8,140mm",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 79,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "SP 배관하단 실측(전등 하단 8,274mm)"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.2,
+                "unit": "m",
+                "raw_text": "지상10층 10.2m",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 77,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "IM은 '10m 층고계획'으로 일괄 기재"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "북측 상행램프를 이용하여 지상 2층~지상 10층으로 진입",
+                "precision": "exact",
+                "source_doc": "인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf",
+                "source_locator": {
+                  "page": 33,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "북측 상행램프로 2~10층 진입(p33), p38 면적표에 하역주차장·하역장차로 면적 존재. 4F/8F는 하역장 없음(면적표상 부속시설만)"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "missing": []
+}

@@ -1,0 +1,42 @@
+# PCA 보고서 내 도면 이미지 페이지 (pseudo "scanned drawings" 입력용)
+# source_doc: "1020 청라로지스틱스 물리실사 보고서_최종.pdf" (A4 세로, 1페이지에 도면 1~2장 상/하 배치)
+# position: top/bottom = 페이지 내 위치, full = 페이지 전체
+source_doc: "1020 청라로지스틱스 물리실사 보고서_최종.pdf"
+building_id: main
+drawings:
+  # ── 평면도 (p29~34) ──
+  - {page: 29, position: top,    type: 평면도, floor: B1,  title: "지하 1 층"}
+  - {page: 29, position: bottom, type: 평면도, floor: 1F,  title: "지상1 층"}
+  - {page: 30, position: top,    type: 평면도, floor: 2F,  title: "지상2 층"}
+  - {page: 30, position: bottom, type: 평면도, floor: 3F,  title: "지상3 층"}
+  - {page: 31, position: top,    type: 평면도, floor: 4F,  title: "지상 4 층 (쿠팡 대수선도면)"}
+  - {page: 31, position: bottom, type: 평면도, floor: 5F,  title: "지상 5 층 (쿠팡 대수선도면)"}
+  - {page: 32, position: top,    type: 평면도, floor: 6F,  title: "지상 6 층 (쿠팡 대수선도면)"}
+  - {page: 32, position: bottom, type: 평면도, floor: 7F,  title: "지상 7 층"}
+  - {page: 33, position: top,    type: 평면도, floor: 8F,  title: "지상 8 층"}
+  - {page: 33, position: bottom, type: 평면도, floor: 9F,  title: "지상 9 층"}
+  - {page: 34, position: top,    type: 평면도, floor: 10F, title: "지상 10 층"}
+  - {page: 34, position: bottom, type: 평면도, floor: RF,  title: "옥탑", note: "옥탑층(PH). RF 라벨로 매핑"}
+  # ── 입면도 (p35~36) ──
+  - {page: 35, position: top,    type: 입면도, floor: null, title: "정 면 도"}
+  - {page: 35, position: bottom, type: 입면도, floor: null, title: "우 측 면 도"}
+  - {page: 36, position: top,    type: 입면도, floor: null, title: "배 면 도"}
+  - {page: 36, position: bottom, type: 입면도, floor: null, title: "좌 측 면 도"}
+  # ── 단면도 (p37) ──
+  - {page: 37, position: top,    type: 단면도, floor: null, title: "주 단 면 도 - 1",
+     note: "Y1~Y16 방향(폭 174,000) 횡단면. 층별 FFL(1F ±0, 2F +5,000, 3F +10,000, 4F +20,000, 5F +25,000, 6F +30,000, 7F +40,000, 8F +45,000, 9F +50,000, 10F +60,800, PH +66,000, B1 -8,500), 하역장·차로·저온창고(C&F급/C급)·THK200 글라스울패널 표기"}
+  - {page: 37, position: bottom, type: 단면도, floor: null, title: "주 단 면 도 – 2",
+     note: "X방향 장변 단면 2개: 횡단면도-1(Y13~Y14), 횡단면도-2(Y4~Y5)"}
+  # ── 토목/배치 (p171~174) ──
+  - {page: 171, position: bottom, type: 배치도, floor: null, title: "우수계획 평면도 (None Scale)", note: "토목 우수계획 평면도(단지 전체 배치 포함)"}
+  - {page: 172, position: top,    type: 배치도, floor: null, title: "오수계획 평면도 (None Scale)", note: "토목 오수계획 평면도"}
+  - {page: 172, position: bottom, type: 배치도, floor: null, title: "3.1 배치도"}
+  - {page: 174, position: top,    type: 배치도, floor: null, title: "3.2 옥외 지상 구간 (①~④구간 표시)", note: "배치도 위 구간 표시"}
+  # ── 측량 성과도 (p182~183) ──
+  - {page: 182, position: full, type: 측량성과도, floor: null, title: "경계복원측량 성과도"}
+  - {page: 183, position: full, type: 측량성과도, floor: null, title: "지적현황측량 성과도"}
+  # ── 전기 (p197~198) ──
+  - {page: 197, position: full, type: 단선결선도, floor: null, title: "수변전설비 단선결선도 및 현황판", note: "22.9kV 수변전설비 단선결선도-1/-2"}
+  - {page: 198, position: full, type: 단선결선도, floor: null, title: "수변전설비 단선결선도(계속)", note: "하단: 부전기실(제2전기실) 22.9kV 수변전설비 단선결선도"}
+# 참고: p52~53은 '설계도서 작성 현황' 표(도면 목록·작성 여부)이며 도면 이미지가 아님.
+# 참고: p293~360은 인수인계 서류 스캔(사용승인서, 대수선 사용승인서, 지적도 등본, 승강기 검사성적서, 고압가스 냉동제조 자율검사증명서 등) - 도면 아님.

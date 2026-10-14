@@ -1,0 +1,1730 @@
+{
+  "asset_id": "seoknam",
+  "record_type": "im_claims",
+  "created_at": "2026-10-13T13:39:53+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 26792.0,
+        "unit": "m2",
+        "raw_text": "대지면적: 8,105평 (26,792.0㎡)",
+        "precision": "exact",
+        "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+        "source_locator": {
+          "table": 8,
+          "row": 8
+        },
+        "method": "im_text",
+        "confidence": "medium",
+        "source_grade": "IM주장",
+        "status": null,
+        "conflict": false,
+        "note": null,
+        "raw_value": 26792.0,
+        "raw_unit": "㎡",
+        "flags": []
+      },
+      {
+        "value": 26793.3874,
+        "unit": "m2",
+        "raw_text": "대지면적: 8,105평 (26,792.0㎡)",
+        "precision": "exact",
+        "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+        "source_locator": {
+          "table": 8,
+          "row": 8
+        },
+        "method": "im_text",
+        "confidence": "medium",
+        "source_grade": "IM주장",
+        "status": null,
+        "conflict": false,
+        "note": null,
+        "raw_value": 8105,
+        "raw_unit": "평",
+        "flags": []
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "창고동",
+      "phase": "원준공",
+      "fields": {
+        "completion_year": [
+          {
+            "value": 2023,
+            "unit": "year",
+            "raw_text": "사용승인 ∙ 2023.06.01",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 8,
+              "row": 6
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "사용승인일 2023-06-01",
+            "raw_value": 2023,
+            "raw_unit": "year",
+            "flags": []
+          },
+          {
+            "value": 2023,
+            "unit": "year",
+            "raw_text": "본 건 자산은 ’23.6.1 사용승인 완료",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "para": 14
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "사용승인일 2023-06-01",
+            "raw_value": 2023,
+            "raw_unit": "year",
+            "flags": []
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 148238.05,
+            "unit": "m2",
+            "raw_text": "연면적: 44,842평 (148,238.05㎡)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 8,
+              "row": 8
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": null,
+            "raw_value": 148238.05,
+            "raw_unit": "㎡",
+            "flags": []
+          },
+          {
+            "value": 148238.011,
+            "unit": "m2",
+            "raw_text": "연면적: 44,842평 (148,238.05㎡)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 8,
+              "row": 8
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": null,
+            "raw_value": 44842,
+            "raw_unit": "평",
+            "flags": []
+          },
+          {
+            "value": 148238.011,
+            "unit": "m2",
+            "raw_text": "연면적 44,842평 규모",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "para": 13
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": null,
+            "raw_value": 44842,
+            "raw_unit": "평",
+            "flags": []
+          },
+          {
+            "value": 148238.044,
+            "unit": "m2",
+            "raw_text": "합계 44,842.01평",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 8,
+              "nested": 1,
+              "row": 13
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "층별개요(건축물대장) 합계. 경비실동 5.15평 포함",
+            "raw_value": 44842.01,
+            "raw_unit": "평",
+            "flags": []
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 10,
+            "unit": "floor",
+            "raw_text": "지하 1층 ~ 지상 10층 / 주용도: 창고시설 (창고 8개층, 부대시설 2개층)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 8,
+              "row": 10
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": null,
+            "raw_value": 10,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "지하 1층 ~ 지상 10층",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 8,
+              "row": 10
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": null,
+            "raw_value": 1,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "복합",
+            "unit": null,
+            "raw_text": "철근콘크리트구조, 프리케스트콘크리트구조",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 8,
+              "row": 5
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "RC·PC 두 구조 병기(주구조 구분 없음)",
+            "flags": []
+          }
+        ],
+        "cold_area_m2": [
+          {
+            "value": 38658.1804,
+            "unit": "m2",
+            "raw_text": "저온 11,694.10 (변경전)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 19,
+              "row": 3
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": true,
+            "note": "임대면적(3.3㎡) 기준, 상온전환공사 전(현재). 바닥면적 아님",
+            "raw_value": 11694.1,
+            "raw_unit": "평",
+            "flags": []
+          },
+          {
+            "value": 41051.8001,
+            "unit": "m2",
+            "raw_text": "저온 10,741.19 / 1,676.98 / 12,418.17 (전용/공용/합계)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 21,
+              "row": 2
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": true,
+            "note": "유형별 임대현황 표의 저온 합계(임대면적). 현재 저온 기준, 식당 포함 여부는 표에 미기재",
+            "raw_value": 12418.17,
+            "raw_unit": "평",
+            "flags": []
+          },
+          {
+            "value": 13892.4292,
+            "unit": "m2",
+            "raw_text": "저온 4,202.46 (변경후)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 19,
+              "row": 3
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": true,
+            "note": "임대면적 기준, 1~3F East 상온전환공사 후 예정치",
+            "raw_value": 4202.46,
+            "raw_unit": "평",
+            "flags": []
+          }
+        ],
+        "cold_ratio_pct": [
+          {
+            "value": 35.2,
+            "unit": "pct",
+            "raw_text": "저온 11,694.10 35.2%",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 19,
+              "row": 3
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": true,
+            "note": "변경전(현재) 임대면적 기준. 표 8 면적구분에는 '현재: 상온 65%, 저온 35%'로 반올림 표기",
+            "raw_value": 35.2,
+            "raw_unit": "%",
+            "flags": []
+          },
+          {
+            "value": 12.0,
+            "unit": "pct",
+            "raw_text": "저온 4,202.46 12.0%",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 19,
+              "row": 3
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": true,
+            "note": "상온전환공사 후 예정 임대면적 기준. 표 8 면적구분 '상온 88%, 저온 12%'",
+            "raw_value": 12.0,
+            "raw_unit": "%",
+            "flags": []
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "랙 및 지게차 효율을 위한 11m x 11m 모듈계획",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 12,
+              "row": 4
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "단면도(image 1)에는 9,000/10,000/11,000/13,000/16,000 등 구간별 치수가 병기됨. 11m는 창고 모듈 표기",
+            "raw_value": 11,
+            "raw_unit": "m",
+            "flags": []
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "랙 및 지게차 효율을 위한 11m x 11m 모듈계획",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 12,
+              "row": 4
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "11m x 11m 중 두 번째 값",
+            "raw_value": 11,
+            "raw_unit": "m",
+            "flags": []
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "단방향",
+            "unit": null,
+            "raw_text": "1Way차량통행으로 진출입통로 분리",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 10,
+              "row": 2
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "IM에 램프 형상(직선/곡선/나선) 문구는 없음. 그림에는 진입 램프·진출 램프가 각각 타원형 루프로 그려짐",
+            "flags": []
+          },
+          {
+            "value": "단방향",
+            "unit": null,
+            "raw_text": "진입전용 램프 / 진출전용 램프",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 9,
+              "after_para": 33,
+              "image": 2
+            },
+            "method": "im_text",
+            "confidence": "low",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "3D 그림 라벨. 진입전용·진출전용 램프 2개소 분리",
+            "flags": []
+          },
+          {
+            "value": "단방향",
+            "unit": null,
+            "raw_text": "UP RAMP / DOWN RAMP",
+            "precision": "exact",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 66,
+              "after_para": 277,
+              "image": 1
+            },
+            "method": "im_text",
+            "confidence": "low",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "1F 평면 그림 라벨(UP RAMP, DOWN RAMP)",
+            "flags": []
+          }
+        ],
+        "fire_compartment_max_m2": [
+          {
+            "value": 3000.0,
+            "unit": "m2",
+            "raw_text": "방화구획(3,000m2 이하) 설치(판넬 및 방화셔터)",
+            "precision": "upper_bound",
+            "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+            "source_locator": {
+              "table": 72,
+              "after_para": 290,
+              "image": 1
+            },
+            "method": "im_text",
+            "confidence": "low",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "상온전환공사 시 신설 방화구획 계획값(1~3F East 대상, 공사 후). 현 상태 최대 구획 면적이 아님",
+            "raw_value": 3000,
+            "raw_unit": "㎡",
+            "flags": []
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 1107.5371,
+                "unit": "m2",
+                "raw_text": "지하1층 335.03평 기계전기실",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 11
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 335.03,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "기계",
+                "unit": null,
+                "raw_text": "지하1층 335.03평 기계전기실",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 11
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 18517.7514,
+                "unit": "m2",
+                "raw_text": "지상1층 5,601.62평 저온창고, 식당",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 10
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 5601.62,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상1층 5,601.62평 저온창고, 식당",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 10
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "부수 용도: 식당(원문 '저온창고, 식당'; 임대현황표 Cafeteria 219.08평)",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "지상1층 5,601.62평 저온창고, 식당",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 10
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "현재 저온. 1~3F East는 상온 전환 예정(표 16·20 '(현)저온→(예)상온'), West는 저온 유지",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "1F 합계 Berth 566.47",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 75,
+                  "row": 31
+                },
+                "method": "im_text",
+                "confidence": "low",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "임대면적현황(전용/공용 구분) 표의 Berth 열에 면적이 기재된 층. 평면 그림에도 BERTH 구획 표시. 접안 가능을 직접 문장으로 쓴 것은 아님",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 18451.2059,
+                "unit": "m2",
+                "raw_text": "지상2층 5,581.49평 저온창고, 저온기계실",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 9
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 5581.49,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상2층 5,581.49평 저온창고, 저온기계실",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 9
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "부수 용도: 저온기계실(원문 '저온창고, 저온기계실')",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "지상2층 5,581.49평 저온창고, 저온기계실",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 9
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "현재 저온. 1~3F East는 상온 전환 예정(표 16·20 '(현)저온→(예)상온'), West는 저온 유지",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "2F 합계 Berth 566.47",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 75,
+                  "row": 28
+                },
+                "method": "im_text",
+                "confidence": "low",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "임대면적현황(전용/공용 구분) 표의 Berth 열에 면적이 기재된 층. 평면 그림에도 BERTH 구획 표시. 접안 가능을 직접 문장으로 쓴 것은 아님",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 18451.1729,
+                "unit": "m2",
+                "raw_text": "지상3층 5,581.48평 저온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 8
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 5581.48,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상3층 5,581.48평 저온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 8
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "지상3층 5,581.48평 저온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 8
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "현재 저온. 1~3F East는 상온 전환 예정(표 16·20 '(현)저온→(예)상온'), West는 저온 유지",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "3F 합계 Berth 566.96",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 75,
+                  "row": 25
+                },
+                "method": "im_text",
+                "confidence": "low",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "임대면적현황(전용/공용 구분) 표의 Berth 열에 면적이 기재된 층. 평면 그림에도 BERTH 구획 표시. 접안 가능을 직접 문장으로 쓴 것은 아님",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 2470.4462,
+                "unit": "m2",
+                "raw_text": "지상4층 747.31평 부대시설",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 7
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 747.31,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "기타",
+                "unit": null,
+                "raw_text": "지상4층 747.31평 부대시설",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 7
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": true,
+                "note": "건축물대장 층별개요의 '부대시설'(enum 기타로 대응). 임대현황표에서는 '사무실'로 표기",
+                "flags": []
+              },
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "사무실",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 16,
+                  "row": 13
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": true,
+                "note": "렌트롤·임대면적현황·평면 그림(OFFICE)·'중층(4F, 8F) 오피스'는 사무실로 표기. 같은 공간을 달리 부른 것일 수 있음",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "5F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 18451.1729,
+                "unit": "m2",
+                "raw_text": "지상5층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 5581.48,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상5층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상5층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "5F 합계 Berth 566.96",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 75,
+                  "row": 19
+                },
+                "method": "im_text",
+                "confidence": "low",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "임대면적현황(전용/공용 구분) 표의 Berth 열에 면적이 기재된 층. 평면 그림에도 BERTH 구획 표시. 접안 가능을 직접 문장으로 쓴 것은 아님",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "6F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 18451.1729,
+                "unit": "m2",
+                "raw_text": "지상6층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 5
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 5581.48,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상6층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 5
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상6층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 5
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "6F 합계 Berth 566.96",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 75,
+                  "row": 16
+                },
+                "method": "im_text",
+                "confidence": "low",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "임대면적현황(전용/공용 구분) 표의 Berth 열에 면적이 기재된 층. 평면 그림에도 BERTH 구획 표시. 접안 가능을 직접 문장으로 쓴 것은 아님",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "7F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 18451.1729,
+                "unit": "m2",
+                "raw_text": "지상7층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 4
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 5581.48,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상7층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 4
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상7층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 4
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "7F 합계 Berth 566.96",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 75,
+                  "row": 13
+                },
+                "method": "im_text",
+                "confidence": "low",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "임대면적현황(전용/공용 구분) 표의 Berth 열에 면적이 기재된 층. 평면 그림에도 BERTH 구획 표시. 접안 가능을 직접 문장으로 쓴 것은 아님",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "8F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 2472.6611,
+                "unit": "m2",
+                "raw_text": "지상8층 747.98평 부대시설",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 747.98,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "기타",
+                "unit": null,
+                "raw_text": "지상8층 747.98평 부대시설",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": true,
+                "note": "건축물대장 층별개요의 '부대시설'(enum 기타로 대응). 임대현황표에서는 '사무실'로 표기",
+                "flags": []
+              },
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "사무실",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 16,
+                  "row": 5
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": true,
+                "note": "렌트롤·임대면적현황·평면 그림(OFFICE)·'중층(4F, 8F) 오피스'는 사무실로 표기. 같은 공간을 달리 부른 것일 수 있음",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "9F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 18451.1729,
+                "unit": "m2",
+                "raw_text": "지상9층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 2
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 5581.48,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상9층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 2
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상9층 5,581.48평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 2
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "9F 합계 Berth 566.96",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 75,
+                  "row": 7
+                },
+                "method": "im_text",
+                "confidence": "low",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "임대면적현황(전용/공용 구분) 표의 Berth 열에 면적이 기재된 층. 평면 그림에도 BERTH 구획 표시. 접안 가능을 직접 문장으로 쓴 것은 아님",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "10F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 12945.4871,
+                "unit": "m2",
+                "raw_text": "지상10층 3,916.01평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "건축물대장 층별개요(바닥면적)",
+                "raw_value": 3916.01,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상10층 3,916.01평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상10층 3,916.01평 상온창고",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 8,
+                  "nested": 1,
+                  "row": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "10F 합계 Berth 566.96",
+                "precision": "exact",
+                "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+                "source_locator": {
+                  "table": 75,
+                  "row": 4
+                },
+                "method": "im_text",
+                "confidence": "low",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "임대면적현황(전용/공용 구분) 표의 Berth 열에 면적이 기재된 층. 평면 그림에도 BERTH 구획 표시. 접안 가능을 직접 문장으로 쓴 것은 아님",
+                "flags": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "1~3층 East동 저온창고 → 상온창고 전환공사(예정). 공사비 5,250백만원, 인허가 약 2개월 포함 약 6개월, '25년 4분기 완료 예상. 전환 후 임대면적 기준 상온 88%·저온 12%",
+      "quote": "1~3층 East동 저온창고를 상온창고로 전환하는 공사비 5,250백만원 ... 인허가 기간 약 2개월을 포함하여 약 6개월 이내 완료될 것으로 예상됨. (’25년 4분기 예상)",
+      "year": 2025,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "para": 101
+      },
+      "note": "계획(미시행). 원문 ¶101~102, 표 24"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "상온전환 공사내용(표 24): 상온 오버헤드도어·방화벽 설치, 저온 오버헤드도어 제거, 칸막이벽 제거, 방열실 및 저온 냉동시설 철거",
+      "quote": "상온 오버헤드도어, 방화벽 설치 및 저온 오버헤드도어 제거 / 칸막이벽 제거 / 방열실 및 저온 냉동시설 철거",
+      "year": 2025,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 24,
+        "row": 1
+      },
+      "note": "계획(미시행)"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "① 하역장 및 도크 작업: 하역장 방화셔터 철거 후 상온 OHD로 교체, 도크 저온 OHD 철거 후 방화셔터 설치",
+      "quote": "하역장 방화셔터 철거후 상온 OHD로 교체 / 도크 저온OHD 철거후 방화셔터 설치",
+      "year": 2025,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 69,
+        "row": 1
+      },
+      "note": "계획(미시행). 시공 견적 ㈜극동플러스 2024.10.11. 그림: 표 71 image 1(평면), image 2(샘플 사진, 하역장 5m·도크 4m 개구 표시)"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "② 판넬 철거 및 방화구획 설치: 상온 OHD 상부 판넬 철거 및 방화벽 설치. 방화구획 3,000㎡ 이하(판넬 및 방화셔터)",
+      "quote": "상온 OHD 상부 판넬 철거 및 방화벽 설치",
+      "year": 2025,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 69,
+        "row": 2
+      },
+      "note": "계획(미시행). 그림 표 72 image 1(방화구획(3,000m2 이하) 설치 표시), image 2(THK50 그라스울 판넬·THK100 PIR판넬 철거 상세)"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "③ 방열전실 작업: 판넬·방화셔터·방열도어·각종 설비 철거 및 철거 부위 바닥 콘크리트 작업. 방열전실 및 제상수탱크실 철거",
+      "quote": "판넬, 방화셔터 및 방열도어, 각종 설비 등 철거 / 판넬 철거 부위 바닥 콘크리트 작업",
+      "year": 2025,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 69,
+        "row": 3
+      },
+      "note": "계획(미시행). 그림 표 73 image 1(평면), image 2(상세: 방열전실 THK100 PIR패널, 바닥 히터 열선)"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "④ 1층 천정 방열(우레탄) 추가공사(T100T): 저온창고와 상온창고 간 열교로 인한 결로 문제 해결 목적",
+      "quote": "저온창고와 상온창고간의 열교현상으로 인한 결로 발생문제를 해결하기 위한 1층 천정 방열(우레탄) 추가공사",
+      "year": 2025,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 69,
+        "row": 4
+      },
+      "note": "계획(미시행). 그림 표 74 image 1(대상 구역, 천정 방열(우레탄) 추가공사 T100T)"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "기타 Capex 1,662백만원: 바닥 균열보수, 간판 설치, LEED 인증 등. 분야별 건축 1,248 / 토목·조경 65 / 기계 33 / 냉동설비 98(즉시) / 전기·통신 78 / 소방 140 백만원. 단열재·에어컷밸브 설치 등 저온창고 관련 비용 포함",
+      "quote": "바닥 균열보수, 간판 설치, LEED 인증 등 경미한 항목 / 주2) 단열재, 에어컷밸브 설치 등 현재 저온창고 관련 비용",
+      "year": 2025,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 24,
+        "row": 2
+      },
+      "note": "계획(미시행). 분야별 표는 표 24 nested 1"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "우량 상/저온 복합 물류센터",
+      "quote": "연면적 44,842평 규모 우량 상/저온 복합 물류센터",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "para": 13
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "Prime급 신축 물류센터. 서부권 연면적 만평 이상 대형 55개소 중 상위 12위(인천 기준 9위). 편리한 램프·전용면적의 효율적 설계·임차인 휴식공간",
+      "quote": "상위 12위 규모 (인천 기준 9위 규모)의 연면적 44,842평의 신축 물류센터로, 편리한 램프 / 전용면적의 효율적 설계 / 임차인 휴식공간 등 규모 및 시설 면에서 경쟁력 있는 자산임",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 4,
+        "row": 2
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "ramp_type",
+      "text": "차량과 보행자 동선 분리, 진출입 동선 분리. 1Way 차량통행으로 진출입통로 분리, 승용차 공간 1층 배치",
+      "quote": "본 자산은 차량과 보행자 동선 분리로 서로 간섭이 발생하지 않는 원활한 동선 ... 1Way차량통행으로 진출입통로 분리",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "para": 33
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "ramp_type",
+      "text": "차량 램프: 2~10층 진입램프·2~10층 진출램프(진입/진출 분리), 일반주차장 1·2, 화물차 진입/진출 동선(대지 45m·20m 도로 접함)",
+      "quote": "2~10층 진입램프 / 2~10층 진출램프",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 9,
+        "after_para": 33,
+        "image": 1
+      },
+      "note": "그림 판독. 진입 램프가 2~10층에 닿는다는 표기이며 4F·8F(사무·부대시설)에 접안한다는 뜻인지는 불명"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "text": "10m 층고계획으로 4단 랙설치를 통해 공간활용 극대화(층 특정 없음). 그림상 4단 랙 단면에 전체 10M 표기(세부 치수는 해상도 낮아 판독 불확실)",
+      "quote": "10m 층고계획으로 4단 랙설치를 통해 공간활용 극대화",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 12,
+        "row": 4
+      },
+      "note": "층고(FL~FL) 표기로 보이나 유효고 여부 미기재. 층 특정 없음. 그림 표 12 image 2"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "창고 깊이 43~52m의 효율적 창고깊이",
+      "quote": "43~52m의 효율적 창고깊이로 빠르고 편리한 창고 운영 가능",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 12,
+        "row": 4
+      },
+      "note": "그림 표 12 image 4에 43M/52M 표기"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "dock_leveler_count",
+      "text": "도크씰, 도크레벨러, 오버헤드 등 신속한 하역시스템 적용(수량 미기재)",
+      "quote": "도크씰, 도크레벨러, 오버헤드 / 등 신속한 하역시스템 적용",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 12,
+        "row": 4
+      },
+      "note": "그림 표 12 image 5에 도크씰·도크레벨러 사진"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "각 코어 인근 지게차 충전기 다수 설치",
+      "quote": "각 코어 인근 지게차 충전기 다수 설치",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 10,
+        "row": 4
+      },
+      "note": "그림 표 10 image 3"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "sprinkler_type",
+      "text": "저온창고 포함 전층 화재감지기 및 스프링쿨러 설치(스프링클러 형식 미기재)",
+      "quote": "저온창고 포함 전층 화재감지기 및 스프링쿨러 설치",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 10,
+        "row": 4
+      },
+      "note": "그림 표 10 image 4('스프링쿨러 전층설치')"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "freight_elevator_count",
+      "text": "층별 수직 운반을 고려한 화물용 승강기 설치(대수 미기재). 그림에는 전층 화물용 승강기·전층 지게차 램프 설치 표기",
+      "quote": "층별 수직 운반을 고려한 화물용 승강기 설치로, 효율적인 수직 운반 가능",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 10,
+        "row": 6
+      },
+      "note": "그림 표 10 image 5('전층 화물용 승강기 설치', '전층 지게차 램프 설치')"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "각 코어별 소방대원 진입용 비상 승강기 설치 및 별도 통합방재센터 설치",
+      "quote": "각 코어별 소방대원 진입용 비상 승강기 설치 및 별도 통합방재센터 설치로 안전한 건물관리",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 10,
+        "row": 6
+      },
+      "note": "그림 표 10 image 6"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "중층(4F, 8F) 오피스 설계, 각 매스별 출입구를 통한 동선 계획",
+      "quote": "중층(4F, 8F) 오피스를 설계로 효율적 동선관리",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 10,
+        "row": 2
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "Wing별 층당 면적 표기: West Wing 1,250py per floor, East Wing 2,700py per floor",
+      "quote": "West Wing (1,250py per floor) / East Wing (2,700py per floor)",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "para": 52,
+        "para_end": 56,
+        "image": 1
+      },
+      "note": "그림 판독. 임대현황 도식. 층별 임대면적 표와 수치가 다름(예: 표 20 East 2,956.86, West 1,334.65)"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "경비실동 지상1층 5.15평은 건축물대장 층별개요에 별도 행으로 기재(창고동과 별개 동으로 나열)",
+      "quote": "경비실동 | 지상1층 | 5.15평",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 8,
+        "nested": 1,
+        "row": 12
+      },
+      "note": "asset_meta.yaml 방침상 별도 building으로 두지 않음"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "10F 용도 표기 상이: 건축물대장 층별개요·렌트롤은 10F 상온창고(3,916.01평)이나, 동선 그림은 '10F(옥상층)'으로 표기하고 '5~7,9F(상온창고)'만 상온창고로 표시",
+      "quote": "10F(옥상층) / 5~7,9F(상온창고)",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 10,
+        "after_para": 34,
+        "image": 1
+      },
+      "note": "그림 표 10 image 1(10F 옥상층), 표 10 image 2(5~7,9F 상온창고). 단면도(표 12 image 1)는 최상부 상온창고 위에 옥상정원 표기"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "상온전환 시 철거·신설 판넬·바닥 상세: THK50 그라스울 판넬, THK100 PIR판넬(창고전실/저온창고 구획), THK200 글라스울 판넬, 방열전실 바닥 히터 열선 표기. 외벽·지붕 패널 심재와 저온 단열재 종류는 IM에 직접 기재 없음",
+      "quote": "THK50 그라스울 판넬 / THK100 PIR판넬 / THK200 글라스울 판넬 / 바닥 히터 열선",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 72,
+        "after_para": 290,
+        "image": 2
+      },
+      "note": "그림 표 72 image 2, 표 73 image 2의 도면 라벨. 철거 대상 구획 판넬로 보이며 외벽 판넬 여부 불명"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "refrigeration_system",
+      "text": "냉동설비 관련: 상온전환 시 방열실 및 저온 냉동시설 철거, Capex 중 냉동설비 98백만원(즉시). 냉매 종류·냉동설비 소유 주체는 IM에 기재 없음",
+      "quote": "방열실 및 저온 냉동시설 철거 / 냉동설비 98",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 24,
+        "row": 1
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "1F 평면 그림은 East/West Wing, Berth·Dock·Warehouse·Working Space 구분을 표기하고 진입(UP)·진출(DOWN) 램프 2개소를 그림. 4F·8F 평면은 OFFICE 구획 표시",
+      "quote": "BERTH / DOCK / WEST (COLD) / EAST (PLANNED CONVERSION) 1~3F / UP RAMP / DOWN RAMP / OFFICE",
+      "year": null,
+      "source_doc": "input/seoknam/im/20250430_인천 브룩필드 석남로지스틱스센터 담보대출 IM_대주_v1.74_Clean.docx",
+      "source_locator": {
+        "table": 66,
+        "after_para": 277,
+        "image": 1
+      },
+      "note": "그림 표 24 image 4, 표 66 image 1, 표 67 image 1, 표 68 image 1"
+    }
+  ],
+  "missing": []
+}

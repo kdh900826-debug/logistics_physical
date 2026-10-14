@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}리뷰{% endblock %} · 물류센터 물리 리스크</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--fg:#1f2328;--muted:#656d76;--line:#d8dee4;--accent:#0b62c4;
+--red:#c62828;--yellow:#b7791f;--green:#2e7d32;--hold:#6e7781;--chip:#eef1f4;--warn:#fff4e5}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1d2025;--fg:#e6e8eb;--muted:#9aa4ae;--line:#30363d;
+--accent:#5aa2ff;--chip:#262b31;--warn:#3a2e1c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.55 -apple-system,"Segoe UI","Malgun Gothic",sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+header h1{font-size:16px;margin:0}
+main{max-width:1080px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:10px 0}
+.chip{display:inline-block;padding:1px 8px;border-radius:999px;background:var(--chip);font-size:12px;color:var(--muted);margin-right:4px}
+.chip.sens{background:#ffe3e3;color:#a01d1d}.chip.over{background:#fff0d6;color:#8a5300}
+@media (prefers-color-scheme:dark){.chip.sens{background:#4a1f1f;color:#ffb3b3}.chip.over{background:#4a3818;color:#ffd38a}}
+.muted{color:var(--muted)}.small{font-size:12px}
+.cands{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px;margin-top:8px}
+.opt{border:1px solid var(--line);border-radius:6px;padding:8px;cursor:pointer;display:block}
+.opt:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.opt img{max-width:100%;max-height:220px;display:block;margin-top:6px;border:1px solid var(--line)}
+.val{font-size:16px;font-weight:600}
+input[type=text],input[type=number],textarea,select{background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:4px 6px;font:inherit}
+textarea{width:100%;min-height:52px}
+button{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:8px 16px;font:inherit;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+details>summary{cursor:pointer;font-weight:600;padding:6px 0}
+table{border-collapse:collapse;width:100%;font-size:13px}td,th{border:1px solid var(--line);padding:4px 6px;text-align:left;vertical-align:top}
+.sev-red{color:var(--red)}.sev-yellow{color:var(--yellow)}.sev-green{color:var(--green)}.sev-hold{color:var(--hold)}
+.banner{background:var(--warn);border:1px solid var(--line);border-radius:6px;padding:8px 12px;margin:8px 0}
+a{color:var(--accent)}
+.report img{max-width:100%}
+@media (max-width:600px){main{padding:10px}.cands{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>{% block header %}{% endblock %}</header>
+<main>{% block body %}{% endblock %}</main>
+{% block script %}{% endblock %}
+</body>
+</html>

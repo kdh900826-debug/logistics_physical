@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "comments": [
+    {
+      "type": "spec",
+      "target": "building|main|-|warehouse_depth_m",
+      "text": "창고 깊이 56.5m (하역장 측 벽~반대편 벽, 하역장 제외) — 채팅 지시"
+    }
+  ],
+  "submitted_at": "2026-10-14T14:04:14+09:00"
+}

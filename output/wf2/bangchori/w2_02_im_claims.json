@@ -1,0 +1,981 @@
+{
+  "asset_id": "bangchori",
+  "record_type": "im_claims",
+  "created_at": "2026-10-14T13:33:46+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 53259.0,
+        "unit": "m2",
+        "raw_text": "대지면적 53,259㎡ (16,111평)",
+        "precision": "exact",
+        "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+        "source_locator": {
+          "page": 3
+        },
+        "method": "im_text",
+        "confidence": "medium",
+        "source_grade": "IM주장",
+        "status": null,
+        "conflict": false,
+        "note": null,
+        "raw_value": 53259,
+        "raw_unit": "㎡",
+        "flags": []
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "물류창고(키움 방초리 물류센터)",
+      "phase": "원준공",
+      "fields": {
+        "completion_year": [
+          {
+            "value": 2025,
+            "unit": "year",
+            "raw_text": "준공예정일 2025년 6월 사용승인 완료",
+            "precision": "exact",
+            "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+            "source_locator": {
+              "page": 3
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "p2 '25년 6월 사용승인 완료, p11 준공 June'25, p28 준공연도 2025 동일",
+            "raw_value": 2025,
+            "raw_unit": "year",
+            "flags": []
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 130399.0,
+            "unit": "m2",
+            "raw_text": "연면적 130,399㎡ (39,446평)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+            "source_locator": {
+              "page": 3
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": true,
+            "note": "p28 비교표 본건 연면적 130,399㎡(39,446평) 동일. p6 층별 면적표 연면적 합계(평)와 불일치",
+            "raw_value": 130399,
+            "raw_unit": "㎡",
+            "flags": []
+          },
+          {
+            "value": 127173.549,
+            "unit": "m2",
+            "raw_text": "연면적 합계 38,470 (단위: 평)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+            "source_locator": {
+              "page": 6
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": true,
+            "note": "p6 층별 면적표 연면적 열 합계. p3 39,446평과 상이",
+            "raw_value": 38470,
+            "raw_unit": "평",
+            "flags": []
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 4,
+            "unit": "floor",
+            "raw_text": "규모 지하 1층 / 지상 4층",
+            "precision": "exact",
+            "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+            "source_locator": {
+              "page": 3
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": null,
+            "raw_value": 4,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "규모 지하 1층 / 지상 4층",
+            "precision": "exact",
+            "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+            "source_locator": {
+              "page": 3
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": null,
+            "raw_value": 1,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "평면도 상단 그리드 치수 11,000 반복 (216,000)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+            "source_locator": {
+              "page": 29
+            },
+            "method": "im_text",
+            "confidence": "low",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "IM 삽입 평면도(p29~31) 그리드 치수 표기값. 장변(216,000) 방향 창고 구간 11,000. 본문 서술 없음",
+            "raw_value": 11,
+            "raw_unit": "m",
+            "flags": []
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "평면도 좌측 그리드 치수 11,000 (창고 구간, 중앙 하역구간은 12,500~17,000)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+            "source_locator": {
+              "page": 29
+            },
+            "method": "im_text",
+            "confidence": "low",
+            "source_grade": "IM주장",
+            "status": null,
+            "conflict": false,
+            "note": "IM 삽입 평면도 단변(156,000) 방향 창고 구간 11,000. 중앙 구간은 12,500/13,000/17,000. 본문 서술 없음",
+            "raw_value": 11,
+            "raw_unit": "m",
+            "flags": []
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "층고 전층 10m",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "전층 10m 묶음 표기",
+                "raw_value": 10,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "용도 상온 (4F~B1 병합 셀)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 30697.5195,
+                "unit": "m2",
+                "raw_text": "B1 연면적 9,286 (단위: 평)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+                "raw_value": 9286,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "B1 전용면적 창고/전실 6,122",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "B1은 기계/기전실 475 포함",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지하 1층 접안 대수 56 대 (화물차량 기준)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 29
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p3 접안여부 '전 층 접안 가능', p4 '전층 동시접안 대수 56대'와 동일 취지. 4F는 층 특정 기재 없음",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.5,
+                "unit": "m",
+                "raw_text": "유효 층고: 지하1, 지상1,2층 약 8.5m",
+                "precision": "approx",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "raw_value": 8.5,
+                "raw_unit": "m",
+                "precision_halfwidth": 0.05,
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "층고 전층 10m",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "전층 10m 묶음 표기",
+                "raw_value": 10,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "용도 상온 (4F~B1 병합 셀)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 32023.1393,
+                "unit": "m2",
+                "raw_text": "1F 연면적 9,687 (단위: 평)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+                "raw_value": 9687,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "1F 전용면적 창고/전실 6,202",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상 1층 접안 대수 56 대 (화물차량 기준)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 30
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p3 접안여부 '전 층 접안 가능', p4 '전층 동시접안 대수 56대'와 동일 취지. 4F는 층 특정 기재 없음",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.5,
+                "unit": "m",
+                "raw_text": "유효 층고: 지하1, 지상1,2층 약 8.5m",
+                "precision": "approx",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "raw_value": 8.5,
+                "raw_unit": "m",
+                "precision_halfwidth": 0.05,
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "층고 전층 10m",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "전층 10m 묶음 표기",
+                "raw_value": 10,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "용도 상온 (4F~B1 병합 셀)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 32095.8666,
+                "unit": "m2",
+                "raw_text": "2F 연면적 9,709 (단위: 평)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+                "raw_value": 9709,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "2F 전용면적 창고/전실 6,214",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상 2층 접안 대수 56 대 (화물차량 기준)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 30
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p3 접안여부 '전 층 접안 가능', p4 '전층 동시접안 대수 56대'와 동일 취지. 4F는 층 특정 기재 없음",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.5,
+                "unit": "m",
+                "raw_text": "유효 층고: 지하1, 지상1,2층 약 8.5m",
+                "precision": "approx",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "raw_value": 8.5,
+                "raw_unit": "m",
+                "precision_halfwidth": 0.05,
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "층고 전층 10m",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "전층 10m 묶음 표기",
+                "raw_value": 10,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "용도 상온 (4F~B1 병합 셀)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 32016.5277,
+                "unit": "m2",
+                "raw_text": "3F 연면적 9,685 (단위: 평)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+                "raw_value": 9685,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "3F 전용면적 창고/전실 6,192",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상 3층 접안 대수 56 대 (화물차량 기준)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 30
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p3 접안여부 '전 층 접안 가능', p4 '전층 동시접안 대수 56대'와 동일 취지. 4F는 층 특정 기재 없음",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 7.4,
+                "unit": "m",
+                "raw_text": "지상 3층 약 7.4~8.0m (구간별 상이)",
+                "precision": "approx",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": true,
+                "note": "범위 표기 하한 후보",
+                "raw_value": 7.4,
+                "raw_unit": "m",
+                "precision_halfwidth": 0.05,
+                "flags": []
+              },
+              {
+                "value": 8.0,
+                "unit": "m",
+                "raw_text": "지상 3층 약 7.4~8.0m (구간별 상이)",
+                "precision": "approx",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": true,
+                "note": "범위 표기 상한 후보",
+                "raw_value": 8.0,
+                "raw_unit": "m",
+                "precision_halfwidth": 0.5,
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "층고 전층 10m",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 3
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "'전층 10m'(p3 층고 행, p4 '창고 층고 10m') — 4F는 면적표상 사무/지원시설이나 '전층' 표기를 그대로 전사",
+                "raw_value": 10,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "용도 상온 (4F~B1 병합 셀)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 340.4959,
+                "unit": "m2",
+                "raw_text": "4F 연면적 103 (단위: 평)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+                "raw_value": 103,
+                "raw_unit": "평",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "4F 전용면적 사무실 103, 창고/전실 -",
+                "precision": "exact",
+                "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+                "source_locator": {
+                  "page": 6
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": null,
+                "conflict": false,
+                "note": "p7 '지상4층(지원시설)', p4 '4층 공간 사무실, 교육장, 식당, 샤워실, 회의실, 편의시설'. 면적표상 창고 면적 없음",
+                "flags": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "text": "A급 물류센터 (연면적 1만평 이상, 전층 접안 가능) 주장",
+      "quote": "'25년 6월 사용승인 완료된 희소성 있는 대형 A급(연면적 1만평 이상이며, 전 층 접안이 가능) 물류센터",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 2
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "text": "전층 접안 가능",
+      "quote": "접안여부 전 층 접안 가능",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 3
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "dock_count",
+      "text": "전층 동시접안 대수 56대",
+      "quote": "전층 동시접안 대수 56대 확보하여 효율적인 적재 및 출고 가능",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 4
+      },
+      "note": "접안 대수(화물차량 기준)이며 도크 수 아님. p29~30 표는 층별 56대(B1, 1F, 2F, 3F)로 기재 — 합산인지 층별인지 불명"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "text": "창고 층고 10m, 유효층고 평균 8m 이상 주장",
+      "quote": "창고 층고 10m, 유효 층고 평균 8m 이상 확보하여 효율적인 적재 가능",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 4
+      },
+      "note": "p3 유효층고 B1/1F/2F 약 8.5m, 3F 약 7.4~8.0m와 표현 상이(평균 8m 이상)"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "A/B동 분리 구조 — 접안 면적 및 공간 활용 효율 주장. asset_meta상 단일 동(main)이며 A/B동은 같은 건물 내 평면 구획으로 해석(G2 확인 필요)",
+      "quote": "A/B동 분리 구조로 접안 면적 및 공간 활용 효율 확보",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 4
+      },
+      "note": "평면도(p29~31)에 A/B 표기는 읽히지 않음"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "freight_elevator_count",
+      "text": "전층 편의시설·휴게실, 다수의 엘리베이터를 매 구역마다 설치 (대수·용량 기재 없음)",
+      "quote": "전층 편의시설 및 휴게실 확보하였으며 다수의 엘리베이터를 매 구역마다 설치함",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 4
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": null,
+      "text": "4층 사무실·교육장·식당 등 임차인 요청에 따라 공사 진행 가능",
+      "quote": "4층 공간 사무실, 교육장, 식당, 샤워실, 회의실, 편의시설 등 임차인의 요청에 따라 공사 진행 가능",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 4
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "진출입로 확장 공사 진행, 국도 인접 (토목 공사, 설비 이력 아님)",
+      "quote": "진출입로 확장 공사 진행하였으며 국도에 인접하여 교통 혼잡 및 민원 소지가 적음",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 4
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "임차인 입주 내부공사(4F 지원시설) 및 3F Fit-Out 조건. 설비 교체·대수선 이력 아님(임차 입주 공사)",
+      "quote": "2025.09.01 내부공사 진행 (입주공사기간 1개월)",
+      "year": 2025,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 7
+      },
+      "note": "3F 임대조건: Favor Fit-Out 8개월, Rent-Free 3.5개월(연)"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "주차대수 663대 기재 (asset_meta 노트: 설계개요 변경 후 634대)",
+      "quote": "주차대수 663대",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 3
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "임대차: B1·1F 현대모비스 15,914평(2025.08.01~2030.07.31, 3+2년), 2F·3F 현대글로비스 16,021평 및 4F 103평(2025.10.01~2030.09.30), 합계 32,038평. 임차 설비 소유 언급 없음",
+      "quote": "현대모비스 15,914 / 현대글로비스 16,021 / 합계 32,038",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 7
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "단면도 삽입 이미지에 '34,500'(세로 치수, 라벨 판독 불확실), '45,600'(건축물최고높이 라벨) 기재 (전사, 해석 없음)",
+      "quote": "34,500 / 45,600 (건축물 최고높이)",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 6
+      },
+      "note": "p6 단면도 그림 속 치수. 글자 해상도 낮아 라벨 판독 확신 낮음"
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "p5 제목에 다른 자산명 '안성 에버게인 물류센터 광역입지분석' 잔존 — 본건 자산명 아님(자산명 혼동 주의)",
+      "quote": "입지 분석 - 안성 에버게인 물류센터 광역입지분석",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 5
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "건폐율/용적률 58.98% / 132.31%, 건축면적 31,414㎡(9,503평)",
+      "quote": "건폐율/용적률 58.98% /132.31%",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 3
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "ramp_form",
+      "text": "지하 1층 평면도(p29)·지상 1~3층(p30)에 나선형으로 보이는 원형 경사로 도식과 외부 전경 사진(p33) 존재하나 램프 유형·형상·경사·폭은 텍스트로 기재 없음 → 필드 미기록",
+      "quote": "(도식/사진, 텍스트 기재 없음)",
+      "year": null,
+      "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+      "source_locator": {
+        "page": 29
+      }
+    }
+  ],
+  "missing": []
+}

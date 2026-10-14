@@ -1,0 +1,25 @@
+# 프로파일 파생 변수 정의 (설계서 §2.3 W2-⑥). 리스크 임계값이 아니라 분류 정의이므로 thresholds.yaml과 분리.
+
+# age_band: 룰 경계에 맞춘 연식 구간 (lt = 미만)
+age_bands:
+  - {lt: 8, label: "<8"}
+  - {lt: 12, label: "8-11"}
+  - {lt: 15, label: "12-14"}
+  - {lt: 18, label: "15-17"}
+  - {lt: 22, label: "18-21"}
+  - {lt: 25, label: "22-24"}
+  - {lt: 999, label: "25+"}
+
+# 온도대 분류 (cold_ratio = 저온·냉동 면적 / 연면적)
+temp_zone_classification:
+  ambient_max: 0.10   # 미만이면 상온
+  cold_min: 0.90      # 이상이면 저온, 그 사이는 복합
+
+# 패널·단열재 심재 → 가연성 등급
+panel_combustibility:
+  EPS: 가연
+  우레탄: 난연
+  글라스울: 불연
+  미네랄울: 불연
+  기타:
+temp_zone_classification_verified: true

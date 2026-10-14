@@ -1,0 +1,99 @@
+# Core Spec 스키마 (설계서 §1.5)
+# - level: asset(단지 공용) | building(동·증축분) | floor(층별 배열 원소)
+# - type: number | int | bool | enum | text | list
+# - unit: 정규화 단위 (normalize_units.py가 이 단위로 변환)
+# - range: 허용 범위 (벗어나면 플래그)
+# - favorable: IM이 '유리하게 과장'하는 방향 (higher | lower | none) — V01 방향 판정용
+# - drawing_types: 도면 탐색 우선순위 (field_extraction_guide.md와 일치)
+# - rule_input: 룰 트리거에 쓰이는 필드면 true (단일 출처일 때 G2 확인 대상)
+version: 1
+
+enums:
+  structure_type: [RC, PC, S, SRC, 복합]
+  ramp_type: [없음, 단방향, 양방향]          # 통행 방향 (램프 1개소 기준: 상·하행 분리 = 단방향)
+  ramp_form: [직선형, 곡선형, 나선형]        # 형상
+  panel_core: [EPS, 우레탄, 글라스울, 미네랄울, 기타]
+  sprinkler_type: [ESFR, 표준형, 랙인랙, 혼합, 준비작동식]   # 준비작동식: 저온창고 등 배관 방식 (헤드는 표준형 계열)
+  refrigerant: [암모니아, 프레온계열, CO2, 기타]
+  floor_use: [창고, 사무, 기계, 주차, 하역, 기타]
+  floor_temp: [상온, 저온, 냉동, 혼합]
+  ownership: [임대인, 임차인, 미확인]
+
+# enum 필드의 '유리한 순서' (앞일수록 매도자에게 유리) — V01 방향 판정용.
+# 여기 없는 enum은 방향을 판정하지 않는다(불일치만 기록).
+favor_order:
+  panel_core: [미네랄울, 글라스울, 우레탄, EPS, 기타]
+  sprinkler_type: [ESFR, 랙인랙, 혼합, 준비작동식, 표준형]
+  ramp_type: [양방향, 단방향, 없음]
+
+fields:
+  # ── 단지 공용 (asset) ─────────────────────────────
+  site_area_m2:          {level: asset, type: number, unit: m2, range: [1000, 2000000], favorable: higher, rule_input: false, label: 대지면적, drawing_types: [배치도]}
+  truck_yard_depth_m:    {level: asset, type: number, unit: m, range: [5, 100], favorable: higher, rule_input: true, label: 트럭야드 깊이, drawing_types: [배치도]}
+  flood_trace:           {level: asset, type: bool, favorable: lower, rule_input: true, label: 침수흔적 여부, sources: [public_api]}
+  flood_depth_m:         {level: asset, type: number, unit: m, range: [0, 20], favorable: lower, rule_input: true, label: 홍수위험지도 예상 침수심, sources: [public_api]}
+  soft_ground:           {level: asset, type: bool, favorable: lower, rule_input: true, label: 연약지반·매립지 해당, sources: [public_api]}
+
+  # ── 동 단위 (building) ────────────────────────────
+  completion_year:       {level: building, type: int, unit: year, range: [1970, 2035], favorable: higher, rule_input: true, label: 준공연도(사용승인), drawing_types: [표제란]}
+  gross_floor_area_m2:   {level: building, type: number, unit: m2, range: [1000, 1000000], favorable: higher, rule_input: true, label: 연면적, drawing_types: [배치도, 면적표]}
+  floors_above:          {level: building, type: int, unit: floor, range: [1, 20], favorable: none, rule_input: true, label: 지상층수, drawing_types: [단면도, 입면도]}
+  floors_below:          {level: building, type: int, unit: floor, range: [0, 6], favorable: none, rule_input: true, label: 지하층수, drawing_types: [단면도]}
+  structure_type:        {level: building, type: enum, enum: structure_type, favorable: none, rule_input: true, label: 구조형식, drawing_types: [구조일반사항, 단면도]}
+  cold_area_m2:          {level: building, type: number, unit: m2, range: [0, 1000000], favorable: none, rule_input: true, label: 저온·냉동 면적, drawing_types: [평면도, 면적표]}
+  cold_ratio_pct:        {level: building, type: number, unit: pct, range: [0, 100], favorable: none, rule_input: true, label: 저온·냉동 면적 비율(기재값), drawing_types: [면적표]}
+  column_span_x_m:       {level: building, type: number, unit: m, range: [5, 30], favorable: higher, rule_input: true, label: 기둥 스팬(장변), drawing_types: [평면도, 구조평면도]}
+  column_span_y_m:       {level: building, type: number, unit: m, range: [5, 30], favorable: higher, rule_input: true, label: 기둥 스팬(단변), drawing_types: [평면도, 구조평면도]}
+  dock_count:            {level: building, type: int, unit: ea, range: [0, 2000], favorable: higher, rule_input: true, label: 도크 수, drawing_types: [평면도]}
+  dock_leveler_count:    {level: building, type: int, unit: ea, range: [0, 2000], favorable: higher, rule_input: true, label: 도크레벨러 수, drawing_types: [평면도]}
+  ramp_type:             {level: building, type: enum, enum: ramp_type, favorable: none, rule_input: true, label: 램프 통행 방향, drawing_types: [배치도, 평면도]}
+  ramp_form:             {level: building, type: enum, enum: ramp_form, favorable: none, rule_input: true, label: 램프 형상, drawing_types: [배치도, 평면도, 램프상세도]}
+  terrain_multi_level_access: {level: building, type: bool, favorable: higher, rule_input: true, label: 지형 단차 진입도로로 여러 층 직접 접안, drawing_types: [배치도, 단면도, 토목 공사계획평면도]}
+  ramp_slope_pct:        {level: building, type: number, unit: pct, range: [0, 30], favorable: lower, rule_input: true, label: 램프 경사, drawing_types: [단면도, 램프상세도]}
+  ramp_width_m:          {level: building, type: number, unit: m, range: [3, 40], favorable: higher, rule_input: true, label: 램프 폭, drawing_types: [평면도, 램프상세도]}
+  turning_radius_m:      {level: building, type: number, unit: m, range: [3, 50], favorable: higher, rule_input: true, label: 대형차 최소 회전반경(램프·하역장 동선), drawing_types: [평면도, 램프상세도, 배치도]}
+  freight_elevator_count: {level: building, type: int, unit: ea, range: [0, 200], favorable: higher, rule_input: true, label: 화물용 승강기 대수, drawing_types: [평면도, 기계도면]}
+  freight_elevator_capacity_t: {level: building, type: number, unit: t, range: [0.5, 30], favorable: higher, rule_input: false, label: 화물용 승강기 용량, drawing_types: [기계도면]}
+  vrc_count:             {level: building, type: int, unit: ea, range: [0, 200], favorable: higher, rule_input: true, label: 수직반송기 대수, drawing_types: [평면도, 기계도면]}
+  wall_panel_core:       {level: building, type: enum, enum: panel_core, favorable: none, rule_input: true, label: 외벽 패널 심재, drawing_types: [외벽상세도, 마감표]}
+  roof_panel_core:       {level: building, type: enum, enum: panel_core, favorable: none, rule_input: true, label: 지붕 패널 심재, drawing_types: [외벽상세도, 마감표]}
+  roof_area_m2:          {level: building, type: number, unit: m2, range: [100, 500000], favorable: none, rule_input: false, label: 지붕 면적, drawing_types: [지붕평면도]}
+  solar_installed:       {level: building, type: bool, favorable: none, rule_input: true, label: 태양광 설치 여부, drawing_types: [지붕평면도]}
+  warehouse_depth_m:     {level: building, type: number, unit: m, range: [10, 300], favorable: lower, rule_input: true, label: 창고 내부 깊이(하역장 측 벽~반대편 벽), drawing_types: [평면도, 배치도]}
+  fire_compartment_max_m2: {level: building, type: number, unit: m2, range: [100, 100000], favorable: lower, rule_input: true, label: 방화구획 최대 면적, drawing_types: [방화계획도, 소방도면, 평면도]}
+  ohd_sprinkler_gap:     {level: building, type: bool, favorable: lower, rule_input: true, label: 오버헤드도어 하부 스프링클러 살수장애(헤드 미설치), drawing_types: [소방도면, 평면도]}
+  sprinkler_type:        {level: building, type: enum, enum: sprinkler_type, favorable: none, rule_input: true, label: 스프링클러 형식, drawing_types: [소방도면]}
+  refrigerant:           {level: building, type: enum, enum: refrigerant, favorable: none, rule_input: true, label: 냉매 종류, drawing_types: [기계도면]}
+  refrigeration_system:  {level: building, type: text, favorable: none, rule_input: false, label: 냉동설비 형식, drawing_types: [기계도면]}
+  cold_floor_heave_protection: {level: building, type: bool, favorable: higher, rule_input: true, label: 저온동 바닥 동상 방지 설비, drawing_types: [바닥상세도, 기계도면]}
+  cold_insulation_material: {level: building, type: enum, enum: panel_core, favorable: none, rule_input: true, label: 저온동 단열재 종류, drawing_types: [단면상세도, 단열계획도]}
+  cold_insulation_thickness_mm: {level: building, type: number, unit: mm, range: [25, 400], favorable: higher, rule_input: false, label: 저온동 단열재 두께, drawing_types: [단면상세도, 단열계획도]}
+  power_capacity_kw:     {level: building, type: number, unit: kW, range: [100, 200000], favorable: higher, rule_input: true, label: 수전 용량, drawing_types: [단선결선도]}
+  transformer_capacity_kva: {level: building, type: number, unit: kVA, range: [100, 300000], favorable: higher, rule_input: false, label: 변압기 총용량, drawing_types: [단선결선도]}
+  renovation_history:    {level: building, type: list, favorable: none, rule_input: true, label: 주요 설비 교체·리노베이션 이력, sources: [im], note: "원소 {year, item, scope, quote}. G2 확정된 원소만 리스크 리셋 근거"}
+  refrigeration_owner:   {level: building, type: enum, enum: ownership, favorable: none, rule_input: false, label: 냉동설비 소유, sources: [im]}
+  dock_equipment_owner:  {level: building, type: enum, enum: ownership, favorable: none, rule_input: false, label: 도크레벨러·도크시트 소유, sources: [im]}
+  rack_owner:            {level: building, type: enum, enum: ownership, favorable: none, rule_input: false, label: 랙 소유, sources: [im]}
+  vrc_owner:             {level: building, type: enum, enum: ownership, favorable: none, rule_input: false, label: 수직반송기 소유, sources: [im]}
+
+  # ── 층 단위 (floors[]) ────────────────────────────
+  use:                   {level: floor, type: enum, enum: floor_use, favorable: none, rule_input: true, label: 층 용도, drawing_types: [평면도]}
+  temp:                  {level: floor, type: enum, enum: floor_temp, favorable: none, rule_input: true, label: 층 온도대, drawing_types: [평면도]}
+  area_m2:               {level: floor, type: number, unit: m2, range: [10, 300000], favorable: higher, rule_input: true, label: 층 면적, drawing_types: [면적표, 평면도]}
+  floor_load_tpm2:       {level: floor, type: number, unit: t/m2, range: [0.3, 10], favorable: higher, rule_input: true, label: 바닥 설계하중, drawing_types: [구조일반사항, 평면도]}
+  clear_height_m:        {level: floor, type: number, unit: m, range: [2.5, 20], favorable: higher, rule_input: true, label: 유효층고(천정·보·배관 하단), drawing_types: [단면도]}
+  floor_height_m:        {level: floor, type: number, unit: m, range: [2.5, 25], favorable: higher, rule_input: false, label: 층고(바닥~바닥), drawing_types: [단면도]}
+  direct_truck_access:   {level: floor, type: bool, favorable: higher, rule_input: true, label: 차량 직접접안 가능, drawing_types: [평면도, 단면도]}
+  dock_route_column_conflict: {level: floor, type: bool, favorable: lower, rule_input: true, label: 램프→하역장 동선 기둥 간섭(대형차), drawing_types: [평면도]}
+
+# 층 라벨 정규화: B2, B1, 1F, 2F, … , RF (지붕), M1F(메자닌)
+floor_label_pattern: "^(B[1-9]|[1-9][0-9]?F|M[1-9][0-9]?F|RF)$"
+
+# 값 객체 메타데이터 (설계서 §1.5.3)
+value_meta:
+  method: [script, vision, vision_hinted, im_text, dxf, public_api, user, vector]   # vector = 벡터 PDF 좌표 측정(도면 표기값 아님) — 보고서에 📐 표시
+  confidence: [high, medium, low]
+  source_grade: [IM주장, 확정]
+  status: [확정, 확정(교차), 주장값, 불일치, 미확인]
+  missing_reason: [도면없음, 미기재, 판독불가]
+  precision: [exact, approx, lower_bound, upper_bound, rounded]

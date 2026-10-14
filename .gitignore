@@ -1,0 +1,21 @@
+# 원본 자료 (기밀·대용량)
+/*.pdf
+/*.docx
+/*.pptx
+/*.xlsx
+/*.zip
+/input/
+/kb/corpus/deals/
+/kb/corpus/inbox/
+/docs/source_reports/
+# 실행 산출물 중 대용량 이미지
+/output/**/tiles/
+/output/**/thumbs/
+/output/**/pages/
+/output/**/crops/
+# 비밀값
+.env
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/

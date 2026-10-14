@@ -1,0 +1,328 @@
+{
+  "asset_id": "cheongna",
+  "created_at": "2026-10-13T13:11:35+09:00",
+  "sheets": [
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p001",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 1,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "29 Due Diligence Service 청라로지스틱스물류센터 [평면도] 지하 1 층 지상1 층",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p001.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "평면도 (지하1층·지상1층)",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F"
+      ],
+      "readable": true,
+      "note": "보고서 p29. 한 페이지 2도면(B1 상단/1F 하단)."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p002",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 2,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "30 Due Diligence Service 청라로지스틱스물류센터 지상2 층 지상3 층",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p002.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "평면도 (지상2층·3층)",
+      "building_id": "main",
+      "floors": [
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "보고서 p30. 한 페이지 2도면."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p003",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 3,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "31 Due Diligence Service 청라로지스틱스물류센터 지상 4 층 (쿠팡 대수선도면) 지상 5 층 (쿠팡 대수선도면)",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p003.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "평면도 (지상4층·5층, 쿠팡 대수선도면)",
+      "building_id": "main",
+      "floors": [
+        "4F",
+        "5F"
+      ],
+      "readable": true,
+      "note": "보고서 p31. 한 페이지 2도면. 두 도면 모두 대수선(쿠팡) 도면 표기."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p004",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 4,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "32 Due Diligence Service 청라로지스틱스물류센터 지상 6 층 (쿠팡 대수선도면) 지상 7 층",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p004.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "평면도 (지상6층·7층)",
+      "building_id": "main",
+      "floors": [
+        "6F",
+        "7F"
+      ],
+      "readable": true,
+      "note": "보고서 p32. 6F는 쿠팡 대수선도면, 7F는 일반. 한 페이지 2도면."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p005",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 5,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "33 Due Diligence Service 청라로지스틱스물류센터 지상 8 층 지상 9 층",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p005.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "평면도 (지상8층·9층)",
+      "building_id": "main",
+      "floors": [
+        "8F",
+        "9F"
+      ],
+      "readable": true,
+      "note": "보고서 p33. 한 페이지 2도면."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p006",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 6,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "34 Due Diligence Service 청라로지스틱스물류센터 지상 10 층 옥탑",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p006.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p006_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "평면도 (지상10층·옥탑)",
+      "building_id": "main",
+      "floors": [
+        "10F",
+        "RF"
+      ],
+      "readable": true,
+      "note": "보고서 p34. 한 페이지 2도면. 옥탑 라벨은 RF로 정규화."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p007",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 7,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "35 Due Diligence Service 청라로지스틱스물류센터 [입면도] 정 면 도 우 측 면 도",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p007.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p007_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": null,
+      "title": "입면도 (정면도·우측면도)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p35. 한 페이지 2도면."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p008",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 8,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "36 Due Diligence Service 청라로지스틱스물류센터 배 면 도 좌 측 면 도",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p008.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p008_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": null,
+      "title": "입면도 (배면도·좌측면도)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p36. 한 페이지 2도면."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p009",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 9,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "37 Due Diligence Service 청라로지스틱스물류센터 [단면도] 주 단 면 도 - 1 주 단 면 도 – 2",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p009.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p009_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": null,
+      "title": "단면도 (주단면도-1·주단면도-2)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p37. 상단 종단면(Y축 방향), 하단 횡단면 2건(횡단면도-1 Y13~Y14, 횡단면도-2 Y4~Y5)을 주단면도-2로 묶은 페이지."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p010",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 10,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "171 Due Diligence Service 청라로지스틱스물류센터 2.3 설계 검토 - 굴착 및 흙막이공사 설계에 적용된 흙막이공사는 굴착을 위한 가시설 공사로 지하1 층 구간에 쉬트파일 + Earth Anchor 공법과 내부 단차 구간에 자립식 쉬트파일로 계획되어 있으며, 부지내 여유가 많아 Open Cut 을 병행하여 흙막이를 최소화 하였다. 최대 굴착 깊이는 약 9m 내외로 지하안전영향평가 대상은 해당하지 않는 것으로 판단된다. - 부대토목 4 면이 주변 도로와 인접해 있고 부지내는 평지로 부지 이동∙활용이 용이하고 옹벽등 ",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p010.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p010_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": null,
+      "title": "우수계획 평면도 (배수 계획)",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p171. 본문 텍스트(2.3 설계검토·2.4 준공 관련 검토) 위주 페이지이며 도면은 우수계획 평면도 1건. 대지 단위 계획도라 배치도로 분류했으나 엄밀히는 배수계획도라 애매."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p011",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 11,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "172 Due Diligence Service 청라로지스틱스물류센터 우수처리는 부지 내부에서 발생되는 우수를 동측, 서측, 남측, 북측 인접 보도 및 도로에 설치된 기존 우수맨홀에 흄관(D800, D1000)으로 최종 연결하는 것으로 계획되었다. . (준공도면과 현장시공 일치) - 오수 계획 오수처리는 건물 내부에서 발생되는 오수를 D300 PVC VG1 관을 통하여 남측, 동측 기존 오수맨홀로 최종 연결하는 것으로 계획되었다. (준공도면과 현장시공 일치) 3. 옥외 지상구간 실사 결과 3.1 배치도 (오수계획 평면도 / None ",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p011.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p011_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": null,
+      "title": "1층 배치도 (오수계획 평면도 병기)",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p172. 상단 오수계획 평면도와 하단 1층 배치도 2건, 크기가 비슷해 배치도 기준 분류. 본문 텍스트 혼재. 오수계획 평면도는 배수계획도라 애매."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p012",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 12,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "174 Due Diligence Service 청라로지스틱스물류센터 3.2 옥외 지상 구간 옥외 지상 구간의 실사는 육안 조사 위주로 시행하였으며, 구간별 세부 실사는 다음과 같다. “①구간”은 차량 연결통로 구간으로 조성되어 있으며, 주요 시설물은 콘크리트 포장과 및 배수 시설로, 전반적으로 “보완”이 필요한 수준으로 판단되며, 차량 통행로 구간의 콘크리트 포장은 전체적으로 망상 균열이 조사되었다. 사전에 보수작업이 이루어졌으나, 화물차량 통행에 따라 추가로 균열이 진행되고 있어 조속한 시일 내 보수를 권고한다. 횡단배수로 손상 ",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p012.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p012_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": null,
+      "title": "옥외 지상구간 배치도 (①~④구간 표시)",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p174. 1층 배치도 위에 실사 구간(①~④)을 덧표기한 도식. 본문 텍스트 혼재."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p013",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 13,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "182 Due Diligence Service 청라로지스틱스물류센터 ( 경계복원측량 성과도 )",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p013.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p013_titleblock.png",
+      "drawing_type": "측량성과도",
+      "sheet_no": null,
+      "title": "경계복원측량 성과도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p182. 한 페이지 2도면(경계복원측량 성과도 2매)."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p014",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 14,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "183 Due Diligence Service 청라로지스틱스물류센터 ( 지적현황측량 성과도 )",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p014.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p014_titleblock.png",
+      "drawing_type": "측량성과도",
+      "sheet_no": null,
+      "title": "지적현황측량 성과도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p183. 한 페이지 2도면(지적현황측량 성과도 2매)."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p015",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 15,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "197 Due Diligence Service 청라로지스틱스물류센터 수변전설비 단선결선도 및 현황판",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p015.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p015_titleblock.png",
+      "drawing_type": "단선결선도",
+      "sheet_no": null,
+      "title": "수변전설비 단선결선도 및 현황판 (22.9kV 단선결선도-1·-2)",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p197. 한 페이지 2도면(22.9kV 수변전설비 단선결선도-1, -2)."
+    },
+    {
+      "sheet_id": "cheongna_실사보고서_수록도면_p016",
+      "file": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "page": 16,
+      "page_size_pt": [
+        595.3,
+        841.9
+      ],
+      "text_hint": "198 Due Diligence Service 청라로지스틱스물류센터",
+      "thumb": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p016.png",
+      "titleblock": "output/wf2/cheongna/thumbs/cheongna_실사보고서_수록도면_p016_titleblock.png",
+      "drawing_type": "단선결선도",
+      "sheet_no": null,
+      "title": "저압반 단선결선도 및 부전기실 22.9kV 수변전설비 단선결선도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "보고서 p198. 상단 저압반 단선결선도, 하단 부전기실 22.9kV 수변전설비 단선결선도(EE-101 표기, 사진/스캔본 느낌). 한 페이지 2도면."
+    }
+  ]
+}

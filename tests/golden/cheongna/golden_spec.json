@@ -1,0 +1,2085 @@
+{
+  "asset_id": "cheongna",
+  "record_type": "golden_spec",
+  "created_at": "2026-10-13T12:00:00+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 98905.4,
+        "unit": "m2",
+        "raw_text": "대지면적 98,905.40 ㎡",
+        "precision": "exact",
+        "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+        "source_locator": {
+          "page": 24,
+          "sheet_no": null,
+          "bbox": null,
+          "crop": null
+        },
+        "method": "user",
+        "confidence": "high",
+        "source_grade": "확정",
+        "status": "확정",
+        "conflict": false,
+        "note": "p5 '98,905.40 ㎡ 대지', 사용승인서(p293) '98,905.4 ㎡'"
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "청라로지스틱스 물류센터(물류창고동)",
+      "phase": "원준공",
+      "fields": {
+        "completion_year": [
+          {
+            "value": 2022,
+            "unit": "year",
+            "raw_text": "사용승인연도 2022 년 11 월 25 일",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 25,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 430252.92,
+            "unit": "m2",
+            "raw_text": "연면적 430,252.92 ㎡",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 25,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "층별 면적(p25) 합계와 일치. 공작물주차장 A·B동은 연면적에 미포함"
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 10,
+            "unit": "floor",
+            "raw_text": "층수 지하1 층/지상10 층",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 25,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "층수 지하1 층/지상10 층",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 25,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "PC",
+            "unit": null,
+            "raw_text": "본동의 주요 골조 형식은 PC 조로 설계",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 44,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "차량램프 SRC조, 기초·계단실·지하외벽 RC조(p45). p25 '주요구조 PC 구조, 철골조'. IM p5는 'PC, 철골철근콘크리트' 병기"
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "SPAN 창고 : 11mx11m, 하역장 : 13mx11m, 차로 : 16mx11m",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 51,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "창고 구간 값. 하역장 13m, 차로 16m 장경간"
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "SPAN 창고 : 11mx11m",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 51,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "단방향",
+            "unit": null,
+            "raw_text": "2 개의 램프를 설치하여 ... 일방향 주행으로",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 5,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "상·하행 분리 원형(루프) 램프 2개소. IM p13 'One-way' 동일"
+          }
+        ],
+        "ramp_slope_pct": [
+          {
+            "value": 8.52,
+            "unit": "pct",
+            "raw_text": "램프 경사도 6.41% ~ 8.52%",
+            "precision": "upper_bound",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 51,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "범위 기재(6.41~8.52%) 중 최대값. IM p13은 '경사도 7.5% 이하'"
+          }
+        ],
+        "ramp_width_m": [
+          {
+            "value": 8.0,
+            "unit": "m",
+            "raw_text": "램 프 폭 8.0M(연석포함)",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 51,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "연석 포함 폭. IM p13은 '폭 7.4m'"
+          }
+        ],
+        "freight_elevator_count": [
+          {
+            "value": 2,
+            "unit": "ea",
+            "raw_text": "화물용(5 Ton) 2 대",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 14,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p25 '승용 29 대 (비상용 겸용), 화물용 2 대', p318 '5,000kg 2 대'"
+          }
+        ],
+        "freight_elevator_capacity_t": [
+          {
+            "value": 5,
+            "unit": "t",
+            "raw_text": "화물용(5 Ton) 2 대",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 14,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "외벽 THK100 글라스울판넬",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 25,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "solar_installed": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "발전용량 약 406kW 의 태양광 발전설비가 시공되어",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 14,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "10층 옥외구간, 제1전기실 TR-5,7 계통연계 자가소비"
+          }
+        ],
+        "refrigerant": [
+          {
+            "value": "프레온계열",
+            "unit": null,
+            "raw_text": "가스명(능력) : R-404a 548.44 RT",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 351,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "고압가스 냉동제조 자율검사증명서(p351~353): R-404a 548.44RT×2(제3·4기계실), 161.6RT(제1기계실)"
+          }
+        ],
+        "refrigeration_system": [
+          {
+            "value": "수냉식 스크류냉동기(컨덴싱유니트) 36대 + 유니트쿨러(C&F급 60, C급 35, 작업장용 74) + 냉각탑 220RT×18대",
+            "unit": null,
+            "raw_text": "냉동설비 수냉식 스크류냉동기 : 36 대 / 유니트쿨러 : C&F 급 60 대, C 급 35 대, 일반 작업장용 74 대 / 냉각탑 : 220RT * 18 대",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 26,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p186은 작업장용 유니트쿨러 '일반 70 대'로 기재(p26 74대와 상이). CDU2,4,5 증발온도 -30℃(p10)/-32℃(p186)"
+          }
+        ],
+        "cold_insulation_material": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "저온 창고 벽 : THK200 내화 글라스울 패널",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 51,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "천장은 '저온창고;우레탄뿜칠'(p25). 벽 기준 기록"
+          }
+        ],
+        "cold_insulation_thickness_mm": [
+          {
+            "value": 200,
+            "unit": "mm",
+            "raw_text": "벽 : THK200 내화 글라스울 패널",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 51,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "저온창고 벽체 패널 두께"
+          }
+        ],
+        "power_capacity_kw": [
+          {
+            "value": 24750,
+            "unit": "kW",
+            "raw_text": "건축물의 전체 수전전력은 총 24,750kW",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 12,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "제1전기실 19,750kW(2022.11) + 제2전기실 5,000kW(2024.05, 임차인 전용설비로 추가 설치)"
+          }
+        ],
+        "transformer_capacity_kva": [
+          {
+            "value": 24750,
+            "unit": "kVA",
+            "raw_text": "건축물 전체 TR 수량은 17 대, 총 24,750kVA",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 12,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "renovation_history": [
+          {
+            "value": [
+              {
+                "year": 2024,
+                "item": "대수선 사용승인(1차)",
+                "scope": "임차 구간 대수선(층별)",
+                "quote": "대수선 2024 년 7 월 30 일, 2024 년 8 월 5 일, 2025 년3 월 12 일",
+                "page": 25
+              },
+              {
+                "year": 2024,
+                "item": "대수선 사용승인(2차, 2024-건축과-대수선허가-3)",
+                "scope": "임차 구간 대수선",
+                "quote": "대수선 사용승인서 2024년 08월 05일",
+                "page": 294
+              },
+              {
+                "year": 2025,
+                "item": "대수선 사용승인(3차, 2024-건축과-대수선허가-15)",
+                "scope": "임차 구간 대수선",
+                "quote": "대수선 사용승인서 2025년 03월 12일",
+                "page": 295
+              },
+              {
+                "year": null,
+                "item": "4~6층 쿠팡 대수선(평면도 '쿠팡 대수선도면')",
+                "scope": "4F, 5F, 6F",
+                "quote": "지상 4 층 (쿠팡 대수선도면)",
+                "page": 31
+              },
+              {
+                "year": 2024,
+                "item": "제2전기실 신설(수전 5,000kW, TR 3대) - 임차인 전용설비",
+                "scope": "1F 제2전기실",
+                "quote": "제2 전기실은 24 년 5 월에 설치된 수전용량 5,000kW",
+                "page": 12
+              },
+              {
+                "year": 2024,
+                "item": "자동화재탐지설비 R형 수신기 교체",
+                "scope": "방재실(전체 소방 회로)",
+                "quote": "2024 년 06 월에 자동화재탐지설비 R 형 수신기를 교체",
+                "page": 17
+              },
+              {
+                "year": 2024,
+                "item": "소화전 이설 및 스프링클러 헤드 증설(층별 대수선, 2024~2025)",
+                "scope": "대수선 층",
+                "quote": "소화전 이설 및 스프링클러 헤드 증설 공사가 있었으며",
+                "page": 16
+              },
+              {
+                "year": null,
+                "item": "1층 South 저온창고 → 상온창고 전환",
+                "scope": "1F South",
+                "quote": "상온창고(기존 저온창고)",
+                "page": 98
+              },
+              {
+                "year": 2025,
+                "item": "1층 공실 창고 대수선 허가(2025-건축과-대수선허가-17, 허가일 2025.09.05)",
+                "scope": "1F 공실 창고",
+                "note": "p296 허가서 일자는 2025.09.05로 p235(2025.10.02)와 상이",
+                "quote": "지상1 층 공실 부분의 창고는 2025 년10 월02 일 대수선 허가를 받았으며",
+                "page": 235
+              }
+            ],
+            "unit": null,
+            "raw_text": "대수선 2024 년 7 월 30 일, 2024 년 8 월 5 일, 2025 년3 월 12 일",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 25,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "원소별 근거 페이지는 각 원소의 page 참조"
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "나선형",
+            "unit": null,
+            "raw_text": "지상1층 평면도 — 가운데 OPEN 타원형 연속 램프 2개소",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 29
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "2026-10-13 추가: 본문 텍스트에 형상 기재 없음(p5 '2개의 램프, 일방향 주행'). PCA 수록 평면도(p29) 이미지로 확인"
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "기계",
+                "unit": null,
+                "raw_text": "지하 1층 기계실, 전기실",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 2843.91,
+                "unit": "m2",
+                "raw_text": "지하1층 기계실, 전기실 2,843.91",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 7.7,
+                "unit": "m",
+                "raw_text": "천 정 고 B1 : 7.7m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 8.5,
+                "unit": "m",
+                "raw_text": "층 고 B1 : 8.5m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "1층 상온창고, 저온창고, 사무실, 주차장, 기계전기실, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "혼합",
+                "unit": null,
+                "raw_text": "1층 상온창고, 저온창고",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "South 상온(기존 저온에서 전환, p98) / North 저온 / 2026-10-13 확인: 현황은 혼합(p25·p98). PCA 수록 평면·단면도에는 저온만 표기 — 상온 전환 이전 준공도면으로 보임. 도면 판독 \"저온\"은 도면 기준으로는 맞는 읽기이며 IM–도면–현황 차이 테스트 케이스"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 59561.7,
+                "unit": "m2",
+                "raw_text": "1층 ... 59,561.70",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20kN/m2",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "상온창고 구간 값. 저온창고 25kN/m2, 하역장·램프 25kN/m2(p45). 원 단위 kN/m2 유지"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 9.25,
+                "unit": "m",
+                "raw_text": "천 정 고 1F : 9.25m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "층 고 1F : 10m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "1 층/차량통로 바닥 균열+누수흔적",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 48,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "하역장·차량통로 존재(p48, p113~114)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "2층 사무실, 기계전기실, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 6793.7,
+                "unit": "m2",
+                "raw_text": "2층 ... 6,793.70",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 5.0,
+                "unit": "kN/m2",
+                "raw_text": "사무실, 홀, 복도 5.0kN/m2",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "용도별 설계 활하중(p45)을 해당 층 주용도에 대응. 원 단위 kN/m2 유지"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 2.7,
+                "unit": "m",
+                "raw_text": "천 정 고 2F : 2.7m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 5,
+                "unit": "m",
+                "raw_text": "층 고 2F : 5m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "3층 상온창고, 저온창고, 주차장, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "혼합",
+                "unit": null,
+                "raw_text": "3층 상온창고, 저온창고",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 68661.28,
+                "unit": "m2",
+                "raw_text": "3층 ... 68,661.28",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20kN/m2",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "상온창고 구간 값. 저온창고 25kN/m2, 하역장·램프 25kN/m2(p45). 원 단위 kN/m2 유지"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 9.55,
+                "unit": "m",
+                "raw_text": "천 정 고 3F : 9.55m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "층 고 3F : 10m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "3F 하역장, 하향램프 (3F→1F)",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 116,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "3층 하역장 사진(p114~119)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "4층 상온창고, 주차장, 사무실, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "4층 상온창고",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 68661.28,
+                "unit": "m2",
+                "raw_text": "4층 ... 68,661.28",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20kN/m2",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "용도별 설계 활하중(p45)을 해당 층 주용도에 대응. 원 단위 kN/m2 유지"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 9.55,
+                "unit": "m",
+                "raw_text": "천 정 고 4F : 9.55m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "층 고 4F : 10m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "4 층/차량통로 천정 PC 조인트 누수흔적",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 48,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "4층 하역장 사진(p116~117)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "5F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "5층 사무실, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 5238.31,
+                "unit": "m2",
+                "raw_text": "5층 사무실, 코어 5,238.31",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 5.0,
+                "unit": "kN/m2",
+                "raw_text": "사무실, 홀, 복도 5.0kN/m2",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "용도별 설계 활하중(p45)을 해당 층 주용도에 대응. 원 단위 kN/m2 유지"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 2.7,
+                "unit": "m",
+                "raw_text": "천 정 고 5F : 2.7m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 5,
+                "unit": "m",
+                "raw_text": "층 고 5F : 5m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "6F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "6층 상온창고, 주차장, 사무실, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "6층 상온창고",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 68661.28,
+                "unit": "m2",
+                "raw_text": "6층 ... 68,661.28",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20kN/m2",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "용도별 설계 활하중(p45)을 해당 층 주용도에 대응. 원 단위 kN/m2 유지"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 9.55,
+                "unit": "m",
+                "raw_text": "천 정 고 6F : 9.55m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "층 고 6F : 10m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "6 층/차량통로 바닥 균열, 파손",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 48,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "6층 하역장 사진(p117)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "7F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "7층 상온창고, 주차장, 사무실, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "7층 상온창고",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 68661.28,
+                "unit": "m2",
+                "raw_text": "7층 ... 68,661.28",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20kN/m2",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "용도별 설계 활하중(p45)을 해당 층 주용도에 대응. 원 단위 kN/m2 유지"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 9.55,
+                "unit": "m",
+                "raw_text": "천 정 고 7F : 9.55m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "층 고 7F : 10m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "2.4. 각층 주행로 램프 - 각층 주행로는 ...",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 7,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "7층 개별 하역장 기재는 없음. '각층 주행로'(p7) 및 단면도(p37) 근거 - 검토 필요"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "8F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "8층 사무실, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 5238.31,
+                "unit": "m2",
+                "raw_text": "8층 사무실, 코어 5,238.31",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 5.0,
+                "unit": "kN/m2",
+                "raw_text": "사무실, 홀, 복도 5.0kN/m2",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "용도별 설계 활하중(p45)을 해당 층 주용도에 대응. 원 단위 kN/m2 유지"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 2.7,
+                "unit": "m",
+                "raw_text": "천 정 고 8F : 2.7m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 5,
+                "unit": "m",
+                "raw_text": "층 고 8F : 5m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "9F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "9층 상온창고, 주차장, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "9층 상온창고",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 68816.71,
+                "unit": "m2",
+                "raw_text": "9층 ... 68,816.71",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20kN/m2",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "용도별 설계 활하중(p45)을 해당 층 주용도에 대응. 원 단위 kN/m2 유지"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 9.937,
+                "unit": "m",
+                "raw_text": "천 정 고 9F : 9.937m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.8,
+                "unit": "m",
+                "raw_text": "층 고 9F : 10.8m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "9 층/하역장 지게차램프 난간 파손",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 48,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "9층 하역장 사진(p116)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "10F",
+          "fields": {
+            "use": [
+              {
+                "value": "기타",
+                "unit": null,
+                "raw_text": "10층 후생시설, 기계전기실, 코어",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "후생시설(식당·주방·휴게)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 7115.16,
+                "unit": "m2",
+                "raw_text": "10층 ... 7,115.16",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 25,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 2.7,
+                "unit": "m",
+                "raw_text": "천 정 고 10F : 2.7m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "PCA 표기 '천정고'"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 5.2,
+                "unit": "m",
+                "raw_text": "층 고 10F : 5.2m",
+                "precision": "exact",
+                "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+                "source_locator": {
+                  "page": 51,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "building_id": "parking_a",
+      "label": "공작물주차장 A동",
+      "phase": "원준공",
+      "fields": {
+        "structure_type": [
+          {
+            "value": "S",
+            "unit": null,
+            "raw_text": "별동으로 시공된 공작물주차장은 지상2 층의 철골구조로서",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p45 '공작물주차장' 단일 기재를 A·B동에 공통 적용(p14 '옥외 구조물주차장 A, B 동', p181 '건물 3 동(공작물 주차장A, B, 물류창고)')"
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 2,
+            "unit": "floor",
+            "raw_text": "공작물주차장은 지상2 층의 철골구조",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p45 '공작물주차장' 단일 기재를 A·B동에 공통 적용(p14 '옥외 구조물주차장 A, B 동', p181 '건물 3 동(공작물 주차장A, B, 물류창고)')"
+          }
+        ]
+      },
+      "floors": []
+    },
+    {
+      "building_id": "parking_b",
+      "label": "공작물주차장 B동",
+      "phase": "원준공",
+      "fields": {
+        "structure_type": [
+          {
+            "value": "S",
+            "unit": null,
+            "raw_text": "별동으로 시공된 공작물주차장은 지상2 층의 철골구조로서",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p45 '공작물주차장' 단일 기재를 A·B동에 공통 적용(p14 '옥외 구조물주차장 A, B 동', p181 '건물 3 동(공작물 주차장A, B, 물류창고)')"
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 2,
+            "unit": "floor",
+            "raw_text": "공작물주차장은 지상2 층의 철골구조",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p45 '공작물주차장' 단일 기재를 A·B동에 공통 적용(p14 '옥외 구조물주차장 A, B 동', p181 '건물 3 동(공작물 주차장A, B, 물류창고)')"
+          }
+        ]
+      },
+      "floors": []
+    }
+  ],
+  "claims": [],
+  "missing": []
+}

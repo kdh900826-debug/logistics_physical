@@ -1,0 +1,50 @@
+{
+  "asset_id": "seoknam",
+  "state": "AWAITING_CONFIRMATION",
+  "mode": "정규",
+  "ruleset_version": "ruleset-untagged+uncommitted",
+  "created_at": "2026-10-13T13:11:37+09:00",
+  "history": [
+    {
+      "at": "2026-10-13T13:11:37+09:00",
+      "state": "INTAKE"
+    },
+    {
+      "at": "2026-10-13T13:23:55+09:00",
+      "state": "RECONCILED",
+      "note": "확인 21 / 자동확정 22"
+    },
+    {
+      "at": "2026-10-13T13:25:15+09:00",
+      "state": "RECONCILED",
+      "note": "확인 21 / 자동확정 22"
+    },
+    {
+      "at": "2026-10-13T13:25:15+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "G2 대기"
+    },
+    {
+      "at": "2026-10-13T13:40:15+09:00",
+      "state": "RECONCILED",
+      "note": "확인 27 / 자동확정 28"
+    },
+    {
+      "at": "2026-10-13T13:41:08+09:00",
+      "state": "RECONCILED",
+      "note": "확인 25 / 자동확정 30"
+    },
+    {
+      "at": "2026-10-13T13:41:19+09:00",
+      "state": "RECONCILED",
+      "note": "확인 25 / 자동확정 30"
+    },
+    {
+      "at": "2026-10-13T13:41:19+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "G2 대기(골든 수정 후 재대조)"
+    }
+  ],
+  "halt_reason": null,
+  "revisions": []
+}

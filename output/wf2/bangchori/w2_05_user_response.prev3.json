@@ -1,0 +1,39 @@
+{
+  "decisions": {
+    "building|main|-|warehouse_depth_m": {
+      "action": "correct",
+      "value": 56.5,
+      "reason": "채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m"
+    },
+    "building|main|-|wall_panel_core": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    },
+    "building|main|-|fire_compartment_max_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    },
+    "building|main|-|ramp_form": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    },
+    "building|main|-|structure_type": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    },
+    "building|main|-|gross_floor_area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    }
+  },
+  "overrides": {},
+  "claims": {},
+  "bulk": "rest_unconfirmed",
+  "submitted_at": "2026-10-14T14:19:14+09:00",
+  "note": "G3 재진입(W2-⑤) 2차. 창고 깊이 정정 + 도면값 5건 확정, 나머지 일괄 미확인"
+}

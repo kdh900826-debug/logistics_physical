@@ -1,0 +1,79 @@
+{
+  "decisions": {
+    "building|main|-|warehouse_depth_m": {
+      "action": "correct",
+      "value": 56.5,
+      "reason": "채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m"
+    },
+    "building|main|-|wall_panel_core": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    },
+    "building|main|-|fire_compartment_max_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    },
+    "building|main|-|ramp_form": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    },
+    "building|main|-|structure_type": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    },
+    "building|main|-|gross_floor_area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 확정"
+    },
+    "asset|-|-|truck_yard_depth_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 재확인값 확정"
+    },
+    "building|main|-|dock_count": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 재확인값 확정"
+    },
+    "building|main|-|terrain_multi_level_access": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 재확인값 확정"
+    },
+    "floor|main|B1|dock_route_column_conflict": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 재확인값 확정"
+    },
+    "floor|main|1F|dock_route_column_conflict": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 재확인값 확정"
+    },
+    "floor|main|2F|dock_route_column_conflict": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 재확인값 확정"
+    },
+    "floor|main|3F|dock_route_column_conflict": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 재확인값 확정"
+    },
+    "building|main|-|ramp_type": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면값 양방향 확정(나선형 2차로, 차로별 상·하행, A-022·A-023 화물차량동선)"
+    }
+  },
+  "overrides": {},
+  "claims": {},
+  "bulk": "rest_unconfirmed",
+  "submitted_at": "2026-10-14T16:00:30+09:00",
+  "note": "G3 재진입(W2-⑤) 3차. 도크 수·트럭야드 깊이·지형 단차 접안·기둥 간섭(B1~3F) 도면 재확인값 확정, 나머지 일괄 미확인, 램프 통행방향 양방향 확정"
+}

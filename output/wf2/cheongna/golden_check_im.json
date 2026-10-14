@@ -1,0 +1,410 @@
+{
+  "summary": {
+    "asset_id": "cheongna",
+    "target": "im",
+    "checked_at": "2026-10-13T13:46:59+09:00",
+    "gold_slots": 48,
+    "correct": 48,
+    "wrong": 0,
+    "missed": 0,
+    "extra_slots": 0
+  },
+  "rows": [
+    {
+      "slot": "asset|-|-|site_area_m2",
+      "gold": 98905.4,
+      "got": [
+        98905.4,
+        98904.955,
+        98905.4
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|cold_ratio_pct",
+      "gold": 13.0,
+      "got": [
+        13.0,
+        13.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|column_span_x_m",
+      "gold": 11.0,
+      "got": [
+        11.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|column_span_y_m",
+      "gold": 11.0,
+      "got": [
+        11.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|completion_year",
+      "gold": 2022,
+      "got": [
+        2022,
+        2022,
+        2022
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|floors_above",
+      "gold": 10,
+      "got": [
+        10
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|floors_below",
+      "gold": 1,
+      "got": [
+        1
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|gross_floor_area_m2",
+      "gold": 430252.92,
+      "got": [
+        430252.92,
+        430252.9095,
+        430252.9095
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|power_capacity_kw",
+      "gold": 24750.0,
+      "got": [
+        24750.0,
+        24750.0,
+        24750.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|rack_owner",
+      "gold": "임차인",
+      "got": [
+        "임차인"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|ramp_slope_pct",
+      "gold": 7.5,
+      "got": [
+        7.5
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|ramp_type",
+      "gold": "단방향",
+      "got": [
+        "단방향",
+        "단방향"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|ramp_width_m",
+      "gold": 7.4,
+      "got": [
+        7.4,
+        7.4
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|structure_type",
+      "gold": "복합",
+      "got": [
+        "복합"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|10F|area_m2",
+      "gold": 7115.1733,
+      "got": [
+        7115.1733
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|10F|use",
+      "gold": "기타",
+      "got": [
+        "기타"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|area_m2",
+      "gold": 59561.6837,
+      "got": [
+        59561.6837
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|temp",
+      "gold": "혼합",
+      "got": [
+        "혼합"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|2F|area_m2",
+      "gold": 6793.6857,
+      "got": [
+        6793.6857
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|2F|use",
+      "gold": "사무",
+      "got": [
+        "사무"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|area_m2",
+      "gold": 68661.2867,
+      "got": [
+        68661.2867
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|temp",
+      "gold": "혼합",
+      "got": [
+        "혼합"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|area_m2",
+      "gold": 68661.2867,
+      "got": [
+        68661.2867
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|temp",
+      "gold": "상온",
+      "got": [
+        "상온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|5F|area_m2",
+      "gold": 5238.3139,
+      "got": [
+        5238.3139
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|5F|use",
+      "gold": "사무",
+      "got": [
+        "사무"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|area_m2",
+      "gold": 68661.2867,
+      "got": [
+        68661.2867
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|temp",
+      "gold": "상온",
+      "got": [
+        "상온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|area_m2",
+      "gold": 68661.2867,
+      "got": [
+        68661.2867
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|temp",
+      "gold": "상온",
+      "got": [
+        "상온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|8F|area_m2",
+      "gold": 5238.3139,
+      "got": [
+        5238.3139
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|8F|use",
+      "gold": "사무",
+      "got": [
+        "사무"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|area_m2",
+      "gold": 68816.6916,
+      "got": [
+        68816.6916
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|temp",
+      "gold": "상온",
+      "got": [
+        "상온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B1|area_m2",
+      "gold": 2843.9007,
+      "got": [
+        2843.9007
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B1|use",
+      "gold": "기계",
+      "got": [
+        "기계"
+      ],
+      "result": "정답"
+    }
+  ],
+  "extra": []
+}

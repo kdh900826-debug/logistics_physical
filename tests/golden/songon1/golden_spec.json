@@ -1,0 +1,1040 @@
+{
+  "asset_id": "songon1",
+  "record_type": "golden_spec",
+  "created_at": "2026-10-13T18:00:00+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 29587.0,
+        "unit": "m2",
+        "raw_text": "대지면적 29,587.00 m2 (8,950.07 평)",
+        "precision": "exact",
+        "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+        "source_locator": {
+          "page": 7,
+          "sheet_no": null,
+          "bbox": null,
+          "crop": null
+        },
+        "method": "user",
+        "confidence": "high",
+        "source_grade": "확정",
+        "status": "확정",
+        "conflict": false,
+        "note": null
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "가동(물류창고)",
+      "phase": "원준공",
+      "fields": {
+        "completion_year": [
+          {
+            "value": 2021,
+            "unit": "year",
+            "raw_text": "2021 년 10 월 19 일 사용승인",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "가동·나동 동시 사용승인. 실사 2021.11.10·12, 보고서 2021.11.22"
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 54982.92,
+            "unit": "m2",
+            "raw_text": "지하층 소계 21,105.42m2 … 지상층 소계 33,877.50m2",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 8,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "가동만: 지하층 소계 + 지상층 소계(시공용 설계도서 2021.09 기준). 합계 54,994.92㎡는 나동(경비동) 12㎡ 포함"
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 3,
+            "unit": "floor",
+            "raw_text": "가동: 지하2 층~지상3 층",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 2,
+            "unit": "floor",
+            "raw_text": "가동: 지하2 층~지상3 층",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "복합",
+            "unit": null,
+            "raw_text": "가동: PC+RC 복합구조",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p38: 지하·지상층 PC+RC, 지붕층 철골. 차량램프 곡선 구간 RC·직선 구간 PC(p41)"
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "구조 기본 모듈은 일반적으로 물류센터에 많이 적용되고 있는 11m x 11m",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 39,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "구조 기본 모듈은 일반적으로 물류센터에 많이 적용되고 있는 11m x 11m",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 39,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "양방향",
+            "unit": null,
+            "raw_text": "램프의 곡선구간에서의 40ft 콘테이너 등 대형차량의 경우, 차량운영 시 반대차선을 침범할 것으로 예상",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 36,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "반대차선·중앙차선(p37) 표현에서 끌어낸 값. 상·하행 분리 여부는 본문 미기재"
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "곡선형",
+            "unit": null,
+            "raw_text": "램프는 원형구간은 RC 슬래브 & RC 보, 직선구간은 PC 구조로 구성되었다",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 39,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "원형 구간이 있어 '나선형' 후보도 있음"
+          }
+        ],
+        "freight_elevator_count": [
+          {
+            "value": 0,
+            "unit": "ea",
+            "raw_text": "승객용 엘리베이터(16 인승, 1 대, 1200kg)",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 55,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p13 시설현황표는 '승객용/화물용 16 인승 1 대'로 적었으나 본문(p55)은 승객용 1대. 화물용 별도 기재 없음"
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "EPS",
+            "unit": null,
+            "raw_text": "외벽의 THK 125 EPS 판넬(불연재)은 전반적으로 양호하게 시공",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 16,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p9 시설현황 'THK. 125 EPS 판넬(준불연)'. KS F ISO 5660-1 준불연 시험성적서 확인"
+          }
+        ],
+        "roof_panel_core": [
+          {
+            "value": "EPS",
+            "unit": null,
+            "raw_text": "지붕의 THK260 EPS 판넬(준불연)는 전반적으로 양호하게 시공",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 15,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "도면 THK225 EPS → 현장 THK260 EPS 샌드위치 판넬. 준불연 시험성적서 확인"
+          }
+        ],
+        "fire_compartment_max_m2": [
+          {
+            "value": 3000,
+            "unit": "m2",
+            "raw_text": "방화구획은 상온창고 구간은 3,000m2 이하(스프링클러 설치 구간) 마다, 냉동창고 구간은 1,000 m2 이하마다",
+            "precision": "upper_bound",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 28,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "상한값만 기재. 냉동창고 구간은 1,000㎡ 이하"
+          }
+        ],
+        "sprinkler_type": [
+          {
+            "value": "준비작동식",
+            "unit": null,
+            "raw_text": "프리액션밸브실의 배관설치 상태는 양호",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 56,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "프리액션(준비작동식) 밸브실 존재에서 끌어낸 값. 냉동창고 내부는 SP·옥내소화전 면제로 미설치(p46). 헤드 형식 미기재"
+          }
+        ],
+        "refrigeration_system": [
+          {
+            "value": "수냉식 반밀폐 스크류 컨덴싱유닛 24대 + 유닛쿨러 24대(살수제상 16·전기제상 8) + 냉각탑 700RT×2",
+            "unit": null,
+            "raw_text": "컨덴싱 유닛 수냉식 반밀폐 스크류식 … 유닛쿨러 살수제상 16 대, 전기제상 8 대 … 냉각탑 대향류형 700RT 2 대",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 12,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "컨덴싱유닛 3+14+4+2+1대. 각 냉동창고별 개별식, 방재실 중앙제어(p45). 냉매 미기재. 하절기 시운전 미실시(p62)"
+          }
+        ],
+        "cold_insulation_material": [
+          {
+            "value": "우레탄",
+            "unit": null,
+            "raw_text": "방열공사는 우레탄 발포 위 난연코팅으로 구성",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 21,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "준불연코팅재 시험성적서의 바탕모재(우레탄폼)가 현장 시공과 같다고 볼 수 없음(p21). 두께 미기재"
+          }
+        ],
+        "power_capacity_kw": [
+          {
+            "value": 3500,
+            "unit": "kW",
+            "raw_text": "3,500[kW] (냉동냉장 1,000[kW], 1,000[kW]), SMP 500[kW], 전등전열 1,000[kW])",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 48,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "지상2층 냉동창고가 상온창고로 변경돼 4,000kW에서 감소. p12는 '22.9[kV] / 3,500 [kVA]'"
+          }
+        ],
+        "transformer_capacity_kva": [
+          {
+            "value": 3500,
+            "unit": "kVA",
+            "raw_text": "변압기 1,000[kVA] 3 대, 500[kVA] 1 대",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 12,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B2",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지하2 층 18,920.13m2 창고시설(냉동창고, 하역장)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "냉동",
+                "unit": null,
+                "raw_text": "지하2 층 18,920.13m2 창고시설(냉동창고, 하역장)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "실사 시 냉장창고로 사용 중(-4~5℃ 유지, p44). p39 구조편 '지하1~2층은 냉동창고, 지상1~3층은 상온창고'는 건축편(p14)과 달라 건축편을 따름"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 18920.13,
+                "unit": "m2",
+                "raw_text": "지하2 층 18,920.13m2 (5,723.34 평)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 22,
+                "unit": "kN/m2",
+                "raw_text": "상온창고, 냉동창고=22kN/m2",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 38,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 9.2,
+                "unit": "m",
+                "raw_text": "지하2 층 층고는 9.2M",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 21,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "3단 랙(4단 파렛) 설치 어려움 예상"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "[지하2 층 하역장 전경] [지하2 층 데크]",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 27,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "기계",
+                "unit": null,
+                "raw_text": "지하1 층 2,185.29m2 (661.05 평) 창고시설(부대시설)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "냉동기계실, 전기실, 발전기실, 방재실, 창고, 기사대기실, 휴게실, 샤워실 등(p31-32). 전기실·발전기실 상부가 냉동창고(방수 미적용)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 2185.29,
+                "unit": "m2",
+                "raw_text": "지하1 층 2,185.29m2 (661.05 평)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상1 층 11,692.97m2 창고시설(냉동창고, 하역장, 차량통로, 화장실)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "냉동",
+                "unit": null,
+                "raw_text": "지상1 층 11,692.97m2 창고시설(냉동창고, 하역장, 차량통로, 화장실)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 11692.97,
+                "unit": "m2",
+                "raw_text": "지상1 층 11,692.97m2 (3,537.12 평)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 22,
+                "unit": "kN/m2",
+                "raw_text": "상온창고, 냉동창고=22kN/m2",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 38,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 8.85,
+                "unit": "m",
+                "raw_text": "지상1 층은 8.85M",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 21,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "3단 랙(4단 파렛) 설치 어려움 예상"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "[지상1 층 하역장 전경] [지상1 층 데크]",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 26,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "냉동 하역장은 최대 5톤 냉동차 기준 — 상온 전환 후 대형차는 기둥 사이 통과 어려움(p14)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상2 층 12,678.64m2 창고시설(상온창고, 하역장, 차량램프, 차량통로)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상2 층 12,678.64m2 창고시설(상온창고, …)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "골조공사 완료 후 냉동창고 → 상온창고로 변경(p19, p48). 그 결과 창고-ELEV홀 바닥 단차(p19)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 12678.64,
+                "unit": "m2",
+                "raw_text": "지상2 층 12,678.64m2 (3,835.29 평)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "하역장·차량램프·차량통로 면적 포함"
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 22,
+                "unit": "kN/m2",
+                "raw_text": "상온창고, 냉동창고=22kN/m2",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 38,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 9.15,
+                "unit": "m",
+                "raw_text": "지상2 층 층고는 9.15M",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "3단 랙(4단 파렛) 설치 어려움 예상"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "[지상2 층 하역장 전경] [지상2 층 데크]",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 26,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "램프→하역장 동선상 기둥 배치로 40ft 트레일러 진출입 어려움(p21)"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상2 층 램프에서 하역장으로의 동선상 기둥이 배치되어 있어, 40ft 트레일러 등 대형차량의 진출입에 어려움이 예상",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 21,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "결론 p61: 기둥 간섭으로 반대차선 침범, 한 번에 진출입 어려움. 대안: 기둥보호대·안내원·대형차 3층 유도. 1F 냉동 하역장도 상온 전환 시 대형차 기둥 사이 통과 어려움(p14)이지만 조건부라 1F에는 넣지 않음"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상3 층 9,506.63m2 창고시설(상온창고, 차량램프)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상3 층 9,506.63m2 창고시설(상온창고, 차량램프)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 9506.63,
+                "unit": "m2",
+                "raw_text": "지상3 층 9,506.63m2 (2,875.76 평)",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 22,
+                "unit": "kN/m2",
+                "raw_text": "상온창고, 냉동창고=22kN/m2",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 38,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 8,
+                "unit": "m",
+                "raw_text": "지상3 층 층고는 8M",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 17,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "3단 랙(4단 파렛) 설치 어려움 예상"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "[지상3 층 하역장 전경] [지상3 층 데크]",
+                "precision": "exact",
+                "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+                "source_locator": {
+                  "page": 26,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "하역장 캐노피 6m로 우천 시 대형차 하역 어려움(p20)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "building_id": "guard",
+      "label": "나동(경비실)",
+      "phase": "원준공",
+      "fields": {
+        "floors_above": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "나동(경비실)은 1 층(지하2 층에 위치) 규모",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ]
+      },
+      "floors": []
+    }
+  ],
+  "claims": [],
+  "missing": []
+}

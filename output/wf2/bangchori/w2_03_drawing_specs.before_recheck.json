@@ -1,0 +1,2055 @@
+{
+  "asset_id": "bangchori",
+  "record_type": "drawing_specs",
+  "created_at": "2026-10-14T12:00:00+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 53251.0,
+        "unit": "m2",
+        "raw_text": "대지면적 (변경후) 53,251.00㎡ / 16,108.43평",
+        "precision": "exact",
+        "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+        "source_locator": {
+          "page": 1,
+          "sheet_no": "A-001",
+          "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r0c0.png",
+          "tile_box": [
+            0.879,
+            0.216,
+            1,
+            0.237
+          ],
+          "bbox": [
+            460.2,
+            113.1,
+            523.6,
+            124.1
+          ],
+          "crop": "output/wf2/bangchori/crops/asset_x_x_site_area_m2_0.png"
+        },
+        "method": "vision",
+        "confidence": "low",
+        "source_grade": "확정",
+        "status": null,
+        "conflict": false,
+        "note": "설계개요 건축개요표 변경후 값. 변경전 53,259.00㎡(공부상 면적 정리로 -8㎡ 감소, 비고 1항)",
+        "raw_value": 53251.0,
+        "raw_unit": "㎡",
+        "flags": []
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "물류창고",
+      "phase": "원준공",
+      "fields": {
+        "gross_floor_area_m2": [
+          {
+            "value": 130398.7,
+            "unit": "m2",
+            "raw_text": "연면적 (변경후) 130,398.70㎡ / 39,445.61평",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-001",
+              "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r0c0.png",
+              "tile_box": [
+                0.877,
+                0.304,
+                1,
+                0.325
+              ],
+              "bbox": [
+                459.2,
+                159.2,
+                523.6,
+                170.2
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_gross_floor_area_m2_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "변경전·변경후 동일. 층별면적표 합계 130,398.70㎡와 일치",
+            "raw_value": 130398.7,
+            "raw_unit": "㎡",
+            "flags": []
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 4,
+            "unit": "floor",
+            "raw_text": "층별면적표 행: 지상 4층·지상 3층·지상 2층·지상 1층",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-001",
+              "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c0.png",
+              "tile_box": [
+                0.099,
+                0.39,
+                0.149,
+                0.496
+              ],
+              "bbox": [
+                51.8,
+                615.9,
+                78.0,
+                655.2
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_floors_above_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "외벽 입단면 상세도(A-601)에도 1st FL~4th FL, ROOF FL 표기",
+            "raw_value": 4,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "층별면적표 행: 지하 1층",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-001",
+              "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c0.png",
+              "tile_box": [
+                0.099,
+                0.528,
+                0.149,
+                0.55
+              ],
+              "bbox": [
+                51.8,
+                667.0,
+                78.0,
+                675.2
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_floors_below_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": null,
+            "raw_value": 1,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "PC",
+            "unit": null,
+            "raw_text": "PC부재노출 (슬래브·보 하부 지시)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-601",
+              "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+              "tile_box": [
+                0.44,
+                0.45,
+                0.48,
+                0.53
+              ],
+              "bbox": [
+                230.4,
+                235.6,
+                251.3,
+                277.5
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_structure_type_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "구조도면(S-) 없음. 외벽 입단면 상세도 각 층 보·슬래브에 'PC부재노출' 지시, 초평탄 바닥 상세도(A-1405) 'PC 토핑 상온창고 상세도'(중공 PC 슬래브). 기둥 구조형식은 미표기",
+            "flags": []
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "X01~X15 11,000 x14 (계 154,000)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-111~117 평면도.pdf",
+            "source_locator": {
+              "page": 3,
+              "sheet_no": "A-113",
+              "tile": "output/wf2/bangchori/tiles/A-111~117 평면도_p003/r0c0.png",
+              "tile_box": [
+                0.531,
+                0.189,
+                0.907,
+                0.281
+              ],
+              "bbox": [
+                278.0,
+                99.0,
+                474.9,
+                147.1
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_column_span_x_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "지상1층 평면도 X방향 그리드 전 구간 11,000. 램프부 X15~X20a는 2,000+15,000x4(60,000). x/y는 도면 그리드 X·Y 기준(X 154,000 / Y 156,000)",
+            "raw_value": 11000,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "Y10~Y14·Y01~Y05 각 11,000",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-111~117 평면도.pdf",
+            "source_locator": {
+              "page": 3,
+              "sheet_no": "A-113",
+              "tile": "output/wf2/bangchori/tiles/A-111~117 평면도_p003/r0c0.png",
+              "tile_box": [
+                0.214,
+                0.525,
+                0.256,
+                0.722
+              ],
+              "bbox": [
+                112.1,
+                274.9,
+                134.0,
+                378.0
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_column_span_y_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "Y방향 그리드 불균등: 창고구역 Y01~Y05·Y10~Y14 각 11,000 x4, Y05~Y06 12,500, Y06~Y07 13,000, Y07~Y08 17,000, Y08~Y09 13,000, Y09~Y10 12,500 (하역장 구역 Y06~Y09 43,000). 창고구역 반복값 11,000 기록",
+            "raw_value": 11000,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ],
+        "warehouse_depth_m": [
+          {
+            "value": 154.0,
+            "unit": "m",
+            "raw_text": "154,000 (X01~X15)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-111~117 평면도.pdf",
+            "source_locator": {
+              "page": 3,
+              "sheet_no": "A-113",
+              "tile": "output/wf2/bangchori/tiles/A-111~117 평면도_p003/r0c0.png",
+              "tile_box": [
+                0.84,
+                0.189,
+                0.917,
+                0.206
+              ],
+              "bbox": [
+                439.8,
+                99.0,
+                480.1,
+                107.9
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_warehouse_depth_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "그리드 기재 치수(합산 아님). 바닥판 X 154,000 x Y 156,000 중 단변. 하역장(윙바디 도크·차량통로)이 건물 내부 Y06~Y09(43,000)에 있어 포함 기준 적용. 하역장을 제외하면 창고구역은 남·북 각 56,500(Y01~Y06, Y09~Y14 기재 치수) 깊이",
+            "raw_value": 154000,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "나선형",
+            "unit": null,
+            "raw_text": "차량램프 (곡선구간·직선구간, B1~4F 연속 원형 램프)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-401",
+              "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p001/r0c1.png",
+              "tile_box": [
+                0.064,
+                0.315,
+                0.437,
+                0.573
+              ],
+              "bbox": [
+                504.8,
+                164.9,
+                700.1,
+                300.0
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_ramp_form_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "차량 램프 평면도 B1~4F 각 층에 동일 위치 원형(오벌) 램프, 중앙 '상부OPEN/DOWN RAMP OPEN'. 램프 단면도(A-402)는 곡선구간·직선구간 반복으로 B1~4F 연결",
+            "flags": []
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "양방향",
+            "unit": null,
+            "raw_text": "올라감 / 내려감 (지상1층 램프 진출입부)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-401",
+              "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p001/r0c1.png",
+              "tile_box": [
+                0.064,
+                0.546,
+                0.36,
+                0.573
+              ],
+              "bbox": [
+                504.8,
+                285.9,
+                659.8,
+                300.0
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_ramp_type_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "램프 1개소(나선형)에 지상1층 '올라감'·'내려감', 지하1층 '내려옴'·'올라감', 2·3층 '올라감'·'내려감', 4층 '내려감' 표기. 내·외측 2개 동심 차로가 보이나 차로별 통행방향 표기는 없어 상·하행 분리 여부 미확인 — G2 확인 필요",
+            "flags": []
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "THK125 그라스울판넬",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-601",
+              "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+              "tile_box": [
+                0.52,
+                0.16,
+                0.55,
+                0.28
+              ],
+              "bbox": [
+                272.3,
+                83.8,
+                288.0,
+                146.6
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_wall_panel_core_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "외벽 입단면 상세도 각 층 외벽. 평면도(A-112~115) 외벽에도 '125그라스울판넬'",
+            "flags": []
+          },
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "단열재 : 125T 글라스울 48K (125T 글라스울 48K 외벽패널 제품 상세도)",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-1000 외벽판넬상세 관련도.pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-1001",
+              "tile": "output/wf2/bangchori/tiles/A-1000 외벽판넬상세 관련도_p001/r0c0.png",
+              "tile_box": [
+                0.14,
+                0.54,
+                0.67,
+                0.76
+              ],
+              "bbox": [
+                73.3,
+                282.7,
+                350.8,
+                397.9
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_wall_panel_core_1.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "판넬상세도-1 상세 1. 외부재·내부재 0.5T 아연도금강판",
+            "flags": []
+          }
+        ],
+        "fire_compartment_max_m2": [
+          {
+            "value": 2509.05,
+            "unit": "m2",
+            "raw_text": "2-1 일반창고 2,509.05㎡",
+            "precision": "exact",
+            "source_doc": "input/bangchori/drawings/A-031~032 방화계획도.pdf",
+            "source_locator": {
+              "page": 2,
+              "sheet_no": "A-032",
+              "tile": "output/wf2/bangchori/tiles/A-031~032 방화계획도_p002/r0c2.png",
+              "tile_box": [
+                0.131,
+                0.201,
+                0.308,
+                0.22
+              ],
+              "bbox": [
+                975.1,
+                105.2,
+                1019.0,
+                115.2
+              ],
+              "crop": "output/wf2/bangchori/crops/building_main_x_fire_compartment_max_m2_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "방화구획별 면적표(A-031·A-032) 중 최대. 층별 최대: B1 2,484.46(B1-7), 1F 2,505.50(1-7), 2F 2,509.05(2-1), 3F 2,505.50(3-7), 4F 2,427.19(4-2 사무실). 주기 '스프링클러설치: 3천제곱미터 이내 마다 방화구획'",
+            "raw_value": 2509.05,
+            "raw_unit": "㎡",
+            "flags": []
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 31867.82,
+                "unit": "m2",
+                "raw_text": "지하 1층 합계 31,867.82㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.528,
+                    0.332,
+                    0.55
+                  ],
+                  "bbox": [
+                    968.1,
+                    667.0,
+                    1025.0,
+                    675.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_B1_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+                "raw_value": 31867.82,
+                "raw_unit": "㎡",
+                "flags": []
+              },
+              {
+                "value": 31867.82,
+                "unit": "m2",
+                "raw_text": "지하 1층 합계 31,867.82㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.528,
+                    0.332,
+                    0.55
+                  ],
+                  "bbox": [
+                    968.1,
+                    667.0,
+                    1025.0,
+                    675.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_B1_area_m2_1.png"
+                },
+                "method": "vision_hinted",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "재판독(힌트: IM 9,286평 주장). A-001 층별면적표(변경후) 합계 31,867.82㎡ / 9,640.02평, A-001A 층별면적표 합계 열과 동일. 힌트 값 9,286평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+                "raw_value": 31867.82,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지하 1층 상온창고/전실 20,236.54㎡ (합계 31,867.82㎡)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.177,
+                    0.528,
+                    0.288,
+                    0.55
+                  ],
+                  "bbox": [
+                    564.0,
+                    667.0,
+                    622.1,
+                    675.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_B1_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "층별면적표(변경후). 나머지는 사무실 등·Berth·차량통로·램프, 냉동기계실/기전실등 1,294.12㎡",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지하 1층 상온창고/전실 20,236.54㎡ (합계 31,867.82㎡)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.177,
+                    0.528,
+                    0.288,
+                    0.55
+                  ],
+                  "bbox": [
+                    564.0,
+                    667.0,
+                    622.1,
+                    675.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_B1_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "면적표 항목명 '상온창고/전실'. 저온·냉동 항목 없음",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지하 1층 Berth 3,780.25㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.437,
+                    0.528,
+                    0.546,
+                    0.55
+                  ],
+                  "bbox": [
+                    700.1,
+                    667.0,
+                    757.2,
+                    675.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_B1_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "층별면적표 Berth(하역장) 면적 기재. 평면도 '지상1층 하역장'·'윙바디용도크', 차량 램프 평면도 B1~3F 하역장 표기, 하역장 전개도(A-309~313) 제목 '지하1층~지상3층'",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지하 1층~지상 1층 10,000",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": "A-402",
+                  "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p002/r1c0.png",
+                  "tile_box": [
+                    0.176,
+                    0.226,
+                    0.197,
+                    0.299
+                  ],
+                  "bbox": [
+                    92.2,
+                    555.1,
+                    103.1,
+                    582.1
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_B1_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "차량 램프 단면도 좌측 층 레벨 간 치수(계 30,000은 1F~4F). 외벽 입단면 상세도(A-601)도 B1st~4th FL 각 10,000",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 31296.39,
+                "unit": "m2",
+                "raw_text": "지상 1층 합계 31,296.39㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.474,
+                    0.332,
+                    0.496
+                  ],
+                  "bbox": [
+                    968.1,
+                    647.0,
+                    1025.0,
+                    655.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_1F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+                "raw_value": 31296.39,
+                "raw_unit": "㎡",
+                "flags": []
+              },
+              {
+                "value": 31296.39,
+                "unit": "m2",
+                "raw_text": "지상 1층 합계 31,296.39㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.474,
+                    0.332,
+                    0.496
+                  ],
+                  "bbox": [
+                    968.1,
+                    647.0,
+                    1025.0,
+                    655.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_1F_area_m2_1.png"
+                },
+                "method": "vision_hinted",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "재판독(힌트: IM 9,687평 주장). A-001 층별면적표(변경후) 합계 31,296.39㎡ / 9,467.16평, A-001A 층별면적표 합계 열과 동일. 힌트 값 9,687평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+                "raw_value": 31296.39,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상 1층 상온창고/전실 20,502.88㎡ (합계 31,296.39㎡)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.177,
+                    0.474,
+                    0.288,
+                    0.496
+                  ],
+                  "bbox": [
+                    564.0,
+                    647.0,
+                    622.1,
+                    655.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_1F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "층별면적표(변경후). 나머지는 사무실 등·Berth·차량통로·램프",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상 1층 상온창고/전실 20,502.88㎡ (합계 31,296.39㎡)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.177,
+                    0.474,
+                    0.288,
+                    0.496
+                  ],
+                  "bbox": [
+                    564.0,
+                    647.0,
+                    622.1,
+                    655.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_1F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "면적표 항목명 '상온창고/전실'. 저온·냉동 항목 없음",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상 1층 Berth 3,780.01㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.437,
+                    0.474,
+                    0.546,
+                    0.496
+                  ],
+                  "bbox": [
+                    700.1,
+                    647.0,
+                    757.2,
+                    655.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_1F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "층별면적표 Berth(하역장) 면적 기재. 평면도 '지상1층 하역장'·'윙바디용도크', 차량 램프 평면도 B1~3F 하역장 표기, 하역장 전개도(A-309~313) 제목 '지하1층~지상3층'",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상 1층~지상 2층 10,000",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": "A-402",
+                  "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p002/r1c0.png",
+                  "tile_box": [
+                    0.206,
+                    0.069,
+                    0.231,
+                    0.137
+                  ],
+                  "bbox": [
+                    107.9,
+                    496.9,
+                    121.0,
+                    522.1
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_1F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "차량 램프 단면도 좌측 층 레벨 간 치수(계 30,000은 1F~4F). 외벽 입단면 상세도(A-601)도 B1st~4th FL 각 10,000",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 31296.39,
+                "unit": "m2",
+                "raw_text": "지상 2층 합계 31,296.39㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.447,
+                    0.332,
+                    0.469
+                  ],
+                  "bbox": [
+                    968.1,
+                    637.0,
+                    1025.0,
+                    645.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_2F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+                "raw_value": 31296.39,
+                "raw_unit": "㎡",
+                "flags": []
+              },
+              {
+                "value": 31296.39,
+                "unit": "m2",
+                "raw_text": "지상 2층 합계 31,296.39㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.447,
+                    0.332,
+                    0.469
+                  ],
+                  "bbox": [
+                    968.1,
+                    637.0,
+                    1025.0,
+                    645.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_2F_area_m2_1.png"
+                },
+                "method": "vision_hinted",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "재판독(힌트: IM 9,709평 주장). A-001 층별면적표(변경후) 합계 31,296.39㎡ / 9,467.16평, A-001A 층별면적표 합계 열과 동일. 힌트 값 9,709평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+                "raw_value": 31296.39,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상 2층 상온창고/전실 20,541.03㎡ (합계 31,296.39㎡)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.177,
+                    0.447,
+                    0.288,
+                    0.469
+                  ],
+                  "bbox": [
+                    564.0,
+                    637.0,
+                    622.1,
+                    645.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_2F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "층별면적표(변경후). 나머지는 사무실 등·Berth·차량통로·램프",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상 2층 상온창고/전실 20,541.03㎡ (합계 31,296.39㎡)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.177,
+                    0.447,
+                    0.288,
+                    0.469
+                  ],
+                  "bbox": [
+                    564.0,
+                    637.0,
+                    622.1,
+                    645.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_2F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "면적표 항목명 '상온창고/전실'. 저온·냉동 항목 없음",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상 2층 Berth 3,780.01㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.437,
+                    0.447,
+                    0.546,
+                    0.469
+                  ],
+                  "bbox": [
+                    700.1,
+                    637.0,
+                    757.2,
+                    645.2
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_2F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "층별면적표 Berth(하역장) 면적 기재. 평면도 '지상1층 하역장'·'윙바디용도크', 차량 램프 평면도 B1~3F 하역장 표기, 하역장 전개도(A-309~313) 제목 '지하1층~지상3층'",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상 2층~지상 3층 10,000",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": "A-402",
+                  "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p002/r0c0.png",
+                  "tile_box": [
+                    0.206,
+                    0.842,
+                    0.231,
+                    0.894
+                  ],
+                  "bbox": [
+                    107.9,
+                    440.9,
+                    121.0,
+                    468.1
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_2F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "차량 램프 단면도 좌측 층 레벨 간 치수(계 30,000은 1F~4F). 외벽 입단면 상세도(A-601)도 B1st~4th FL 각 10,000",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 31296.39,
+                "unit": "m2",
+                "raw_text": "지상 3층 합계 31,296.39㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.42,
+                    0.332,
+                    0.439
+                  ],
+                  "bbox": [
+                    968.1,
+                    627.0,
+                    1025.0,
+                    634.0
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_3F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+                "raw_value": 31296.39,
+                "raw_unit": "㎡",
+                "flags": []
+              },
+              {
+                "value": 31296.39,
+                "unit": "m2",
+                "raw_text": "지상 3층 합계 31,296.39㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.42,
+                    0.332,
+                    0.439
+                  ],
+                  "bbox": [
+                    968.1,
+                    627.0,
+                    1025.0,
+                    634.0
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_3F_area_m2_1.png"
+                },
+                "method": "vision_hinted",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "재판독(힌트: IM 9,685평 주장). A-001 층별면적표(변경후) 합계 31,296.39㎡ / 9,467.16평, A-001A 층별면적표 합계 열과 동일. 힌트 값 9,685평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+                "raw_value": 31296.39,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상 3층 상온창고/전실 20,468.87㎡ (합계 31,296.39㎡)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.177,
+                    0.42,
+                    0.288,
+                    0.439
+                  ],
+                  "bbox": [
+                    564.0,
+                    627.0,
+                    622.1,
+                    634.0
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_3F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "층별면적표(변경후). 나머지는 사무실 등·Berth·차량통로·램프",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상 3층 상온창고/전실 20,468.87㎡ (합계 31,296.39㎡)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.177,
+                    0.42,
+                    0.288,
+                    0.439
+                  ],
+                  "bbox": [
+                    564.0,
+                    627.0,
+                    622.1,
+                    634.0
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_3F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "면적표 항목명 '상온창고/전실'. 저온·냉동 항목 없음",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상 3층 Berth 3,780.01㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.437,
+                    0.42,
+                    0.546,
+                    0.439
+                  ],
+                  "bbox": [
+                    700.1,
+                    627.0,
+                    757.2,
+                    634.0
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_3F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "층별면적표 Berth(하역장) 면적 기재. 평면도 '지상1층 하역장'·'윙바디용도크', 차량 램프 평면도 B1~3F 하역장 표기, 하역장 전개도(A-309~313) 제목 '지하1층~지상3층'",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "지상 3층~지상 4층 10,000",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": "A-402",
+                  "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p002/r0c0.png",
+                  "tile_box": [
+                    0.206,
+                    0.731,
+                    0.231,
+                    0.783
+                  ],
+                  "bbox": [
+                    107.9,
+                    382.8,
+                    121.0,
+                    410.0
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_3F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "차량 램프 단면도 좌측 층 레벨 간 치수(계 30,000은 1F~4F). 외벽 입단면 상세도(A-601)도 B1st~4th FL 각 10,000",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              },
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "3rd FL.~4th FL. 10,000",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-601",
+                  "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+                  "tile_box": [
+                    0.52,
+                    0.655,
+                    0.58,
+                    0.685
+                  ],
+                  "bbox": [
+                    272.3,
+                    343.0,
+                    303.7,
+                    358.7
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_3F_floor_height_m_1.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "외벽 입단면 상세도-1 (도면 회전 표기). 상온창고 구간",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "area_m2": [
+              {
+                "value": 4641.71,
+                "unit": "m2",
+                "raw_text": "지상 4층 합계 4,641.71㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.39,
+                    0.332,
+                    0.412
+                  ],
+                  "bbox": [
+                    968.1,
+                    615.9,
+                    1025.0,
+                    624.0
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_4F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+                "raw_value": 4641.71,
+                "raw_unit": "㎡",
+                "flags": []
+              },
+              {
+                "value": 4641.71,
+                "unit": "m2",
+                "raw_text": "지상 4층 합계 4,641.71㎡",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+                  "tile_box": [
+                    0.103,
+                    0.39,
+                    0.332,
+                    0.412
+                  ],
+                  "bbox": [
+                    968.1,
+                    615.9,
+                    1025.0,
+                    624.0
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_4F_area_m2_1.png"
+                },
+                "method": "vision_hinted",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "재판독(힌트: IM 103평 주장). A-001 층별면적표(변경후) 합계 4,641.71㎡ / 1,404.12평, A-001A 층별면적표 합계 열과 동일. 힌트 값 103평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+                "raw_value": 4641.71,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "지상 4층 사무실/휴게실/식당/기타공용 4,641.71㎡ (상온창고 —)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+                  "tile_box": [
+                    0.309,
+                    0.39,
+                    0.42,
+                    0.412
+                  ],
+                  "bbox": [
+                    633.1,
+                    615.9,
+                    691.2,
+                    624.0
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_4F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "4층은 사무실·휴게실·식당 등만 있고 상온창고·Berth 칸은 사선(없음). 방화구획 4-1·4-2 '사무실'. 창고 상부 4층 레벨은 옥상 주차장(화물 126대 등)",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 4.5,
+                "unit": "m",
+                "raw_text": "4th FL.~ROOF FL. 4,500",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-601",
+                  "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+                  "tile_box": [
+                    0.26,
+                    0.655,
+                    0.31,
+                    0.685
+                  ],
+                  "bbox": [
+                    136.1,
+                    343.0,
+                    162.3,
+                    358.7
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_4F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": true,
+                "note": "외벽 입단면 상세도-1. 해당 단면 위치(Y01~Y02)의 4층은 '주차장'(옥상 주차). 4층 사무 구역의 층고 치수는 별도 미확인",
+                "raw_value": 4500,
+                "raw_unit": "mm",
+                "flags": []
+              },
+              {
+                "value": 4.5,
+                "unit": "m",
+                "raw_text": "4th FL.~ROOF FL. 4,500",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-601",
+                  "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+                  "tile_box": [
+                    0.26,
+                    0.655,
+                    0.31,
+                    0.685
+                  ],
+                  "bbox": [
+                    136.1,
+                    343.0,
+                    162.3,
+                    358.7
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_4F_floor_height_m_1.png"
+                },
+                "method": "vision_hinted",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": true,
+                "note": "재판독(힌트: IM '층고 전층 10m'). A-601 외벽 입단면 상세도-1 Y01~Y02 위치 치수열 '4,500 | 10,000 | 10,000 ... (34,500)'에서 4th FL.~ROOF FL. = 4,500. 이 구간 실명 표기는 '주차장'. 1차 값 유지. 10,000은 B1~4th FL 구간 치수이며 4F~ROOF 구간에는 해당 없음.",
+                "raw_value": 4500,
+                "raw_unit": "mm",
+                "flags": []
+              },
+              {
+                "value": 4.15,
+                "unit": "m",
+                "raw_text": "지상4층~RF 4,150 (치수열 4,150 | 10,000 | 10,000 ... 합 34,150)",
+                "precision": "exact",
+                "source_doc": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+                "source_locator": {
+                  "page": 32,
+                  "sheet_no": "A-841",
+                  "tile": "output/wf2/bangchori/tiles/A-800 수직계통 관련도_p032/r1c0.png",
+                  "tile_box": [
+                    0.26,
+                    0.375,
+                    0.44,
+                    0.54
+                  ],
+                  "bbox": [
+                    136.1,
+                    610.5,
+                    230.4,
+                    671.7
+                  ],
+                  "crop": "output/wf2/bangchori/crops/floor_main_4F_floor_height_m_2.png"
+                },
+                "method": "vision_hinted",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": true,
+                "note": "재판독 중 추가 확인. CORE #1 비상용ELEV. 단면상세도(A-841) 지상4층~RF 4,150, 4층 실명 '복도', 상부 '지붕'. 코어·사무부 위치 4F 층고로 판단되며 A-601 주차장 위치 4,500과 다름. 두 값 모두 IM 주장 10m와 불일치. 4F 사무부 층고 10m를 뒷받침하는 치수는 도면에서 찾지 못함.",
+                "raw_value": 4150,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "missing": [
+    {
+      "level": "asset",
+      "building_id": null,
+      "field": "truck_yard_depth_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "배치도",
+        "주차계획도"
+      ],
+      "note": "하역장이 건물 내부 중앙(Y06~Y09, 43,000)에 있고 외부 트럭야드 깊이 치수 없음. 외곽 순환로 '순환로(6m)' 표기만 있음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "completion_year",
+      "missing_reason": "미기재",
+      "searched": [
+        "표제란"
+      ],
+      "note": "표제란 DATE 2024.07은 도면 작성일 — 사용승인일 아님"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "층별면적표 항목은 '상온창고/전실'뿐, 저온·냉동 창고 항목 없음(B1 '냉동기계실/기전실등' 1,294.12㎡는 설비실)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_ratio_pct",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표"
+      ],
+      "note": "저온·냉동 면적 비율 기재 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "dock_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "하역장 전개도",
+        "주차계획도"
+      ],
+      "note": "평면도에 '윙바디용도크' 실명은 있으나 도크 수 표기 없음. 주차계획도 층별 주차대수 산정표 '화물' 열: B1 46대, 1F·2F·3F 각 49대, 4F 126대(옥상 주차) — 화물차 주차 대수이며 도크 수 표기 아님"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "dock_leveler_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "창호 관련도(OVERHEAD DOOR 상세도)"
+      ],
+      "note": "도크레벨러 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "ramp_slope_pct",
+      "missing_reason": "미기재",
+      "searched": [
+        "램프 단면도",
+        "차량 램프 평면도",
+        "주차계획도"
+      ],
+      "note": "램프 단면도에 층고 10,000·전개길이 36,816(VAR)/73,632(VAR)/121,690(VAR)만 있고 경사(%·비율) 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "ramp_width_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "차량 램프 평면도",
+        "램프 단면도"
+      ],
+      "note": "램프 차로폭 치수 표기 없음(그리드 치수만)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "turning_radius_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "차량 램프 평면도",
+        "배치도",
+        "주차계획도"
+      ],
+      "note": "R 치수 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "terrain_multi_level_access",
+      "missing_reason": "미기재",
+      "searched": [
+        "배치도",
+        "주차계획도",
+        "차량 램프 평면도"
+      ],
+      "note": "주차계획도에 차량출입구는 동측 '지하1층 차량출입구'(IN/OUT) 1개소만 표기, 상층은 나선형 램프로 연결. 대지 레벨(북측 +103.2, 출입구 +94.30)은 단차가 있으나 상층 하역장으로 직접 진입하는 도로 표기는 확인 못함 — 대지 종횡단면도(A-005) 미판독"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "freight_elevator_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도"
+      ],
+      "note": "PIT 평면도에 '승강기PIT' 7개소, 방화계획도 주기 '승객용 ELEV.'. 화물용 승강기 표기 없음. 기계도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "freight_elevator_capacity_t",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "기계도면 미제공"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "vrc_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도"
+      ],
+      "note": "수직반송기 표기 없음. 기계도면 미제공"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "roof_panel_core",
+      "missing_reason": "미기재",
+      "searched": [
+        "지붕 단열계획도",
+        "외벽 입단면 상세도",
+        "판넬상세도"
+      ],
+      "note": "지붕은 판넬이 아님 — 창고 상부는 4층 옥상 주차장(아스콘포장/무근콘크리트/복합방수, PC 슬래브). 지붕 단열계획도에 4층 사무구역 '천장:THK220 경질우레탄(열관류율 0.150 W/㎡k 이하)' 기재"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "roof_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "지붕평면도",
+        "바닥지붕면적산출도"
+      ],
+      "note": "지붕 면적 표기 없음(에너지 산출도는 일부 실 면적만)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "solar_installed",
+      "missing_reason": "미기재",
+      "searched": [
+        "지붕평면도"
+      ],
+      "note": "지붕평면도는 주차장 구획만 있고 태양광 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "ohd_sprinkler_gap",
+      "missing_reason": "도면없음",
+      "searched": [
+        "소방도면"
+      ],
+      "note": "소방도면 미제공"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "sprinkler_type",
+      "missing_reason": "도면없음",
+      "searched": [
+        "소방도면"
+      ],
+      "note": "소방도면 미제공. 방화계획도 주기에 '스프링클러설치: 3천제곱미터 이내 마다 방화구획'만 있고 헤드 형식 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "refrigerant",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "기계도면 미제공"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "refrigeration_system",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "기계도면 미제공"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_floor_heave_protection",
+      "missing_reason": "미기재",
+      "searched": [
+        "바닥상세도"
+      ],
+      "note": "초평탄 바닥 상세도에 동상방지 표기 없음(상온창고)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_insulation_material",
+      "missing_reason": "미기재",
+      "searched": [
+        "단열계획도"
+      ],
+      "note": "저온동 표기 없음. 단열계획도의 경질우레탄은 사무실 바닥·지붕 단열"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_insulation_thickness_mm",
+      "missing_reason": "미기재",
+      "searched": [
+        "단열계획도"
+      ],
+      "note": "저온동 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "power_capacity_kw",
+      "missing_reason": "도면없음",
+      "searched": [
+        "단선결선도"
+      ],
+      "note": "전기도면 미제공"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "transformer_capacity_kva",
+      "missing_reason": "도면없음",
+      "searched": [
+        "단선결선도"
+      ],
+      "note": "전기도면 미제공"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조도면 미제공, 건축 평면도 주기에 하중 표기 없음",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "외벽 입단면 상세도",
+        "부분단면(A-706)",
+        "램프 단면도",
+        "하역장 전개도"
+      ],
+      "note": "유효고·천장고 표기 없음. 하역장 전개도-1 'E VIEW' 지하1층~지상1층 10,000을 1,100+8,900으로 나눈 치수는 있으나 유효고 명시 아님",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "차량 램프 평면도"
+      ],
+      "note": "램프→하역장 동선 기둥 간섭 여부 명시 없음",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조도면 미제공, 건축 평면도 주기에 하중 표기 없음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "외벽 입단면 상세도",
+        "부분단면(A-706)",
+        "램프 단면도",
+        "하역장 전개도"
+      ],
+      "note": "유효고·천장고 표기 없음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "차량 램프 평면도"
+      ],
+      "note": "램프→하역장 동선 기둥 간섭 여부 명시 없음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조도면 미제공, 건축 평면도 주기에 하중 표기 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "외벽 입단면 상세도",
+        "부분단면(A-706)",
+        "램프 단면도",
+        "하역장 전개도"
+      ],
+      "note": "유효고·천장고 표기 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "차량 램프 평면도"
+      ],
+      "note": "램프→하역장 동선 기둥 간섭 여부 명시 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조도면 미제공, 건축 평면도 주기에 하중 표기 없음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "외벽 입단면 상세도",
+        "부분단면(A-706)",
+        "램프 단면도",
+        "하역장 전개도"
+      ],
+      "note": "유효고·천장고 표기 없음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "차량 램프 평면도"
+      ],
+      "note": "램프→하역장 동선 기둥 간섭 여부 명시 없음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조도면 미제공, 건축 평면도 주기에 하중 표기 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "외벽 입단면 상세도",
+        "부분단면(A-706)",
+        "램프 단면도",
+        "하역장 전개도"
+      ],
+      "note": "유효고·천장고 표기 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "차량 램프 평면도"
+      ],
+      "note": "램프→하역장 동선 기둥 간섭 여부 명시 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "temp",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "면적표"
+      ],
+      "note": "사무 층 — 온도대 표기 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "면적표"
+      ],
+      "note": "층별면적표 4층 Berth 칸 사선(없음). 옥상 주차장 '화물' 126대 주차는 있으나 하역장·도크 표기 없음",
+      "floor": "4F"
+    }
+  ]
+}

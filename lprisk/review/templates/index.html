@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}자산 목록{% endblock %}
+{% block header %}<h1>물류센터 물리 리스크 — 리뷰</h1>{% endblock %}
+{% block body %}
+<div class="card"><a href="/thresholds">임계값·법규 시행일 확인표</a></div>
+<div class="card">
+<table>
+<tr><th>자산</th><th>상태</th><th>모드</th><th>화면</th></tr>
+{% for a in assets %}
+<tr><td>{{ a.asset_id }}</td><td>{{ a.state }}</td><td>{{ a.mode }}</td>
+<td><a href="/g2/{{ a.asset_id }}">G2 스펙 확인</a> · <a href="/g3/{{ a.asset_id }}">G3 최종 검토</a> · <a href="/report/{{ a.asset_id }}">보고서</a></td></tr>
+{% else %}
+<tr><td colspan="4" class="muted">진행 중인 자산이 없습니다.</td></tr>
+{% endfor %}
+</table>
+</div>
+{% endblock %}

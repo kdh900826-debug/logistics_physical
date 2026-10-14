@@ -1,0 +1,8 @@
+﻿logged_at,asset_id,slot,field,drawing_type,method,confidence,drawing_value,final_value,final_status,action,reason
+2026-10-14T14:04:24+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
+2026-10-14T14:19:14+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
+2026-10-14T16:14:16+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
+2026-10-14T16:15:32+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
+2026-10-14T16:35:47+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
+2026-10-14T16:36:15+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
+2026-10-14T16:51:52+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m

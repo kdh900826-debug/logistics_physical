@@ -1,0 +1,10 @@
+{
+  "reentry": "W2-⑧",
+  "comments": [
+    {
+      "type": "severity",
+      "target": "SP08 / thresholds turning_radius.red",
+      "text": "SP08 기준값 12.0m(세미트레일러 최소회전반지름) 사용자 확인 → 회전반경 15.7m(📐벡터 측정)로 재판정 — 채팅 지시"
+    }
+  ]
+}

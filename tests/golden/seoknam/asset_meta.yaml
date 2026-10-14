@@ -1,0 +1,30 @@
+asset_id: seoknam
+asset_name: 인천 석남 물류센터
+address:
+  value: 인천광역시 서구 석남동 223-41, 223-693
+  source_doc: 인천석남 물류센터 Due Diligence Report(Final)_241114_Update_250408.pdf
+  source_locator: {page: 16}
+  raw_text: "소 재 지 인천광역시 서구 석남동 223-41, 223-693"
+  road_address: 인천광역시 서구 거북로 13(석남동)   # DD p170-171 승강기 검사합격증명서 소재지 표기
+  im_text: "인천광역시 서구 석남동 223-41, 223-693"   # IM table 7 row 3 (위치)
+analysis_date: null
+closing_date: null
+holding_years: null
+buildings:
+  - id: main
+    name: 창고동
+    aliases:
+      - 인천 석남 물류센터
+      - 석남로지스틱스센터
+      - 인천 브룩필드 석남로지스틱스센터
+      - 브룩필드 석남로지스틱스센터
+      - 에스엔케이복합물류센터        # DD p170-171 승강기 검사합격증명서 건물명
+      - 인천 석남동 SNK 물류센터      # 상온화 대수선 견적(2024-10-11, 수신 브룩필드)
+      - SNK 물류센터
+      - 물류창고 1개동(지하1층~지상10층)
+notes:
+  - "단일 동(창고동, B1~10F, RC+PC). DD p16 '물류창고 1개동', p24 '주건축물 1개동(창고동) 및 경비실 1개동'. 증축 없음(2023-06-01 사용승인 신축)."
+  - "IM의 East/West Wing(동) 구분은 같은 창고동 내 평면 구획(East 약 2,700평/층, West 약 1,250평/층)이며 별도 building이 아님."
+  - "경비실동(지상1층 5.15평, IM table 7 row 12)은 부속 소규모 건물로 별도 building으로 두지 않음. DD p38 면적표는 1F 면적에 경비실 17.02㎡를 포함."
+  - "DD p1-2 텍스트 레이어 머리글에 다른 자산명('용인 기흥 Fresh Bag 물류센터 / Coupang co., ltd.')이 남아 있음 — 텍스트 추출 시 자산명 오인 주의."
+  - "냉동냉장설비 실사 보고서는 DD 본문에 미포함(p240 '별도의 파일로 첨부') → 냉매·냉동설비 형식 정보 없음."

@@ -1,0 +1,14 @@
+{
+  "decisions": {
+    "building|main|-|warehouse_depth_m": {
+      "action": "correct",
+      "value": 56.5,
+      "reason": "채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m"
+    }
+  },
+  "overrides": {},
+  "claims": {},
+  "bulk": "rest_unconfirmed",
+  "submitted_at": "2026-10-14T14:04:24+09:00",
+  "note": "G3 재진입(W2-⑤). 창고 깊이 외 나머지는 이전 지시대로 일괄 미확인"
+}

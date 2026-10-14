@@ -1,0 +1,52 @@
+{
+  "asset_id": "bangchori",
+  "asset_name": "키움 방초리 물류센터",
+  "created_at": "2026-10-14T16:59:52+09:00",
+  "mode": "정규",
+  "rule_count": 32,
+  "evaluated": 32,
+  "severity": {
+    "red": 1,
+    "yellow": 0,
+    "green": 8,
+    "hold": 17
+  },
+  "severity_verified": {
+    "red": 1,
+    "yellow": 0,
+    "green": 8,
+    "hold": 17
+  },
+  "severity_claimed": {
+    "red": 0,
+    "yellow": 0,
+    "green": 0,
+    "hold": 0
+  },
+  "not_triggered": 6,
+  "exit_escalations": [],
+  "spec_status": {
+    "확정(교차)": 22,
+    "확정": 15,
+    "미확인": 12
+  },
+  "reconcile_mismatch": {
+    "total": 7,
+    "overstated": 5,
+    "conservative": 2,
+    "neutral": 0
+  },
+  "v01_overstated": 0,
+  "rejected_adjustments": 0,
+  "holding_years": null,
+  "vector_rules": [
+    {
+      "rule_id": "SP08",
+      "building_id": "main",
+      "severity": "green",
+      "inputs": [
+        "building|main|-|turning_radius_m"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4899 @@
+{
+  "asset_id": "bangchori",
+  "created_at": "2026-10-14T13:30:52+09:00",
+  "sheets": [
+    {
+      "sheet_id": "A-000 도면목록표_p001",
+      "file": "input/bangchori/drawings/A-000 도면목록표.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-000 도면목록표_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-000 도면목록표_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-000",
+      "title": "도면 목록표-1",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 도면목록(목차)"
+    },
+    {
+      "sheet_id": "A-000 도면목록표_p002",
+      "file": "input/bangchori/drawings/A-000 도면목록표.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-000 도면목록표_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-000 도면목록표_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-000",
+      "title": "도면 목록표-2",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 도면목록(목차)"
+    },
+    {
+      "sheet_id": "A-000 도면목록표_p003",
+      "file": "input/bangchori/drawings/A-000 도면목록표.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-000 도면목록표_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-000 도면목록표_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-000",
+      "title": "도면 목록표-3",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 도면목록(목차)"
+    },
+    {
+      "sheet_id": "A-001 설계개요_p001",
+      "file": "input/bangchori/drawings/A-001 설계개요.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시 일",
+      "thumb": "output/wf2/bangchori/thumbs/A-001 설계개요_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-001 설계개요_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-001",
+      "title": "설계개요",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 건축개요표(설계개요)"
+    },
+    {
+      "sheet_id": "A-001A 층별면적표_p001",
+      "file": "input/bangchori/drawings/A-001A 층별면적표.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시 일",
+      "thumb": "output/wf2/bangchori/thumbs/A-001A 층별면적표_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-001A 층별면적표_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-001A",
+      "title": "층별면적표",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "[우선] 층별 면적표(B1~4F 및 합계)"
+    },
+    {
+      "sheet_id": "A-002 용적율산정근거_p001",
+      "file": "input/bangchori/drawings/A-002 용적율산정근거.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시 일",
+      "thumb": "output/wf2/bangchori/thumbs/A-002 용적율산정근거_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-002 용적율산정근거_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-002",
+      "title": "용적율산정근거",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통]"
+    },
+    {
+      "sheet_id": "A-003 대지지적도_p001",
+      "file": "input/bangchori/drawings/A-003 대지지적도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-003 대지지적도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-003 대지지적도_p001_titleblock.png",
+      "drawing_type": "측량성과도",
+      "sheet_no": "A-003",
+      "title": "대지지적도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-004 배치도_p001",
+      "file": "input/bangchori/drawings/A-004 배치도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "주 정 차 금 지 IP 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 회차 공간 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 출구 회차 공간 출구 연결송수구 X15 11,000 55,000 X19 X16 X17 X18 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-004 배치도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-004 배치도_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-004",
+      "title": "배치도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 배치도"
+    },
+    {
+      "sheet_id": "A-005 대지 종횡단면도_p001",
+      "file": "input/bangchori/drawings/A-005 대지 종횡단면도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-005 대지 종횡단면도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-005 대지 종횡단면도_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-005",
+      "title": "대지 종횡단면도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 대지 종횡단면(지형 단차 확인)"
+    },
+    {
+      "sheet_id": "A-006~009 면적산출근거표_p001",
+      "file": "input/bangchori/drawings/A-006~009 면적산출근거표.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시 일",
+      "thumb": "output/wf2/bangchori/thumbs/A-006~009 면적산출근거표_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-006~009 면적산출근거표_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-006",
+      "title": "면적산출근거표-1",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F"
+      ],
+      "readable": true,
+      "note": "[우선] 바닥면적 산출근거. 한 장에 B1·1F 2개 도면"
+    },
+    {
+      "sheet_id": "A-006~009 면적산출근거표_p002",
+      "file": "input/bangchori/drawings/A-006~009 면적산출근거표.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시 일",
+      "thumb": "output/wf2/bangchori/thumbs/A-006~009 면적산출근거표_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-006~009 면적산출근거표_p002_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-007",
+      "title": "면적산출근거표-2",
+      "building_id": "main",
+      "floors": [
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[우선] 바닥면적 산출근거. 한 장에 2F·3F 2개 도면"
+    },
+    {
+      "sheet_id": "A-006~009 면적산출근거표_p003",
+      "file": "input/bangchori/drawings/A-006~009 면적산출근거표.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "B SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시",
+      "thumb": "output/wf2/bangchori/thumbs/A-006~009 면적산출근거표_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-006~009 면적산출근거표_p003_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-008",
+      "title": "면적산출근거표-3",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[우선] 바닥면적 산출근거(4F)"
+    },
+    {
+      "sheet_id": "A-006~009 면적산출근거표_p004",
+      "file": "input/bangchori/drawings/A-006~009 면적산출근거표.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시 일",
+      "thumb": "output/wf2/bangchori/thumbs/A-006~009 면적산출근거표_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-006~009 면적산출근거표_p004_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-009",
+      "title": "면적산출근거표-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 건축면적 바닥면적 산출근거(전체)"
+    },
+    {
+      "sheet_id": "A-010~011 지하층 산정근거표_p001",
+      "file": "input/bangchori/drawings/A-010~011 지하층 산정근거표.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-010~011 지하층 산정근거표_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-010~011 지하층 산정근거표_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-010",
+      "title": "지하층 산정근거표",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-010~011 지하층 산정근거표_p002",
+      "file": "input/bangchori/drawings/A-010~011 지하층 산정근거표.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-010~011 지하층 산정근거표_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-010~011 지하층 산정근거표_p002_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-011",
+      "title": "지표면 가중평균 산정근거표",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 제목 상단 일부 잘림(지표면 가중평균 산정근거표로 판독)"
+    },
+    {
+      "sheet_id": "A-021~024 주차계획도_p001",
+      "file": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시 일",
+      "thumb": "output/wf2/bangchori/thumbs/A-021~024 주차계획도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-021~024 주차계획도_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-021",
+      "title": "주차 및 차량동선 계획도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 주차·차량동선(1/1200, 대지 단위)"
+    },
+    {
+      "sheet_id": "A-021~024 주차계획도_p002",
+      "file": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "2 1 4 3 6 5 a a a b c SP SP 8 7 10 9 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 조업 조업 조업 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 13,800 11,000 15,000 15,000 12,000 13,700 15",
+      "thumb": "output/wf2/bangchori/thumbs/A-021~024 주차계획도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-021~024 주차계획도_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-022",
+      "title": "지하1층 주차 및 차량동선 계획도-1",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[보통] 주차계획 평면"
+    },
+    {
+      "sheet_id": "A-021~024 주차계획도_p003",
+      "file": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,000 110,000 56,500 156,000 Y01 Y07 Y08 Y09 Y14 Y06 11,000",
+      "thumb": "output/wf2/bangchori/thumbs/A-021~024 주차계획도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-021~024 주차계획도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-023",
+      "title": "지상1~3층 주차 및 차량동선 계획도-2",
+      "building_id": "main",
+      "floors": [
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[보통] 주차계획 평면"
+    },
+    {
+      "sheet_id": "A-021~024 주차계획도_p004",
+      "file": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 2,000 44,000 110,000 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-021~024 주차계획도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-021~024 주차계획도_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-024",
+      "title": "지상4층 주차 및 차량동선 계획도-3",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[보통] 주차계획 평면"
+    },
+    {
+      "sheet_id": "A-031~032 방화계획도_p001",
+      "file": "input/bangchori/drawings/A-031~032 방화계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "V 100 S 150 D 100 S 150 S 100 S 150 + 65 S 125 급수 40 S 75 페.V 100 S 150 페.PD 100 S 150 페.PS 100 S 150 PD 80 S 125 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 회 차 공 간 출구 전기자동차충전구역 (완속",
+      "thumb": "output/wf2/bangchori/thumbs/A-031~032 방화계획도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-031~032 방화계획도_p001_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-031",
+      "title": "지하1층, 지상1층 방화계획도",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F"
+      ],
+      "readable": true,
+      "note": "[우선]"
+    },
+    {
+      "sheet_id": "A-031~032 방화계획도_p002",
+      "file": "input/bangchori/drawings/A-031~032 방화계획도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 P P P W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 조업 W650 주방 출구 출구 출구 출구 출구 일반 화물 출구 일반 화물 화 출구 물 일 일방통행 일방통행 일방통행 일방통행 일방통행 일방통행 진입금지 일방통행 반 캣워크점검구 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-031~032 방화계획도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-031~032 방화계획도_p002_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-032",
+      "title": "지상2,3층, 지상4층 방화계획도",
+      "building_id": "main",
+      "floors": [
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "[우선]"
+    },
+    {
+      "sheet_id": "A-041~045 피난거리계획도_p001",
+      "file": "input/bangchori/drawings/A-041~045 피난거리계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "주 정 차 금 지 IP 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 회차 공간 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 주 차 친환경 출구 회차 공간 출구 연결송수구 X15 11,000 55,000 X19 X16 X17 X18 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p001_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-041",
+      "title": "피난거리계획도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 피난거리계획 계열(방화계획도로 분류, 애매)"
+    },
+    {
+      "sheet_id": "A-041~045 피난거리계획도_p002",
+      "file": "input/bangchori/drawings/A-041~045 피난거리계획도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "2 1 4 3 6 5 a a a b c SP SP 8 7 10 9 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 조업 조업 조업 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 13,800 11,000 15,000 15,000 12,000 13,700 15",
+      "thumb": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p002_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-042",
+      "title": "지하1층 피난거리계획도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[보통] 피난거리계획 계열(방화계획도로 분류, 애매)"
+    },
+    {
+      "sheet_id": "A-041~045 피난거리계획도_p003",
+      "file": "input/bangchori/drawings/A-041~045 피난거리계획도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,000 110,000 56,500 156,000 Y01 Y07 Y08 Y09 Y14 Y06 11,000",
+      "thumb": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p003_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-043",
+      "title": "지상1층 피난거리계획도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "[보통] 피난거리계획 계열(방화계획도로 분류, 애매)"
+    },
+    {
+      "sheet_id": "A-041~045 피난거리계획도_p004",
+      "file": "input/bangchori/drawings/A-041~045 피난거리계획도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "회 차 공 간 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,000 110,000 56,500 156,000 Y01 Y07 Y08 Y09 Y14 Y0",
+      "thumb": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p004_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-044",
+      "title": "지상2,3층 피난거리계획도",
+      "building_id": "main",
+      "floors": [
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[보통] 피난거리계획 계열(방화계획도로 분류, 애매)"
+    },
+    {
+      "sheet_id": "A-041~045 피난거리계획도_p005",
+      "file": "input/bangchori/drawings/A-041~045 피난거리계획도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 2,000 44,000 110,000 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-041~045 피난거리계획도_p005_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-045",
+      "title": "지상4층 피난거리계획도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[보통] 피난거리계획 계열(방화계획도로 분류, 애매)"
+    },
+    {
+      "sheet_id": "A-051~052 소방관진입창계획도_p001",
+      "file": "input/bangchori/drawings/A-051~052 소방관진입창계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "연결송수구 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 회 차 공 간 출구 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 회차 공간 연결송수구 순간온수기 15L 순간온수기 15",
+      "thumb": "output/wf2/bangchori/thumbs/A-051~052 소방관진입창계획도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-051~052 소방관진입창계획도_p001_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-052",
+      "title": "소방관 진입창 계획도-2",
+      "building_id": "main",
+      "floors": [
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "[보통] 한 장에 지상2,3층·지상4층 평면. 소방관 진입창 계획(분류 애매)"
+    },
+    {
+      "sheet_id": "A-051~052 소방관진입창계획도_p002",
+      "file": "input/bangchori/drawings/A-051~052 소방관진입창계획도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "키움 로지스틱스 대지경계선 대지경계선 완충녹지경계선 대지경계선 40 SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. R",
+      "thumb": "output/wf2/bangchori/thumbs/A-051~052 소방관진입창계획도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-051~052 소방관진입창계획도_p002_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-051",
+      "title": "소방관 진입창 계획도-1",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F"
+      ],
+      "readable": true,
+      "note": "[보통] 소방관 진입창 계획(분류 애매). 층 범위 확인 필요"
+    },
+    {
+      "sheet_id": "A-055~057 포장계획도_p001",
+      "file": "input/bangchori/drawings/A-055~057 포장계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시 일",
+      "thumb": "output/wf2/bangchori/thumbs/A-055~057 포장계획도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-055~057 포장계획도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-055",
+      "title": "지하층 포장계획평면도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[낮음] 포장계획"
+    },
+    {
+      "sheet_id": "A-055~057 포장계획도_p002",
+      "file": "input/bangchori/drawings/A-055~057 포장계획도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "회 차 공 간 X01 X15 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a X16a X17a Y01 Y07 Y08 Y09 Y14 Y06 Y02 Y03 Y04 Y05 Y10 Y11 Y12 Y13 X15 X19 X16 X17 X18 X20 Y08 Y09a Y14 Y10a Y11a Y12a SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 15",
+      "thumb": "output/wf2/bangchori/thumbs/A-055~057 포장계획도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-055~057 포장계획도_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-056",
+      "title": "1층~3층 포장계획평면도",
+      "building_id": "main",
+      "floors": [
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[낮음] 포장계획"
+    },
+    {
+      "sheet_id": "A-055~057 포장계획도_p003",
+      "file": "input/bangchori/drawings/A-055~057 포장계획도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "X15 X19 X16 X17 X18 X20 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 P P P W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 Y01 Y07 Y08 Y09 Y14 Y06 Y02 Y03 Y04 Y05 Y10 Y11 Y12 Y13 X01 X15 X20a X02 X03 X04",
+      "thumb": "output/wf2/bangchori/thumbs/A-055~057 포장계획도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-055~057 포장계획도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-057",
+      "title": "4층 포장계획평면도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음] 포장계획"
+    },
+    {
+      "sheet_id": "A-061~063 조경계획도_p001",
+      "file": "input/bangchori/drawings/A-061~063 조경계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-061~063 조경계획도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-061~063 조경계획도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-061",
+      "title": "조경 구적도 및 계획도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 조경"
+    },
+    {
+      "sheet_id": "A-061~063 조경계획도_p002",
+      "file": "input/bangchori/drawings/A-061~063 조경계획도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-061~063 조경계획도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-061~063 조경계획도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-062",
+      "title": "조경식재 상세도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 조경"
+    },
+    {
+      "sheet_id": "A-061~063 조경계획도_p003",
+      "file": "input/bangchori/drawings/A-061~063 조경계획도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-061~063 조경계획도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-061~063 조경계획도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-063",
+      "title": "조경 지주목 상세도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 조경"
+    },
+    {
+      "sheet_id": "A-071~073 단열계획도_p001",
+      "file": "input/bangchori/drawings/A-071~073 단열계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "V 100 S 150 D 100 S 150 S 100 S 150 + 65 S 125 급수 40 S 75 페.V 100 S 150 페.PD 100 S 150 페.PS 100 S 150 PD 80 S 125 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 회 차 공 간 출구 전기자동차충전구역 (완속",
+      "thumb": "output/wf2/bangchori/thumbs/A-071~073 단열계획도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-071~073 단열계획도_p001_titleblock.png",
+      "drawing_type": "단열계획도",
+      "sheet_no": "A-071",
+      "title": "지하1층 단열계획도, 지상1층 단열계획도",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F"
+      ],
+      "readable": true,
+      "note": "[우선]"
+    },
+    {
+      "sheet_id": "A-071~073 단열계획도_p002",
+      "file": "input/bangchori/drawings/A-071~073 단열계획도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "연결송수구 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 회 차 공 간 출구 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 회차 공간 출구 출구 연결송수구 순간온수기 15L 순간",
+      "thumb": "output/wf2/bangchori/thumbs/A-071~073 단열계획도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-071~073 단열계획도_p002_titleblock.png",
+      "drawing_type": "단열계획도",
+      "sheet_no": "A-072",
+      "title": "지상2,3층 단열계획도, 지상4층 단열계획도",
+      "building_id": "main",
+      "floors": [
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "[우선]"
+    },
+    {
+      "sheet_id": "A-071~073 단열계획도_p003",
+      "file": "input/bangchori/drawings/A-071~073 단열계획도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "W650 W650 W650 W650 W650 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 W650 150 950 W650 150 950 W650 P P 완 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 WAVIN EN 1253 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-071~073 단열계획도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-071~073 단열계획도_p003_titleblock.png",
+      "drawing_type": "단열계획도",
+      "sheet_no": "A-073",
+      "title": "지붕 단열계획도",
+      "building_id": "main",
+      "floors": [
+        "RF"
+      ],
+      "readable": true,
+      "note": "[우선] 지붕 단열"
+    },
+    {
+      "sheet_id": "A-075~077 형별성능내역표_p001",
+      "file": "input/bangchori/drawings/A-075~077 형별성능내역표.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-075~077 형별성능내역표_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-075~077 형별성능내역표_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-075",
+      "title": "형별성능내역표-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 형별 성능내역표"
+    },
+    {
+      "sheet_id": "A-075~077 형별성능내역표_p002",
+      "file": "input/bangchori/drawings/A-075~077 형별성능내역표.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-075~077 형별성능내역표_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-075~077 형별성능내역표_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-076",
+      "title": "형별성능내역표-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 형별 성능내역표"
+    },
+    {
+      "sheet_id": "A-075~077 형별성능내역표_p003",
+      "file": "input/bangchori/drawings/A-075~077 형별성능내역표.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-075~077 형별성능내역표_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-075~077 형별성능내역표_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-077",
+      "title": "형별성능내역표-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 형별 성능내역표"
+    },
+    {
+      "sheet_id": "A-081~083 방수계획도_p001",
+      "file": "input/bangchori/drawings/A-081~083 방수계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "2 1 4 3 6 5 a a a b c SP SP 8 7 10 9 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 조업 조업 조업 PIT 점검구 PIT 점검구 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 회 차 공 간 출구 출구 출구 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충",
+      "thumb": "output/wf2/bangchori/thumbs/A-081~083 방수계획도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-081~083 방수계획도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081",
+      "title": "PIT 방수계획도, 지하1층 방수계획도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[낮음] 방수계획"
+    },
+    {
+      "sheet_id": "A-081~083 방수계획도_p002",
+      "file": "input/bangchori/drawings/A-081~083 방수계획도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "연결송수구 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 회 차 공 간 출구 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 전기자동차충전구역 (완속) 전기차 회차 공간 출구 출구 연결송수구 순간온수기 15L 순간",
+      "thumb": "output/wf2/bangchori/thumbs/A-081~083 방수계획도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-081~083 방수계획도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-082",
+      "title": "지상1층 방수계획도, 지상2,3층 방수계획도",
+      "building_id": "main",
+      "floors": [
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[낮음] 방수계획"
+    },
+    {
+      "sheet_id": "A-081~083 방수계획도_p003",
+      "file": "input/bangchori/drawings/A-081~083 방수계획도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 P P P W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 W650 조업 W650 주방 출구 출구 출구 출구 출구 일반 화물 출구 일반 화물 화 출구 물 일 일방통행 일방통행 일방통행 일방통행 일방통행 일방통행 진입금지 일방통행 반 캣워크점검구 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-081~083 방수계획도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-081~083 방수계획도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-083",
+      "title": "지상4층 방수계획도, 지붕 방수계획도",
+      "building_id": "main",
+      "floors": [
+        "4F",
+        "RF"
+      ],
+      "readable": true,
+      "note": "[낮음] 방수계획"
+    },
+    {
+      "sheet_id": "A-091~096 우수계획도_p001",
+      "file": "input/bangchori/drawings/A-091~096 우수계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "2 1 4 3 6 5 a a a b c SP SP 8 7 10 9 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 조업 조업 조업 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 13,800 11,000 15,000 15,000 12,000 13,700 15",
+      "thumb": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-091",
+      "title": "지하1층 우수계획도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[낮음] 우수(배수)계획"
+    },
+    {
+      "sheet_id": "A-091~096 우수계획도_p002",
+      "file": "input/bangchori/drawings/A-091~096 우수계획도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,000 110,000 56,500 156,000 Y01 Y07 Y08 Y09 Y14 Y06 11,000",
+      "thumb": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-092",
+      "title": "지상1층 우수계획도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "[낮음] 우수(배수)계획"
+    },
+    {
+      "sheet_id": "A-091~096 우수계획도_p003",
+      "file": "input/bangchori/drawings/A-091~096 우수계획도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "연결송수구 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 회 차 공 간 출구 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X",
+      "thumb": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-093",
+      "title": "지상2층 우수계획도",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "[낮음] 우수(배수)계획"
+    },
+    {
+      "sheet_id": "A-091~096 우수계획도_p004",
+      "file": "input/bangchori/drawings/A-091~096 우수계획도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "회 차 공 간 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,000 110,000 56,500 156,000 Y01 Y07 Y08 Y09 Y14 Y0",
+      "thumb": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p004_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-094",
+      "title": "지상3층 우수계획도",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "[낮음] 우수(배수)계획"
+    },
+    {
+      "sheet_id": "A-091~096 우수계획도_p005",
+      "file": "input/bangchori/drawings/A-091~096 우수계획도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 2,000 44,000 110,000 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p005_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-095",
+      "title": "지상4층 우수계획도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음] 우수(배수)계획"
+    },
+    {
+      "sheet_id": "A-091~096 우수계획도_p006",
+      "file": "input/bangchori/drawings/A-091~096 우수계획도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 Y08 Y09a Y14 11,000 69,500 11,000 11,000 13,000 12,500 17,000 13,800 11,000 Y10a Y11a Y12a 15,000 15,000 12,000 13,700 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-091~096 우수계획도_p006_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-096",
+      "title": "지붕 우수계획도",
+      "building_id": "main",
+      "floors": [
+        "RF"
+      ],
+      "readable": true,
+      "note": "[낮음] 우수(배수)계획"
+    },
+    {
+      "sheet_id": "A-099~102 실내재료 마감상세도_p001",
+      "file": "input/bangchori/drawings/A-099~102 실내재료 마감상세도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p001_titleblock.png",
+      "drawing_type": "마감표",
+      "sheet_no": "A-097",
+      "title": "실내재료 마감표-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통]"
+    },
+    {
+      "sheet_id": "A-099~102 실내재료 마감상세도_p002",
+      "file": "input/bangchori/drawings/A-099~102 실내재료 마감상세도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p002_titleblock.png",
+      "drawing_type": "마감표",
+      "sheet_no": "A-098",
+      "title": "실내재료 마감표-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통]"
+    },
+    {
+      "sheet_id": "A-099~102 실내재료 마감상세도_p003",
+      "file": "input/bangchori/drawings/A-099~102 실내재료 마감상세도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p003_titleblock.png",
+      "drawing_type": "마감표",
+      "sheet_no": "A-099",
+      "title": "실내재료 마감상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 마감 상세"
+    },
+    {
+      "sheet_id": "A-099~102 실내재료 마감상세도_p004",
+      "file": "input/bangchori/drawings/A-099~102 실내재료 마감상세도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p004_titleblock.png",
+      "drawing_type": "마감표",
+      "sheet_no": "A-100",
+      "title": "실내재료 마감상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 마감 상세"
+    },
+    {
+      "sheet_id": "A-099~102 실내재료 마감상세도_p005",
+      "file": "input/bangchori/drawings/A-099~102 실내재료 마감상세도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p005_titleblock.png",
+      "drawing_type": "마감표",
+      "sheet_no": "A-101",
+      "title": "실내재료 마감상세도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 마감 상세"
+    },
+    {
+      "sheet_id": "A-099~102 실내재료 마감상세도_p006",
+      "file": "input/bangchori/drawings/A-099~102 실내재료 마감상세도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-099~102 실내재료 마감상세도_p006_titleblock.png",
+      "drawing_type": "마감표",
+      "sheet_no": "A-102",
+      "title": "실내재료 마감상세도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 마감 상세"
+    },
+    {
+      "sheet_id": "A-1000 외벽판넬상세 관련도_p001",
+      "file": "input/bangchori/drawings/A-1000 외벽판넬상세 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p001_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-1001",
+      "title": "판넬상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 패널 상세(심재·THK)"
+    },
+    {
+      "sheet_id": "A-1000 외벽판넬상세 관련도_p002",
+      "file": "input/bangchori/drawings/A-1000 외벽판넬상세 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p002_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-1002",
+      "title": "판넬상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 패널 상세(심재·THK)"
+    },
+    {
+      "sheet_id": "A-1000 외벽판넬상세 관련도_p003",
+      "file": "input/bangchori/drawings/A-1000 외벽판넬상세 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p003_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-1003",
+      "title": "판넬상세도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 패널 상세(심재·THK)"
+    },
+    {
+      "sheet_id": "A-1000 외벽판넬상세 관련도_p004",
+      "file": "input/bangchori/drawings/A-1000 외벽판넬상세 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p004_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-1004",
+      "title": "판넬상세도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 패널 상세(심재·THK)"
+    },
+    {
+      "sheet_id": "A-1000 외벽판넬상세 관련도_p005",
+      "file": "input/bangchori/drawings/A-1000 외벽판넬상세 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p005_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-1005",
+      "title": "판넬상세도-5",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 패널 상세(심재·THK)"
+    },
+    {
+      "sheet_id": "A-1000 외벽판넬상세 관련도_p006",
+      "file": "input/bangchori/drawings/A-1000 외벽판넬상세 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1000 외벽판넬상세 관련도_p006_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-1006",
+      "title": "판넬상세도-6",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 패널 상세(심재·THK)"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p001",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1011",
+      "title": "지하1층 창호평면도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[낮음] 창호평면"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p002",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1012",
+      "title": "지상1층 창호평면도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "[낮음] 창호평면"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p003",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1013",
+      "title": "지상2층 창호평면도",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "[낮음] 창호평면"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p004",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1014",
+      "title": "지상3층 창호평면도",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "[낮음] 창호평면"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p005",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1015",
+      "title": "지상4층 창호평면도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음] 창호평면"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p006",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p006_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1021",
+      "title": "창호일람표-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 일람표"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p007",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p007_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1022",
+      "title": "창호일람표-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 일람표"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p008",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 8,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p008.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p008_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1023",
+      "title": "창호일람표-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 일람표"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p009",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 9,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p009.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p009_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1024",
+      "title": "창호일람표-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 일람표"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p010",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 10,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p010.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p010_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1025",
+      "title": "창호일람표-5",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 일람표"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p011",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 11,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p011.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p011_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1026",
+      "title": "창호일람표-6",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 일람표"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p012",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 12,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p012.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p012_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1027",
+      "title": "창호일람표-7",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 창호 일람표"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p013",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 13,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p013.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p013_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1031",
+      "title": "창호상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p014",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 14,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p014.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p014_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1032",
+      "title": "창호상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p015",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 15,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p015.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p015_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1041",
+      "title": "OVERHEAD DOOR 상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 오버헤드도어(도크도어) 상세"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p016",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 16,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p016.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p016_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1042",
+      "title": "OVERHEAD DOOR 상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 오버헤드도어(도크도어) 상세"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p017",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 17,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p017.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p017_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1043",
+      "title": "OVERHEAD DOOR 상세도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 오버헤드도어(도크도어) 상세"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p018",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 18,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p018.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p018_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1051",
+      "title": "방화스크린셔터 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p019",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 19,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p019.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p019_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1061",
+      "title": "도어&하드웨어 일람표-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p020",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 20,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p020.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p020_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1062",
+      "title": "도어&하드웨어 일람표-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p021",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 21,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p021.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p021_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1063",
+      "title": "도어&하드웨어 일람표-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p022",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 22,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p022.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p022_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1064",
+      "title": "도어&하드웨어 일람표-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p023",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 23,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p023.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p023_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1065",
+      "title": "도어&하드웨어 일람표-5",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p024",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 24,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p024.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p024_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1066",
+      "title": "도어&하드웨어 일람표-6",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p025",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 25,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p025.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p025_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1067",
+      "title": "도어&하드웨어 일람표-7",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1010 창호 관련도_p026",
+      "file": "input/bangchori/drawings/A-1010 창호 관련도.pdf",
+      "page": 26,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p026.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1010 창호 관련도_p026_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1068",
+      "title": "도어&하드웨어 일람표-8",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1100 천장 관련도_p001",
+      "file": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1101",
+      "title": "천장계획도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 천장계획"
+    },
+    {
+      "sheet_id": "A-1100 천장 관련도_p002",
+      "file": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1102",
+      "title": "천장계획도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 천장계획"
+    },
+    {
+      "sheet_id": "A-1100 천장 관련도_p003",
+      "file": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1103",
+      "title": "천장계획도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 천장계획"
+    },
+    {
+      "sheet_id": "A-1100 천장 관련도_p004",
+      "file": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p004_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1104",
+      "title": "천장계획도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 천장계획"
+    },
+    {
+      "sheet_id": "A-1100 천장 관련도_p005",
+      "file": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p005_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1105",
+      "title": "천장상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 천장 상세"
+    },
+    {
+      "sheet_id": "A-1100 천장 관련도_p006",
+      "file": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p006_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1106",
+      "title": "천장상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 천장 상세"
+    },
+    {
+      "sheet_id": "A-1100 천장 관련도_p007",
+      "file": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p007_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1107",
+      "title": "천장상세도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 천장 상세"
+    },
+    {
+      "sheet_id": "A-1100 천장 관련도_p008",
+      "file": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "page": 8,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p008.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p008_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1108",
+      "title": "천장상세도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 천장 상세"
+    },
+    {
+      "sheet_id": "A-1100 천장 관련도_p009",
+      "file": "input/bangchori/drawings/A-1100 천장 관련도.pdf",
+      "page": 9,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p009.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1100 천장 관련도_p009_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1109",
+      "title": "천장상세도-5",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 천장 상세"
+    },
+    {
+      "sheet_id": "A-111 PIT 평면도_p001",
+      "file": "input/bangchori/drawings/A-111 PIT 평면도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1190.0,
+        842.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-111 PIT 평면도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-111 PIT 평면도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-111",
+      "title": "PIT 평면도",
+      "building_id": "main",
+      "floors": [
+        "PIT"
+      ],
+      "readable": true,
+      "note": "[보통] PIT층 평면(별도 파일, A-111~117 파일 p001과 동일 제목)"
+    },
+    {
+      "sheet_id": "A-1110 충격보호대 관련도_p001",
+      "file": "input/bangchori/drawings/A-1110 충격보호대 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1111",
+      "title": "지하1층 충격보호대 평면도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[낮음] 충격보호대 배치"
+    },
+    {
+      "sheet_id": "A-1110 충격보호대 관련도_p002",
+      "file": "input/bangchori/drawings/A-1110 충격보호대 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1112",
+      "title": "지상1층 충격보호대 평면도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "[낮음] 충격보호대 배치"
+    },
+    {
+      "sheet_id": "A-1110 충격보호대 관련도_p003",
+      "file": "input/bangchori/drawings/A-1110 충격보호대 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1113",
+      "title": "지상2층 충격보호대 평면도",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "[낮음] 충격보호대 배치"
+    },
+    {
+      "sheet_id": "A-1110 충격보호대 관련도_p004",
+      "file": "input/bangchori/drawings/A-1110 충격보호대 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1114",
+      "title": "지상3층 충격보호대 평면도",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "[낮음] 충격보호대 배치"
+    },
+    {
+      "sheet_id": "A-1110 충격보호대 관련도_p005",
+      "file": "input/bangchori/drawings/A-1110 충격보호대 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1115",
+      "title": "지상4층 충격보호대 평면도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음] 충격보호대 배치"
+    },
+    {
+      "sheet_id": "A-1110 충격보호대 관련도_p006",
+      "file": "input/bangchori/drawings/A-1110 충격보호대 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1110 충격보호대 관련도_p006_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1116",
+      "title": "충격보호대 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-111~117 평면도_p001",
+      "file": "input/bangchori/drawings/A-111~117 평면도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "집수정 집수정 집수정 집수정 집수정 집수정 집수정 집수정 집수정 집수정 집수정 집수정 집수정 집수정 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,0",
+      "thumb": "output/wf2/bangchori/thumbs/A-111~117 평면도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-111~117 평면도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-111",
+      "title": "PIT 평면도",
+      "building_id": "main",
+      "floors": [
+        "PIT"
+      ],
+      "readable": true,
+      "note": "[보통] PIT층 평면"
+    },
+    {
+      "sheet_id": "A-111~117 평면도_p002",
+      "file": "input/bangchori/drawings/A-111~117 평면도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "2 1 4 3 6 5 a a a b c SP SP 8 7 10 9 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 조업 조업 조업 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 13,800 11,000 15,000 15,000 12,000 13,700 15",
+      "thumb": "output/wf2/bangchori/thumbs/A-111~117 평면도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-111~117 평면도_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-112",
+      "title": "지하1층 평면도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[우선] 주 평면도"
+    },
+    {
+      "sheet_id": "A-111~117 평면도_p003",
+      "file": "input/bangchori/drawings/A-111~117 평면도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,000 110,000 56,500 156,000 Y01 Y07 Y08 Y09 Y14 Y06 11,000",
+      "thumb": "output/wf2/bangchori/thumbs/A-111~117 평면도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-111~117 평면도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-113",
+      "title": "지상1층 평면도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "[우선] 주 평면도"
+    },
+    {
+      "sheet_id": "A-111~117 평면도_p004",
+      "file": "input/bangchori/drawings/A-111~117 평면도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "연결송수구 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 회 차 공 간 출구 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X",
+      "thumb": "output/wf2/bangchori/thumbs/A-111~117 평면도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-111~117 평면도_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-114",
+      "title": "지상2층 평면도",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "[우선] 주 평면도"
+    },
+    {
+      "sheet_id": "A-111~117 평면도_p005",
+      "file": "input/bangchori/drawings/A-111~117 평면도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "회 차 공 간 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,000 110,000 56,500 156,000 Y01 Y07 Y08 Y09 Y14 Y0",
+      "thumb": "output/wf2/bangchori/thumbs/A-111~117 평면도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-111~117 평면도_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-115",
+      "title": "지상3층 평면도",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "[우선] 주 평면도"
+    },
+    {
+      "sheet_id": "A-111~117 평면도_p006",
+      "file": "input/bangchori/drawings/A-111~117 평면도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 2,000 44,000 110,000 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-111~117 평면도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-111~117 평면도_p006_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-116",
+      "title": "지상4층 평면도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[우선] 주 평면도"
+    },
+    {
+      "sheet_id": "A-111~117 평면도_p007",
+      "file": "input/bangchori/drawings/A-111~117 평면도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 Y08 Y09a Y14 11,000 69,500 11,000 11,000 13,000 12,500 17,000 13,800 11,000 Y10a Y11a Y12a 15,000 15,000 12,000 13,700 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-111~117 평면도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-111~117 평면도_p007_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-117",
+      "title": "지붕 평면도",
+      "building_id": "main",
+      "floors": [
+        "RF"
+      ],
+      "readable": true,
+      "note": "[우선] 지붕평면도"
+    },
+    {
+      "sheet_id": "A-1200 잡상세 관련도_p001",
+      "file": "input/bangchori/drawings/A-1200 잡상세 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1201",
+      "title": "잡상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 잡상세"
+    },
+    {
+      "sheet_id": "A-1200 잡상세 관련도_p002",
+      "file": "input/bangchori/drawings/A-1200 잡상세 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1202",
+      "title": "잡상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 잡상세"
+    },
+    {
+      "sheet_id": "A-1200 잡상세 관련도_p003",
+      "file": "input/bangchori/drawings/A-1200 잡상세 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1203",
+      "title": "잡상세도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 잡상세"
+    },
+    {
+      "sheet_id": "A-1200 잡상세 관련도_p004",
+      "file": "input/bangchori/drawings/A-1200 잡상세 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p004_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1204",
+      "title": "잡상세도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 잡상세"
+    },
+    {
+      "sheet_id": "A-1200 잡상세 관련도_p005",
+      "file": "input/bangchori/drawings/A-1200 잡상세 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p005_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1205",
+      "title": "잡상세도-5",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 잡상세"
+    },
+    {
+      "sheet_id": "A-1200 잡상세 관련도_p006",
+      "file": "input/bangchori/drawings/A-1200 잡상세 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p006_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1206",
+      "title": "잡상세도-6",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 잡상세"
+    },
+    {
+      "sheet_id": "A-1200 잡상세 관련도_p007",
+      "file": "input/bangchori/drawings/A-1200 잡상세 관련도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1200 잡상세 관련도_p007_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1207",
+      "title": "잡상세도-7 자전거보관소",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 잡상세"
+    },
+    {
+      "sheet_id": "A-1250 분리수거장 상세 관련도_p001",
+      "file": "input/bangchori/drawings/A-1250 분리수거장 상세 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1250 분리수거장 상세 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1250 분리수거장 상세 관련도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1251",
+      "title": "분리수거장 상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1250 분리수거장 상세 관련도_p002",
+      "file": "input/bangchori/drawings/A-1250 분리수거장 상세 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1250 분리수거장 상세 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1250 분리수거장 상세 관련도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1252",
+      "title": "분리수거장 상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1250 분리수거장 상세 관련도_p003",
+      "file": "input/bangchori/drawings/A-1250 분리수거장 상세 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1250 분리수거장 상세 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1250 분리수거장 상세 관련도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1253",
+      "title": "분리수거장 상세도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1250 분리수거장 상세 관련도_p004",
+      "file": "input/bangchori/drawings/A-1250 분리수거장 상세 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1250 분리수거장 상세 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1250 분리수거장 상세 관련도_p004_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1254",
+      "title": "분리수거장 상세도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p001",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1301",
+      "title": "오수처리시설 계통도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p002",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1302",
+      "title": "기계기구일람표",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p003",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1303",
+      "title": "하층평면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p004",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p004_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1304",
+      "title": "중층평면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p005",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p005_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1305",
+      "title": "단면도-1",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p006",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p006_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1306",
+      "title": "단면도-2",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p007",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p007_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1307",
+      "title": "단면도-3",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p008",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 8,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p008.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p008_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1308",
+      "title": "하부배관평면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p009",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 9,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p009.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p009_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1309",
+      "title": "상부배관평면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p010",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 10,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p010.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p010_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1310",
+      "title": "전등평면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1300 오수처리시설 관련도_p011",
+      "file": "input/bangchori/drawings/A-1300 오수처리시설 관련도.pdf",
+      "page": 11,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p011.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1300 오수처리시설 관련도_p011_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1311",
+      "title": "덕트평면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 오수처리시설 도면(본동 건축도면 아님, 단면도·평면도 명칭이어도 기타 처리)"
+    },
+    {
+      "sheet_id": "A-1400 바닥 강화제 관련도_p001",
+      "file": "input/bangchori/drawings/A-1400 바닥 강화제 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1401",
+      "title": "지하1층 초평탄 안내도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[보통] 초평탄(바닥평탄도) 구역 안내 평면"
+    },
+    {
+      "sheet_id": "A-1400 바닥 강화제 관련도_p002",
+      "file": "input/bangchori/drawings/A-1400 바닥 강화제 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1402",
+      "title": "지상1층 초평탄 안내도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "[보통] 초평탄(바닥평탄도) 구역 안내 평면"
+    },
+    {
+      "sheet_id": "A-1400 바닥 강화제 관련도_p003",
+      "file": "input/bangchori/drawings/A-1400 바닥 강화제 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1403",
+      "title": "지상2층 초평탄 안내도",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "[보통] 초평탄(바닥평탄도) 구역 안내 평면"
+    },
+    {
+      "sheet_id": "A-1400 바닥 강화제 관련도_p004",
+      "file": "input/bangchori/drawings/A-1400 바닥 강화제 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1404",
+      "title": "지상3층 초평탄 안내도",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "[보통] 초평탄(바닥평탄도) 구역 안내 평면"
+    },
+    {
+      "sheet_id": "A-1400 바닥 강화제 관련도_p005",
+      "file": "input/bangchori/drawings/A-1400 바닥 강화제 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1400 바닥 강화제 관련도_p005_titleblock.png",
+      "drawing_type": "바닥상세도",
+      "sheet_no": "A-1405",
+      "title": "초평탄 바닥 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 바닥 상세(초평탄)"
+    },
+    {
+      "sheet_id": "A-1500 콘크리트 커팅 관련도_p001",
+      "file": "input/bangchori/drawings/A-1500 콘크리트 커팅 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "2 1 4 3 6 5 a a a b c SP SP 8 7 10 9 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 조업 조업 조업 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 13,800 11,000 15,000 15,000 12,000 13,700 15",
+      "thumb": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1501",
+      "title": "지하1층 SAW-CUT 계획 평면도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[낮음] 콘크리트 커팅 계획"
+    },
+    {
+      "sheet_id": "A-1500 콘크리트 커팅 관련도_p002",
+      "file": "input/bangchori/drawings/A-1500 콘크리트 커팅 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,000 110,000 56,500 156,000 Y01 Y07 Y08 Y09 Y14 Y06 11,000",
+      "thumb": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1502",
+      "title": "지상1층 SAW-CUT 계획 평면도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "[낮음] 콘크리트 커팅 계획"
+    },
+    {
+      "sheet_id": "A-1500 콘크리트 커팅 관련도_p003",
+      "file": "input/bangchori/drawings/A-1500 콘크리트 커팅 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "연결송수구 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 SP 150 SPD 50 SP 150 SP 150 S 100 S 250 회 차 공 간 출구 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X",
+      "thumb": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1503",
+      "title": "지상2층 SAW-CUT 계획 평면도",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "[낮음] 콘크리트 커팅 계획"
+    },
+    {
+      "sheet_id": "A-1500 콘크리트 커팅 관련도_p004",
+      "file": "input/bangchori/drawings/A-1500 콘크리트 커팅 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "회 차 공 간 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 X20a X02 X03 X04 X05 X06 X07 X08 X09 X10 X11 X12 X13 X14 X18a X19a 2,000 X16a X17a 44,000 110,000 56,500 156,000 Y01 Y07 Y08 Y09 Y14 Y0",
+      "thumb": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1504",
+      "title": "지상3층 SAW-CUT 계획 평면도",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "[낮음] 콘크리트 커팅 계획"
+    },
+    {
+      "sheet_id": "A-1500 콘크리트 커팅 관련도_p005",
+      "file": "input/bangchori/drawings/A-1500 콘크리트 커팅 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "154,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,000 216,000 60,000 15,000 15,000 15,000 2,000 44,000 110,000 X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 11,000 69,500 11,000 11,000 13,000 12,500 17,000 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1505",
+      "title": "지상4층 SAW-CUT 계획 평면도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음] 콘크리트 커팅 계획"
+    },
+    {
+      "sheet_id": "A-1500 콘크리트 커팅 관련도_p006",
+      "file": "input/bangchori/drawings/A-1500 콘크리트 커팅 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "X15 11,000 55,000 X19 X16 X17 X18 11,000 11,000 11,000 11,000 X20 69,500 156,000 Y08 Y09a Y14 11,000 69,500 11,000 11,000 13,000 12,500 17,000 13,800 11,000 Y10a Y11a Y12a 15,000 15,000 12,000 13,700 154,000 11,000 X01 X15 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 ",
+      "thumb": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1500 콘크리트 커팅 관련도_p006_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-1506",
+      "title": "지붕 SAW-CUT 계획 평면도",
+      "building_id": "main",
+      "floors": [
+        "RF"
+      ],
+      "readable": true,
+      "note": "[낮음] 콘크리트 커팅 계획"
+    },
+    {
+      "sheet_id": "A-1600 영구배수 및 강재집수정 관련도_p001",
+      "file": "input/bangchori/drawings/A-1600 영구배수 및 강재집수정 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1600 영구배수 및 강재집수정 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1600 영구배수 및 강재집수정 관련도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1601",
+      "title": "강재집수정 위치도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 영구배수"
+    },
+    {
+      "sheet_id": "A-1600 영구배수 및 강재집수정 관련도_p002",
+      "file": "input/bangchori/drawings/A-1600 영구배수 및 강재집수정 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1600 영구배수 및 강재집수정 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1600 영구배수 및 강재집수정 관련도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1602",
+      "title": "강재집수정 상세도(1)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1600 영구배수 및 강재집수정 관련도_p003",
+      "file": "input/bangchori/drawings/A-1600 영구배수 및 강재집수정 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1600 영구배수 및 강재집수정 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1600 영구배수 및 강재집수정 관련도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1603",
+      "title": "강재집수정 상세도(2)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-1700 영구배수 관련도_p001",
+      "file": "input/bangchori/drawings/A-1700 영구배수 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1700 영구배수 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1700 영구배수 관련도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1701",
+      "title": "설계조건, 시공방법 및 유지관리 관련사항 요약",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 영구배수"
+    },
+    {
+      "sheet_id": "A-1700 영구배수 관련도_p002",
+      "file": "input/bangchori/drawings/A-1700 영구배수 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1700 영구배수 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1700 영구배수 관련도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1702",
+      "title": "기초바닥 배수계획 평면도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 영구배수"
+    },
+    {
+      "sheet_id": "A-1700 영구배수 관련도_p003",
+      "file": "input/bangchori/drawings/A-1700 영구배수 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1700 영구배수 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1700 영구배수 관련도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1703",
+      "title": "시스템 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 영구배수"
+    },
+    {
+      "sheet_id": "A-1700 영구배수 관련도_p004",
+      "file": "input/bangchori/drawings/A-1700 영구배수 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-1700 영구배수 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-1700 영구배수 관련도_p004_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-1704",
+      "title": "시스템 배수로 연결소켓 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 영구배수"
+    },
+    {
+      "sheet_id": "A-200 확대평면 관련도_p001",
+      "file": "input/bangchori/drawings/A-200 확대평면 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-201",
+      "title": "(기계,전기,발전기실) 지하1층 확대 평면도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[낮음] 확대평면"
+    },
+    {
+      "sheet_id": "A-200 확대평면 관련도_p002",
+      "file": "input/bangchori/drawings/A-200 확대평면 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-202",
+      "title": "(휴게실,경비실) 지하1층 확대 평면도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[낮음] 확대평면"
+    },
+    {
+      "sheet_id": "A-200 확대평면 관련도_p003",
+      "file": "input/bangchori/drawings/A-200 확대평면 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-203",
+      "title": "(D.A,주출입구) 지하1층 평면 상세도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[보통] D.A 평면상세"
+    },
+    {
+      "sheet_id": "A-200 확대평면 관련도_p004",
+      "file": "input/bangchori/drawings/A-200 확대평면 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-204",
+      "title": "지상4층 확대 평면도(주방,식당)",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음] 확대평면"
+    },
+    {
+      "sheet_id": "A-200 확대평면 관련도_p005",
+      "file": "input/bangchori/drawings/A-200 확대평면 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-205",
+      "title": "지상4층 확대 평면도(사무실,회의실)",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음] 확대평면"
+    },
+    {
+      "sheet_id": "A-200 확대평면 관련도_p006",
+      "file": "input/bangchori/drawings/A-200 확대평면 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-200 확대평면 관련도_p006_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-206",
+      "title": "지상4층 확대 평면도(주출입구)",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음] 확대평면"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p001",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p001_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-301",
+      "title": "확대 입면도-1(정면)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 확대입면(층수·외관)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p002",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p002_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-302",
+      "title": "확대 입면도-2(정면)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 확대입면(층수·외관)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p003",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p003_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-303",
+      "title": "확대 입면도-1(배면)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 확대입면(층수·외관)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p004",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p004_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-304",
+      "title": "확대 입면도-2(배면)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 확대입면(층수·외관)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p005",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p005_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-305",
+      "title": "확대입면도-1(좌측면)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 확대입면(층수·외관)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p006",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p006_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-306",
+      "title": "확대입면도-2(좌측면)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 확대입면(층수·외관)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p007",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p007_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-307",
+      "title": "확대 입면도-1(우측면)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 확대입면(층수·외관)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p008",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 8,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p008.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p008_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-308",
+      "title": "확대 입면도-2(우측면)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 확대입면(층수·외관)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p009",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 9,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p009.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p009_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-309",
+      "title": "하역장 전개도-1(지하1층~지상3층)",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[우선] 하역장(도크) 전개 입면 — 도크·층고 단서. 입면도로 분류(애매)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p010",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 10,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p010.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p010_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-310",
+      "title": "하역장 전개도-2(지하1층~지상3층)",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[우선] 하역장(도크) 전개 입면 — 도크·층고 단서. 입면도로 분류(애매)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p011",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 11,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p011.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p011_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-311",
+      "title": "하역장 전개도-3(지하1층~지상3층)",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[우선] 하역장(도크) 전개 입면 — 도크·층고 단서. 입면도로 분류(애매)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p012",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 12,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p012.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p012_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-312",
+      "title": "하역장 전개도-4(지하1층~지상3층)",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[우선] 하역장(도크) 전개 입면 — 도크·층고 단서. 입면도로 분류(애매)"
+    },
+    {
+      "sheet_id": "A-300 확대입면 관련도_p013",
+      "file": "input/bangchori/drawings/A-300 확대입면 관련도.pdf",
+      "page": 13,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p013.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-300 확대입면 관련도_p013_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-313",
+      "title": "하역장 전개도-5(지하1층~지상3층)",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "[우선] 하역장(도크) 전개 입면 — 도크·층고 단서. 입면도로 분류(애매)"
+    },
+    {
+      "sheet_id": "A-400 램프 관련도_p001",
+      "file": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "출구 출구 출구 순간온수기 15L 순간온수기 15L 캣워크점검구 순간온수기 15L 순간온수기 15L 캣워크점검구 급수 40 S 75 S 125 + 65 S 150 페.V 100 S 150 V 100 S 150 D 100 S 150 S 100 SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET",
+      "thumb": "output/wf2/bangchori/thumbs/A-400 램프 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-400 램프 관련도_p001_titleblock.png",
+      "drawing_type": "램프상세도",
+      "sheet_no": "A-401",
+      "title": "차량 램프 평면도",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "[우선] 한 장에 B1~4F 램프 평면 5개"
+    },
+    {
+      "sheet_id": "A-400 램프 관련도_p002",
+      "file": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        842.0
+      ],
+      "text_hint": "SHEET NO: DRAWN BY: REVIEWED BY: CHECKED BY: SCALE: DATE: TEL : (02)430-4825 FAX : (02)430-4955 서울시 송파구 법원로 114, B동 615호 114,Beopwonro, Songpa-gu, Seoul, Korea SHEET TITLE: A R C H I T E C T U R E APPROVED BY: NOTE: PROJECT TITLE: 2024. 07 . APP. NOTE DATE NO. REVISIONS 물류센터 개발사업 방초2지구 A3: A1: 안성시 일",
+      "thumb": "output/wf2/bangchori/thumbs/A-400 램프 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-400 램프 관련도_p002_titleblock.png",
+      "drawing_type": "램프상세도",
+      "sheet_no": "A-402",
+      "title": "차량 램프 단면도",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "[우선] 램프 경사·층고 단서(1/500)"
+    },
+    {
+      "sheet_id": "A-500 벽체,안내도 관련도_p001",
+      "file": "input/bangchori/drawings/A-500 벽체,안내도 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-501",
+      "title": "벽체안내도-1",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[보통] 벽체(외벽 패널 종류) 안내 평면"
+    },
+    {
+      "sheet_id": "A-500 벽체,안내도 관련도_p002",
+      "file": "input/bangchori/drawings/A-500 벽체,안내도 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p002_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-502",
+      "title": "벽체안내도-2",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "[보통] 벽체(외벽 패널 종류) 안내 평면"
+    },
+    {
+      "sheet_id": "A-500 벽체,안내도 관련도_p003",
+      "file": "input/bangchori/drawings/A-500 벽체,안내도 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-503",
+      "title": "벽체안내도-3",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "[보통] 벽체(외벽 패널 종류) 안내 평면"
+    },
+    {
+      "sheet_id": "A-500 벽체,안내도 관련도_p004",
+      "file": "input/bangchori/drawings/A-500 벽체,안내도 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-504",
+      "title": "벽체안내도-4",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "[보통] 벽체(외벽 패널 종류) 안내 평면"
+    },
+    {
+      "sheet_id": "A-500 벽체,안내도 관련도_p005",
+      "file": "input/bangchori/drawings/A-500 벽체,안내도 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-505",
+      "title": "벽체안내도-5",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[보통] 벽체(외벽 패널 종류) 안내 평면"
+    },
+    {
+      "sheet_id": "A-500 벽체,안내도 관련도_p006",
+      "file": "input/bangchori/drawings/A-500 벽체,안내도 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p006_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-506",
+      "title": "벽체상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 벽체 상세(패널·THK)"
+    },
+    {
+      "sheet_id": "A-500 벽체,안내도 관련도_p007",
+      "file": "input/bangchori/drawings/A-500 벽체,안내도 관련도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p007_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-507",
+      "title": "벽체상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 벽체 상세(패널·THK)"
+    },
+    {
+      "sheet_id": "A-500 벽체,안내도 관련도_p008",
+      "file": "input/bangchori/drawings/A-500 벽체,안내도 관련도.pdf",
+      "page": 8,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p008.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-500 벽체,안내도 관련도_p008_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-508",
+      "title": "벽체상세도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 벽체 상세(패널·THK)"
+    },
+    {
+      "sheet_id": "A-600 외벽단면 관련도_p001",
+      "file": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p001_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-601",
+      "title": "외벽 입단면 상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 외벽 입단면(패널·층고 단서)"
+    },
+    {
+      "sheet_id": "A-600 외벽단면 관련도_p002",
+      "file": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p002_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-602",
+      "title": "외벽 입단면 상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 외벽 입단면(패널·층고 단서)"
+    },
+    {
+      "sheet_id": "A-600 외벽단면 관련도_p003",
+      "file": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p003_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-603",
+      "title": "외벽 입단면 상세도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 외벽 입단면(패널·층고 단서)"
+    },
+    {
+      "sheet_id": "A-600 외벽단면 관련도_p004",
+      "file": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p004_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-604",
+      "title": "외벽 입단면 상세도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 외벽 입단면(패널·층고 단서)"
+    },
+    {
+      "sheet_id": "A-600 외벽단면 관련도_p005",
+      "file": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-600 외벽단면 관련도_p005_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-605",
+      "title": "외벽 입단면 상세도-5",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 외벽 입단면(패널·층고 단서)"
+    },
+    {
+      "sheet_id": "A-700 부분단면 관련도_p001",
+      "file": "input/bangchori/drawings/A-700 부분단면 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p001_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-701",
+      "title": "지하1층 기계실 부분단면 상세도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[보통]"
+    },
+    {
+      "sheet_id": "A-700 부분단면 관련도_p002",
+      "file": "input/bangchori/drawings/A-700 부분단면 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p002_titleblock.png",
+      "drawing_type": "램프상세도",
+      "sheet_no": "A-702",
+      "title": "지상1층 지게차램프 단면 상세도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "[보통] 지게차램프 평면·단면 상세"
+    },
+    {
+      "sheet_id": "A-700 부분단면 관련도_p003",
+      "file": "input/bangchori/drawings/A-700 부분단면 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p003_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-703",
+      "title": "지하1층 하역장 외부계단 단면 상세도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[보통]"
+    },
+    {
+      "sheet_id": "A-700 부분단면 관련도_p004",
+      "file": "input/bangchori/drawings/A-700 부분단면 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p004_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-704",
+      "title": "지하1층 D.A 부분단면 상세도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[보통]"
+    },
+    {
+      "sheet_id": "A-700 부분단면 관련도_p005",
+      "file": "input/bangchori/drawings/A-700 부분단면 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p005_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-705",
+      "title": "지하1층 주출입구 부분단면 상세도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "[보통]"
+    },
+    {
+      "sheet_id": "A-700 부분단면 관련도_p006",
+      "file": "input/bangchori/drawings/A-700 부분단면 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-700 부분단면 관련도_p006_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-706",
+      "title": "윙바디 도크 부분단면 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[우선] 윙바디 도크 단면(도크·층고 단서)"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p001",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-801",
+      "title": "계단실 #1 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p002",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p002_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-802",
+      "title": "계단실 #1 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p003",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p003_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-803",
+      "title": "계단실 #2 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p004",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p004_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-804",
+      "title": "계단실 #2 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p005",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-805",
+      "title": "계단실 #3 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p006",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p006_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-806",
+      "title": "계단실 #3 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p007",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p007_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-807",
+      "title": "계단실 #4 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p008",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 8,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p008.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p008_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-808",
+      "title": "계단실 #4 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p009",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 9,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p009.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p009_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-809",
+      "title": "계단실 #5 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p010",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 10,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p010.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p010_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-810",
+      "title": "계단실 #5 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p011",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 11,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p011.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p011_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-811",
+      "title": "계단실 #6 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p012",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 12,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p012.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p012_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-812",
+      "title": "계단실 #6 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p013",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 13,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p013.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p013_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-813",
+      "title": "계단실 #7,8 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p014",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 14,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p014.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p014_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-814",
+      "title": "계단실 #7,8 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p015",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 15,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p015.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p015_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-815",
+      "title": "계단실 #9 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p016",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 16,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p016.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p016_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-816",
+      "title": "계단실 #9 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p017",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 17,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p017.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p017_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-817",
+      "title": "계단실 #10 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p018",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 18,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p018.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p018_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-818",
+      "title": "계단실 #10 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p019",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 19,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p019.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p019_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-819",
+      "title": "계단실 #11,12 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p020",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 20,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p020.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p020_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-820",
+      "title": "계단실 #11 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p021",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 21,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p021.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p021_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-821",
+      "title": "계단실 #12 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p022",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 22,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p022.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p022_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-822",
+      "title": "계단실 #13 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p023",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 23,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p023.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p023_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-823",
+      "title": "계단실 #13 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p024",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 24,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p024.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p024_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-831",
+      "title": "CORE #1 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p025",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 25,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p025.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p025_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-832",
+      "title": "CORE #1 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p026",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 26,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p026.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p026_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-833",
+      "title": "CORE #2 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p027",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 27,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p027.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p027_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-834",
+      "title": "CORE #2 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p028",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 28,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p028.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p028_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-835",
+      "title": "CORE #3 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p029",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 29,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p029.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p029_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-836",
+      "title": "CORE #3 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p030",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 30,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p030.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p030_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-837",
+      "title": "CORE #4 평면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p031",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 31,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p031.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p031_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-838",
+      "title": "CORE #4 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 계단·코어 상세. 층 범위는 도면 내 확인 필요"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p032",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 32,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p032.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p032_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-841",
+      "title": "CORE #1 비상용ELEV.단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 비상용 승강기 단면(층고·승강기 단서)"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p033",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 33,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p033.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p033_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-842",
+      "title": "CORE #2 비상용ELEV.단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 비상용 승강기 단면(층고·승강기 단서)"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p034",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 34,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p034.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p034_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-843",
+      "title": "CORE #3 비상용ELEV.단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 비상용 승강기 단면(층고·승강기 단서)"
+    },
+    {
+      "sheet_id": "A-800 수직계통 관련도_p035",
+      "file": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+      "page": 35,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p035.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-800 수직계통 관련도_p035_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-844",
+      "title": "CORE #4 비상용ELEV.단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[보통] 비상용 승강기 단면(층고·승강기 단서)"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p001",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-901",
+      "title": "화장실 상세도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 화장실 상세"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p002",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-902",
+      "title": "화장실 상세도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 화장실 상세"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p003",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-903",
+      "title": "화장실 상세도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 화장실 상세"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p004",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p004_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-904",
+      "title": "화장실 상세도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 화장실 상세"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p005",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p005_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-905",
+      "title": "화장실 상세도-5",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 화장실 상세"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p006",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p006_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-906",
+      "title": "화장실 상세도-6",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 화장실 상세"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p007",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p007_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-906a",
+      "title": "화장실 상세도-7",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 화장실 상세"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p008",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 8,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p008.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p008_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-907",
+      "title": "CORE #1 화장실 단면상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p009",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 9,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p009.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p009_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-908",
+      "title": "화장실 칸막이 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-900 화장실 관련도_p010",
+      "file": "input/bangchori/drawings/A-900 화장실 관련도.pdf",
+      "page": 10,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p010.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-900 화장실 관련도_p010_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-909",
+      "title": "4층 샤워실 상세도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음]"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p001",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p001.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-911",
+      "title": "지하1층~지상1층 냉난방면적산출도-1",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F"
+      ],
+      "readable": true,
+      "note": "[낮음] 에너지 면적산출(면적표 아님, 기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p002",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p002.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-912",
+      "title": "지상2~4층 냉난방면적산출도-2",
+      "building_id": "main",
+      "floors": [
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "[낮음] 에너지 면적산출(기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p003",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p003.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-921",
+      "title": "벽체면적산출도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 에너지 벽체면적산출(기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p004",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p004.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p004_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-922",
+      "title": "벽체면적산출도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 에너지 벽체면적산출(기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p005",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p005.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p005_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-923",
+      "title": "벽체면적산출도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 에너지 벽체면적산출(기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p006",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p006.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p006_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-924",
+      "title": "벽체면적산출도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 에너지 벽체면적산출(기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p007",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p007.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p007_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-925",
+      "title": "벽체면적산출도-5",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 에너지 벽체면적산출(기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p008",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 8,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p008.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p008_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-931",
+      "title": "바닥지붕면적산출도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 에너지 바닥·지붕면적산출(기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p009",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 9,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p009.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p009_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-932",
+      "title": "바닥지붕면적산출도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 에너지 바닥·지붕면적산출(기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p010",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 10,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p010.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p010_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-933",
+      "title": "바닥지붕면적산출도-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 에너지 바닥·지붕면적산출(기타)"
+    },
+    {
+      "sheet_id": "A-910 에너지 관련도_p011",
+      "file": "input/bangchori/drawings/A-910 에너지 관련도.pdf",
+      "page": 11,
+      "page_size_pt": [
+        1191.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p011.png",
+      "titleblock": "output/wf2/bangchori/thumbs/A-910 에너지 관련도_p011_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-934",
+      "title": "바닥지붕면적산출도-4",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "[낮음] 에너지 바닥·지붕면적산출(기타)"
+    }
+  ]
+}

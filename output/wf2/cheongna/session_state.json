@@ -1,0 +1,50 @@
+{
+  "asset_id": "cheongna",
+  "state": "AWAITING_CONFIRMATION",
+  "mode": "정규",
+  "ruleset_version": "ruleset-untagged+uncommitted",
+  "created_at": "2026-10-13T13:11:27+09:00",
+  "history": [
+    {
+      "at": "2026-10-13T13:11:27+09:00",
+      "state": "INTAKE"
+    },
+    {
+      "at": "2026-10-13T13:22:19+09:00",
+      "state": "RECONCILED",
+      "note": "확인 29 / 자동확정 19"
+    },
+    {
+      "at": "2026-10-13T13:25:13+09:00",
+      "state": "RECONCILED",
+      "note": "확인 30 / 자동확정 19"
+    },
+    {
+      "at": "2026-10-13T13:25:13+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "G2 대기"
+    },
+    {
+      "at": "2026-10-13T13:41:18+09:00",
+      "state": "RECONCILED",
+      "note": "확인 30 / 자동확정 19"
+    },
+    {
+      "at": "2026-10-13T13:41:18+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "G2 대기(골든 수정 후 재대조)"
+    },
+    {
+      "at": "2026-10-13T13:47:00+09:00",
+      "state": "RECONCILED",
+      "note": "확인 24 / 자동확정 25"
+    },
+    {
+      "at": "2026-10-13T13:47:03+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "G2 대기(IM 재추출 후 재대조)"
+    }
+  ],
+  "halt_reason": null,
+  "revisions": []
+}

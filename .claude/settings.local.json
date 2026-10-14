@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python --version)",
+      "PowerShell(py -0p)",
+      "PowerShell(pip --version)",
+      "PowerShell(Get-Command tesseract -ErrorAction SilentlyContinue)"
+    ]
+  }
+}

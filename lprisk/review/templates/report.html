@@ -1,0 +1,4 @@
+{% extends "base.html" %}
+{% block title %}보고서 — {{ asset_id }}{% endblock %}
+{% block header %}<h1>{{ title }}</h1><a href="/g3/{{ asset_id }}">G3 최종 검토</a>{% endblock %}
+{% block body %}<div class="card report">{{ html|safe }}</div>{% endblock %}

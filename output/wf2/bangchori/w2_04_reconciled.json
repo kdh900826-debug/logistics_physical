@@ -1,0 +1,3233 @@
+{
+  "asset_id": "bangchori",
+  "created_at": "2026-10-14T16:51:51+09:00",
+  "entries": [
+    {
+      "slot": "asset|-|-|site_area_m2",
+      "label": "대지면적",
+      "level": "asset",
+      "building_id": null,
+      "floor": null,
+      "field": "site_area_m2",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 53259.0,
+          "unit": "m2",
+          "raw_text": "대지면적 53,259㎡ (16,111평)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 53259,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 53251.0,
+          "unit": "m2",
+          "raw_text": "대지면적 (변경후) 53,251.00㎡ / 16,108.43평",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r0c0.png",
+            "tile_box": [
+              0.879,
+              0.216,
+              1,
+              0.237
+            ],
+            "bbox": [
+              460.2,
+              113.1,
+              523.6,
+              124.1
+            ],
+            "crop": "output/wf2/bangchori/crops/asset_x_x_site_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "설계개요 건축개요표 변경후 값. 변경전 53,259.00㎡(공부상 면적 정리로 -8㎡ 감소, 비고 1항)",
+          "raw_value": 53251.0,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "asset|-|-|truck_yard_depth_m",
+      "label": "트럭야드 깊이",
+      "level": "asset",
+      "building_id": null,
+      "floor": null,
+      "field": "truck_yard_depth_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "하역장 13,000 (Y06~Y07, Y08~Y09) / 차로 17,000 (Y07~Y08) / 계 43,000",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-005 대지 종횡단면도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-005"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "도면 재확인(2026-10-14, 사용자 채팅 확정). 실내 중앙 하역장(Y06~Y09). 도크면에서 하역장 구획 끝까지 13,000을 트럭야드 깊이로 채택(사용자 기준). 같은 치수가 평면도 A-113 Y축 치수열에도 있음",
+          "raw_value": 13000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|column_span_x_m",
+      "label": "기둥 스팬(장변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_x_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "평면도 상단 그리드 치수 11,000 반복 (216,000)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 29
+          },
+          "method": "im_text",
+          "confidence": "low",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "IM 삽입 평면도(p29~31) 그리드 치수 표기값. 장변(216,000) 방향 창고 구간 11,000. 본문 서술 없음",
+          "raw_value": 11,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "X01~X15 11,000 x14 (계 154,000)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-111~117 평면도.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-113",
+            "tile": "output/wf2/bangchori/tiles/A-111~117 평면도_p003/r0c0.png",
+            "tile_box": [
+              0.531,
+              0.189,
+              0.907,
+              0.281
+            ],
+            "bbox": [
+              278.0,
+              99.0,
+              474.9,
+              147.1
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_column_span_x_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지상1층 평면도 X방향 그리드 전 구간 11,000. 램프부 X15~X20a는 2,000+15,000x4(60,000). x/y는 도면 그리드 X·Y 기준(X 154,000 / Y 156,000)",
+          "raw_value": 11000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|column_span_y_m",
+      "label": "기둥 스팬(단변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_y_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "평면도 좌측 그리드 치수 11,000 (창고 구간, 중앙 하역구간은 12,500~17,000)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 29
+          },
+          "method": "im_text",
+          "confidence": "low",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "IM 삽입 평면도 단변(156,000) 방향 창고 구간 11,000. 중앙 구간은 12,500/13,000/17,000. 본문 서술 없음",
+          "raw_value": 11,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "Y10~Y14·Y01~Y05 각 11,000",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-111~117 평면도.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-113",
+            "tile": "output/wf2/bangchori/tiles/A-111~117 평면도_p003/r0c0.png",
+            "tile_box": [
+              0.214,
+              0.525,
+              0.256,
+              0.722
+            ],
+            "bbox": [
+              112.1,
+              274.9,
+              134.0,
+              378.0
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_column_span_y_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "Y방향 그리드 불균등: 창고구역 Y01~Y05·Y10~Y14 각 11,000 x4, Y05~Y06 12,500, Y06~Y07 13,000, Y07~Y08 17,000, Y08~Y09 13,000, Y09~Y10 12,500 (하역장 구역 Y06~Y09 43,000). 창고구역 반복값 11,000 기록",
+          "raw_value": 11000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|completion_year",
+      "label": "준공연도(사용승인) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "completion_year",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2025,
+          "unit": "year",
+          "raw_text": "준공예정일 2025년 6월 사용승인 완료",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p2 '25년 6월 사용승인 완료, p11 준공 June'25, p28 준공연도 2025 동일",
+          "raw_value": 2025,
+          "raw_unit": "year",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|dock_count",
+      "label": "도크 수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "dock_count",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 193,
+          "unit": "ea",
+          "raw_text": "층별 주차대수 산정표 '화물': 지하1층 46대, 지상1층 49대, 지상2층 49대, 지상3층 49대 (지상4층 126대 제외)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-021"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "도면 재확인(2026-10-14, 사용자 채팅 확정). A-022·A-023에서 '화물주차'(3.0mX10.5m/3.0mX12.0m) 구획이 하역장 도크면에 직각으로 접안하는 번호 구획임을 확인 → 도크 수로 채택(사용자 기준). 4F 126대는 옥상 주차장으로 도크 아님. 합산 46+49×3",
+          "raw_value": 193,
+          "raw_unit": "ea",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|fire_compartment_max_m2",
+      "label": "방화구획 최대 면적 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "fire_compartment_max_m2",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": 2509.05,
+          "unit": "m2",
+          "raw_text": "2-1 일반창고 2,509.05㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-031~032 방화계획도.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": "A-032",
+            "tile": "output/wf2/bangchori/tiles/A-031~032 방화계획도_p002/r0c2.png",
+            "tile_box": [
+              0.131,
+              0.201,
+              0.308,
+              0.22
+            ],
+            "bbox": [
+              975.1,
+              105.2,
+              1019.0,
+              115.2
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_fire_compartment_max_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "방화구획별 면적표(A-031·A-032) 중 최대. 층별 최대: B1 2,484.46(B1-7), 1F 2,505.50(1-7), 2F 2,509.05(2-1), 3F 2,505.50(3-7), 4F 2,427.19(4-2 사무실). 주기 '스프링클러설치: 3천제곱미터 이내 마다 방화구획'",
+          "raw_value": 2509.05,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|floors_above",
+      "label": "지상층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_above",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": 4,
+          "unit": "floor",
+          "raw_text": "규모 지하 1층 / 지상 4층",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 4,
+          "raw_unit": "floor",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 4,
+          "unit": "floor",
+          "raw_text": "층별면적표 행: 지상 4층·지상 3층·지상 2층·지상 1층",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c0.png",
+            "tile_box": [
+              0.099,
+              0.39,
+              0.149,
+              0.496
+            ],
+            "bbox": [
+              51.8,
+              615.9,
+              78.0,
+              655.2
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_floors_above_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "외벽 입단면 상세도(A-601)에도 1st FL~4th FL, ROOF FL 표기",
+          "raw_value": 4,
+          "raw_unit": "floor",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|floors_below",
+      "label": "지하층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_below",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": 1,
+          "unit": "floor",
+          "raw_text": "규모 지하 1층 / 지상 4층",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 1,
+          "raw_unit": "floor",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 1,
+          "unit": "floor",
+          "raw_text": "층별면적표 행: 지하 1층",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c0.png",
+            "tile_box": [
+              0.099,
+              0.528,
+              0.149,
+              0.55
+            ],
+            "bbox": [
+              51.8,
+              667.0,
+              78.0,
+              675.2
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_floors_below_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 1,
+          "raw_unit": "floor",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|gross_floor_area_m2",
+      "label": "연면적 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "gross_floor_area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 130399.0,
+          "unit": "m2",
+          "raw_text": "연면적 130,399㎡ (39,446평)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": true,
+          "note": "p28 비교표 본건 연면적 130,399㎡(39,446평) 동일. p6 층별 면적표 연면적 합계(평)와 불일치",
+          "raw_value": 130399,
+          "raw_unit": "㎡",
+          "flags": []
+        },
+        {
+          "value": 127173.549,
+          "unit": "m2",
+          "raw_text": "연면적 합계 38,470 (단위: 평)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": true,
+          "note": "p6 층별 면적표 연면적 열 합계. p3 39,446평과 상이",
+          "raw_value": 38470,
+          "raw_unit": "평",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 130398.7,
+          "unit": "m2",
+          "raw_text": "연면적 (변경후) 130,398.70㎡ / 39,445.61평",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r0c0.png",
+            "tile_box": [
+              0.877,
+              0.304,
+              1,
+              0.325
+            ],
+            "bbox": [
+              459.2,
+              159.2,
+              523.6,
+              170.2
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_gross_floor_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "변경전·변경후 동일. 층별면적표 합계 130,398.70㎡와 일치",
+          "raw_value": 130398.7,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": "overstated",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_form",
+      "label": "램프 형상 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_form",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "나선형",
+          "unit": null,
+          "raw_text": "차량램프 (곡선구간·직선구간, B1~4F 연속 원형 램프)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-401",
+            "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p001/r0c1.png",
+            "tile_box": [
+              0.064,
+              0.315,
+              0.437,
+              0.573
+            ],
+            "bbox": [
+              504.8,
+              164.9,
+              700.1,
+              300.0
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_ramp_form_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "차량 램프 평면도 B1~4F 각 층에 동일 위치 원형(오벌) 램프, 중앙 '상부OPEN/DOWN RAMP OPEN'. 램프 단면도(A-402)는 곡선구간·직선구간 반복으로 B1~4F 연결",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_type",
+      "label": "램프 통행 방향 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "양방향",
+          "unit": null,
+          "raw_text": "올라감 / 내려감 (지상1층 램프 진출입부)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-401",
+            "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p001/r0c1.png",
+            "tile_box": [
+              0.064,
+              0.546,
+              0.36,
+              0.573
+            ],
+            "bbox": [
+              504.8,
+              285.9,
+              659.8,
+              300.0
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_ramp_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "램프 1개소(나선형)에 지상1층 '올라감'·'내려감', 지하1층 '내려옴'·'올라감', 2·3층 '올라감'·'내려감', 4층 '내려감' 표기. 내·외측 2개 동심 차로가 보이나 차로별 통행방향 표기는 없어 상·하행 분리 여부 미확인 — G2 확인 필요",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|structure_type",
+      "label": "구조형식 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "structure_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "PC",
+          "unit": null,
+          "raw_text": "PC부재노출 (슬래브·보 하부 지시)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-601",
+            "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+            "tile_box": [
+              0.44,
+              0.45,
+              0.48,
+              0.53
+            ],
+            "bbox": [
+              230.4,
+              235.6,
+              251.3,
+              277.5
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_structure_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "구조도면(S-) 없음. 외벽 입단면 상세도 각 층 보·슬래브에 'PC부재노출' 지시, 초평탄 바닥 상세도(A-1405) 'PC 토핑 상온창고 상세도'(중공 PC 슬래브). 기둥 구조형식은 미표기",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|terrain_multi_level_access",
+      "label": "지형 단차 진입도로로 여러 층 직접 접안 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "terrain_multi_level_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "지하1층 차량출입구 IN/OUT (유일한 화물차 출입구)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": "A-022"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "도면 재확인(2026-10-14, 사용자 채팅 확정). A-005: 동측 지반 B1 레벨(출입구 +94.30), 북측 약 1F 레벨(+103.2). 그러나 화물차 출입은 B1 출입구 1개소뿐이고, 외곽 순환로는 '비상차량동선'(A-021 범례). 1F~3F 하역장은 램프로만 연결(A-023), 하역장 서측 끝은 코어·사무실로 막힘(A-113) → 단일 레벨 진입, 상층은 램프",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|turning_radius_m",
+      "label": "대형차 최소 회전반경(램프·하역장 동선) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "turning_radius_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 15.7,
+          "unit": "m",
+          "raw_text": "W.P(원 중심) ~ 차로면 내측 원호(연석설치) 반경 — 벡터 좌표 측정, 도면 치수 표기 없음",
+          "precision": "approx",
+          "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-401",
+            "bbox": [
+              203.6,
+              572.2,
+              307.5,
+              676.1
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_turning_radius_m_0.png"
+          },
+          "method": "vector",
+          "confidence": "medium",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "벡터 좌표 측정: W.P 중심~차로면 내측 원호(빗금 72개 시작 반경). 축척 423.3mm/pt(1/1,200(A3) · 용지 A3). 중심 9곳 범위 15.7~15.9m. 도면 R 표기 아님 · 램프 곡선부 내측 반경(차량 회전 궤적·출차부 R 아님) · 측정 파일 vector_measure_A-400 램프 관련도_p1.json. 교차 검증: 같은 중심의 23.49m 원호 ≈ A-402 곡선부 전개길이 73,632/π=23.44m",
+          "raw_value": 15.7,
+          "raw_unit": "m",
+          "precision_halfwidth": 0.05,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|wall_panel_core",
+      "label": "외벽 패널 심재 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "wall_panel_core",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "글라스울",
+          "unit": null,
+          "raw_text": "THK125 그라스울판넬",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-601",
+            "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+            "tile_box": [
+              0.52,
+              0.16,
+              0.55,
+              0.28
+            ],
+            "bbox": [
+              272.3,
+              83.8,
+              288.0,
+              146.6
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_wall_panel_core_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "외벽 입단면 상세도 각 층 외벽. 평면도(A-112~115) 외벽에도 '125그라스울판넬'",
+          "flags": []
+        },
+        {
+          "value": "글라스울",
+          "unit": null,
+          "raw_text": "단열재 : 125T 글라스울 48K (125T 글라스울 48K 외벽패널 제품 상세도)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-1000 외벽판넬상세 관련도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-1001",
+            "tile": "output/wf2/bangchori/tiles/A-1000 외벽판넬상세 관련도_p001/r0c0.png",
+            "tile_box": [
+              0.14,
+              0.54,
+              0.67,
+              0.76
+            ],
+            "bbox": [
+              73.3,
+              282.7,
+              350.8,
+              397.9
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_wall_panel_core_1.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "판넬상세도-1 상세 1. 외부재·내부재 0.5T 아연도금강판",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|warehouse_depth_m",
+      "label": "창고 내부 깊이(하역장 측 벽~반대편 벽) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "warehouse_depth_m",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": 154.0,
+          "unit": "m",
+          "raw_text": "154,000 (X01~X15)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-111~117 평면도.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-113",
+            "tile": "output/wf2/bangchori/tiles/A-111~117 평면도_p003/r0c0.png",
+            "tile_box": [
+              0.84,
+              0.189,
+              0.917,
+              0.206
+            ],
+            "bbox": [
+              439.8,
+              99.0,
+              480.1,
+              107.9
+            ],
+            "crop": "output/wf2/bangchori/crops/building_main_x_warehouse_depth_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "그리드 기재 치수(합산 아님). 바닥판 X 154,000 x Y 156,000 중 단변. 하역장(윙바디 도크·차량통로)이 건물 내부 Y06~Y09(43,000)에 있어 포함 기준 적용. 하역장을 제외하면 창고구역은 남·북 각 56,500(Y01~Y06, Y09~Y14 기재 치수) 깊이",
+          "raw_value": 154000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|area_m2",
+      "label": "층 면적 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 32023.1393,
+          "unit": "m2",
+          "raw_text": "1F 연면적 9,687 (단위: 평)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+          "raw_value": 9687,
+          "raw_unit": "평",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 31296.39,
+          "unit": "m2",
+          "raw_text": "지상 1층 합계 31,296.39㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.474,
+              0.332,
+              0.496
+            ],
+            "bbox": [
+              968.1,
+              647.0,
+              1025.0,
+              655.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_1F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+          "raw_value": 31296.39,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 31296.39,
+          "unit": "m2",
+          "raw_text": "지상 1층 합계 31,296.39㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.474,
+              0.332,
+              0.496
+            ],
+            "bbox": [
+              968.1,
+              647.0,
+              1025.0,
+              655.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_1F_area_m2_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "재판독(힌트: IM 9,687평 주장). A-001 층별면적표(변경후) 합계 31,296.39㎡ / 9,467.16평, A-001A 층별면적표 합계 열과 동일. 힌트 값 9,687평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+          "raw_value": 31296.39,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "overstated",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.5,
+          "unit": "m",
+          "raw_text": "유효 층고: 지하1, 지상1,2층 약 8.5m",
+          "precision": "approx",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 8.5,
+          "raw_unit": "m",
+          "precision_halfwidth": 0.05,
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지상 1층 접안 대수 56 대 (화물차량 기준)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 30
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p3 접안여부 '전 층 접안 가능', p4 '전층 동시접안 대수 56대'와 동일 취지. 4F는 층 특정 기재 없음",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지상 1층 Berth 3,780.01㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.437,
+              0.474,
+              0.546,
+              0.496
+            ],
+            "bbox": [
+              700.1,
+              647.0,
+              757.2,
+              655.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_1F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별면적표 Berth(하역장) 면적 기재. 평면도 '지상1층 하역장'·'윙바디용도크', 차량 램프 평면도 B1~3F 하역장 표기, 하역장 전개도(A-309~313) 제목 '지하1층~지상3층'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "dock_route_column_conflict",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "화물차량동선(범례 굵은 파선): 램프 → 하역장 차로(17,000, 기둥 없는 경간)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-023"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "도면 재확인(2026-10-14, 사용자 채팅 확정). 도면 화물차량동선이 램프 출입부에서 하역장 차로로 기둥을 지나지 않고 연결. 기둥은 Y07·Y08 선(주차 구획 전면)에만 있음. 동선 표시선이며 회전 궤적 검토 아님, 전이부 반사경 2개(시야 제약) — 지상1~3층 공통 평면",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "층고 전층 10m",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "전층 10m 묶음 표기",
+          "raw_value": 10,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "지상 1층~지상 2층 10,000",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": "A-402",
+            "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p002/r1c0.png",
+            "tile_box": [
+              0.206,
+              0.069,
+              0.231,
+              0.137
+            ],
+            "bbox": [
+              107.9,
+              496.9,
+              121.0,
+              522.1
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_1F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "차량 램프 단면도 좌측 층 레벨 간 치수(계 30,000은 1F~4F). 외벽 입단면 상세도(A-601)도 B1st~4th FL 각 10,000",
+          "raw_value": 10000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|temp",
+      "label": "층 온도대 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "용도 상온 (4F~B1 병합 셀)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지상 1층 상온창고/전실 20,502.88㎡ (합계 31,296.39㎡)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.177,
+              0.474,
+              0.288,
+              0.496
+            ],
+            "bbox": [
+              564.0,
+              647.0,
+              622.1,
+              655.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_1F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "면적표 항목명 '상온창고/전실'. 저온·냉동 항목 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|use",
+      "label": "층 용도 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "1F 전용면적 창고/전실 6,202",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지상 1층 상온창고/전실 20,502.88㎡ (합계 31,296.39㎡)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.177,
+              0.474,
+              0.288,
+              0.496
+            ],
+            "bbox": [
+              564.0,
+              647.0,
+              622.1,
+              655.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_1F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별면적표(변경후). 나머지는 사무실 등·Berth·차량통로·램프",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|2F|area_m2",
+      "label": "층 면적 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 32095.8666,
+          "unit": "m2",
+          "raw_text": "2F 연면적 9,709 (단위: 평)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+          "raw_value": 9709,
+          "raw_unit": "평",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 31296.39,
+          "unit": "m2",
+          "raw_text": "지상 2층 합계 31,296.39㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.447,
+              0.332,
+              0.469
+            ],
+            "bbox": [
+              968.1,
+              637.0,
+              1025.0,
+              645.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_2F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+          "raw_value": 31296.39,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 31296.39,
+          "unit": "m2",
+          "raw_text": "지상 2층 합계 31,296.39㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.447,
+              0.332,
+              0.469
+            ],
+            "bbox": [
+              968.1,
+              637.0,
+              1025.0,
+              645.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_2F_area_m2_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "재판독(힌트: IM 9,709평 주장). A-001 층별면적표(변경후) 합계 31,296.39㎡ / 9,467.16평, A-001A 층별면적표 합계 열과 동일. 힌트 값 9,709평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+          "raw_value": 31296.39,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "overstated",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.5,
+          "unit": "m",
+          "raw_text": "유효 층고: 지하1, 지상1,2층 약 8.5m",
+          "precision": "approx",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 8.5,
+          "raw_unit": "m",
+          "precision_halfwidth": 0.05,
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지상 2층 접안 대수 56 대 (화물차량 기준)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 30
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p3 접안여부 '전 층 접안 가능', p4 '전층 동시접안 대수 56대'와 동일 취지. 4F는 층 특정 기재 없음",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지상 2층 Berth 3,780.01㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.437,
+              0.447,
+              0.546,
+              0.469
+            ],
+            "bbox": [
+              700.1,
+              637.0,
+              757.2,
+              645.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_2F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별면적표 Berth(하역장) 면적 기재. 평면도 '지상1층 하역장'·'윙바디용도크', 차량 램프 평면도 B1~3F 하역장 표기, 하역장 전개도(A-309~313) 제목 '지하1층~지상3층'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|2F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "dock_route_column_conflict",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "화물차량동선(범례 굵은 파선): 램프 → 하역장 차로(17,000, 기둥 없는 경간)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-023"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "도면 재확인(2026-10-14, 사용자 채팅 확정). 도면 화물차량동선이 램프 출입부에서 하역장 차로로 기둥을 지나지 않고 연결. 기둥은 Y07·Y08 선(주차 구획 전면)에만 있음. 동선 표시선이며 회전 궤적 검토 아님, 전이부 반사경 2개(시야 제약) — 지상1~3층 공통 평면",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "층고 전층 10m",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "전층 10m 묶음 표기",
+          "raw_value": 10,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "지상 2층~지상 3층 10,000",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": "A-402",
+            "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p002/r0c0.png",
+            "tile_box": [
+              0.206,
+              0.842,
+              0.231,
+              0.894
+            ],
+            "bbox": [
+              107.9,
+              440.9,
+              121.0,
+              468.1
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_2F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "차량 램프 단면도 좌측 층 레벨 간 치수(계 30,000은 1F~4F). 외벽 입단면 상세도(A-601)도 B1st~4th FL 각 10,000",
+          "raw_value": 10000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|2F|temp",
+      "label": "층 온도대 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "용도 상온 (4F~B1 병합 셀)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지상 2층 상온창고/전실 20,541.03㎡ (합계 31,296.39㎡)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.177,
+              0.447,
+              0.288,
+              0.469
+            ],
+            "bbox": [
+              564.0,
+              637.0,
+              622.1,
+              645.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_2F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "면적표 항목명 '상온창고/전실'. 저온·냉동 항목 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|2F|use",
+      "label": "층 용도 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "2F 전용면적 창고/전실 6,214",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지상 2층 상온창고/전실 20,541.03㎡ (합계 31,296.39㎡)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.177,
+              0.447,
+              0.288,
+              0.469
+            ],
+            "bbox": [
+              564.0,
+              637.0,
+              622.1,
+              645.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_2F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별면적표(변경후). 나머지는 사무실 등·Berth·차량통로·램프",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|area_m2",
+      "label": "층 면적 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 32016.5277,
+          "unit": "m2",
+          "raw_text": "3F 연면적 9,685 (단위: 평)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+          "raw_value": 9685,
+          "raw_unit": "평",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 31296.39,
+          "unit": "m2",
+          "raw_text": "지상 3층 합계 31,296.39㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.42,
+              0.332,
+              0.439
+            ],
+            "bbox": [
+              968.1,
+              627.0,
+              1025.0,
+              634.0
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_3F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+          "raw_value": 31296.39,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 31296.39,
+          "unit": "m2",
+          "raw_text": "지상 3층 합계 31,296.39㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.42,
+              0.332,
+              0.439
+            ],
+            "bbox": [
+              968.1,
+              627.0,
+              1025.0,
+              634.0
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_3F_area_m2_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "재판독(힌트: IM 9,685평 주장). A-001 층별면적표(변경후) 합계 31,296.39㎡ / 9,467.16평, A-001A 층별면적표 합계 열과 동일. 힌트 값 9,685평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+          "raw_value": 31296.39,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "overstated",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 7.4,
+          "unit": "m",
+          "raw_text": "지상 3층 약 7.4~8.0m (구간별 상이)",
+          "precision": "approx",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": true,
+          "note": "범위 표기 하한 후보",
+          "raw_value": 7.4,
+          "raw_unit": "m",
+          "precision_halfwidth": 0.05,
+          "flags": []
+        },
+        {
+          "value": 8.0,
+          "unit": "m",
+          "raw_text": "지상 3층 약 7.4~8.0m (구간별 상이)",
+          "precision": "approx",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": true,
+          "note": "범위 표기 상한 후보",
+          "raw_value": 8.0,
+          "raw_unit": "m",
+          "precision_halfwidth": 0.5,
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지상 3층 접안 대수 56 대 (화물차량 기준)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 30
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p3 접안여부 '전 층 접안 가능', p4 '전층 동시접안 대수 56대'와 동일 취지. 4F는 층 특정 기재 없음",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지상 3층 Berth 3,780.01㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.437,
+              0.42,
+              0.546,
+              0.439
+            ],
+            "bbox": [
+              700.1,
+              627.0,
+              757.2,
+              634.0
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_3F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별면적표 Berth(하역장) 면적 기재. 평면도 '지상1층 하역장'·'윙바디용도크', 차량 램프 평면도 B1~3F 하역장 표기, 하역장 전개도(A-309~313) 제목 '지하1층~지상3층'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "dock_route_column_conflict",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "화물차량동선(범례 굵은 파선): 램프 → 하역장 차로(17,000, 기둥 없는 경간)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-023"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "도면 재확인(2026-10-14, 사용자 채팅 확정). 도면 화물차량동선이 램프 출입부에서 하역장 차로로 기둥을 지나지 않고 연결. 기둥은 Y07·Y08 선(주차 구획 전면)에만 있음. 동선 표시선이며 회전 궤적 검토 아님, 전이부 반사경 2개(시야 제약) — 지상1~3층 공통 평면",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "층고 전층 10m",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "전층 10m 묶음 표기",
+          "raw_value": 10,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "지상 3층~지상 4층 10,000",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": "A-402",
+            "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p002/r0c0.png",
+            "tile_box": [
+              0.206,
+              0.731,
+              0.231,
+              0.783
+            ],
+            "bbox": [
+              107.9,
+              382.8,
+              121.0,
+              410.0
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_3F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "차량 램프 단면도 좌측 층 레벨 간 치수(계 30,000은 1F~4F). 외벽 입단면 상세도(A-601)도 B1st~4th FL 각 10,000",
+          "raw_value": 10000,
+          "raw_unit": "mm",
+          "flags": []
+        },
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "3rd FL.~4th FL. 10,000",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-601",
+            "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+            "tile_box": [
+              0.52,
+              0.655,
+              0.58,
+              0.685
+            ],
+            "bbox": [
+              272.3,
+              343.0,
+              303.7,
+              358.7
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_3F_floor_height_m_1.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "외벽 입단면 상세도-1 (도면 회전 표기). 상온창고 구간",
+          "raw_value": 10000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|temp",
+      "label": "층 온도대 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "용도 상온 (4F~B1 병합 셀)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지상 3층 상온창고/전실 20,468.87㎡ (합계 31,296.39㎡)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.177,
+              0.42,
+              0.288,
+              0.439
+            ],
+            "bbox": [
+              564.0,
+              627.0,
+              622.1,
+              634.0
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_3F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "면적표 항목명 '상온창고/전실'. 저온·냉동 항목 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|use",
+      "label": "층 용도 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "3F 전용면적 창고/전실 6,192",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지상 3층 상온창고/전실 20,468.87㎡ (합계 31,296.39㎡)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.177,
+              0.42,
+              0.288,
+              0.439
+            ],
+            "bbox": [
+              564.0,
+              627.0,
+              622.1,
+              634.0
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_3F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별면적표(변경후). 나머지는 사무실 등·Berth·차량통로·램프",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|4F|area_m2",
+      "label": "층 면적 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 340.4959,
+          "unit": "m2",
+          "raw_text": "4F 연면적 103 (단위: 평)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+          "raw_value": 103,
+          "raw_unit": "평",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 4641.71,
+          "unit": "m2",
+          "raw_text": "지상 4층 합계 4,641.71㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.39,
+              0.332,
+              0.412
+            ],
+            "bbox": [
+              968.1,
+              615.9,
+              1025.0,
+              624.0
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_4F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+          "raw_value": 4641.71,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 4641.71,
+          "unit": "m2",
+          "raw_text": "지상 4층 합계 4,641.71㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.39,
+              0.332,
+              0.412
+            ],
+            "bbox": [
+              968.1,
+              615.9,
+              1025.0,
+              624.0
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_4F_area_m2_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "재판독(힌트: IM 103평 주장). A-001 층별면적표(변경후) 합계 4,641.71㎡ / 1,404.12평, A-001A 층별면적표 합계 열과 동일. 힌트 값 103평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+          "raw_value": 4641.71,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "conservative",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|4F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "층고 전층 10m",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "'전층 10m'(p3 층고 행, p4 '창고 층고 10m') — 4F는 면적표상 사무/지원시설이나 '전층' 표기를 그대로 전사",
+          "raw_value": 10,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 4.5,
+          "unit": "m",
+          "raw_text": "4th FL.~ROOF FL. 4,500",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-601",
+            "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+            "tile_box": [
+              0.26,
+              0.655,
+              0.31,
+              0.685
+            ],
+            "bbox": [
+              136.1,
+              343.0,
+              162.3,
+              358.7
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_4F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "외벽 입단면 상세도-1. 해당 단면 위치(Y01~Y02)의 4층은 '주차장'(옥상 주차). 4층 사무 구역의 층고 치수는 별도 미확인",
+          "raw_value": 4500,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 4.5,
+          "unit": "m",
+          "raw_text": "4th FL.~ROOF FL. 4,500",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-600 외벽단면 관련도.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-601",
+            "tile": "output/wf2/bangchori/tiles/A-600 외벽단면 관련도_p001/r0c0.png",
+            "tile_box": [
+              0.26,
+              0.655,
+              0.31,
+              0.685
+            ],
+            "bbox": [
+              136.1,
+              343.0,
+              162.3,
+              358.7
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_4F_floor_height_m_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "재판독(힌트: IM '층고 전층 10m'). A-601 외벽 입단면 상세도-1 Y01~Y02 위치 치수열 '4,500 | 10,000 | 10,000 ... (34,500)'에서 4th FL.~ROOF FL. = 4,500. 이 구간 실명 표기는 '주차장'. 1차 값 유지. 10,000은 B1~4th FL 구간 치수이며 4F~ROOF 구간에는 해당 없음.",
+          "raw_value": 4500,
+          "raw_unit": "mm",
+          "flags": []
+        },
+        {
+          "value": 4.15,
+          "unit": "m",
+          "raw_text": "지상4층~RF 4,150 (치수열 4,150 | 10,000 | 10,000 ... 합 34,150)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-800 수직계통 관련도.pdf",
+          "source_locator": {
+            "page": 32,
+            "sheet_no": "A-841",
+            "tile": "output/wf2/bangchori/tiles/A-800 수직계통 관련도_p032/r1c0.png",
+            "tile_box": [
+              0.26,
+              0.375,
+              0.44,
+              0.54
+            ],
+            "bbox": [
+              136.1,
+              610.5,
+              230.4,
+              671.7
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_4F_floor_height_m_2.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "재판독 중 추가 확인. CORE #1 비상용ELEV. 단면상세도(A-841) 지상4층~RF 4,150, 4층 실명 '복도', 상부 '지붕'. 코어·사무부 위치 4F 층고로 판단되며 A-601 주차장 위치 4,500과 다름. 두 값 모두 IM 주장 10m와 불일치. 4F 사무부 층고 10m를 뒷받침하는 치수는 도면에서 찾지 못함.",
+          "raw_value": 4150,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "overstated",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|4F|temp",
+      "label": "층 온도대 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "용도 상온 (4F~B1 병합 셀)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|4F|use",
+      "label": "층 용도 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "4F 전용면적 사무실 103, 창고/전실 -",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p7 '지상4층(지원시설)', p4 '4층 공간 사무실, 교육장, 식당, 샤워실, 회의실, 편의시설'. 면적표상 창고 면적 없음",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "지상 4층 사무실/휴게실/식당/기타공용 4,641.71㎡ (상온창고 —)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.309,
+              0.39,
+              0.42,
+              0.412
+            ],
+            "bbox": [
+              633.1,
+              615.9,
+              691.2,
+              624.0
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_4F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "4층은 사무실·휴게실·식당 등만 있고 상온창고·Berth 칸은 사선(없음). 방화구획 4-1·4-2 '사무실'. 창고 상부 4층 레벨은 옥상 주차장(화물 126대 등)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B1|area_m2",
+      "label": "층 면적 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 30697.5195,
+          "unit": "m2",
+          "raw_text": "B1 연면적 9,286 (단위: 평)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p6 층별 면적표 '연면적' 열(차로/램프 포함). 임대면적(전용+공용배분)은 별도 열",
+          "raw_value": 9286,
+          "raw_unit": "평",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 31867.82,
+          "unit": "m2",
+          "raw_text": "지하 1층 합계 31,867.82㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.528,
+              0.332,
+              0.55
+            ],
+            "bbox": [
+              968.1,
+              667.0,
+              1025.0,
+              675.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_B1_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "설계개요 층별면적표(변경후) 합계 열. 변경전 동일. 하역장(Berth)·차량통로·램프 면적 포함",
+          "raw_value": 31867.82,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 31867.82,
+          "unit": "m2",
+          "raw_text": "지하 1층 합계 31,867.82㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c2.png",
+            "tile_box": [
+              0.103,
+              0.528,
+              0.332,
+              0.55
+            ],
+            "bbox": [
+              968.1,
+              667.0,
+              1025.0,
+              675.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_B1_area_m2_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "재판독(힌트: IM 9,286평 주장). A-001 층별면적표(변경후) 합계 31,867.82㎡ / 9,640.02평, A-001A 층별면적표 합계 열과 동일. 힌트 값 9,286평은 A-001·A-001A 표의 어느 셀(용도별 소계 포함)과도 일치하지 않고, 전 도면 텍스트 레이어 검색(A-006~009 면적산출근거표 포함)에서도 발견되지 않음. 도면에는 임대면적·공용면적 배분표가 없어 IM 값의 산정 기준(임대면적 배분 여부)은 도면으로 확인 불가. 1차 값 유지.",
+          "raw_value": 31867.82,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "conservative",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.5,
+          "unit": "m",
+          "raw_text": "유효 층고: 지하1, 지상1,2층 약 8.5m",
+          "precision": "approx",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 8.5,
+          "raw_unit": "m",
+          "precision_halfwidth": 0.05,
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|direct_truck_access",
+      "label": "차량 직접접안 가능 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지하 1층 접안 대수 56 대 (화물차량 기준)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 29
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "p3 접안여부 '전 층 접안 가능', p4 '전층 동시접안 대수 56대'와 동일 취지. 4F는 층 특정 기재 없음",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지하 1층 Berth 3,780.25㎡",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.437,
+              0.528,
+              0.546,
+              0.55
+            ],
+            "bbox": [
+              700.1,
+              667.0,
+              757.2,
+              675.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_B1_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별면적표 Berth(하역장) 면적 기재. 평면도 '지상1층 하역장'·'윙바디용도크', 차량 램프 평면도 B1~3F 하역장 표기, 하역장 전개도(A-309~313) 제목 '지하1층~지상3층'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B1|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "dock_route_column_conflict",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "화물차량동선(범례 굵은 파선): 램프 → 하역장 차로(17,000, 기둥 없는 경간)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-021~024 주차계획도.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": "A-022"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "도면 재확인(2026-10-14, 사용자 채팅 확정). 도면 화물차량동선이 램프 출입부에서 하역장 차로로 기둥을 지나지 않고 연결. 기둥은 Y07·Y08 선(주차 구획 전면)에만 있음. 동선 표시선이며 회전 궤적 검토 아님, 전이부 반사경 2개(시야 제약)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|floor_height_m",
+      "label": "층고(바닥~바닥) (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "층고 전층 10m",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 3
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "전층 10m 묶음 표기",
+          "raw_value": 10,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "지하 1층~지상 1층 10,000",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-400 램프 관련도.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": "A-402",
+            "tile": "output/wf2/bangchori/tiles/A-400 램프 관련도_p002/r1c0.png",
+            "tile_box": [
+              0.176,
+              0.226,
+              0.197,
+              0.299
+            ],
+            "bbox": [
+              92.2,
+              555.1,
+              103.1,
+              582.1
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_B1_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "차량 램프 단면도 좌측 층 레벨 간 치수(계 30,000은 1F~4F). 외벽 입단면 상세도(A-601)도 B1st~4th FL 각 10,000",
+          "raw_value": 10000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B1|temp",
+      "label": "층 온도대 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "용도 상온 (4F~B1 병합 셀)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지하 1층 상온창고/전실 20,236.54㎡ (합계 31,867.82㎡)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.177,
+              0.528,
+              0.288,
+              0.55
+            ],
+            "bbox": [
+              564.0,
+              667.0,
+              622.1,
+              675.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_B1_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "면적표 항목명 '상온창고/전실'. 저온·냉동 항목 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B1|use",
+      "label": "층 용도 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "B1 전용면적 창고/전실 6,122",
+          "precision": "exact",
+          "source_doc": "input/bangchori/im/202509_키움로지스틱스1호(키움 방초리 물류센터)_담보대출 제안 IM v2.3.pdf",
+          "source_locator": {
+            "page": 6
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": null,
+          "conflict": false,
+          "note": "B1은 기계/기전실 475 포함",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지하 1층 상온창고/전실 20,236.54㎡ (합계 31,867.82㎡)",
+          "precision": "exact",
+          "source_doc": "input/bangchori/drawings/A-001 설계개요.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": "A-001",
+            "tile": "output/wf2/bangchori/tiles/A-001 설계개요_p001/r1c1.png",
+            "tile_box": [
+              0.177,
+              0.528,
+              0.288,
+              0.55
+            ],
+            "bbox": [
+              564.0,
+              667.0,
+              622.1,
+              675.2
+            ],
+            "crop": "output/wf2/bangchori/crops/floor_main_B1_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별면적표(변경후). 나머지는 사무실 등·Berth·차량통로·램프, 냉동기계실/기전실등 1,294.12㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    }
+  ],
+  "validation": {
+    "im": {
+      "ok": true,
+      "errors": [],
+      "flags": []
+    },
+    "drawing": {
+      "ok": true,
+      "errors": [],
+      "flags": []
+    }
+  }
+}

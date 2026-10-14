@@ -1,0 +1,292 @@
+[
+  {
+    "at": "2026-10-13T15:12:57+09:00",
+    "changed": [
+      "th:floor_load:default::yellow",
+      "th:clear_height:default::yellow",
+      "th:column_span:default::yellow",
+      "th:ramp_slope:default::red",
+      "th:ramp_slope:default::yellow",
+      "th:ramp_slope:override:0:red",
+      "th:ramp_width:default::red",
+      "th:ramp_width:default::yellow",
+      "th:ramp_width:override:0:red",
+      "th:ramp_width:override:0:yellow",
+      "th:ramp_width:override:1:red",
+      "th:fire_compartment_area:default::yellow",
+      "th:sprinkler_esfr_clear_height:default::red",
+      "th:flood_depth:default::yellow",
+      "th:aging_piping:default::red",
+      "th:aging_substation:default::red",
+      "th:aging_fire_system:default::red",
+      "th:aging_roof:default::red",
+      "th:aging_compliance:default::yellow",
+      "th:aging_capex:default::yellow",
+      "th:aging_elevator:default::red",
+      "th:aging_generator:default::red",
+      "th:cold_refrigeration_age:default::red",
+      "th:aging_pavement:default::red",
+      "th:aging_pavement:default::yellow",
+      "missing:dock_density.red",
+      "missing:dock_density.yellow",
+      "missing:truck_yard_depth.red",
+      "missing:truck_yard_depth.yellow",
+      "reg:ext_wall_finish_2019",
+      "reg:composite_panel_core_nonflammable_2022",
+      "reg:composite_panel_mockup_test_2022",
+      "reg:ext_wall_finish_2027_pending",
+      "reg:fire_compartment_area_basis",
+      "reg:fire_compartment_rule_2019",
+      "reg:warehouse_compartment_relief_restricted_2022",
+      "reg:fire_shutter_rule_2026",
+      "reg:large_warehouse_performance_design_2022",
+      "reg:warehouse_nfpc609_2024",
+      "reg:ammonia_refrigeration_permit_threshold",
+      "reg:asbestos_products_ban_2008",
+      "reg:asbestos_total_ban_2009",
+      "profile:temp_zone_classification"
+    ],
+    "decisions": {
+      "th:floor_load:default::yellow": {
+        "action": "verify"
+      },
+      "th:clear_height:default::yellow": {
+        "action": "verify"
+      },
+      "th:column_span:default::yellow": {
+        "action": "verify"
+      },
+      "th:ramp_slope:default::red": {
+        "action": "edit",
+        "value": "9",
+        "source": "골든"
+      },
+      "th:ramp_slope:default::yellow": {
+        "action": "edit",
+        "value": "9",
+        "source": "골든"
+      },
+      "th:ramp_slope:override:0:red": {
+        "action": "edit",
+        "value": "9",
+        "source": "골든"
+      },
+      "th:ramp_width:default::red": {
+        "action": "edit",
+        "value": "6.5",
+        "source": "골든"
+      },
+      "th:ramp_width:default::yellow": {
+        "action": "edit",
+        "value": "6.5",
+        "source": "골든"
+      },
+      "th:ramp_width:override:0:red": {
+        "action": "edit",
+        "value": "7.5",
+        "source": "제34조 연결로 C기준"
+      },
+      "th:ramp_width:override:0:yellow": {
+        "action": "edit",
+        "value": "7.5",
+        "source": "제34조 연결로 C기준"
+      },
+      "th:ramp_width:override:1:red": {
+        "action": "edit",
+        "value": "6.5",
+        "source": "골든"
+      },
+      "th:fire_compartment_area:default::yellow": {
+        "action": "verify"
+      },
+      "th:sprinkler_esfr_clear_height:default::red": {
+        "action": "verify"
+      },
+      "th:flood_depth:default::yellow": {
+        "action": "verify"
+      },
+      "th:aging_piping:default::red": {
+        "action": "verify"
+      },
+      "th:aging_substation:default::red": {
+        "action": "verify"
+      },
+      "th:aging_fire_system:default::red": {
+        "action": "verify"
+      },
+      "th:aging_roof:default::red": {
+        "action": "verify"
+      },
+      "th:aging_compliance:default::yellow": {
+        "action": "verify"
+      },
+      "th:aging_capex:default::yellow": {
+        "action": "verify"
+      },
+      "th:aging_elevator:default::red": {
+        "action": "verify"
+      },
+      "th:aging_generator:default::red": {
+        "action": "verify"
+      },
+      "th:cold_refrigeration_age:default::red": {
+        "action": "verify"
+      },
+      "th:aging_pavement:default::red": {
+        "action": "verify"
+      },
+      "th:aging_pavement:default::yellow": {
+        "action": "verify"
+      },
+      "missing:dock_density.red": {
+        "action": "set",
+        "value": "50",
+        "source": "사용자"
+      },
+      "missing:dock_density.yellow": {
+        "action": "set",
+        "value": "50",
+        "source": "사용자"
+      },
+      "missing:truck_yard_depth.red": {
+        "action": "set",
+        "value": "13",
+        "source": "사용자"
+      },
+      "missing:truck_yard_depth.yellow": {
+        "action": "set",
+        "value": "13",
+        "source": "사용자"
+      },
+      "reg:ext_wall_finish_2019": {
+        "action": "verify"
+      },
+      "reg:composite_panel_core_nonflammable_2022": {
+        "action": "verify"
+      },
+      "reg:composite_panel_mockup_test_2022": {
+        "action": "verify"
+      },
+      "reg:ext_wall_finish_2027_pending": {
+        "action": "verify"
+      },
+      "reg:fire_compartment_area_basis": {
+        "action": "verify"
+      },
+      "reg:fire_compartment_rule_2019": {
+        "action": "verify"
+      },
+      "reg:warehouse_compartment_relief_restricted_2022": {
+        "action": "verify"
+      },
+      "reg:fire_shutter_rule_2026": {
+        "action": "verify"
+      },
+      "reg:large_warehouse_performance_design_2022": {
+        "action": "verify"
+      },
+      "reg:warehouse_nfpc609_2024": {
+        "action": "verify"
+      },
+      "reg:ammonia_refrigeration_permit_threshold": {
+        "action": "verify"
+      },
+      "reg:asbestos_products_ban_2008": {
+        "action": "verify"
+      },
+      "reg:asbestos_total_ban_2009": {
+        "action": "verify"
+      },
+      "profile:temp_zone_classification": {
+        "action": "verify"
+      }
+    }
+  },
+  {
+    "at": "2026-10-13T16:00:00+09:00",
+    "via": "채팅 지시 (Claude가 YAML 직접 수정)",
+    "changed": [
+      "th:floor_load:default::red",
+      "th:floor_load:default::yellow",
+      "th:ramp_slope:default::yellow",
+      "th:ramp_width:default::yellow",
+      "th:ramp_width:override:0:yellow",
+      "th:dock_density:default::yellow",
+      "th:truck_yard_depth:default::yellow",
+      "th:dock_density:unit"
+    ],
+    "decisions": {
+      "th:floor_load:default::red": {
+        "action": "edit",
+        "value": 1.5,
+        "comment": "사용자: 바닥하중 1.5t/㎡ 확정 (이전 🔴 1.2 미확정)"
+      },
+      "th:floor_load:default::yellow": {
+        "action": "delete",
+        "comment": "등급 단일화"
+      },
+      "th:ramp_slope:default::yellow": {
+        "action": "delete",
+        "comment": "등급 단일화 (🔴=🟡=9)"
+      },
+      "th:ramp_width:default::yellow": {
+        "action": "delete",
+        "comment": "등급 단일화 (🔴=🟡=6.5)"
+      },
+      "th:ramp_width:override:0:yellow": {
+        "action": "delete",
+        "comment": "등급 단일화 (양방향 🔴=🟡=7.5)"
+      },
+      "th:dock_density:default::yellow": {
+        "action": "delete",
+        "comment": "등급 단일화 (🔴=🟡=50)"
+      },
+      "th:truck_yard_depth:default::yellow": {
+        "action": "delete",
+        "comment": "등급 단일화 (🔴=🟡=13)"
+      },
+      "th:dock_density:unit": {
+        "action": "edit",
+        "value": "대/1만평",
+        "comment": "사용자: 50은 1만평 기준으로 입력한 값 → 단위를 대/1만㎡에서 대/1만평으로 변경"
+      },
+      "rule:SP05.yellow": {
+        "action": "edit",
+        "value": "count(floors_without_direct_access) > 0",
+        "comment": "램프 경사·폭 🟡 삭제에 따라 직접접안 조건만 남김"
+      }
+    }
+  },
+  {
+    "at": "2026-10-13T19:00:00+09:00",
+    "via": "채팅 지시 (Claude가 YAML 직접 수정)",
+    "changed": [
+      "th:warehouse_depth:default::red",
+      "rule:FR05.comparator"
+    ],
+    "decisions": {
+      "th:warehouse_depth:default::red": {
+        "action": "set",
+        "value": 77,
+        "source": "사용자 결정 — 석남동 쿠팡 물류센터 화재 사례 창고 내부 깊이 약 77m (원창 IM p34)"
+      },
+      "rule:FR05.comparator": {
+        "action": "edit",
+        "value": ">=",
+        "comment": "기준 사례(77m) 자체가 걸리도록 초과(>)에서 이상(>=)으로"
+      }
+    }
+  },
+  {
+    "at": "2026-10-14T16:58:40+09:00",
+    "changed": [
+      "th:turning_radius:default:0:red"
+    ],
+    "decisions": {
+      "th:turning_radius:default:0:red": {
+        "action": "verify",
+        "comment": "채팅 확인(2026-10-14) — 세미트레일러 최소회전반지름 12.0m를 SP08 🔴 기준으로 확정. bangchori 회전반경 15.7m(📐벡터 측정) 판정용"
+      }
+    }
+  }
+]

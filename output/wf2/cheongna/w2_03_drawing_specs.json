@@ -1,0 +1,2237 @@
+{
+  "asset_id": "cheongna",
+  "record_type": "drawing_specs",
+  "created_at": "2026-10-13T13:21:48+09:00",
+  "asset": {},
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "청라로지스틱스 물류센터 (물류창고동)",
+      "phase": "원준공",
+      "fields": {
+        "floors_above": [
+          {
+            "value": 10,
+            "unit": "floor",
+            "raw_text": "10TH FFL EL+60,800 (최상층 레벨; 상부는 PH FFL)",
+            "precision": "exact",
+            "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 9,
+              "sheet_no": null,
+              "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+              "tile_box": [
+                0.195,
+                0.371,
+                0.237,
+                0.388
+              ],
+              "bbox": [
+                102.1,
+                194.3,
+                124.1,
+                203.2
+              ],
+              "crop": "output/wf2/cheongna/crops/building_main_x_floors_above_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "주단면도-1 레벨 표기. 1ST~10TH FFL, 그 위 PH(옥탑)",
+            "raw_value": 10,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "B1ST FFL EL-8,500",
+            "precision": "exact",
+            "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 9,
+              "sheet_no": null,
+              "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+              "tile_box": [
+                0.195,
+                0.621,
+                0.237,
+                0.638
+              ],
+              "bbox": [
+                102.1,
+                325.2,
+                124.1,
+                334.1
+              ],
+              "crop": "output/wf2/cheongna/crops/building_main_x_floors_below_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "주단면도-1 레벨 표기",
+            "raw_value": 1,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "11,000 (X1~X39 그리드, 양단 11,100, 총 419,700)",
+            "precision": "exact",
+            "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 2,
+              "sheet_no": null,
+              "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r0c0.png",
+              "tile_box": [
+                0.286,
+                0.875,
+                0.439,
+                0.894
+              ],
+              "bbox": [
+                149.7,
+                458.2,
+                229.9,
+                468.1
+              ],
+              "crop": "output/wf2/cheongna/crops/building_main_x_column_span_x_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "장변(X) 방향 일반 스팬. 1F 평면도 X20~X21 12,500, 상층 X20 부근 1,500 E.J 오프셋",
+            "raw_value": 11000,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "11,000 (Y1~Y16 그리드, 총 174,000)",
+            "precision": "exact",
+            "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 2,
+              "sheet_no": null,
+              "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r1c0.png",
+              "tile_box": [
+                0.202,
+                0.307,
+                0.229,
+                0.415
+              ],
+              "bbox": [
+                105.8,
+                585.1,
+                119.9,
+                625.1
+              ],
+              "crop": "output/wf2/cheongna/crops/building_main_x_column_span_y_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "단변(Y) 방향 일반 스팬. Y8~Y9 13,000 / Y9~Y10 16,000 / Y10~Y11 13,000 은 하역장·차량통로 구간",
+            "raw_value": 11000,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "THK100 글라스울 샌드위치 패널",
+            "precision": "exact",
+            "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p007/r0c0.png",
+              "tile_box": [
+                0.539,
+                0.405,
+                0.604,
+                0.422
+              ],
+              "bbox": [
+                282.2,
+                212.1,
+                316.3,
+                221.0
+              ],
+              "crop": "output/wf2/cheongna/crops/building_main_x_wall_panel_core_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "정면도 외벽 주기(1순위 외벽상세도·마감표는 패키지에 없음)",
+            "flags": []
+          },
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "THK100 글라스울 샌드위치 패널",
+            "precision": "exact",
+            "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p007/r0c0.png",
+              "tile_box": [
+                0.382,
+                0.966,
+                0.485,
+                0.985
+              ],
+              "bbox": [
+                200.0,
+                505.8,
+                253.9,
+                515.7
+              ],
+              "crop": "output/wf2/cheongna/crops/building_main_x_wall_panel_core_1.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "우측면도 외벽 주기. 코어외벽 'THK150 글라스울 샌드위치패널', 램프부 'THK4 알루미늄 복합패널' 별도 표기",
+            "flags": []
+          }
+        ],
+        "solar_installed": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "태양광패널",
+            "precision": "exact",
+            "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 9,
+              "sheet_no": null,
+              "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+              "tile_box": [
+                0.848,
+                0.367,
+                0.898,
+                0.386
+              ],
+              "bbox": [
+                444.0,
+                192.2,
+                470.2,
+                202.1
+              ],
+              "crop": "output/wf2/cheongna/crops/building_main_x_solar_installed_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "주단면도-1 지붕(10TH FFL) 상부 표기. 10층 평면도에도 패널 배열 도시(문자 흐림). 지붕평면도는 패키지에 없음",
+            "flags": []
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "나선형",
+            "unit": null,
+            "raw_text": "양단부 타원형 램프(OPEN) / 내려감·올라감 표기",
+            "precision": "exact",
+            "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 2,
+              "sheet_no": null,
+              "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r1c0.png",
+              "tile_box": [
+                0.267,
+                0.023,
+                0.363,
+                0.226
+              ],
+              "bbox": [
+                139.8,
+                479.8,
+                190.1,
+                555.1
+              ],
+              "crop": "output/wf2/cheongna/crops/building_main_x_ramp_type_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "형식 문자 표기 없음. X1~X4·X36~X39 양단부 타원형 순환 램프 형상으로 판독. 좌측 램프 '내려감', 우측 램프 '올라감' 표기(각 램프 일방향) / 2026-10-13 스키마 분리: ramp_type→ramp_form",
+            "flags": []
+          },
+          {
+            "value": "나선형",
+            "unit": null,
+            "raw_text": "양단부 타원형 2차로 램프(OPEN) / 좌측 내려감·내려옴, 우측 올라감·올라옴",
+            "precision": "exact",
+            "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 2,
+              "sheet_no": null,
+              "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r1c0.png",
+              "tile_box": [
+                0.267,
+                0.023,
+                0.363,
+                0.226
+              ],
+              "bbox": [
+                139.8,
+                479.8,
+                190.1,
+                555.1
+              ],
+              "crop": "output/wf2/cheongna/crops/building_main_x_ramp_type_0.png"
+            },
+            "method": "vision_hinted",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "재판독(IM 힌트: 단방향). 형식 문자 표기 없음. 형상은 X1~X4·X36~X39 양단부 타원형(나선) 램프로 1차와 동일. 좌측 램프는 내려감·내려옴(하행 전용), 우측 램프는 올라감·올라옴(상행 전용) 표기로 램프별 일방향·상하행 분리는 확인됨. 형상 기준 enum은 나선형 유지 / 2026-10-13 스키마 분리: ramp_type→ramp_form",
+            "flags": []
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 8.5,
+                "unit": "m",
+                "raw_text": "8,500 (B1ST FFL EL-8,500 ~ 1ST FFL EL±0)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.596,
+                    0.26,
+                    0.638
+                  ],
+                  "bbox": [
+                    102.1,
+                    312.1,
+                    136.1,
+                    334.1
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_B1_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "같은 위치에 7,400 치수도 병기(용도 불명)",
+                "raw_value": 8500.0,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "기계",
+                "unit": null,
+                "raw_text": "기계실·소화용수조·저수조실·전기실·발전기실",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p001/r0c0.png",
+                  "tile_box": [
+                    0.286,
+                    0.477,
+                    0.392,
+                    0.573
+                  ],
+                  "bbox": [
+                    149.7,
+                    249.8,
+                    205.3,
+                    300.0
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_B1_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "지하1층 평면도 실명(부분 지하)",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000 (1ST FFL EL±0 ~ 3RD FFL EL+10,000)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.56,
+                    0.26,
+                    0.602
+                  ],
+                  "bbox": [
+                    102.1,
+                    293.2,
+                    136.1,
+                    315.2
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_1F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "2F(EL+5,000)는 사무·냉동기실 층으로 치수선은 1ST~3RD FFL 사이",
+                "raw_value": 10000.0,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고(C급) / 저온작업장 / 하역장",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.455,
+                    0.571,
+                    0.512,
+                    0.6
+                  ],
+                  "bbox": [
+                    238.2,
+                    299.0,
+                    268.1,
+                    314.2
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_1F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 실명. 1층 평면도 실명은 흐려 판독불가",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고(C급) / 저온창고(C&F급)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.455,
+                    0.571,
+                    0.512,
+                    0.6
+                  ],
+                  "bbox": [
+                    238.2,
+                    299.0,
+                    268.1,
+                    314.2
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_1F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 남측 저온창고(C급), 북측 저온창고(C&F급). 2층 평면도 '저온창고 상부' 표기. C&F급은 냉장·냉동 겸용 등급 표기",
+                "flags": []
+              },
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고(C&F급)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.81,
+                    0.573,
+                    0.854,
+                    0.6
+                  ],
+                  "bbox": [
+                    424.1,
+                    300.0,
+                    447.2,
+                    314.2
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_1F_temp_1.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 우측(북측) 1층",
+                "flags": []
+              },
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "1층: 하역장 / 저온작업장 / 저온창고(C급) / 저온창고(C&F급)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.455,
+                    0.571,
+                    0.512,
+                    0.6
+                  ],
+                  "bbox": [
+                    238.2,
+                    299.0,
+                    268.1,
+                    314.2
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_1F_temp_0.png"
+                },
+                "method": "vision_hinted",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "재판독(IM 힌트: 혼합/상온·저온). 주단면도-1 1층 열에 하역장·저온작업장·저온창고(C급)·저온창고(C&F급)만 있고 상온창고 표기 없음(상온창고는 상층부). 횡단면도-1(Y13~Y14) 최하층도 저온창고(C&F급). 1차 값 유지",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "하역장 / 차량통로 / OHD",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.584,
+                    0.575,
+                    0.68,
+                    0.6
+                  ],
+                  "bbox": [
+                    305.8,
+                    301.1,
+                    356.0,
+                    314.2
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_1F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 해당 층 Y9~Y10 차량통로와 양측 하역장(OHD) 도시",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "사무실 #1~#6 / 냉동기실 #1~#4 / 2ND FFL±0",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r0c0.png",
+                  "tile_box": [
+                    0.353,
+                    0.435,
+                    0.573,
+                    0.477
+                  ],
+                  "bbox": [
+                    184.8,
+                    227.8,
+                    300.0,
+                    249.8
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_2F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "2층 평면도. 사무실과 냉동기실(기계) 혼재, 나머지는 '저온창고 상부'·'하역장 상부' 오픈",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000 (3RD FFL EL+10,000 ~ 4TH FFL EL+20,000)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.523,
+                    0.26,
+                    0.565
+                  ],
+                  "bbox": [
+                    102.1,
+                    273.8,
+                    136.1,
+                    295.8
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_3F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "raw_value": 10000.0,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고 #1-1~#1-12 / 저온창고 #2-1~#2-8(C&F급) / 하역장",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r0c0.png",
+                  "tile_box": [
+                    0.344,
+                    0.964,
+                    0.43,
+                    0.993
+                  ],
+                  "bbox": [
+                    180.1,
+                    504.8,
+                    225.1,
+                    519.9
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_3F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "평면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "혼합",
+                "unit": null,
+                "raw_text": "상온창고 #1-1~#1-12(남측) / 저온창고 #2-1~#2-8 (C&F급)(북측)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r0c0.png",
+                  "tile_box": [
+                    0.344,
+                    0.964,
+                    0.43,
+                    0.993
+                  ],
+                  "bbox": [
+                    180.1,
+                    504.8,
+                    225.1,
+                    519.9
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_3F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "평면도 북측 저온창고(C&F급), 남측 상온창고. 주단면도-1·횡단면도도 동일",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "하역장 / 차량통로 / OHD",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.584,
+                    0.539,
+                    0.68,
+                    0.561
+                  ],
+                  "bbox": [
+                    305.8,
+                    282.2,
+                    356.0,
+                    293.7
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_3F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 해당 층 Y9~Y10 차량통로와 양측 하역장(OHD) 도시",
+                "flags": []
+              },
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "차량통로 하역주차 143대",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p002/r1c0.png",
+                  "tile_box": [
+                    0.569,
+                    0.21,
+                    0.646,
+                    0.247
+                  ],
+                  "bbox": [
+                    297.9,
+                    549.1,
+                    338.2,
+                    562.8
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_3F_direct_truck_access_1.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "평면도 표기(접안 차량 대수)",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000 (4TH FFL EL+20,000 ~ 6TH FFL EL+30,000)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.487,
+                    0.26,
+                    0.531
+                  ],
+                  "bbox": [
+                    102.1,
+                    255.0,
+                    136.1,
+                    278.0
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_4F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "5F(EL+25,000)는 코어부 사무층으로 치수선은 4TH~6TH FFL 사이",
+                "raw_value": 10000.0,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.424,
+                    0.504,
+                    0.47,
+                    0.527
+                  ],
+                  "bbox": [
+                    222.0,
+                    263.9,
+                    246.1,
+                    275.9
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_4F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 실명. 평면도(쿠팡 대수선도면)는 실명 판독불가",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "상온창고",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.424,
+                    0.504,
+                    0.47,
+                    0.527
+                  ],
+                  "bbox": [
+                    222.0,
+                    263.9,
+                    246.1,
+                    275.9
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_4F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 좌·우측 모두 상온창고",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "하역장 / 차량통로 / OHD",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.584,
+                    0.504,
+                    0.68,
+                    0.527
+                  ],
+                  "bbox": [
+                    305.8,
+                    263.9,
+                    356.0,
+                    275.9
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_4F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 해당 층 Y9~Y10 차량통로와 양측 하역장(OHD) 도시",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "6F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000 (6TH FFL EL+30,000 ~ 7TH FFL EL+40,000)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.451,
+                    0.26,
+                    0.495
+                  ],
+                  "bbox": [
+                    102.1,
+                    236.1,
+                    136.1,
+                    259.2
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_6F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "raw_value": 10000.0,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.424,
+                    0.468,
+                    0.47,
+                    0.491
+                  ],
+                  "bbox": [
+                    222.0,
+                    245.0,
+                    246.1,
+                    257.1
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_6F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 실명. 평면도(쿠팡 대수선도면)는 실명 판독불가",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "상온창고",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.424,
+                    0.468,
+                    0.47,
+                    0.491
+                  ],
+                  "bbox": [
+                    222.0,
+                    245.0,
+                    246.1,
+                    257.1
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_6F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 좌·우측 모두 상온창고",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "하역장 / 차량통로 / OHD",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.584,
+                    0.468,
+                    0.68,
+                    0.491
+                  ],
+                  "bbox": [
+                    305.8,
+                    245.0,
+                    356.0,
+                    257.1
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_6F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 해당 층 Y9~Y10 차량통로와 양측 하역장(OHD) 도시",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "7F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000 (7TH FFL EL+40,000 ~ 9TH FFL EL+50,000)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.414,
+                    0.26,
+                    0.458
+                  ],
+                  "bbox": [
+                    102.1,
+                    216.8,
+                    136.1,
+                    239.8
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_7F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "8F(EL+45,000)는 코어부 사무층으로 치수선은 7TH~9TH FFL 사이",
+                "raw_value": 10000.0,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고 #1-1~#1-12, #2-1~#2-8 / 하역장",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 4,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p004/r1c0.png",
+                  "tile_box": [
+                    0.286,
+                    0.293,
+                    0.382,
+                    0.326
+                  ],
+                  "bbox": [
+                    149.7,
+                    579.9,
+                    200.0,
+                    592.1
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_7F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "평면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "상온창고 #1-1~#1-12, #2-1~#2-8",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 4,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p004/r1c0.png",
+                  "tile_box": [
+                    0.286,
+                    0.293,
+                    0.382,
+                    0.326
+                  ],
+                  "bbox": [
+                    149.7,
+                    579.9,
+                    200.0,
+                    592.1
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_7F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "평면도 실명. 주단면도-1도 상온창고",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "하역장 / 차량통로 / OHD",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.584,
+                    0.432,
+                    0.68,
+                    0.455
+                  ],
+                  "bbox": [
+                    305.8,
+                    226.2,
+                    356.0,
+                    238.2
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_7F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 해당 층 Y9~Y10 차량통로와 양측 하역장(OHD) 도시",
+                "flags": []
+              },
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "차량통로 하역주차 145대",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 4,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p004/r1c0.png",
+                  "tile_box": [
+                    0.569,
+                    0.142,
+                    0.646,
+                    0.18
+                  ],
+                  "bbox": [
+                    297.9,
+                    523.9,
+                    338.2,
+                    538.0
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_7F_direct_truck_access_1.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "평면도 표기(접안 차량 대수)",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "8F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "사무실#1~#5 / 8TH FFL±0",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 5,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p005/r0c0.png",
+                  "tile_box": [
+                    0.353,
+                    0.493,
+                    0.458,
+                    0.519
+                  ],
+                  "bbox": [
+                    184.8,
+                    258.1,
+                    239.8,
+                    271.7
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_8F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "8층 평면도. 나머지는 '상온창고 상부'·'하역장 상부' 오픈",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "9F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.8,
+                "unit": "m",
+                "raw_text": "10,800 (9TH FFL EL+50,000 ~ 10TH FFL EL+60,800)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.378,
+                    0.26,
+                    0.422
+                  ],
+                  "bbox": [
+                    102.1,
+                    197.9,
+                    136.1,
+                    221.0
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_9F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "raw_value": 10800.0,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고 #1-1~#1-12, #2-1~#2-8 / 하역장",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 5,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p005/r1c0.png",
+                  "tile_box": [
+                    0.286,
+                    0.342,
+                    0.382,
+                    0.374
+                  ],
+                  "bbox": [
+                    149.7,
+                    598.0,
+                    200.0,
+                    609.9
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_9F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "평면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "상온창고 #1-1~#1-12, #2-1~#2-8",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 5,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p005/r1c0.png",
+                  "tile_box": [
+                    0.286,
+                    0.342,
+                    0.382,
+                    0.374
+                  ],
+                  "bbox": [
+                    149.7,
+                    598.0,
+                    200.0,
+                    609.9
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_9F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "평면도 실명. 주단면도-1도 상온창고",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "하역장 / 차량통로 / OHD",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.584,
+                    0.395,
+                    0.68,
+                    0.418
+                  ],
+                  "bbox": [
+                    305.8,
+                    206.8,
+                    356.0,
+                    218.9
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_9F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 해당 층 Y9~Y10 차량통로와 양측 하역장(OHD) 도시",
+                "flags": []
+              },
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "차량통로 하역주차 145대",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 5,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p005/r1c0.png",
+                  "tile_box": [
+                    0.573,
+                    0.193,
+                    0.649,
+                    0.231
+                  ],
+                  "bbox": [
+                    300.0,
+                    542.8,
+                    339.8,
+                    556.9
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_9F_direct_truck_access_1.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "평면도 표기(접안 차량 대수)",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "10F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 5.2,
+                "unit": "m",
+                "raw_text": "5,200 (10TH FFL EL+60,800 ~ PH FFL EL+66,000)",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.359,
+                    0.26,
+                    0.384
+                  ],
+                  "bbox": [
+                    102.1,
+                    188.0,
+                    136.1,
+                    201.1
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_10F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "raw_value": 5200.0,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "use": [
+              {
+                "value": "기타",
+                "unit": null,
+                "raw_text": "옥외테라스·전처리실·냉장실1·조리실·세척실·탈의실·사무실 / 차량통로",
+                "precision": "exact",
+                "source_doc": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/cheongna/tiles/cheongna_실사보고서_수록도면_p009/r0c0.png",
+                  "tile_box": [
+                    0.302,
+                    0.363,
+                    0.573,
+                    0.386
+                  ],
+                  "bbox": [
+                    158.1,
+                    190.1,
+                    300.0,
+                    202.1
+                  ],
+                  "crop": "output/wf2/cheongna/crops/floor_main_10F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "주단면도-1 10층(지붕층) 실명. 10층 평면도에는 식당·사무실·휴게실·주차장·체육시설 도시(문자 대부분 흐림)",
+                "flags": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "missing": [
+    {
+      "level": "asset",
+      "building_id": null,
+      "field": "site_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "배치도",
+        "측량성과도"
+      ],
+      "note": "1층 배치도·우수/오수계획평면도에 대지면적 표기 없음. 지적현황측량 성과도 면적표시란 공란"
+    },
+    {
+      "level": "asset",
+      "building_id": null,
+      "field": "truck_yard_depth_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "배치도",
+        "평면도"
+      ],
+      "note": "야드 깊이 치수 없음. 동 중앙 Y9~Y10 그리드 16,000은 차량통로(차로) 폭이라 야드 깊이로 보지 않음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "completion_year",
+      "missing_reason": "미기재",
+      "searched": [
+        "표제란"
+      ],
+      "note": "배치도 표제란(A14-001) 일자 흐림. 도면 일자는 준공일이 아니므로 사용하지 않음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "gross_floor_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "배치도",
+        "면적표"
+      ],
+      "note": "1층 배치도에 면적표 없음, NOTE 문자 흐림. 면적표 도면은 패키지에 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "structure_type",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "단면도",
+        "입면도"
+      ],
+      "note": "구조일반사항 없음. 단면도에 구조형식 명기 없음. 입면도 'PC 콘크리트 노출(TYP)' 주기만 있음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "면적표"
+      ],
+      "note": "평면도에 실 면적 표기 없음, 면적표 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_ratio_pct",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표"
+      ],
+      "note": "면적표 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "dock_count",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도",
+        "배치도"
+      ],
+      "note": "하역장 도크 구획은 도시되나 도어 번호·수량 문자 없음/흐림. 평면도 '하역주차 143대'(3F)·'145대'(7F·9F)는 접안 차량 대수라 도크 수로 쓰지 않음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "dock_leveler_count",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도"
+      ],
+      "note": "레벨러 기호 해상도 부족으로 식별 불가"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "ramp_slope_pct",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도",
+        "램프상세도"
+      ],
+      "note": "단면도에 램프 경사 표기 없음, 램프상세도 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "ramp_width_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "램프상세도"
+      ],
+      "note": "평면도에 램프 폭 치수 없음(그리드 치수만), 램프상세도 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "freight_elevator_count",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도",
+        "기계도면"
+      ],
+      "note": "코어#1~#27에 승강기 기호는 있으나 화물용 구분 문자 판독불가. 기계도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "freight_elevator_capacity_t",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "기계도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "vrc_count",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도",
+        "기계도면"
+      ],
+      "note": "6층 평면도(쿠팡 대수선) 'MEZ Lifter' 표기 2곳 있으나 수직반송기 해당 여부 불명. 기계도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "roof_panel_core",
+      "missing_reason": "도면없음",
+      "searched": [
+        "외벽상세도",
+        "마감표",
+        "단면도"
+      ],
+      "note": "외벽상세도·마감표 없음. 단면도 지붕 주기는 '노출우레탄방수 / THK185 단열재 / THK10 불연 세라믹 코팅', 'THK150 무근콘크리트 차량통로'로 패널 지붕 아님(단열재 종류 미기재)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "roof_area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "지붕평면도"
+      ],
+      "note": "지붕평면도 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "fire_compartment_max_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "방화계획도",
+        "소방도면",
+        "평면도"
+      ],
+      "note": "방화계획도·소방도면 없음. 평면도에 방화구획 면적 표기 없음(단면도에 '스틸방화셔터' 표기만)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "sprinkler_type",
+      "missing_reason": "도면없음",
+      "searched": [
+        "소방도면"
+      ],
+      "note": "소방도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "refrigerant",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "기계도면 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "refrigeration_system",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "기계도면 없음. 2층 평면도에 '냉동기실 #1~#4' 실명만 있음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_floor_heave_protection",
+      "missing_reason": "도면없음",
+      "searched": [
+        "바닥상세도",
+        "기계도면",
+        "단면도"
+      ],
+      "note": "바닥상세도·기계도면 없음. 주단면도-1 저온창고 하부 주기 'THK60 버림콘크리트 / THK0.03 PE필름 2겹 / 통기관 Ø100 PVC PIPE @700' 있으나 '동상방지' 명시 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_insulation_material",
+      "missing_reason": "도면없음",
+      "searched": [
+        "단면상세도",
+        "단열계획도",
+        "단면도"
+      ],
+      "note": "단면상세도·단열계획도 없음. 단면도 저온작업장 벽 '방열패널'(심재 미기재), 하역장측 'THK200 글라스울패널' 표기"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_insulation_thickness_mm",
+      "missing_reason": "도면없음",
+      "searched": [
+        "단면상세도",
+        "단열계획도",
+        "단면도"
+      ],
+      "note": "단면상세도·단열계획도 없음. 저온실 방열패널 두께 미기재"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "power_capacity_kw",
+      "missing_reason": "판독불가",
+      "searched": [
+        "단선결선도"
+      ],
+      "note": "22.9kV 수변전설비 단선결선도-1·-2 문자 판독불가. 부전기실 단선결선도(EE-101)는 'KEPCO INCOMING LINE 3φ4W 22.9kV-Y 60Hz' 표기만, 수전용량 kW 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "transformer_capacity_kva",
+      "missing_reason": "판독불가",
+      "searched": [
+        "단선결선도"
+      ],
+      "note": "주 수변전 단선결선도의 변압기(-1: 4대, -2: 5대) 용량 문자 판독불가 → 총용량 기재 확인 불가. 부전기실 EE-101은 TR-1 C:2000kVA, TR-2 C:2000kVA, TR-3 C:1000kVA 판독(부분값이라 총용량으로 기록하지 않음)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "5F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "5F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "6F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "6F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "7F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "7F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "9F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "9F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 없음. 평면도에 하중 주기 없음",
+      "floor": "10F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 없음. 평면도에 층 면적 표기 없음",
+      "floor": "10F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "6F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "7F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 유효고(천정고) 치수 없음. 층고(FL~FL) 치수만 있음",
+      "floor": "9F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "코어부 사무층(2ND EL+5,000 / 5TH EL+25,000 / 8TH EL+45,000) 레벨만 있고 층고 치수선 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "코어부 사무층(2ND EL+5,000 / 5TH EL+25,000 / 8TH EL+45,000) 레벨만 있고 층고 치수선 없음",
+      "floor": "5F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "코어부 사무층(2ND EL+5,000 / 5TH EL+25,000 / 8TH EL+45,000) 레벨만 있고 층고 치수선 없음",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "use",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도",
+        "단면도"
+      ],
+      "note": "5층 평면도(쿠팡 대수선도면) 코어부 실에 가구 배치는 보이나 실명 문자 판독불가. 단면도에도 5층 실명 없음",
+      "floor": "5F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "temp",
+      "missing_reason": "판독불가",
+      "searched": [
+        "평면도"
+      ],
+      "note": "5층 실명·온도대 문자 판독불가",
+      "floor": "5F"
+    }
+  ],
+  "notes": [
+    "blind 판독. 입력은 실사보고서 수록 도면(A4 축소, 저해상도). 4F·5F·6F는 '쿠팡 대수선도면' 표기.",
+    "parking_a/parking_b(공작물주차장)는 배치도에 위치만 표기, 별도 스펙 없음."
+  ]
+}

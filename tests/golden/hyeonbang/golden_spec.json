@@ -1,0 +1,1696 @@
+{
+  "asset_id": "hyeonbang",
+  "record_type": "golden_spec",
+  "created_at": "2026-10-14T10:00:00+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 50325.0,
+        "unit": "m2",
+        "raw_text": "대지면적 23,888 ㎡ (A동) / 26,437 ㎡ (B동)",
+        "precision": "exact",
+        "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+        "source_locator": {
+          "page": 20,
+          "sheet_no": null,
+          "bbox": null,
+          "crop": null
+        },
+        "method": "user",
+        "confidence": "high",
+        "source_grade": "확정",
+        "status": "확정",
+        "conflict": false,
+        "note": "A동 23,888 + B동 26,437의 합(산출값). 필지가 동별로 나뉨(p18 '267-2 외 16필지 및 270-27 외 13필지')"
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "bldg_a",
+      "label": "A동(가동)",
+      "phase": "원준공",
+      "fields": {
+        "floors_above": [
+          {
+            "value": 4,
+            "unit": "floor",
+            "raw_text": "층수 B1F / 4F",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 20,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "층수 B1F / 4F",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 20,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "복합",
+            "unit": null,
+            "raw_text": "주요구조 PC+PEB 구조",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 20,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p35: 기둥·보·슬래브 PC(RPS), 기초·지하외벽·계단실 RC, 지붕 철골 PEB(기둥간격 최대 33m)"
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "지붕골조를 제외한 전반적인 기둥간격은 11m × 11m",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 35,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "지붕골조를 제외한 전반적인 기둥간격은 11m × 11m",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 35,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "외벽 THK 150mm 그라스울판넬(준불연), 내화1시간(동신)",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 20,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p41·p7은 'THK 125 글라스울 판넬'(㈜동천 준불연, 내화구조품질관리서·납품확인서로 확인) — 두께 표기 불일치"
+          }
+        ],
+        "roof_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "지붕 THK 225mm 그라스울판넬(준불연), 내화0.5시간(동신)",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 20,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "단, 3층 지붕·캐노피는 TPO 시트를 우레탄판넬에 직접 설치(p7, p40) — 일부 우레탄 심재. 하역장으로 쓰는 하부층 지붕(B1·1F·2F 지붕)은 복합방수+아스콘, 단열재 없음(p41)"
+          }
+        ],
+        "sprinkler_type": [
+          {
+            "value": "혼합",
+            "unit": null,
+            "raw_text": "냉동창고는 준비작동식(PV), 상온창고 및 사무실 부분을 포함한 내부 전체를 습식(AV)… 상온창고에는 라지드롭형 헤드",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 15,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "인랙설비 SP헤드 사진(p105). OHD 하부 헤드 미설치로 개방 시 살수장애(p15, p100)"
+          }
+        ],
+        "cold_insulation_material": [
+          {
+            "value": "우레탄",
+            "unit": null,
+            "raw_text": "지하1층 창고 THK120 배수판/THK180 무근콘크리트/THK150 우레탄스프레이/…",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 20,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "바닥 단열 기준. 벽·천정 단열재 종류는 본문 미기재"
+          }
+        ],
+        "completion_year": [
+          {
+            "value": 2023,
+            "unit": "year",
+            "raw_text": "준공연도 2023년05월12일",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 20,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p6은 'A동은 2023년 6월 28일 동별사용승인', p14 소방완공검사증명서 2023-05-12, 토목 '2023년 05월 준공'(p9) — 연도는 모두 2023"
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 28668.69,
+            "unit": "m2",
+            "raw_text": "연면적 28,668.69 ㎡",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 20,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p22 층별 합계와 동일(지상 18,330.89 + 지하 10,337.80)"
+          }
+        ],
+        "power_capacity_kw": [
+          {
+            "value": 2000,
+            "unit": "kW",
+            "raw_text": "A동 전력공급은 … 2,000kW 전력을 공급",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 12,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "2026-05 피크 800kW(p83)"
+          }
+        ],
+        "transformer_capacity_kva": [
+          {
+            "value": 2000,
+            "unit": "kVA",
+            "raw_text": "변압기는 전기실(지하1층)에 1,250kVA 와 750kVA 2Bank 로 2,000kVA",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 12,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "ohd_sprinkler_gap": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "건축의 OHD 하부에는 소방도면 및 현장에 확인시 스프링클러 헤드의 설치가 되어 있지 않음을 확인하였고 상하차장 부위의 OHD 가 만약 열려진 상태에서 화재의 발생시 소화에 지장이 있을 것으로 판단된다",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 15,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p100-101 'OVER HEAD DOOR 하부 및 설비배관 하부 스프링클러 헤드 살수장애 예상됨'. A·B동 공통 서술"
+          }
+        ],
+        "terrain_multi_level_access": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "과업범위는 지하1층 상하차구간 및 주차장, 지하1층에서 지상2층 진입도로, 지상2층 상하차구간 및 주차장, 지상2층에서 지상4층 진입도로, 지상4층 상하차구간 및 주차장",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 8,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "보강토·판넬 옹벽 진입도로로 B1·2F·4F 상하차장에 각각 직접 접안(토목편 p45-74)"
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "없음",
+            "unit": null,
+            "raw_text": "(건물 램프 기재 없음 — 층별 진입은 토목 진입도로)",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 8,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "건축·구조편에 건물 램프가 없고 층별 차량 진입은 부지 진입도로로만 기술됨. 진입도로 경사·폭은 미기재"
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "B1F 창고시설(저온창고) 10,337.80",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "B1F 창고시설(저온창고)",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "p81 'B1F(냉장,냉동)'. 임차인 운영 중(p76)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 10337.8,
+                "unit": "m2",
+                "raw_text": "B1F 창고시설(저온창고) 10,337.80",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고, 하역장 25.0kN/ m2",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 36,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.16,
+                "unit": "m",
+                "raw_text": "A동 지하1층(저온창고)의 경우 유효층고는 8.16m",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "바닥 → 스프링클러 메인배관 하단 실측"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지하1층 상하차구간 및 주차장",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "B1 접안: 장애 4·확장 22·화물 22대(p22)"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "1F 창고시설(사무실) 532.18",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 532.18,
+                "unit": "m2",
+                "raw_text": "1F 창고시설(사무실) 532.18",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "2F 창고시설(상온창고) 9,450.38",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "2F 창고시설(상온창고)",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 9450.38,
+                "unit": "m2",
+                "raw_text": "2F 창고시설(상온창고) 9,450.38",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20.0kN/ m2",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 36,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.09,
+                "unit": "m",
+                "raw_text": "지상2층(상온창고)은 8.09m, 6.65m(상부 사무실)",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "상부 사무실(3F) 아래 구간은 6.65m"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상2층 상하차구간 및 주차장",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "3F 창고시설(사무실) 539.43",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 539.43,
+                "unit": "m2",
+                "raw_text": "3F 창고시설(사무실) 539.43",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "4F 창고시설(상온창고) 7,808.9",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "4F 창고시설(상온창고)",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "실사 시 공실(p81)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 7808.9,
+                "unit": "m2",
+                "raw_text": "4F 창고시설(상온창고) 7,808.9",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20.0kN/ m2",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 36,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.3,
+                "unit": "m",
+                "raw_text": "지상4층(상온창고)는 10.33m, 8.3m(창측)",
+                "precision": "lower_bound",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "경사지붕이라 중앙 10.33m, 창측 8.3m — 창측(최소) 값"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상4층 상하차구간 및 주차장",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "building_id": "bldg_b",
+      "label": "B동",
+      "phase": "원준공",
+      "fields": {
+        "floors_above": [
+          {
+            "value": 4,
+            "unit": "floor",
+            "raw_text": "층수 B1F / 4F",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 21,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "층수 B1F / 4F",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 21,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "복합",
+            "unit": null,
+            "raw_text": "주요구조 PC+PEB 구조",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 21,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p35: 기둥·보·슬래브 PC(RPS), 기초·지하외벽·계단실 RC, 지붕 철골 PEB(기둥간격 최대 33m)"
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "지붕골조를 제외한 전반적인 기둥간격은 11m × 11m",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 35,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "지붕골조를 제외한 전반적인 기둥간격은 11m × 11m",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 35,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "외벽 THK 150mm 그라스울판넬(준불연), 내화1시간(동신)",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 21,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p41·p7은 'THK 125 글라스울 판넬'(㈜동천 준불연, 내화구조품질관리서·납품확인서로 확인) — 두께 표기 불일치"
+          }
+        ],
+        "roof_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "지붕 THK 220mm 그라스울판넬(준불연), 내화0.5시간(동신)",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 21,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "단, 3층 지붕·캐노피는 TPO 시트를 우레탄판넬에 직접 설치(p7, p40) — 일부 우레탄 심재. 하역장으로 쓰는 하부층 지붕(B1·1F·2F 지붕)은 복합방수+아스콘, 단열재 없음(p41)"
+          }
+        ],
+        "sprinkler_type": [
+          {
+            "value": "혼합",
+            "unit": null,
+            "raw_text": "냉동창고는 준비작동식(PV), 상온창고 및 사무실 부분을 포함한 내부 전체를 습식(AV)… 상온창고에는 라지드롭형 헤드",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 15,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "인랙설비 SP헤드 사진(p105). OHD 하부 헤드 미설치로 개방 시 살수장애(p15, p100)"
+          }
+        ],
+        "cold_insulation_material": [
+          {
+            "value": "우레탄",
+            "unit": null,
+            "raw_text": "지하1층 창고 THK120 배수판/THK180 무근콘크리트/THK150 우레탄스프레이/…",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 21,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "바닥 단열 기준. 벽·천정 단열재 종류는 본문 미기재"
+          }
+        ],
+        "completion_year": [
+          {
+            "value": 2023,
+            "unit": "year",
+            "raw_text": "준공연도 2023년04월28일",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 21,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "소방완공검사필증 2023-04-28(p100)"
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 29429.97,
+            "unit": "m2",
+            "raw_text": "연면적 29,429.97 ㎡",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 21,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p22 층별 합계와 동일(지상 19,917.36 + 지하 9,512.61)"
+          }
+        ],
+        "power_capacity_kw": [
+          {
+            "value": 2250,
+            "unit": "kW",
+            "raw_text": "B동 … 2,250kW 전력을 공급",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "2026-05 피크 674kW(p83)"
+          }
+        ],
+        "transformer_capacity_kva": [
+          {
+            "value": 2250,
+            "unit": "kVA",
+            "raw_text": "변압기는 전기실(지하1층)에 1,500kVA 와 750kVA 2Bank 로 2,250kVA",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p84 변압기 현황 표 일부 칸은 'TR-2 1,250kVA'로 적혀 있으나 p13·p24·p81·p84 본문은 1,500kVA"
+          }
+        ],
+        "ohd_sprinkler_gap": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "건축의 OHD 하부에는 소방도면 및 현장에 확인시 스프링클러 헤드의 설치가 되어 있지 않음을 확인하였고 …",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 15,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "A·B동 공통 서술(p15, p100)"
+          }
+        ],
+        "terrain_multi_level_access": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "과업범위는 지하1층 상하차구간 및 주차장, 지하1층에서 지상2층 진입도로, 지상2층 상하차구간 및 주차장, 지상2층에서 지상4층 진입도로, 지상4층 상하차구간 및 주차장",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 10,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "보강토·판넬 옹벽 진입도로로 B1·2F·4F 상하차장에 각각 직접 접안(토목편 p45-74)"
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "없음",
+            "unit": null,
+            "raw_text": "(건물 램프 기재 없음 — 층별 진입은 토목 진입도로)",
+            "precision": "exact",
+            "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+            "source_locator": {
+              "page": 10,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "건축·구조편에 건물 램프가 없고 층별 차량 진입은 부지 진입도로로만 기술됨. 진입도로 경사·폭은 미기재"
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "B1F 창고시설(저온창고) 9,512.61",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "B1F 창고시설(저온창고)",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "냉동설비 가동 중단·공실(p11, p76, p81)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 9512.61,
+                "unit": "m2",
+                "raw_text": "B1F 창고시설(저온창고) 9,512.61",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고, 하역장 25.0kN/ m2",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 36,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 7.91,
+                "unit": "m",
+                "raw_text": "B동 지하1층(저온창고)의 경우 유효층고는 7.91m",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지하1층 상하차구간 및 주차장",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 10,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "1F 창고시설(사무실) 510.14",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 510.14,
+                "unit": "m2",
+                "raw_text": "1F 창고시설(사무실) 510.14",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "2F 창고시설(상온창고) 9,861.33",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "2F 창고시설(상온창고)",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 9861.33,
+                "unit": "m2",
+                "raw_text": "2F 창고시설(상온창고) 9,861.33",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20.0kN/ m2",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 36,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.13,
+                "unit": "m",
+                "raw_text": "지상2층(상온창고)은 8.13m",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상2층 상하차구간 및 주차장",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 10,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "3F 창고시설(사무실) 527.99",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 527.99,
+                "unit": "m2",
+                "raw_text": "3F 창고시설(사무실) 527.99",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "4F 창고시설(상온창고) 9,017.90",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "4F 창고시설(상온창고)",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 9017.9,
+                "unit": "m2",
+                "raw_text": "4F 창고시설(상온창고) 9,017.90",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 20,
+                "unit": "kN/m2",
+                "raw_text": "상온창고 20.0kN/ m2",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 36,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 9.43,
+                "unit": "m",
+                "raw_text": "지상4층(상온창고)는 11.13m, 9.43m(창측)",
+                "precision": "lower_bound",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "중앙 11.13m, 창측 9.43m — 창측(최소) 값"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상4층 상하차구간 및 주차장",
+                "precision": "exact",
+                "source_doc": "이천 현방리 물류센터_물리실사 본보고서_20260807.pdf",
+                "source_locator": {
+                  "page": 10,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "missing": []
+}

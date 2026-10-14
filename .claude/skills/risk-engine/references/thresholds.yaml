@@ -1,0 +1,414 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# thresholds.yaml — 룰 임계값 (설계서 §3.7 / §3.8)
+#
+# 작성: Claude 조사 초안 (2026-10-13). 모든 항목 verified: false → 사용자 확인 전까지
+#       이 값에 의존하는 판정은 ⚪("기준값 미검증")로 처리된다(§3.7).
+# 원칙:
+#   - 출처를 찾은 값만 넣었다. 출처가 없는 임계값은 값 자체를 두지 않고 하단 unresolved:에
+#     검색 이력과 함께 기록했다(해당 룰/등급은 비활성).
+#   - 해석 순서: overrides(when 일치) → default. when 키는 threshold_segment
+#     (temp_zone: 상온|저온|복합, handling_type: 단층|다층 램프형|다층 지형접안형|다층 승강기형) 를 기본으로 하되,
+#     SP05는 Core Spec ramp_type(단방향|양방향)·ramp_form(직선형|곡선형|나선형)을 세그먼트로 쓴다(엔진 측 지원 필요).
+#   - 방향(direction): lower_is_worse → 값 < 임계 시 발동 / higher_is_worse → 값 > 임계 시 발동.
+#   - source 문자열: "<발행처/법령·조문> | <문서명·일자> | <URL>". 2차 자료(법령정보 미러 사이트,
+#     기사·기고)는 note에 그 사실을 적었다. 법령 원문은 국가법령정보센터(law.go.kr)에서 재확인 필요.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── B. 스펙 (도면) ───────────────────────────────────────────────────────────
+
+floor_load:            # t/m2, 창고층 바닥 설계하중 — SP01 (floors.floor_load_tpm2, warehouse 층 min)
+  unit: t/m2
+  direction: lower_is_worse
+  default:
+    red:
+      value: 1.5
+      source: "physical_risk_engine.md S02 (내부 v1 엔진 문서: '바닥하중 1.5t/㎡ 이상') — 2026-10-13 사용자 확정(채팅)"
+      verified: true
+      note: "2026-10-13 등급 단일화(사용자 지시): 🔴 1.5 하나만 둔다(🟡 삭제). 이전 값: 🔴 1.2(klnews 2012 기고 'KBC2009 물류창고 최소 적재하중 1.2ton/㎡', 미확정) · 🟡 1.5. 시장 근거: 같은 기고는 2000년대 이후 창고가 '2.0ton/㎡ 혹은 그 이상'으로 설계되고 700kg 팔레트 하이랙 시 평균 '1.9ton/㎡ 이상'이라고 기술. 현행 KDS 41 12 00 창고 활하중 원문은 미확인."
+      verified_by: user
+      verified_at: '2026-10-13T16:00:00+09:00'
+  overrides: []          # 저온 override: 출처 미확보 → unresolved 참조
+
+clear_height:          # m, 창고층 유효층고 — SP02 (floors.clear_height_m, warehouse 층 min)
+  unit: m
+  direction: lower_is_worse
+  default:
+    yellow:
+      value: 8.5
+      source: "정휘철, '물류센터 층고 설정 관련 자료', LinkedIn, 2022-04-04 — 층고 10m 내역(적재 8m + 4단 인상 0.5m + 소방배관 1.5m)에서 배관 하단까지 = 8.5m | https://kr.linkedin.com/pulse/%EB%AC%BC%EB%A5%98%EC%84%BC%ED%84%B0-%EC%B8%B5%EA%B3%A0-%EC%84%A4%EC%A0%95-%EA%B4%80%EB%A0%A8-%EC%9E%90%EB%A3%8C-%ED%9C%98%EC%B2%A0-%EC%A0%95"
+      verified: true
+      note: "2026-10-13 개정: SP02는 유효층고(천정·보·배관 하단)를 비교한다(사용자 결정). 기존 10.0은 외부 자료상 '층고(FL~FL)' 값이라 유효층고 기준으로는 과도함 — 골든 사례에서 신축 A급 두 자산(청라 천정고 9.25m, 석남 스프링클러 배관 하단 실측 7.58m)이 모두 🟡가 됨. 출처의 층고 내역에서 소방배관 1.5m를 뺀 8.5m를 후보로 둔다(적재 8m + 4단 인상 0.5m). 대안: 내부 엔진 문서 physical_risk_engine.md S02는 '유효층고 10m 이상'으로 적고 있음 — 외부 근거와 상충하므로 사용자 판단 필요. 보조 근거: klnews 2012 '하이랙을 고려하여 10m 내외로 층고를 높인 창고'(층고 기준)."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []          # red 및 저온 override: 출처 미확보 → unresolved
+
+column_span:           # m, 기둥 스팬(min(x,y)) — SP03 (column_span_x_m / column_span_y_m)
+  unit: m
+  direction: lower_is_worse
+  default:
+    yellow:
+      value: 11.0
+      source: "물류신문, 이승환, '기둥 간격의 혁신, 물류센터의 경쟁력 높일 수 있어', 2020-07-15 | https://www.klnews.co.kr/news/articleView.html?idxno=121614"
+      verified: true
+      note: "기사: 대다수 물류센터는 '11m x 11m(기둥 간격)의 정형화된 평면 모듈'. 1.1m 팔레트·2.5m 랙 폭 기준. 보조: klnews 2012 기고 '최근 새로 지어지는 물류창고들 대부분이 11m×11m 기둥 간격'. 11m 미만 = 시장 표준 모듈 미달 → 🟡. 참고(임계 아님): 같은 기사는 데드스페이스 최소화 스팬으로 10.6/11.85/13.25/14.5m, klnews 2012는 VNA 최적 12.3m 제시."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []          # red: 출처 미확보 → unresolved
+
+ramp_slope:            # %, 램프 종단경사 — SP05 (ramp_slope_pct)
+  unit: pct
+  direction: higher_is_worse
+  default:               # 직선형 램프(단방향·양방향)
+    red:
+      value: 9
+      source: "골든"
+      verified: true
+      note: "2026-10-13 사용자 수정: 17 → 9, 등급 단일화(🟡 삭제, 채팅 지시). 참고 — 조사한 기준: 주차장법 시행규칙 제6조(승용차) 직선 17%·곡선 14%, 도로의 구조·시설 기준에 관한 규칙 제25조 표(세미트레일러·대형차, 집산도로 및 연결로 30km/h) 산지등 12%·평지 7%."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides:
+    - when: {ramp_form: 나선형}
+      red:
+        value: 9
+        source: "골든"
+        verified: true
+        note: "곡선 부분 상한 14%. / 2026-10-13 사용자 수정: 14 → 9."
+
+        verified_by: user
+        verified_at: '2026-10-13T15:12:57+09:00'
+ramp_width:            # m, 램프 차로 폭 — SP05 (ramp_width_m)
+  unit: m
+  direction: lower_is_worse
+  default:               # 직선형 1차로(단방향)
+    red:
+      value: 6.5
+      source: "골든"
+      verified: true
+      note: "2026-10-13 사용자 수정: 3.3 → 6.5, 등급 단일화(🟡 삭제, 채팅 지시). 참고 — 조사한 기준: 주차장법 시행규칙 제6조(승용차) 직선 1차로 3.3m, 도로의 구조·시설 기준에 관한 규칙 제34조 연결로 C기준(세미트레일러 통과) 차로 3.25 + 길어깨 1.00 + 0.75 = 5.0m. ramp_width_m이 연석 포함 전체 폭인지 차로 폭인지 도면마다 다르므로 G2에서 확인. 나선형은 제22조 곡선부 확폭(세미트레일러 R20~30m 차로당 +2.00m 등)이 더 필요하지만 곡선반지름 필드가 없어 미반영(DD)."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides:
+    - when: {ramp_type: 양방향}
+      red: {value: 7.5, source: "도로의 구조·시설 기준에 관한 규칙 제34조제3항 연결로 C기준 — 차로 3.25×2 + 양방향 다차로 길어깨 오른쪽 0.50×2", verified: true, note: '2026-10-13 사용자 수정: 6.0(주차장법 직선 2차로) → 7.5, 등급 단일화(🟡 삭제). 중앙분리대가 있으면 C기준 1.50m(부득이 1.00m)가 더 필요. 나선형 양방향은 이 override가 먼저 걸려 확폭 미반영(DD).', verified_by: user, verified_at: '2026-10-13T15:12:57+09:00'}
+    - when: {ramp_form: 나선형}
+      red:
+        value: 6.5
+        source: "골든"
+        verified: true
+        note: "나선형이 2차로이면 6.5m. Core Spec ramp_type이 나선형 차로 수를 구분하지 않으므로 엔진/DD에서 확인 필요. / 2026-10-13 사용자 수정: 3.6 → 6.5."
+        verified_by: user
+        verified_at: '2026-10-13T15:12:57+09:00'
+  reference:             # 임계값 아님 — 화물차 기준의 차량 제원(SP05·SP06 서술·DD용)
+    design_vehicle_semitrailer_m:
+      value: {폭: 2.5, 높이: 4.0, 길이: 16.7, 앞축간거리: 4.2, 뒤축간거리: 9.0, 앞내민길이: 1.3, 뒷내민길이: 2.2, 최소회전반지름: 12.0}
+      source: "도로의 구조·시설 기준에 관한 규칙 제5조제2항 표(설계기준자동차 제원) (국토교통부령 제1588호, 시행 2026-06-03) | 국가법령정보센터 https://www.law.go.kr/법령/도로의구조·시설기준에관한규칙"
+      verified: false
+      note: "대형자동차는 폭 2.5·높이 4.0·길이 13.0·축간거리 6.5·최소회전반지름 12.0m, 승용자동차는 길이 4.7·최소회전반지름 6.0m. 제5조제1항: 주간선도로 = 세미트레일러, 보조간선·집산도로 = 세미트레일러 또는 대형자동차."
+
+# ── C. 화재 ──────────────────────────────────────────────────────────────────
+
+fire_compartment_area: # m2, 방화구획 최대 면적 — FR02 (fire_compartment_max_m2)
+  unit: m2
+  direction: higher_is_worse
+  default:               # 스프링클러 등 자동식 소화설비 설치(물류센터 일반)
+    yellow:
+      value: 3000
+      source: "건축물의 피난·방화구조 등의 기준에 관한 규칙 제14조제1항제1호 | 네플라 법령 본문 https://www.nepla.ai/law/건축물의 피난·방화구조 등의 기준에 관한 규칙 (원문 law.go.kr 재확인 필요)"
+      verified: true
+      note: "'10층 이하의 층은 바닥면적 1천제곱미터(스프링클러 기타 이와 유사한 자동식 소화설비를 설치한 경우에는 바닥면적 3천제곱미터)이내마다 구획'. 최대 구획이 3,000㎡ 초과 = 건축법 시행령 제46조제2항제2호 완화(창고 특례) 적용 구획으로 추정 → 🟡 + regulation_timeline의 2022-04-29 개정(보관 용도 완화 제외) 이전/이후 준공 여부로 DD. 🔴 기준값은 출처 미확보."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+  reference:             # 임계값 아님 — Core Spec에 '스프링클러 미설치'를 표현할 필드가 없어 override 대신 참고로 둠
+    no_sprinkler_limit_m2:
+      value: 1000
+      source: "건축물의 피난·방화구조 등의 기준에 관한 규칙 제14조제1항제1호 (위와 동일)"
+      verified: false
+      note: "자동식 소화설비 미설치 시 1,000㎡. 11층 이상은 200㎡(설비 시 600㎡) — 물류센터는 통상 해당 없음."
+
+sprinkler_esfr_clear_height:   # m — FR03 (sprinkler_type × clear_height_m)
+  unit: m
+  direction: higher_is_worse
+  default:
+    red:
+      value: 13.7
+      source: "창고시설의 화재안전성능기준(NFPC 609) 제7조제1항제4호, 소방청고시 제2023-39호(2023-10-06 제정, 2024-01-01 시행) | https://www.ulex.co.kr/%EB%B2%95%EB%A5%A0/2100000229924-86784-%EC%B0%BD%EA%B3%A0%EC%8B%9C%EC%84%A4%EC%9D%98 ; 국가법령정보센터 https://www.law.go.kr/LSW//admRulInfoP.do?admRulSeq=2100000229924&chrClsCd=010201"
+      verified: true
+      note: "천장 높이 13.7m 이하 랙식 창고에 한해 화재조기진압용(ESFR, NFPC 103B) 설치 가능. 보조: 스프링클러설비의 화재안전기준(NFSC 103) 제10조제2항 '랙크식창고의 천장높이가 13.7m 이하로서… 천장에만 스프링클러헤드를 설치할 수 있다'(https://www.ulex.co.kr/%EB%B2%95%EB%A5%A0/2100000199295-35312-%EC%8A%A4%ED%94%84%EB%A7%81%ED%81%B4%EB%9F%AC). 해석: 유효층고(≈천장고) > 13.7m인데 천장형(표준형·ESFR)만 있고 인랙 없음 → 🔴. 13.7m = 45ft로 NFPA 13/FM 8-9 ESFR 상한과 대응한다는 점은 제조사 2차 자료로만 확인(FM DS 8-9 원문 미확인)."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  reference:             # 임계값 아님 — 룰 서술·DD용 참고 수치
+    rack_head_interval_nfpc609_m:
+      value: 3
+      source: "NFPC 609 제7조제1항제2호 (위 출처)"
+      verified: false
+      note: "창고시설(2024-01-01 이후 신청분) 랙식 창고는 랙 높이 3m 이하마다 라지드롭형 헤드 추가 설치. 수원: 기준개수(최대 30)×3.2㎥(랙식 9.6㎥), 랙식 창고 비상전원 60분."
+    rack_head_interval_nfsc103_m:
+      value: {특수가연물: 4, 기타: 6}
+      source: "스프링클러설비의 화재안전기준(NFSC 103) 제10조제2항 | https://www.ulex.co.kr/%EB%B2%95%EB%A5%A0/2100000199295-35312-%EC%8A%A4%ED%94%84%EB%A7%81%ED%81%B4%EB%9F%AC"
+      verified: false
+      note: "구 기준: '랙크높이 4m 이하마다, 그 밖의 것을 취급하는 것에 있어서는 랙크높이 6m 이하마다'. NFPC 609 이전 준공 자산의 표준형 + 고층고 판단 시 참고."
+
+# ── F. 입지 ──────────────────────────────────────────────────────────────────
+
+flood_depth:           # m, 홍수위험지도 예상 침수심 — LC01 (flood_depth_m)
+  unit: m
+  direction: higher_is_worse
+  default:
+    yellow:
+      value: 0.5
+      source: "기후에너지환경부 한강홍수통제소, 홍수위험지도(20241231), 공공데이터포털 | https://www.data.go.kr/data/15077744/fileData.do"
+      verified: true
+      note: "데이터셋 침수심 구간: '0.5m 이하, 0.5~1.0m, 1.0~2.0m, 2.0~5.0m, 5.0m 이상'. 0.5m는 공식 '구간 경계'이지 리스크 임계로 공표된 값이 아님 — 임계 채택 여부는 사용자 판단. 시나리오는 제방붕괴 등 최악 가정(실제 제방 안정성과 무관), 빈도(100/200/500년 등) 지정 필요."
+
+# ── A. 연식 (v1 이식) ────────────────────────────────────────────────────────
+# 아래 값은 모두 내부 v1 오피스 엔진에서 이식. 물류센터 특화 근거는 대부분 미확보.
+
+# 룰 키 매핑: G01=aging_piping, G02=aging_substation, G05=aging_fire_system, G06=aging_roof, G09=aging_compliance, G10=aging_capex
+# G03=aging_elevator, G04=aging_generator, G07=aging_pavement, CL01=cold_refrigeration_age
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+aging_piping:
+  unit: years
+  direction: higher_is_worse
+  default:
+    red:
+      value: 30
+      source: "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시"
+      verified: true
+      note: "2026-10-13 물류 기준으로 교체(사용자 요청): G01 배관(v1 M04 대체): 급수·냉매·오배수 배관 내구수명 30년. 이전 v1 오피스 엔진 값 🟡 15년(v1 오피스 엔진(내부) M04)은 오피스 기준이라 폐기. 등급: 🔴=내구수명 도래. 🟡 없음 — 보유기간 말 연식 평가(horizon both)로 '보유 중 도래'를 잡는다. / 교차검증(2026-10-13): 공동주택 별표1은 급수관(강관) 전면교체 15년, 소화수관(강관) 25년, 오배수관 부분수선 10년 — PCA 30년보다 짧다. 배관 재질(스테인리스·동관 등)에 따라 차이 가능. 보수적으로 가려면 15년 대안 검토."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+aging_substation:
+  unit: years
+  direction: higher_is_worse
+  default:
+    red:
+      value: 20
+      source: "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시"
+      verified: true
+      note: "2026-10-13 물류 기준으로 교체(사용자 요청): G02 수변전: 계기용변성기·진공차단기·몰드TR·기중차단기·보호계측기 20년(LBS 15년, 정류기 10년, ATS 15년은 부품 단위라 note만). 이전 v1 오피스 엔진 값 🟡 12년(v1 오피스 엔진(내부) E01)은 오피스 기준이라 폐기. 등급: 🔴=내구수명 도래. 🟡 없음 — 보유기간 말 연식 평가(horizon both)로 '보유 중 도래'를 잡는다. / 교차검증(2026-10-13): 공동주택 별표1 수전반·배전반 전면교체 20년(일치), 변압기 25년(고효율). 조달청 내용연수(변압기 11년)는 불용판단 기준이라 미채택."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+aging_fire_system:
+  unit: years
+  direction: higher_is_worse
+  default:
+    red:
+      value: 20
+      source: "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시"
+      verified: true
+      note: "2026-10-13 물류 기준으로 교체(사용자 요청): G05 소방: 화재수신기·옥내소화전·습식/준비작동식 밸브 20년(소화펌프 15년, 제연휀 18년, 소화기 10년은 note). 이전 v1 오피스 엔진 값 🟡 15년(v1 오피스 엔진(내부) F03)은 오피스 기준이라 폐기. 등급: 🔴=내구수명 도래. 🟡 없음 — 보유기간 말 연식 평가(horizon both)로 '보유 중 도래'를 잡는다. / 교차검증(2026-10-13): 공동주택 별표1 소화펌프 전면교체 20년(일치), 소화수관·스프링클러 헤드 25년."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+aging_roof:
+  unit: years
+  direction: higher_is_worse
+  default:
+    red:
+      value: 15
+      source: 공동주택관리법 시행규칙 [별표 1] 장기수선계획의 수립기준(국토교통부령 제1606호, 시행 2026.7.30) | https://www.law.go.kr/법령/공동주택관리법시행규칙 — 1.건물외부 가.지붕 1) 방수 전면수리 15년(수선율 100%)
+      verified: true
+      note: "2026-10-13 물류 기준으로 교체(사용자 요청): G06 지붕 방수. 현행 별표는 공법 구분 없이 '방수 전면수리 15년' 한 행. 물류센터 금속 절판·샌드위치 패널 지붕은 별표의 '금속기와 잇기 전면교체 20년·부분수리 5년'이 더 가까울 수 있음(대용값). 청라 PCA 부록3 표에는 방수 항목 없음. 이전 v1 오피스 엔진 값 🟡 8년은 오피스 기준이라 폐기. 등급: 🔴=수선주기 도래, 🟡 없음 — 보유기간 말 연식 평가로 '보유 중 도래'를 잡는다."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+aging_compliance:
+  unit: years
+  direction: higher_is_worse
+  default:
+    yellow:
+      value: 20
+      source: v1 오피스 엔진(내부) X04
+      verified: true
+      note: '물류센터 특화 근거 미확보. / 2026-10-13: G09는 설비 노후가 아니라 법규 기준 변화 노출 기간이라 물류 PCA 내구수명 표 대상이 아님 — v1 값 유지, 별도 검토 필요.'
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+aging_capex:
+  unit: years
+  direction: higher_is_worse
+  default:
+    yellow:
+      value: 15
+      source: "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시"
+      verified: true
+      note: '2026-10-13 물류 기준으로 근거 교체: 물류 PCA 표에서 기계설비(냉동기·EHP·펌프·팬·자동제어·위생기구)와 승강기·LBS·ATS 내구수명이 대부분 15년 — 15년차에 설비 교체가 몰린다. 값은 v1과 같은 15년. 🔴는 근거 없음.'
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+aging_elevator:
+  unit: years
+  direction: higher_is_worse
+  default:
+    red:
+      value: 15
+      source: "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시 ; 승강기 안전관리법 제32조제1항제3호다목(설치검사 후 15년 경과 시 정밀안전검사, 이후 3년마다) | https://www.law.go.kr/법령/승강기안전관리법 ; 공동주택관리법 시행규칙 [별표 1] 장기수선계획의 수립기준(국토교통부령 제1606호, 시행 2026.7.30) | https://www.law.go.kr/법령/공동주택관리법시행규칙"
+      verified: true
+      note: "2026-10-13 물류 기준으로 교체(사용자 요청): G03 승강기(인승/화물) 15년. 승강기 안전관리법상 설치 후 15년 경과 시 정밀안전검사(조사 중 — 확인 후 보조 근거로 추가). 등급: 🔴=내구수명 도래. 🟡 없음 — 보유기간 말 연식 평가(horizon both)로 '보유 중 도래'를 잡는다. / 교차검증(2026-10-13): 공동주택 별표1 승강기 기계장치·제어반·조속기·문개폐장치 전면교체 15년, 와이어로프·시브 5년(소모품). 승강기법상 15년 경과 시 정밀안전검사 의무 — 법정 근거로 15년 일치."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+aging_generator:
+  unit: years
+  direction: higher_is_worse
+  default:
+    red:
+      value: 30
+      source: "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시 ; 공동주택관리법 시행규칙 [별표 1] 장기수선계획의 수립기준(국토교통부령 제1606호, 시행 2026.7.30) | https://www.law.go.kr/법령/공동주택관리법시행규칙"
+      verified: true
+      note: "2026-10-13 물류 기준으로 교체(사용자 요청): G04 비상발전기 30년(ATS 15년, 배터리 4년은 소모품). 등급: 🔴=내구수명 도래. 🟡 없음 — 보유기간 말 연식 평가(horizon both)로 '보유 중 도래'를 잡는다. / 교차검증(2026-10-13): 공동주택 별표1 발전기 전면교체 30년·부분수선 10년(일치), 발전기 배전반 전면교체 20년."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+cold_refrigeration_age:
+  unit: years
+  direction: higher_is_worse
+  default:
+    red:
+      value: 15
+      source: "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시"
+      verified: true
+      note: "2026-10-13 물류 기준으로 교체(사용자 요청): CL01 냉동설비: 냉동기(CDU)·유니트쿨러 15년. 등급: 🔴=내구수명 도래. 🟡 없음 — 보유기간 말 연식 평가(horizon both)로 '보유 중 도래'를 잡는다. / 교차검증(2026-10-13): 조달청 내용연수(왕복동식 냉동기 13년, 냉동시스템 10년)는 불용판단 기준이라 더 짧다. 공동주택 별표1에는 냉동기 항목 없음. PCA 15년 유지."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+aging_pavement:
+  unit: years
+  direction: higher_is_worse
+  default:
+    red:
+      value: 20
+      source: "한국도로공사, 「도로설계요령」(2020) 제5권 포장, 도로 안전·부대시설 및 환경 — 제10편 포장 3. 아스팔트 포장 3.4.2(공용기간·해석기간), p.93~94 | 미러 http://cyeng.iptime.org/xe/board_road04/10790 (원본 한국도로공사 발간본 재확인 필요)"
+      verified: true
+      note: "2026-10-13 화물차 기준으로 교체(사용자 요청). 원문: '국내에서는 공용기간과 해석기간에 대한 구분을 별도로 두지 않고, 일반적으로 설계할 때에는 공용기간을 아스팔트 포장은 10년, 콘크리트 포장은 20년으로 한다.' 🔴 = 콘크리트 포장 설계 공용기간 도래(포장 종류와 무관하게 재포장 필요 시점). 보조(2차 확인): 한국도로공사 2023 연구용역보고서 '고속도로 여건을 고려한 예방적 포장보수공법 최적화 연구'가 '고속도로 노후포장(콘크리트 20년, 아스팔트 10년)'으로 같은 연수를 씀(검색 요약으로만 확인, 원문 PDF 미판독). 한계: 고속도로 설계 공용기간이지 물류 야드 기준이 아님. 같은 문서는 '실질적인 공용기간은 유지관리 방식이나 관리수준에 따라 크게 영향을 받는다'고 적음 — 야드는 저속이지만 회전·제동·정차 하중이 집중됨. 이전 값: 공동주택관리법 시행규칙 별표1 아스팔트포장 전면수리 15년(승용차 단지 기준) — 폐기."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+    yellow:
+      value: 10
+      source: "한국도로공사, 「도로설계요령」(2020) 제5권 제10편 포장 3.4.2, p.93~94 (위와 동일) | 미러 http://cyeng.iptime.org/xe/board_road04/10790"
+      verified: true
+      note: "2026-10-13 화물차 기준 추가(사용자 요청). 🟡 = 아스팔트 포장 설계 공용기간 도래. 같은 절: '아스팔트 포장에서 통상 공용기간은 10년으로 설정하는 것이 일반적이다.' Core Spec에 포장 종류(아스팔트/콘크리트) 필드가 없어 두 연수를 등급으로 나눔 — 야드가 아스콘이면 🟡가 사실상 재포장 시점, 콘크리트면 점검 시점. 실사 사례: 청라 내부 연결도로 콘크리트 포장은 화물차 통행으로 균열 진행(결함), 석남 아스콘 포장은 양호."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+dock_density:          # 대/1만평, 연면적 1만평(33,057.85㎡)당 도크 수 — SP04 (낮을수록 부족)
+  unit: 대/1만평
+  direction: lower_is_worse
+  default:
+    red:
+      value: 50
+      source: 사용자
+      verified: true
+      note: "2026-10-13 사용자: 1만평 기준으로 입력한 값(채팅 확인) → dock_density 단위를 대/1만㎡에서 대/1만평으로 변경. 50대/1만평 = 15.1대/1만㎡ = 도크 1개당 약 661㎡(200평). 등급 단일화(🟡 삭제, 채팅 지시)."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+warehouse_depth:       # m, 창고 내부 깊이(하역장 측 벽~반대편 벽, 하역장 제외) — FR05 (warehouse_depth_m), 이상(>=)이면 발동
+  unit: m
+  direction: higher_is_worse
+  default:
+    red:
+      value: 77
+      source: "사용자 결정(2026-10-13 채팅) — 인천 석남동 쿠팡 물류센터 화재 사례의 창고 내부 깊이 약 77m(그레이트 원창 IM v3.0 2026.09, 인쇄 p34 비교표)"
+      verified: true
+      verified_by: user
+      verified_at: '2026-10-13T19:00:00+09:00'
+      note: "석남동 사례는 2개 동 연결·지하1~지상8층 대규모 구조라 깊이만의 효과는 분리되지 않음. 비교: 그레이트 원창 약 53m(IM 주장). 외부 기준 없음. 등급 단일화(🟡 없음)."
+  overrides: []
+turning_radius:        # m, 대형차 최소 회전반경(램프·하역장 동선) — SP08 (turning_radius_m)
+  unit: m
+  direction: lower_is_worse
+  default:
+    red:
+      value: 12.0
+      source: "도로의 구조·시설 기준에 관한 규칙 제5조제2항 표(설계기준자동차 제원) — 세미트레일러·대형자동차 최소회전반지름 12.0m (국토교통부령 제1588호, 시행 2026-06-03) | 국가법령정보센터 https://www.law.go.kr/법령/도로의구조·시설기준에관한규칙"
+      verified: true
+      note: "2026-10-13 추가(사용자 요청: 회전반경 필드). 🔴 = 도면 회전반경이 세미트레일러 최소회전반지름 12.0m 미만 — 물리적으로 한 번에 돌 수 없음. 같은 값이 ramp_width.reference(설계기준자동차 제원)에 있음. 🟡(여유 부족)는 출처 없음 — unresolved 참조. 골든: 송온 R-12M(실사 결함 — 최좌측 40FT 1회 진입 불가, p40), 석남 R12.5m 이상(양호). R12.0이 기준과 같아 '<' 비교에서는 🔴가 아님 — 송온을 잡으려면 🟡 값이 필요. / 확인 메모: 채팅 확인(2026-10-14) — 세미트레일러 최소회전반지름 12.0m를 SP08 🔴 기준으로 확정. bangchori 회전반경 15.7m(📐벡터 측정) 판정용"
+      verified_by: user
+      verified_at: '2026-10-14T16:58:40+09:00'
+  overrides: []
+truck_yard_depth:      # m — SP06
+  unit: m
+  direction: lower_is_worse
+  default:
+    red:
+      value: 13
+      source: 사용자
+      verified: true
+      note: "2026-10-13 등급 단일화(🟡 삭제, 채팅 지시). 참고: 도로구조규칙 세미트레일러 길이 16.7m·최소회전반지름 12.0m(ramp_width.reference)."
+      verified_by: user
+      verified_at: '2026-10-13T15:12:57+09:00'
+  overrides: []
+
+# ─────────────────────────────────────────────────────────────────────────────
+# unresolved — 출처를 찾지 못해 값을 넣지 않은 항목 (해당 룰/등급 비활성)
+# ─────────────────────────────────────────────────────────────────────────────
+unresolved:
+  - key: floor_load.overrides(저온)
+    rule: SP01
+    searched: "저온 물류센터 냉동창고 바닥하중 스펙; 물류센터 리츠 투자설명서 바닥하중"
+    finding: "저온동 바닥하중 별도 시장 기준 수치 없음."
+  - key: clear_height.red / clear_height.overrides(저온)
+    rule: SP02
+    searched: "저온 물류센터 유효층고; A급 물류센터 층고 CBRE·젠스타메이트"
+    finding: "저온 유효층고 국내 기준 없음(의왕 저온센터 '10M 층고' 단일 사례만 확인). red 하한 근거 없음."
+  - key: column_span.red
+    rule: SP03
+    searched: "물류센터 기둥간격 표준; 기둥 간격의 혁신(klnews)"
+    finding: "11m 표준만 확인. 비효율 하한(red) 수치 근거 없음."
+  - key: dock_density (default 및 handling_type override 전부)
+    rule: SP04
+    searched: "물류센터 연면적 도크 1개당 면적 ㎡; warehouse dock door ratio per 10,000 sq ft"
+    finding: "2026-10-13 해결: 사용자 입력 🔴 50대/1만평(외부 출처 없음, 사용자 결정). 단위: dock_density = 연면적 1만평당 도크 수(대/1만평), 낮을수록 부족(SP04는 임계값 미만에서 발동). 국내 공인·시장 기준 없음. 미국 브로커 경험칙 1 door / 10,000 sf(≈35.6대/1만평), South Coast AQMD 고층창고 설문 평균 1.8 doors/10,000 sf(≈64.1대/1만평) 등이 있으나 미국 단층 크로스도크 기준이라 국내 다층 램프형·승강기형에 부적합 → 미채택. 내부 벤치마크(B01) 축적 후 백분위로 대체 권장."
+  - key: ramp_slope.red / ramp_width.red (화물차 기준)
+    rule: SP05
+    searched: "물류센터 램프 경사 8% 이하 트레일러 램프 폭 설계 기준; 물류센터 램프 경사 화물차 설계 기준 램프 폭 대형 화물차 회전반경 (2026-10-13)"
+    finding: "물류센터 램프 전용 국내 기준 미발견. 2026-10-13 사용자 결정: 🔴 단일 등급 — 경사 9%·폭 6.5m(골든 자산 기준), 양방향 폭 7.5m(도로구조규칙 제34조 연결로 C기준). 🟡 없음."
+  - key: turning_radius.yellow
+    rule: SP08
+    searched: "물류센터 램프 회전반경 기준 세미트레일러 40FT 컨테이너; 도로의 구조·시설 기준에 관한 규칙 제5조·제22조 (2026-10-13)"
+    finding: "국내 물류센터 회전반경 기준 없음. 도로구조규칙의 세미트레일러 최소회전반지름 12.0m만 확인(🔴로 사용). 여유 폭(🟡)은 근거 없음 — 골든 비교: 송온 R12.0(실사 결함), 석남 R12.5 이상(양호). 사용자 결정 필요."
+  - key: truck_yard_depth
+    rule: SP06
+    searched: "물류센터 트럭야드 폭 40피트 트레일러 회전; warehouse truck court depth 130 feet 185 feet; 물류센터 트럭야드 깊이 기준 세미트레일러 후진 접안 도크 전면 야드 폭 (2026-10-13)"
+    finding: "2026-10-13 사용자 입력 🔴 13m(외부 출처 없음, 사용자 결정, 🟡 없음). 국내 기준 없음(2026-10-13 재조사도 블로그·일반 설명뿐). 미국 시장 관행(53ft 트레일러 기준 약 130ft≈39.6m, 트레일러 주차열 포함 185ft≈56.4m)은 용어집·매물 자료뿐이고 국내 차량 제원과 달라 미채택. 국내 화물차 제원은 도로구조규칙 제5조(세미트레일러 길이 16.7m, 최소회전반지름 12.0m — ramp_width.reference)로 확보했으나, 제원에서 야드 깊이를 도출하는 공식·기준이 없어 값으로 쓰지 않음(접안 각도·회전 궤적 가정이 필요). 사용자가 산식(예: 세미트레일러 길이 × n)을 정하면 그때 추가."
+  - key: warehouse_depth.yellow
+    rule: FR05
+    searched: "(2026-10-13) 출처 조사 전 — 원창 IM p34 비교표만 있음"
+    finding: "2026-10-13 🔴 77m는 사용자 결정으로 채움(석남동 화재 사례). 외부 기준은 미조사. 관측값: 석남동 약 77m(화재), 원창 약 53m(IM)."
+  - key: fire_compartment_area.red
+    rule: FR02
+    searched: "건축법 시행령 제46조 방화구획 창고 완화; 피난방화규칙 제14조"
+    finding: "법정 구획 면적(1,000/3,000㎡)만 확인. 대면적 구획의 🔴 수준 구분 근거 없음."
+  - key: cold_insulation_age
+    rule: CL03
+    searched: "냉동창고 우레탄 단열패널 내구연한 수명 교체 주기"
+    finding: "시공업체 블로그만 검색됨, 연수 수치 없음. 제조사 보증기간/기술자료 확인 필요."
+  - key: yard_pavement_age
+    rule: G07
+    searched: "아스팔트 포장 공용수명 설계수명 국토교통부 도로포장 설계; 도로포장 구조설계 요령 설계기간; 일반국도 아스팔트 포장 평균 공용수명 덧씌우기 주기 (2026-10-13)"
+    finding: "2026-10-13 해결: 한국도로공사 도로설계요령(2020) 공용기간(아스팔트 10년·콘크리트 20년)으로 aging_pavement yellow/red를 채움. 남은 공백: 물류 야드 전용 기준 없음, 포장 종류 필드 없음. 참고 수치(미채택): 콘크리트 위 아스팔트 덧씌우기 구간 실측 수명 평균 8.8년(6.2~11.5년, KISTI JAKO201117148819918 — 검색 요약만 확인), 국회입법조사처(2019) 인용 '아스팔트 도로 61.3%가 내구연한 10년 초과'."
+  - key: backup_generator_gfa
+    rule: G04
+    searched: "비상발전기 설치 의무 대상 연면적 창고시설 소방 비상전원"
+    finding: "소방시설법 시행령 별표 4 원문(별표 파일) 미판독. 창고 비상발전기 연면적 기준 미확인."
+  - key: v02_unconfirmed_ratio
+    rule: V02
+    searched: "(외부 출처 대상 아님)"
+    finding: "내부 운영 정책 값 — 외부 출처가 존재할 수 없는 항목. 사용자 결정 필요."
+  - key: b01_percentile
+    rule: B01
+    searched: "(외부 출처 대상 아님)"
+    finding: "내부 벤치마크 정책 값 — 사용자 결정 필요(segmentation.yaml 최소 표본 수와 함께)."
+  - key: temp_zone_classification
+    rule: 세그먼트(상온/저온/복합)
+    searched: "물류센터 상온 저온 복합 구분 기준 저온 비중; 저온센터로 분류 면적 비율"
+    finding: "cold_ratio 컷오프 공식·시장 정의 없음. 리서치(C&W 등)는 상온/저온/복합 유형 비중만 집계하고 분류 기준 비율은 공개하지 않음. 콜드체인뉴스: 신규 센터 저온면적비중 약 30% 추세(분류 기준 아님)."
+  - key: aging.* 물류센터 특화 근거
+    rule: G01 G02 G05 G06 G09 G10
+    searched: "공동주택 장기수선계획 수선주기 (대체 근거 탐색)"
+    finding: "급수관 15년(공동주택) 외에는 연식 임계 외부 근거 미확보. v1 내부 값 유지."

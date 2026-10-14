@@ -1,0 +1,12 @@
+# 심각도 등급 정책 (evaluate·merge-evaluation이 읽는다)
+#
+# single_grade: true → 🔴·🟡 구분 없이 발동은 모두 🔴로 판정한다.
+#   - 룰 파일의 red/yellow 식은 그대로 두고, 평가 결과에서 yellow를 red로 합친다(결과에 merged_from: yellow 기록).
+#   - yellow 식만 걸리는 경우(예: 기준값이 🟡 하나뿐인 SP02 유효층고·SP03 기둥 스팬·FR02 방화구획, 조건형 🟡인 FR01 난연·FR06·SP07 등)도 🔴가 된다.
+#   - red·yellow 기준값이 둘 다 있으면(aging_pavement 🔴20·🟡10년) 낮은 쪽(🟡 값)에서부터 🔴다.
+#   - LLM 조정: 상향은 🟢→🔴, 하향은 🔴→🟢 (1단계 = 등급 하나).
+# false로 바꾸면 기존 3단계(🔴·🟡·🟢)로 돌아간다.
+single_grade: true
+decided_by: user
+decided_at: '2026-10-14'
+note: "사용자 지시(채팅): '🔴·🟡 구분 없이 🔴로만 전체 적용'."

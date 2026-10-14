@@ -1,0 +1,2524 @@
+{
+  "asset_id": "seoknam",
+  "record_type": "drawing_specs",
+  "created_at": "2026-10-13T15:00:00+09:00",
+  "asset": {},
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "창고동",
+      "phase": "원준공",
+      "fields": {
+        "floors_above": [
+          {
+            "value": 10,
+            "unit": "floor",
+            "raw_text": "상온창고(지상10층)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+              "tile_box": [
+                0.5,
+                0.625,
+                0.577,
+                0.642
+              ],
+              "bbox": [
+                261.8,
+                327.2,
+                302.1,
+                336.2
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_floors_above_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "횡단면도 최상층 실명. 상부는 옥상광장",
+            "raw_value": 10,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "GL 하부 1개층: 전기실 / 창고",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r1c0.png",
+              "tile_box": [
+                0.573,
+                0.018,
+                0.63,
+                0.05
+              ],
+              "bbox": [
+                300.0,
+                478.0,
+                329.9,
+                489.8
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_floors_below_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "횡단면도에서 지반선(EL+6.0) 아래 1개 층만 표현. 평면도 B01~B08 실번호(기계실·전기실 등)와 일치",
+            "raw_value": 1,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "9,000 / 11,000 x3 / 10,000 / 13,000 / 16,000 / 13,000 / 10,000 / 11,000 x3 (계 137,000)",
+            "precision": "approx",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 3,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p003/r0c0.png",
+              "tile_box": [
+                0.495,
+                0.315,
+                0.81,
+                0.328
+              ],
+              "bbox": [
+                259.2,
+                164.9,
+                424.1,
+                171.7
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_column_span_x_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "X방향 그리드 간격이 9,000~16,000으로 일정하지 않음. 가장 많이 반복되는 11,000을 기록(12경간 중 6경간). 중앙 차로부 13,000·16,000·13,000. 단변/장변 구분은 X(137m)·Y(165m) 그리드 기준",
+            "raw_value": 11000,
+            "raw_unit": "mm",
+            "precision_halfwidth": 0.5,
+            "flags": []
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "11,000 x15 (계 165,000)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 3,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p003/r0c0.png",
+              "tile_box": [
+                0.367,
+                0.476,
+                0.382,
+                0.831
+              ],
+              "bbox": [
+                192.2,
+                249.2,
+                200.0,
+                435.1
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_column_span_y_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "Y방향 그리드 간격 전 구간 11,000",
+            "raw_value": 11000,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ],
+        "ramp_slope_pct": [
+          {
+            "value": 8.2,
+            "unit": "pct",
+            "raw_text": "램프구배 직선부 8.2% / 곡선부 8.2% (법정 17%·14% 이하)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p007/r1c0.png",
+              "tile_box": [
+                0.422,
+                0.798,
+                0.55,
+                0.838
+              ],
+              "bbox": [
+                221.0,
+                767.0,
+                288.0,
+                781.9
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_ramp_slope_pct_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "지상1층 주차계획도 범례(계획값). 2·3·5~7·9·10층 주차계획도 범례도 동일 8.2%",
+            "raw_value": 8.2,
+            "raw_unit": "%",
+            "flags": []
+          }
+        ],
+        "ramp_width_m": [
+          {
+            "value": 7.5,
+            "unit": "m",
+            "raw_text": "램프폭 직선형 1차로 : 7.5m / 곡선형 1차로 : 7.5m",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p007/r1c0.png",
+              "tile_box": [
+                0.422,
+                0.838,
+                0.55,
+                0.887
+              ],
+              "bbox": [
+                221.0,
+                781.9,
+                288.0,
+                800.0
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_ramp_width_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "주차계획도 범례(계획값). 회전반경 12.5m. 각 층 범례 동일",
+            "raw_value": 7.5,
+            "raw_unit": "m",
+            "flags": []
+          }
+        ],
+        "fire_compartment_max_m2": [
+          {
+            "value": 2966.75,
+            "unit": "m2",
+            "raw_text": "2,966.75㎡",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 19,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p019/r1c0.png",
+              "tile_box": [
+                0.5,
+                0.361,
+                0.539,
+                0.382
+              ],
+              "bbox": [
+                261.8,
+                605.1,
+                282.2,
+                612.9
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_fire_compartment_max_m2_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "지상2층 방화구획도 우측 상단 구획 면적. 지상3층 동일 위치도 2,966.75㎡. 층별 표기 최대값(1F 최대 2,645.35㎡, 5~7·9·10F 최대 2,427.00㎡, 4·8F 최대 773.18㎡). 원본 해상도 낮아 소수점 이하 오독 가능",
+            "raw_value": 2966.75,
+            "raw_unit": "㎡",
+            "flags": []
+          }
+        ],
+        "cold_insulation_material": [
+          {
+            "value": "우레탄",
+            "unit": null,
+            "raw_text": "THK100 우레탄뿜칠 / THK10 질석 뿜칠",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c1.png",
+              "tile_box": [
+                0.135,
+                0.84,
+                0.392,
+                0.858
+              ],
+              "bbox": [
+                488.1,
+                439.8,
+                519.9,
+                449.2
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_cold_insulation_material_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "횡단면도 저온창고(지상2층) 외벽 내측 지시선. 바닥은 THK200 우레탄뿜칠. 단열계획도(p17~18)는 코어부 코드(WA1 등)만 있고 재료 범례 없음",
+            "flags": []
+          }
+        ],
+        "cold_insulation_thickness_mm": [
+          {
+            "value": 100.0,
+            "unit": "mm",
+            "raw_text": "THK100 우레탄뿜칠 (저온창고 벽)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c1.png",
+              "tile_box": [
+                0.135,
+                0.84,
+                0.392,
+                0.858
+              ],
+              "bbox": [
+                488.1,
+                439.8,
+                519.9,
+                449.2
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_cold_insulation_thickness_mm_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": true,
+            "note": "저온창고 외벽 내측 단열(횡단면도 지시선)",
+            "raw_value": 100,
+            "raw_unit": "mm",
+            "flags": []
+          },
+          {
+            "value": 200.0,
+            "unit": "mm",
+            "raw_text": "THK80 무근콘크리트 / THK200 우레탄뿜칠 (저온창고 1층 바닥)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+              "tile_box": [
+                0.449,
+                0.877,
+                0.527,
+                0.892
+              ],
+              "bbox": [
+                235.1,
+                459.2,
+                275.9,
+                467.1
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_cold_insulation_thickness_mm_1.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": true,
+            "note": "저온창고(지상1층) 바닥 구성. 부위별 두께가 달라 두 후보 기록",
+            "raw_value": 200,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "THK75 글라스울 판넬(준불연)(지정색)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+              "tile_box": [
+                0.3,
+                0.655,
+                0.388,
+                0.672
+              ],
+              "bbox": [
+                157.1,
+                343.0,
+                203.2,
+                351.9
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_wall_panel_core_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": true,
+            "note": "횡단면도 외벽 지시선(상온창고 구간, 5층 이상). 외벽상세도·마감표는 패키지에 없음 — 단면도 주기에서 전사",
+            "flags": []
+          },
+          {
+            "value": "우레탄",
+            "unit": null,
+            "raw_text": "THK75 PIR 판넬(준불연)(저온창고 구간/지정색)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+              "tile_box": [
+                0.315,
+                0.817,
+                0.388,
+                0.838
+              ],
+              "bbox": [
+                164.9,
+                427.8,
+                203.2,
+                438.8
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_wall_panel_core_1.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": true,
+            "note": "횡단면도 외벽 지시선(저온창고 구간 1~3층). PIR(폴리이소시아누레이트)을 우레탄계로 매핑. 구간별로 다른 패널이라 두 값 기록",
+            "flags": []
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "나선형",
+            "unit": null,
+            "raw_text": "주차램프#2(UP) / 주차램프#1(DN)",
+            "precision": "exact",
+            "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+            "source_locator": {
+              "page": 3,
+              "sheet_no": null,
+              "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p003/r0c0.png",
+              "tile_box": [
+                0.567,
+                0.434,
+                0.619,
+                0.447
+              ],
+              "bbox": [
+                296.9,
+                227.2,
+                324.1,
+                234.0
+              ],
+              "crop": "output/wf2/seoknam/crops/building_main_x_ramp_type_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "상행(UP)·하행(DN) 램프가 분리된 2개소, 각각 타원형 순환(곡선) 램프로 10층까지 연결(종단면도). 교통계획도 범례상 램프폭 '1차로'. 분리형 단방향 2개소로도 볼 수 있어 enum 매핑은 판독자 판단 / 2026-10-13 스키마 분리: ramp_type→ramp_form",
+            "flags": []
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "기계",
+                "unit": null,
+                "raw_text": "B01 기계실 / B05 전기실 / B06 발전기실 / B04 저수조 / B08 정화조",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p002/r0c0.png",
+                  "tile_box": [
+                    0.432,
+                    0.592,
+                    0.474,
+                    0.667
+                  ],
+                  "bbox": [
+                    226.2,
+                    310.0,
+                    248.2,
+                    349.2
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_B1_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "지하1층 평면도 실명. 'B03 창고' 1실도 있으나 대부분 설비실",
+                "flags": []
+              },
+              {
+                "value": "기계",
+                "unit": null,
+                "raw_text": "B01 기계실 / B05 전기실 / B06 발전기실 / B04 저수조 / B08 정화조 / B07 ELEV.전실 / B02 복도 / B03 창고 / 계단실 / 각종 PIT",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 2,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p002/r0c0.png",
+                  "tile_box": [
+                    0.432,
+                    0.592,
+                    0.474,
+                    0.667
+                  ],
+                  "bbox": [
+                    226.2,
+                    310.0,
+                    248.2,
+                    349.2
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_B1_use_1.png"
+                },
+                "method": "vision_hinted",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "IM 힌트(주차) 받고 지하1층 평면도 전체 재판독. 주차 실명·주차구획·차로 표기 없음. 실명은 설비실·코어·PIT뿐이라 1차 값(기계) 유지",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고 (지상1층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.848,
+                    0.894,
+                    0.921,
+                    0.909
+                  ],
+                  "bbox": [
+                    444.0,
+                    468.1,
+                    482.2,
+                    476.0
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_1F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고 (지상1층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.848,
+                    0.894,
+                    0.921,
+                    0.909
+                  ],
+                  "bbox": [
+                    444.0,
+                    468.1,
+                    482.2,
+                    476.0
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_1F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.867,
+                    0.191,
+                    0.911
+                  ],
+                  "bbox": [
+                    85.9,
+                    454.0,
+                    100.0,
+                    477.0
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_1F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200)",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상1층 주차계획도: 화물차주차 / 진입·진출동선",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 7,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p007/r0c0.png",
+                  "tile_box": [
+                    0.741,
+                    0.768,
+                    0.794,
+                    0.779
+                  ],
+                  "bbox": [
+                    388.0,
+                    402.1,
+                    415.7,
+                    407.9
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_1F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "교통(주차)계획도에 해당 층 화물차 주차·진입/진출 동선 표기 — 램프로 차량 직접 접안",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고 (지상2층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.848,
+                    0.856,
+                    0.921,
+                    0.871
+                  ],
+                  "bbox": [
+                    444.0,
+                    448.2,
+                    482.2,
+                    456.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_2F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고 (지상2층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.848,
+                    0.856,
+                    0.921,
+                    0.871
+                  ],
+                  "bbox": [
+                    444.0,
+                    448.2,
+                    482.2,
+                    456.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_2F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.823,
+                    0.191,
+                    0.867
+                  ],
+                  "bbox": [
+                    85.9,
+                    430.9,
+                    100.0,
+                    454.0
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_2F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200)",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상2층 주차계획도: 화물차주차 37 대",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 7,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p007/r1c0.png",
+                  "tile_box": [
+                    0.758,
+                    0.771,
+                    0.827,
+                    0.79
+                  ],
+                  "bbox": [
+                    396.9,
+                    757.0,
+                    433.0,
+                    764.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_2F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "교통(주차)계획도에 해당 층 화물차 주차·진입/진출 동선 표기 — 램프로 차량 직접 접안",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고 (지상3층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.848,
+                    0.821,
+                    0.921,
+                    0.835
+                  ],
+                  "bbox": [
+                    444.0,
+                    429.9,
+                    482.2,
+                    437.2
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_3F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고 (지상3층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.848,
+                    0.821,
+                    0.921,
+                    0.835
+                  ],
+                  "bbox": [
+                    444.0,
+                    429.9,
+                    482.2,
+                    437.2
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_3F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 4.6,
+                "unit": "m",
+                "raw_text": "4,600",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.802,
+                    0.191,
+                    0.823
+                  ],
+                  "bbox": [
+                    85.9,
+                    419.9,
+                    100.0,
+                    430.9
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_3F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200). 저온창고(지상3층)는 4,600+5,400 두 레벨을 한 공간으로 사용, 4F는 코어부 사무실 레벨",
+                "raw_value": 4600,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상3층 주차계획도: 화물차주차 37 대",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p008/r0c0.png",
+                  "tile_box": [
+                    0.752,
+                    0.768,
+                    0.812,
+                    0.779
+                  ],
+                  "bbox": [
+                    393.7,
+                    402.1,
+                    425.2,
+                    407.9
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_3F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "교통(주차)계획도에 해당 층 화물차 주차·진입/진출 동선 표기 — 램프로 차량 직접 접안",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "사무실(4F)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.64,
+                    0.808,
+                    0.68,
+                    0.821
+                  ],
+                  "bbox": [
+                    335.1,
+                    423.1,
+                    356.0,
+                    429.9
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_4F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 5.4,
+                "unit": "m",
+                "raw_text": "5,400",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.779,
+                    0.191,
+                    0.802
+                  ],
+                  "bbox": [
+                    85.9,
+                    407.9,
+                    100.0,
+                    419.9
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_4F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200). 저온창고(지상3층)는 4,600+5,400 두 레벨을 한 공간으로 사용, 4F는 코어부 사무실 레벨",
+                "raw_value": 5400,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "5F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고(지상5층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.777,
+                    0.898,
+                    0.791
+                  ],
+                  "bbox": [
+                    433.0,
+                    406.8,
+                    470.2,
+                    414.2
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_5F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "상온창고(지상5층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.777,
+                    0.898,
+                    0.791
+                  ],
+                  "bbox": [
+                    433.0,
+                    406.8,
+                    470.2,
+                    414.2
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_5F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.735,
+                    0.191,
+                    0.779
+                  ],
+                  "bbox": [
+                    85.9,
+                    384.8,
+                    100.0,
+                    407.9
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_5F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200)",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상5~7,9층 주차계획도: 화물차주차 37 대",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p008/r1c0.png",
+                  "tile_box": [
+                    0.728,
+                    0.728,
+                    0.791,
+                    0.747
+                  ],
+                  "bbox": [
+                    381.2,
+                    741.1,
+                    414.2,
+                    748.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_5F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "교통(주차)계획도에 해당 층 화물차 주차·진입/진출 동선 표기 — 램프로 차량 직접 접안",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "6F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고(지상6층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.739,
+                    0.898,
+                    0.752
+                  ],
+                  "bbox": [
+                    433.0,
+                    386.9,
+                    470.2,
+                    393.7
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_6F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "상온창고(지상6층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.739,
+                    0.898,
+                    0.752
+                  ],
+                  "bbox": [
+                    433.0,
+                    386.9,
+                    470.2,
+                    393.7
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_6F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.691,
+                    0.191,
+                    0.735
+                  ],
+                  "bbox": [
+                    85.9,
+                    361.8,
+                    100.0,
+                    384.8
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_6F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200)",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상5~7,9층 주차계획도: 화물차주차 37 대",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p008/r1c0.png",
+                  "tile_box": [
+                    0.728,
+                    0.728,
+                    0.791,
+                    0.747
+                  ],
+                  "bbox": [
+                    381.2,
+                    741.1,
+                    414.2,
+                    748.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_6F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "교통(주차)계획도에 해당 층 화물차 주차·진입/진출 동선 표기 — 램프로 차량 직접 접안",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "7F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고(지상7층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.701,
+                    0.898,
+                    0.714
+                  ],
+                  "bbox": [
+                    433.0,
+                    367.0,
+                    470.2,
+                    373.9
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_7F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "상온창고(지상7층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.701,
+                    0.898,
+                    0.714
+                  ],
+                  "bbox": [
+                    433.0,
+                    367.0,
+                    470.2,
+                    373.9
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_7F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 4.8,
+                "unit": "m",
+                "raw_text": "4,800",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.669,
+                    0.191,
+                    0.691
+                  ],
+                  "bbox": [
+                    85.9,
+                    350.3,
+                    100.0,
+                    361.8
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_7F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200). 상온창고(지상7층)는 4,800+5,200 두 레벨을 한 공간으로 사용, 8F는 코어부 사무실 레벨",
+                "raw_value": 4800,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상5~7,9층 주차계획도: 화물차주차 37 대",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p008/r1c0.png",
+                  "tile_box": [
+                    0.728,
+                    0.728,
+                    0.791,
+                    0.747
+                  ],
+                  "bbox": [
+                    381.2,
+                    741.1,
+                    414.2,
+                    748.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_7F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "교통(주차)계획도에 해당 층 화물차 주차·진입/진출 동선 표기 — 램프로 차량 직접 접안",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "8F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "사무실(8F)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.64,
+                    0.697,
+                    0.68,
+                    0.709
+                  ],
+                  "bbox": [
+                    335.1,
+                    364.9,
+                    356.0,
+                    371.2
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_8F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 5.2,
+                "unit": "m",
+                "raw_text": "5,200",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.646,
+                    0.191,
+                    0.669
+                  ],
+                  "bbox": [
+                    85.9,
+                    338.2,
+                    100.0,
+                    350.3
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_8F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200). 상온창고(지상7층)는 4,800+5,200 두 레벨을 한 공간으로 사용, 8F는 코어부 사무실 레벨",
+                "raw_value": 5200,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "9F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고(지상9층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.665,
+                    0.898,
+                    0.676
+                  ],
+                  "bbox": [
+                    433.0,
+                    348.2,
+                    470.2,
+                    354.0
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_9F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "상온창고(지상9층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.665,
+                    0.898,
+                    0.676
+                  ],
+                  "bbox": [
+                    433.0,
+                    348.2,
+                    470.2,
+                    354.0
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_9F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.603,
+                    0.191,
+                    0.646
+                  ],
+                  "bbox": [
+                    85.9,
+                    315.7,
+                    100.0,
+                    338.2
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_9F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200)",
+                "raw_value": 10000,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상5~7,9층 주차계획도: 화물차주차 37 대",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p008/r1c0.png",
+                  "tile_box": [
+                    0.728,
+                    0.728,
+                    0.791,
+                    0.747
+                  ],
+                  "bbox": [
+                    381.2,
+                    741.1,
+                    414.2,
+                    748.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_9F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "교통(주차)계획도에 해당 층 화물차 주차·진입/진출 동선 표기 — 램프로 차량 직접 접안",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "10F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "상온창고(지상10층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.626,
+                    0.898,
+                    0.64
+                  ],
+                  "bbox": [
+                    433.0,
+                    327.8,
+                    470.2,
+                    335.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_10F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "상온창고(지상10층)",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.827,
+                    0.626,
+                    0.898,
+                    0.64
+                  ],
+                  "bbox": [
+                    433.0,
+                    327.8,
+                    470.2,
+                    335.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_10F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 실명",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.2,
+                "unit": "m",
+                "raw_text": "10,200",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 13,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p013/r0c0.png",
+                  "tile_box": [
+                    0.164,
+                    0.558,
+                    0.191,
+                    0.603
+                  ],
+                  "bbox": [
+                    85.9,
+                    292.2,
+                    100.0,
+                    315.7
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_10F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 좌측 층고 치수열(아래부터 10,000/10,000/4,600/5,400/10,000/10,000/4,800/5,200/10,000/10,200, 계 80,200)",
+                "raw_value": 10200,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "지상10층 주차계획도: 화물차주차 37 대",
+                "precision": "exact",
+                "source_doc": "input/seoknam/drawings/seoknam_실사보고서_수록도면.pdf",
+                "source_locator": {
+                  "page": 9,
+                  "sheet_no": null,
+                  "tile": "output/wf2/seoknam/tiles/seoknam_실사보고서_수록도면_p009/r1c0.png",
+                  "tile_box": [
+                    0.724,
+                    0.061,
+                    0.783,
+                    0.083
+                  ],
+                  "bbox": [
+                    379.1,
+                    493.9,
+                    410.0,
+                    502.1
+                  ],
+                  "crop": "output/wf2/seoknam/crops/floor_main_10F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "교통(주차)계획도에 해당 층 화물차 주차·진입/진출 동선 표기 — 램프로 차량 직접 접안",
+                "flags": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "missing": [
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "temp",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도"
+      ],
+      "note": "설비실 층 — 온도대 표기 없음",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "missing_reason": "판독불가",
+      "searched": [
+        "단면도"
+      ],
+      "note": "횡단면도 지하부 치수(9,700 등)가 지반선 기준 깊이인지 층고인지 구분 불가",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "단면도"
+      ],
+      "note": null,
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "temp",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도"
+      ],
+      "note": "사무 층(메자닌) — 온도대 표기 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "단면도"
+      ],
+      "note": "4·8층은 교통계획도 없음(사무실 메자닌 레벨)",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "temp",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도"
+      ],
+      "note": "사무 층(메자닌) — 온도대 표기 없음",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "단면도"
+      ],
+      "note": "4·8층은 교통계획도 없음(사무실 메자닌 레벨)",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "B1"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "1F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "2F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "3F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "4F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "5F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "5F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "5F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "6F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "6F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "6F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "7F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "7F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "7F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "8F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "9F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "9F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "9F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "면적표",
+        "평면도"
+      ],
+      "note": "면적표 도면 없음, 평면도에 층 면적 기재 없음",
+      "floor": "10F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "구조일반사항",
+        "평면도"
+      ],
+      "note": "구조일반사항(설계하중표) 미수록, 평면도 하중 주기 없음",
+      "floor": "10F"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "단면도"
+      ],
+      "note": "단면도에 층고(FL~FL)만 있고 유효고·천정고 치수 없음",
+      "floor": "10F"
+    },
+    {
+      "level": "asset",
+      "building_id": null,
+      "field": "site_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "배치도"
+      ],
+      "note": "배치도에 대지면적 표기 없음"
+    },
+    {
+      "level": "asset",
+      "building_id": null,
+      "field": "truck_yard_depth_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "배치도"
+      ],
+      "note": "배치도·교통계획도에 야드 깊이 치수 없음(중앙 차로폭 12.0/13.5만 표기)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "completion_year",
+      "missing_reason": "도면없음",
+      "searched": [
+        "표제란"
+      ],
+      "note": "수록 도면이 보고서에서 잘라낸 이미지라 표제란(일자) 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "gross_floor_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "배치도",
+        "면적표"
+      ],
+      "note": "면적표 미수록, 배치도에 연면적 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "structure_type",
+      "missing_reason": "미기재",
+      "searched": [
+        "구조일반사항",
+        "단면도"
+      ],
+      "note": "구조일반사항 미수록(도면없음), 단면도에 구조형식 주기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "면적표"
+      ],
+      "note": "저온창고 실명은 있으나 면적 기재 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_ratio_pct",
+      "missing_reason": "도면없음",
+      "searched": [
+        "면적표"
+      ],
+      "note": null
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "dock_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도"
+      ],
+      "note": "평면도에 도크 위치·수량 표기 없음(교통계획도의 화물차 주차대수는 도크 수 아님)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "dock_leveler_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도"
+      ],
+      "note": null
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "freight_elevator_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "기계도면"
+      ],
+      "note": "평면도에 'ELEV. 전실' 실명만 있고 대수 표기 없음. 수직동선계획도(p10)도 위치만 표시"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "freight_elevator_capacity_t",
+      "missing_reason": "도면없음",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "승강기 기계도면 미수록"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "vrc_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "평면도",
+        "기계도면"
+      ],
+      "note": null
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "roof_panel_core",
+      "missing_reason": "도면없음",
+      "searched": [
+        "외벽상세도",
+        "마감표"
+      ],
+      "note": "외벽상세도·마감표 미수록. 단면도상 지붕은 THK200 무근콘크리트+복합방수(패널 아님)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "roof_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "지붕평면도"
+      ],
+      "note": "지붕층 평면도에 면적 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "solar_installed",
+      "missing_reason": "판독불가",
+      "searched": [
+        "지붕평면도"
+      ],
+      "note": "지붕층 평면도에 'R03 인버터실-1/-2' 실명은 있으나 태양광 패널 표기 여부를 판독할 수 없음(좌측 지붕 격자 영역 실명 흐림)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "sprinkler_type",
+      "missing_reason": "도면없음",
+      "searched": [
+        "소방도면"
+      ],
+      "note": "소방도면 미수록"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "refrigerant",
+      "missing_reason": "미기재",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "수록 기계도면은 냉난방(EHP)·환기·위생 계통도뿐, 냉동설비 계통 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "refrigeration_system",
+      "missing_reason": "미기재",
+      "searched": [
+        "기계도면"
+      ],
+      "note": "냉동설비 계통도 미수록. 단선결선도에 '냉동설비 P.B' 피더만 보임"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_floor_heave_protection",
+      "missing_reason": "미기재",
+      "searched": [
+        "바닥상세도",
+        "기계도면"
+      ],
+      "note": "바닥상세도 미수록. 단면도 저온창고 1층 바닥 구성(무근콘크리트/우레탄뿜칠/배수판)에 동상방지 설비 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "power_capacity_kw",
+      "missing_reason": "판독불가",
+      "searched": [
+        "단선결선도"
+      ],
+      "note": "22.9kV 수변전설비 단선결선도(p27)·전력제어 단선결선도(p30) 글자가 흐려 수전용량 판독 불가"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "transformer_capacity_kva",
+      "missing_reason": "판독불가",
+      "searched": [
+        "단선결선도"
+      ],
+      "note": "MOLD TR 5대 표기는 보이나 용량 숫자 판독 불가"
+    }
+  ]
+}

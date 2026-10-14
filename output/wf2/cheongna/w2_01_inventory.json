@@ -1,0 +1,826 @@
+{
+  "asset_id": "cheongna",
+  "created_at": "2026-10-13T13:11:26+09:00",
+  "im": [
+    {
+      "path": "input/cheongna/im/IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "name": "IM_Cheongna Logistics Center_251219_v11(final)_준법감시인심사필 제2025-12-06호.pdf",
+      "bytes": 12752564,
+      "format": "pdf_vector",
+      "pages": 63,
+      "scan_page_ratio": 0.19,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 96,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 2,
+          "text_chars": 1468,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 3,
+          "text_chars": 1025,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 4,
+          "text_chars": 28,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 5,
+          "text_chars": 719,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 6,
+          "text_chars": 669,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 7,
+          "text_chars": 446,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 8,
+          "text_chars": 546,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 9,
+          "text_chars": 769,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 10,
+          "text_chars": 920,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 11,
+          "text_chars": 375,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 12,
+          "text_chars": 379,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 13,
+          "text_chars": 229,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 14,
+          "text_chars": 857,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 15,
+          "text_chars": 490,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 16,
+          "text_chars": 286,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 17,
+          "text_chars": 1015,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 18,
+          "text_chars": 874,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 19,
+          "text_chars": 573,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 20,
+          "text_chars": 1731,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 21,
+          "text_chars": 1002,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 22,
+          "text_chars": 1053,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 23,
+          "text_chars": 1352,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 24,
+          "text_chars": 827,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 25,
+          "text_chars": 28,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 26,
+          "text_chars": 707,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 27,
+          "text_chars": 224,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 28,
+          "text_chars": 578,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 29,
+          "text_chars": 484,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 30,
+          "text_chars": 909,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 31,
+          "text_chars": 771,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 32,
+          "text_chars": 593,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 33,
+          "text_chars": 934,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 34,
+          "text_chars": 602,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 35,
+          "text_chars": 760,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 36,
+          "text_chars": 771,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 37,
+          "text_chars": 746,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 38,
+          "text_chars": 756,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 39,
+          "text_chars": 1100,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 40,
+          "text_chars": 1070,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 41,
+          "text_chars": 920,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 42,
+          "text_chars": 1074,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 43,
+          "text_chars": 890,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 44,
+          "text_chars": 815,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 45,
+          "text_chars": 36,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 46,
+          "text_chars": 504,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 47,
+          "text_chars": 556,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 48,
+          "text_chars": 502,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 49,
+          "text_chars": 333,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 50,
+          "text_chars": 1511,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 51,
+          "text_chars": 1700,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 52,
+          "text_chars": 40,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 53,
+          "text_chars": 2311,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 54,
+          "text_chars": 1892,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 55,
+          "text_chars": 29,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 56,
+          "text_chars": 33,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 57,
+          "text_chars": 33,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 58,
+          "text_chars": 33,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 59,
+          "text_chars": 27,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 60,
+          "text_chars": 27,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 61,
+          "text_chars": 660,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 62,
+          "text_chars": 386,
+          "scan": false,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 63,
+          "text_chars": 117,
+          "scan": true,
+          "size_mm": [
+            297,
+            210
+          ],
+          "est_tiles": 1
+        }
+      ],
+      "est_tiles": 12,
+      "readable": true
+    }
+  ],
+  "drawings": [
+    {
+      "path": "input/cheongna/drawings/cheongna_실사보고서_수록도면.pdf",
+      "name": "cheongna_실사보고서_수록도면.pdf",
+      "bytes": 10413005,
+      "format": "pdf_scan",
+      "pages": 16,
+      "scan_page_ratio": 0.81,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 68,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 2,
+          "text_chars": 58,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 3,
+          "text_chars": 82,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 4,
+          "text_chars": 79,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 5,
+          "text_chars": 70,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 6,
+          "text_chars": 65,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 7,
+          "text_chars": 70,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 8,
+          "text_chars": 62,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 9,
+          "text_chars": 78,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 10,
+          "text_chars": 840,
+          "scan": false,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 11,
+          "text_chars": 415,
+          "scan": false,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 12,
+          "text_chars": 548,
+          "scan": false,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 13,
+          "text_chars": 57,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 14,
+          "text_chars": 57,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 15,
+          "text_chars": 60,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 16,
+          "text_chars": 41,
+          "scan": true,
+          "size_mm": [
+            210,
+            297
+          ],
+          "est_tiles": 1
+        }
+      ],
+      "est_tiles": 13,
+      "readable": true
+    }
+  ],
+  "dwg_requests": [],
+  "mode": "정규",
+  "est_vision_tiles": 13,
+  "escalations": []
+}

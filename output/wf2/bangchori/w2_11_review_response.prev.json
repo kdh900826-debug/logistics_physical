@@ -1,0 +1,11 @@
+{
+  "approved": false,
+  "comments": [
+    {
+      "type": "spec",
+      "target": "building|main|-|turning_radius_m",
+      "text": "회전반경 15.8 → 15.7m — vector-radius 스크립트 측정(A-401 W.P 9곳 15.7~15.9m 중 최솟값, 가이드 '가장 작은 값') — 채팅 지시"
+    }
+  ],
+  "submitted_at": "2026-10-14T18:00:00+09:00"
+}
