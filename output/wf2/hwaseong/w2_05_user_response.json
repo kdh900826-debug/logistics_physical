@@ -1,0 +1,143 @@
+{
+  "decisions": {
+    "building|main|-|ramp_slope_pct": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|warehouse_depth_m": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "building|main|-|cold_insulation_material": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|completion_year": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "building|main|-|dock_count": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|fire_compartment_max_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|ramp_form": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|ramp_type": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|ramp_width_m": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|sprinkler_type": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|terrain_multi_level_access": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|turning_radius_m": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "building|main|-|wall_panel_core": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "floor|main|1F|clear_height_m": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "floor|main|1F|dock_route_column_conflict": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "floor|main|2F|floor_load_tpm2": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "floor|main|3F|clear_height_m": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "floor|main|3F|dock_route_column_conflict": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "floor|main|4F|clear_height_m": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "floor|main|4F|dock_route_column_conflict": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "floor|main|B1|clear_height_m": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "floor|main|B1|dock_route_column_conflict": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    },
+    "floor|main|B1|floor_load_tpm2": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "building|main|-|cold_area_m2": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "building|main|-|structure_type": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "floor|main|3F|area_m2": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "floor|main|4F|area_m2": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "floor|main|4F|temp": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "asset|-|-|site_area_m2": {
+      "action": "cand",
+      "cand_id": "im:0"
+    },
+    "building|main|-|cold_insulation_thickness_mm": {
+      "action": "cand",
+      "cand_id": "drawing:0"
+    }
+  },
+  "overrides": {},
+  "claims": {
+    "claim:0": "미확인",
+    "claim:1": "미확인",
+    "claim:2": "미확인",
+    "claim:3": "미확인",
+    "claim:4": "미확인",
+    "claim:5": "미확인",
+    "claim:6": "미확인",
+    "claim:7": "미확인",
+    "claim:8": "미확인",
+    "claim:9": "미확인",
+    "claim:10": "미확인",
+    "claim:11": "미확인",
+    "claim:12": "미확인",
+    "claim:13": "미확인"
+  },
+  "bulk": "rest_unconfirmed",
+  "submitted_at": "2026-10-15T09:44:32+09:00"
+}

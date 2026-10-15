@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hwaseong_logistics_risk_report_final · 물류센터 물리 리스크</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--fg:#1f2328;--muted:#656d76;--line:#d8dee4;--accent:#0b62c4;
+--red:#c62828;--yellow:#b7791f;--green:#2e7d32;--hold:#6e7781;--chip:#eef1f4;--warn:#fff4e5}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1d2025;--fg:#e6e8eb;--muted:#9aa4ae;--line:#30363d;
+--accent:#5aa2ff;--chip:#262b31;--warn:#3a2e1c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.55 -apple-system,"Segoe UI","Malgun Gothic",sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+header h1{font-size:16px;margin:0}
+main{max-width:1080px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:10px 0}
+.chip{display:inline-block;padding:1px 8px;border-radius:999px;background:var(--chip);font-size:12px;color:var(--muted);margin-right:4px}
+.chip.sens{background:#ffe3e3;color:#a01d1d}.chip.over{background:#fff0d6;color:#8a5300}
+@media (prefers-color-scheme:dark){.chip.sens{background:#4a1f1f;color:#ffb3b3}.chip.over{background:#4a3818;color:#ffd38a}}
+.muted{color:var(--muted)}.small{font-size:12px}
+.cands{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px;margin-top:8px}
+.opt{border:1px solid var(--line);border-radius:6px;padding:8px;cursor:pointer;display:block}
+.opt:has(input:checked){border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.opt img{max-width:100%;max-height:220px;display:block;margin-top:6px;border:1px solid var(--line)}
+.val{font-size:16px;font-weight:600}
+input[type=text],input[type=number],textarea,select{background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:4px 6px;font:inherit}
+textarea{width:100%;min-height:52px}
+button{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:8px 16px;font:inherit;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+details>summary{cursor:pointer;font-weight:600;padding:6px 0}
+table{border-collapse:collapse;width:100%;font-size:13px}td,th{border:1px solid var(--line);padding:4px 6px;text-align:left;vertical-align:top}
+.sev-red{color:var(--red)}.sev-yellow{color:var(--yellow)}.sev-green{color:var(--green)}.sev-hold{color:var(--hold)}
+.banner{background:var(--warn);border:1px solid var(--line);border-radius:6px;padding:8px 12px;margin:8px 0}
+a{color:var(--accent)}
+.report img{max-width:100%}
+@media (max-width:600px){main{padding:10px}.cands{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><h1>hwaseong_logistics_risk_report_final</h1></header>
+<main><div class="card report"><h1>[화성풀필먼트신흥 복합물류센터] 물리적 리스크 분석 보고서</h1>
+<blockquote>
+<p>분석 모드: 정규 · 기준일: 미입력(실행일 기준) · 보유기간: 미입력(exit 평가 생략)
+룰셋: ruleset-untagged@2e2d57e · 임계값 검증: 참조 20건 중 verified 20건 · 벤치마크: 미적용 · 입지 조회: 미조회
+한계: 본 보고서는 IM과 도면 기반의 스크리닝 결과이며 PCA·현장 실사를 대체하지 않는다. ⚪ 판정 보류 항목은 '정상'이 아니라 입력이 확인되지 않아 평가하지 않은 항목이다.</p>
+</blockquote>
+<h2>0. 요약 대시보드</h2>
+<table>
+<thead>
+<tr>
+<th>🔴</th>
+<th>🟡</th>
+<th>🟢</th>
+<th>⚪ 판정 보류</th>
+<th>미발동</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>0</td>
+<td>16</td>
+<td>8</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>등급 정책: 단일 등급 — 🔴·🟡 구분 없이 발동은 모두 🔴 (severity_policy.yaml)</li>
+<li>검증 입력 기준: 🔴 7 · 🟡 0 · 🟢 16 · ⚪ 8 / †IM 기준(주장값 포함): 🔴 0 · 🟡 0 · ⚪ 0</li>
+<li>보유 중 심각도 상승 예정: 0건</li>
+<li>IM–도면 불일치: 6건 (IM 과장 3 · IM 보수 2 · 방향 없음 1)</li>
+<li>스펙 확정 현황: 확정(교차) 27 · 확정 30</li>
+</ul>
+<p><strong>우선 확인 Top 3</strong> (정렬: 심각도 → V01 연관 → 상관관계 연결 수 → 카테고리 우선순위)</p>
+<ol>
+<li>🔴 <strong>SP05</strong> 램프·차량 접근 제약 [main] — 🔴 중 유일하게 V01(IM–도면 불일치)과 연관된 룰이라 1순위다. RAMP#3(3F→4F, 4F 저온층 유일 차량 접근) 경사 10.0%가 기준 9%를 넘고, IM 대표 수치(9%)와 확정값의 차이가 이 판정을 가른다.</li>
+<li>🔴 <strong>FR04</strong> 저온동 단열재 화재 [main] — V01 연관·상관관계 연결이 없는 🔴 가운데 카테고리 우선순위(화재)로 2순위다. 4F 저온창고 방열재가 우레탄뿜칠 준불연재(A-1143)라 🟡 조건이 걸렸고 단일 등급 정책으로 🔴가 됐다.</li>
+<li>🔴 <strong>FR05</strong> 창고 내부 깊이 과대 (소방대 진입 거리) [main] — FR04와 같은 화재 카테고리에서 룰 번호 순으로 3순위다. 창고 내부 깊이 96.0m가 기준 77m 이상이지만, 이 값은 G2에서 채택한 IM 값(B1 '85~96m'의 상한)이고 도면은 B1 깊이를 산정하지 못했다.</li>
+</ol>
+<p><strong>요약.</strong> 평가 룰 32개 중 🔴 7 · 🟢 16 · ⚪ 8 · 미발동 1이다(단일 등급 정책으로 🟡 없음). 🔴은 램프 경사(SP05, RAMP#3 10.0% &gt; 9%)와 이를 가른 IM–도면 불일치(V01), 4F 저온층의 단열재 화재(FR04)·온도대 전환 유연성(CL04), 창고 내부 깊이(FR05, 96.0m ≥ 77m), 유효층고(SP02, 8.2m &lt; 8.5m), 도크 밀도(SP04, 46.3 &lt; 50)이며, 상관관계 맵의 활성 쌍은 0건이고 미검증 연쇄 제안 4건은 부록 B에 따로 두었다. ⚪ 8건은 '정상'이 아니라 냉매(CL01)·동상방지(CL02)·지붕 패널 심재(FR01)·OHD 하부 살수(FR06)·화물용 승강기(G03)·트럭야드 깊이(SP06)가 도면에 미기재이거나 CL03·V02 기준값이 정해지지 않아 평가하지 않은 항목이고, 보유기간 미입력으로 연식 룰의 매각 시점 판정도 모두 ⚪다. <strong>한계:</strong> 제공 도면이 전부 스캔본이라 도면 판독값은 모두 vision 판독·낮은 신뢰도(low)이며, G2에서 3F·4F 층 면적, 저온·냉동 면적, 대지면적, 구조형식, 4F 온도대, 창고층 유효고, 창고 내부 깊이(그 밖에 B1 바닥하중·준공연도)를 도면이 아니라 IM 값으로 확정했다 — 특히 FR05·SP02의 🔴과 FR04·CL04의 저온 비율 입력은 IM 값에 기대고 있다. SP09(하역 동선 기둥 간섭) 🟢는 주차계획도의 동선 표시선 위 기둥 유무만 본 판독이고 실제 간섭 사례로 검증된 적이 없어 간섭 부재의 확인으로 읽으면 안 되며, 벤치마크는 미적용, 입지(LC)는 미조회이고, 본 결과는 스크리닝 수준으로 PCA·현장 실사를 대체하지 않는다.</p>
+<h2>1. 자산 프로파일</h2>
+<h3>물류창고 [main]</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+<th>상태</th>
+<th>출처</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>기둥 스팬(장변)</td>
+<td>11.0m</td>
+<td>확정(교차)</td>
+<td>건축.pdf · page 41, sheet_no A-205 <a href="crops/building_main_x_column_span_x_m_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>기둥 스팬(단변)</td>
+<td>11.0m</td>
+<td>확정(교차)</td>
+<td>건축.pdf · page 41, sheet_no A-205 <a href="crops/building_main_x_column_span_y_m_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>지상층수</td>
+<td>4층</td>
+<td>확정(교차)</td>
+<td>건축.pdf · page 3, sheet_no A-011 <a href="crops/building_main_x_floors_above_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>지하층수</td>
+<td>1층</td>
+<td>확정(교차)</td>
+<td>건축.pdf · page 3, sheet_no A-011 <a href="crops/building_main_x_floors_below_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>연면적</td>
+<td>45,723.76㎡</td>
+<td>확정(교차)</td>
+<td>건축.pdf · page 3, sheet_no A-011 <a href="crops/building_main_x_gross_floor_area_m2_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>램프 경사</td>
+<td>10.0%</td>
+<td>확정</td>
+<td>건축.pdf · page 77, sheet_no A-901 <a href="crops/building_main_x_ramp_slope_pct_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>창고 내부 깊이(하역장 측 벽~반대편 벽)</td>
+<td>96.0m</td>
+<td>확정</td>
+<td>화성풀필먼트신흥 담보대출[IM]_250313.pdf · page 22</td>
+</tr>
+<tr>
+<td>저온동 단열재 종류</td>
+<td>우레탄</td>
+<td>확정</td>
+<td>건축.pdf · page 87, sheet_no A-1143 <a href="crops/building_main_x_cold_insulation_material_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>준공연도(사용승인)</td>
+<td>2024</td>
+<td>확정</td>
+<td>화성풀필먼트신흥 담보대출[IM]_250313.pdf · page 14</td>
+</tr>
+<tr>
+<td>도크 수</td>
+<td>64</td>
+<td>확정</td>
+<td>건축.pdf · page 13, sheet_no A-104 <a href="crops/building_main_x_dock_count_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>방화구획 최대 면적</td>
+<td>2,878.62㎡</td>
+<td>확정</td>
+<td>건축.pdf · page 24, sheet_no A-124 <a href="crops/building_main_x_fire_compartment_max_m2_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>램프 형상</td>
+<td>곡선형</td>
+<td>확정</td>
+<td>건축.pdf · page 77, sheet_no A-901 <a href="crops/building_main_x_ramp_form_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>램프 통행 방향</td>
+<td>양방향</td>
+<td>확정</td>
+<td>건축.pdf · page 12, sheet_no A-103 <a href="crops/building_main_x_ramp_type_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>램프 폭</td>
+<td>9.4m</td>
+<td>확정</td>
+<td>건축.pdf · page 77, sheet_no A-901 <a href="crops/building_main_x_ramp_width_m_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>스프링클러 형식</td>
+<td>표준형</td>
+<td>확정</td>
+<td>기계소방.pdf · page 3, sheet_no MF-002 <a href="crops/building_main_x_sprinkler_type_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>지형 단차 진입도로로 여러 층 직접 접안</td>
+<td>있음</td>
+<td>확정</td>
+<td>건축.pdf · page 5, sheet_no A-013 <a href="crops/building_main_x_terrain_multi_level_access_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>대형차 최소 회전반경(램프·하역장 동선)</td>
+<td>12.0m</td>
+<td>확정</td>
+<td>건축.pdf · page 77, sheet_no A-901 <a href="crops/building_main_x_turning_radius_m_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>외벽 패널 심재</td>
+<td>글라스울</td>
+<td>확정</td>
+<td>건축.pdf · page 30, sheet_no A-135 <a href="crops/building_main_x_wall_panel_core_0.png" target="_blank">근거</a></td>
+</tr>
+<tr>
+<td>저온·냉동 면적</td>
+<td>8,101.98㎡</td>
+<td>확정</td>
+<td>화성풀필먼트신흥 담보대출[IM]_250313.pdf · page 16</td>
+</tr>
+<tr>
+<td>구조형식</td>
+<td>복합</td>
+<td>확정</td>
+<td>화성풀필먼트신흥 담보대출[IM]_250313.pdf · page 14</td>
+</tr>
+<tr>
+<td>저온동 단열재 두께</td>
+<td>200.0mm</td>
+<td>확정</td>
+<td>건축.pdf · page 87, sheet_no A-1143 <a href="crops/building_main_x_cold_insulation_thickness_mm_0.png" target="_blank">근거</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>층</th>
+<th>용도</th>
+<th>면적</th>
+<th>설계하중</th>
+<th>유효층고</th>
+<th>직접접안</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B1</td>
+<td>창고</td>
+<td>13,538.62㎡</td>
+<td>2.0t/㎡</td>
+<td>8.2m</td>
+<td>있음</td>
+</tr>
+<tr>
+<td>1F</td>
+<td>창고</td>
+<td>11,505.21㎡</td>
+<td>2.039t/㎡</td>
+<td>8.2m</td>
+<td>있음</td>
+</tr>
+<tr>
+<td>2F</td>
+<td>사무</td>
+<td>1,664.93㎡</td>
+<td>0.357t/㎡</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3F</td>
+<td>창고</td>
+<td>10,913.05㎡</td>
+<td>2.039t/㎡</td>
+<td>8.2m</td>
+<td>있음</td>
+</tr>
+<tr>
+<td>4F</td>
+<td>창고</td>
+<td>8,101.98㎡</td>
+<td>2.549t/㎡</td>
+<td>8.2m</td>
+<td>있음</td>
+</tr>
+</tbody>
+</table>
+<h3>단지 공용</h3>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>값</th>
+<th>상태</th>
+<th>출처</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>대지면적</td>
+<td>29,961.0㎡</td>
+<td>확정</td>
+<td>화성풀필먼트신흥 담보대출[IM]_250313.pdf · page 14</td>
+</tr>
+</tbody>
+</table>
+<h2>2. 스펙 경쟁력 — 벤치마크 포지셔닝</h2>
+<p>벤치마크 미적용 — WF1 벤치마크 DB가 아직 없다(구현 3단계).</p>
+<h2>3. IM–도면 정합성</h2>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>IM 기재</th>
+<th>도면</th>
+<th>확정값</th>
+<th>방향</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>대지면적</td>
+<td>29,961.0㎡</td>
+<td>29,419.0㎡</td>
+<td>29,961.0㎡ (확정)</td>
+<td>IM 과장</td>
+</tr>
+<tr>
+<td>저온·냉동 면적 (main)</td>
+<td>8,101.98㎡, 8,101.95㎡</td>
+<td>7,821.34㎡</td>
+<td>8,101.98㎡ (확정)</td>
+<td>방향 없음</td>
+</tr>
+<tr>
+<td>저온동 단열재 두께 (main)</td>
+<td>—</td>
+<td>200.0mm, 150.0mm</td>
+<td>200.0mm (확정)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>램프 경사 (main)</td>
+<td>9.0%, 10.2%</td>
+<td>10.0%</td>
+<td>10.0% (확정)</td>
+<td>IM 과장</td>
+</tr>
+<tr>
+<td>구조형식 (main)</td>
+<td>복합</td>
+<td>복합, RC</td>
+<td>복합 (확정)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>창고 내부 깊이(하역장 측 벽~반대편 벽) (main)</td>
+<td>96.0m, 85.0m, 96.0m</td>
+<td>71.0m</td>
+<td>96.0m (확정)</td>
+<td>IM 보수</td>
+</tr>
+<tr>
+<td>층 면적 (main 3F)</td>
+<td>10,913.05㎡</td>
+<td>11,193.66㎡</td>
+<td>10,913.05㎡ (확정)</td>
+<td>IM 보수</td>
+</tr>
+<tr>
+<td>층 면적 (main 4F)</td>
+<td>8,101.98㎡</td>
+<td>7,821.34㎡</td>
+<td>8,101.98㎡ (확정)</td>
+<td>IM 과장</td>
+</tr>
+<tr>
+<td>층 온도대 (main 4F)</td>
+<td>저온</td>
+<td>냉동, 저온</td>
+<td>저온 (확정)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>해설.</strong> 표의 방향 표시가 있는 6건(IM 과장 3 · IM 보수 2 · 방향 없음 1)은 IM 기재값과 도면 판독값의 대조 결과이고, 도면 판독값은 모두 스캔 도면의 vision 판독(low)이다. V01은 이 가운데 판정에 민감한 항목만 세며, 해당은 램프 경사 1건이다.</p>
+<ul>
+<li><strong>램프 경사 (IM 과장, 판정 민감):</strong> IM은 '외부램프 경사도 9% 이하'와 '건물램프 경사도 평균 10.2%'를 같은 문장(claim:4)에 따로 적었다. 대조 단계는 IM 대표 수치 9%를 비교값으로 잡았고, 확정값은 RAMP#3 도면 10.0%다. 'IM 과장'은 IM 대표 수치(9%)와 확정값(RAMP#3 10.0%)의 차이가 판정에 유리한 방향이라는 분류이지, 경사를 부풀렸다는 단정이 아니다. 확정값 기준으로 SP05가 기준 9%를 넘어 🔴이고 V01도 🔴이다. 램프-2(B1 연결)의 경사·폭은 확인되지 않았다.</li>
+<li><strong>창고 내부 깊이 (IM 보수):</strong> G2에서 IM 값 96.0m(B1 '85~96m'의 상한, claim:7)를 채택해 FR05가 🔴이다. 도면 값 71.0m는 1F 그리드 합산이고 B1은 도면에서 산정되지 않았다. 도면 값이 기준 77m 미만이라 어느 층·어느 기준으로 재느냐에 따라 FR05 판정이 달라질 수 있다 — B1 실측(하역장측 벽~반대편 벽)이 핵심 DD다.</li>
+<li><strong>층 면적 3F (IM 보수)·4F (IM 과장), 저온·냉동 면적 (방향 없음):</strong> 모두 G2에서 IM 값으로 확정했다. 4F 면적과 저온 면적은 IM 8,101.98㎡와 도면 7,821.34㎡로 같은 차이를 보인다. FR04(🟡 조건: 단열재 난연)·CL04(has_cold) 판정은 저온 비율 크기와 무관한 조건이라 어느 값을 쓰든 판정은 바뀌지 않는다.</li>
+<li><strong>대지면적 (IM 과장):</strong> IM 29,961.0㎡와 도면 29,419.0㎡의 차이로, G2에서 IM 값을 채택했다. 이번 평가에서 대지면적을 입력으로 쓰는 룰이 없어 판정 파급은 없다.</li>
+<li><strong>방향 없음(—) 항목:</strong> 단열재 두께는 도면 안에서 200.0mm(벽)와 150.0mm(바닥)가 갈려 200.0mm로 확정했고, 구조형식(복합·RC)과 4F 온도대(냉동·저온)는 도면 판독 후보가 갈려 IM 값(복합, 저온)으로 확정했다. 4F 온도대에 대한 IM의 '냉동·냉장 멀티형' 주장(claim:6)은 미확인이다.</li>
+</ul>
+<h2>4. 입지 리스크</h2>
+<p>입지 조회 미실행 — 입지 룰(LC)은 구현 2단계에서 추가된다.</p>
+<h2>5. 리스크 평가 결과</h2>
+<h3>🔴 CL04. 온도대 전환 유연성 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> has_cold=있음, refrigerant=—</li>
+<li><strong>추론 근거:</strong> 4F 저온창고(has_cold true, cold_ratio 0.1772)가 있는데 냉매·냉동설비 근거가 도면에서 확인되지 않아(refrigerant null — 장비일람표 M-003~M-005에 냉동설비 없음) 🟡 조건이 걸렸고, 단일 등급 정책으로 🔴가 됐다. (IM은 4F의 냉동·냉장 멀티 운영(영하25도~영상10도)을 주장(claim:6, IM p22) — 냉동설비 사양·냉매 증빙 확인 시 하향 가능. 다만 이 주장은 저온↔상온 전환 근거가 아니다.)</li>
+<li><strong>근본 원인:</strong> IM은 4F를 '냉동·냉장 멀티형, 영하25도~영상10도 커버'(p22)라고 적었지만 이는 냉동↔냉장 범위 주장일 뿐 저온↔상온 전환 근거가 아니다. 냉동설비 사양·소유가 확인되지 않아 전환 비용과 기간을 가늠할 수 없다. 4F는 층고 9m로 상온층(10m)보다 낮고, 바닥 적재하중은 25.0 kPa로 상온층 20.0 kPa보다 높게 설계됐다(A-221, S-301).</li>
+<li><strong>연쇄 리스크:</strong> 재무 — 전환 시 냉동설비·방열 뿜칠 철거와 스프링클러 신설 공사비, 전환 기간 공실. 시장 사례는 conversion_cases.yaml의 원창 IM p33 인허가 절차(해체심의+대수선, IM주장 등급)와 6개 센터 저온→상온 공사비(IM주장·견적 등급, 전환 대상 창고면적 기준)를 참고하되, 면적 기준이 다른 골든 사례(상봉리·석남·송온리1)와 평단가를 비교하지 않는다. 냉동설비 소유 미확인 — 임대인 소유면 철거·신설이 임대인 CAPEX, 임차인 소유면 퇴거 시 원상복구 범위가 쟁점. / 임대 — 4F 임차인(신흥식산, IM p14 주장) 이탈 시 대체 임차인이 저온 수요로 좁혀진다. 상온으로 전환하면 4F YARD가 소형화물차 구획(A-104)이고 RAMP#3 경사 10.0%라 대형차 임차인 유치에 제약이 드러날 수 있다. / 법규 — 전환 시 대수선·해체 인허가, 냉동설비 철거 시 고압가스 변경 인허가.</li>
+<li><strong>DD 확인 포인트:</strong> 4F 냉동설비 형식·냉매·용량과 소유(refrigeration_owner) — 확인되면 이 룰은 재판정; 전환 이력·계획과 임대차계약의 온도대 변경·원상복구·하자 책임 조항; 4F 현재 스프링클러·옥내소화전 설치 범위(냉동창고 면제 여부) — 상온 전환 시 소방 신설 범위; 4F 바닥 마감이 상온층과 같은 설계인지(전환 시 단차·바닥 재시공 여부)와 저온 전용 변압기 유무; 상온 전환 시 4F YARD 대형차 접안·RAMP#3 40FT 출차 가능 여부(SP05·SP08 연계); 전환 인허가 경로·기간과 공사비 범위는 conversion_cases.yaml 참조 — 사례 수치는 IM주장·견적 등급이며 판정 근거로 쓰지 않음</li>
+</ul>
+<h3>🔴 FR04. 저온동 단열재 화재 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> cold_insulation_combustibility=난연, cold_ratio=0.177, has_cold=있음</li>
+<li><strong>추론 근거:</strong> 4F 저온창고 방열재가 우레탄뿜칠 준불연재(A-1143 — 벽 200T, 바닥 F1 150T)라 cold_insulation_combustibility '난연'으로 🟡 조건이 걸렸고, 단일 등급 정책으로 🔴가 됐다. 저온 비율 cold_ratio 0.1772(cold_area 8101.98㎡, IM p16, G2 채택).</li>
+<li><strong>근본 원인:</strong> 두꺼운 우레탄 뿜칠은 준불연이어도 화재 하중이 크고, 시공·보수 중 화기 작업에서 발화하는 사례가 많다. 저온층이 최상층(4F)이라 외부 접근은 RAMP#3로 올라가는 4F YARD 쪽으로 제한되고, 하부 3F 상온창고로 연소·수손이 번질 수 있다.</li>
+<li><strong>연쇄 리스크:</strong> 재무 — 저온층 전손과 화재보험료 상승, 하부 상온층 수손 피해. 냉동설비 소유 미확인이라 설비 손해 부담 주체도 DD 대상이다. / 임대 — 4F 저온 임차인 운영 중단과 하부 3F 상온 임차인 수손 피해가 함께 생긴다. / 법규 — 임차인 공사 중 화기 작업 발화 시 책임 분쟁.</li>
+<li><strong>DD 확인 포인트:</strong> 우레탄 뿜칠 준불연 시험성적서와 시공 두께, 노출 여부(마감 피복); 화기 작업 허가·관리 절차(임차사 추가공사 포함); 4F 스프링클러·소화설비 설치 범위(냉동 구역 면제 여부); 냉동설비 소유와 화재 시 설비 손해 부담 주체</li>
+</ul>
+<h3>🔴 FR05. 창고 내부 깊이 과대 (소방대 진입 거리) [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> warehouse_depth_m=96.0</li>
+<li><strong>적용 임계값:</strong> warehouse_depth.red=77 (default, 검증)</li>
+<li><strong>추론 근거:</strong> 창고 내부 깊이 96.0m(IM p22 평면 이미지의 B1 상온 깊이, G2에서 IM 값 채택)가 기준 77m 이상이라 🔴. IM은 B1을 '85~96m' 범위로 적었고 측정 기준(하역장측 벽 기준 여부)은 밝히지 않았다. 도면 그리드 합산은 1F 71m, 3F·4F 66m이고 B1은 산정되지 않았다.</li>
+<li><strong>근본 원인:</strong> 가장 깊은 층이 지하층(B1)이다. 지형 단차로 B1F YARD는 램프-2로만 연결돼 소방대가 붙을 수 있는 외벽 면이 제한될 수 있고, 지하층은 배연·외부 방수가 어렵다.</li>
+<li><strong>연쇄 리스크:</strong> 재무 — B1 발화 시 진압 지연으로 PML이 커지고 화재보험 인수 조건이 나빠진다. / 임대 — B1·1F·3F 상온층이 같은 임차인(IM p14 램리서치, 주장값)이라 한 번의 화재로 임차인 운영 전체가 멈출 수 있다. / 법규 — 화재 원인·확산 책임 분쟁.</li>
+<li><strong>DD 확인 포인트:</strong> B1 내부 깊이 실측(하역장측 벽~반대편 벽, 하역장 제외) — IM 범위 85~96m의 기준 확인; B1 소방대 진입구·비상용 진입창 위치와 지하층 배연설비; 층별 소방차 접근 가능 면 수와 진입·진출 분리 동선(지형 단차 부지); 3F·4F 고층부 외부 방수 가능 범위</li>
+</ul>
+<h3>🔴 SP02. 유효층고 미달 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> warehouse_floors.clear_height_m.min=8.2</li>
+<li><strong>적용 임계값:</strong> clear_height.yellow=8.5 (default, 검증)</li>
+<li><strong>추론 근거:</strong> 창고층 유효고 최소 8.2m가 기준 8.5m 미만이라 🟡 조건이 걸렸고 단일 등급 정책으로 🔴가 됐다. 8.2m는 IM p22의 전층 공통 문구 '유효고 8.2m 이상 확보'(G2에서 IM 값 채택)로 하한값이다. 도면 단면도(A-221)에는 층고(FL~FL) 10m(B1·1F·3F)·9m(4F)만 있고 보·배관 하단 유효고 치수는 없으며, 마감표(A-152)는 창고 천장을 'PC부재노출'로 적었다. (IM은 '전층 4단랙 설치 기준 충족'을 주장(claim:0, IM p22) — 층별 실측 유효고 증빙 확인 시 하향 가능.)</li>
+<li><strong>근본 원인:</strong> IM이 상온(층고 10m)·저온(층고 9m)을 한데 묶어 하한만 적었기 때문에 층별 실제 유효고를 알 수 없다. 특히 4F는 층고 9m라 하한값에 가장 가까울 가능성이 크다.</li>
+<li><strong>연쇄 리스크:</strong> 재무 — 랙 단수 제약으로 평당 보관량이 줄면 임대료 경쟁력이 떨어진다. / 임대 — 고단 랙·자동화 임차인 유치 제약. 랙 소유 미확인 — 임차인 랙 배치가 현 유효고에 맞춰져 있는지 DD.</li>
+<li><strong>DD 확인 포인트:</strong> 층별 실측 유효고(PC 보 하단·스프링클러 배관 하단); 상온층(층고 10m)과 4F 저온층(층고 9m)의 유효고 편차; 스프링클러 헤드 하단 이격과 4단 랙 실제 적재 높이(FR03 연계)</li>
+</ul>
+<h3>🔴 SP04. 도크 부족 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> dock_density=46.3</li>
+<li><strong>적용 임계값:</strong> dock_density.red=50 (default, 검증)</li>
+<li><strong>추론 근거:</strong> dock_density 46.3(연면적 1만평당 도크 수)이 기준 50 미만이라 🔴. 도크 수 64는 주차계획도(A-101~A-104) 공통 주차계획표의 화물주차 구획 합계(중형 33 + 소형 31; B1 소형 15, 1F 중형 18, 3F 중형 15, 4F 소형 16)이고, 도크레벨러 수량은 미기재다. 4F 평면은 '소형화물차 17대'로 표(16)와 다르다. (IM은 화물주차 72대를 기재(claim:9, IM p21) — 주차 대수 표기라 도크 수가 아니다. 실제 도크(도크레벨러) 수량 증빙 확인 전에는 반영하지 않는다.)</li>
+<li><strong>근본 원인:</strong> 도크면에 직각으로 붙은 화물주차 구획을 도크로 셌는데, 그중 절반 가까이가 소형화물차 구획(B1·4F)이다. 대형차가 접안할 수 있는 도크는 1F·3F 중형 구획에 몰려 있어 실제 대형차 처리 능력은 밀도 수치보다 더 낮을 수 있다.</li>
+<li><strong>연쇄 리스크:</strong> 재무 — 회전형(택배·이커머스) 임차인 대상 경쟁력 저하와 재임대 시 임대료 할인. / 임대 — 피크 시간 대기 차량 증가. 도크레벨러 등 하역 설비 소유(dock_equipment_owner) 미확인 — 임차인 설치분이면 퇴거 시 철거·원상복구 대상.</li>
+<li><strong>DD 확인 포인트:</strong> 실제 도크·도크레벨러 수량과 층별 배치(4F 17·16 불일치 포함); 구획별 접안 가능 차종(소형·중형·40FT)과 IM '전층 대형화물 접안' 주장 대조; 도크 증설 가능 구간; 도크레벨러·도크씰 소유와 원상복구 조건</li>
+</ul>
+<h3>🔴 SP05. 램프·차량 접근 제약 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> floors_above=4, ramp_slope_pct=10.0, ramp_type=양방향, ramp_width_m=9.4</li>
+<li><strong>적용 임계값:</strong> ramp_slope.red=9 (default, 검증); ramp_width.red=7.5 (ramp_type=양방향, 검증)</li>
+<li><strong>추론 근거:</strong> RAMP#3(3F→4F) 경사 10.0%(A-901 직선·곡선 구간)가 기준 9% 초과라 🔴. 폭 9.4m는 양방향 기준 7.5m 이상이다. 도면상 1F는 남측 도로, 3F는 서측 현황도로로 직접 진입하고(A-013), 4F YARD는 RAMP#3, B1F YARD는 램프-2로 연결된다. 확정된 경사는 RAMP#3뿐이고 램프-2 경사·폭은 확인되지 않았다. (IM은 '완만한 경사로 설계로 대형화물 전층 접안 용이'(claim:2)와 '외부램프 경사도 9% 이하'(claim:4)를 주장 — 램프별 실측 증빙 확인 전에는 반영하지 않는다.)</li>
+<li><strong>근본 원인:</strong> 램프 의존 층은 B1과 4F다. 4F는 저온층이라 냉동차가 10.0% 곡선 램프를 오르내리고, 동절기 결빙 시 위험이 커진다. IM은 '외부램프 경사도 9% 이하'와 '건물램프 경사도 평균 10.2%'를 함께 적었고(claim:4), 확정값 RAMP#3 10.0%는 건물램프 쪽 수치에 가깝다.</li>
+<li><strong>연쇄 리스크:</strong> 재무 — 4F(저온) 임대료 할인과 램프 열선 등 결빙 대책 CAPEX. / 임대 — 동절기 결빙·사고 위험과 대형차 4F 운용 제약 — 4F 저온 임차인 운영에 직접 영향. / 법규 — 램프 차량 사고 시 시설 책임.</li>
+<li><strong>DD 확인 포인트:</strong> RAMP#3·램프-2 실측 경사·폭(곡선부 포함); 램프 결빙 방지(열선) 설비와 동절기 사고 이력; 40FT·세미트레일러가 4F YARD에서 회차해 RAMP#3로 한 번에 출차할 수 있는지(도면 R 표기와 현장 주차 위치); 램프 출구→하역장 진입 동선 기둥 간섭(SP09 연계)</li>
+</ul>
+<h3>🔴 V01. IM–도면 스펙 불일치</h3>
+<ul>
+<li><strong>판정 입력:</strong> v01.discrepancy_count=1, v01.overstated_sensitive_count=1</li>
+<li><strong>추론 근거:</strong> 불일치 1건(discrepancy_count 1)이 판정 민감 항목(overstated_sensitive_count 1)이라 🔴. 해당 항목은 램프 경사다. IM은 같은 문장(claim:4)에 '외부램프 경사도 9% 이하'와 '건물램프 경사도 평균 10.2%'를 따로 적었고, 대조 단계는 IM 대표 수치 9%를 비교값으로 잡았다. 확정값은 RAMP#3 도면 10.0%(A-901 직선·곡선 구간, 스캔 도면 vision 판독)다. 'IM 과장' 표시는 IM 대표 수치(9%)가 확정값(RAMP#3 10.0%)보다 판정에 유리한 쪽이라는 방향 분류이며, IM이 경사를 부풀렸다는 단정이 아니다. 이 차이로 SP05 판정이 갈린다(affected_rules: SP05).</li>
+<li><strong>근본 원인:</strong> IM은 램프를 외부램프와 건물램프로 나눠 수치를 적었는데, 램프별(RAMP#3·램프-2) 구분과 측정 기준은 밝히지 않았다. 확정된 RAMP#3 10.0%는 IM의 건물램프 평균 10.2%와는 가깝고 외부램프 9% 이하와는 다르다. IM의 '완만한 경사로'(claim:2) 표현은 9% 쪽 수치와 맞물려 읽히므로, 어느 램프를 기준으로 한 설명인지 확인이 필요하다. 창고 깊이는 반대로 IM 값(96.0m)이 도면 산정값보다 커서(보수 방향) 과장 집계에서 빠졌다.</li>
+<li><strong>연쇄 리스크:</strong> 재무 — IM의 접근성 주장('대형화물 전층 접안 용이')을 근거로 한 임대료·가치 가정의 하향 검토. / 임대 — 40FT·대형차 임차인 유치 시 램프 경사·야드 구획이 IM 설명과 달라 분쟁 소지. / 법규 — 매매계약·대출약정 진술·보장 조항의 근거 — 핵심 스펙 명시 필요.</li>
+<li><strong>DD 확인 포인트:</strong> 매도측에 외부램프·건물램프(램프-2, RAMP#3) 구분과 각 경사 소명 요청; RAMP#3·램프-2 경사 현장 실측; IM '40ft 컨테이너 및 대형화물차량 전층 접안 가능'(claim:3) 근거 — 도면상 B1·4F YARD는 소형화물차 구획; 진술·보장 조항에 램프 경사·유효고·도크 수 명시</li>
+</ul>
+<h3>🟢 FR02. 방화구획 대면적 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> fire_compartment_max_m2=2,878.62</li>
+<li><strong>적용 임계값:</strong> fire_compartment_area.yellow=3000 (default, 검증)</li>
+<li><strong>추론 근거:</strong> 최대 방화구획 면적은 3F 2,878.62㎡(A-124 층별 방화구획면적표)로 기준 3,000㎡ 이하라 🟢. 다른 층 최대값은 B1 2,489.79㎡, 1F 2,746.74㎡, 4F 2,396.77㎡다. 구획 면적은 기준 안이고, 창고 깊이에서 오는 진압 불리는 FR05가 따로 잡고 있어 상향하지 않았다(이중 집계 방지).</li>
+</ul>
+<h3>🟢 FR03. 스프링클러 형식 부적합 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> sprinkler_type=표준형, warehouse_floors.clear_height_m.max=8.2</li>
+<li><strong>적용 임계값:</strong> sprinkler_esfr_clear_height.red=13.7 (default, 검증)</li>
+<li><strong>추론 근거:</strong> 스프링클러는 표준형(MF-002 범례 72℃ 폐쇄형 하향식·상향식, ESFR 표기 없음)이고 창고층 유효고 최대 8.2m(IM p22, G2 채택)가 기준 13.7m 이하라 🟢. 8.2m는 IM의 '이상' 하한값이지만 단면도(A-221) 층고 자체가 10m·9m라 실제 유효고가 더 높아도 판정은 바뀌지 않는다.</li>
+</ul>
+<h3>🟢 G01. 배관 노후 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> building_age=2</li>
+<li><strong>적용 임계값:</strong> aging_piping.red=30 (default, 검증)</li>
+<li><strong>보유기간 말:</strong> 🟢 → ⚪</li>
+<li><strong>추론 근거:</strong> 준공연도 2024(IM p14 '2024. 12.20 준공완료', G2에서 IM 값 채택)로 building_age 2 — 배관 내구수명 기준 30년에 한참 못 미쳐 현재 🟢. 보유기간(asset_meta.holding_years)이 입력되지 않아 매각 시점 판정은 ⚪이다.</li>
+</ul>
+<h3>🟢 G02. 수변전설비 노후 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> building_age=2</li>
+<li><strong>적용 임계값:</strong> aging_substation.red=20 (default, 검증)</li>
+<li><strong>보유기간 말:</strong> 🟢 → ⚪</li>
+<li><strong>추론 근거:</strong> building_age 2(준공 2024, IM p14)로 수변전 기준 20년 미만이라 현재 🟢, 매각 시점은 holding_years 미입력으로 ⚪. 도면은 수전 22.9kV 인입만 표기하고, 변압기는 단선결선도(EE-602) TR#1 1,500KVA·TR#2 2,000KVA와 수배전반 정면도(EE-004) 'TR 1500kVA PANEL' 2면이 서로 달라 총용량이 확정되지 않았다(power_capacity_kw·transformer_capacity_kva 미기재).</li>
+</ul>
+<h3>🟢 G04. 비상발전기 신뢰성 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> building_age=2</li>
+<li><strong>적용 임계값:</strong> aging_generator.red=30 (default, 검증)</li>
+<li><strong>보유기간 말:</strong> 🟢 → ⚪</li>
+<li><strong>추론 근거:</strong> building_age 2로 발전기 기준 30년 미만이라 현재 🟢, 매각 시점은 holding_years 미입력으로 ⚪. 도면에는 비상 발전기 610KW/763KVA가 표기돼 있다. 룰은 저온동이면 상향을 검토하라고 하지만, 냉동설비 형식·부하(refrigerant·refrigeration_system 미기재)와 발전기 비상부하 범위를 알 수 없어 상향 근거가 부족하다고 보고 DD로 넘긴다.</li>
+</ul>
+<h3>🟢 G05. 스프링클러·제연 노후 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> building_age=2</li>
+<li><strong>적용 임계값:</strong> aging_fire_system.red=20 (default, 검증)</li>
+<li><strong>보유기간 말:</strong> 🟢 → ⚪</li>
+<li><strong>추론 근거:</strong> building_age 2로 소화·제연 기준 20년 미만이라 현재 🟢, 매각 시점은 holding_years 미입력으로 ⚪. 소방 범례(MF-002)는 72℃ 폐쇄형 하향식·상향식 헤드, 알람밸브·프리액션밸브, 스프링클러 주펌프 1,600LPM×125m를 표기한다.</li>
+</ul>
+<h3>🟢 G06. 지붕 방수·배수 열화 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> building_age=2</li>
+<li><strong>적용 임계값:</strong> aging_roof.red=15 (default, 검증)</li>
+<li><strong>보유기간 말:</strong> 🟢 → ⚪</li>
+<li><strong>추론 근거:</strong> building_age 2로 지붕 방수 기준 15년 미만이라 현재 🟢, 매각 시점은 holding_years 미입력으로 ⚪. 지붕은 PC 슬래브에 우레탄 뿜칠 단열 구성(A-135 R1·R2)이며, 지붕 면적과 태양광 설치 여부는 도면에 표기가 없다(A-207).</li>
+</ul>
+<h3>🟢 G07. 야드·램프 포장 열화 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> building_age=2</li>
+<li><strong>적용 임계값:</strong> aging_pavement.red=20 (default, 검증); aging_pavement.yellow=10 (default, 검증)</li>
+<li><strong>보유기간 말:</strong> 🟢 → ⚪</li>
+<li><strong>추론 근거:</strong> building_age 2로 포장 기준(🟡 10년, 🔴 20년 — 단일 등급에서는 10년부터 🔴) 미만이라 현재 🟢, 매각 시점은 holding_years 미입력으로 ⚪. RAMP#3 경사가 10.0%(A-901)이고, 대지종횡단면(A-013)상 서측 현황도로에서 3F YARD로, 남측 도로에서 1F YARD로 직접 진입하는 지형 단차 접안 부지다(terrain_multi_level_access true).</li>
+</ul>
+<h3>🟢 G08. 석면 함유 가능성 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> regulation_flags.asbestos_total_ban_2009=없음</li>
+<li><strong>추론 근거:</strong> 준공 2024(IM p14, G2 채택)로 석면 전면 금지(asbestos_total_ban_2009) 이후 준공이라 regulation_flags 값이 false — 🟢.</li>
+</ul>
+<h3>🟢 G09. 법규 적합성·용도변경 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> building_age=2</li>
+<li><strong>적용 임계값:</strong> aging_compliance.yellow=20 (default, 검증)</li>
+<li><strong>보유기간 말:</strong> 🟢 → ⚪</li>
+<li><strong>추론 근거:</strong> building_age 2로 법규 적합성 기준 20년 미만이라 현재 🟢, 매각 시점은 holding_years 미입력으로 ⚪. IM은 용도를 '물류창고(상온, 저온)'(p14)로, 4F를 냉동·냉장 멀티형(p22)으로 적고, 재원표에 '잔여기성 및 임차사(램리서치) 추가공사비'(p33)를 적었다(모두 미확인 주장).</li>
+</ul>
+<h3>🟢 G10. CapEx 종합 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> building_age=2</li>
+<li><strong>적용 임계값:</strong> aging_capex.yellow=15 (default, 검증)</li>
+<li><strong>보유기간 말:</strong> 🟢 → ⚪</li>
+<li><strong>추론 근거:</strong> building_age 2로 CapEx 종합 기준 15년 미만이라 현재 🟢, 매각 시점은 holding_years 미입력으로 ⚪. IM 재원표의 공사비 7,820백만원은 '잔여기성 및 임차사 추가공사비'(p33)로, 설비 교체·리노베이션 이력이 아니다(claim:13, 미확인).</li>
+</ul>
+<h3>🟢 SP01. 바닥하중 미달 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> warehouse_floors.floor_load_tpm2.min=2.0</li>
+<li><strong>적용 임계값:</strong> floor_load.red=1.5 (default, 검증)</li>
+<li><strong>추론 근거:</strong> 창고층 바닥하중 최소 2.0t/㎡(B1, IM p22 '상온2.0t/㎡', G2 채택)가 기준 1.5t/㎡ 이상이라 🟢. 1F·3F는 2.0394t/㎡(S-301 PS1 적재하중 20.0 kPa), 4F는 2.5493t/㎡(PS3 25.0 kPa)로 도면과 IM이 교차 확인됐다. B1은 S.O.G 구간이라 도면에 적재하중 표기가 없다(S-112의 '지지력 180kN/m²'은 지반 지지력).</li>
+</ul>
+<h3>🟢 SP03. 기둥 스팬·랙 효율 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> column_span_x_m=11.0, column_span_y_m=11.0</li>
+<li><strong>적용 임계값:</strong> column_span.yellow=11.0 (default, 검증)</li>
+<li><strong>추론 근거:</strong> 기둥 스팬 11.0m×11.0m(A-205 X·Y축 그리드, 교차 확정)가 기준 11.0m와 같아 미달이 아니므로 🟢(여유 없음). 다만 1F 깊이 방향 그리드는 '11000×5 + 8000×2'로 8m 스팬 구간이 섞여 있다(A-203 그리드 합산 메모). 그 구간의 위치·면적 비중이 확인되지 않아 상향은 제안하지 않았다.</li>
+</ul>
+<h3>🟢 SP07. 수직반송 의존 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> handling_type=다층 램프형</li>
+<li><strong>추론 근거:</strong> handling_type '다층 램프형'(floors_above 4, ramp_type 양방향)이라 🟢. 창고층 B1·1F·3F·4F 모두 야드 직접접안이 도면·IM 교차로 확인됐다(A-101~A-104).</li>
+</ul>
+<h3>🟢 SP08. 대형차 회전반경 부족 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> turning_radius_m=12.0</li>
+<li><strong>적용 임계값:</strong> turning_radius.red=12.0 (default, 검증)</li>
+<li><strong>추론 근거:</strong> 회전반경 12.0m가 기준 12.0m와 같아 미만이 아니므로 🟢(여유 없음). 값은 RAMP#3 곡선부 표기 'R12,000 (R16,000)' 중 최소값(A-901)으로, 하역장 출차부 R이나 차량 회전 궤적이 아니다. 표기 R의 기준(내측·외측)과 실제 궤적이 불명이라 상향 근거가 부족하다고 보고 DD로 넘긴다.</li>
+</ul>
+<h3>🟢 SP09. 하역 동선 기둥 간섭 [main]</h3>
+<ul>
+<li><strong>판정 입력:</strong> —</li>
+<li><strong>추론 근거:</strong> dock_route_column_conflict가 B1·1F·3F·4F 모두 false(A-101~A-104 주차계획도, vision·low, G2 확정)라 간섭 층이 없어 🟢. 이 판독은 도면의 진입·진출 동선 표시선 위에 기둥이 있는지만 본 것이고 회전 궤적 검토가 아니다. 1F는 남측 도로 주·부출입구에서 램프 없이 지상 야드로 직접 들어오는 층이라(3F도 서측 현황도로로 직접 진입, A-013) '램프 출구→하역장' 간섭 구조가 처음부터 해당하지 않는다 — 1F false는 간섭 없음의 확인이라기보다 적용 대상이 아님에 가깝다. 또 이 판독 방식은 송온리 1센터 2층 실제 간섭 사례(golden songon1 p21)로 검증된 적이 없어, 도면 판독이 실제 간섭을 잡아낼 수 있는지 알 수 없다. 🟢는 간섭 부재를 확인한 결과가 아니라 도면 판독상 표시가 없다는 뜻으로 읽어야 한다.</li>
+</ul>
+<h3>⚪ CL01. 냉동설비·냉매 리스크 [main]</h3>
+<ul>
+<li><strong>판정 보류 사유:</strong> 입력 미확인 — 미확인 입력: 냉매 종류 (main)</li>
+<li><strong>판정 입력:</strong> building_age=2, has_cold=있음, refrigerant=—</li>
+<li><strong>적용 임계값:</strong> cold_refrigeration_age.red=15 (default, 검증)</li>
+<li><strong>DD 확인 포인트:</strong> 미확인 입력 확보; 냉동기 형식·냉매 종류·용량과 고압가스 허가·검사 이력(냉동설비 준공도서 또는 임차인 설치 도서); 냉동설비 소유(refrigeration_owner)와 교체·철거·원상복구 책임(임대차계약서); 압축기 운전시간·오버홀 이력</li>
+</ul>
+<h3>⚪ CL02. 바닥 동상 [main]</h3>
+<ul>
+<li><strong>판정 보류 사유:</strong> 입력 미확인 — 미확인 입력: 저온동 바닥 동상 방지 설비 (main)</li>
+<li><strong>판정 입력:</strong> cold_floor_heave_protection=—, has_cold=있음</li>
+<li><strong>DD 확인 포인트:</strong> 미확인 입력 확보; 4F 바닥 방열 상세와 3F 천장 결로 흔적 — 확인 후 동상방지 필드 해당 여부를 G2에 반영(⚪ 해소); 향후 지반층(B1·1F)을 저온으로 쓸 계획이 있다면 동상방지 설비 신설 필요 여부</li>
+</ul>
+<h3>⚪ CL03. 단열 패널 열화·결로 [main]</h3>
+<ul>
+<li><strong>판정 보류 사유:</strong> 임계값 미정 — 미확인 입력: thresholds.yaml: CL03 red/yellow</li>
+<li><strong>판정 입력:</strong> building_age=2, has_cold=있음</li>
+<li><strong>DD 확인 포인트:</strong> 미확인 입력 확보; thresholds.yaml CL03 기준값 사용자 확인(리뷰 서버 /thresholds); 방열 뿜칠 균열·결로·결빙 흔적; 방열문·도크씰 기밀 상태</li>
+</ul>
+<h3>⚪ FR01. 패널 심재 가연성 [main]</h3>
+<ul>
+<li><strong>판정 보류 사유:</strong> 입력 미확인 — 미확인 입력: 지붕 패널 심재 (main)</li>
+<li><strong>판정 입력:</strong> panel_combustibility=불연, roof_panel_combustibility=—</li>
+<li><strong>DD 확인 포인트:</strong> 미확인 입력 확보; 지붕 구성(PC 슬래브+우레탄 뿜칠)과 옥탑 지붕판넬 심재를 확인해 roof_panel_core를 G2에 확정(⚪ 해소); 외벽 글라스울 패널 납품서·시험성적서; 부분 교체·임차사 추가공사 구간의 심재 혼재 여부; 보험사 리스크 서베이 결과</li>
+</ul>
+<h3>⚪ FR06. 오버헤드도어 하부 살수장애 [main]</h3>
+<ul>
+<li><strong>판정 보류 사유:</strong> 입력 미확인 — 미확인 입력: 오버헤드도어 하부 스프링클러 살수장애(헤드 미설치) (main)</li>
+<li><strong>판정 입력:</strong> ohd_sprinkler_gap=—</li>
+<li><strong>DD 확인 포인트:</strong> 미확인 입력 확보; 소방 평면도에서 OHD·스피드도어 하부(문 안쪽) 헤드 유무와 도어 개방 시 간섭; 준공 후 소방 점검·임차인 Fire Audit 지적과 층별 보완 여부; 4F 냉동창고 출입문·유니트쿨러 주변 드라이펜던트 헤드 설치 여부</li>
+</ul>
+<h3>⚪ G03. 화물용 승강기·수직반송기 노후 [main]</h3>
+<ul>
+<li><strong>판정 보류 사유:</strong> 입력 미확인 — 미확인 입력: 화물용 승강기 대수 (main)</li>
+<li><strong>판정 입력:</strong> freight_elevator_count=—, vrc_count=—</li>
+<li><strong>DD 확인 포인트:</strong> 미확인 입력 확보; 화물용 승강기·수직반송기 유무와 대수 — 없으면 G2에서 0으로 확정해 ⚪ 해소; 수직반송기 소유(vrc_owner)와 원상복구 조건; 비상용 승강기의 화물 운반 전용 여부와 고장 이력; 승강기 정밀안전검사 결과</li>
+</ul>
+<h3>⚪ SP06. 트럭야드 협소 [main]</h3>
+<ul>
+<li><strong>판정 보류 사유:</strong> 입력 미확인 — 미확인 입력: 트럭야드 깊이</li>
+<li><strong>판정 입력:</strong> truck_yard_depth_m=—</li>
+<li><strong>DD 확인 포인트:</strong> 미확인 입력 확보; 층별 도크 전면 야드 깊이 실측; 40FT 트레일러 후진 접안·회차 가능 여부와 대기 공간; B1F YARD(지하층, 램프-2 연결)의 대형차 회전 궤적</li>
+</ul>
+<h3>⚪ V02. 핵심 스펙 미확인</h3>
+<ul>
+<li><strong>판정 보류 사유:</strong> 임계값 미정 — 미확인 입력: thresholds.yaml: V02 red/yellow</li>
+<li><strong>판정 입력:</strong> v02.unconfirmed_ratio=0.333</li>
+<li><strong>DD 확인 포인트:</strong> 미확인 입력 확보; thresholds.yaml V02 기준값 사용자 확인(리뷰 서버 /thresholds); 냉동설비 준공도서(임차인 설치분 포함), 소방 준공도서, 수전 계약서, 승강기 대장 요청; 자료로 확보 못 하는 항목은 현장 실사 범위에 포함</li>
+</ul>
+<h2>6. 리스크 상관관계</h2>
+<ul>
+<li>상관관계 맵에 정의된 관계 중 양쪽이 모두 활성인 쌍이 없다.</li>
+</ul>
+<h2>7. DD 체크리스트</h2>
+<p>판정 보류(⚪) 항목을 먼저, 미확인 사유별로 묶었다. 자료 요청은 <code>hwaseong_data_request.md</code> 참조.</p>
+<p><strong>A. 현장 실사·PCA·자료 요청 (missing_reason: 미기재 — 스캔 도면에 기재 없음, ⚪ 해소 대상)</strong>
+- [ ] 냉매 종류·냉동기 형식·용량과 냉동설비 소유(refrigeration_owner) → CL01 (CL04 재판정에도 필요). 장비일람표 M-003~M-005·냉동기계실 M-008에 냉동설비 없음 — 임차인 설치 도서 요청
+- [ ] 저온동 바닥 동상방지 설비 → CL02. 저온층이 4F라 해당 여부를 G2에서 확정하고, 실제 쟁점인 4F 바닥 방열·3F 천장 결로를 함께 확인
+- [ ] 지붕 패널 심재(roof_panel_core) → FR01. 지붕이 PC 슬래브+우레탄 뿜칠인지, 옥탑 지붕판넬(글라스울) 외 패널 구간이 있는지
+- [ ] 오버헤드도어·스피드도어 하부 헤드 유무(ohd_sprinkler_gap) → FR06. 소방 준공도서·점검 지적사항
+- [ ] 화물용 승강기·수직반송기 대수 → G03. 없으면 0으로 확정해 ⚪ 해소
+- [ ] 트럭야드 깊이(층별 도크 전면) → SP06. B1F YARD(램프-2 연결) 포함</p>
+<p><strong>B. 기준값 확인 (missing_reason: 임계값 미정)</strong>
+- [ ] CL03 red/yellow 기준값 — 리뷰 서버 <code>/thresholds</code>에서 사용자 확인
+- [ ] V02 red/yellow 기준값 — 사용자 확인(현재 v02.unconfirmed_ratio 0.333)</p>
+<p><strong>C. 자산 메타 입력 (missing_reason: 미입력)</strong>
+- [ ] 보유기간(asset_meta.holding_years) — G01·G02·G04~G07·G09·G10과 CL03의 매각 시점 판정 ⚪ 해소</p>
+<p><strong>D. G2에서 IM 값으로 확정한 필드의 증빙 (도면 스캔본·vision low 판독의 한계 보완)</strong>
+- [ ] 창고 내부 깊이 — B1 실측(IM '85~96m' 기준 확인). FR05 🔴의 유일한 입력
+- [ ] 층별 실측 유효고(보·배관 하단) — IM '유효고 8.2m 이상'은 하한 문구. SP02 🔴 입력
+- [ ] 3F·4F 층 면적, 저온·냉동 면적, 대지면적 — 건축물대장·준공 면적표로 IM 값과 도면 판독값 차이 해소
+- [ ] 구조형식, 4F 온도대(냉동·냉장 운영 범위), B1 바닥 설계하중(S.O.G), 사용승인일</p>
+<p><strong>E. 매도측 소명 요청 (IM 정확성)</strong>
+- [ ] 램프별(외부램프·램프-2·RAMP#3) 경사와 측정 기준 — IM '외부램프 9% 이하'·'건물램프 평균 10.2%'(claim:4)와 확정값 RAMP#3 10.0%의 대응
+- [ ] '40ft 컨테이너 및 대형화물차량 전층 접안 가능'(claim:3) 근거 — 도면상 B1·4F 화물주차는 소형화물차 구획
+- [ ] 화물주차 72대(claim:9)와 도면 화물주차 구획 64의 산정 기준, 실제 도크레벨러 수량
+- [ ] 4F 냉동·냉장 멀티 운영(claim:6) 증빙 — 냉동설비 사양·냉매</p>
+<p><strong>F. 판정 난 항목의 보완 확인</strong>
+- [ ] SP09 — B1(램프-2 하단)·4F(RAMP#3 상단) 하역장 진입·진출부 40FT·세미트레일러 회전 궤적 검토와 현장 주행 확인. 현 🟢는 동선 표시선 판독(vision·low)이며 실제 간섭 사례로 검증되지 않음
+- [ ] SP08·SP03 — 기준값과 같아 여유 없음(회전반경 12.0m, 기둥 스팬 11.0m). RAMP#3 곡선부 R 표기 기준과 1F 8m 스팬 구간 위치
+- [ ] FR04·CL04 — 우레탄 뿜칠 준불연 시험성적서, 4F 스프링클러 설치 범위, 전환 시 인허가·공사 범위</p>
+<h2>부록 A. 필드별 추출 근거</h2>
+<p>§1 표의 출처 열과 <code>w2_05_confirmed_spec.json</code> 참조. 도면 판독값은 [근거] 링크로 크롭 이미지를 연다.</p>
+<h2>부록 B. 미검증 연쇄 제안</h2>
+<ul>
+<li>['SP04', 'SP05']: 입출고 처리량 제약 — 맵에 없는 연쇄 — 미검증 제안. 램프에 의존하는 층(B1은 램프-2, 4F는 RAMP#3)의 화물주차 구획이 모두 소형화물차 구획이라(SP04 근거, A-101~A-104), 대형차 접안은 도로에서 바로 진입하는 1F·3F 중형 구획에 몰린다. 도크 밀도 미달에 램프 경사 제약이 겹쳐 실제 대형차 처리 능력은 도크 밀도 수치보다 낮고, 피크 시간 대기가 1F·3F에 집중될 수 있다(R10 SP04+SP06과 같은 방향의 수렴). 램프-2 경사·폭과 층별 실제 접안 차종 확인이 선행돼야 한다.</li>
+<li>['CL04', 'SP05']: 4F 저온층 재임대·전환 제약 — 맵에 없는 연쇄 — 미검증 제안. 4F 저온층은 RAMP#3로만 차량이 올라가는데 RAMP#3 경사가 기준을 넘는다(SP05). 저온 임차인이 이탈하면 대체 수요가 저온으로 좁혀지고(CL04), 상온으로 전환해도 소형화물차 구획인 4F YARD와 램프 경사 때문에 대형차 임차인을 유치하기 어렵다. 냉동설비 사양·소유가 미확인이라 전환 비용과 재임대 공백 기간을 함께 가늠할 수 없다.</li>
+<li>['FR04', 'CL04']: 4F 저온층 소방 보강·전환 CAPEX — 맵에 없는 연쇄 — 미검증 제안. 4F 방열재가 우레탄 뿜칠 준불연재(A-1143)라 화재 하중이 크고(FR04), 같은 층의 냉동설비·스프링클러 설치 범위가 확인되지 않았다(CL04). 저온으로 계속 쓰면 화재 리스크가, 상온으로 전환하면 뿜칠 철거와 스프링클러 신설 공사가 남아 어느 쪽이든 4F에 소방 관련 비용이 생긴다. 냉동설비 소유(임대인 CAPEX / 임차인 원상복구)는 미확인이라 DD 대상이다.</li>
+<li>['V01', 'SP05']: 가격 근거 하향 — 맵에 없는 연쇄 — 미검증 제안. 판정 민감 불일치 1건이 램프 경사이고, 확정값(RAMP#3 10.0%) 기준으로 SP05가 🔴이 됐다(V01 affected_rules). IM의 '완만한 경사로'·'대형화물 전층 접안'(claim:2·claim:3) 설명은 대표 수치 9%(외부램프)와 맞물려 있으므로, IM이 함께 적은 건물램프 평균 10.2%와 확정값의 관계를 확인한 뒤 이 접근성 설명에 기댄 임대료·가치 가정을 다시 봐야 한다(R14 V01+SP01과 같은 구조로 대상 룰만 다르다).</li>
+</ul>
+<h2>갱신 이력</h2>
+<table>
+<thead>
+<tr>
+<th>일시</th>
+<th>변경 사유</th>
+<th>재진입 지점</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>—</td>
+<td>초안</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div></main>
+
+</body>
+</html>

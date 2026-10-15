@@ -1,0 +1,1509 @@
+{
+  "asset_id": "hwaseong",
+  "created_at": "2026-10-15T09:49:27+09:00",
+  "rule_count": 32,
+  "single_grade": true,
+  "consistency": {
+    "v01_items": [
+      {
+        "slot": "building|main|-|ramp_slope_pct",
+        "label": "램프 경사 (main)",
+        "im_value": 9.0,
+        "im_raw": "외부램프경사도9%이하",
+        "im_page": {
+          "page": 21
+        },
+        "confirmed_value": 10.0,
+        "unit": "pct",
+        "direction": "overstated",
+        "sensitive": true,
+        "affected_rules": [
+          "SP05"
+        ]
+      }
+    ],
+    "v02_unconfirmed": [
+      "building|main|-|cold_ratio_pct",
+      "building|main|-|dock_leveler_count",
+      "building|main|-|freight_elevator_count",
+      "building|main|-|vrc_count",
+      "building|main|-|roof_panel_core",
+      "building|main|-|solar_installed",
+      "building|main|-|ohd_sprinkler_gap",
+      "building|main|-|refrigerant",
+      "building|main|-|cold_floor_heave_protection",
+      "building|main|-|power_capacity_kw"
+    ],
+    "v02_total": 30
+  },
+  "results": [
+    {
+      "rule_id": "G01",
+      "title": "배관 노후",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [
+          "yellow"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "aging_piping.red",
+            "value": 30,
+            "segment": "default",
+            "source": "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "building_age": 2
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "G02",
+      "title": "수변전설비 노후",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [
+          "yellow"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "aging_substation.red",
+            "value": 20,
+            "segment": "default",
+            "source": "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "building_age": 2
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "G03",
+      "title": "화물용 승강기·수직반송기 노후",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "building|main|-|freight_elevator_count"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "freight_elevator_count": null,
+          "vrc_count": null
+        },
+        "fact_deps": {
+          "freight_elevator_count": [
+            "building|main|-|freight_elevator_count"
+          ],
+          "vrc_count": [
+            "building|main|-|vrc_count"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "building|main|-|freight_elevator_count"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "freight_elevator_count": null,
+          "vrc_count": null
+        },
+        "fact_deps": {
+          "freight_elevator_count": [
+            "building|main|-|freight_elevator_count"
+          ],
+          "vrc_count": [
+            "building|main|-|vrc_count"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "G04",
+      "title": "비상발전기 신뢰성",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "aging_generator.red",
+            "value": 30,
+            "segment": "default",
+            "source": "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시 ; 공동주택관리법 시행규칙 [별표 1] 장기수선계획의 수립기준(국토교통부령 제1606호, 시행 2026.7.30) | https://www.law.go.kr/법령/공동주택관리법시행규칙",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "building_age": 2
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "G05",
+      "title": "스프링클러·제연 노후",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [
+          "yellow"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "aging_fire_system.red",
+            "value": 20,
+            "segment": "default",
+            "source": "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "building_age": 2
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "G06",
+      "title": "지붕 방수·배수 열화",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [
+          "yellow"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "aging_roof.red",
+            "value": 15,
+            "segment": "default",
+            "source": "공동주택관리법 시행규칙 [별표 1] 장기수선계획의 수립기준(국토교통부령 제1606호, 시행 2026.7.30) | https://www.law.go.kr/법령/공동주택관리법시행규칙 — 1.건물외부 가.지붕 1) 방수 전면수리 15년(수선율 100%)",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "building_age": 2
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "G07",
+      "title": "야드·램프 포장 열화",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "aging_pavement.red",
+            "value": 20,
+            "segment": "default",
+            "source": "한국도로공사, 「도로설계요령」(2020) 제5권 포장, 도로 안전·부대시설 및 환경 — 제10편 포장 3. 아스팔트 포장 3.4.2(공용기간·해석기간), p.93~94 | 미러 http://cyeng.iptime.org/xe/board_road04/10790 (원본 한국도로공사 발간본 재확인 필요)",
+            "verified": true
+          },
+          {
+            "key": "aging_pavement.yellow",
+            "value": 10,
+            "segment": "default",
+            "source": "한국도로공사, 「도로설계요령」(2020) 제5권 제10편 포장 3.4.2, p.93~94 (위와 동일) | 미러 http://cyeng.iptime.org/xe/board_road04/10790",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "building_age": 2
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "G08",
+      "title": "석면 함유 가능성",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "regulation_flags.asbestos_total_ban_2009": false
+        },
+        "fact_deps": {
+          "regulation_flags.asbestos_total_ban_2009": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "G09",
+      "title": "법규 적합성·용도변경",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "aging_compliance.yellow",
+            "value": 20,
+            "segment": "default",
+            "source": "v1 오피스 엔진(내부) X04",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "building_age": 2
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "G10",
+      "title": "CapEx 종합",
+      "category": "aging",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [
+          "red"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "aging_capex.yellow",
+            "value": 15,
+            "segment": "default",
+            "source": "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "building_age": 2
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "CL01",
+      "title": "냉동설비·냉매 리스크",
+      "category": "cold",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "building|main|-|refrigerant"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "cold_refrigeration_age.red",
+            "value": 15,
+            "segment": "default",
+            "source": "(주)범씨엠건축사사무소, 청라로지스틱스 물류센터 물리실사 보고서(2025.10) 부록3 '주요장비 잔존연수' p290~291 — 내구수명(일반기준). 근거: 한국전력 자산단위 물품표, 공동주택관리법 장기수선계획, 조달청 내용연수 고시",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "building_age": 2,
+          "has_cold": true,
+          "refrigerant": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ],
+          "has_cold": [
+            "building|main|-|cold_area_m2",
+            "building|main|-|gross_floor_area_m2"
+          ],
+          "refrigerant": [
+            "building|main|-|refrigerant"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "building|main|-|refrigerant"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null,
+          "has_cold": true,
+          "refrigerant": null
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ],
+          "has_cold": [
+            "building|main|-|cold_area_m2",
+            "building|main|-|gross_floor_area_m2"
+          ],
+          "refrigerant": [
+            "building|main|-|refrigerant"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "CL02",
+      "title": "바닥 동상",
+      "category": "cold",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "building|main|-|cold_floor_heave_protection"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "cold_floor_heave_protection": null,
+          "has_cold": true
+        },
+        "fact_deps": {
+          "cold_floor_heave_protection": [
+            "building|main|-|cold_floor_heave_protection"
+          ],
+          "has_cold": [
+            "building|main|-|cold_area_m2",
+            "building|main|-|gross_floor_area_m2"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "CL03",
+      "title": "단열 패널 열화·결로",
+      "category": "cold",
+      "building_id": "main",
+      "horizon": "both",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "임계값 미정",
+        "missing_inputs": [
+          "thresholds.yaml: CL03 red/yellow"
+        ],
+        "levels_skipped": [
+          "red",
+          "yellow"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": 2,
+          "has_cold": true
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ],
+          "has_cold": [
+            "building|main|-|cold_area_m2",
+            "building|main|-|gross_floor_area_m2"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "exit": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "building_age": null,
+          "has_cold": true
+        },
+        "fact_deps": {
+          "building_age": [
+            "building|main|-|completion_year"
+          ],
+          "has_cold": [
+            "building|main|-|cold_area_m2",
+            "building|main|-|gross_floor_area_m2"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": "hold"
+    },
+    {
+      "rule_id": "CL04",
+      "title": "온도대 전환 유연성",
+      "category": "cold",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "red",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "has_cold": true,
+          "refrigerant": null
+        },
+        "fact_deps": {
+          "has_cold": [
+            "building|main|-|cold_area_m2",
+            "building|main|-|gross_floor_area_m2"
+          ],
+          "refrigerant": [
+            "building|main|-|refrigerant"
+          ]
+        },
+        "vector_inputs": [],
+        "merged_from": "yellow"
+      },
+      "status": "triggered",
+      "severity_base": "red",
+      "severity_exit": null,
+      "merged_from": {
+        "severity_base": "yellow"
+      }
+    },
+    {
+      "rule_id": "V01",
+      "title": "IM–도면 스펙 불일치",
+      "category": "consistency",
+      "building_id": null,
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "red",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "v01.discrepancy_count": 1,
+          "v01.overstated_sensitive_count": 1
+        },
+        "fact_deps": {
+          "v01.discrepancy_count": [],
+          "v01.overstated_sensitive_count": []
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "red",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "V02",
+      "title": "핵심 스펙 미확인",
+      "category": "consistency",
+      "building_id": null,
+      "horizon": "now",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "임계값 미정",
+        "missing_inputs": [
+          "thresholds.yaml: V02 red/yellow"
+        ],
+        "levels_skipped": [
+          "red",
+          "yellow"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "v02.unconfirmed_ratio": 0.3333
+        },
+        "fact_deps": {
+          "v02.unconfirmed_ratio": []
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "B01",
+      "title": "동급 대비 스펙 열위",
+      "category": "benchmark",
+      "building_id": null,
+      "horizon": "now",
+      "now": {
+        "status": "not_triggered",
+        "severity": null,
+        "hold_reason": null,
+        "missing_inputs": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "benchmark_available": false
+        },
+        "fact_deps": {
+          "benchmark_available": []
+        },
+        "vector_inputs": []
+      },
+      "status": "not_triggered",
+      "severity_base": null,
+      "severity_exit": null
+    },
+    {
+      "rule_id": "FR01",
+      "title": "패널 심재 가연성",
+      "category": "fire",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "building|main|-|roof_panel_core"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "panel_combustibility": "불연",
+          "roof_panel_combustibility": null
+        },
+        "fact_deps": {
+          "panel_combustibility": [
+            "building|main|-|wall_panel_core"
+          ],
+          "roof_panel_combustibility": [
+            "building|main|-|roof_panel_core"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "FR02",
+      "title": "방화구획 대면적",
+      "category": "fire",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [
+          "red"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "fire_compartment_area.yellow",
+            "value": 3000,
+            "segment": "default",
+            "source": "건축물의 피난·방화구조 등의 기준에 관한 규칙 제14조제1항제1호 | 네플라 법령 본문 https://www.nepla.ai/law/건축물의 피난·방화구조 등의 기준에 관한 규칙 (원문 law.go.kr 재확인 필요)",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "fire_compartment_max_m2": 2878.62
+        },
+        "fact_deps": {
+          "fire_compartment_max_m2": [
+            "building|main|-|fire_compartment_max_m2"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "FR03",
+      "title": "스프링클러 형식 부적합",
+      "category": "fire",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "sprinkler_esfr_clear_height.red",
+            "value": 13.7,
+            "segment": "default",
+            "source": "창고시설의 화재안전성능기준(NFPC 609) 제7조제1항제4호, 소방청고시 제2023-39호(2023-10-06 제정, 2024-01-01 시행) | https://www.ulex.co.kr/%EB%B2%95%EB%A5%A0/2100000229924-86784-%EC%B0%BD%EA%B3%A0%EC%8B%9C%EC%84%A4%EC%9D%98 ; 국가법령정보센터 https://www.law.go.kr/LSW//admRulInfoP.do?admRulSeq=2100000229924&chrClsCd=010201",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "sprinkler_type": "표준형",
+          "warehouse_floors.clear_height_m.max": 8.2
+        },
+        "fact_deps": {
+          "sprinkler_type": [
+            "building|main|-|sprinkler_type"
+          ],
+          "warehouse_floors.clear_height_m.max": [
+            "floor|main|1F|clear_height_m",
+            "floor|main|1F|area_m2",
+            "floor|main|3F|clear_height_m",
+            "floor|main|3F|area_m2",
+            "floor|main|4F|clear_height_m",
+            "floor|main|4F|area_m2",
+            "floor|main|B1|clear_height_m",
+            "floor|main|B1|area_m2"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "FR05",
+      "title": "창고 내부 깊이 과대 (소방대 진입 거리)",
+      "category": "fire",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "red",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "warehouse_depth.red",
+            "value": 77,
+            "segment": "default",
+            "source": "사용자 결정(2026-10-13 채팅) — 인천 석남동 쿠팡 물류센터 화재 사례의 창고 내부 깊이 약 77m(그레이트 원창 IM v3.0 2026.09, 인쇄 p34 비교표)",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "warehouse_depth_m": 96.0
+        },
+        "fact_deps": {
+          "warehouse_depth_m": [
+            "building|main|-|warehouse_depth_m"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "red",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "FR06",
+      "title": "오버헤드도어 하부 살수장애",
+      "category": "fire",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "building|main|-|ohd_sprinkler_gap"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "ohd_sprinkler_gap": null
+        },
+        "fact_deps": {
+          "ohd_sprinkler_gap": [
+            "building|main|-|ohd_sprinkler_gap"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "FR04",
+      "title": "저온동 단열재 화재",
+      "category": "fire",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "red",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "cold_insulation_combustibility": "난연",
+          "cold_ratio": 0.1772,
+          "has_cold": true
+        },
+        "fact_deps": {
+          "cold_insulation_combustibility": [
+            "building|main|-|cold_insulation_material"
+          ],
+          "cold_ratio": [
+            "building|main|-|cold_area_m2",
+            "building|main|-|gross_floor_area_m2"
+          ],
+          "has_cold": [
+            "building|main|-|cold_area_m2",
+            "building|main|-|gross_floor_area_m2"
+          ]
+        },
+        "vector_inputs": [],
+        "merged_from": "yellow"
+      },
+      "status": "triggered",
+      "severity_base": "red",
+      "severity_exit": null,
+      "merged_from": {
+        "severity_base": "yellow"
+      }
+    },
+    {
+      "rule_id": "SP01",
+      "title": "바닥하중 미달",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [
+          "yellow"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "floor_load.red",
+            "value": 1.5,
+            "segment": "default",
+            "source": "physical_risk_engine.md S02 (내부 v1 엔진 문서: '바닥하중 1.5t/㎡ 이상') — 2026-10-13 사용자 확정(채팅)",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "warehouse_floors.floor_load_tpm2.min": 2.0
+        },
+        "fact_deps": {
+          "warehouse_floors.floor_load_tpm2.min": [
+            "floor|main|1F|floor_load_tpm2",
+            "floor|main|1F|area_m2",
+            "floor|main|3F|floor_load_tpm2",
+            "floor|main|3F|area_m2",
+            "floor|main|4F|floor_load_tpm2",
+            "floor|main|4F|area_m2",
+            "floor|main|B1|floor_load_tpm2",
+            "floor|main|B1|area_m2"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP02",
+      "title": "유효층고 미달",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "red",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [
+          "red"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "clear_height.yellow",
+            "value": 8.5,
+            "segment": "default",
+            "source": "정휘철, '물류센터 층고 설정 관련 자료', LinkedIn, 2022-04-04 — 층고 10m 내역(적재 8m + 4단 인상 0.5m + 소방배관 1.5m)에서 배관 하단까지 = 8.5m | https://kr.linkedin.com/pulse/%EB%AC%BC%EB%A5%98%EC%84%BC%ED%84%B0-%EC%B8%B5%EA%B3%A0-%EC%84%A4%EC%A0%95-%EA%B4%80%EB%A0%A8-%EC%9E%90%EB%A3%8C-%ED%9C%98%EC%B2%A0-%EC%A0%95",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "warehouse_floors.clear_height_m.min": 8.2
+        },
+        "fact_deps": {
+          "warehouse_floors.clear_height_m.min": [
+            "floor|main|1F|clear_height_m",
+            "floor|main|1F|area_m2",
+            "floor|main|3F|clear_height_m",
+            "floor|main|3F|area_m2",
+            "floor|main|4F|clear_height_m",
+            "floor|main|4F|area_m2",
+            "floor|main|B1|clear_height_m",
+            "floor|main|B1|area_m2"
+          ]
+        },
+        "vector_inputs": [],
+        "merged_from": "yellow"
+      },
+      "status": "triggered",
+      "severity_base": "red",
+      "severity_exit": null,
+      "merged_from": {
+        "severity_base": "yellow"
+      }
+    },
+    {
+      "rule_id": "SP03",
+      "title": "기둥 스팬·랙 효율",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "column_span.yellow",
+            "value": 11.0,
+            "segment": "default",
+            "source": "물류신문, 이승환, '기둥 간격의 혁신, 물류센터의 경쟁력 높일 수 있어', 2020-07-15 | https://www.klnews.co.kr/news/articleView.html?idxno=121614",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "column_span_x_m": 11.0,
+          "column_span_y_m": 11.0
+        },
+        "fact_deps": {
+          "column_span_x_m": [
+            "building|main|-|column_span_x_m"
+          ],
+          "column_span_y_m": [
+            "building|main|-|column_span_y_m"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP04",
+      "title": "도크 부족",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "red",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "dock_density.red",
+            "value": 50,
+            "segment": "default",
+            "source": "사용자",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "dock_density": 46.3
+        },
+        "fact_deps": {
+          "dock_density": [
+            "building|main|-|gross_floor_area_m2",
+            "building|main|-|dock_count"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "red",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP05",
+      "title": "램프·차량 접근 제약",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "red",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "ramp_slope.red",
+            "value": 9,
+            "segment": "default",
+            "source": "골든",
+            "verified": true
+          },
+          {
+            "key": "ramp_width.red",
+            "value": 7.5,
+            "segment": "ramp_type=양방향",
+            "source": "도로의 구조·시설 기준에 관한 규칙 제34조제3항 연결로 C기준 — 차로 3.25×2 + 양방향 다차로 길어깨 오른쪽 0.50×2",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "floors_above": 4,
+          "ramp_slope_pct": 10.0,
+          "ramp_type": "양방향",
+          "ramp_width_m": 9.4
+        },
+        "fact_deps": {
+          "floors_above": [
+            "building|main|-|floors_above"
+          ],
+          "ramp_slope_pct": [
+            "building|main|-|ramp_slope_pct"
+          ],
+          "ramp_type": [
+            "building|main|-|ramp_type"
+          ],
+          "ramp_width_m": [
+            "building|main|-|ramp_width_m"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "red",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP06",
+      "title": "트럭야드 협소",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset|-|-|truck_yard_depth_m"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "truck_yard_depth_m": null
+        },
+        "fact_deps": {
+          "truck_yard_depth_m": [
+            "asset|-|-|truck_yard_depth_m"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP08",
+      "title": "대형차 회전반경 부족",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [
+          "yellow"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [
+          {
+            "key": "turning_radius.red",
+            "value": 12.0,
+            "segment": "default",
+            "source": "도로의 구조·시설 기준에 관한 규칙 제5조제2항 표(설계기준자동차 제원) — 세미트레일러·대형자동차 최소회전반지름 12.0m (국토교통부령 제1588호, 시행 2026-06-03) | 국가법령정보센터 https://www.law.go.kr/법령/도로의구조·시설기준에관한규칙",
+            "verified": true
+          }
+        ],
+        "facts": {
+          "turning_radius_m": 12.0
+        },
+        "fact_deps": {
+          "turning_radius_m": [
+            "building|main|-|turning_radius_m"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP09",
+      "title": "하역 동선 기둥 간섭",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "floors_with_dock_column_conflict": []
+        },
+        "fact_deps": {
+          "floors_with_dock_column_conflict": [
+            "floor|main|1F|dock_route_column_conflict",
+            "floor|main|3F|dock_route_column_conflict",
+            "floor|main|4F|dock_route_column_conflict",
+            "floor|main|B1|dock_route_column_conflict"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP07",
+      "title": "수직반송 의존",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "handling_type": "다층 램프형"
+        },
+        "fact_deps": {
+          "handling_type": [
+            "building|main|-|floors_above",
+            "building|main|-|ramp_type"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": null
+    }
+  ]
+}

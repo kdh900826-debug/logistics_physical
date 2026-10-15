@@ -1,0 +1,728 @@
+{
+  "asset_id": "hwaseong",
+  "created_at": "2026-10-15T09:49:20+09:00",
+  "analysis_date": null,
+  "holding_years": null,
+  "vector_slots": [],
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "물류창고",
+      "segment": {
+        "temp_zone": "복합",
+        "handling_type": "다층 램프형",
+        "ramp_type": "양방향",
+        "ramp_form": "곡선형"
+      },
+      "vars": {
+        "site_area_m2": 29961.0,
+        "truck_yard_depth_m": null,
+        "flood_trace": null,
+        "flood_depth_m": null,
+        "soft_ground": null,
+        "completion_year": 2024,
+        "gross_floor_area_m2": 45723.76,
+        "floors_above": 4,
+        "floors_below": 1,
+        "structure_type": "복합",
+        "cold_area_m2": 8101.98,
+        "cold_ratio_pct": null,
+        "column_span_x_m": 11.0,
+        "column_span_y_m": 11.0,
+        "dock_count": 64,
+        "dock_leveler_count": null,
+        "ramp_type": "양방향",
+        "ramp_form": "곡선형",
+        "terrain_multi_level_access": true,
+        "ramp_slope_pct": 10.0,
+        "ramp_width_m": 9.4,
+        "turning_radius_m": 12.0,
+        "freight_elevator_count": null,
+        "freight_elevator_capacity_t": null,
+        "vrc_count": null,
+        "wall_panel_core": "글라스울",
+        "roof_panel_core": null,
+        "roof_area_m2": null,
+        "solar_installed": null,
+        "warehouse_depth_m": 96.0,
+        "fire_compartment_max_m2": 2878.62,
+        "ohd_sprinkler_gap": null,
+        "sprinkler_type": "표준형",
+        "refrigerant": null,
+        "refrigeration_system": null,
+        "cold_floor_heave_protection": null,
+        "cold_insulation_material": "우레탄",
+        "cold_insulation_thickness_mm": 200.0,
+        "power_capacity_kw": null,
+        "transformer_capacity_kva": null,
+        "renovation_history": null,
+        "refrigeration_owner": null,
+        "dock_equipment_owner": null,
+        "rack_owner": null,
+        "vrc_owner": null,
+        "building_age": 2,
+        "exit_age": null,
+        "age_band": "<8",
+        "cold_ratio": 0.1772,
+        "temp_zone": "복합",
+        "has_cold": true,
+        "dock_density": 46.3,
+        "handling_type": "다층 램프형",
+        "panel_combustibility": "불연",
+        "roof_panel_combustibility": null,
+        "cold_insulation_combustibility": "난연",
+        "warehouse_floors": [
+          "1F",
+          "3F",
+          "4F",
+          "B1"
+        ],
+        "warehouse_floors.floor_load_tpm2": [
+          {
+            "floor": "1F",
+            "value": 2.0394,
+            "area": 11505.21
+          },
+          {
+            "floor": "3F",
+            "value": 2.0394,
+            "area": 10913.05
+          },
+          {
+            "floor": "4F",
+            "value": 2.5493,
+            "area": 8101.98
+          },
+          {
+            "floor": "B1",
+            "value": 2.0,
+            "area": 13538.62
+          }
+        ],
+        "warehouse_floors.floor_load_tpm2.missing_count": 0,
+        "warehouse_floors.floor_load_tpm2.min": 2.0,
+        "warehouse_floors.floor_load_tpm2.max": 2.5493,
+        "warehouse_floors.clear_height_m": [
+          {
+            "floor": "1F",
+            "value": 8.2,
+            "area": 11505.21
+          },
+          {
+            "floor": "3F",
+            "value": 8.2,
+            "area": 10913.05
+          },
+          {
+            "floor": "4F",
+            "value": 8.2,
+            "area": 8101.98
+          },
+          {
+            "floor": "B1",
+            "value": 8.2,
+            "area": 13538.62
+          }
+        ],
+        "warehouse_floors.clear_height_m.missing_count": 0,
+        "warehouse_floors.clear_height_m.min": 8.2,
+        "warehouse_floors.clear_height_m.max": 8.2,
+        "warehouse_floors.direct_truck_access": [
+          {
+            "floor": "1F",
+            "value": true,
+            "area": 11505.21
+          },
+          {
+            "floor": "3F",
+            "value": true,
+            "area": 10913.05
+          },
+          {
+            "floor": "4F",
+            "value": true,
+            "area": 8101.98
+          },
+          {
+            "floor": "B1",
+            "value": true,
+            "area": 13538.62
+          }
+        ],
+        "warehouse_floors.direct_truck_access.missing_count": 0,
+        "warehouse_floors.direct_truck_access.min": null,
+        "warehouse_floors.direct_truck_access.max": null,
+        "floors_without_direct_access": [],
+        "floors_with_dock_column_conflict": [],
+        "regulation_flags.ext_wall_finish_2019": false,
+        "regulation_flags.composite_panel_core_nonflammable_2022": false,
+        "regulation_flags.composite_panel_mockup_test_2022": false,
+        "regulation_flags.ext_wall_finish_2027_pending": true,
+        "regulation_flags.fire_compartment_area_basis": null,
+        "regulation_flags.fire_compartment_rule_2019": false,
+        "regulation_flags.warehouse_compartment_relief_restricted_2022": false,
+        "regulation_flags.fire_shutter_rule_2026": true,
+        "regulation_flags.large_warehouse_performance_design_2022": false,
+        "regulation_flags.warehouse_nfpc609_2024": null,
+        "regulation_flags.ammonia_refrigeration_permit_threshold": null,
+        "regulation_flags.asbestos_products_ban_2008": false,
+        "regulation_flags.asbestos_total_ban_2009": false,
+        "confirmed_renovation_items": [],
+        "claimed_renovation_items": []
+      },
+      "grades": {
+        "site_area_m2": "verified",
+        "truck_yard_depth_m": null,
+        "flood_trace": null,
+        "flood_depth_m": null,
+        "soft_ground": null,
+        "completion_year": "verified",
+        "gross_floor_area_m2": "verified",
+        "floors_above": "verified",
+        "floors_below": "verified",
+        "structure_type": "verified",
+        "cold_area_m2": "verified",
+        "cold_ratio_pct": null,
+        "column_span_x_m": "verified",
+        "column_span_y_m": "verified",
+        "dock_count": "verified",
+        "dock_leveler_count": null,
+        "ramp_type": "verified",
+        "ramp_form": "verified",
+        "terrain_multi_level_access": "verified",
+        "ramp_slope_pct": "verified",
+        "ramp_width_m": "verified",
+        "turning_radius_m": "verified",
+        "freight_elevator_count": null,
+        "freight_elevator_capacity_t": null,
+        "vrc_count": null,
+        "wall_panel_core": "verified",
+        "roof_panel_core": null,
+        "roof_area_m2": null,
+        "solar_installed": null,
+        "warehouse_depth_m": "verified",
+        "fire_compartment_max_m2": "verified",
+        "ohd_sprinkler_gap": null,
+        "sprinkler_type": "verified",
+        "refrigerant": null,
+        "refrigeration_system": null,
+        "cold_floor_heave_protection": null,
+        "cold_insulation_material": "verified",
+        "cold_insulation_thickness_mm": "verified",
+        "power_capacity_kw": null,
+        "transformer_capacity_kva": null,
+        "renovation_history": null,
+        "refrigeration_owner": null,
+        "dock_equipment_owner": null,
+        "rack_owner": null,
+        "vrc_owner": null,
+        "building_age": "verified",
+        "exit_age": null,
+        "age_band": "verified",
+        "cold_ratio": "verified",
+        "temp_zone": "verified",
+        "has_cold": "verified",
+        "dock_density": "verified",
+        "handling_type": "verified",
+        "panel_combustibility": "verified",
+        "roof_panel_combustibility": null,
+        "cold_insulation_combustibility": "verified",
+        "warehouse_floors": "verified",
+        "warehouse_floors.floor_load_tpm2": "verified",
+        "warehouse_floors.floor_load_tpm2.missing_count": "verified",
+        "warehouse_floors.floor_load_tpm2.min": "verified",
+        "warehouse_floors.floor_load_tpm2.max": "verified",
+        "warehouse_floors.clear_height_m": "verified",
+        "warehouse_floors.clear_height_m.missing_count": "verified",
+        "warehouse_floors.clear_height_m.min": "verified",
+        "warehouse_floors.clear_height_m.max": "verified",
+        "warehouse_floors.direct_truck_access": "verified",
+        "warehouse_floors.direct_truck_access.missing_count": "verified",
+        "warehouse_floors.direct_truck_access.min": null,
+        "warehouse_floors.direct_truck_access.max": null,
+        "floors_without_direct_access": "verified",
+        "floors_with_dock_column_conflict": "verified",
+        "regulation_flags.ext_wall_finish_2019": "verified",
+        "regulation_flags.composite_panel_core_nonflammable_2022": "verified",
+        "regulation_flags.composite_panel_mockup_test_2022": "verified",
+        "regulation_flags.ext_wall_finish_2027_pending": "verified",
+        "regulation_flags.fire_compartment_area_basis": null,
+        "regulation_flags.fire_compartment_rule_2019": "verified",
+        "regulation_flags.warehouse_compartment_relief_restricted_2022": "verified",
+        "regulation_flags.fire_shutter_rule_2026": "verified",
+        "regulation_flags.large_warehouse_performance_design_2022": "verified",
+        "regulation_flags.warehouse_nfpc609_2024": null,
+        "regulation_flags.ammonia_refrigeration_permit_threshold": null,
+        "regulation_flags.asbestos_products_ban_2008": "verified",
+        "regulation_flags.asbestos_total_ban_2009": "verified",
+        "confirmed_renovation_items": "verified",
+        "claimed_renovation_items": "claimed"
+      },
+      "deps": {
+        "site_area_m2": [
+          "asset|-|-|site_area_m2"
+        ],
+        "truck_yard_depth_m": [
+          "asset|-|-|truck_yard_depth_m"
+        ],
+        "flood_trace": [
+          "asset|-|-|flood_trace"
+        ],
+        "flood_depth_m": [
+          "asset|-|-|flood_depth_m"
+        ],
+        "soft_ground": [
+          "asset|-|-|soft_ground"
+        ],
+        "completion_year": [
+          "building|main|-|completion_year"
+        ],
+        "gross_floor_area_m2": [
+          "building|main|-|gross_floor_area_m2"
+        ],
+        "floors_above": [
+          "building|main|-|floors_above"
+        ],
+        "floors_below": [
+          "building|main|-|floors_below"
+        ],
+        "structure_type": [
+          "building|main|-|structure_type"
+        ],
+        "cold_area_m2": [
+          "building|main|-|cold_area_m2"
+        ],
+        "cold_ratio_pct": [
+          "building|main|-|cold_ratio_pct"
+        ],
+        "column_span_x_m": [
+          "building|main|-|column_span_x_m"
+        ],
+        "column_span_y_m": [
+          "building|main|-|column_span_y_m"
+        ],
+        "dock_count": [
+          "building|main|-|dock_count"
+        ],
+        "dock_leveler_count": [
+          "building|main|-|dock_leveler_count"
+        ],
+        "ramp_type": [
+          "building|main|-|ramp_type"
+        ],
+        "ramp_form": [
+          "building|main|-|ramp_form"
+        ],
+        "terrain_multi_level_access": [
+          "building|main|-|terrain_multi_level_access"
+        ],
+        "ramp_slope_pct": [
+          "building|main|-|ramp_slope_pct"
+        ],
+        "ramp_width_m": [
+          "building|main|-|ramp_width_m"
+        ],
+        "turning_radius_m": [
+          "building|main|-|turning_radius_m"
+        ],
+        "freight_elevator_count": [
+          "building|main|-|freight_elevator_count"
+        ],
+        "freight_elevator_capacity_t": [
+          "building|main|-|freight_elevator_capacity_t"
+        ],
+        "vrc_count": [
+          "building|main|-|vrc_count"
+        ],
+        "wall_panel_core": [
+          "building|main|-|wall_panel_core"
+        ],
+        "roof_panel_core": [
+          "building|main|-|roof_panel_core"
+        ],
+        "roof_area_m2": [
+          "building|main|-|roof_area_m2"
+        ],
+        "solar_installed": [
+          "building|main|-|solar_installed"
+        ],
+        "warehouse_depth_m": [
+          "building|main|-|warehouse_depth_m"
+        ],
+        "fire_compartment_max_m2": [
+          "building|main|-|fire_compartment_max_m2"
+        ],
+        "ohd_sprinkler_gap": [
+          "building|main|-|ohd_sprinkler_gap"
+        ],
+        "sprinkler_type": [
+          "building|main|-|sprinkler_type"
+        ],
+        "refrigerant": [
+          "building|main|-|refrigerant"
+        ],
+        "refrigeration_system": [
+          "building|main|-|refrigeration_system"
+        ],
+        "cold_floor_heave_protection": [
+          "building|main|-|cold_floor_heave_protection"
+        ],
+        "cold_insulation_material": [
+          "building|main|-|cold_insulation_material"
+        ],
+        "cold_insulation_thickness_mm": [
+          "building|main|-|cold_insulation_thickness_mm"
+        ],
+        "power_capacity_kw": [
+          "building|main|-|power_capacity_kw"
+        ],
+        "transformer_capacity_kva": [
+          "building|main|-|transformer_capacity_kva"
+        ],
+        "renovation_history": [
+          "building|main|-|renovation_history"
+        ],
+        "refrigeration_owner": [
+          "building|main|-|refrigeration_owner"
+        ],
+        "dock_equipment_owner": [
+          "building|main|-|dock_equipment_owner"
+        ],
+        "rack_owner": [
+          "building|main|-|rack_owner"
+        ],
+        "vrc_owner": [
+          "building|main|-|vrc_owner"
+        ],
+        "building_age": [
+          "building|main|-|completion_year"
+        ],
+        "exit_age": [
+          "asset_meta.holding_years"
+        ],
+        "age_band": [
+          "building|main|-|completion_year"
+        ],
+        "cold_ratio": [
+          "building|main|-|cold_area_m2",
+          "building|main|-|gross_floor_area_m2"
+        ],
+        "temp_zone": [
+          "building|main|-|cold_area_m2",
+          "building|main|-|gross_floor_area_m2"
+        ],
+        "has_cold": [
+          "building|main|-|cold_area_m2",
+          "building|main|-|gross_floor_area_m2"
+        ],
+        "dock_density": [
+          "building|main|-|gross_floor_area_m2",
+          "building|main|-|dock_count"
+        ],
+        "handling_type": [
+          "building|main|-|floors_above",
+          "building|main|-|ramp_type"
+        ],
+        "panel_combustibility": [
+          "building|main|-|wall_panel_core"
+        ],
+        "roof_panel_combustibility": [
+          "building|main|-|roof_panel_core"
+        ],
+        "cold_insulation_combustibility": [
+          "building|main|-|cold_insulation_material"
+        ],
+        "warehouse_floors": [
+          "floor|main|1F|use",
+          "floor|main|2F|use",
+          "floor|main|3F|use",
+          "floor|main|4F|use",
+          "floor|main|B1|use"
+        ],
+        "warehouse_floors.floor_load_tpm2": [
+          "floor|main|1F|floor_load_tpm2",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|floor_load_tpm2",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|floor_load_tpm2",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|floor_load_tpm2",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.floor_load_tpm2.missing_count": [
+          "floor|main|1F|floor_load_tpm2",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|floor_load_tpm2",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|floor_load_tpm2",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|floor_load_tpm2",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.floor_load_tpm2.min": [
+          "floor|main|1F|floor_load_tpm2",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|floor_load_tpm2",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|floor_load_tpm2",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|floor_load_tpm2",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.floor_load_tpm2.max": [
+          "floor|main|1F|floor_load_tpm2",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|floor_load_tpm2",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|floor_load_tpm2",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|floor_load_tpm2",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.clear_height_m": [
+          "floor|main|1F|clear_height_m",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|clear_height_m",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|clear_height_m",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|clear_height_m",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.clear_height_m.missing_count": [
+          "floor|main|1F|clear_height_m",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|clear_height_m",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|clear_height_m",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|clear_height_m",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.clear_height_m.min": [
+          "floor|main|1F|clear_height_m",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|clear_height_m",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|clear_height_m",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|clear_height_m",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.clear_height_m.max": [
+          "floor|main|1F|clear_height_m",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|clear_height_m",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|clear_height_m",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|clear_height_m",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.direct_truck_access": [
+          "floor|main|1F|direct_truck_access",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|direct_truck_access",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|direct_truck_access",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|direct_truck_access",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.direct_truck_access.missing_count": [
+          "floor|main|1F|direct_truck_access",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|direct_truck_access",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|direct_truck_access",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|direct_truck_access",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.direct_truck_access.min": [
+          "floor|main|1F|direct_truck_access",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|direct_truck_access",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|direct_truck_access",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|direct_truck_access",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.direct_truck_access.max": [
+          "floor|main|1F|direct_truck_access",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|direct_truck_access",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|direct_truck_access",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|direct_truck_access",
+          "floor|main|B1|area_m2"
+        ],
+        "floors_without_direct_access": [
+          "floor|main|1F|direct_truck_access",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|direct_truck_access",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|direct_truck_access",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|direct_truck_access",
+          "floor|main|B1|area_m2"
+        ],
+        "floors_with_dock_column_conflict": [
+          "floor|main|1F|dock_route_column_conflict",
+          "floor|main|3F|dock_route_column_conflict",
+          "floor|main|4F|dock_route_column_conflict",
+          "floor|main|B1|dock_route_column_conflict"
+        ],
+        "regulation_flags.ext_wall_finish_2019": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.composite_panel_core_nonflammable_2022": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.composite_panel_mockup_test_2022": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.ext_wall_finish_2027_pending": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.fire_compartment_area_basis": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.fire_compartment_rule_2019": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.warehouse_compartment_relief_restricted_2022": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.fire_shutter_rule_2026": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.large_warehouse_performance_design_2022": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.warehouse_nfpc609_2024": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.ammonia_refrigeration_permit_threshold": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.asbestos_products_ban_2008": [
+          "building|main|-|completion_year"
+        ],
+        "regulation_flags.asbestos_total_ban_2009": [
+          "building|main|-|completion_year"
+        ],
+        "confirmed_renovation_items": [],
+        "claimed_renovation_items": []
+      },
+      "missing": {
+        "truck_yard_depth_m": [
+          "asset|-|-|truck_yard_depth_m"
+        ],
+        "flood_trace": [
+          "asset|-|-|flood_trace"
+        ],
+        "flood_depth_m": [
+          "asset|-|-|flood_depth_m"
+        ],
+        "soft_ground": [
+          "asset|-|-|soft_ground"
+        ],
+        "cold_ratio_pct": [
+          "building|main|-|cold_ratio_pct"
+        ],
+        "dock_leveler_count": [
+          "building|main|-|dock_leveler_count"
+        ],
+        "freight_elevator_count": [
+          "building|main|-|freight_elevator_count"
+        ],
+        "freight_elevator_capacity_t": [
+          "building|main|-|freight_elevator_capacity_t"
+        ],
+        "vrc_count": [
+          "building|main|-|vrc_count"
+        ],
+        "roof_panel_core": [
+          "building|main|-|roof_panel_core"
+        ],
+        "roof_area_m2": [
+          "building|main|-|roof_area_m2"
+        ],
+        "solar_installed": [
+          "building|main|-|solar_installed"
+        ],
+        "ohd_sprinkler_gap": [
+          "building|main|-|ohd_sprinkler_gap"
+        ],
+        "refrigerant": [
+          "building|main|-|refrigerant"
+        ],
+        "refrigeration_system": [
+          "building|main|-|refrigeration_system"
+        ],
+        "cold_floor_heave_protection": [
+          "building|main|-|cold_floor_heave_protection"
+        ],
+        "power_capacity_kw": [
+          "building|main|-|power_capacity_kw"
+        ],
+        "transformer_capacity_kva": [
+          "building|main|-|transformer_capacity_kva"
+        ],
+        "renovation_history": [
+          "building|main|-|renovation_history"
+        ],
+        "refrigeration_owner": [
+          "building|main|-|refrigeration_owner"
+        ],
+        "dock_equipment_owner": [
+          "building|main|-|dock_equipment_owner"
+        ],
+        "rack_owner": [
+          "building|main|-|rack_owner"
+        ],
+        "vrc_owner": [
+          "building|main|-|vrc_owner"
+        ],
+        "exit_age": [
+          "asset_meta.holding_years(미입력)"
+        ],
+        "roof_panel_combustibility": [
+          "building|main|-|roof_panel_core"
+        ],
+        "warehouse_floors.direct_truck_access.min": [
+          "floor|main|1F|direct_truck_access",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|direct_truck_access",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|direct_truck_access",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|direct_truck_access",
+          "floor|main|B1|area_m2"
+        ],
+        "warehouse_floors.direct_truck_access.max": [
+          "floor|main|1F|direct_truck_access",
+          "floor|main|1F|area_m2",
+          "floor|main|3F|direct_truck_access",
+          "floor|main|3F|area_m2",
+          "floor|main|4F|direct_truck_access",
+          "floor|main|4F|area_m2",
+          "floor|main|B1|direct_truck_access",
+          "floor|main|B1|area_m2"
+        ],
+        "regulation_flags.fire_compartment_area_basis": [
+          "regulation:fire_compartment_area_basis(미검증)"
+        ],
+        "regulation_flags.warehouse_nfpc609_2024": [
+          "building|main|-|completion_year(준공월 필요)"
+        ],
+        "regulation_flags.ammonia_refrigeration_permit_threshold": [
+          "regulation:ammonia_refrigeration_permit_threshold(미검증)"
+        ]
+      }
+    }
+  ]
+}

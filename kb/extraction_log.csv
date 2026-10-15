@@ -6,3 +6,15 @@
 2026-10-14T16:35:47+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
 2026-10-14T16:36:15+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
 2026-10-14T16:51:52+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
+2026-10-15T09:49:20+09:00,hwaseong,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,71.0,96.0,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,building|main|-|cold_area_m2,cold_area_m2,면적표,vision,low,7821.34,8101.98,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,building|main|-|cold_area_m2,cold_area_m2,면적표,vision_hinted,low,7821.34,8101.98,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,building|main|-|structure_type,structure_type,구조일반사항,vision,low,RC,복합,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,floor|main|3F|area_m2,area_m2,면적표,vision,low,11193.66,10913.05,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,floor|main|3F|area_m2,area_m2,면적표,vision_hinted,low,11193.66,10913.05,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,floor|main|4F|area_m2,area_m2,면적표,vision,low,7821.34,8101.98,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,floor|main|4F|area_m2,area_m2,면적표,vision_hinted,low,7821.34,8101.98,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,floor|main|4F|temp,temp,면적표,vision,low,냉동,저온,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,asset|-|-|site_area_m2,site_area_m2,면적표,vision,low,29419.0,29961.0,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,asset|-|-|site_area_m2,site_area_m2,면적표,vision_hinted,low,29419.0,29961.0,확정,cand,
+2026-10-15T09:49:20+09:00,hwaseong,building|main|-|cold_insulation_thickness_mm,cold_insulation_thickness_mm,단열계획도,vision,low,150.0,200.0,확정,cand,

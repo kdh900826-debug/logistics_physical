@@ -1,0 +1,45 @@
+{
+  "asset_id": "hwaseong",
+  "sort_keys": [
+    "severity",
+    "v01_related",
+    "correlation_links",
+    "category_priority",
+    "rule_id"
+  ],
+  "top3": [
+    {
+      "rank": 1,
+      "rule_id": "SP05",
+      "building_id": "main",
+      "title": "램프·차량 접근 제약",
+      "severity": "red",
+      "v01_related": true,
+      "links": 0,
+      "category": "spec",
+      "vector_inputs": []
+    },
+    {
+      "rank": 2,
+      "rule_id": "FR04",
+      "building_id": "main",
+      "title": "저온동 단열재 화재",
+      "severity": "red",
+      "v01_related": false,
+      "links": 0,
+      "category": "fire",
+      "vector_inputs": []
+    },
+    {
+      "rank": 3,
+      "rule_id": "FR05",
+      "building_id": "main",
+      "title": "창고 내부 깊이 과대 (소방대 진입 거리)",
+      "severity": "red",
+      "v01_related": false,
+      "links": 0,
+      "category": "fire",
+      "vector_inputs": []
+    }
+  ]
+}

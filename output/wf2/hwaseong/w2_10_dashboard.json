@@ -1,0 +1,42 @@
+{
+  "asset_id": "hwaseong",
+  "asset_name": "화성풀필먼트신흥 복합물류센터",
+  "created_at": "2026-10-15T09:59:29+09:00",
+  "mode": "정규",
+  "rule_count": 32,
+  "evaluated": 32,
+  "severity": {
+    "red": 7,
+    "yellow": 0,
+    "green": 16,
+    "hold": 8
+  },
+  "severity_verified": {
+    "red": 7,
+    "yellow": 0,
+    "green": 16,
+    "hold": 8
+  },
+  "severity_claimed": {
+    "red": 0,
+    "yellow": 0,
+    "green": 0,
+    "hold": 0
+  },
+  "not_triggered": 1,
+  "exit_escalations": [],
+  "spec_status": {
+    "확정(교차)": 27,
+    "확정": 30
+  },
+  "reconcile_mismatch": {
+    "total": 6,
+    "overstated": 3,
+    "conservative": 2,
+    "neutral": 1
+  },
+  "v01_overstated": 1,
+  "rejected_adjustments": 0,
+  "holding_years": null,
+  "vector_rules": []
+}
