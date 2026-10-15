@@ -1,0 +1,1163 @@
+{
+  "asset_id": "hwaseong",
+  "record_type": "im_claims",
+  "created_at": "2026-10-15T12:00:00+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 29961.0,
+        "unit": "m2",
+        "raw_text": "대지면적 29,961㎡(9,063평)",
+        "precision": "exact",
+        "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+        "source_locator": {
+          "page": 14
+        },
+        "method": "im_text",
+        "confidence": "medium",
+        "source_grade": "IM주장",
+        "status": "주장값",
+        "conflict": false,
+        "note": null,
+        "raw_value": 29961,
+        "raw_unit": "m2",
+        "flags": []
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "물류창고",
+      "phase": "원준공",
+      "fields": {
+        "completion_year": [
+          {
+            "value": 2024,
+            "unit": "year",
+            "raw_text": "2024. 12.20 준공완료",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 14
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "IM 일정표 '준공완료'(사용승인일 표기 아님)",
+            "raw_value": 2024,
+            "raw_unit": "year",
+            "flags": []
+          },
+          {
+            "value": 2024,
+            "unit": "year",
+            "raw_text": "준공연도 2024.12",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 30
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "p30 임대시장 비교표 본건 준공연도",
+            "raw_value": 2024,
+            "raw_unit": "year",
+            "flags": []
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 45724.0,
+            "unit": "m2",
+            "raw_text": "연면적약45,724㎡(13,831평)",
+            "precision": "approx",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 14
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 45724,
+            "raw_unit": "m2",
+            "precision_halfwidth": 0.5,
+            "flags": []
+          },
+          {
+            "value": 45723.76,
+            "unit": "m2",
+            "raw_text": "총합계 45,723.76 13,831.44",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 16
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "p16 층별 면적표 총합계",
+            "raw_value": 45723.76,
+            "raw_unit": "m2",
+            "flags": []
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 4,
+            "unit": "floor",
+            "raw_text": "지하1층/ 지상4층",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 14
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 4,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "지하1층/ 지상4층",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 14
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 1,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "복합",
+            "unit": null,
+            "raw_text": "건축구조 PC조, RC조",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 14
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "PC조·RC조 병기 → 복합",
+            "flags": []
+          }
+        ],
+        "cold_area_m2": [
+          {
+            "value": 8101.98,
+            "unit": "m2",
+            "raw_text": "지상4층 8,101.98 2,450.84 저온창고",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 16
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "p16 층별 면적표 4F(저온창고) 전체면적. p17·p18 임대면적 8,101.95㎡와 상이",
+            "raw_value": 8101.98,
+            "raw_unit": "m2",
+            "flags": []
+          },
+          {
+            "value": 8101.95,
+            "unit": "m2",
+            "raw_text": "4F(저온창고): 총 8,101.95㎡(2,450.84평)",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 18
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "p18 신흥식산 임차면적(임대면적). p17 임대차표에도 8,101.95 기재. p16 면적표 8,101.98과 상이",
+            "raw_value": 8101.95,
+            "raw_unit": "m2",
+            "flags": []
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "기둥간격11ⅹ11m",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 22
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "종·횡방향 11x11m 병기 — x/y 구분 없이 동일값 전사",
+            "raw_value": 11,
+            "raw_unit": "m",
+            "flags": []
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "기둥간격11ⅹ11m",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 22
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "종·횡방향 11x11m 병기 — x/y 구분 없이 동일값 전사",
+            "raw_value": 11,
+            "raw_unit": "m",
+            "flags": []
+          }
+        ],
+        "ramp_slope_pct": [
+          {
+            "value": 9.0,
+            "unit": "pct",
+            "raw_text": "외부램프경사도9%이하",
+            "precision": "upper_bound",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 21
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "외부램프 기준. 건물램프 평균 10.2%와 별도 기재(서로 다른 램프)",
+            "raw_value": 9,
+            "raw_unit": "%",
+            "flags": []
+          },
+          {
+            "value": 10.2,
+            "unit": "pct",
+            "raw_text": "건물램프경사도평균10.2%",
+            "precision": "approx",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 21
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "건물램프 평균값('평균10.2% 수준'). 외부램프 9% 이하와 별도 기재",
+            "raw_value": 10.2,
+            "raw_unit": "%",
+            "precision_halfwidth": 0.05,
+            "flags": []
+          }
+        ],
+        "warehouse_depth_m": [
+          {
+            "value": 96.0,
+            "unit": "m",
+            "raw_text": "B1 상온 96.0m",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 22
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "p22 평면 이미지의 B1 상온 깊이 화살표 값. 같은 이미지 1F 71.0m, 3F 55.0m, 4F 70.7m. 하역장측 벽 기준 여부는 IM에 미기재",
+            "raw_value": 96.0,
+            "raw_unit": "m",
+            "flags": []
+          },
+          {
+            "value": 85.0,
+            "unit": "m",
+            "raw_text": "지하1층: 85~96m",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 22
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "범위 표기 하한(B1). 불리한 쪽 선택 없이 두 후보 병기",
+            "raw_value": 85,
+            "raw_unit": "m",
+            "flags": []
+          },
+          {
+            "value": 96.0,
+            "unit": "m",
+            "raw_text": "지하1층: 85~96m",
+            "precision": "exact",
+            "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+            "source_locator": {
+              "page": 22
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "범위 표기 상한(B1)",
+            "raw_value": 96,
+            "raw_unit": "m",
+            "flags": []
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지하1층 13,538.62 4,095.43 상온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지하1층 13,538.62 4,095.43 상온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13538.62,
+                "unit": "m2",
+                "raw_text": "지하1층 13,538.62 4,095.43 상온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "raw_value": 13538.62,
+                "raw_unit": "m2",
+                "flags": []
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 2.0,
+                "unit": "t/m2",
+                "raw_text": "상온2.0t/㎡",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "p22 '저온2.5t/㎡, 상온2.0t/㎡' — 층 특정 없이 온도대로만 기재, 층은 p16 용도 기준으로 매핑",
+                "raw_value": 2.0,
+                "raw_unit": "t/m2",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "상온층고10m",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'상온 층고10m, 저온 층고9m' — 온도대 기재, 층은 p16 용도 기준",
+                "raw_value": 10,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.2,
+                "unit": "m",
+                "raw_text": "유효고8.2m 이상 확보",
+                "precision": "lower_bound",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'상온 층고10m, 저온 층고9m로 유효고8.2m 이상 확보' 전층 공통 문구",
+                "raw_value": 8.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "창고야드40ft 컨테이너및대형화물차량전층접안가능",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 21
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'전층' 표기. p21 이미지의 야드 표시(지하1층·1층·3층·4층 야드) 층에 기재. 2F(사무실)는 야드 표기 없음",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상1층 11,505.21 3,480.33 상온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상1층 11,505.21 3,480.33 상온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 11505.21,
+                "unit": "m2",
+                "raw_text": "지상1층 11,505.21 3,480.33 상온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "raw_value": 11505.21,
+                "raw_unit": "m2",
+                "flags": []
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 2.0,
+                "unit": "t/m2",
+                "raw_text": "상온2.0t/㎡",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "p22 '저온2.5t/㎡, 상온2.0t/㎡' — 층 특정 없이 온도대로만 기재, 층은 p16 용도 기준으로 매핑",
+                "raw_value": 2.0,
+                "raw_unit": "t/m2",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "상온층고10m",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'상온 층고10m, 저온 층고9m' — 온도대 기재, 층은 p16 용도 기준",
+                "raw_value": 10,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.2,
+                "unit": "m",
+                "raw_text": "유효고8.2m 이상 확보",
+                "precision": "lower_bound",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'상온 층고10m, 저온 층고9m로 유효고8.2m 이상 확보' 전층 공통 문구",
+                "raw_value": 8.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "창고야드40ft 컨테이너및대형화물차량전층접안가능",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 21
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'전층' 표기. p21 이미지의 야드 표시(지하1층·1층·3층·4층 야드) 층에 기재. 2F(사무실)는 야드 표기 없음",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "지상2층 1,664.93 503.64 사무실",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 1664.93,
+                "unit": "m2",
+                "raw_text": "지상2층 1,664.93 503.64 사무실",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "raw_value": 1664.93,
+                "raw_unit": "m2",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상3층 10,913.05 3,301.20 상온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지상3층 10,913.05 3,301.20 상온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 10913.05,
+                "unit": "m2",
+                "raw_text": "지상3층 10,913.05 3,301.20 상온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "p17 임대차표 3F 임대면적 9,225.67㎡(램리서치)는 임대면적이라 area_m2에 넣지 않음",
+                "raw_value": 10913.05,
+                "raw_unit": "m2",
+                "flags": []
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 2.0,
+                "unit": "t/m2",
+                "raw_text": "상온2.0t/㎡",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "p22 '저온2.5t/㎡, 상온2.0t/㎡' — 층 특정 없이 온도대로만 기재, 층은 p16 용도 기준으로 매핑",
+                "raw_value": 2.0,
+                "raw_unit": "t/m2",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "상온층고10m",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'상온 층고10m, 저온 층고9m' — 온도대 기재, 층은 p16 용도 기준",
+                "raw_value": 10,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.2,
+                "unit": "m",
+                "raw_text": "유효고8.2m 이상 확보",
+                "precision": "lower_bound",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'상온 층고10m, 저온 층고9m로 유효고8.2m 이상 확보' 전층 공통 문구",
+                "raw_value": 8.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "창고야드40ft 컨테이너및대형화물차량전층접안가능",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 21
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'전층' 표기. p21 이미지의 야드 표시(지하1층·1층·3층·4층 야드) 층에 기재. 2F(사무실)는 야드 표기 없음",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지상4층 8,101.98 2,450.84 저온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "지상4층 8,101.98 2,450.84 저온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "p22 '지상4층 냉동·냉장 멀티형 창고, 영하25도~영상10도 커버 가능'",
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 8101.98,
+                "unit": "m2",
+                "raw_text": "지상4층 8,101.98 2,450.84 저온창고",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 16
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "raw_value": 8101.98,
+                "raw_unit": "m2",
+                "flags": []
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 2.5,
+                "unit": "t/m2",
+                "raw_text": "저온2.5t/㎡",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'저온2.5t/㎡, 상온2.0t/㎡' — 온도대 기재",
+                "raw_value": 2.5,
+                "raw_unit": "t/m2",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 9.0,
+                "unit": "m",
+                "raw_text": "저온층고9m",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'상온 층고10m, 저온 층고9m' — 온도대 기재",
+                "raw_value": 9,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.2,
+                "unit": "m",
+                "raw_text": "유효고8.2m 이상 확보",
+                "precision": "lower_bound",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 22
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'상온 층고10m, 저온 층고9m로 유효고8.2m 이상 확보' 전층 공통 문구",
+                "raw_value": 8.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "창고야드40ft 컨테이너및대형화물차량전층접안가능",
+                "precision": "exact",
+                "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+                "source_locator": {
+                  "page": 21
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "'전층' 표기. p21 이미지의 야드 표시(지하1층·1층·3층·4층 야드) 층에 기재. 2F(사무실)는 야드 표기 없음",
+                "flags": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "text": "상온 층고10m·저온 층고9m로 유효고 8.2m 이상 확보, 전층 4단랙 설치 기준 충족",
+      "quote": "본건은유효고8.2m 이상높은층고, 4단랙설치가능한바닥적재력 / 상온층고10m, 저온층고9m로유효고8.2m이상확보 / 전층4단랙설치기준충족",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 22
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "text": "저온 2.5t/㎡, 상온 2.0t/㎡로 4단랙 기준 안정적 하중 설계",
+      "quote": "저온2.5t/㎡, 상온2.0t/㎡으로4단랙기준안정적하중설계",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 22
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "text": "물류차량 층별 동선 분리, 폭넓은 야드와 완만한 경사로 설계로 대형화물 전층 차량 접안 용이",
+      "quote": "물류차량층별동선분리, 폭넓은야드및완만한경사로설계로대형화물의전층차량접안이용이하여",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 21
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "text": "창고 야드 40ft 컨테이너 및 대형화물차량 전층 접안 가능",
+      "quote": "창고야드40ft 컨테이너및대형화물차량전층접안가능",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 21
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "ramp_slope_pct",
+      "text": "외부램프 경사도 9% 이하, 건물램프 경사도 평균 10.2%로 램프 경사도 안정적",
+      "quote": "외부램프경사도9%이하, 건물램프경사도평균10.2% 수준으로램프경사도안정적",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 21
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "terrain_multi_level_access",
+      "text": "경사지를 활용하여 전용률을 높이고 저온층을 지상4층, 상온창고를 지하1층~지상3층에 배치. 진입동선을 B1&1F / 3F&4F로 분리",
+      "quote": "경사지를활용하여전용률을높였으며임차인의수요를반영하여저온층을지상4층에배치하고, 지하1층~지상3층에상온창고를배치 / 주진입로에서방문자주차, B1&1F, 3F&4F 진입동선분리",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 16
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "cold_insulation_material",
+      "text": "저온창고는 냉동·냉장 멀티형, 영하25도~영상10도 커버, 임차인 특성에 맞추어 냉동·냉장 운영 가능(냉동·냉장·상온 3온도 복합물류센터)",
+      "quote": "지상4층냉동·냉장멀티형창고 영하25도~ 영상10도커버가능 임차인특성에맞추어냉동·냉장운영가능",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 22
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "warehouse_depth_m",
+      "text": "여유있는 폭 및 깊이로 설계(지하1층 85~96m, 1층 71m, 3층 55m, 4층 70.7m)",
+      "quote": "지하1층: 85~96m / 1층: 71m / 3층: 55m / 4층70.7m",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 22
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "column_span_x_m",
+      "text": "기둥간격 11x11m로 종·횡방향 효율적 랙 배치 가능, 4단랙 이상 고단랙 적합 초평탄(FM3, 4th Edition) 적용",
+      "quote": "기둥간격11ⅹ11m로종·횡방향효율적랙배치가능 / 4단랙이상의고단랙적합초평탄(4th Edition FM3) 적용",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 22
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "dock_count",
+      "text": "화물주차 72대와 별도로 주차대수 116대(일반형 55대, 확장형 50대, 경차 11대) 확보. 화물주차 72대는 도크 수가 아닌 주차 대수 표기. (p14: 주차대수 116대, 법정 115대)",
+      "quote": "화물주차72대와별도로주차대수116대(일반형55대, 확장형50대, 경차11대)확보",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 21
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "B1F와 1F 창고 순수 전용면적 25,044㎡(7,576평) 확보, 사무실·휴게실 포함 약 500평(사무실&식당 약 300평, 휴게실 100평, 기타 복도 등 100평) 반영",
+      "quote": "B1F 와1F : 창고순수전용면적25,044㎡(7,576평) 확보 사무실. 휴게실포함약500평반영",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 22
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "p14 용도 '물류창고(상온, 저온)' 규모 '지하1층/ 지상4층'. 저온(4F) 임대면적 2,450평 신흥식산, 상온(B1·1F·3F)+2F 사무실 램리서치 임차",
+      "quote": "용도 물류창고(상온, 저온) / 건축규모 지하1층/ 지상4층",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 14
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "completion_year",
+      "text": "착공 2023.06.01, 준공완료 2024.12.20, 임대차개시 2025.01.01 (IM 기재 일정)",
+      "quote": "2023. 06. 01 착공 / 2024. 12.20 준공완료 / 2025. 01. 01 임대차개시",
+      "year": 2024,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 14
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": null,
+      "text": "재원 항목 중 '공사비 7,820백만원: 잔여기성 및 임차사(램리서치) 추가공사비 등' — 설비 교체·리노베이션 이력이 아닌 신축 잔여공사비·임차사 추가공사비",
+      "quote": "공사비 7,820 잔여기성및임차사(램리서치) 추가공사비등",
+      "year": null,
+      "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "source_locator": {
+        "page": 33
+      }
+    }
+  ],
+  "missing": []
+}

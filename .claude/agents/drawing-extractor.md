@@ -28,7 +28,8 @@ model: opus
    - `raw_text`: 도면에 적힌 표기 그대로, `unit`: 원 단위
 5. 1순위 도면에 없으면 다음 순위로 넓힌다. **`missing`으로 남기기 전에 아래 시트는 반드시 본다**(2026-10-14 bangchori에서 이 시트들을 안 봐서 5개 필드가 미기재로 남았다):
    - 대지 종횡단면도 — terrain_multi_level_access(지반선 레벨·출입 레벨), 실내 하역장 구획 치수(truck_yard_depth_m)
-   - 주차 및 차량동선 계획도 — 층별 주차대수 산정표 '화물'(dock_count), 범례 '화물차량동선'(ramp_type 차로별 방향·dock_route_column_conflict), 차량출입구 IN/OUT(terrain)
+   - 주차 및 차량동선 계획도 — 층별 주차대수 산정표 '화물'(dock_count 출발점), 범례 '화물차량동선'(ramp_type 차로별 방향·dock_route_column_conflict), 차량출입구 IN/OUT(terrain)
+   - **층별 평면도(dock_count 접안 검증, 필수)** — 표의 '화물' 값을 그대로 쓰지 않는다. 화물주차가 있는 층마다 평면도에서 구획이 창고(또는 창고전실·하역장) 벽에 직각으로 닿는지, 개구부(스피드도어·셔터)·도크레벨러·야드 FL 단차·캐노피 근거가 있는지 확대해 보고, 닿은 구획만 직접 센다. 창고 벽에서 떨어진 야드·옥상 주차장의 화물주차는 뺀다. 절차·note 형식은 `field_extraction_guide.md` '도크 수 접안 검증'
    - 부분단면(도크·하역장 단면) — 하역장 바닥과 창고 바닥 단차(도크 여부), 보 위치(clear_height_m는 치수 있을 때만)
    - 램프 평면·단면 — 통행 표기, 전개길이, R 표기. R 표기가 없고 벡터 PDF면 `python -m lprisk vector-radius {asset_id} --file <PDF> --page <n>` 실행 후 `suggested`를 turning_radius_m에 `method: "vector"`, `precision: "approx"`, `confidence: "medium"`, `source_locator: {page, sheet_no, bbox: suggested.bbox}`, note에 suggested.note로 기록. **`raw_value`/`raw_unit`에 pt 같은 도면 좌표 단위를 넣지 않는다**(정규화가 값을 버린다)
    필드 기준(도크 = 하역장 화물주차 구획, 트럭야드 = 하역장 구획 깊이 등)은 `field_extraction_guide.md`를 따른다. 끝까지 없으면 `missing[]`에 `missing_reason`을 남긴다.
@@ -49,3 +50,4 @@ model: opus
 
 ## 최종 응답 (한국어, 짧게)
 판독한 필드 수, missing 사유별 수, conflict 목록, 읽기 어려웠던 도면.
+dock_count는 층별로 `표 n / 접안 확인 n / 제외 n(사유)`를 한 줄씩 적는다.

@@ -1,0 +1,30 @@
+{
+  "asset_id": "hwaseong",
+  "state": "AWAITING_CONFIRMATION",
+  "mode": "정규",
+  "ruleset_version": "ruleset-untagged@2e2d57e",
+  "created_at": "2026-10-15T08:24:22+09:00",
+  "history": [
+    {
+      "at": "2026-10-15T08:24:22+09:00",
+      "state": "INTAKE"
+    },
+    {
+      "at": "2026-10-15T09:04:40+09:00",
+      "state": "RECONCILED",
+      "note": "확인 30 / 자동확정 27"
+    },
+    {
+      "at": "2026-10-15T09:08:00+09:00",
+      "state": "RECONCILED",
+      "note": "확인 30 / 자동확정 27"
+    },
+    {
+      "at": "2026-10-15T09:08:08+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": null
+    }
+  ],
+  "halt_reason": null,
+  "revisions": []
+}

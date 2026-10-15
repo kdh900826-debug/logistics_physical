@@ -1,0 +1,3871 @@
+{
+  "asset_id": "hwaseong",
+  "created_at": "2026-10-15T09:08:00+09:00",
+  "entries": [
+    {
+      "slot": "asset|-|-|site_area_m2",
+      "label": "대지면적",
+      "level": "asset",
+      "building_id": null,
+      "floor": null,
+      "field": "site_area_m2",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 29961.0,
+          "unit": "m2",
+          "raw_text": "대지면적 29,961㎡(9,063평)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 14
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 29961,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 29419.0,
+          "unit": "m2",
+          "raw_text": "대지면적 29,419㎡ (도로 : 542㎡)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.29,
+              0.47,
+              0.325
+            ],
+            "bbox": [
+              141.4,
+              151.8,
+              246.1,
+              170.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/asset_x_x_site_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "설계개요. 사업부지면적 29,961.00㎡(도로 542㎡ 포함)와 구분",
+          "raw_value": 29419,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 29419.0,
+          "unit": "m2",
+          "raw_text": "대지면적 29,419㎡ (도로 : 542㎡)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.29,
+              0.47,
+              0.325
+            ],
+            "bbox": [
+              141.4,
+              151.8,
+              246.1,
+              170.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/asset_x_x_site_area_m2_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "재판독(IM 29,961 주장). A-011 설계개요에 '사업부지면적 29,961.00㎡'와 '대지면적 29,419㎡ (도로 : 542㎡)'가 별도 행으로 기재. 대지면적 행 값 유지. IM 값은 사업부지면적(도로 542㎡ 포함) 행과 일치",
+          "raw_value": 29419,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "overstated",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|cold_area_m2",
+      "label": "저온·냉동 면적 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_area_m2",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": 8101.98,
+          "unit": "m2",
+          "raw_text": "지상4층 8,101.98 2,450.84 저온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "p16 층별 면적표 4F(저온창고) 전체면적. p17·p18 임대면적 8,101.95㎡와 상이",
+          "raw_value": 8101.98,
+          "raw_unit": "m2",
+          "flags": []
+        },
+        {
+          "value": 8101.95,
+          "unit": "m2",
+          "raw_text": "4F(저온창고): 총 8,101.95㎡(2,450.84평)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 18
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "p18 신흥식산 임차면적(임대면적). p17 임대차표에도 8,101.95 기재. p16 면적표 8,101.98과 상이",
+          "raw_value": 8101.95,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 7821.34,
+          "unit": "m2",
+          "raw_text": "지상4층 물류창고 7,821.34 (규모: 지상4층 냉동창고)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.22,
+              0.425,
+              0.34,
+              0.46
+            ],
+            "bbox": [
+              115.2,
+              628.8,
+              178.0,
+              641.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_cold_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별개요 지상4층 물류창고 면적. 규모란 '지상4층: 냉동창고'. 4F 평면·방열평면도 실명 '냉동물류창고-1~3'",
+          "raw_value": 7821.34,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 7821.34,
+          "unit": "m2",
+          "raw_text": "지상4층 물류창고 7,821.34 / 총계 7,821.34 (규모: 지상4층: 냉동창고)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.22,
+              0.425,
+              0.34,
+              0.46
+            ],
+            "bbox": [
+              115.2,
+              628.8,
+              178.0,
+              641.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_cold_area_m2_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "재판독(IM 8,101.98 주장). A-011 층별개요 지상4층 물류창고 열 7,821.34, 사무실·기전실·BERTH·RAMP 열 모두 '-', 총계 7,821.34 — 4F 바닥면적 전체 = 냉동창고 용도 면적. 규모란 '지상4층: 냉동창고'. A-022 지상4층 산출근거 93.950×83.250=7,821.34㎡ 동일. 8,101.98은 도면 어디에도 없음",
+          "raw_value": 7821.34,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "neutral",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|cold_insulation_material",
+      "label": "저온동 단열재 종류 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_insulation_material",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "우레탄",
+          "unit": null,
+          "raw_text": "우레탄뿜칠 준불연재",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 87,
+            "sheet_no": "A-1143",
+            "tile": "output/wf2/hwaseong/tiles/건축_p087/r1c0.png",
+            "tile_box": [
+              0.14,
+              0.44,
+              0.5,
+              0.52
+            ],
+            "bbox": [
+              73.3,
+              634.4,
+              261.8,
+              664.1
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_cold_insulation_material_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지상4층 방열평면도 벽체(W1~W6)·기둥(P1~P4)·천정(C1·C2)·바닥(F1) 방열 모두 우레탄뿜칠",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|cold_insulation_thickness_mm",
+      "label": "저온동 단열재 두께 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_insulation_thickness_mm",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 200.0,
+          "unit": "mm",
+          "raw_text": "W1 우레탄뿜칠 준불연재 200T",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 87,
+            "sheet_no": "A-1143",
+            "tile": "output/wf2/hwaseong/tiles/건축_p087/r1c0.png",
+            "tile_box": [
+              0.14,
+              0.44,
+              0.5,
+              0.52
+            ],
+            "bbox": [
+              73.3,
+              634.4,
+              261.8,
+              664.1
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_cold_insulation_thickness_mm_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "벽체방열 W1(외벽측)·W2 200T. 부위별 두께 상이",
+          "raw_value": 200,
+          "raw_unit": "mm",
+          "flags": []
+        },
+        {
+          "value": 150.0,
+          "unit": "mm",
+          "raw_text": "C1/F1 우레탄뿜칠 준불연재 150T",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 87,
+            "sheet_no": "A-1143",
+            "tile": "output/wf2/hwaseong/tiles/건축_p087/r1c1.png",
+            "tile_box": [
+              0.0,
+              0.69,
+              0.75,
+              0.86
+            ],
+            "bbox": [
+              471.3,
+              727.1,
+              864.0,
+              790.1
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_cold_insulation_thickness_mm_1.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "천정방열 C1 150T(C2 50T), 바닥방열 F1 150T, 기둥 P1·P2 150T",
+          "raw_value": 150,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면상충",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|column_span_x_m",
+      "label": "기둥 스팬(장변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_x_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "기둥간격11ⅹ11m",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "종·횡방향 11x11m 병기 — x/y 구분 없이 동일값 전사",
+          "raw_value": 11,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "11000 (X축 그리드)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 41,
+            "sheet_no": "A-205",
+            "tile": "output/wf2/hwaseong/tiles/건축_p041/r0c0.png",
+            "tile_box": [
+              0.61,
+              0.14,
+              0.68,
+              0.16
+            ],
+            "bbox": [
+              319.4,
+              73.3,
+              356.0,
+              83.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_column_span_x_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "X1~X2 4700 외 X2~X16 11000 반복",
+          "raw_value": 11000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|column_span_y_m",
+      "label": "기둥 스팬(단변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_y_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "기둥간격11ⅹ11m",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "종·횡방향 11x11m 병기 — x/y 구분 없이 동일값 전사",
+          "raw_value": 11,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "11000 (Y축 그리드)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 41,
+            "sheet_no": "A-205",
+            "tile": "output/wf2/hwaseong/tiles/건축_p041/r0c0.png",
+            "tile_box": [
+              0.16,
+              0.6,
+              0.19,
+              0.67
+            ],
+            "bbox": [
+              83.8,
+              314.2,
+              99.5,
+              350.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_column_span_y_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "Y2~Y8 11000 반복, Y8~Y10은 8000×2 (3F YARD 구간)",
+          "raw_value": 11000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|completion_year",
+      "label": "준공연도(사용승인) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "completion_year",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2024,
+          "unit": "year",
+          "raw_text": "2024. 12.20 준공완료",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 14
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "IM 일정표 '준공완료'(사용승인일 표기 아님)",
+          "raw_value": 2024,
+          "raw_unit": "year",
+          "flags": []
+        },
+        {
+          "value": 2024,
+          "unit": "year",
+          "raw_text": "준공연도 2024.12",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 30
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "p30 임대시장 비교표 본건 준공연도",
+          "raw_value": 2024,
+          "raw_unit": "year",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|dock_count",
+      "label": "도크 수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "dock_count",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 64,
+          "unit": "ea",
+          "raw_text": "주차계획 화물 합계 중형 33 / 소형 31 (화물주차 64 별도)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 13,
+            "sheet_no": "A-104",
+            "tile": "output/wf2/hwaseong/tiles/건축_p013/r1c0.png",
+            "tile_box": [
+              0.11,
+              0.66,
+              0.59,
+              0.915
+            ],
+            "bbox": [
+              57.6,
+              716.0,
+              308.9,
+              810.5
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_dock_count_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "주차계획도(A-101~104) 공통 주차계획표 화물: B1 소형 15, 1F 중형 18, 3F 중형 15, 4F 소형 16 → 표 합계 중형 33+소형 31=64 (설계개요 A-011 '화물주차 64별도'). 각 층 YARD에서 창고 도크면에 직각으로 붙는 번호 붙은 화물주차 구획(3F 평면 '도크레벨러' 표기). 4F 주차계획도 평면 표기는 '소형화물차 17대'로 표(16)와 다름",
+          "raw_value": 64,
+          "raw_unit": "대",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|fire_compartment_max_m2",
+      "label": "방화구획 최대 면적 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "fire_compartment_max_m2",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": 2878.62,
+          "unit": "m2",
+          "raw_text": "방화구획면적 ① 2,878.62㎡ (지상3층)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 24,
+            "sheet_no": "A-124",
+            "tile": "output/wf2/hwaseong/tiles/건축_p024/r1c0.png",
+            "tile_box": [
+              0.17,
+              0.53,
+              0.43,
+              0.57
+            ],
+            "bbox": [
+              89.0,
+              667.8,
+              225.1,
+              682.6
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_fire_compartment_max_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별 방화구획면적표 최대: B1 최대 2,489.79(A-121), 1F 2,746.74(A-122), 2F 1,422.69(A-123), 3F 2,878.62(A-124), 4F 2,396.77(A-125)",
+          "raw_value": 2878.62,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|floors_above",
+      "label": "지상층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_above",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": 4,
+          "unit": "floor",
+          "raw_text": "지하1층/ 지상4층",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 14
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 4,
+          "raw_unit": "floor",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 4,
+          "unit": "floor",
+          "raw_text": "지하1층,지상4층",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.36,
+              0.79,
+              0.39
+            ],
+            "bbox": [
+              141.4,
+              188.5,
+              413.6,
+              204.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_floors_above_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "단면도 A-221에도 지상1~4층(2층은 사무실 중층)",
+          "raw_value": 4,
+          "raw_unit": "층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|floors_below",
+      "label": "지하층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_below",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": 1,
+          "unit": "floor",
+          "raw_text": "지하1층/ 지상4층",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 14
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 1,
+          "raw_unit": "floor",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 1,
+          "unit": "floor",
+          "raw_text": "지하1층,지상4층",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.36,
+              0.79,
+              0.39
+            ],
+            "bbox": [
+              141.4,
+              188.5,
+              413.6,
+              204.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_floors_below_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 1,
+          "raw_unit": "층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|gross_floor_area_m2",
+      "label": "연면적 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "gross_floor_area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 45724.0,
+          "unit": "m2",
+          "raw_text": "연면적약45,724㎡(13,831평)",
+          "precision": "approx",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 14
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 45724,
+          "raw_unit": "m2",
+          "precision_halfwidth": 0.5,
+          "flags": []
+        },
+        {
+          "value": 45723.76,
+          "unit": "m2",
+          "raw_text": "총합계 45,723.76 13,831.44",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "p16 층별 면적표 총합계",
+          "raw_value": 45723.76,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 45723.76,
+          "unit": "m2",
+          "raw_text": "연면적 45,723.76㎡",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.495,
+              0.38,
+              0.53
+            ],
+            "bbox": [
+              141.4,
+              259.2,
+              199.0,
+              277.5
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_gross_floor_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "층별개요 합계 45,723.76㎡와 동일",
+          "raw_value": 45723.76,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|ramp_form",
+      "label": "램프 형상 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_form",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "곡선형",
+          "unit": null,
+          "raw_text": "직선구간(10.0%) + 곡선구간 90.00° L=18,850",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 77,
+            "sheet_no": "A-901",
+            "tile": "output/wf2/hwaseong/tiles/건축_p077/r0c1.png",
+            "tile_box": [
+              0.11,
+              0.18,
+              0.19,
+              0.27
+            ],
+            "bbox": [
+              528.9,
+              94.2,
+              570.8,
+              141.4
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_ramp_form_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "RAMP#3 평면: 직선구간 38,600 → 90° 곡선구간 → 직선구간 42,850 (나선형 아님)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_slope_pct",
+      "label": "램프 경사 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_slope_pct",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [
+        {
+          "value": 9.0,
+          "unit": "pct",
+          "raw_text": "외부램프경사도9%이하",
+          "precision": "upper_bound",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 21
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "외부램프 기준. 건물램프 평균 10.2%와 별도 기재(서로 다른 램프)",
+          "raw_value": 9,
+          "raw_unit": "%",
+          "flags": []
+        },
+        {
+          "value": 10.2,
+          "unit": "pct",
+          "raw_text": "건물램프경사도평균10.2%",
+          "precision": "approx",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 21
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "건물램프 평균값('평균10.2% 수준'). 외부램프 9% 이하와 별도 기재",
+          "raw_value": 10.2,
+          "raw_unit": "%",
+          "precision_halfwidth": 0.05,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 10.0,
+          "unit": "pct",
+          "raw_text": "직선구간(10.0%) / 곡선구간(10.0%)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 77,
+            "sheet_no": "A-901",
+            "tile": "output/wf2/hwaseong/tiles/건축_p077/r0c0.png",
+            "tile_box": [
+              0.54,
+              0.13,
+              0.63,
+              0.155
+            ],
+            "bbox": [
+              282.7,
+              68.1,
+              329.9,
+              81.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_ramp_slope_pct_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "RAMP#3(3F→4F) 직선·곡선 구간 모두 10.0% 표기",
+          "raw_value": 10.0,
+          "raw_unit": "%",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": "overstated",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_type",
+      "label": "램프 통행 방향 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "양방향",
+          "unit": null,
+          "raw_text": "RAMP#3 진입동선(실선)·진출동선(점선) 차로별 반대방향",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 12,
+            "sheet_no": "A-103",
+            "tile": "output/wf2/hwaseong/tiles/건축_p012/r0c1.png",
+            "tile_box": [
+              0.2,
+              0.47,
+              0.6,
+              0.56
+            ],
+            "bbox": [
+              576.0,
+              246.1,
+              785.5,
+              293.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_ramp_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "3F→4F RAMP#3 1개소에 범례 '진입동선/진출동선' 화살표가 차로별로 반대(상·하행)로 그려짐(A-103·A-104). B1F YARD로 내려가는 램프-2도 동일(A-101)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_width_m",
+      "label": "램프 폭 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_width_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 9.4,
+          "unit": "m",
+          "raw_text": "9400",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 77,
+            "sheet_no": "A-901",
+            "tile": "output/wf2/hwaseong/tiles/건축_p077/r0c0.png",
+            "tile_box": [
+              0.25,
+              0.24,
+              0.28,
+              0.33
+            ],
+            "bbox": [
+              130.9,
+              125.7,
+              146.6,
+              172.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_ramp_width_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "RAMP#3 확대평면도(지상3층) 직선구간 폭 치수(파라펫 후레싱 안쪽~연석, 2차로)로 판독 — 치수 기점 해석 필요",
+          "raw_value": 9400,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|sprinkler_type",
+      "label": "스프링클러 형식 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "sprinkler_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "표준형",
+          "unit": null,
+          "raw_text": "스프링클러헤드 (72℃ 폐쇄형 하향식/상향식)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/기계소방.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "MF-002",
+            "tile": "output/wf2/hwaseong/tiles/기계소방_p003/r0c1.png",
+            "tile_box": [
+              0.14,
+              0.36,
+              0.49,
+              0.47
+            ],
+            "bbox": [
+              544.6,
+              188.5,
+              727.9,
+              246.1
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_sprinkler_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "범례 헤드: 72℃ 폐쇄형 하향식·상향식·상하향식, 105℃ 폐쇄형 하향식, 72℃ 드라이펜던트. 알람밸브·프리액션밸브 병기. ESFR 표기 없음. 스프링클러 주펌프 1,600LPM×125m",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|structure_type",
+      "label": "구조형식 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "structure_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "복합",
+          "unit": null,
+          "raw_text": "건축구조 PC조, RC조",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 14
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "PC조·RC조 병기 → 복합",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "복합",
+          "unit": null,
+          "raw_text": "구조 PC조, RC조",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.635,
+              0.37,
+              0.67
+            ],
+            "bbox": [
+              141.4,
+              332.5,
+              193.7,
+              350.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_structure_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "설계개요에 PC조·RC조 병기 → 복합. 구조일반사항 S-011은 '철근콘크리트구조' 단일 표기",
+          "flags": []
+        },
+        {
+          "value": "RC",
+          "unit": null,
+          "raw_text": "구조종별 철근콘크리트구조",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/구조.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "S-011",
+            "tile": "output/wf2/hwaseong/tiles/구조_p005/r0c0.png",
+            "tile_box": [
+              0.13,
+              0.43,
+              0.61,
+              0.46
+            ],
+            "bbox": [
+              68.1,
+              225.1,
+              319.4,
+              240.9
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_structure_type_1.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "RC 구조일반사항 1.1 구조물 개요. 지진력저항시스템 '철근콘크리트보통전단벽'. PC 슬래브·보·기둥 일람표(S-301~349) 별도 존재",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면상충",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|terrain_multi_level_access",
+      "label": "지형 단차 진입도로로 여러 층 직접 접안 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "terrain_multi_level_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "기존공장 현황도로 E.L+47.00 창고진입로 / 1층 하역장 E.L+38.00",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-013",
+            "tile": "output/wf2/hwaseong/tiles/건축_p005/r1c0.png",
+            "tile_box": [
+              0.28,
+              0.33,
+              0.62,
+              0.42
+            ],
+            "bbox": [
+              146.6,
+              593.6,
+              324.6,
+              627.0
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_terrain_multi_level_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "대지종횡단면도: 서측 현황도로(E.L+47.00)→창고진입로로 3F YARD(EL+48.00, 3F FL EL+49.10) 직접 진입, 남측 1F YARD(E.L+38.00, 1F FL EL+39.10)는 남측 도로 주·부출입구(A-102). 3F 주차계획도(A-103) 서측 '차량 진출입구'. 4F YARD는 RAMP#3(3F→4F), B1F YARD는 램프-2로 연결 — 램프와 병행",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|turning_radius_m",
+      "label": "대형차 최소 회전반경(램프·하역장 동선) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "turning_radius_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 12.0,
+          "unit": "m",
+          "raw_text": "R12,000 (R16,000)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 77,
+            "sheet_no": "A-901",
+            "tile": "output/wf2/hwaseong/tiles/건축_p077/r0c0.png",
+            "tile_box": [
+              0.8,
+              0.27,
+              0.96,
+              0.45
+            ],
+            "bbox": [
+              418.9,
+              141.4,
+              502.7,
+              235.6
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_turning_radius_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "RAMP#3 곡선부 표기 R12,000·R16,000 중 최소값. 램프 곡선부 반경 표기이며 하역장 출차부 R·차량 회전궤적 아님",
+          "raw_value": 12000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|wall_panel_core",
+      "label": "외벽 패널 심재 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "wall_panel_core",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "글라스울",
+          "unit": null,
+          "raw_text": "W1 THK50 글라스울패널 + THK100 글라스울",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 30,
+            "sheet_no": "A-135",
+            "tile": "output/wf2/hwaseong/tiles/건축_p030/r1c0.png",
+            "tile_box": [
+              0.42,
+              0.585,
+              0.64,
+              0.61
+            ],
+            "bbox": [
+              219.9,
+              688.2,
+              335.1,
+              697.4
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_wall_panel_core_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "단열재 표기 및 등급분류 벽체 W1(외기 직접). 단면도 A-221 'THK50 글라스울패널', W3 THK125 글라스울패널(간접)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|warehouse_depth_m",
+      "label": "창고 내부 깊이(하역장 측 벽~반대편 벽) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "warehouse_depth_m",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [
+        {
+          "value": 96.0,
+          "unit": "m",
+          "raw_text": "B1 상온 96.0m",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "p22 평면 이미지의 B1 상온 깊이 화살표 값. 같은 이미지 1F 71.0m, 3F 55.0m, 4F 70.7m. 하역장측 벽 기준 여부는 IM에 미기재",
+          "raw_value": 96.0,
+          "raw_unit": "m",
+          "flags": []
+        },
+        {
+          "value": 85.0,
+          "unit": "m",
+          "raw_text": "지하1층: 85~96m",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "범위 표기 하한(B1). 불리한 쪽 선택 없이 두 후보 병기",
+          "raw_value": 85,
+          "raw_unit": "m",
+          "flags": []
+        },
+        {
+          "value": 96.0,
+          "unit": "m",
+          "raw_text": "지하1층: 85~96m",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "범위 표기 상한(B1)",
+          "raw_value": 96,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 71.0,
+          "unit": "m",
+          "raw_text": "Y3~Y10: 11000×5 + 8000×2",
+          "precision": "approx",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 39,
+            "sheet_no": "A-203",
+            "tile": "output/wf2/hwaseong/tiles/건축_p039/r1c0.png",
+            "tile_box": [
+              0.12,
+              0.0,
+              0.95,
+              0.42
+            ],
+            "bbox": [
+              62.8,
+              471.3,
+              497.4,
+              627.0
+            ],
+            "crop": "output/wf2/hwaseong/crops/building_main_x_warehouse_depth_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "그리드 합산값(도면 단일 치수 아님, 11m×5스팬+8m×2스팬=71m): 1F 도크면(Y3 스피드도어열, 1F YARD 남측)~북측 외벽 Y10. 3F·4F는 도크면 Y8(3F/4F YARD 측)~남측 Y2 = 11m×6 = 66m. 1F 면적산출 ① 98.550×72.550(A-021). 창고층 중 최대값",
+          "raw_value": 71000,
+          "raw_unit": "mm",
+          "precision_halfwidth": 0.5,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": "conservative",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|area_m2",
+      "label": "층 면적 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 11505.21,
+          "unit": "m2",
+          "raw_text": "지상1층 11,505.21 3,480.33 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 11505.21,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 11505.21,
+          "unit": "m2",
+          "raw_text": "지상1층 총계 11,505.21",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.77,
+              0.27,
+              0.875,
+              0.31
+            ],
+            "bbox": [
+              403.2,
+              571.4,
+              458.2,
+              586.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_1F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "BERTH 989.88 포함",
+          "raw_value": 11505.21,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.2,
+          "unit": "m",
+          "raw_text": "유효고8.2m 이상 확보",
+          "precision": "lower_bound",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'상온 층고10m, 저온 층고9m로 유효고8.2m 이상 확보' 전층 공통 문구",
+          "raw_value": 8.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "창고야드40ft 컨테이너및대형화물차량전층접안가능",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 21
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'전층' 표기. p21 이미지의 야드 표시(지하1층·1층·3층·4층 야드) 층에 기재. 2F(사무실)는 야드 표기 없음",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "1F YARD 중형화물차 18대",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 11,
+            "sheet_no": "A-102",
+            "tile": "output/wf2/hwaseong/tiles/건축_p011/r1c1.png",
+            "tile_box": [
+              0.1,
+              0.22,
+              0.4,
+              0.3
+            ],
+            "bbox": [
+              523.7,
+              552.9,
+              680.7,
+              582.5
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_1F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "dock_route_column_conflict",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "1F YARD 진입·진출동선",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 11,
+            "sheet_no": "A-102",
+            "tile": "output/wf2/hwaseong/tiles/건축_p011/r1c1.png",
+            "tile_box": [
+              0.0,
+              0.2,
+              0.8,
+              0.35
+            ],
+            "bbox": [
+              471.3,
+              545.4,
+              890.2,
+              601.0
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_1F_dock_route_column_conflict_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "동선 표시선 기준·회전 궤적 검토 아님. 남측 주·부출입구~1F YARD 동선이 건물 외부 야드를 지나며 기둥 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "상온층고10m",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'상온 층고10m, 저온 층고9m' — 온도대 기재, 층은 p16 용도 기준",
+          "raw_value": 10,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "지상1층 EL+39.10 ~ 지상3층 EL+49.10 치수 10000",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 46,
+            "sheet_no": "A-221",
+            "tile": "output/wf2/hwaseong/tiles/건축_p046/r0c0.png",
+            "tile_box": [
+              0.15,
+              0.46,
+              0.26,
+              0.53
+            ],
+            "bbox": [
+              78.5,
+              240.9,
+              136.1,
+              277.5
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_1F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "창고 1F는 3F 바닥까지 10000(2층 사무실 EL+45.10은 일부 구간 중층)",
+          "raw_value": 10000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2.0,
+          "unit": "t/m2",
+          "raw_text": "상온2.0t/㎡",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "p22 '저온2.5t/㎡, 상온2.0t/㎡' — 층 특정 없이 온도대로만 기재, 층은 p16 용도 기준으로 매핑",
+          "raw_value": 2.0,
+          "raw_unit": "t/m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 2.0394,
+          "unit": "t/m2",
+          "raw_text": "PS1 상온창고 (마감 : 0.3 kPa / 적재하중 : 20.0 kPa)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/구조.pdf",
+          "source_locator": {
+            "page": 56,
+            "sheet_no": "S-301",
+            "tile": "output/wf2/hwaseong/tiles/구조_p056/r0c0.png",
+            "tile_box": [
+              0.15,
+              0.205,
+              0.53,
+              0.235
+            ],
+            "bbox": [
+              78.5,
+              107.3,
+              277.5,
+              123.0
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_1F_floor_load_tpm2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지상1층 구조평면도(S-114) 창고 슬래브 부호 PS1. 같은 PS1에 '1F 주차장 적재하중 6.0 kPa' 병기(주차장 구간)",
+          "raw_value": 20.0,
+          "raw_unit": "kPa",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|temp",
+      "label": "층 온도대 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지상1층 11,505.21 3,480.33 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지하1층~지상3층 : 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.36,
+              0.79,
+              0.39
+            ],
+            "bbox": [
+              141.4,
+              188.5,
+              413.6,
+              204.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_1F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|use",
+      "label": "층 용도 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지상1층 11,505.21 3,480.33 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지상1층 물류창고 10,515.33",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.12,
+              0.27,
+              0.34,
+              0.31
+            ],
+            "bbox": [
+              62.8,
+              571.4,
+              178.0,
+              586.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_1F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|2F|area_m2",
+      "label": "층 면적 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 1664.93,
+          "unit": "m2",
+          "raw_text": "지상2층 1,664.93 503.64 사무실",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 1664.93,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 1664.93,
+          "unit": "m2",
+          "raw_text": "지상2층 총계 1,664.93",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.77,
+              0.32,
+              0.875,
+              0.36
+            ],
+            "bbox": [
+              403.2,
+              589.9,
+              458.2,
+              604.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_2F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 1664.93,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|2F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 0.3569,
+          "unit": "t/m2",
+          "raw_text": "PS21 중층 (마감 : 2.14 kPa / 적재하중 : 3.5 kPa)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/구조.pdf",
+          "source_locator": {
+            "page": 58,
+            "sheet_no": "S-303",
+            "tile": "output/wf2/hwaseong/tiles/구조_p058/r0c0.png",
+            "tile_box": [
+              0.15,
+              0.195,
+              0.53,
+              0.235
+            ],
+            "bbox": [
+              78.5,
+              102.1,
+              277.5,
+              123.0
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_2F_floor_load_tpm2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지상2층 구조평면도(S-115) 사무실 슬래브 부호 PS21",
+          "raw_value": 3.5,
+          "raw_unit": "kPa",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|use",
+      "label": "층 용도 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "지상2층 1,664.93 503.64 사무실",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "지상2층 사무실 1,664.93",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.12,
+              0.32,
+              0.45,
+              0.36
+            ],
+            "bbox": [
+              62.8,
+              589.9,
+              235.6,
+              604.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_2F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|area_m2",
+      "label": "층 면적 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 10913.05,
+          "unit": "m2",
+          "raw_text": "지상3층 10,913.05 3,301.20 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "p17 임대차표 3F 임대면적 9,225.67㎡(램리서치)는 임대면적이라 area_m2에 넣지 않음",
+          "raw_value": 10913.05,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 11193.66,
+          "unit": "m2",
+          "raw_text": "지상3층 총계 11,193.66",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.77,
+              0.375,
+              0.875,
+              0.41
+            ],
+            "bbox": [
+              403.2,
+              610.3,
+              458.2,
+              623.3
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_3F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "기전실 495.87·BERTH 682.06·RAMP,통로 1,687.38 포함",
+          "raw_value": 11193.66,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 11193.66,
+          "unit": "m2",
+          "raw_text": "지상3층 총계 11,193.66 (물류창고 8,328.36 / 기전실 495.87 / BERTH 682.06 / RAMP,통로 1,687.38)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.77,
+              0.375,
+              0.875,
+              0.41
+            ],
+            "bbox": [
+              403.2,
+              610.3,
+              458.2,
+              623.3
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_3F_area_m2_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "재판독(IM 10,913.05 주장). A-011 층별개요 지상3층 총계 열 11,193.66(바닥면적). 용도별 열: 물류창고 8,328.36. A-021 지상3층 합계 11,193.66㎡(소계 8,824.22 + 용적률 산정 제외 2,369.44) 동일. 10,913.05는 도면 어디에도 없음",
+          "raw_value": 11193.66,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "conservative",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.2,
+          "unit": "m",
+          "raw_text": "유효고8.2m 이상 확보",
+          "precision": "lower_bound",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'상온 층고10m, 저온 층고9m로 유효고8.2m 이상 확보' 전층 공통 문구",
+          "raw_value": 8.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "창고야드40ft 컨테이너및대형화물차량전층접안가능",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 21
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'전층' 표기. p21 이미지의 야드 표시(지하1층·1층·3층·4층 야드) 층에 기재. 2F(사무실)는 야드 표기 없음",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "3F YARD 중형화물차 15대",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 12,
+            "sheet_no": "A-103",
+            "tile": "output/wf2/hwaseong/tiles/건축_p012/r0c0.png",
+            "tile_box": [
+              0.84,
+              0.53,
+              0.95,
+              0.58
+            ],
+            "bbox": [
+              439.8,
+              277.5,
+              497.4,
+              303.7
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_3F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "dock_route_column_conflict",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "3F YARD 진입·진출동선",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 12,
+            "sheet_no": "A-103",
+            "tile": "output/wf2/hwaseong/tiles/건축_p012/r0c0.png",
+            "tile_box": [
+              0.24,
+              0.47,
+              1.0,
+              0.56
+            ],
+            "bbox": [
+              125.7,
+              246.1,
+              523.6,
+              293.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_3F_dock_route_column_conflict_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "동선 표시선 기준·회전 궤적 검토 아님. 서측 차량 진출입구~3F YARD 차로(Y9~Y10 사이)에 기둥 없음 — 기둥은 Y10 외곽·Y8 도크면 열. RAMP#3 곡선부 반사경 설치",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "상온층고10m",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'상온 층고10m, 저온 층고9m' — 온도대 기재, 층은 p16 용도 기준",
+          "raw_value": 10,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "지상3층 EL+49.10 ~ 지상4층 EL+59.10 치수 10000",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 46,
+            "sheet_no": "A-221",
+            "tile": "output/wf2/hwaseong/tiles/건축_p046/r0c0.png",
+            "tile_box": [
+              0.15,
+              0.39,
+              0.26,
+              0.47
+            ],
+            "bbox": [
+              78.5,
+              204.2,
+              136.1,
+              246.1
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_3F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 10000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2.0,
+          "unit": "t/m2",
+          "raw_text": "상온2.0t/㎡",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "p22 '저온2.5t/㎡, 상온2.0t/㎡' — 층 특정 없이 온도대로만 기재, 층은 p16 용도 기준으로 매핑",
+          "raw_value": 2.0,
+          "raw_unit": "t/m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 2.0394,
+          "unit": "t/m2",
+          "raw_text": "PS1 상온창고 (마감 : 0.3 kPa / 적재하중 : 20.0 kPa)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/구조.pdf",
+          "source_locator": {
+            "page": 56,
+            "sheet_no": "S-301",
+            "tile": "output/wf2/hwaseong/tiles/구조_p056/r0c0.png",
+            "tile_box": [
+              0.15,
+              0.205,
+              0.53,
+              0.235
+            ],
+            "bbox": [
+              78.5,
+              107.3,
+              277.5,
+              123.0
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_3F_floor_load_tpm2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지상3층 구조평면도(S-116) 창고 슬래브 부호 PS1",
+          "raw_value": 20.0,
+          "raw_unit": "kPa",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|temp",
+      "label": "층 온도대 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지상3층 10,913.05 3,301.20 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지하1층~지상3층 : 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.36,
+              0.79,
+              0.39
+            ],
+            "bbox": [
+              141.4,
+              188.5,
+              413.6,
+              204.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_3F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|use",
+      "label": "층 용도 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지상3층 10,913.05 3,301.20 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지상3층 물류창고 8,328.36",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.12,
+              0.375,
+              0.34,
+              0.41
+            ],
+            "bbox": [
+              62.8,
+              610.3,
+              178.0,
+              623.3
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_3F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|4F|area_m2",
+      "label": "층 면적 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8101.98,
+          "unit": "m2",
+          "raw_text": "지상4층 8,101.98 2,450.84 저온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 8101.98,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 7821.34,
+          "unit": "m2",
+          "raw_text": "지상4층 총계 7,821.34",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.77,
+              0.425,
+              0.875,
+              0.46
+            ],
+            "bbox": [
+              403.2,
+              628.8,
+              458.2,
+              641.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_4F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 7821.34,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": 7821.34,
+          "unit": "m2",
+          "raw_text": "지상4층 총계 7,821.34 (물류창고 7,821.34)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.77,
+              0.425,
+              0.875,
+              0.46
+            ],
+            "bbox": [
+              403.2,
+              628.8,
+              458.2,
+              641.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_4F_area_m2_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "재판독(IM 8,101.98 주장). A-011 층별개요 지상4층 총계 7,821.34, 물류창고 열 7,821.34(다른 용도 열 '-'). A-022 지상4층 합계 7,821.34㎡ 동일",
+          "raw_value": 7821.34,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "overstated",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|4F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.2,
+          "unit": "m",
+          "raw_text": "유효고8.2m 이상 확보",
+          "precision": "lower_bound",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'상온 층고10m, 저온 층고9m로 유효고8.2m 이상 확보' 전층 공통 문구",
+          "raw_value": 8.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|4F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "창고야드40ft 컨테이너및대형화물차량전층접안가능",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 21
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'전층' 표기. p21 이미지의 야드 표시(지하1층·1층·3층·4층 야드) 층에 기재. 2F(사무실)는 야드 표기 없음",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "4F YARD 소형화물차 17대",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 13,
+            "sheet_no": "A-104",
+            "tile": "output/wf2/hwaseong/tiles/건축_p013/r0c1.png",
+            "tile_box": [
+              0.37,
+              0.77,
+              0.47,
+              0.81
+            ],
+            "bbox": [
+              665.0,
+              403.2,
+              717.4,
+              424.1
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_4F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "4F YARD는 RAMP#3(3F→4F)로 연결. 주차계획표 4F 소형 16",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|4F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "dock_route_column_conflict",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "4F YARD 진입·진출동선",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 13,
+            "sheet_no": "A-104",
+            "tile": "output/wf2/hwaseong/tiles/건축_p013/r0c1.png",
+            "tile_box": [
+              0.38,
+              0.47,
+              0.6,
+              0.99
+            ],
+            "bbox": [
+              670.3,
+              246.1,
+              785.5,
+              518.4
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_4F_dock_route_column_conflict_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "동선 표시선 기준·회전 궤적 검토 아님. RAMP#3 상단~4F YARD 회차 동선에 기둥 표시 없음. 램프 곡선부 반사경",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|4F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 9.0,
+          "unit": "m",
+          "raw_text": "저온층고9m",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'상온 층고10m, 저온 층고9m' — 온도대 기재",
+          "raw_value": 9,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 9.0,
+          "unit": "m",
+          "raw_text": "지상4층 EL+59.10 ~ RF EL+68.10 치수 9000",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 46,
+            "sheet_no": "A-221",
+            "tile": "output/wf2/hwaseong/tiles/건축_p046/r0c0.png",
+            "tile_box": [
+              0.15,
+              0.33,
+              0.26,
+              0.4
+            ],
+            "bbox": [
+              78.5,
+              172.8,
+              136.1,
+              209.4
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_4F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 9000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|4F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2.5,
+          "unit": "t/m2",
+          "raw_text": "저온2.5t/㎡",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'저온2.5t/㎡, 상온2.0t/㎡' — 온도대 기재",
+          "raw_value": 2.5,
+          "raw_unit": "t/m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 2.5493,
+          "unit": "t/m2",
+          "raw_text": "PS3 저온창고 (마감 : 3.75 kPa / 적재하중 : 25.0 kPa)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/구조.pdf",
+          "source_locator": {
+            "page": 56,
+            "sheet_no": "S-301",
+            "tile": "output/wf2/hwaseong/tiles/구조_p056/r0c1.png",
+            "tile_box": [
+              0.19,
+              0.2,
+              0.58,
+              0.235
+            ],
+            "bbox": [
+              570.8,
+              104.7,
+              775.0,
+              123.0
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_4F_floor_load_tpm2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지상4층 구조평면도(S-117) 창고 슬래브 부호 PS3. 4F YARD 슬래브 PS11 하역장 적재하중 25.0 kPa(S-302)",
+          "raw_value": 25.0,
+          "raw_unit": "kPa",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|4F|temp",
+      "label": "층 온도대 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "저온",
+          "unit": null,
+          "raw_text": "지상4층 8,101.98 2,450.84 저온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "p22 '지상4층 냉동·냉장 멀티형 창고, 영하25도~영상10도 커버 가능'",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "냉동",
+          "unit": null,
+          "raw_text": "지상4층: 냉동창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.36,
+              0.79,
+              0.39
+            ],
+            "bbox": [
+              141.4,
+              188.5,
+              413.6,
+              204.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_4F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "설계개요 규모란. 4F 평면 실명 '냉동물류창고-1~3'",
+          "flags": []
+        },
+        {
+          "value": "저온",
+          "unit": null,
+          "raw_text": "PS3 저온창고 (적재하중 : 25.0 kPa)",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/구조.pdf",
+          "source_locator": {
+            "page": 56,
+            "sheet_no": "S-301",
+            "tile": "output/wf2/hwaseong/tiles/구조_p056/r0c1.png",
+            "tile_box": [
+              0.19,
+              0.2,
+              0.58,
+              0.235
+            ],
+            "bbox": [
+              570.8,
+              104.7,
+              775.0,
+              123.0
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_4F_temp_1.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "구조 PC 슬래브 일람표 PS3·PS3B 용도명 '저온창고'(4F 구조평면 S-117 창고 슬래브 부호 PS3)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면상충",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|4F|use",
+      "label": "층 용도 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지상4층 8,101.98 2,450.84 저온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지상4층 물류창고 7,821.34",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.12,
+              0.425,
+              0.34,
+              0.46
+            ],
+            "bbox": [
+              62.8,
+              628.8,
+              178.0,
+              641.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_4F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B1|area_m2",
+      "label": "층 면적 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 13538.62,
+          "unit": "m2",
+          "raw_text": "지하1층 13,538.62 4,095.43 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 13538.62,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 13538.62,
+          "unit": "m2",
+          "raw_text": "지하1층 총계 13,538.62",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.77,
+              0.12,
+              0.875,
+              0.155
+            ],
+            "bbox": [
+              403.2,
+              515.8,
+              458.2,
+              528.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_B1_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "물류창고 12,487.92+기전실 389.76+BERTH 660.95",
+          "raw_value": 13538.62,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B1|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.2,
+          "unit": "m",
+          "raw_text": "유효고8.2m 이상 확보",
+          "precision": "lower_bound",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'상온 층고10m, 저온 층고9m로 유효고8.2m 이상 확보' 전층 공통 문구",
+          "raw_value": 8.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|direct_truck_access",
+      "label": "차량 직접접안 가능 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "창고야드40ft 컨테이너및대형화물차량전층접안가능",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 21
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'전층' 표기. p21 이미지의 야드 표시(지하1층·1층·3층·4층 야드) 층에 기재. 2F(사무실)는 야드 표기 없음",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "B1F YARD 화물주차 소형화물차 15대",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 10,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/hwaseong/tiles/건축_p010/r0c1.png",
+            "tile_box": [
+              0.25,
+              0.43,
+              0.38,
+              0.48
+            ],
+            "bbox": [
+              602.2,
+              225.1,
+              670.3,
+              251.3
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_B1_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "B1F YARD는 램프-2로 연결",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B1|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "dock_route_column_conflict",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "B1F YARD 진입·진출동선",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 10,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/hwaseong/tiles/건축_p010/r0c1.png",
+            "tile_box": [
+              0.0,
+              0.38,
+              0.85,
+              0.75
+            ],
+            "bbox": [
+              471.3,
+              199.0,
+              916.4,
+              392.7
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_B1_dock_route_column_conflict_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "동선 표시선 기준·회전 궤적 검토 아님. 램프-2 하단~B1F YARD 동선이 건물 외부 야드를 지나며 기둥 없음. 램프 곡선부 반사경 표시",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|floor_height_m",
+      "label": "층고(바닥~바닥) (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "상온층고10m",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'상온 층고10m, 저온 층고9m' — 온도대 기재, 층은 p16 용도 기준",
+          "raw_value": 10,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 10.0,
+          "unit": "m",
+          "raw_text": "지하1층 EL+29.10 ~ 지상1층 EL+39.10 치수 10000",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 46,
+            "sheet_no": "A-221",
+            "tile": "output/wf2/hwaseong/tiles/건축_p046/r0c0.png",
+            "tile_box": [
+              0.15,
+              0.525,
+              0.26,
+              0.6
+            ],
+            "bbox": [
+              78.5,
+              274.9,
+              136.1,
+              314.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_B1_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 10000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B1|floor_load_tpm2",
+      "label": "바닥 설계하중 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2.0,
+          "unit": "t/m2",
+          "raw_text": "상온2.0t/㎡",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 22
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "p22 '저온2.5t/㎡, 상온2.0t/㎡' — 층 특정 없이 온도대로만 기재, 층은 p16 용도 기준으로 매핑",
+          "raw_value": 2.0,
+          "raw_unit": "t/m2",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|temp",
+      "label": "층 온도대 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지하1층 13,538.62 4,095.43 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "지하1층~지상3층 : 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r0c0.png",
+            "tile_box": [
+              0.27,
+              0.36,
+              0.79,
+              0.39
+            ],
+            "bbox": [
+              141.4,
+              188.5,
+              413.6,
+              204.2
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_B1_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B1|use",
+      "label": "층 용도 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지하1층 13,538.62 4,095.43 상온창고",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "지하1층 물류창고 12,487.92",
+          "precision": "exact",
+          "source_doc": "input/hwaseong/drawings/건축.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "A-011",
+            "tile": "output/wf2/hwaseong/tiles/건축_p003/r1c0.png",
+            "tile_box": [
+              0.12,
+              0.12,
+              0.34,
+              0.155
+            ],
+            "bbox": [
+              62.8,
+              515.8,
+              178.0,
+              528.8
+            ],
+            "crop": "output/wf2/hwaseong/crops/floor_main_B1_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    }
+  ],
+  "validation": {
+    "im": {
+      "ok": true,
+      "errors": [],
+      "flags": []
+    },
+    "drawing": {
+      "ok": true,
+      "errors": [],
+      "flags": []
+    }
+  }
+}

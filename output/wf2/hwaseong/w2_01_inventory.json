@@ -1,0 +1,8952 @@
+{
+  "asset_id": "hwaseong",
+  "created_at": "2026-10-15T08:24:21+09:00",
+  "im": [
+    {
+      "path": "input/hwaseong/im/화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "name": "화성풀필먼트신흥 담보대출[IM]_250313.pdf",
+      "bytes": 8220830,
+      "format": "pdf_vector",
+      "pages": 45,
+      "scan_page_ratio": 0.18,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 70,
+          "scan": true,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 2,
+          "text_chars": 668,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 3,
+          "text_chars": 66,
+          "scan": true,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 4,
+          "text_chars": 28,
+          "scan": true,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 5,
+          "text_chars": 286,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 6,
+          "text_chars": 528,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 7,
+          "text_chars": 879,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 8,
+          "text_chars": 656,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 9,
+          "text_chars": 1147,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 10,
+          "text_chars": 772,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 11,
+          "text_chars": 1043,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 12,
+          "text_chars": 540,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 13,
+          "text_chars": 28,
+          "scan": true,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 14,
+          "text_chars": 574,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 15,
+          "text_chars": 181,
+          "scan": true,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 16,
+          "text_chars": 429,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 17,
+          "text_chars": 545,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 18,
+          "text_chars": 1435,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 19,
+          "text_chars": 666,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 20,
+          "text_chars": 344,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 21,
+          "text_chars": 426,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 22,
+          "text_chars": 657,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 23,
+          "text_chars": 30,
+          "scan": true,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 24,
+          "text_chars": 367,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 25,
+          "text_chars": 321,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 26,
+          "text_chars": 294,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 27,
+          "text_chars": 476,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 28,
+          "text_chars": 628,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 29,
+          "text_chars": 258,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 30,
+          "text_chars": 634,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 31,
+          "text_chars": 770,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 32,
+          "text_chars": 11,
+          "scan": true,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 33,
+          "text_chars": 541,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 34,
+          "text_chars": 386,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 35,
+          "text_chars": 703,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 36,
+          "text_chars": 746,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 37,
+          "text_chars": 31,
+          "scan": true,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 38,
+          "text_chars": 759,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 39,
+          "text_chars": 625,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 40,
+          "text_chars": 807,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 41,
+          "text_chars": 1068,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 42,
+          "text_chars": 777,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 43,
+          "text_chars": 600,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 44,
+          "text_chars": 610,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        },
+        {
+          "page": 45,
+          "text_chars": 571,
+          "scan": false,
+          "size_mm": [
+            287,
+            200
+          ],
+          "est_tiles": 1
+        }
+      ],
+      "est_tiles": 8,
+      "readable": true
+    }
+  ],
+  "drawings": [
+    {
+      "path": "input/hwaseong/drawings/건축.pdf",
+      "name": "건축.pdf",
+      "bytes": 68481842,
+      "format": "pdf_scan",
+      "pages": 95,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 32,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 27,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 28,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 36,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 37,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 38,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 39,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 40,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 41,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 42,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 43,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 44,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 45,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 46,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 47,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 48,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 49,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 50,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 51,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 52,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 53,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 54,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 55,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 56,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 57,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 58,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 59,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 60,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 61,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 62,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 63,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 64,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 65,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 66,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 67,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 68,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 69,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 70,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 71,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 72,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 73,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 74,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 75,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 76,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 77,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 78,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 79,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 80,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 81,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 82,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 83,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 84,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 85,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 86,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 87,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 88,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 89,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 90,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 91,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 92,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 93,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 94,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 95,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 190,
+      "readable": true
+    },
+    {
+      "path": "input/hwaseong/drawings/구조.pdf",
+      "name": "구조.pdf",
+      "bytes": 63755808,
+      "format": "pdf_scan",
+      "pages": 166,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 32,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 27,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 28,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 36,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 37,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 38,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 39,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 40,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 41,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 42,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 43,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 44,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 45,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 46,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 47,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 48,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 49,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 50,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 51,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 52,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 53,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 54,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 55,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 56,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 57,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 58,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 59,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 60,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 61,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 62,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 63,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 64,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 65,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 66,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 67,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 68,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 69,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 70,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 71,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 72,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 73,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 74,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 75,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 76,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 77,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 78,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 79,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 80,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 81,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 82,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 83,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 84,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 85,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 86,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 87,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 88,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 89,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 90,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 91,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 92,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 93,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 94,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 95,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 96,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 97,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 98,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 99,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 100,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 101,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 102,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 103,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 104,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 105,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 106,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 107,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 108,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 109,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 110,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 111,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 112,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 113,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 114,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 115,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 116,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 117,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 118,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 119,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 120,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 121,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 122,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 123,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 124,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 125,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 126,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 127,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 128,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 129,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 130,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 131,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 132,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 133,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 134,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 135,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 136,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 137,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 138,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 139,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 140,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 141,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 142,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 143,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 144,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 145,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 146,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 147,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 148,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 149,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 150,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 151,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 152,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 153,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 154,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 155,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 156,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 157,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 158,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 159,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 160,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 161,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 162,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 163,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 164,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 165,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 166,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 332,
+      "readable": true
+    },
+    {
+      "path": "input/hwaseong/drawings/기계.pdf",
+      "name": "기계.pdf",
+      "bytes": 39809845,
+      "format": "pdf_scan",
+      "pages": 95,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 32,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 27,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 28,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 36,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 37,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 38,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 39,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 40,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            412,
+            291
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 41,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 42,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 43,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 44,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 45,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 46,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 47,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 48,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 49,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 50,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 51,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            411,
+            290
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 52,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 53,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 54,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 55,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 56,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 57,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 58,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 59,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 60,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 61,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 62,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 63,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 64,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 65,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 66,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 67,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 68,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 69,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 70,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 71,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 72,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 73,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 74,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 75,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 76,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 77,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 78,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 79,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 80,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 81,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 82,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 83,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 84,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 85,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 86,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 87,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 88,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 89,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 90,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 91,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 92,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 93,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 94,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 95,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 190,
+      "readable": true
+    },
+    {
+      "path": "input/hwaseong/drawings/기계소방.pdf",
+      "name": "기계소방.pdf",
+      "bytes": 40536363,
+      "format": "pdf_scan",
+      "pages": 91,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 34,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 27,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 28,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 36,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 37,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 38,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 39,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 40,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 41,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 42,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 43,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 44,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 45,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 46,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 47,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 48,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 49,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 50,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 51,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 52,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 53,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 54,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 55,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 56,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 57,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 58,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 59,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 60,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 61,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 62,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 63,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 64,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 65,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 66,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 67,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 68,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 69,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 70,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 71,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 72,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 73,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 74,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 75,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 76,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 77,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 78,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 79,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 80,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 81,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 82,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 83,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 84,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 85,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 86,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 87,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 88,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 89,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 90,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 91,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 182,
+      "readable": true
+    },
+    {
+      "path": "input/hwaseong/drawings/전기.pdf",
+      "name": "전기.pdf",
+      "bytes": 52410604,
+      "format": "pdf_scan",
+      "pages": 91,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 32,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 27,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 28,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 36,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 37,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 38,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 39,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 40,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 41,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 42,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 43,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 44,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 45,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 46,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 47,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 48,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 49,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 50,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 51,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 52,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 53,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 54,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 55,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 56,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 57,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 58,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 59,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 60,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 61,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 62,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 63,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 64,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 65,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 66,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 67,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 68,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 69,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 70,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 71,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 72,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 73,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 74,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 75,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 76,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 77,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 78,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 79,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 80,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 81,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 82,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 83,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 84,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 85,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 86,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 87,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 88,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 89,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 90,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 91,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 182,
+      "readable": true
+    },
+    {
+      "path": "input/hwaseong/drawings/전기소방.pdf",
+      "name": "전기소방.pdf",
+      "bytes": 48200911,
+      "format": "pdf_scan",
+      "pages": 149,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 34,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 27,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 28,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 36,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 37,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 38,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 39,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 40,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 41,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 42,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 43,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 44,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 45,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 46,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 47,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 48,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 49,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 50,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 51,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 52,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 53,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 54,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 55,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 56,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 57,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 58,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 59,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 60,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 61,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 62,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 63,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 64,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 65,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 66,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 67,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 68,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 69,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 70,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 71,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 72,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 73,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 74,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 75,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 76,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 77,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 78,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 79,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 80,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 81,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 82,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 83,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 84,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 85,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 86,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 87,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 88,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 89,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 90,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 91,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 92,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 93,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 94,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 95,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 96,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 97,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 98,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 99,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 100,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 101,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 102,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 103,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 104,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 105,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 106,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 107,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 108,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 109,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 110,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 111,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 112,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 113,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 114,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 115,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 116,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 117,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 118,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 119,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 120,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 121,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 122,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 123,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 124,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 125,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 126,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 127,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 128,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 129,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 130,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 131,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 132,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 133,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 134,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 135,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 136,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 137,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 138,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 139,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 140,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 141,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 142,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 143,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 144,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 145,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 146,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 147,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 148,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 149,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 298,
+      "readable": true
+    },
+    {
+      "path": "input/hwaseong/drawings/조경.pdf",
+      "name": "조경.pdf",
+      "bytes": 23267872,
+      "format": "pdf_scan",
+      "pages": 22,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 32,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 44,
+      "readable": true
+    },
+    {
+      "path": "input/hwaseong/drawings/토목.pdf",
+      "name": "토목.pdf",
+      "bytes": 42730735,
+      "format": "pdf_scan",
+      "pages": 85,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 32,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 4,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 27,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 28,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 36,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 37,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 38,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            412,
+            291
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 39,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            412,
+            291
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 40,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 41,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 42,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 43,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 44,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 45,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 46,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 47,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 48,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 49,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 50,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 51,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 52,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 53,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 54,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 55,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 56,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 57,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 58,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 59,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 60,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 61,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 62,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 63,
+          "text_chars": 3,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 64,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 65,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 66,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 67,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 68,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 69,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 70,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 71,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 72,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 73,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 74,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 75,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 76,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 77,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 78,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 79,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 80,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 81,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 82,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 83,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 84,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 85,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 170,
+      "readable": true
+    },
+    {
+      "path": "input/hwaseong/drawings/통신.pdf",
+      "name": "통신.pdf",
+      "bytes": 21223229,
+      "format": "pdf_scan",
+      "pages": 43,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 32,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 11,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 12,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 13,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 14,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 15,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 16,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 17,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 18,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 19,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 20,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 21,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 22,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 23,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 24,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 25,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 26,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 27,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 28,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 29,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 30,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 31,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 32,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 33,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 34,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 35,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 36,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 37,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 38,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 39,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 40,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 41,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 42,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 43,
+          "text_chars": 0,
+          "scan": true,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 86,
+      "readable": true
+    }
+  ],
+  "dwg_requests": [],
+  "mode": "정규",
+  "est_vision_tiles": 1674,
+  "escalations": []
+}
