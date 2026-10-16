@@ -28,6 +28,26 @@
   {% set n = r.now or r.exit %}
   {% if r.severity_final == 'hold' %}<div class="small muted">보류 사유: {{ n.hold_reason }}</div>{% endif %}
   {% if r.inference_basis %}<div class="small">{{ r.inference_basis }}</div>{% endif %}
+  {% set rows = evidence.get(r.rule_id ~ '@' ~ (r.building_id or '')) or [] %}
+  {% if rows %}
+  <details class="evid" {% if r.severity_final != 'hold' %}open{% endif %}><summary class="small">판정 입력 근거 {{ rows|length }}건</summary>
+  <div class="cands">
+    {% for e in rows %}
+    <div class="opt">
+      <b class="small">{{ e.label }}</b>
+      {% if e.missing %}<div class="small muted">미확인 — 확정 값 없음</div>
+      {% else %}
+      <div class="val">{{ e.v.value }}{% if e.v.unit %} <span class="small muted">{{ e.v.unit }}</span>{% endif %}
+        <span class="chip">{{ e.v.status or e.v.source_grade }}</span>{% if e.v.method == 'vector' %} <span class="chip" title="도면에 치수로 적힌 값이 아니라 벡터 PDF 좌표로 잰 값">📐벡터 측정</span>{% endif %}</div>
+      {% if e.v.raw_text %}<div class="small">“{{ e.v.raw_text }}”</div>{% endif %}
+      <div class="small muted">{{ (e.v.source_doc or '').split('/')[-1] }}{% if e.loc.sheet_no %} · {{ e.loc.sheet_no }}{% endif %}
+        {% if e.v.source_doc and e.loc.page and e.v.source_doc.endswith('.pdf') %} <a href="/render?path={{ e.v.source_doc|urlencode }}&page={{ e.loc.page }}" target="_blank">원문 p{{ e.loc.page }}</a>{% endif %}</div>
+      {% if e.crop %}<a href="/file?path={{ e.crop|urlencode }}" target="_blank"><img src="/file?path={{ e.crop|urlencode }}" alt="판독 근거" loading="lazy"></a>{% endif %}
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div></details>
+  {% endif %}
   {{ comment_box('rule:' ~ r.rule_id ~ '@' ~ (r.building_id or '')) }}
 </div>
 {% endfor %}

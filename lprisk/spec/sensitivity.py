@@ -45,6 +45,18 @@ def mark_sensitivity(asset_id: str, ci: dict, meta: dict) -> None:
         return
     loc = load_location(asset_id)
     base_rec = provisional_record(asset_id, ci, meta)
+    # 미발견 필드마다 그 값이 없어서 판정 보류되는 룰 (G2에서 따로 짚기용)
+    holds: dict[str, set] = {}
+    for r in evaluate_profile(build_profile(base_rec, meta, loc), rules):
+        for h in (r.get("now"), r.get("exit")):
+            if not h or h.get("severity") != "hold":
+                continue
+            # '일부 창고층 미확인' 보류는 missing_inputs가 비어 올 수 있어 fact_deps 슬롯으로 대신한다
+            keys = h.get("missing_inputs") or [k for ks in (h.get("fact_deps") or {}).values() for k in ks]
+            for k in keys:
+                holds.setdefault(k, set()).add(r["rule_id"])
+    for m in ci.get("unresolved_missing") or []:
+        m["blocks_rules"] = sorted(holds.get(m.get("slot"), ()))
     for it in ci["items"]:
         values = {repr(c["value"]) for c in it["candidates"]}
         if len(values) < 2:

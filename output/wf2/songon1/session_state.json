@@ -1,0 +1,62 @@
+{
+  "asset_id": "songon1",
+  "state": "FINAL",
+  "mode": "도면 단독(IM 미제공, 사용자 승인)",
+  "ruleset_version": "ruleset-untagged@338c97e",
+  "created_at": "2026-10-15T10:39:26+09:00",
+  "history": [
+    {
+      "at": "2026-10-15T10:39:26+09:00",
+      "state": "INTAKE"
+    },
+    {
+      "at": "2026-10-15T10:39:46+09:00",
+      "state": "EXTRACTING",
+      "note": "NO_IM — 사용자 지시(2026-10-15)로 도면 단독 진행. 도면 11개 PDF 외 자료 참조 금지"
+    },
+    {
+      "at": "2026-10-15T11:20:54+09:00",
+      "state": "RECONCILED",
+      "note": "확인 40 / 자동확정 0"
+    },
+    {
+      "at": "2026-10-15T11:21:07+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "G2 대기 (도면 단독)"
+    },
+    {
+      "at": "2026-10-15T11:29:32+09:00",
+      "state": "PROFILED",
+      "note": "G2 반영"
+    },
+    {
+      "at": "2026-10-15T11:34:24+09:00",
+      "state": "EVALUATED",
+      "note": null
+    },
+    {
+      "at": "2026-10-15T11:36:53+09:00",
+      "state": "REPORT_DRAFT",
+      "note": null
+    },
+    {
+      "at": "2026-10-15T11:37:20+09:00",
+      "state": "REPORT_DRAFT",
+      "note": null
+    },
+    {
+      "at": "2026-10-15T11:37:20+09:00",
+      "state": "AWAITING_REVIEW",
+      "note": "G3 대기"
+    },
+    {
+      "at": "2026-10-16T09:29:16+09:00",
+      "state": "FINAL",
+      "note": "G3 승인"
+    }
+  ],
+  "halt_reason": null,
+  "revisions": [],
+  "final_report": "songon1_logistics_risk_report_final.md",
+  "final_report_html": "songon1_logistics_risk_report_final.html"
+}

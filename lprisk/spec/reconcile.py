@@ -194,7 +194,15 @@ def run(asset_id: str) -> dict:
             reference.append(item)
 
     # 도면에서 미발견인데 IM에도 없는 룰 입력 필드 → 미확인 사유를 G2 화면에 참고 표시
-    unresolved = [m for k, m in missing.items() if k not in {e["slot"] for e in reconciled}]
+    done = {e["slot"] for e in reconciled}
+    unresolved = []
+    for k, m in missing.items():
+        if k in done:
+            continue
+        fd = field_def(m["field"])
+        unresolved.append(dict(m, slot=k, label=Slot.from_key(k).label(), unit=fd.get("unit"),
+                               rule_input=bool(fd.get("rule_input")), blocks_rules=[]))
+    unresolved.sort(key=lambda m: (not m["rule_input"], m["slot"]))
 
     claims = []
     for i, c in enumerate(im.get("claims") or []):
@@ -209,7 +217,8 @@ def run(asset_id: str) -> dict:
                   "claims": claims, "unresolved_missing": unresolved, "location": loc,
                   "summary": {"needs_review": len(items), "auto_confirmed": len(auto),
                               "reference": len(reference), "claims": len(claims),
-                              "hint_requests": len(hint_requests)}}
+                              "hint_requests": len(hint_requests),
+                              "unresolved_rule_inputs": sum(1 for m in unresolved if m["rule_input"])}}
     try:
         mark_sensitivity(asset_id, conf_items, meta)
     except Exception as e:   # 룰·임계값 미비 시에도 대조 결과는 낸다
@@ -236,4 +245,12 @@ def _write_sheet_md(out_dir, ci: dict) -> None:
     for it in ci["items"]:
         cands = " / ".join(f"{c['origin']}={c['value']}" for c in it["candidates"])
         lines.append(f"| {it['label']} | {it['state']} | {it['direction'] or ''} | {cands} |")
+    miss = [m for m in ci.get("unresolved_missing") or [] if m.get("rule_input")]
+    if miss:
+        lines += ["", f"## 도면에서 찾지 못한 룰 입력 필드 ({len(miss)})", "",
+                  "값이 없으면 아래 룰이 ⚪ 판정 보류로 남는다. 확인 항목 일괄 처리에 포함되지 않는다.", "",
+                  "| 슬롯 | 사유 | 보류되는 룰 | 탐색 도면 |", "|---|---|---|---|"]
+        for m in miss:
+            lines.append(f"| {m['label']} | {m.get('missing_reason') or ''} | {', '.join(m.get('blocks_rules') or []) or '-'} | "
+                         f"{', '.join(m.get('searched') or [])} |")
     save_text(out_dir / "w2_04_confirmation_sheet.md", "\n".join(lines) + "\n")

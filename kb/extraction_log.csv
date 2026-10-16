@@ -18,3 +18,5 @@
 2026-10-15T09:49:20+09:00,hwaseong,asset|-|-|site_area_m2,site_area_m2,면적표,vision,low,29419.0,29961.0,확정,cand,
 2026-10-15T09:49:20+09:00,hwaseong,asset|-|-|site_area_m2,site_area_m2,면적표,vision_hinted,low,29419.0,29961.0,확정,cand,
 2026-10-15T09:49:20+09:00,hwaseong,building|main|-|cold_insulation_thickness_mm,cold_insulation_thickness_mm,단열계획도,vision,low,150.0,200.0,확정,cand,
+2026-10-15T11:29:32+09:00,songon1,building|main|-|ramp_slope_pct,ramp_slope_pct,램프상세도,vision,low,9.0909,10.0,확정,cand,채팅 지시: G2 전부 도면 값 채택
+2026-10-15T11:29:32+09:00,songon1,building|main|-|cold_insulation_thickness_mm,cold_insulation_thickness_mm,외벽상세도,vision,low,150.0,170.0,확정,cand,채팅 지시: G2 전부 도면 값 채택

@@ -1,0 +1,2406 @@
+{
+  "asset_id": "songon1",
+  "created_at": "2026-10-15T11:20:54+09:00",
+  "entries": [
+    {
+      "slot": "asset|-|-|site_area_m2",
+      "label": "대지면적",
+      "level": "asset",
+      "building_id": null,
+      "floor": null,
+      "field": "site_area_m2",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 29587.0,
+          "unit": "m2",
+          "raw_text": "대지면적 계 29,587.00 (신청면적)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c0.png",
+            "tile_box": [
+              0.6,
+              0.37,
+              0.7,
+              0.395
+            ],
+            "bbox": [
+              314.2,
+              193.7,
+              366.5,
+              206.8
+            ],
+            "crop": "output/wf2/songon1/crops/asset_x_x_site_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 29587.0,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "asset|-|-|truck_yard_depth_m",
+      "label": "트럭야드 깊이",
+      "level": "asset",
+      "building_id": null,
+      "floor": null,
+      "field": "truck_yard_depth_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "Y5~Y6 11,000 (하역장 구획 그리드)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "bbox": [
+              540,
+              162,
+              572,
+              174
+            ],
+            "crop": "output/wf2/songon1/crops/asset_x_x_truck_yard_depth_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "실내(필로티) 하역장: 1F·2F 하역장 구획이 Y5~Y6 1스팬(11,000)에 있고 남측 Y3~Y5(8,500+11,000)는 '차량통로(면적포함)'로 별도 표기(A-401 30,500=Y3~Y6, A-203·A-204 평면). 하역장 구획 깊이만 기재, 차로 제외. B2 북측 하역장은 별도 깊이 치수 없음. 3F 출하장은 트럭 구획선 6,000 표기(A-205). 구획 깊이=그리드 1스팬으로 읽은 것이므로 확인 필요",
+          "raw_value": 11000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|guard|-|floors_above",
+      "label": "지상층수 (guard)",
+      "level": "building",
+      "building_id": "guard",
+      "floor": null,
+      "field": "floors_above",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": 1,
+          "unit": "floor",
+          "raw_text": "나동:지상1층",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c0.png",
+            "tile_box": [
+              0.55,
+              0.565,
+              0.67,
+              0.58
+            ],
+            "bbox": [
+              288.0,
+              295.8,
+              350.8,
+              303.7
+            ],
+            "crop": "output/wf2/songon1/crops/building_guard_x_floors_above_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 1,
+          "raw_unit": "층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|guard|-|gross_floor_area_m2",
+      "label": "연면적 (guard)",
+      "level": "building",
+      "building_id": "guard",
+      "floor": null,
+      "field": "gross_floor_area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 12.0,
+          "unit": "m2",
+          "raw_text": "합 계(경비동) 12.00",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.53,
+              0.83,
+              0.62,
+              0.85
+            ],
+            "bbox": [
+              748.8,
+              434.6,
+              795.9,
+              445.1
+            ],
+            "crop": "output/wf2/songon1/crops/building_guard_x_gross_floor_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 12.0,
+          "raw_unit": "㎡",
+          "flags": [
+            "range_out"
+          ]
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|cold_insulation_material",
+      "label": "저온동 단열재 종류 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_insulation_material",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "우레탄",
+          "unit": null,
+          "raw_text": "THK170 우레탄발포 (메탈라스,부착용)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 98,
+            "sheet_no": "A-511",
+            "bbox": [
+              445,
+              263,
+              502,
+              279
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_cold_insulation_material_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "냉동창고 벽 THK170·바닥 THK150·천장 THK100 우레탄발포(A-511). 외피 THK125 EPS/그라스울 판넬은 별도",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|cold_insulation_thickness_mm",
+      "label": "저온동 단열재 두께 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_insulation_thickness_mm",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 170.0,
+          "unit": "mm",
+          "raw_text": "THK170 우레탄발포 (벽)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 98,
+            "sheet_no": "A-511",
+            "bbox": [
+              445,
+              263,
+              502,
+              279
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_cold_insulation_thickness_mm_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "부위별 두께 상이: 벽 170",
+          "raw_value": 170,
+          "raw_unit": "mm",
+          "flags": []
+        },
+        {
+          "value": 150.0,
+          "unit": "mm",
+          "raw_text": "THK150 우레탄발포 (B2 냉동실 바닥)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 98,
+            "sheet_no": "A-511",
+            "bbox": [
+              130,
+              628,
+              188,
+              642
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_cold_insulation_thickness_mm_1.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "부위별 두께 상이: 바닥 150, 천장 100(THK100 우레탄발포)",
+          "raw_value": 150,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면상충",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|column_span_x_m",
+      "label": "기둥 스팬(장변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_x_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "X열 11,000 (일부 10,000·12,000)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 6,
+            "sheet_no": "A-102",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p006/r0c0.png",
+            "tile_box": [
+              0.52,
+              0.32,
+              0.98,
+              0.34
+            ],
+            "bbox": [
+              272.3,
+              167.6,
+              513.1,
+              178.0
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_column_span_x_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "X0~X24 대부분 11,000, X7~X8 12,000·X8~X9 10,000 등 일부 상이(A-102·A-201~205 동일)",
+          "raw_value": 11000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|column_span_y_m",
+      "label": "기둥 스팬(단변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_y_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "Y4~Y9 11,000 (Y3~Y4 8,500, Y9~Y11 9,000)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "bbox": [
+              488,
+              162,
+              600,
+              174
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_column_span_y_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "Y열 스팬: Y3~Y4 8,500 / Y4~Y5·Y5~Y6·Y6~Y7·Y7~Y9 각 11,000 / Y9~Y11 9,000 (A-401 상단 치수열). 대표 스팬 11,000 기재",
+          "raw_value": 11000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|dock_count",
+      "label": "도크 수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "dock_count",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 106,
+          "unit": "ea",
+          "raw_text": "B2 41 + 1F 17 + 2F 22 + 3F 26 (평면도 접안 구획 직접 계수)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 54,
+            "sheet_no": "A-201",
+            "bbox": [
+              309.7,
+              294.7,
+              833.7,
+              353.6
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_dock_count_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "주차계획도(A-104) 주차시설표에는 화물 주차 항목 없음(승용 186대만) -> 층별 평면도에서 창고(전실·통로) 벽에 직각 접안한 트럭 구획을 직접 셈. B2: 표 해당없음 / 접안 확인 41 / 제외 0 / 북측 하역장, 구획마다 외벽 개구부(OHD), 하역장 바닥 B2 F.FL GL-8,100 vs 야드 B2 GL(EL+70.6, GL-9,200) 1,100 단차, 계단(DN) / A-201(p54). 창호일람표 A-612 지하2층 '오버헤드도어 & 도크씰' 1B 3+2B 3+3B 9+3C 26 = 41개소와 일치(4B 1개소는 도크씰 없는 OHD라 제외). 1F: 표 해당없음 / 접안 확인 17 / 제외 0 / 필로티 하역장(Y5~Y6) 북측 벽, 1st F.FL GL+1,100 vs 야드 1st GL ±0 1,100 단차, OHD&도크씰 / A-203(p56). A-612 지상1층 출입구 OHD&도크씰 1(2)+2(2)+3(3)+3a(10)=17개소와 일치. 2F: 표 해당없음 / 접안 확인 22 (북측 벽 17 + 동측 상온창고 벽 5) / 제외 0 / 고무데크범퍼(TYP.), 하역장 슬래브가 2nd F.FL보다 1,100 낮음(A-401·A-444), 상온용 OHD(A-612 5~12/OHD, 지상2·3층 하역장·출하장 계 20개소, 폭 3~9m 다구획형) / A-204(p57). 3F: 표 해당없음 / 접안 확인 26 (북측 벽 22 + 서측 '도크 W2,000' 컨테이너 4) / 제외 0 / 2F 지붕 위 출하장(옥상 야드이나 상온창고 벽 접안), 캐노피 선·고무데크범퍼(TYP.), 출하장 슬래브 3rd F.FL보다 1,100 낮음(A-444) / A-205(p58). B1: 화물주차 없음(부대시설). 합산: 41+17+22+26=106. 2F·3F는 OHD 수가 구획 수보다 적어(광폭 OHD) 문 수로 교차검증 불가 - 평면 트럭 도시 기준. 2F 동측 5구획·3F 서측 4구획은 벽 너머 상온창고 여부를 평면으로만 판단",
+          "raw_value": 106,
+          "raw_unit": "개",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|fire_compartment_max_m2",
+      "label": "방화구획 최대 면적 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "fire_compartment_max_m2",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": 2961.78,
+          "unit": "m2",
+          "raw_text": "① 3,027.30 -ⓐ-ⓑ-ⓕ 계 2,961.78",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 19,
+            "sheet_no": "A-124",
+            "bbox": [
+              38,
+              612,
+              96,
+              678
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_fire_compartment_max_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "방화구획 면적표 최대값: 2F ① 계 2,961.78(총 3,027.30에서 ⓐⓑⓕ 차감 기재). 기타: B2 ⑱ 2,832.28(-소계a), 3F ① 2,839.18(-소계a)·② 2,723.82·③ 2,760.00, 1F ⑪ 1,555.47(-소계a), B1 ⑦ 679.31(-소계a). p20(A-125)은 표제란 제목 '지상2층'이나 목록표상 지상3층(면적표 계 8,323.00)",
+          "raw_value": 2961.78,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|floors_above",
+      "label": "지상층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_above",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": 3,
+          "unit": "floor",
+          "raw_text": "가동:지하2층~지상3층",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c0.png",
+            "tile_box": [
+              0.55,
+              0.565,
+              0.67,
+              0.58
+            ],
+            "bbox": [
+              288.0,
+              295.8,
+              350.8,
+              303.7
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_floors_above_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 3,
+          "raw_unit": "층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|floors_below",
+      "label": "지하층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_below",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": 2,
+          "unit": "floor",
+          "raw_text": "가동:지하2층~지상3층",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c0.png",
+            "tile_box": [
+              0.55,
+              0.565,
+              0.67,
+              0.58
+            ],
+            "bbox": [
+              288.0,
+              295.8,
+              350.8,
+              303.7
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_floors_below_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지하1층은 부분층(부대시설 2,185.29㎡, 나머지는 B2 냉동창고 상부). 단면 A-401 B1st F.FL GL-3,800",
+          "raw_value": 2,
+          "raw_unit": "층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|gross_floor_area_m2",
+      "label": "연면적 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "gross_floor_area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 54982.92,
+          "unit": "m2",
+          "raw_text": "합 계(창고동) 54,982.92 (변경후 사용승인신청)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.53,
+              0.735,
+              0.62,
+              0.755
+            ],
+            "bbox": [
+              748.8,
+              384.8,
+              795.9,
+              395.3
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_gross_floor_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "설계개요 연면적 54,994.92㎡는 가동+나동(12.00㎡) 합계. 동별면적표의 창고동 합계를 기재",
+          "raw_value": 54982.92,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_form",
+      "label": "램프 형상 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_form",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "곡선형",
+          "unit": null,
+          "raw_text": "15,422(직선구간) + 60°(곡선구간), 30,578(곡선구간)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 77,
+            "sheet_no": "A-441",
+            "bbox": [
+              255,
+              115,
+              345,
+              222
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_ramp_form_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "직선 15,422 -> 60° 곡선 30,578(A-443) -> 남측 직선 44,000·99,000. 나선형 아님",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_slope_pct",
+      "label": "램프 경사 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_slope_pct",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": 10.0,
+          "unit": "pct",
+          "raw_text": "경사 표기 90/900 (1F->2F 구간)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 79,
+            "sheet_no": "A-443",
+            "bbox": [
+              398,
+              191,
+              465,
+              209
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_ramp_slope_pct_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "단면 경사 삼각형 표기 '90 / 900'을 1/10 비율로 기재(약분만, 경사 계산 없음). 램프 1F->2F 구간(직선 15,422+곡선 30,578)",
+          "raw_value": "1/10",
+          "raw_unit": "pct",
+          "flags": []
+        },
+        {
+          "value": 9.0909,
+          "unit": "pct",
+          "raw_text": "경사 표기 90/990 (2F->3F 구간)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 79,
+            "sheet_no": "A-443",
+            "bbox": [
+              873,
+              155,
+              945,
+              173
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_ramp_slope_pct_1.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "단면 경사 삼각형 표기 '90 / 990'을 1/11 비율로 기재. 램프 2F->3F 남측 직선구간(99,000). 구간별 값이며 문서 간 충돌은 아님",
+          "raw_value": "1/11",
+          "raw_unit": "pct",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면상충",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_type",
+      "label": "램프 통행 방향 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "양방향",
+          "unit": null,
+          "raw_text": "CAR IN / CAR OUT (램프 진입부 1개소)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 77,
+            "sheet_no": "A-441",
+            "bbox": [
+              150,
+              112,
+              215,
+              152
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_ramp_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지상2·3층용 차량램프 1개소(서측 곡선부->남측 직선부, 폭 9,600)에 'CAR IN'·'CAR OUT'과 차로별 반대 방향 화살표 표기 -> 램프 1개소가 상·하행을 모두 받음. B2·1F는 대지 레벨 직접 접안(램프 아님)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_width_m",
+      "label": "램프 폭 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_width_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 9.6,
+          "unit": "m",
+          "raw_text": "9,600 (램프 진입부 폭)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 77,
+            "sheet_no": "A-441",
+            "bbox": [
+              160,
+              115,
+              192,
+              136
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_ramp_width_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "램프 진입부(CAR IN/OUT) 직교 치수. 남측 직선부 그리드 Y2~Y3 9,500",
+          "raw_value": 9600,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|refrigerant",
+      "label": "냉매 종류 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "refrigerant",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "프레온계열",
+          "unit": null,
+          "raw_text": "R-404A SCREW CONDENSING UNIT",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/8-1설비-냉동.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "MR-004",
+            "bbox": [
+              534,
+              187,
+              540,
+              268
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_refrigerant_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "장비일람표 MR-002 'R-404' 다수, P&ID MR-004 'R-404A SCREW CONDENSING UNIT'. 응축기 상세 MR-031(SHa37E)에 'R-22 GAS INLET' 표기 있음(프레온계열 동일)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|refrigeration_system",
+      "label": "냉동설비 형식 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "refrigeration_system",
+      "rule_input": false,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "반밀폐형 스크류식(수냉식) CDU + 유닛쿨러, R-404A",
+          "unit": null,
+          "raw_text": "반밀폐형 스크류식 (수냉식) R-404 CDU",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/8-1설비-냉동.pdf",
+          "source_locator": {
+            "page": 3,
+            "sheet_no": "MR-002",
+            "bbox": [
+              520,
+              79,
+              612,
+              520
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_refrigeration_system_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "KOBE(JAPAN) 반밀폐 스크류 압축기 CDU 1~5, UNIT COOLER(KE·SY 계열), COOLING TOWER 700RT(MR-048)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|roof_panel_core",
+      "label": "지붕 패널 심재 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "roof_panel_core",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "EPS",
+          "unit": null,
+          "raw_text": "가동:T225 EPS판넬 경사지붕",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c0.png",
+            "tile_box": [
+              0.53,
+              0.54,
+              0.68,
+              0.555
+            ],
+            "bbox": [
+              277.5,
+              282.7,
+              356.0,
+              290.6
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_roof_panel_core_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지붕평면도 A-206 'THK225 EPS판넬(준불연)'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|sprinkler_type",
+      "label": "스프링클러 형식 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "sprinkler_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "표준형",
+          "unit": null,
+          "raw_text": "Φ15 스프링클러 헤드 (폐쇄형) / 드라이펜던트형(표준반응형)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/7-1.설비-기계소방.pdf",
+          "source_locator": {
+            "page": 6,
+            "sheet_no": "MF-101",
+            "bbox": [
+              714,
+              430,
+              746,
+              512
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_sprinkler_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "소화설비 범례(벡터 텍스트): Φ15 폐쇄형 헤드, 상향식·하향식·상하향식, 드라이펜던트형(표준반응형); 1F 필로티 하역장 '조기반응형 헤드 68℃'(MF-123). 냉동창고 계통은 프리액션 밸브(준비작동식, MF-102 'Φ150프리액션 밸브'), 기타는 ALARM VALVE. ESFR·랙인랙 표기 없음. 헤드 종류 기준 표준형",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|structure_type",
+      "label": "구조형식 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "structure_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "복합",
+          "unit": null,
+          "raw_text": "가동:PC+RC 복합구조",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c0.png",
+            "tile_box": [
+              0.53,
+              0.51,
+              0.68,
+              0.535
+            ],
+            "bbox": [
+              277.5,
+              267.0,
+              356.0,
+              280.1
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_structure_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "구조일반사항 S-021 1.2 건물개요 'PC + RC 복합골조'. 지붕 철골(S-119), 3F 철골기둥(S-117)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|terrain_multi_level_access",
+      "label": "지형 단차 진입도로로 여러 층 직접 접안 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "terrain_multi_level_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "B2nd GL EL+70.6 / 1st GL ±0 EL+79.8",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 7,
+            "sheet_no": "A-103",
+            "bbox": [
+              655,
+              143,
+              810,
+              312
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_terrain_multi_level_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "대지 종단면도(A-103): 북측 8.0M 확보도로 쪽 지반 'B2nd GL EL+70.6'(GL-9,200), 남측 '1st GL ±0 EL+79.8'. 배치도(A-102)·주차계획도(A-104): 북측 주출입구 GL-9,200(EL+70.6)에서 B2 하역장(북측)에 직접 접안, 서·동측 대지 경사로를 거쳐 GL ±0(EL+79.8)에서 1F 필로티 하역장(남측)에 직접 접안. B2 F.FL GL-8,100·1F F.FL GL+1,100으로 각각 야드보다 1,100 높음. 2F·3F는 건물 램프(A-441~444)로 연결. 출입구 표기 '지상1,2,3층창고 차량출입구'·'지상2,3층창고 차량출입구'·'지상3층창고 차량출입구'·'지상1층창고 차량출입구'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|wall_panel_core",
+      "label": "외벽 패널 심재 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "wall_panel_core",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "EPS",
+          "unit": null,
+          "raw_text": "THK125 EPS판넬 (외벽판넬) / 외벽마감(4면:T125EPS판넬-준불연)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 98,
+            "sheet_no": "A-511",
+            "bbox": [
+              445,
+              280,
+              495,
+              295
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_wall_panel_core_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "평면도 A-201~205 외벽 주기 '외벽마감(4면:T125EPS판넬-준불연)'. 방화구획벽은 T125 그라스울판넬(별도)",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|warehouse_depth_m",
+      "label": "창고 내부 깊이(하역장 측 벽~반대편 벽) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "warehouse_depth_m",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": 31.0,
+          "unit": "m",
+          "raw_text": "Y6~Y11 31,000",
+          "precision": "lower_bound",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "bbox": [
+              636,
+              174,
+              676,
+              191
+            ],
+            "crop": "output/wf2/songon1/crops/building_main_x_warehouse_depth_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "1F~3F 하역장 측 벽(Y6)에서 북측 외벽(Y11)까지 창고 깊이 치수 31,000(A-401·A-206 기재). 하역장(Y5~Y6)·차량통로(Y3~Y5) 30,500은 제외. B2는 북측(Y10~Y11) 하역장에서 남측 외벽까지 창고가 이어지나 단일 치수 표기 없음(전체 83,500 등 그리드 합만 있음) -> 계산하지 않음. 2F·3F 동·서측으로 하역장을 감싸는 창고 구역 깊이도 단일 치수 없음. B2가 더 깊으므로 31,000은 하한값",
+          "raw_value": 31000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|guard|1F|use",
+      "label": "층 용도 (guard 1F)",
+      "level": "floor",
+      "building_id": "guard",
+      "floor": "1F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "기타",
+          "unit": null,
+          "raw_text": "경비실 12.00",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.8,
+              0.53,
+              0.82
+            ],
+            "bbox": [
+              691.2,
+              418.9,
+              748.8,
+              429.4
+            ],
+            "crop": "output/wf2/songon1/crops/floor_guard_1F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "부속 경비동",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|area_m2",
+      "label": "층 면적 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 11692.23,
+          "unit": "m2",
+          "raw_text": "계 11,692.23",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.53,
+              0.445,
+              0.62,
+              0.465
+            ],
+            "bbox": [
+              748.8,
+              233.0,
+              795.9,
+              243.5
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_1F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "동별면적표 변경후(사용승인신청) 층 계(하역장·차량통로·램프 포함 바닥면적)",
+          "raw_value": 11692.23,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 트럭 접안 구획",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 56,
+            "sheet_no": "A-203",
+            "bbox": [
+              440.7,
+              399.9,
+              637.2,
+              458.9
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_1F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "필로티 하역장 17구획, 대지 레벨(1st GL ±0) 직접 접안",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 8.85,
+          "unit": "m",
+          "raw_text": "8,850 (1st F.FL~2nd F.FL)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "bbox": [
+              953,
+              363,
+              977,
+              407
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_1F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "A-103 대지단면도는 2nd F.FL을 GL+9,500으로 표기(A-401·A-443은 GL+9,950) - 치수 8,850·9,150은 GL+9,950과 일치",
+          "raw_value": 8850,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|temp",
+      "label": "층 온도대 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "냉동",
+          "unit": null,
+          "raw_text": "창고시설(냉동창고) 9,164.01 / 하역장·차량통로·화장실",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.35,
+              0.53,
+              0.37
+            ],
+            "bbox": [
+              691.2,
+              183.3,
+              748.8,
+              193.7
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_1F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "평면 A-203 냉동창고 '(-25℃)'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|use",
+      "label": "층 용도 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고시설(냉동창고) 9,164.01 / 하역장·차량통로·화장실",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.35,
+              0.53,
+              0.37
+            ],
+            "bbox": [
+              691.2,
+              183.3,
+              748.8,
+              193.7
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_1F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|area_m2",
+      "label": "층 면적 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 12678.64,
+          "unit": "m2",
+          "raw_text": "계 12,678.64",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.53,
+              0.59,
+              0.62,
+              0.61
+            ],
+            "bbox": [
+              748.8,
+              308.9,
+              795.9,
+              319.4
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_2F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "동별면적표 변경후(사용승인신청) 층 계(하역장·차량통로·램프 포함 바닥면적)",
+          "raw_value": 12678.64,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 트럭 접안 구획",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 57,
+            "sheet_no": "A-204",
+            "bbox": [
+              422.8,
+              399.9,
+              643.1,
+              538.9
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_2F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "하역장 22구획, 램프(A-441) 경유 접안",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 9.15,
+          "unit": "m",
+          "raw_text": "9,150 (2nd F.FL~3rd F.FL)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "bbox": [
+              953,
+              318,
+              977,
+              367
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_2F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "raw_value": 9150,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|temp",
+      "label": "층 온도대 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "창고시설(상온창고) 9,214.04 / 하역장·차량램프·차량통로",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.47,
+              0.53,
+              0.49
+            ],
+            "bbox": [
+              691.2,
+              246.1,
+              748.8,
+              256.6
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_2F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|use",
+      "label": "층 용도 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고시설(상온창고) 9,214.04 / 하역장·차량램프·차량통로",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.47,
+              0.53,
+              0.49
+            ],
+            "bbox": [
+              691.2,
+              246.1,
+              748.8,
+              256.6
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_2F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|area_m2",
+      "label": "층 면적 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 9506.63,
+          "unit": "m2",
+          "raw_text": "계 9,506.63",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.53,
+              0.685,
+              0.62,
+              0.705
+            ],
+            "bbox": [
+              748.8,
+              358.7,
+              795.9,
+              369.1
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_3F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "동별면적표 변경후(사용승인신청) 층 계(하역장·차량통로·램프 포함 바닥면적)",
+          "raw_value": 9506.63,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 8.0,
+          "unit": "m",
+          "raw_text": "3rd F.FL GL+19,100 ~ 지붕골조하단 GL+27,100 : 8,000",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "bbox": [
+              953,
+              283,
+              977,
+              322
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_3F_clear_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "3F 바닥~지붕 철골 하단(처마측 최저) 치수. '유효' 표기 아님 - 조명·배관·스프링클러 하단 미반영, 지붕 경사(30/305)로 중앙부는 더 높음",
+          "raw_value": 8000,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 트럭 접안 구획",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 58,
+            "sheet_no": "A-205",
+            "bbox": [
+              476.4,
+              362.1,
+              839.7,
+              522.0
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_3F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "2F 지붕 위 출하장 26구획, 램프(A-442) 경유 접안",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|temp",
+      "label": "층 온도대 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "창고시설(상온창고) 8,344.57 / 차량램프 1,162.06",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.64,
+              0.53,
+              0.66
+            ],
+            "bbox": [
+              691.2,
+              335.1,
+              748.8,
+              345.6
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_3F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|use",
+      "label": "층 용도 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고시설(상온창고) 8,344.57 / 차량램프 1,162.06",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.64,
+              0.53,
+              0.66
+            ],
+            "bbox": [
+              691.2,
+              335.1,
+              748.8,
+              345.6
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_3F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|area_m2",
+      "label": "층 면적 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 2185.29,
+          "unit": "m2",
+          "raw_text": "계 2,185.29",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.53,
+              0.3,
+              0.62,
+              0.32
+            ],
+            "bbox": [
+              748.8,
+              157.1,
+              795.9,
+              167.6
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B1_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "동별면적표 변경후(사용승인신청) 층 계(하역장·차량통로·램프 포함 바닥면적)",
+          "raw_value": 2185.29,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|floor_height_m",
+      "label": "층고(바닥~바닥) (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 4.9,
+          "unit": "m",
+          "raw_text": "4,900 (B1st F.FL~1st F.FL)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "bbox": [
+              940,
+              398,
+              958,
+              437
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B1_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "B1 F.FL GL-3,800 -> 1F F.FL GL+1,100",
+          "raw_value": 4900,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|use",
+      "label": "층 용도 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "기타",
+          "unit": null,
+          "raw_text": "창고시설(부대시설) 2,185.29",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.255,
+              0.53,
+              0.27
+            ],
+            "bbox": [
+              691.2,
+              133.5,
+              748.8,
+              141.4
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B1_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "지하1층 평면(A-202): 냉동기계실·전기실·사무실 등 부대시설, 나머지는 B2 냉동창고 상부. 창고·사무 단일 용도 아님 -> 기타",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|area_m2",
+      "label": "층 면적 (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 18920.13,
+          "unit": "m2",
+          "raw_text": "계 18,920.13",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.53,
+              0.23,
+              0.62,
+              0.25
+            ],
+            "bbox": [
+              748.8,
+              120.4,
+              795.9,
+              130.9
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B2_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "동별면적표 변경후(사용승인신청) 층 계(하역장·차량통로·램프 포함 바닥면적)",
+          "raw_value": 18920.13,
+          "raw_unit": "㎡",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|direct_truck_access",
+      "label": "차량 직접접안 가능 (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "하역장 트럭 접안 구획",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 54,
+            "sheet_no": "A-201",
+            "bbox": [
+              309.7,
+              294.7,
+              833.7,
+              353.6
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B2_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "북측 하역장 41구획, 대지 레벨(B2 GL EL+70.6) 직접 접안",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|floor_height_m",
+      "label": "층고(바닥~바닥) (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 9.2,
+          "unit": "m",
+          "raw_text": "9,200 (B2nd F.FL~1st F.FL)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "bbox": [
+              953,
+              405,
+              977,
+              447
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B2_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "B1 부분층: B2 F.FL~B1 F.FL 4,300",
+          "raw_value": 9200,
+          "raw_unit": "mm",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|temp",
+      "label": "층 온도대 (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "냉동",
+          "unit": null,
+          "raw_text": "창고시설(냉동창고) 17,618.30 / 하역장 1,301.83",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.155,
+              0.53,
+              0.175
+            ],
+            "bbox": [
+              691.2,
+              81.2,
+              748.8,
+              91.6
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B2_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "평면 A-201 냉동창고#1~#11 '(-25℃)'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|use",
+      "label": "층 용도 (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고시설(냉동창고) 17,618.30 / 하역장 1,301.83",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 5,
+            "sheet_no": "A-101",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p005/r0c1.png",
+            "tile_box": [
+              0.42,
+              0.155,
+              0.53,
+              0.175
+            ],
+            "bbox": [
+              691.2,
+              81.2,
+              748.8,
+              91.6
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B2_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    }
+  ],
+  "validation": {
+    "im": {
+      "ok": true,
+      "errors": [],
+      "flags": []
+    },
+    "drawing": {
+      "ok": true,
+      "errors": [],
+      "flags": [
+        {
+          "slot": "building|guard|-|gross_floor_area_m2",
+          "index": 0,
+          "flag": "range_out",
+          "value": 12.0
+        }
+      ]
+    }
+  }
+}

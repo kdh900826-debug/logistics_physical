@@ -76,7 +76,9 @@ def g2(asset_id):
     ci = load_json(p)
     meta = load_yaml(input_dir(asset_id) / "asset_meta.yaml")
     done = (out / "w2_05_user_response.json").exists()
-    return render_template("g2.html", ci=ci, meta=meta, asset_id=asset_id, done=done)
+    inv = out / "w2_01_inventory.json"
+    docs = [d["path"] for d in load_json(inv).get("drawings", [])] if inv.exists() else []
+    return render_template("g2.html", ci=ci, meta=meta, asset_id=asset_id, done=done, docs=docs)
 
 
 @app.post("/api/g2/<asset_id>")
@@ -95,6 +97,35 @@ def g2_submit(asset_id):
     return jsonify({"ok": True, "saved": f"output/wf2/{asset_id}/w2_05_user_response.json"})
 
 
+def _g3_evidence(out: Path, cards: list[dict]) -> dict:
+    """룰 카드별 판정 입력값의 근거 (확정 스펙 값·출처·크롭). 키: rule_id@building_id."""
+    from ..schema import Slot, iter_slots
+    p = out / "w2_05_confirmed_spec.json"
+    confirmed = {s.key: vs for s, vs in iter_slots(load_json(p))} if p.exists() else {}
+    ev = {}
+    for r in cards:
+        rows, seen = [], set()
+        for h in (r.get("now"), r.get("exit")):
+            if not h:
+                continue
+            missing = set(h.get("missing_inputs") or [])
+            deps = [k for ks in (h.get("fact_deps") or {}).values() for k in ks] + sorted(missing)
+            for key in deps:
+                if key in seen:
+                    continue
+                seen.add(key)
+                if key.count("|") != 3:      # asset_meta 입력·임계값 등 스펙 슬롯이 아닌 의존
+                    rows.append({"slot": key, "label": key, "v": None, "loc": {}, "crop": None, "missing": True})
+                    continue
+                vals =[v for v in confirmed.get(key, []) if v.get("value") is not None]
+                v = vals[0] if vals else None
+                loc = (v or {}).get("source_locator") or {}
+                rows.append({"slot": key, "label": Slot.from_key(key).label(), "v": v, "loc": loc,
+                             "crop": loc.get("crop"), "missing": v is None})
+        ev[f"{r['rule_id']}@{r.get('building_id') or ''}"] = rows
+    return ev
+
+
 @app.get("/g3/<asset_id>")
 def g3(asset_id):
     out = wf2_dir(asset_id)
@@ -105,6 +136,7 @@ def g3(asset_id):
     cards = sorted([r for r in ev["results"] if r["status"] in ("triggered", "hold")],
                    key=lambda r: (order[r["severity_final"]], r["rule_id"]))
     return render_template("g3.html", asset_id=asset_id, meta=meta, cards=cards,
+                           evidence=_g3_evidence(out, cards),
                            report_html=_md_html(report.read_text(encoding="utf-8")) if report else None,
                            done=(out / "w2_11_review_response.json").exists())
 

@@ -1,0 +1,384 @@
+{
+  "summary": {
+    "asset_id": "songon1",
+    "target": "confirmed",
+    "checked_at": "2026-10-16T09:31:06+09:00",
+    "gold_slots": 47,
+    "correct": 34,
+    "wrong": 3,
+    "missed": 10,
+    "extra_slots": 12
+  },
+  "rows": [
+    {
+      "slot": "asset|-|-|site_area_m2",
+      "gold": 29587.0,
+      "got": [
+        29587.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|guard|-|floors_above",
+      "gold": 1,
+      "got": [
+        1
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|cold_insulation_material",
+      "gold": "우레탄",
+      "got": [
+        "우레탄"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|column_span_x_m",
+      "gold": 11.0,
+      "got": [
+        11.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|column_span_y_m",
+      "gold": 11.0,
+      "got": [
+        11.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|completion_year",
+      "gold": 2021,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|fire_compartment_max_m2",
+      "gold": 3000.0,
+      "got": [
+        2961.78
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|floors_above",
+      "gold": 3,
+      "got": [
+        3
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|floors_below",
+      "gold": 2,
+      "got": [
+        2
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|freight_elevator_count",
+      "gold": 0,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|gross_floor_area_m2",
+      "gold": 54982.92,
+      "got": [
+        54982.92
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|power_capacity_kw",
+      "gold": 3500.0,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|ramp_form",
+      "gold": "곡선형",
+      "got": [
+        "곡선형"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|ramp_type",
+      "gold": "양방향",
+      "got": [
+        "양방향"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|refrigeration_system",
+      "gold": "수냉식 반밀폐 스크류 컨덴싱유닛 24대 + 유닛쿨러 24대(살수제상 16·전기제상 8) + 냉각탑 700RT×2",
+      "got": [
+        "반밀폐형 스크류식(수냉식) CDU + 유닛쿨러, R-404A"
+      ],
+      "result": "오답"
+    },
+    {
+      "slot": "building|main|-|roof_panel_core",
+      "gold": "EPS",
+      "got": [
+        "EPS"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|sprinkler_type",
+      "gold": "준비작동식",
+      "got": [
+        "표준형"
+      ],
+      "result": "오답"
+    },
+    {
+      "slot": "building|main|-|structure_type",
+      "gold": "복합",
+      "got": [
+        "복합"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|transformer_capacity_kva",
+      "gold": 3500.0,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|wall_panel_core",
+      "gold": "EPS",
+      "got": [
+        "EPS"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|area_m2",
+      "gold": 11692.97,
+      "got": [
+        11692.23
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|floor_height_m",
+      "gold": 8.85,
+      "got": [
+        8.85
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|floor_load_tpm2",
+      "gold": 2.2434,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|1F|temp",
+      "gold": "냉동",
+      "got": [
+        "냉동"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|2F|area_m2",
+      "gold": 12678.64,
+      "got": [
+        12678.64
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|2F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|2F|dock_route_column_conflict",
+      "gold": true,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|2F|floor_height_m",
+      "gold": 9.15,
+      "got": [
+        9.15
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|2F|floor_load_tpm2",
+      "gold": 2.2434,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|2F|temp",
+      "gold": "상온",
+      "got": [
+        "상온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|2F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|area_m2",
+      "gold": 9506.63,
+      "got": [
+        9506.63
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|floor_height_m",
+      "gold": 8.0,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|3F|floor_load_tpm2",
+      "gold": 2.2434,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|3F|temp",
+      "gold": "상온",
+      "got": [
+        "상온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B1|area_m2",
+      "gold": 2185.29,
+      "got": [
+        2185.29
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B1|use",
+      "gold": "기계",
+      "got": [
+        "기타"
+      ],
+      "result": "오답"
+    },
+    {
+      "slot": "floor|main|B2|area_m2",
+      "gold": 18920.13,
+      "got": [
+        18920.13
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B2|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B2|floor_height_m",
+      "gold": 9.2,
+      "got": [
+        9.2
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B2|floor_load_tpm2",
+      "gold": 2.2434,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|B2|temp",
+      "gold": "냉동",
+      "got": [
+        "냉동"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B2|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    }
+  ],
+  "extra": [
+    "asset|-|-|truck_yard_depth_m",
+    "building|guard|-|gross_floor_area_m2",
+    "building|main|-|cold_insulation_thickness_mm",
+    "building|main|-|dock_count",
+    "building|main|-|ramp_slope_pct",
+    "building|main|-|ramp_width_m",
+    "building|main|-|refrigerant",
+    "building|main|-|terrain_multi_level_access",
+    "building|main|-|warehouse_depth_m",
+    "floor|guard|1F|use",
+    "floor|main|3F|clear_height_m",
+    "floor|main|B1|floor_height_m"
+  ]
+}

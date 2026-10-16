@@ -28,7 +28,7 @@
 | W2-③ 1단계 분류 | `python -m lprisk classify-sheets {a}` → `drawing-classifier` 호출 | |
 | W2-③ 2단계 판독 | `drawing-extractor` 호출 (mode **blind**). IM 경로를 프롬프트에 넣지 않는다 | |
 | W2-④ 대조 | `python -m lprisk reconcile {a}` → `hint_requests > 0`이면 `drawing-extractor`(mode **hinted**) 호출 후 `reconcile` 한 번 더 | RECONCILED |
-| **G2** | 리뷰 서버를 띄우고(아래) 채팅에 URL과 요약(확인 필요 n / 자동 확정 m / 서술형 주장 k)만 출력하고 **멈춘다** | AWAITING_CONFIRMATION |
+| **G2** | 리뷰 서버를 띄우고(아래) 채팅에 URL과 요약(확인 필요 n / 자동 확정 m / 서술형 주장 k / **미발견 룰 입력 u**)을 출력하고 **멈춘다**. u > 0이면 `w2_04_confirmation_items.json`의 `unresolved_missing` 중 `rule_input: true`를 `필드(층) — 보류되는 룰(blocks_rules)` 목록으로 따로 짚는다 | AWAITING_CONFIRMATION |
 | W2-⑤ 반영 | 사용자가 "계속" → `output/wf2/{a}/w2_05_user_response.json` 존재 확인 → `python -m lprisk apply-confirmation {a}` | PROFILED |
 | W2-⑥ 프로파일 | `python -m lprisk profile {a}` | |
 | W2-⑦ 벤치마크 | 1단계 미구현 — 스킵(보고서에 "벤치마크 미적용") | |
@@ -42,6 +42,7 @@
 - 기동: 포트 8765가 비어 있으면 `python -m lprisk review --no-browser` 를 백그라운드로 실행한다. 이미 떠 있으면 재사용한다.
 - 화면: `http://127.0.0.1:8765/g2/{a}`, `/g3/{a}`, `/report/{a}`
 - 사용자가 채팅으로 값을 알려 주면(예: "3층 하중은 1.2t") 그 내용을 `w2_05_user_response.json`의 `decisions`에 `{"action": "correct", "value": ..., "reason": "채팅 지시"}`로 반영해도 된다. 도면 판독값을 확정하라는 지시면 `{"action": "cand", "cand_id": "drawing:0"}`. 일괄 지시("나머지 미확인")는 `"bulk": "rest_unconfirmed"`.
+- 일괄 지시("전부 도면 값 채택", "나머지 미확인")는 **확인 항목에만** 적용된다. 미발견 룰 입력 필드는 그대로 ⚪로 남으므로, 일괄 지시를 반영할 때 그 목록(필드·층·보류 룰·탐색 도면)을 채팅에 다시 보여 주고 "이 필드는 미확인으로 남는다"고 알린다. 사용자가 그중 값을 주거나 도면 재확인을 요청하면 아래 절차대로 처리한다.
 - G2 확인 항목이 아닌 **미발견 필드**(`w2_04_confirmation_items.json`의 `unresolved_missing`)도 `decisions`에 `correct`로 넣을 수 있다. 도면 재확인으로 찾은 값이면 `source_doc`·`source_locator`(page·sheet_no)·`raw_text`·`method`(`vision` 또는 `vector`)·`precision`을 함께 넣어 출처를 남긴다. 판독 파일(`w2_03_drawing_specs.json`)을 손으로 고치지 않는다.
 
 ### 도면 재확인 요청 ("도면에서 확인 불가한지 다시 봐 줘")

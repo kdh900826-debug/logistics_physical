@@ -1,0 +1,45 @@
+{
+  "asset_id": "songon1",
+  "sort_keys": [
+    "severity",
+    "v01_related",
+    "correlation_links",
+    "category_priority",
+    "rule_id"
+  ],
+  "top3": [
+    {
+      "rank": 1,
+      "rule_id": "FR01",
+      "building_id": "main",
+      "title": "패널 심재 가연성",
+      "severity": "red",
+      "v01_related": false,
+      "links": 0,
+      "category": "fire",
+      "vector_inputs": []
+    },
+    {
+      "rank": 2,
+      "rule_id": "FR04",
+      "building_id": "main",
+      "title": "저온동 단열재 화재",
+      "severity": "red",
+      "v01_related": false,
+      "links": 0,
+      "category": "fire",
+      "vector_inputs": []
+    },
+    {
+      "rank": 3,
+      "rule_id": "SP02",
+      "building_id": "main",
+      "title": "유효층고 미달",
+      "severity": "red",
+      "v01_related": false,
+      "links": 0,
+      "category": "spec",
+      "vector_inputs": []
+    }
+  ]
+}
