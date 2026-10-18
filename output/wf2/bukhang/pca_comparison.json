@@ -1,0 +1,5517 @@
+{
+  "asset_id": "bukhang",
+  "created_at": "2026-10-18T18:57:10+09:00",
+  "asset_name": "그레이트원창 북항물류센터",
+  "ours_source": "w2_05_confirmed_spec.json",
+  "wf2_evaluated": true,
+  "wf2_state": "AWAITING_REVIEW",
+  "golden": {
+    "source": "`물리실사_20260605_WonCoda TDD_Report.pdf` (WSP Korea, 'Due Diligence Report' Rev2 2026-06-04, 220p, 현장실사 2026-05-12, 발주 큐브인더스트리얼자산운용). IM은 없다.",
+    "todo": [
+      {
+        "done": false,
+        "text": "**dock_count 192·dock_leveler_count 16**: 층당 값(Berth 24, 레벨러 2)을 창고 8개층으로 곱한 값이다. 10F 옥상 화물 28과 1F 대기 27은 뺐다."
+      },
+      {
+        "done": false,
+        "text": "**ramp_slope_pct**: 곡선 내측 최대 10.69%를 정답으로, 직선 최대 8.76%도 인정했다. 임계 9%를 사이에 두고 갈리므로 어느 쪽을 기준으로 할지 정해야 한다(SP05)."
+      },
+      {
+        "done": false,
+        "text": "**ramp_form 나선형**: 본문에 형상 단어가 없다. 수록 평면도(p47, p55) 이미지로 판단했다."
+      },
+      {
+        "done": false,
+        "text": "**structure_type**: 복합(p7 RC·철골 병기)과 SRC(p100 구조형식표) 둘 다 정답으로 둠."
+      },
+      {
+        "done": false,
+        "text": "**temp**: 9F·5F(일부)는 설계 저온·운용 상온. 설계값을 정답으로 넣었다."
+      },
+      {
+        "done": false,
+        "text": "**clear_height_m**: 배관하부(기준층·9F)와 보 하단(1F)으로 기준이 층마다 다르다. 1F는 일반 배관하부 실측이 없다."
+      },
+      {
+        "done": false,
+        "text": "**floor_load**: 국문(p101) 25.0kN/㎡, 영문 본문은 '20.0kN/㎡(상온)'. 표 값 25.0을 정답으로 했다."
+      },
+      {
+        "done": false,
+        "text": "**gross_floor_area**: 보고서는 사용승인서(111,959.24)와 준공도면(111,934.06)의 불일치를 확인 필요로 적었으나, 면적표(p8)상 차이 25.18㎡가 경비실 면적과 같다. 창고동 값 111,934.06을 정답으로 했다."
+      },
+      {
+        "done": false,
+        "text": "**dock_route_column_conflict false (medium)**: 전층 Y7열 기둥 보호대 권장(p16)은 Berth 앞 기둥 충돌 노출로 보고 간섭으로 보지 않았다."
+      },
+      {
+        "done": false,
+        "text": "**건축허가일**: p9 표 2020.02.15, p34 본문 2020.12.15. 골든에는 영향 없음."
+      }
+    ]
+  },
+  "findings_doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+  "summary": {
+    "verdicts": {
+      "ours": {
+        "red": 3,
+        "yellow": 0,
+        "green": 8,
+        "hold": 19,
+        "none": 2
+      },
+      "pca": {
+        "red": 4,
+        "yellow": 0,
+        "green": 19,
+        "hold": 7,
+        "none": 2
+      }
+    },
+    "changes": {
+      "실사 값으로 🔴": 2,
+      "실사 기준 상향": 0,
+      "실사로 해소": 11,
+      "실사 기준 하향": 1,
+      "실사 자료 부족": 1,
+      "같음": 17,
+      "WF2 미평가": 0
+    },
+    "changed": 15,
+    "spec": {
+      "일치": 72,
+      "불일치": 2,
+      "WF2 누락": 24,
+      "실사 미기재": 7
+    },
+    "gold_slots": 98,
+    "findings": {
+      "결함": 15,
+      "경미": 34,
+      "양호": 22
+    },
+    "uncaught_defects": 15
+  },
+  "rules": [
+    {
+      "rule_id": "CL01",
+      "title": "냉동설비·냉매 리스크",
+      "category": "cold",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "red",
+      "change": "실사 값으로 🔴",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "냉매 종류 (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        },
+        {
+          "var": "has_cold",
+          "ours": true,
+          "pca": true,
+          "diff": false
+        },
+        {
+          "var": "refrigerant",
+          "ours": null,
+          "pca": "암모니아",
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "cold_refrigeration_age.red",
+          "value": 15,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "창고층 8개 층 전부가 저온인 자산이라 냉동설비 규모가 크다. 냉매가 암모니아면 고압가스 안전관리 의무가, 프레온계열이면 감축 규제에 따른 교체 부담이 생기는데 둘 중 어느 쪽인지 알 수 없다.",
+      "findings": [
+        {
+          "text": "NH3(R717)/CO2 캐스케이드 — 스크류 CU 8대(3F·7F), 증발식 응축기 4대(옥상), 유니트쿨러 183대, 방재실 제어·가스누설 감시, 장비 상태 G",
+          "page": 127,
+          "severity": "양호"
+        },
+        {
+          "text": "고압가스(LPG) 자율검사 증명서 제출. 냉동설비 냉매(암모니아) 관련 별도 검사 기재는 없음",
+          "page": 132,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "SP05",
+      "title": "램프·차량 접근 제약",
+      "category": "spec",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "red",
+      "change": "실사 값으로 🔴",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "램프 경사 (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "floors_above",
+          "ours": 10,
+          "pca": 10,
+          "diff": false
+        },
+        {
+          "var": "ramp_slope_pct",
+          "ours": null,
+          "pca": 10.69,
+          "diff": true
+        },
+        {
+          "var": "ramp_type",
+          "ours": "양방향",
+          "pca": "양방향",
+          "diff": false
+        },
+        {
+          "var": "ramp_width_m",
+          "ours": 14.0,
+          "pca": 14.0,
+          "diff": false
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "ramp_width.red",
+          "value": 7.5,
+          "segment": "ramp_type=양방향",
+          "verified": true
+        },
+        {
+          "key": "ramp_slope.red",
+          "value": 9,
+          "segment": "ramp_form=나선형",
+          "verified": true
+        }
+      ],
+      "root_cause": "지상 각 창고층으로 오르는 양방향 나선형 램프 하나에 전층 물동량이 몰린다. 폭은 넉넉하지만 경사와 곡선부 편경사를 모르면 대형차·동절기 운행 안전을 판단할 수 없다. 창고층 전부 직접접안이 가능해(floors_without_direct_access 없음) 🟡 조건은 해당하지 않는다.",
+      "findings": [
+        {
+          "text": "서측 양방향 차량 램프 7m×2차로(14m), 회전반경 R=12.5m. 경사 직선구간 8.68~8.76%, 곡선구간 내측 10.68~10.69%·외측 7.43~7.47%, 시·종점 완화차로 2.81~4.00% — 보고서는 경사·폭에 대한 문제 제기 없음",
+          "page": 46,
+          "severity": "양호"
+        },
+        {
+          "text": "램프가 각 층 창고 북측 차로와 연결 — 창고 8개층 모두 차량 직접 접안",
+          "page": 41,
+          "severity": "양호"
+        },
+        {
+          "text": "9~10층 오픈 주차램프 구간 스노우멜팅 설비 설치(결빙 사고 예방)",
+          "page": 22,
+          "severity": "양호"
+        },
+        {
+          "text": "출구 전용 통로 출차 주의등이 외부 충돌로 기울어짐 — 전도 전 보수 필요. 주차관제설비 위치가 준공 평면도에 미반영",
+          "page": 174,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "G01",
+      "title": "배관 노후",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "aging_piping.red",
+          "value": 30,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "연식을 모르면 배관 교체 시점을 가늠할 수 없다. 이 자산은 1F·3F~9F 창고층 전부가 '저온창고'(A-302~A-310)라 냉매·소화배관이 결로에 따른 외부 부식에 노출되는 구간이 넓다.",
+      "findings": [
+        {
+          "text": "누수감지기가 도면에는 있으나 현장 미설치",
+          "page": 124,
+          "severity": "경미"
+        },
+        {
+          "text": "지하 저수조 도면 STS → 현장 SMC 설치. 저수조 청소 필증이 2023.06 이후 미제출(6개월 주기), 정화조 청소 2025.11.10 실시 — 2026.11.10 전 재실시 필요, LPG 정기 안전점검 자료 미제공",
+          "page": 131,
+          "severity": "경미"
+        },
+        {
+          "text": "기계실 MCC 상부 비닐 덮개 — 건물 곳곳 누수 흔적으로 과거 누수 의심, 확인 후 제거 필요",
+          "page": 143,
+          "severity": "경미"
+        },
+        {
+          "text": "오수 시스템 파손·변형 없음, 우수 시스템 손상 경미·청소 상태 양호",
+          "page": 210,
+          "severity": "양호"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "G02",
+      "title": "수변전설비 노후",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "aging_substation.red",
+          "value": 20,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "연식과 함께 용량 여유가 쟁점이다. 창고층 8개 층이 모두 저온창고라 냉동 부하가 상시 걸리는 구조인데, 수전·변압기 구성을 도면으로 확인할 수 없다.",
+      "findings": [
+        {
+          "text": "수전 9,750kVA(변압기 7대, 몰드), 계약전력 9,750kW 대비 최대수요 약 1,300kW — 용량 충분",
+          "page": 180,
+          "severity": "양호"
+        },
+        {
+          "text": "EPS A존(7F·8F) 내부 누수 진행 중 — 원인 제거 필요",
+          "page": 182,
+          "severity": "결함"
+        },
+        {
+          "text": "전기실 냉방설비 미설치 — 하절기 온도 상승 방지 위해 냉방기 설치 권장",
+          "page": 19,
+          "severity": "경미"
+        },
+        {
+          "text": "준공도서상 전력제어 시스템이 현장 미설치(도서 오류인지 미시공인지 확인 필요)",
+          "page": 162,
+          "severity": "경미"
+        },
+        {
+          "text": "저온동력 제어반 2차측은 냉동 업체 공사분이라 전기 도서에 없음 — 관련법령 적합 시공 확인 필요",
+          "page": 141,
+          "severity": "경미"
+        },
+        {
+          "text": "트레이 접속자재 비규격품, 본딩 점퍼 누락, 전기실 준공표지판 미확인",
+          "page": 143,
+          "severity": "경미"
+        },
+        {
+          "text": "수전설비 사용전검사 2023.09 합격 — 정기검사 2026.09 도래",
+          "page": 186,
+          "severity": "경미"
+        }
+      ],
+      "defects": 1,
+      "uncaught": true
+    },
+    {
+      "rule_id": "G04",
+      "title": "비상발전기 신뢰성",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "aging_generator.red",
+          "value": 30,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "저온창고 전층 구성이라 정전 시 발전기가 냉동 부하까지 받는지가 화물 보전의 관건인데, 연식과 용량 모두 미확인이다.",
+      "findings": [
+        {
+          "text": "예비전원설비 사용전검사 2023.05 합격 후 정기검사 시기(2025.04.20경)가 지났으나 합격 자료 미제공 — 기간 내 검사 필요",
+          "page": 28,
+          "severity": "결함"
+        },
+        {
+          "text": "발전기 900kW(소방부하우선) + 2,250kW(저온동력). 연료탱크 990L 중 약 600L — 현재 기준 소방용 약 2시간·저온동력용 약 1시간 운전 가능, 만유 유지 권장",
+          "page": 139,
+          "severity": "경미"
+        },
+        {
+          "text": "발전기실 천장 누수",
+          "page": 80,
+          "severity": "결함"
+        }
+      ],
+      "defects": 2,
+      "uncaught": true
+    },
+    {
+      "rule_id": "G05",
+      "title": "스프링클러·제연 노후",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "aging_fire_system.red",
+          "value": 20,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "연식 외에 저온창고 소화설비 구성이 미상이다. 영하 냉동창고는 스프링클러가 면제되거나 건식·준비작동식인 경우가 많아, 노후 판단 대상 설비 자체가 층마다 다를 수 있다.",
+      "findings": [
+        {
+          "text": "소방완공 2023.10.31, 2025.12 종합점검 지적사항 보수 완료 — 소방시설 전반 양호",
+          "page": 201,
+          "severity": "양호"
+        },
+        {
+          "text": "소화펌프·소화수조 위치를 'B2F(지하2층)'로 적었으나 건물은 지하1층 — 보고서 표기 오류로 보임",
+          "page": 191,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "G06",
+      "title": "지붕 방수·배수 열화",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "aging_roof.red",
+          "value": 15,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "지붕 대부분이 차량이 다니는 옥상주차장이라 방수층이 교통 하중·제설·열 신축을 함께 받는다. 바로 아래 9F가 저온창고(천장 THK250 우레탄 뿜칠, A-181)라 누수가 생기면 단열층 함수와 결로로 번진다.",
+      "findings": [
+        {
+          "text": "차량 램프 트렌치·익스펜션조인트(E.J) 구간 누수 심각 — 하부층 바닥 물고임, 천장 뿜칠 탈락·이색(4F·8F 사진)",
+          "page": 80,
+          "severity": "결함"
+        },
+        {
+          "text": "발전기실·EPS실 등 실내 천장 누수 다수 — 하자보수 필요",
+          "page": 16,
+          "severity": "결함"
+        },
+        {
+          "text": "하역장·10층 주차장 기존 균열 보수부 파손 다수 — 하부층 누수 원인, 구조체 부식에 따른 내구성 저하 우려로 반드시 재보수",
+          "page": 17,
+          "severity": "결함"
+        },
+        {
+          "text": "4~5층 Driveway·Berth 우수 배수 불량으로 기둥·벽체 뿜칠 이색, 장마 대비 Berth-계단실 출입문 하부 모래주머니",
+          "page": 80,
+          "severity": "결함"
+        },
+        {
+          "text": "전층 선홈통 하부 물받이 미설치 — 설치 권장. 외벽 글라스울 판넬 일부 누수 흔적",
+          "page": 80,
+          "severity": "경미"
+        },
+        {
+          "text": "9층 하역장 조명기구 상부 박스 누수 흔적, 1층 로비 케이블 트레이 상부 천장 누수 흔적",
+          "page": 184,
+          "severity": "경미"
+        }
+      ],
+      "defects": 4,
+      "uncaught": true
+    },
+    {
+      "rule_id": "G07",
+      "title": "야드·램프 포장 열화",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "aging_pavement.red",
+          "value": 20,
+          "segment": "default",
+          "verified": true
+        },
+        {
+          "key": "aging_pavement.yellow",
+          "value": 10,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "모든 창고층 물동량이 하나의 나선형 램프를 거치므로 램프 포장·신축이음부 마모가 집중된다. 램프 경사(ramp_slope_pct)는 램프 상세도(A-1201~A-1208)가 PDF에 없어 미확인이다.",
+      "findings": [
+        {
+          "text": "진입로·맨홀 주변 아스콘 균열, L형측구·램프 하부 주차장 부분 물고임, 진출로 차량유도등·볼라드 파손 — 일부 보수 필요, 전반 양호",
+          "page": 206,
+          "severity": "경미"
+        },
+        {
+          "text": "램프 구간 홈통이 인도로 직접 배수되어 주변이 습하고 물고임",
+          "page": 210,
+          "severity": "경미"
+        },
+        {
+          "text": "진출로 부근 경계휀스 일부 손상",
+          "page": 204,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "G08",
+      "title": "석면 함유 가능성",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "regulation_flags.asbestos_total_ban_2009",
+          "ours": null,
+          "pca": false,
+          "diff": true
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "설계일로 보면 석면 금지 이후 신축으로 보이지만, 판정은 사용승인일로만 확정한다.",
+      "findings": [],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "G09",
+      "title": "법규 적합성·용도변경",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "aging_compliance.yellow",
+          "value": 20,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "준공 시점에 따라 적용 법규(창고 방화구획 완화 제한, NFPC 609 등)가 달라진다. 이 자산은 창고층 전부가 저온창고라, 상온 전환 시 대수선 인허가에서 현행 기준 적용 범위가 쟁점이 된다.",
+      "findings": [
+        {
+          "text": "1층 경비실 인근 옥외 가설 컨테이너 2개소, 창고 Driveway·Berth 가설 컨테이너 8개소, 8층 Berth 가설 창고 — 가설건축물 축조 신고 여부 확인 필요, 대장 변경 이력·준공도면 표기 없음",
+          "page": 41,
+          "severity": "결함"
+        },
+        {
+          "text": "Berth·창고 내부 작업장 등 피난 동선에 물품·랙 다수 적치 — 즉시 이동 배치 필요",
+          "page": 91,
+          "severity": "결함"
+        },
+        {
+          "text": "높이 60m 초과 건축물 측뢰설비(건축물의 설비기준 등에 관한 규칙 제20조 5항)가 전면·측면·배면 모두 현장 미설치, 지붕 수평도체 일부 미설치 — 자연적 구성부재 제외 요건 충족 여부 미확인",
+          "page": 155,
+          "severity": "결함"
+        },
+        {
+          "text": "램프·하역장 상부 철골보 내화 뿜칠 박리(탈락)",
+          "page": 16,
+          "severity": "결함"
+        },
+        {
+          "text": "사용승인서 연면적 111,959.24㎡와 준공도면 111,934.06㎡ 불일치 — 확인 필요(차이 25.18㎡ = 경비실 면적)",
+          "page": 8,
+          "severity": "경미"
+        },
+        {
+          "text": "2층 사무실-3, 10층 사무실-5·6 칸막이 분할 임대 — 준공도서 미표기, 대장 변경 이력 없음. 1층 보안사무실·운전자 대기실은 미화원 휴게실로 사용",
+          "page": 53,
+          "severity": "경미"
+        },
+        {
+          "text": "준공도면 기준 건폐율·용적률·방화구획·직통계단·주차·비상용승강기 등 적법 계획(법규검토서는 미제공)",
+          "page": 36,
+          "severity": "양호"
+        }
+      ],
+      "defects": 4,
+      "uncaught": true
+    },
+    {
+      "rule_id": "G10",
+      "title": "CapEx 종합",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "aging_capex.yellow",
+          "value": 15,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "연식과 설비 도면(기계·전기·소방·냉동)이 모두 빠져 있어, 연식 기반 CapEx 추정을 할 수 없는 상태다.",
+      "findings": [
+        {
+          "text": "Defects & CapEx 합계 약 38.1억원 — 즉시 5.8억, 단기(5년) 13.5억, 장기(10년) 18.8억. 전기/통신 21.2억이 최대(단기·장기 각 10.2억)",
+          "page": 30,
+          "severity": "경미"
+        },
+        {
+          "text": "저온창고 내부 계단실 도장 마감 누락(T9 CRC 보드만), 계단 논슬립 미설치 — 임대·매각 상품성 위해 시공 권장",
+          "page": 53,
+          "severity": "경미"
+        },
+        {
+          "text": "조경 폐목·잡초 정비, 목재 데크 전반 변색 재도장 필요",
+          "page": 214,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "SP01",
+      "title": "바닥하중 미달",
+      "category": "spec",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "바닥 설계하중 (main 1F)",
+          "바닥 설계하중 (main 3F)",
+          "바닥 설계하중 (main 4F)",
+          "바닥 설계하중 (main 5F)",
+          "바닥 설계하중 (main 6F)",
+          "바닥 설계하중 (main 7F)",
+          "바닥 설계하중 (main 8F)",
+          "바닥 설계하중 (main 9F)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "warehouse_floors.floor_load_tpm2.min",
+          "ours": null,
+          "pca": 2.5493,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "floor_load.red",
+          "value": 1.5,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "바닥하중은 랙 단수·중량물 수용을 결정하는데 사후 보강이 사실상 불가능하다. 저온창고는 랙·냉동 화물 하중이 크고, 상온 전환 후 대체 임차인 범위도 하중에 묶인다.",
+      "findings": [
+        {
+          "text": "설계 활하중 저온창고·하역장·램프·옥상주차장 25.0kN/㎡, 사무실 4.0kN/㎡ — 최근 신축 저온창고 수준으로 적정. 영문 본문은 '20.0kN/㎡(상온)'으로 적어 국문과 다름",
+          "page": 101,
+          "severity": "양호"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "SP09",
+      "title": "하역 동선 기둥 간섭",
+      "category": "spec",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "green",
+      "change": "실사로 해소",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "램프→하역장 동선 기둥 간섭(대형차) (main 3F)",
+          "램프→하역장 동선 기둥 간섭(대형차) (main 4F)",
+          "램프→하역장 동선 기둥 간섭(대형차) (main 5F)",
+          "램프→하역장 동선 기둥 간섭(대형차) (main 6F)",
+          "램프→하역장 동선 기둥 간섭(대형차) (main 7F)",
+          "램프→하역장 동선 기둥 간섭(대형차) (main 8F)",
+          "램프→하역장 동선 기둥 간섭(대형차) (main 9F)"
+        ]
+      },
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "floors_with_dock_column_conflict",
+          "ours": null,
+          "pca": [],
+          "diff": true
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "3F~9F는 나선형 램프 착지부에서 차로로 꺾어 들어가는 구조라, 회전 궤적상 Y8 기둥·CORE#1에 걸리는지가 대형차 진입의 관건이다.",
+      "findings": [
+        {
+          "text": "차로·Berth 합산 27m로 화물차 동선 이상 없음 — 램프→하역장 진입부 기둥 간섭 언급 없음",
+          "page": 52,
+          "severity": "양호"
+        },
+        {
+          "text": "전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장 — 화물차 충돌 노출",
+          "page": 16,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "CL04",
+      "title": "온도대 전환 유연성",
+      "category": "cold",
+      "building_id": "main",
+      "ours": "red",
+      "pca": "green",
+      "change": "실사 기준 하향",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "has_cold",
+          "ours": true,
+          "pca": true,
+          "diff": false
+        },
+        {
+          "var": "refrigerant",
+          "ours": null,
+          "pca": "암모니아",
+          "diff": true
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "창고층 전부가 저온이라 저온 수요가 줄면 대체 임차인 범위가 좁고, 상온 전환이 사실상 유일한 대안이 된다. 그런데 냉동설비·소방설비·바닥 상세가 도면 패키지에 없어 전환 범위와 비용을 가늠할 근거가 없다. 참고로 conversion_cases.yaml에는 같은 이름의 '그레이트 원창 물류센터' 상온 전환 계획(원창 IM, IM 주장 등급 — Phase 1 대상 1·3·4·8·9층)이 실려 있으나, 이번 분석은 IM 미제공 도면 단독이라 동일 자산 여부를 확인하지 않았고 판정에도 쓰지 않았다.",
+      "findings": [
+        {
+          "text": "전 층 저온창고로 계획됐으나 매도인 설명상 5층(503호 부분)·9층은 상온, 6~8층 저온으로 임대·운영",
+          "page": 52,
+          "severity": "경미"
+        },
+        {
+          "text": "상온 사용 구간도 유니트쿨러·배관 존치, 실사 당일 냉동설비 일부만 운전 — 저온 재전환 여지",
+          "page": 131,
+          "severity": "양호"
+        },
+        {
+          "text": "냉동냉장 창고에 별도 환기설비 없음 — 상온 전환 구간 환기 별도 검토 필요",
+          "page": 113,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "FR05",
+      "title": "창고 내부 깊이 과대 (소방대 진입 거리)",
+      "category": "fire",
+      "building_id": "main",
+      "ours": "green",
+      "pca": "hold",
+      "change": "실사 자료 부족",
+      "ours_hold": null,
+      "pca_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "창고 내부 깊이(하역장 측 벽~반대편 벽) (main)"
+        ]
+      },
+      "facts": [
+        {
+          "var": "warehouse_depth_m",
+          "ours": 53.6,
+          "pca": null,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "warehouse_depth.red",
+          "value": 77,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "내부 깊이는 기준보다 짧지만, 지상 10층 다층 구조에 창고층 8개 층이 쌓여 있어 고층부 발화 시 외부 방수와 소방대 진입이 불리하다. 하역장이 각 층 화물주차장(실내)이라 외벽 접근면도 제한될 수 있다.",
+      "findings": [],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "FR04",
+      "title": "저온동 단열재 화재",
+      "category": "fire",
+      "building_id": "main",
+      "ours": "red",
+      "pca": "red",
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "cold_insulation_combustibility",
+          "ours": "난연",
+          "pca": "난연",
+          "diff": false
+        },
+        {
+          "var": "cold_ratio",
+          "ours": null,
+          "pca": null,
+          "diff": false
+        },
+        {
+          "var": "has_cold",
+          "ours": true,
+          "pca": true,
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "우레탄 단열이 외벽(패널 + 뿜칠), 9F 천장(THK250 우레탄 뿜칠), 1F 바닥(THK200 우레탄 뿜칠)까지 전층에 걸쳐 있어 화재하중이 크다. 뿜칠 우레탄의 실제 난연 성능은 제품·시공에 따라 달라 매핑상 '난연'이 그대로 성능을 보장하지 않는다.",
+      "findings": [
+        {
+          "text": "저온창고 방열이 우레탄 패널(T100) + 우레탄 뿜칠(T150~T250) — 보고서는 화재 관점 평가 없음",
+          "page": 85,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "SP02",
+      "title": "유효층고 미달",
+      "category": "spec",
+      "building_id": "main",
+      "ours": "red",
+      "pca": "red",
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "warehouse_floors.clear_height_m",
+          "ours": null,
+          "pca": null,
+          "diff": false
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "clear_height.yellow",
+          "value": 8.5,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "기준 8.5m는 소방배관 하단까지의 높이로 정의돼 있는데, 도면 값은 보 하단까지라 스프링클러 배관·조명·덕트가 차지하는 높이가 빠져 있다. 9F는 보 하단만으로도 미달이고, 상부가 옥상주차장이며 천장에 THK250 우레탄 뿜칠(A-181) 방열이 있어 단면이 다른 층과 다르다. 1F·3F~8F는 보 하단 8.55m가 상한일 뿐이라 배관 하단 기준으로는 미달일 수 있다 — 미달 층이 9F 한 층이라고 단정할 수 없다. 또 1F는 층고 표기가 5.0m(A-331)인데 유효층고가 8.55m로, 2F가 사무 위주 부분층이라 1F 창고가 2개 층 높이를 쓰는 구성으로 보인다 — 확인 필요.",
+      "findings": [
+        {
+          "text": "창고 층고 10m. 실측 슬래브 하단 9.132~9.382m, 보 하단 8.482~8.576m, 배관하부 7.852~8.025m, 유닛쿨러 배관하부 6.319~6.451m(1F·기준층) — 보고서는 별도 문제 제기 없음",
+          "page": 68,
+          "severity": "양호"
+        },
+        {
+          "text": "향후 메자닌·랙 설치 시 조도 부족·조명기구 간섭 검토 권장",
+          "page": 146,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "FR02",
+      "title": "방화구획 대면적",
+      "category": "fire",
+      "building_id": "main",
+      "ours": "green",
+      "pca": "green",
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "fire_compartment_max_m2",
+          "ours": 1925.27,
+          "pca": 3000.0,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "fire_compartment_area.yellow",
+          "value": 3000,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "구획 면적 자체는 기준 안이다. 다만 구획 면적만으로 보이지 않는 확산 조건이 있다 — 창고층 8개 층이 모두 우레탄 단열 저온창고(FR04)이고, 지상 10층 다층 구조라 고층부 발화 시 외부 방수가 어렵다.",
+      "findings": [
+        {
+          "text": "방화구획 3,000㎡ 이하, 저온창고 구획벽 THK200 글라스울 판넬, 작업장 OHD 구간·저온창고 출입문 방화셔터",
+          "page": 73,
+          "severity": "양호"
+        },
+        {
+          "text": "Berth·작업장 피난 동선 내 물품·랙 다수 적치 — 즉시 이동 필요, 바닥 피난 동선 라인 마킹 재도장 권장",
+          "page": 73,
+          "severity": "결함"
+        }
+      ],
+      "defects": 1,
+      "uncaught": true
+    },
+    {
+      "rule_id": "FR03",
+      "title": "스프링클러 형식 부적합",
+      "category": "fire",
+      "building_id": "main",
+      "ours": "green",
+      "pca": "green",
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "sprinkler_type",
+          "ours": null,
+          "pca": "준비작동식",
+          "diff": true
+        },
+        {
+          "var": "warehouse_floors.clear_height_m.max",
+          "ours": 8.55,
+          "pca": 8.482,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "sprinkler_esfr_clear_height.red",
+          "value": 13.7,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "층고 조건상 ESFR 의무 구간은 아니다. 다만 저온창고는 영하 구간이 스프링클러 면제이거나 건식·준비작동식일 수 있어, 실제 헤드 구성은 층마다 확인해야 한다.",
+      "findings": [
+        {
+          "text": "창고 준비작동식(프리액션) + 공기흡입형 감지기, 사무 등 공용부 알람밸브(습식). 4층 인랙 헤드 사진 — 설치 상태 양호",
+          "page": 194,
+          "severity": "양호"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "SP03",
+      "title": "기둥 스팬·랙 효율",
+      "category": "spec",
+      "building_id": "main",
+      "ours": "green",
+      "pca": "green",
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "column_span_x_m",
+          "ours": 11.0,
+          "pca": 11.0,
+          "diff": false
+        },
+        {
+          "var": "column_span_y_m",
+          "ours": 11.0,
+          "pca": 11.0,
+          "diff": false
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "column_span.yellow",
+          "value": 11.0,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "대표 스팬은 기준선에 걸쳐 있고, Y1~Y2 9,600 구간은 기준보다 좁아 그 열에서는 표준 랙·통로 배치 손실이 생길 수 있다. 판정은 대표 스팬 기준이라 이 구간은 반영되지 않았다(single_grade에서 상향은 🔴 직행이라 조정하지 않고 DD로 돌림).",
+      "findings": [
+        {
+          "text": "창고 구조 모듈 11m × 11m, 층마다 저온창고 3구획 + 작업장, 8개층 동일 평면",
+          "page": 52,
+          "severity": "양호"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "SP04",
+      "title": "도크 부족",
+      "category": "spec",
+      "building_id": "main",
+      "ours": "green",
+      "pca": "green",
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "dock_density",
+          "ours": 56.7,
+          "pca": 56.7,
+          "diff": false
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "dock_density.red",
+          "value": 50,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "층마다 화물주차장이 창고에 직접 붙는 램프형이라 도크 밀도는 기준을 넘는다. 다만 도크레벨러는 A-731 'D/L-1 … QUANTITY 16 SET'로 주차구획 수보다 훨씬 적어, 192대 전부가 레벨러를 갖춘 접안 도크인지는 불분명하다.",
+      "findings": [
+        {
+          "text": "층마다 Berth 화물 24대(1F, 3F~9F) + 1F 화물 대기 27면(주차대수 미산입), 10F 옥상 화물주차 28대",
+          "page": 45,
+          "severity": "양호"
+        },
+        {
+          "text": "도크레벨러 층당 2개소 — 실사 시 3개소 작동 테스트 중 1개소 미작동",
+          "page": 53,
+          "severity": "경미"
+        },
+        {
+          "text": "도크 높이 설계 1,000mm, 실측 958~994mm",
+          "page": 69,
+          "severity": "양호"
+        },
+        {
+          "text": "지게차 램프 미설치 — 임차인이 이동식 램프를 설치해 사용",
+          "page": 46,
+          "severity": "경미"
+        },
+        {
+          "text": "하역장 바닥 청소·라인 마킹 재도색 권장",
+          "page": 16,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "SP06",
+      "title": "트럭야드 협소",
+      "category": "spec",
+      "building_id": "main",
+      "ours": "green",
+      "pca": "green",
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "truck_yard_depth_m",
+          "ours": 13.0,
+          "pca": 13.0,
+          "diff": false
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "truck_yard_depth.red",
+          "value": 13,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "접안 구획 깊이는 기준값과 같아 여유가 없지만, 그 앞에 차로가 따로 있어 후진 접안 공간은 차로 폭과 함께 봐야 한다. 실내 하역장이라 대형차 회전 궤적은 기둥 위치에 좌우된다.",
+      "findings": [
+        {
+          "text": "Driveway 14m + Berth 13m = 27m — 타 물류센터 대비 여유, 입·출하 작업과 화물차 동선 이상 없을 것으로 판단",
+          "page": 52,
+          "severity": "양호"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "SP07",
+      "title": "수직반송 의존",
+      "category": "spec",
+      "building_id": "main",
+      "ours": "green",
+      "pca": "green",
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "handling_type",
+          "ours": "다층 램프형",
+          "pca": "다층 램프형",
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "상층부 입출고가 승강기 처리 용량에 묶이지 않는 구조다. 대신 모든 층이 램프 하나에 의존하므로 램프 장애가 곧 상층부 운영 장애가 된다(SP05·G07).",
+      "findings": [
+        {
+          "text": "승강기는 소방구조용 6대(16인승·1,200kg·MRL, 2023.09 설치)뿐이고 화물용 승강기·수직반송기 없음 — 창고층은 모두 램프 직접 접안",
+          "page": 178,
+          "severity": "양호"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "SP08",
+      "title": "대형차 회전반경 부족",
+      "category": "spec",
+      "building_id": "main",
+      "ours": "green",
+      "pca": "green",
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "turning_radius_m",
+          "ours": 12.0,
+          "pca": 12.5,
+          "diff": true
+        }
+      ],
+      "thresholds": [
+        {
+          "key": "turning_radius.red",
+          "value": 12.0,
+          "segment": "default",
+          "verified": true
+        }
+      ],
+      "root_cause": "도면에서 확인된 R은 최소 기준선에 걸쳐 있고, 실제로 대형차 운행이 많은 램프 곡선부·하역장 진출입부의 R은 램프 상세도 부재로 확인되지 않았다(single_grade에서 상향은 🔴 직행이라 조정하지 않고 DD로 돌림). 같은 R-12M에서 40FT 1회 진입 불가 사례가 있다(golden songon p40).",
+      "findings": [
+        {
+          "text": "차량 램프 회전반경 R=12.5m(하역장 출차부 회전 궤적 검토는 없음)",
+          "page": 46,
+          "severity": "양호"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "CL02",
+      "title": "바닥 동상",
+      "category": "cold",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "hold",
+      "change": "같음",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "저온동 바닥 동상 방지 설비 (main)"
+        ]
+      },
+      "pca_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "저온동 바닥 동상 방지 설비 (main)"
+        ]
+      },
+      "facts": [
+        {
+          "var": "cold_floor_heave_protection",
+          "ours": null,
+          "pca": null,
+          "diff": false
+        },
+        {
+          "var": "has_cold",
+          "ours": true,
+          "pca": true,
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "지하층(B1)은 기계전기실·소규모 창고 일부만 있어 1F 저온창고 바닥 상당 부분이 지반 위일 가능성이 높다. 동상 방지 설비가 없으면 장기 운전 중 지반 동결로 바닥 융기가 생길 수 있다. 3F~9F 저온층은 슬래브 위라 이 룰의 직접 대상은 1F다.",
+      "findings": [
+        {
+          "text": "저온창고 최하층(1F) 바닥 T200 우레탄 뿜칠 방열 — 동상 방지 설비 언급 없음",
+          "page": 85,
+          "severity": "경미"
+        },
+        {
+          "text": "초평탄 바닥(TR34 FM3, BS8204 AR1, 150mm 언본드 토핑) 대체로 양호하나 일부 크랙, 7층 바닥 오염 — 초평탄 바닥 검수보고서 확인 필요",
+          "page": 88,
+          "severity": "경미"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "CL03",
+      "title": "단열 패널 열화·결로",
+      "category": "cold",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "hold",
+      "change": "같음",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "준공연도(사용승인) (main)"
+        ]
+      },
+      "pca_hold": {
+        "reason": "임계값 미정",
+        "inputs": [
+          "thresholds.yaml: CL03 red/yellow"
+        ]
+      },
+      "facts": [
+        {
+          "var": "building_age",
+          "ours": null,
+          "pca": 3,
+          "diff": true
+        },
+        {
+          "var": "has_cold",
+          "ours": true,
+          "pca": true,
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "뿜칠 우레탄은 패널 이음부 실링 대신 연속 단열층을 만들지만, 구조체 거동에 따른 균열·박리가 생기면 결로·결빙이 국부적으로 생긴다. 연식이 확인돼야 열화 단계를 판단할 수 있다.",
+      "findings": [
+        {
+          "text": "4~5층 창고 천장 우레탄 뿜칠·무기질 뿜칠 곰팡이, 지하층 계단실 결로 곰팡이",
+          "page": 85,
+          "severity": "결함"
+        },
+        {
+          "text": "작업장-저온창고 간 벽체에 온도차 결로로 도장 흘러내림 하자 — 보수 필요",
+          "page": 85,
+          "severity": "결함"
+        },
+        {
+          "text": "지하 전실 천장 결로·누수로 마감 훼손 — 원인 해결 후 조명·전기기구 부식·절연 점검 필요",
+          "page": 149,
+          "severity": "결함"
+        },
+        {
+          "text": "작업장 창고 조명제어 스위치 외함·배관 접속부를 테이프로 보강(배관 결로수 유입 방지 추정) — 방수형 박스 권장",
+          "page": 161,
+          "severity": "경미"
+        },
+        {
+          "text": "5층 저온창고 내 용도불명 전선 돌출 — 배관을 통한 냉기 이동 방지 실링 권장. 6층 작업장 저온창고 제어판넬 상부 비닐막",
+          "page": 183,
+          "severity": "경미"
+        }
+      ],
+      "defects": 3,
+      "uncaught": true
+    },
+    {
+      "rule_id": "FR01",
+      "title": "패널 심재 가연성",
+      "category": "fire",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "hold",
+      "change": "같음",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "지붕 패널 심재 (main)"
+        ]
+      },
+      "pca_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "지붕 패널 심재 (main)"
+        ]
+      },
+      "facts": [
+        {
+          "var": "panel_combustibility",
+          "ours": "불연",
+          "pca": "불연",
+          "diff": false
+        },
+        {
+          "var": "roof_panel_combustibility",
+          "ours": null,
+          "pca": null,
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "지붕이 RC 슬래브라면 지붕 샌드위치 패널이 없어 이 룰의 지붕 쪽 위험은 성립하지 않을 가능성이 높다. 다만 '패널 없음'을 도면 표기 없음에서 추정해 채우지 않았다. 저온창고 내부의 우레탄 단열은 FR04에서 따로 본다.",
+      "findings": [
+        {
+          "text": "외벽 THK50 글라스울 패널(상태 양호), 콘크리트면 수성페인트. 외장재 불연·준불연 사용",
+          "page": 66,
+          "severity": "양호"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "FR06",
+      "title": "오버헤드도어 하부 살수장애",
+      "category": "fire",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "hold",
+      "change": "같음",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "오버헤드도어 하부 스프링클러 살수장애(헤드 미설치) (main)"
+        ]
+      },
+      "pca_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "오버헤드도어 하부 스프링클러 살수장애(헤드 미설치) (main)"
+        ]
+      },
+      "facts": [
+        {
+          "var": "ohd_sprinkler_gap",
+          "ours": null,
+          "pca": null,
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "층별로 화물주차장에 면한 도크 OHD가 줄지어 있어(층당 24대 구획), OHD 개방 시 헤드 살수장애가 생기면 하역장 초기 진압이 안 된다. 저온 도크는 영하 구간 헤드 면제·드라이펜던트 여부도 걸린다.",
+      "findings": [],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "G03",
+      "title": "화물용 승강기·수직반송기 노후",
+      "category": "aging",
+      "building_id": "main",
+      "ours": "hold",
+      "pca": "hold",
+      "change": "같음",
+      "ours_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "수직반송기 대수 (main)"
+        ]
+      },
+      "pca_hold": {
+        "reason": "입력 미확인",
+        "inputs": [
+          "수직반송기 대수 (main)"
+        ]
+      },
+      "facts": [
+        {
+          "var": "freight_elevator_count",
+          "ours": 0,
+          "pca": 0,
+          "diff": false
+        },
+        {
+          "var": "vrc_count",
+          "ours": null,
+          "pca": null,
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "다층 램프형으로 1F·3F~9F 창고층 모두 화물차 직접접안(direct_truck_access, A-721·A-722 도크 단면)이라 수직반송 의존도는 낮아 보인다. 다만 임차인이 수직반송기를 설치했는지는 도면으로 알 수 없다.",
+      "findings": [
+        {
+          "text": "소방구조용 승강기 6대 정기검사 합격(유효 2025.09.05~2026.09.04). 화물용 승강기·수직반송기 없음",
+          "page": 178,
+          "severity": "양호"
+        }
+      ],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "V02",
+      "title": "핵심 스펙 미확인",
+      "category": "consistency",
+      "building_id": null,
+      "ours": "hold",
+      "pca": "hold",
+      "change": "같음",
+      "ours_hold": {
+        "reason": "임계값 미정",
+        "inputs": [
+          "thresholds.yaml: V02 red/yellow"
+        ]
+      },
+      "pca_hold": {
+        "reason": "임계값 미정",
+        "inputs": [
+          "thresholds.yaml: V02 red/yellow"
+        ]
+      },
+      "facts": [
+        {
+          "var": "v02.unconfirmed_ratio",
+          "ours": 0.4,
+          "pca": 0.4,
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "IM 없이 건축도면 PDF 한 권만으로 분석했고, 구조·기계·전기·소방 도면이 패키지에 없다. 미확인 항목 대부분이 이 설비 도면 부재에서 나온다.",
+      "findings": [],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "B01",
+      "title": "동급 대비 스펙 열위",
+      "category": "benchmark",
+      "building_id": null,
+      "ours": null,
+      "pca": null,
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "benchmark_available",
+          "ours": false,
+          "pca": false,
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "절대 임계 룰이 없는 필드에서 동급 세그먼트 대비 하위 구간에 있다. 절대 임계 룰이 있는 필드의 벤치마크 위치는 해당 룰의 맥락으로만 표시한다(이중 집계 방지).",
+      "findings": [],
+      "defects": 0,
+      "uncaught": false
+    },
+    {
+      "rule_id": "V01",
+      "title": "IM–도면 스펙 불일치",
+      "category": "consistency",
+      "building_id": null,
+      "ours": null,
+      "pca": null,
+      "change": "같음",
+      "ours_hold": null,
+      "pca_hold": null,
+      "facts": [
+        {
+          "var": "v01.discrepancy_count",
+          "ours": 0,
+          "pca": 0,
+          "diff": false
+        }
+      ],
+      "thresholds": [],
+      "root_cause": "매도측 IM이 실제(도면·확정값)보다 유리한 스펙을 적었다. 다른 룰의 판정을 바꾸는 과장이면 IM 전체의 신뢰도와 가격 근거가 흔들린다.",
+      "findings": [],
+      "defects": 0,
+      "uncaught": false
+    }
+  ],
+  "spec": [
+    {
+      "slot": "building|main|-|turning_radius_m",
+      "label": "대형차 최소 회전반경(램프·하역장 동선) (main)",
+      "field": "turning_radius_m",
+      "floor": null,
+      "unit": "m",
+      "result": "불일치",
+      "rule_input": true,
+      "rules": [
+        "SP08"
+      ],
+      "ours": {
+        "value": 12.0,
+        "unit": "m",
+        "raw_text": "R=12.0m (적정 회전반경 확보(R=12.0m)를 위한 지상10층 주차장 진출입 곡선부 도류화)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 13,
+        "sheet_no": "A-108",
+        "crop": "output/wf2/bukhang/crops/building_main_x_turning_radius_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 12.5,
+        "unit": "m",
+        "raw_text": "회전반경은 R=12.5m",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "차량 램프 회전반경. 하역장 출차부 R·회전 궤적 검토는 없음",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|1F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 1F)",
+      "field": "floor_height_m",
+      "floor": "1F",
+      "unit": "m",
+      "result": "불일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 5.0,
+        "unit": "m",
+        "raw_text": "5,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_1F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "1F 층고 10",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층고·유효높이표(p68) 준공도면 층고",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|completion_year",
+      "label": "준공연도(사용승인) (main)",
+      "field": "completion_year",
+      "floor": null,
+      "unit": "year",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL03",
+        "G01",
+        "G02",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 2023,
+        "unit": "year",
+        "raw_text": "사용 승인은 2023년 11월 2일에 사용 승인서를 교부",
+        "page": 34,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "사용승인서 2023.11.02(p35), 소방완공 2023.10.31. 착공 2021.03.12, 건축허가 2020.12.15(p34; p9 표는 2020.02.15로 상이). 2026.05.12는 현장실사일(p9) — 영문 서두(p6) 'completed on May 12, 2026'은 실사일을 가리킴",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|ramp_slope_pct",
+      "label": "램프 경사 (main)",
+      "field": "ramp_slope_pct",
+      "floor": null,
+      "unit": "pct",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP05"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 10.69,
+        "unit": "pct",
+        "raw_text": "곡선구간 램프 내측 10.68~10.69%",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [
+          8.76
+        ],
+        "note": "p45-46: 직선구간 8.68~8.76%(10층 8.55~8.59%), 곡선구간 내측 10.68~10.69%(10층 10.52~10.54%), 외측 7.43~7.47%(10층 7.32~7.33%), 시·종점 완화차로 2.81~4.00%. 최대값(곡선 내측)을 정답으로, 직선구간 최대 8.76도 정답 인정",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|refrigerant",
+      "label": "냉매 종류 (main)",
+      "field": "refrigerant",
+      "floor": null,
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL04"
+      ],
+      "ours": null,
+      "gold": {
+        "value": "암모니아",
+        "unit": null,
+        "raw_text": "1차측에는 R717(NH3)을 사용하고, … 2차측에는 CO2",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "NH3/CO2 캐스케이드: 압축기~증발식 응축기 1차 R717, 캐스케이드 응축기~유니트쿨러 2차 CO2. 방재실 가스누설 감시(p130)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|sprinkler_type",
+      "label": "스프링클러 형식 (main)",
+      "field": "sprinkler_type",
+      "floor": null,
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "FR03"
+      ],
+      "ours": null,
+      "gold": {
+        "value": "준비작동식",
+        "unit": null,
+        "raw_text": "Pre-action valves are installed in storages",
+        "page": 194,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [
+          "혼합"
+        ],
+        "note": "국문 '건물 전체에 프리액션밸브가 설치', 창고 공기흡입형감지기, 사무 등 공용부 알람밸브(습식). 소방설비표(p189) '준비작동식(P/V), 습식(A/V)'. 사진 'In-rack head(4th floor)'(p195) — 4층 인랙 헤드가 있어 '혼합'도 정답 인정. 헤드 형식(표준형·ESFR) 기재 없음",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|1F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 1F)",
+      "field": "floor_load_tpm2",
+      "floor": "1F",
+      "unit": "t/m2",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP01"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 2.5493,
+        "unit": "t/m2",
+        "raw_text": "저온창고 25.0 kN/㎡",
+        "page": 101,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|3F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 3F)",
+      "field": "dock_route_column_conflict",
+      "floor": "3F",
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP09"
+      ],
+      "ours": null,
+      "gold": {
+        "value": false,
+        "unit": null,
+        "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|3F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 3F)",
+      "field": "floor_load_tpm2",
+      "floor": "3F",
+      "unit": "t/m2",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP01"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 2.5493,
+        "unit": "t/m2",
+        "raw_text": "저온창고 25.0 kN/㎡",
+        "page": 101,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|4F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 4F)",
+      "field": "dock_route_column_conflict",
+      "floor": "4F",
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP09"
+      ],
+      "ours": null,
+      "gold": {
+        "value": false,
+        "unit": null,
+        "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|4F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 4F)",
+      "field": "floor_load_tpm2",
+      "floor": "4F",
+      "unit": "t/m2",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP01"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 2.5493,
+        "unit": "t/m2",
+        "raw_text": "저온창고 25.0 kN/㎡",
+        "page": 101,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|5F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 5F)",
+      "field": "dock_route_column_conflict",
+      "floor": "5F",
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP09"
+      ],
+      "ours": null,
+      "gold": {
+        "value": false,
+        "unit": null,
+        "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|5F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 5F)",
+      "field": "floor_load_tpm2",
+      "floor": "5F",
+      "unit": "t/m2",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP01"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 2.5493,
+        "unit": "t/m2",
+        "raw_text": "저온창고 25.0 kN/㎡",
+        "page": 101,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|6F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 6F)",
+      "field": "dock_route_column_conflict",
+      "floor": "6F",
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP09"
+      ],
+      "ours": null,
+      "gold": {
+        "value": false,
+        "unit": null,
+        "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|6F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 6F)",
+      "field": "floor_load_tpm2",
+      "floor": "6F",
+      "unit": "t/m2",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP01"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 2.5493,
+        "unit": "t/m2",
+        "raw_text": "저온창고 25.0 kN/㎡",
+        "page": 101,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|7F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 7F)",
+      "field": "dock_route_column_conflict",
+      "floor": "7F",
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP09"
+      ],
+      "ours": null,
+      "gold": {
+        "value": false,
+        "unit": null,
+        "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|7F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 7F)",
+      "field": "floor_load_tpm2",
+      "floor": "7F",
+      "unit": "t/m2",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP01"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 2.5493,
+        "unit": "t/m2",
+        "raw_text": "저온창고 25.0 kN/㎡",
+        "page": 101,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|8F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 8F)",
+      "field": "dock_route_column_conflict",
+      "floor": "8F",
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP09"
+      ],
+      "ours": null,
+      "gold": {
+        "value": false,
+        "unit": null,
+        "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|8F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 8F)",
+      "field": "floor_load_tpm2",
+      "floor": "8F",
+      "unit": "t/m2",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP01"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 2.5493,
+        "unit": "t/m2",
+        "raw_text": "저온창고 25.0 kN/㎡",
+        "page": 101,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|9F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 9F)",
+      "field": "dock_route_column_conflict",
+      "floor": "9F",
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP09"
+      ],
+      "ours": null,
+      "gold": {
+        "value": false,
+        "unit": null,
+        "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|9F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 9F)",
+      "field": "floor_load_tpm2",
+      "floor": "9F",
+      "unit": "t/m2",
+      "result": "WF2 누락",
+      "rule_input": true,
+      "rules": [
+        "SP01"
+      ],
+      "ours": null,
+      "gold": {
+        "value": 2.5493,
+        "unit": "t/m2",
+        "raw_text": "저온창고 25.0 kN/㎡",
+        "page": 101,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|guard|-|floors_above",
+      "label": "지상층수 (guard)",
+      "field": "floors_above",
+      "floor": null,
+      "unit": "floor",
+      "result": "WF2 누락",
+      "rule_input": false,
+      "rules": [],
+      "ours": null,
+      "gold": {
+        "value": 1,
+        "unit": "floor",
+        "raw_text": "경비동은 지상1 층 규모로 남측 20m 도로 차량진입구 부근",
+        "page": 12,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "면적표(p8) Security office 25.18㎡(1F). 부속건축물",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|power_capacity_kw",
+      "label": "수전 용량 (main)",
+      "field": "power_capacity_kw",
+      "floor": null,
+      "unit": "kW",
+      "result": "WF2 누락",
+      "rule_input": false,
+      "rules": [],
+      "ours": null,
+      "gold": {
+        "value": 9750.0,
+        "unit": "kW",
+        "raw_text": "계약전력은 9,750kW",
+        "page": 180,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "수전용량 9,750kVA(p19, p134). 2025.03~2026.03 최대수요전력 약 1,300kW, 2026.03 706kW — 기본요금은 계약전력 30% 2,925kW 기준",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|refrigeration_system",
+      "label": "냉동설비 형식 (main)",
+      "field": "refrigeration_system",
+      "floor": null,
+      "unit": null,
+      "result": "WF2 누락",
+      "rule_input": false,
+      "rules": [],
+      "ours": null,
+      "gold": {
+        "value": "NH3/CO2 캐스케이드 — 스크류 컴프레서 유닛 8대(저온창고 381kW×6, 작업장 475kW×2, 3F·7F 기계실) + 증발식 응축기 400RT×4(옥상) + 유니트쿨러 96+87대",
+        "unit": null,
+        "raw_text": "Compressor unit 8대는 지상3층 냉동 기계실과 지상7층 냉동기계실",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "장비표 p128: 펌프 패키지 2F·6F, 제상수 탱크 B1·5F(18ton×2, 저장고 살수제상·작업장 공기제상), 고압수액기·리퀴드트랩 3F·7F. 방재실 제어 PC. 실사 당일 일부 층 상온 운용으로 일부 설비만 운전(p131)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|transformer_capacity_kva",
+      "label": "변압기 총용량 (main)",
+      "field": "transformer_capacity_kva",
+      "floor": null,
+      "unit": "kVA",
+      "result": "WF2 누락",
+      "rule_input": false,
+      "rules": [],
+      "ours": null,
+      "gold": {
+        "value": 9750.0,
+        "unit": "kVA",
+        "raw_text": "변압기는 750KVA 1대, 1,250KVA 1대, 1,500KVA 4대, 1,750KVA 1대, 총 7대",
+        "page": 137,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "p136 표: TR-1 1,250 일반, TR-2 1,500·TR-3 750 동력/비상, TR-4~6 1,500×3·TR-7 1,750 저온동력. 몰드 변압기. 발전기 900kW(소방부하우선) + 2,250kW(저온동력)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|2F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 2F)",
+      "field": "floor_load_tpm2",
+      "floor": "2F",
+      "unit": "t/m2",
+      "result": "WF2 누락",
+      "rule_input": false,
+      "rules": [],
+      "ours": null,
+      "gold": {
+        "value": 0.4079,
+        "unit": "t/m2",
+        "raw_text": "Office 사무실 4.0 kN/㎡",
+        "page": 101,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "asset|-|-|truck_yard_depth_m",
+      "label": "트럭야드 깊이",
+      "field": "truck_yard_depth_m",
+      "floor": null,
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "SP06"
+      ],
+      "ours": {
+        "value": 13.0,
+        "unit": "m",
+        "raw_text": "Y6~Y7 13,000 (화물주차장 단면)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 178,
+        "sheet_no": "A-702",
+        "crop": "output/wf2/bukhang/crops/asset_x_x_truck_yard_depth_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 13.0,
+        "unit": "m",
+        "raw_text": "Driveway 는 14m, Berth 는 13m 모듈 기준이며, 합산 27m",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "창고 북측 1면 하역장. Berth(화물차 주차·접안 구획) 13m = 도크면~차로 경계, 차로(Driveway) 14m는 별도. p13 Key Findings 동일. 보고서는 '타 물류센터 대비 여유, 입·출하 및 화물차 동선 이상 없음'으로 평가",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|cold_insulation_material",
+      "label": "저온동 단열재 종류 (main)",
+      "field": "cold_insulation_material",
+      "floor": null,
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR04"
+      ],
+      "ours": {
+        "value": "우레탄",
+        "unit": null,
+        "raw_text": "건축마감 + THK100 우레탄 패널 + THK150 우레탄 뿜칠 + 구갑망 + THK0.5 갈바륨",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 45,
+        "sheet_no": "A-181",
+        "crop": "output/wf2/bukhang/crops/building_main_x_cold_insulation_material_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "우레탄",
+        "unit": null,
+        "raw_text": "외벽은 T100 우레탄 패널 + T150 우레탄 뿜칠",
+        "page": 85,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "저온창고 방열: 바닥 우레탄 뿜칠, 외벽 우레탄 패널+뿜칠, 칸막이·천장 우레탄 뿜칠. 4~5층 창고 천장 우레탄·무기질 뿜칠 곰팡이(p85)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|column_span_x_m",
+      "label": "기둥 스팬(장변) (main)",
+      "field": "column_span_x_m",
+      "floor": null,
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "SP03"
+      ],
+      "ours": {
+        "value": 11.0,
+        "unit": "m",
+        "raw_text": "X6~X18 11,000 (12스팬)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 96,
+        "sheet_no": "A-302",
+        "crop": "output/wf2/bukhang/crops/building_main_x_column_span_x_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 11.0,
+        "unit": "m",
+        "raw_text": "창고 구조 모듈은 11m X 11m Span",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "p12 Key Findings 동일. 수록 평면도(p55) 창고 X축 11,000 그리드",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|column_span_y_m",
+      "label": "기둥 스팬(단변) (main)",
+      "field": "column_span_y_m",
+      "floor": null,
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "SP03"
+      ],
+      "ours": {
+        "value": 11.0,
+        "unit": "m",
+        "raw_text": "Y2~Y6 11,000 (Y1~Y2 9,600)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 96,
+        "sheet_no": "A-302",
+        "crop": "output/wf2/bukhang/crops/building_main_x_column_span_y_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 11.0,
+        "unit": "m",
+        "raw_text": "창고 구조 모듈은 11m X 11m Span",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "수록 평면도(p55) Y축: 창고 11,000(끝 경간 9,600), 작업장 11,000, Berth 13,000, Driveway 14,000",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|dock_count",
+      "label": "도크 수 (main)",
+      "field": "dock_count",
+      "floor": null,
+      "unit": "ea",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "SP04"
+      ],
+      "ours": {
+        "value": 192,
+        "unit": "ea",
+        "raw_text": "화물 3.1X11.0m: 지상1층 24대, 지상3~9층 각 24대 (10층 28대 제외)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 22,
+        "sheet_no": "A-131",
+        "crop": "output/wf2/bukhang/crops/building_main_x_dock_count_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 192,
+        "unit": "ea",
+        "raw_text": "화물주차는 각 층 Berth 에 24 대 주차 가능하며, 10 층에 28 대 추가",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "표(p45): 1F 24, 기준층(3F~9F) 24×7 = 168, 10F 28(옥상 주차, 접안 아님), 1F 화물 대기 27면(주차대수 미산입). 창고층 Berth 구획 = 도크: 24 × 8개층(1F, 3F~9F) = 192. 수록 주차계획도(p47)·기준층 평면도(p55)에서 Berth '화물주차장' 구획이 작업장 벽(도크면, 하역장 FL-1,000)에 직각 접안 확인. 10F 28·1F 대기 27 제외. 개요표(p7) 'cargo vehicles 220' = 192 + 28",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|fire_compartment_max_m2",
+      "label": "방화구획 최대 면적 (main)",
+      "field": "fire_compartment_max_m2",
+      "floor": null,
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR02"
+      ],
+      "ours": {
+        "value": 1925.27,
+        "unit": "m2",
+        "raw_text": "1,925.27㎡ (방화구획 면적)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 29,
+        "sheet_no": "A-152",
+        "crop": "output/wf2/bukhang/crops/building_main_x_fire_compartment_max_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 3000.0,
+        "unit": "m2",
+        "raw_text": "방화구획은 관련 법규 기준에 따라 3,000㎡ 이하의 면적으로 계획",
+        "page": 73,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "저온창고 방화구획 벽체 THK200 글라스울 판넬. 작업장 OHD 구간(필로티 주차장 인접)·저온창고 출입문에 방화셔터. 법규표(p37) '3,000㎡ 이내마다'",
+        "precision": "upper_bound",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|floors_above",
+      "label": "지상층수 (main)",
+      "field": "floors_above",
+      "floor": null,
+      "unit": "floor",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "SP05",
+        "SP07"
+      ],
+      "ours": {
+        "value": 10,
+        "unit": "floor",
+        "raw_text": "지하1층, 지상 10층 (사무실 2개층 + 창고 8개층)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/building_main_x_floors_above_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 10,
+        "unit": "floor",
+        "raw_text": "지하 1 층, 지상 10",
+        "page": 7,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|freight_elevator_count",
+      "label": "화물용 승강기 대수 (main)",
+      "field": "freight_elevator_count",
+      "floor": null,
+      "unit": "ea",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "G03"
+      ],
+      "ours": {
+        "value": 0,
+        "unit": "ea",
+        "raw_text": "엘리베이터 사양: 승용 Elev.#1~#6 비상용 16인승/1200Kg",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 26,
+        "sheet_no": "A-141",
+        "crop": "output/wf2/bukhang/crops/building_main_x_freight_elevator_count_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 0,
+        "unit": "ea",
+        "raw_text": "소방구조용 승강기 6대가 2023년 9월 설치",
+        "page": 23,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "운송설비(p23, p178)는 소방구조용 승강기 6대(16인승, 1,200kg, 1.75m/s, MRL)뿐. 화물용 승강기 기재 없음에서 끌어낸 값. 수직반송기도 기재 없음(vrc_count 미기재)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|gross_floor_area_m2",
+      "label": "연면적 (main)",
+      "field": "gross_floor_area_m2",
+      "floor": null,
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR04",
+        "SP04"
+      ],
+      "ours": {
+        "value": 111934.06,
+        "unit": "m2",
+        "raw_text": "연면적 합계 주건축물(물류센터) 111,934.06㎡",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/building_main_x_gross_floor_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 111934.06,
+        "unit": "m2",
+        "raw_text": "연면적 합계 111,934.06m²",
+        "page": 7,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "창고동만(준공도면 2026.04.23). 사용승인서 111,959.24㎡는 경비실 25.18㎡ 포함 합계(p8 면적표 Total 111,959.24 = 창고동 + Security office 25.18) — 보고서는 '불일치, 확인 필요'(p8, p90)로 적음. 건축허가·착공 시 112,038.73㎡(p9)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|ramp_type",
+      "label": "램프 통행 방향 (main)",
+      "field": "ramp_type",
+      "floor": null,
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "SP05",
+        "SP07"
+      ],
+      "ours": {
+        "value": "양방향",
+        "unit": null,
+        "raw_text": "RAMP 내려감 / RAMP 올라옴, RAMP 올라감 / RAMP 내려옴",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 23,
+        "sheet_no": "A-132",
+        "crop": "output/wf2/bukhang/crops/building_main_x_ramp_type_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "양방향",
+        "unit": null,
+        "raw_text": "양방향 차량 램프와 창고가 결합된 형태",
+        "page": 40,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "p11 'bidirectional vehicle ramp'. 7m×2차로(p45). 수록 평면도(p55) 램프에 '올라옴·내려감' 동시 표기",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|ramp_width_m",
+      "label": "램프 폭 (main)",
+      "field": "ramp_width_m",
+      "floor": null,
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "SP05"
+      ],
+      "ours": {
+        "value": 14.0,
+        "unit": "m",
+        "raw_text": "14.0m (순수램프폭원), 0.85m(연석) 양측",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 13,
+        "sheet_no": "A-108",
+        "crop": "output/wf2/bukhang/crops/building_main_x_ramp_width_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 14.0,
+        "unit": "m",
+        "raw_text": "차량 램프의 너비는 7m x 2차로로 14m",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "양방향 2차로 전체 폭. 차로당 7m",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|wall_panel_core",
+      "label": "외벽 패널 심재 (main)",
+      "field": "wall_panel_core",
+      "floor": null,
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR01"
+      ],
+      "ours": {
+        "value": "글라스울",
+        "unit": null,
+        "raw_text": "THK50 글라스울패널 지정색A/B",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 107,
+        "sheet_no": "A-321",
+        "crop": "output/wf2/bukhang/crops/building_main_x_wall_panel_core_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "글라스울",
+        "unit": null,
+        "raw_text": "외벽 마감재료는 THK50 글라스울 패널",
+        "page": 66,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "p13 Key Findings 동일. 콘크리트면 외부용 수성페인트. 법규표(p38) 외장재 불연·준불연 사용",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|1F|area_m2",
+      "label": "층 면적 (main 1F)",
+      "field": "area_m2",
+      "floor": "1F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP01",
+        "SP02"
+      ],
+      "ours": {
+        "value": 13343.91,
+        "unit": "m2",
+        "raw_text": "지상 1층 합계 13,343.91",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_1F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 13318.73,
+        "unit": "m2",
+        "raw_text": "1F 7616.44 + Berth 1275.81 + Ramp/Driveway 4426.48",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [
+          13343.91
+        ],
+        "note": "면적표 1F 합계 13,343.91은 별동 경비실(Security office 25.18) 포함 — 창고동 합계(7,616.44 + 1,275.81 + 4,426.48)로 넣음. 표 합계도 정답 인정",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|1F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 1F)",
+      "field": "clear_height_m",
+      "floor": "1F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP02"
+      ],
+      "ours": {
+        "value": 8.55,
+        "unit": "m",
+        "raw_text": "8,550 (저온창고)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 171,
+        "sheet_no": "A-601",
+        "crop": "output/wf2/bukhang/crops/floor_main_1F_clear_height_m_0.png",
+        "flags": [],
+        "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18",
+        "precision": "upper_bound",
+        "basis": "보 하단"
+      },
+      "gold": {
+        "value": 8.482,
+        "unit": "m",
+        "raw_text": "1F Beam soffit 8.482 / Unit cooler piping soffit 6.319",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "1F 실측(p68, 사진 p71): 슬래브 하단 9.277, 보 하단 8.482, 유닛쿨러 배관하부 6.319m. 일반 배관하부 값 없음 — 보 하단을 정답으로, 유닛쿨러 배관하부도 정답 인정 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+        "precision": "upper_bound",
+        "basis": "보 하단"
+      }
+    },
+    {
+      "slot": "floor|main|1F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 1F)",
+      "field": "dock_route_column_conflict",
+      "floor": "1F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "SP09"
+      ],
+      "ours": {
+        "value": false,
+        "unit": null,
+        "raw_text": "진입동선(차량)/진출동선(차량) — 차로 서측 개구부 통과",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 22,
+        "sheet_no": "A-131",
+        "crop": "output/wf2/bukhang/crops/floor_main_1F_dock_route_column_conflict_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": false,
+        "unit": null,
+        "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+        "page": 52,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|1F|temp",
+      "label": "층 온도대 (main 1F)",
+      "field": "temp",
+      "floor": "1F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL02",
+        "CL03",
+        "CL04",
+        "FR04"
+      ],
+      "ours": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 96,
+        "sheet_no": "A-302",
+        "crop": "output/wf2/bukhang/crops/floor_main_1F_temp_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온 창고는 1층,3층~9층에 위치",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|3F|area_m2",
+      "label": "층 면적 (main 3F)",
+      "field": "area_m2",
+      "floor": "3F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP01",
+        "SP02"
+      ],
+      "ours": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "지상 3층 합계 13,316.91",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_3F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "3F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|3F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 3F)",
+      "field": "clear_height_m",
+      "floor": "3F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP02"
+      ],
+      "ours": {
+        "value": 8.55,
+        "unit": "m",
+        "raw_text": "8,550 (저온창고)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 171,
+        "sheet_no": "A-601",
+        "crop": "output/wf2/bukhang/crops/floor_main_3F_clear_height_m_0.png",
+        "flags": [],
+        "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18",
+        "precision": "upper_bound",
+        "basis": "보 하단"
+      },
+      "gold": {
+        "value": 8.025,
+        "unit": "m",
+        "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+        "precision": "exact",
+        "basis": "배관 하단"
+      }
+    },
+    {
+      "slot": "floor|main|3F|temp",
+      "label": "층 온도대 (main 3F)",
+      "field": "temp",
+      "floor": "3F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL02",
+        "CL03",
+        "CL04",
+        "FR04"
+      ],
+      "ours": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 98,
+        "sheet_no": "A-304",
+        "crop": "output/wf2/bukhang/crops/floor_main_3F_temp_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온 창고는 1층,3층~9층에 위치",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|4F|area_m2",
+      "label": "층 면적 (main 4F)",
+      "field": "area_m2",
+      "floor": "4F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP01",
+        "SP02"
+      ],
+      "ours": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "지상 4층 합계 13,316.91",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_4F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "4F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|4F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 4F)",
+      "field": "clear_height_m",
+      "floor": "4F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP02"
+      ],
+      "ours": {
+        "value": 8.55,
+        "unit": "m",
+        "raw_text": "8,550 (저온창고)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 171,
+        "sheet_no": "A-601",
+        "crop": "output/wf2/bukhang/crops/floor_main_4F_clear_height_m_0.png",
+        "flags": [],
+        "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18",
+        "precision": "upper_bound",
+        "basis": "보 하단"
+      },
+      "gold": {
+        "value": 8.025,
+        "unit": "m",
+        "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+        "precision": "exact",
+        "basis": "배관 하단"
+      }
+    },
+    {
+      "slot": "floor|main|4F|temp",
+      "label": "층 온도대 (main 4F)",
+      "field": "temp",
+      "floor": "4F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL02",
+        "CL03",
+        "CL04",
+        "FR04"
+      ],
+      "ours": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 99,
+        "sheet_no": "A-305",
+        "crop": "output/wf2/bukhang/crops/floor_main_4F_temp_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온 창고는 1층,3층~9층에 위치",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|5F|area_m2",
+      "label": "층 면적 (main 5F)",
+      "field": "area_m2",
+      "floor": "5F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP01",
+        "SP02"
+      ],
+      "ours": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "지상 5층 합계 13,316.91",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_5F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "5F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|5F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 5F)",
+      "field": "clear_height_m",
+      "floor": "5F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP02"
+      ],
+      "ours": {
+        "value": 8.55,
+        "unit": "m",
+        "raw_text": "8,550 (저온창고)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 171,
+        "sheet_no": "A-601",
+        "crop": "output/wf2/bukhang/crops/floor_main_5F_clear_height_m_0.png",
+        "flags": [],
+        "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18",
+        "precision": "upper_bound",
+        "basis": "보 하단"
+      },
+      "gold": {
+        "value": 8.025,
+        "unit": "m",
+        "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+        "precision": "exact",
+        "basis": "배관 하단"
+      }
+    },
+    {
+      "slot": "floor|main|5F|temp",
+      "label": "층 온도대 (main 5F)",
+      "field": "temp",
+      "floor": "5F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL02",
+        "CL03",
+        "CL04",
+        "FR04"
+      ],
+      "ours": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 100,
+        "sheet_no": "A-306",
+        "crop": "output/wf2/bukhang/crops/floor_main_5F_temp_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온 창고는 1층,3층~9층에 위치",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계는 전 층 저온창고. 매도인 설명상 5층(503호 부분 임대)은 상온창고로 운용(p51-52) — 상온 구간 유니트쿨러·배관 존치(p131)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|6F|area_m2",
+      "label": "층 면적 (main 6F)",
+      "field": "area_m2",
+      "floor": "6F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP01",
+        "SP02"
+      ],
+      "ours": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "지상 6층 합계 13,316.91",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_6F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "6F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|6F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 6F)",
+      "field": "clear_height_m",
+      "floor": "6F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP02"
+      ],
+      "ours": {
+        "value": 8.55,
+        "unit": "m",
+        "raw_text": "8,550 (저온창고)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 171,
+        "sheet_no": "A-601",
+        "crop": "output/wf2/bukhang/crops/floor_main_6F_clear_height_m_0.png",
+        "flags": [],
+        "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18",
+        "precision": "upper_bound",
+        "basis": "보 하단"
+      },
+      "gold": {
+        "value": 8.025,
+        "unit": "m",
+        "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+        "precision": "exact",
+        "basis": "배관 하단"
+      }
+    },
+    {
+      "slot": "floor|main|6F|temp",
+      "label": "층 온도대 (main 6F)",
+      "field": "temp",
+      "floor": "6F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL02",
+        "CL03",
+        "CL04",
+        "FR04"
+      ],
+      "ours": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 101,
+        "sheet_no": "A-307",
+        "crop": "output/wf2/bukhang/crops/floor_main_6F_temp_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온 창고는 1층,3층~9층에 위치",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "매도인 설명상 6~8층은 저온창고로 임대·운영(p51-52)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|7F|area_m2",
+      "label": "층 면적 (main 7F)",
+      "field": "area_m2",
+      "floor": "7F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP01",
+        "SP02"
+      ],
+      "ours": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "지상 7층 합계 13,316.91",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_7F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "7F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|7F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 7F)",
+      "field": "clear_height_m",
+      "floor": "7F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP02"
+      ],
+      "ours": {
+        "value": 8.55,
+        "unit": "m",
+        "raw_text": "8,550 (저온창고)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 171,
+        "sheet_no": "A-601",
+        "crop": "output/wf2/bukhang/crops/floor_main_7F_clear_height_m_0.png",
+        "flags": [],
+        "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18",
+        "precision": "upper_bound",
+        "basis": "보 하단"
+      },
+      "gold": {
+        "value": 8.025,
+        "unit": "m",
+        "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+        "precision": "exact",
+        "basis": "배관 하단"
+      }
+    },
+    {
+      "slot": "floor|main|7F|temp",
+      "label": "층 온도대 (main 7F)",
+      "field": "temp",
+      "floor": "7F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL02",
+        "CL03",
+        "CL04",
+        "FR04"
+      ],
+      "ours": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 102,
+        "sheet_no": "A-308",
+        "crop": "output/wf2/bukhang/crops/floor_main_7F_temp_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온 창고는 1층,3층~9층에 위치",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "매도인 설명상 6~8층은 저온창고로 임대·운영(p51-52)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|8F|area_m2",
+      "label": "층 면적 (main 8F)",
+      "field": "area_m2",
+      "floor": "8F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP01",
+        "SP02"
+      ],
+      "ours": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "지상 8층 합계 13,316.91",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_8F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "8F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|8F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 8F)",
+      "field": "clear_height_m",
+      "floor": "8F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP02"
+      ],
+      "ours": {
+        "value": 8.55,
+        "unit": "m",
+        "raw_text": "8,550 (저온창고)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 171,
+        "sheet_no": "A-601",
+        "crop": "output/wf2/bukhang/crops/floor_main_8F_clear_height_m_0.png",
+        "flags": [],
+        "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18",
+        "precision": "upper_bound",
+        "basis": "보 하단"
+      },
+      "gold": {
+        "value": 8.025,
+        "unit": "m",
+        "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+        "precision": "exact",
+        "basis": "배관 하단"
+      }
+    },
+    {
+      "slot": "floor|main|8F|temp",
+      "label": "층 온도대 (main 8F)",
+      "field": "temp",
+      "floor": "8F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL02",
+        "CL03",
+        "CL04",
+        "FR04"
+      ],
+      "ours": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 103,
+        "sheet_no": "A-309",
+        "crop": "output/wf2/bukhang/crops/floor_main_8F_temp_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온 창고는 1층,3층~9층에 위치",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "매도인 설명상 6~8층은 저온창고로 임대·운영(p51-52)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|9F|area_m2",
+      "label": "층 면적 (main 9F)",
+      "field": "area_m2",
+      "floor": "9F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP01",
+        "SP02"
+      ],
+      "ours": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "지상 9층 합계 13,316.91",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_9F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 13316.91,
+        "unit": "m2",
+        "raw_text": "9F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|9F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 9F)",
+      "field": "clear_height_m",
+      "floor": "9F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "FR03",
+        "SP02"
+      ],
+      "ours": {
+        "value": 8.35,
+        "unit": "m",
+        "raw_text": "8,350 (저온창고)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 171,
+        "sheet_no": "A-601",
+        "crop": "output/wf2/bukhang/crops/floor_main_9F_clear_height_m_0.png",
+        "flags": [],
+        "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18",
+        "precision": "upper_bound",
+        "basis": "보 하단"
+      },
+      "gold": {
+        "value": 7.852,
+        "unit": "m",
+        "raw_text": "9F Piping soffit 7.852",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "9F 실측(p68, 사진 p72): 슬래브 하단 9.132, 보 하단 8.568, 배관하부 7.852m. 배관하부를 정답으로, 보 하단도 정답 인정 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+        "precision": "exact",
+        "basis": "배관 하단"
+      }
+    },
+    {
+      "slot": "floor|main|9F|temp",
+      "label": "층 온도대 (main 9F)",
+      "field": "temp",
+      "floor": "9F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": true,
+      "rules": [
+        "CL01",
+        "CL02",
+        "CL03",
+        "CL04",
+        "FR04"
+      ],
+      "ours": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 104,
+        "sheet_no": "A-310",
+        "crop": "output/wf2/bukhang/crops/floor_main_9F_temp_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "저온",
+        "unit": null,
+        "raw_text": "저온 창고는 1층,3층~9층에 위치",
+        "page": 127,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "설계는 저온창고(구조표 p100 'Low temperature'). 매도인 설명상 9층은 상온창고로 임대·운영(p51-52) — 유니트쿨러·배관 존치(p131)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "asset|-|-|site_area_m2",
+      "label": "대지면적",
+      "field": "site_area_m2",
+      "floor": null,
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 27351.5,
+        "unit": "m2",
+        "raw_text": "대지면적 27,351.50㎡",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/asset_x_x_site_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 27351.5,
+        "unit": "m2",
+        "raw_text": "Site area 27,351.50m² (8,273.82py)",
+        "page": 7,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "p7 국문 '대지면적 27,351.50m²'. 393-53·393-54 2필지",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|cold_insulation_thickness_mm",
+      "label": "저온동 단열재 두께 (main)",
+      "field": "cold_insulation_thickness_mm",
+      "floor": null,
+      "unit": "mm",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 150.0,
+        "unit": "mm",
+        "raw_text": "THK150 우레탄 뿜칠 (W1 외벽, THK100 우레탄 패널 병설)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 45,
+        "sheet_no": "A-181",
+        "crop": "output/wf2/bukhang/crops/building_main_x_cold_insulation_thickness_mm_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 150.0,
+        "unit": "mm",
+        "raw_text": "기준층 바닥 T150 우레탄 뿜칠",
+        "page": 85,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [
+          100,
+          200,
+          250
+        ],
+        "note": "부위별: 바닥 1F T200·기준층 T150, 외벽 T100 우레탄 패널+T150 뿜칠, 저온창고 내부 칸막이 T100, 저온창고-작업장 칸막이 T150, 천장 최상층 T250·기준층 T150. 가장 많은 부위의 T150을 정답으로, 100·200·250도 정답 인정",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|dock_leveler_count",
+      "label": "도크레벨러 수 (main)",
+      "field": "dock_leveler_count",
+      "floor": null,
+      "unit": "ea",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 16,
+        "unit": "ea",
+        "raw_text": "D/L-1 W2000 X H4000 X D600 QUANTITY 16 SET",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 188,
+        "sheet_no": "A-731",
+        "crop": "output/wf2/bukhang/crops/building_main_x_dock_leveler_count_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 16,
+        "unit": "ea",
+        "raw_text": "각 층에 도크레벨러가 2개소 설치",
+        "page": 53,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "medium",
+        "accept_also": [],
+        "note": "p51 영문 'Two dock levelers are installed on each floor'. 창고 8개층(1F, 3F~9F) × 2 = 16으로 합산(층 범위는 '각 층'에서 끌어냄). 실사 시 3개소 작동 테스트 중 1개소 미작동",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|floors_below",
+      "label": "지하층수 (main)",
+      "field": "floors_below",
+      "floor": null,
+      "unit": "floor",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 1,
+        "unit": "floor",
+        "raw_text": "지하1층, 지상 10층",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/building_main_x_floors_below_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 1,
+        "unit": "floor",
+        "raw_text": "지하 1 층, 지상 10",
+        "page": 7,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|ramp_form",
+      "label": "램프 형상 (main)",
+      "field": "ramp_form",
+      "floor": null,
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "나선형",
+        "unit": null,
+        "raw_text": "RAMP (하부 OPEN)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 98,
+        "sheet_no": "A-304",
+        "crop": "output/wf2/bukhang/crops/building_main_x_ramp_form_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "나선형",
+        "unit": null,
+        "raw_text": "Ramp (straight sections / curved sections)",
+        "page": 55,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "본문에 형상 단어 없음(직선구간·곡선구간 경사만, p45). 수록 기준층 평면도(p55)·주차계획도(p47) 이미지에서 건물 서측 타원형 루프 램프(직선+반원)가 층마다 이어지는 나선형으로 확인",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|structure_type",
+      "label": "구조형식 (main)",
+      "field": "structure_type",
+      "floor": null,
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "복합",
+        "unit": null,
+        "raw_text": "구조: 철근콘크리트조, 철골조",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/building_main_x_structure_type_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "복합",
+        "unit": null,
+        "raw_text": "Reinforced Concrete Structure, Steel Frame Structure",
+        "page": 7,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [
+          "SRC"
+        ],
+        "note": "구조편 p94: HyFo 합성보+데크 슬래브의 철골철근콘크리트(SRC)조 및 철골조. p100 구조형식표: 1F~지붕 SRC Frame, B1 RC Frame. 기초 PHC D600 파일. 주골조만 보면 SRC라 SRC도 정답 인정",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|B1|area_m2",
+      "label": "층 면적 (main B1)",
+      "field": "area_m2",
+      "floor": "B1",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 1377.11,
+        "unit": "m2",
+        "raw_text": "지하 1층 합계 1,377.11",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_B1_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 1377.11,
+        "unit": "m2",
+        "raw_text": "B1F 425.35 / 951.76 / 1377.11",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|B1|use",
+      "label": "층 용도 (main B1)",
+      "field": "use",
+      "floor": "B1",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "기계",
+        "unit": null,
+        "raw_text": "지하 1층 창고 425.35 / 기타공용(기계전기실) 951.76",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_B1_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "기계",
+        "unit": null,
+        "raw_text": "지하1 층에는 기계, 전기실이 위치",
+        "page": 7,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "면적표(p8) B1F 창고 425.35 + 기타공용(기계·전기실) 951.76. 기계실·전기실·발전기실·정화조(p52). B1 창고(조명 불량 지적 p149)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|1F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 1F)",
+      "field": "direct_truck_access",
+      "floor": "1F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": true,
+        "unit": null,
+        "raw_text": "도크 TYPE-1/2 단면도(1F): 화물주차장 / 오버헤드 도어 / 도크씰 / DOCK 1,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 186,
+        "sheet_no": "A-721",
+        "crop": "output/wf2/bukhang/crops/floor_main_1F_direct_truck_access_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": true,
+        "unit": null,
+        "raw_text": "1F Truck Parking 24 (Truck waiting parking 27)",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "1F 하역장 Berth 24 + 화물 대기 27(주차대수 미산입). 수록 주차계획도 p46",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|1F|use",
+      "label": "층 용도 (main 1F)",
+      "field": "use",
+      "floor": "1F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 96,
+        "sheet_no": "A-302",
+        "crop": "output/wf2/bukhang/crops/floor_main_1F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "1F Warehouse 7355.70, Office 260.74",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "1층 동측 경비실·방재실, 서측 주출입구 로비. 사무 260.74㎡",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|2F|area_m2",
+      "label": "층 면적 (main 2F)",
+      "field": "area_m2",
+      "floor": "2F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 2036.97,
+        "unit": "m2",
+        "raw_text": "지상 2층 합계 2,036.97",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_2F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 2036.97,
+        "unit": "m2",
+        "raw_text": "2F 688.94 / 1202.61 / 145.42 / 2036.97",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|2F|use",
+      "label": "층 용도 (main 2F)",
+      "field": "use",
+      "floor": "2F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "사무",
+        "unit": null,
+        "raw_text": "지상 2층 창고 688.94 / 오피스/지원 1,202.61 / 기타공용 145.42",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_2F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "사무",
+        "unit": null,
+        "raw_text": "사무실은 2 개층 (2 층 및 10 층)",
+        "page": 7,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "면적표(p8) 2F 창고 688.94·사무 1,202.61·공용 145.42. 1층 Berth 상부. 사무실-3 칸막이 분할 임대(준공도서·대장 미반영, p52), 샤워·탈의실 미사용, 냉동기계실(X17-Y6) 위치",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|3F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 3F)",
+      "field": "direct_truck_access",
+      "floor": "3F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": true,
+        "unit": null,
+        "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 187,
+        "sheet_no": "A-722",
+        "crop": "output/wf2/bukhang/crops/floor_main_3F_direct_truck_access_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": true,
+        "unit": null,
+        "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|3F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 3F)",
+      "field": "floor_height_m",
+      "floor": "3F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "10,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_3F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "Typical floor Story height 10",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|3F|use",
+      "label": "층 용도 (main 3F)",
+      "field": "use",
+      "floor": "3F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 98,
+        "sheet_no": "A-304",
+        "crop": "output/wf2/bukhang/crops/floor_main_3F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "3F Warehouse (Table 1.2.2-2)",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|4F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 4F)",
+      "field": "direct_truck_access",
+      "floor": "4F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": true,
+        "unit": null,
+        "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 187,
+        "sheet_no": "A-722",
+        "crop": "output/wf2/bukhang/crops/floor_main_4F_direct_truck_access_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": true,
+        "unit": null,
+        "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|4F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 4F)",
+      "field": "floor_height_m",
+      "floor": "4F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "10,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_4F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "Typical floor Story height 10",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|4F|use",
+      "label": "층 용도 (main 4F)",
+      "field": "use",
+      "floor": "4F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 99,
+        "sheet_no": "A-305",
+        "crop": "output/wf2/bukhang/crops/floor_main_4F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "4F Warehouse (Table 1.2.2-2)",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|5F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 5F)",
+      "field": "direct_truck_access",
+      "floor": "5F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": true,
+        "unit": null,
+        "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 187,
+        "sheet_no": "A-722",
+        "crop": "output/wf2/bukhang/crops/floor_main_5F_direct_truck_access_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": true,
+        "unit": null,
+        "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|5F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 5F)",
+      "field": "floor_height_m",
+      "floor": "5F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "10,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_5F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "Typical floor Story height 10",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|5F|use",
+      "label": "층 용도 (main 5F)",
+      "field": "use",
+      "floor": "5F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 100,
+        "sheet_no": "A-306",
+        "crop": "output/wf2/bukhang/crops/floor_main_5F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "5F Warehouse (Table 1.2.2-2)",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|6F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 6F)",
+      "field": "direct_truck_access",
+      "floor": "6F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": true,
+        "unit": null,
+        "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 187,
+        "sheet_no": "A-722",
+        "crop": "output/wf2/bukhang/crops/floor_main_6F_direct_truck_access_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": true,
+        "unit": null,
+        "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|6F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 6F)",
+      "field": "floor_height_m",
+      "floor": "6F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "10,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_6F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "Typical floor Story height 10",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|6F|use",
+      "label": "층 용도 (main 6F)",
+      "field": "use",
+      "floor": "6F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 101,
+        "sheet_no": "A-307",
+        "crop": "output/wf2/bukhang/crops/floor_main_6F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "6F Warehouse (Table 1.2.2-2)",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|7F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 7F)",
+      "field": "direct_truck_access",
+      "floor": "7F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": true,
+        "unit": null,
+        "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 187,
+        "sheet_no": "A-722",
+        "crop": "output/wf2/bukhang/crops/floor_main_7F_direct_truck_access_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": true,
+        "unit": null,
+        "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|7F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 7F)",
+      "field": "floor_height_m",
+      "floor": "7F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "10,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_7F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "Typical floor Story height 10",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|7F|use",
+      "label": "층 용도 (main 7F)",
+      "field": "use",
+      "floor": "7F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 102,
+        "sheet_no": "A-308",
+        "crop": "output/wf2/bukhang/crops/floor_main_7F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "7F Warehouse (Table 1.2.2-2)",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|8F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 8F)",
+      "field": "direct_truck_access",
+      "floor": "8F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": true,
+        "unit": null,
+        "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 187,
+        "sheet_no": "A-722",
+        "crop": "output/wf2/bukhang/crops/floor_main_8F_direct_truck_access_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": true,
+        "unit": null,
+        "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|8F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 8F)",
+      "field": "floor_height_m",
+      "floor": "8F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "10,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_8F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "Typical floor Story height 10",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|8F|use",
+      "label": "층 용도 (main 8F)",
+      "field": "use",
+      "floor": "8F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 103,
+        "sheet_no": "A-309",
+        "crop": "output/wf2/bukhang/crops/floor_main_8F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "8F Warehouse (Table 1.2.2-2)",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|9F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 9F)",
+      "field": "direct_truck_access",
+      "floor": "9F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": true,
+        "unit": null,
+        "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 187,
+        "sheet_no": "A-722",
+        "crop": "output/wf2/bukhang/crops/floor_main_9F_direct_truck_access_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": true,
+        "unit": null,
+        "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+        "page": 45,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|9F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 9F)",
+      "field": "floor_height_m",
+      "floor": "9F",
+      "unit": "m",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "10,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_9F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 10.0,
+        "unit": "m",
+        "raw_text": "9F Story height 10",
+        "page": 68,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|9F|use",
+      "label": "층 용도 (main 9F)",
+      "field": "use",
+      "floor": "9F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "저온창고",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 104,
+        "sheet_no": "A-310",
+        "crop": "output/wf2/bukhang/crops/floor_main_9F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "창고",
+        "unit": null,
+        "raw_text": "9F Warehouse (Table 1.2.2-2)",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|10F|area_m2",
+      "label": "층 면적 (main 10F)",
+      "field": "area_m2",
+      "floor": "10F",
+      "unit": "m2",
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 1982.88,
+        "unit": "m2",
+        "raw_text": "지상 10층 합계 1,982.88",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_10F_area_m2_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": 1982.88,
+        "unit": "m2",
+        "raw_text": "10F 655.79 / 1327.09 / 0 / 1982.88",
+        "page": 8,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "floor|main|10F|use",
+      "label": "층 용도 (main 10F)",
+      "field": "use",
+      "floor": "10F",
+      "unit": null,
+      "result": "일치",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": "사무",
+        "unit": null,
+        "raw_text": "지상 10층 창고 655.79 / 오피스/지원 1,327.09",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/floor_main_10F_use_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": {
+        "value": "사무",
+        "unit": null,
+        "raw_text": "10 층에는 사무실 및 식당이 계획",
+        "page": 7,
+        "doc": "input/bukhang/dd/물리실사_20260605_WonCoda TDD_Report.pdf",
+        "doc_name": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "confidence": "high",
+        "accept_also": [],
+        "note": "면적표(p8) 10F 창고 655.79·사무 1,327.09. 사무실·한식뷔페 식당·주방, 사무실-5·6 칸막이 분할(p52). 옥상 주차(화물 28·일반 76·장애인 3, p45)는 바닥면적 외",
+        "precision": "exact",
+        "basis": null
+      }
+    },
+    {
+      "slot": "building|main|-|warehouse_depth_m",
+      "label": "창고 내부 깊이(하역장 측 벽~반대편 벽) (main)",
+      "field": "warehouse_depth_m",
+      "floor": null,
+      "unit": "m",
+      "result": "실사 미기재",
+      "rule_input": true,
+      "rules": [
+        "FR05"
+      ],
+      "ours": {
+        "value": 53.6,
+        "unit": "m",
+        "raw_text": "Y1~Y2 9,600 + Y2~Y6 11,000×4 (A-601 치수열)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 171,
+        "sheet_no": "A-601",
+        "crop": "output/wf2/bukhang/crops/building_main_x_warehouse_depth_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "approx",
+        "basis": null
+      },
+      "gold": null
+    },
+    {
+      "slot": "building|guard|-|gross_floor_area_m2",
+      "label": "연면적 (guard)",
+      "field": "gross_floor_area_m2",
+      "floor": null,
+      "unit": "m2",
+      "result": "실사 미기재",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 25.18,
+        "unit": "m2",
+        "raw_text": "연면적 합계 부속건축물(경비동) 25.18㎡",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 6,
+        "sheet_no": "A-101",
+        "crop": "output/wf2/bukhang/crops/building_guard_x_gross_floor_area_m2_0.png",
+        "flags": [
+          "range_out"
+        ],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": null
+    },
+    {
+      "slot": "building|main|-|terrain_multi_level_access",
+      "label": "지형 단차 진입도로로 여러 층 직접 접안 (main)",
+      "field": "terrain_multi_level_access",
+      "floor": null,
+      "unit": null,
+      "result": "실사 미기재",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": false,
+        "unit": null,
+        "raw_text": "20M 도로 FH:+6.84 / FH:+7.50 / 15M 도로 FH:+7.26, 1F FL EL+8.50",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 10,
+        "sheet_no": "A-105",
+        "crop": "output/wf2/bukhang/crops/building_main_x_terrain_multi_level_access_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": null
+    },
+    {
+      "slot": "floor|main|B1|floor_height_m",
+      "label": "층고(바닥~바닥) (main B1)",
+      "field": "floor_height_m",
+      "floor": "B1",
+      "unit": "m",
+      "result": "실사 미기재",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 7.4,
+        "unit": "m",
+        "raw_text": "7,400",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_B1_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": null
+    },
+    {
+      "slot": "floor|main|2F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 2F)",
+      "field": "clear_height_m",
+      "floor": "2F",
+      "unit": "m",
+      "result": "실사 미기재",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 2.4,
+        "unit": "m",
+        "raw_text": "CH: 2,400 (사무실)",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 178,
+        "sheet_no": "A-702",
+        "crop": "output/wf2/bukhang/crops/floor_main_2F_clear_height_m_0.png",
+        "flags": [
+          "range_out"
+        ],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": null
+    },
+    {
+      "slot": "floor|main|2F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 2F)",
+      "field": "floor_height_m",
+      "floor": "2F",
+      "unit": "m",
+      "result": "실사 미기재",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 5.0,
+        "unit": "m",
+        "raw_text": "5,000",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_2F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": null
+    },
+    {
+      "slot": "floor|main|10F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 10F)",
+      "field": "floor_height_m",
+      "floor": "10F",
+      "unit": "m",
+      "result": "실사 미기재",
+      "rule_input": false,
+      "rules": [],
+      "ours": {
+        "value": 5.5,
+        "unit": "m",
+        "raw_text": "5,500",
+        "method": "vision",
+        "status": "확정",
+        "doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "page": 109,
+        "sheet_no": "A-331",
+        "crop": "output/wf2/bukhang/crops/floor_main_10F_floor_height_m_0.png",
+        "flags": [],
+        "note": null,
+        "precision": "exact",
+        "basis": null
+      },
+      "gold": null
+    }
+  ],
+  "uncaught": [
+    {
+      "rule_id": "G02",
+      "title": "수변전설비 노후",
+      "ours": "hold",
+      "pca": "green",
+      "items": [
+        {
+          "text": "EPS A존(7F·8F) 내부 누수 진행 중 — 원인 제거 필요",
+          "page": 182,
+          "severity": "결함"
+        }
+      ]
+    },
+    {
+      "rule_id": "G04",
+      "title": "비상발전기 신뢰성",
+      "ours": "hold",
+      "pca": "green",
+      "items": [
+        {
+          "text": "예비전원설비 사용전검사 2023.05 합격 후 정기검사 시기(2025.04.20경)가 지났으나 합격 자료 미제공 — 기간 내 검사 필요",
+          "page": 28,
+          "severity": "결함"
+        },
+        {
+          "text": "발전기실 천장 누수",
+          "page": 80,
+          "severity": "결함"
+        }
+      ]
+    },
+    {
+      "rule_id": "G06",
+      "title": "지붕 방수·배수 열화",
+      "ours": "hold",
+      "pca": "green",
+      "items": [
+        {
+          "text": "차량 램프 트렌치·익스펜션조인트(E.J) 구간 누수 심각 — 하부층 바닥 물고임, 천장 뿜칠 탈락·이색(4F·8F 사진)",
+          "page": 80,
+          "severity": "결함"
+        },
+        {
+          "text": "발전기실·EPS실 등 실내 천장 누수 다수 — 하자보수 필요",
+          "page": 16,
+          "severity": "결함"
+        },
+        {
+          "text": "하역장·10층 주차장 기존 균열 보수부 파손 다수 — 하부층 누수 원인, 구조체 부식에 따른 내구성 저하 우려로 반드시 재보수",
+          "page": 17,
+          "severity": "결함"
+        },
+        {
+          "text": "4~5층 Driveway·Berth 우수 배수 불량으로 기둥·벽체 뿜칠 이색, 장마 대비 Berth-계단실 출입문 하부 모래주머니",
+          "page": 80,
+          "severity": "결함"
+        }
+      ]
+    },
+    {
+      "rule_id": "G09",
+      "title": "법규 적합성·용도변경",
+      "ours": "hold",
+      "pca": "green",
+      "items": [
+        {
+          "text": "1층 경비실 인근 옥외 가설 컨테이너 2개소, 창고 Driveway·Berth 가설 컨테이너 8개소, 8층 Berth 가설 창고 — 가설건축물 축조 신고 여부 확인 필요, 대장 변경 이력·준공도면 표기 없음",
+          "page": 41,
+          "severity": "결함"
+        },
+        {
+          "text": "Berth·창고 내부 작업장 등 피난 동선에 물품·랙 다수 적치 — 즉시 이동 배치 필요",
+          "page": 91,
+          "severity": "결함"
+        },
+        {
+          "text": "높이 60m 초과 건축물 측뢰설비(건축물의 설비기준 등에 관한 규칙 제20조 5항)가 전면·측면·배면 모두 현장 미설치, 지붕 수평도체 일부 미설치 — 자연적 구성부재 제외 요건 충족 여부 미확인",
+          "page": 155,
+          "severity": "결함"
+        },
+        {
+          "text": "램프·하역장 상부 철골보 내화 뿜칠 박리(탈락)",
+          "page": 16,
+          "severity": "결함"
+        }
+      ]
+    },
+    {
+      "rule_id": "FR02",
+      "title": "방화구획 대면적",
+      "ours": "green",
+      "pca": "green",
+      "items": [
+        {
+          "text": "Berth·작업장 피난 동선 내 물품·랙 다수 적치 — 즉시 이동 필요, 바닥 피난 동선 라인 마킹 재도장 권장",
+          "page": 73,
+          "severity": "결함"
+        }
+      ]
+    },
+    {
+      "rule_id": "CL03",
+      "title": "단열 패널 열화·결로",
+      "ours": "hold",
+      "pca": "hold",
+      "items": [
+        {
+          "text": "4~5층 창고 천장 우레탄 뿜칠·무기질 뿜칠 곰팡이, 지하층 계단실 결로 곰팡이",
+          "page": 85,
+          "severity": "결함"
+        },
+        {
+          "text": "작업장-저온창고 간 벽체에 온도차 결로로 도장 흘러내림 하자 — 보수 필요",
+          "page": 85,
+          "severity": "결함"
+        },
+        {
+          "text": "지하 전실 천장 결로·누수로 마감 훼손 — 원인 해결 후 조명·전기기구 부식·절연 점검 필요",
+          "page": 149,
+          "severity": "결함"
+        }
+      ]
+    }
+  ]
+}

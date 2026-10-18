@@ -18,6 +18,9 @@ enums:
   floor_use: [창고, 사무, 기계, 주차, 하역, 기타]
   floor_temp: [상온, 저온, 냉동, 혼합]
   ownership: [임대인, 임차인, 미확인]
+  # 유효층고 측정 기준 — 바닥에서 어디까지인가. 보·슬래브 하단은 배관·덕트를 반영하지 않으므로
+  # 실제 유효층고의 상한(precision upper_bound)으로 정규화된다. 유닛쿨러 하단은 국부 제약이라 기준으로 쓰지 않는다(note에만).
+  clear_height_basis: [배관 하단, 천장 하단, 보 하단, 슬래브 하단]
 
 # enum 필드의 '유리한 순서' (앞일수록 매도자에게 유리) — V01 방향 판정용.
 # 여기 없는 enum은 방향을 판정하지 않는다(불일치만 기록).
@@ -81,7 +84,8 @@ fields:
   temp:                  {level: floor, type: enum, enum: floor_temp, favorable: none, rule_input: true, label: 층 온도대, drawing_types: [평면도]}
   area_m2:               {level: floor, type: number, unit: m2, range: [10, 300000], favorable: higher, rule_input: true, label: 층 면적, drawing_types: [면적표, 평면도]}
   floor_load_tpm2:       {level: floor, type: number, unit: t/m2, range: [0.3, 10], favorable: higher, rule_input: true, label: 바닥 설계하중, drawing_types: [구조일반사항, 평면도]}
-  clear_height_m:        {level: floor, type: number, unit: m, range: [2.5, 20], favorable: higher, rule_input: true, label: 유효층고(천정·보·배관 하단), drawing_types: [단면도]}
+  clear_height_m:        {level: floor, type: number, unit: m, range: [2.5, 20], favorable: higher, rule_input: true, label: 유효층고(천정·보·배관 하단), drawing_types: [단면도],
+                          basis: {enum: clear_height_basis, upper_bound: [보 하단, 슬래브 하단]}}
   floor_height_m:        {level: floor, type: number, unit: m, range: [2.5, 25], favorable: higher, rule_input: false, label: 층고(바닥~바닥), drawing_types: [단면도]}
   direct_truck_access:   {level: floor, type: bool, favorable: higher, rule_input: true, label: 차량 직접접안 가능, drawing_types: [평면도, 단면도]}
   dock_route_column_conflict: {level: floor, type: bool, favorable: lower, rule_input: true, label: 램프→하역장 동선 기둥 간섭(대형차), drawing_types: [평면도]}

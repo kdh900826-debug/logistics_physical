@@ -40,7 +40,7 @@
 
 ### 리뷰 서버
 - 기동: 포트 8765가 비어 있으면 `python -m lprisk review --no-browser` 를 백그라운드로 실행한다. 이미 떠 있으면 재사용한다.
-- 화면: `http://127.0.0.1:8765/g2/{a}`, `/g3/{a}`, `/report/{a}`
+- 화면: `http://127.0.0.1:8765/g2/{a}`, `/g3/{a}`, `/report/{a}`, `/pca/{a}`(실사 대조 — 골든이 있을 때)
 - 사용자가 채팅으로 값을 알려 주면(예: "3층 하중은 1.2t") 그 내용을 `w2_05_user_response.json`의 `decisions`에 `{"action": "correct", "value": ..., "reason": "채팅 지시"}`로 반영해도 된다. 도면 판독값을 확정하라는 지시면 `{"action": "cand", "cand_id": "drawing:0"}`. 일괄 지시("나머지 미확인")는 `"bulk": "rest_unconfirmed"`.
 - 일괄 지시("전부 도면 값 채택", "나머지 미확인")는 **확인 항목에만** 적용된다. 미발견 룰 입력 필드는 그대로 ⚪로 남으므로, 일괄 지시를 반영할 때 그 목록(필드·층·보류 룰·탐색 도면)을 채팅에 다시 보여 주고 "이 필드는 미확인으로 남는다"고 알린다. 사용자가 그중 값을 주거나 도면 재확인을 요청하면 아래 절차대로 처리한다.
 - G2 확인 항목이 아닌 **미발견 필드**(`w2_04_confirmation_items.json`의 `unresolved_missing`)도 `decisions`에 `correct`로 넣을 수 있다. 도면 재확인으로 찾은 값이면 `source_doc`·`source_locator`(page·sheet_no)·`raw_text`·`method`(`vision` 또는 `vector`)·`precision`을 함께 넣어 출처를 남긴다. 판독 파일(`w2_03_drawing_specs.json`)을 손으로 고치지 않는다.
@@ -78,4 +78,5 @@ G3 화면 대신 채팅으로 정정 지시를 받았거나 이미 FINAL인 보�
 - `tests/golden/{cheongna,seoknam,icheon,songon,songon1,hyeonbang}/` — 실사 보고서 기반 정답(`golden_spec.json`)과 IM 기재 정답(`golden_im_claims.json`). 사용자 검토 전 초안.
 - `python -m lprisk prepare-golden {a}` — 실사 보고서 수록 도면을 `input/{a}/drawings/`로 추출
 - `python -m lprisk golden-check {a} --target im|drawing|confirmed` — 채점 결과 `output/wf2/{a}/golden_check_*.md`
+- 실사 대조: 사용자가 실사(PCA/TDD) 보고서와 비교를 요청하면 보고서를 `tests/golden/{a}/`(golden_spec.json·findings.yaml·README.md·asset_meta.yaml, songon1 형식)로 옮기고 원문 PDF를 `input/{a}/dd/`에 둔 뒤 `python -m lprisk pca-compare {a}`를 실행하고 리뷰 서버 `/pca/{a}` URL을 안내한다. 실사 값 판정은 화면용 재평가이며 WF2 산출물을 바꾸지 않는다 — 보고서에 반영하려면 재진입 절차를 따른다
 - 단위 테스트: `python -m pytest -q`

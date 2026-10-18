@@ -55,6 +55,14 @@ def _slots(rec: dict, bids: list[str]) -> dict[Slot, list]:
     return out
 
 
+def slot_matches(field: str, gold: dict, ours: list[dict]) -> bool:
+    """골든 값(accept_also 포함)과 추출값 중 하나라도 허용오차 안에서 같으면 참."""
+    gold_v = dict(gold, precision=gold.get("precision") or "exact")
+    golds = [gold_v] + [dict(gold_v, value=a, precision="exact") for a in gold_v.get("accept_also") or []]
+    return any(matches(field, gv_, o) or matches(field, dict(o, precision=o.get("precision") or "exact"), gv_)
+               for gv_ in golds for o in ours)
+
+
 def check(asset_id: str, target: str = "im") -> dict:
     g = golden_dir(asset_id)
     meta = load_yaml(input_dir(asset_id) / "asset_meta.yaml")
@@ -77,9 +85,7 @@ def check(asset_id: str, target: str = "im") -> dict:
             missed += 1
             rows.append({"slot": s.key, "gold": gold_v["value"], "got": None, "result": "누락"})
             continue
-        golds = [gold_v] + [dict(gold_v, value=a, precision="exact") for a in gold_v.get("accept_also") or []]
-        ok = any(matches(s.field, gv_, o) or matches(s.field, dict(o, precision=o.get("precision") or "exact"), gv_)
-                 for gv_ in golds for o in ov)
+        ok = slot_matches(s.field, gv[0], ov)
         correct += ok
         wrong += (not ok)
         rows.append({"slot": s.key, "gold": gold_v["value"], "got": [o["value"] for o in ov],

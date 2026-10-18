@@ -626,7 +626,8 @@
                 "source_grade": "확정",
                 "status": "확정",
                 "conflict": false,
-                "note": "DD는 창고별 다점 실측(SP 배관하단·보 하단·전등 하단)만 제시. SP 배관하단 실측값 중 최저값을 기재(선택만, 계산 없음). 1F SP 배관하단 7,584~7,869mm, 보 하단 8,458~8,498mm"
+                "note": "DD는 창고별 다점 실측(SP 배관하단·보 하단·전등 하단)만 제시. SP 배관하단 실측값 중 최저값을 기재(선택만, 계산 없음). 1F SP 배관하단 7,584~7,869mm, 보 하단 8,458~8,498mm",
+                "basis": "배관 하단"
               }
             ],
             "floor_height_m": [
@@ -778,7 +779,8 @@
                 "source_grade": "확정",
                 "status": "확정",
                 "conflict": false,
-                "note": "DD는 창고별 다점 실측(SP 배관하단·보 하단·전등 하단)만 제시. SP 배관하단 실측값 중 최저값을 기재(선택만, 계산 없음). 2F SP 배관하단 7,839~7,857mm, 보 하단 8,485~8,523mm"
+                "note": "DD는 창고별 다점 실측(SP 배관하단·보 하단·전등 하단)만 제시. SP 배관하단 실측값 중 최저값을 기재(선택만, 계산 없음). 2F SP 배관하단 7,839~7,857mm, 보 하단 8,485~8,523mm",
+                "basis": "배관 하단"
               }
             ],
             "floor_height_m": [
@@ -1129,7 +1131,8 @@
                 "source_grade": "확정",
                 "status": "확정",
                 "conflict": false,
-                "note": "SP 배관하단 실측(전등 하단 8,299mm)"
+                "note": "SP 배관하단 실측(전등 하단 8,299mm)",
+                "basis": "배관 하단"
               }
             ],
             "floor_height_m": [
@@ -1281,7 +1284,8 @@
                 "source_grade": "확정",
                 "status": "확정",
                 "conflict": false,
-                "note": "SP 배관하단 실측(전등 하단 8,332mm)"
+                "note": "SP 배관하단 실측(전등 하단 8,332mm)",
+                "basis": "배관 하단"
               }
             ],
             "floor_height_m": [
@@ -1433,7 +1437,8 @@
                 "source_grade": "확정",
                 "status": "확정",
                 "conflict": false,
-                "note": "SP 배관하단 실측(전등 하단 8,348mm). 7F 하역장 메자닌 하부 OHD 하단 4,148~4,158mm"
+                "note": "SP 배관하단 실측(전등 하단 8,348mm). 7F 하역장 메자닌 하부 OHD 하단 4,148~4,158mm",
+                "basis": "배관 하단"
               }
             ],
             "floor_height_m": [
@@ -1653,7 +1658,8 @@
                 "source_grade": "확정",
                 "status": "확정",
                 "conflict": false,
-                "note": "SP 배관하단 실측(전등 하단 8,340mm)"
+                "note": "SP 배관하단 실측(전등 하단 8,340mm)",
+                "basis": "배관 하단"
               }
             ],
             "floor_height_m": [
@@ -1805,7 +1811,8 @@
                 "source_grade": "확정",
                 "status": "확정",
                 "conflict": false,
-                "note": "SP 배관하단 실측(전등 하단 8,274mm)"
+                "note": "SP 배관하단 실측(전등 하단 8,274mm)",
+                "basis": "배관 하단"
               }
             ],
             "floor_height_m": [

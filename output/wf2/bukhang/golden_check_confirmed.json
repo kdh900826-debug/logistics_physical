@@ -1,0 +1,759 @@
+{
+  "summary": {
+    "asset_id": "bukhang",
+    "target": "confirmed",
+    "checked_at": "2026-10-18T17:27:46+09:00",
+    "gold_slots": 98,
+    "correct": 72,
+    "wrong": 2,
+    "missed": 24,
+    "extra_slots": 7
+  },
+  "rows": [
+    {
+      "slot": "asset|-|-|site_area_m2",
+      "gold": 27351.5,
+      "got": [
+        27351.5
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "asset|-|-|truck_yard_depth_m",
+      "gold": 13.0,
+      "got": [
+        13.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|guard|-|floors_above",
+      "gold": 1,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|cold_insulation_material",
+      "gold": "우레탄",
+      "got": [
+        "우레탄"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|cold_insulation_thickness_mm",
+      "gold": 150.0,
+      "got": [
+        150.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|column_span_x_m",
+      "gold": 11.0,
+      "got": [
+        11.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|column_span_y_m",
+      "gold": 11.0,
+      "got": [
+        11.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|completion_year",
+      "gold": 2023,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|dock_count",
+      "gold": 192,
+      "got": [
+        192
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|dock_leveler_count",
+      "gold": 16,
+      "got": [
+        16
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|fire_compartment_max_m2",
+      "gold": 3000.0,
+      "got": [
+        1925.27
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|floors_above",
+      "gold": 10,
+      "got": [
+        10
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|floors_below",
+      "gold": 1,
+      "got": [
+        1
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|freight_elevator_count",
+      "gold": 0,
+      "got": [
+        0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|gross_floor_area_m2",
+      "gold": 111934.06,
+      "got": [
+        111934.06
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|power_capacity_kw",
+      "gold": 9750.0,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|ramp_form",
+      "gold": "나선형",
+      "got": [
+        "나선형"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|ramp_slope_pct",
+      "gold": 10.69,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|ramp_type",
+      "gold": "양방향",
+      "got": [
+        "양방향"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|ramp_width_m",
+      "gold": 14.0,
+      "got": [
+        14.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|refrigerant",
+      "gold": "암모니아",
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|refrigeration_system",
+      "gold": "NH3/CO2 캐스케이드 — 스크류 컴프레서 유닛 8대(저온창고 381kW×6, 작업장 475kW×2, 3F·7F 기계실) + 증발식 응축기 400RT×4(옥상) + 유니트쿨러 96+87대",
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|sprinkler_type",
+      "gold": "준비작동식",
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|structure_type",
+      "gold": "복합",
+      "got": [
+        "복합"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "building|main|-|transformer_capacity_kva",
+      "gold": 9750.0,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "building|main|-|turning_radius_m",
+      "gold": 12.5,
+      "got": [
+        12.0
+      ],
+      "result": "오답"
+    },
+    {
+      "slot": "building|main|-|wall_panel_core",
+      "gold": "글라스울",
+      "got": [
+        "글라스울"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|10F|area_m2",
+      "gold": 1982.88,
+      "got": [
+        1982.88
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|10F|use",
+      "gold": "사무",
+      "got": [
+        "사무"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|area_m2",
+      "gold": 13318.73,
+      "got": [
+        13343.91
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|clear_height_m",
+      "gold": 8.482,
+      "got": [
+        8.55
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|dock_route_column_conflict",
+      "gold": false,
+      "got": [
+        false
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|floor_height_m",
+      "gold": 10.0,
+      "got": [
+        5.0
+      ],
+      "result": "오답"
+    },
+    {
+      "slot": "floor|main|1F|floor_load_tpm2",
+      "gold": 2.5493,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|1F|temp",
+      "gold": "저온",
+      "got": [
+        "저온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|1F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|2F|area_m2",
+      "gold": 2036.97,
+      "got": [
+        2036.97
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|2F|floor_load_tpm2",
+      "gold": 0.4079,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|2F|use",
+      "gold": "사무",
+      "got": [
+        "사무"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|area_m2",
+      "gold": 13316.91,
+      "got": [
+        13316.91
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|clear_height_m",
+      "gold": 8.025,
+      "got": [
+        8.55
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|dock_route_column_conflict",
+      "gold": false,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|3F|floor_height_m",
+      "gold": 10.0,
+      "got": [
+        10.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|floor_load_tpm2",
+      "gold": 2.5493,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|3F|temp",
+      "gold": "저온",
+      "got": [
+        "저온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|3F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|area_m2",
+      "gold": 13316.91,
+      "got": [
+        13316.91
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|clear_height_m",
+      "gold": 8.025,
+      "got": [
+        8.55
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|dock_route_column_conflict",
+      "gold": false,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|4F|floor_height_m",
+      "gold": 10.0,
+      "got": [
+        10.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|floor_load_tpm2",
+      "gold": 2.5493,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|4F|temp",
+      "gold": "저온",
+      "got": [
+        "저온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|4F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|5F|area_m2",
+      "gold": 13316.91,
+      "got": [
+        13316.91
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|5F|clear_height_m",
+      "gold": 8.025,
+      "got": [
+        8.55
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|5F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|5F|dock_route_column_conflict",
+      "gold": false,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|5F|floor_height_m",
+      "gold": 10.0,
+      "got": [
+        10.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|5F|floor_load_tpm2",
+      "gold": 2.5493,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|5F|temp",
+      "gold": "저온",
+      "got": [
+        "저온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|5F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|area_m2",
+      "gold": 13316.91,
+      "got": [
+        13316.91
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|clear_height_m",
+      "gold": 8.025,
+      "got": [
+        8.55
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|dock_route_column_conflict",
+      "gold": false,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|6F|floor_height_m",
+      "gold": 10.0,
+      "got": [
+        10.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|floor_load_tpm2",
+      "gold": 2.5493,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|6F|temp",
+      "gold": "저온",
+      "got": [
+        "저온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|6F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|area_m2",
+      "gold": 13316.91,
+      "got": [
+        13316.91
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|clear_height_m",
+      "gold": 8.025,
+      "got": [
+        8.55
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|dock_route_column_conflict",
+      "gold": false,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|7F|floor_height_m",
+      "gold": 10.0,
+      "got": [
+        10.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|floor_load_tpm2",
+      "gold": 2.5493,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|7F|temp",
+      "gold": "저온",
+      "got": [
+        "저온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|7F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|8F|area_m2",
+      "gold": 13316.91,
+      "got": [
+        13316.91
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|8F|clear_height_m",
+      "gold": 8.025,
+      "got": [
+        8.55
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|8F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|8F|dock_route_column_conflict",
+      "gold": false,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|8F|floor_height_m",
+      "gold": 10.0,
+      "got": [
+        10.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|8F|floor_load_tpm2",
+      "gold": 2.5493,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|8F|temp",
+      "gold": "저온",
+      "got": [
+        "저온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|8F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|area_m2",
+      "gold": 13316.91,
+      "got": [
+        13316.91
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|clear_height_m",
+      "gold": 7.852,
+      "got": [
+        8.35
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|direct_truck_access",
+      "gold": true,
+      "got": [
+        true
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|dock_route_column_conflict",
+      "gold": false,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|9F|floor_height_m",
+      "gold": 10.0,
+      "got": [
+        10.0
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|floor_load_tpm2",
+      "gold": 2.5493,
+      "got": null,
+      "result": "누락"
+    },
+    {
+      "slot": "floor|main|9F|temp",
+      "gold": "저온",
+      "got": [
+        "저온"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|9F|use",
+      "gold": "창고",
+      "got": [
+        "창고"
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B1|area_m2",
+      "gold": 1377.11,
+      "got": [
+        1377.11
+      ],
+      "result": "정답"
+    },
+    {
+      "slot": "floor|main|B1|use",
+      "gold": "기계",
+      "got": [
+        "기계"
+      ],
+      "result": "정답"
+    }
+  ],
+  "extra": [
+    "building|guard|-|gross_floor_area_m2",
+    "building|main|-|terrain_multi_level_access",
+    "building|main|-|warehouse_depth_m",
+    "floor|main|10F|floor_height_m",
+    "floor|main|2F|clear_height_m",
+    "floor|main|2F|floor_height_m",
+    "floor|main|B1|floor_height_m"
+  ]
+}

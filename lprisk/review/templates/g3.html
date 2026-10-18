@@ -39,6 +39,7 @@
       {% else %}
       <div class="val">{{ e.v.value }}{% if e.v.unit %} <span class="small muted">{{ e.v.unit }}</span>{% endif %}
         <span class="chip">{{ e.v.status or e.v.source_grade }}</span>{% if e.v.method == 'vector' %} <span class="chip" title="도면에 치수로 적힌 값이 아니라 벡터 PDF 좌표로 잰 값">📐벡터 측정</span>{% endif %}</div>
+      {% if e.v.basis %}<div class="small"><span class="chip {{ 'over' if e.v.precision == 'upper_bound' }}">측정: {{ e.v.basis }}{% if e.v.precision == 'upper_bound' %} · 상한{% endif %}</span></div>{% endif %}
       {% if e.v.raw_text %}<div class="small">“{{ e.v.raw_text }}”</div>{% endif %}
       <div class="small muted">{{ (e.v.source_doc or '').split('/')[-1] }}{% if e.loc.sheet_no %} · {{ e.loc.sheet_no }}{% endif %}
         {% if e.v.source_doc and e.loc.page and e.v.source_doc.endswith('.pdf') %} <a href="/render?path={{ e.v.source_doc|urlencode }}&page={{ e.loc.page }}" target="_blank">원문 p{{ e.loc.page }}</a>{% endif %}</div>

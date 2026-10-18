@@ -22,6 +22,7 @@ model: sonnet
    - `method: "im_text"`, `source_grade: "IM주장"`, `source_doc`: IM 상대경로
    - `source_locator`: PDF는 `{"page": n}`, DOCX는 `{"para": n}` 또는 `{"table": n, "row": r}`
    - `raw_text`: 원문 구절, `precision`: exact/approx/lower_bound/upper_bound/rounded
+   - 유효층고(clear_height_m)는 원문에 기준이 적혀 있으면(예: '보하단', 'SP 배관 하단', '천정고') `basis`에 배관 하단 | 천장 하단 | 보 하단 | 슬래브 하단 중 하나를 넣는다. 기준이 없으면 넣지 않는다
 3. 동 구분이 없는 다동 자산이면 `building_id: "_asset"`. 단일 동이면 그 동 id.
 4. 같은 필드가 여러 곳에 다르게 적혀 있으면 모두 기록하고 `conflict: true`.
 5. 서술형 주장은 `claims[]`에 원문 인용과 함께 넣는다.

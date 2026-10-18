@@ -44,8 +44,8 @@ horizon: now
 inputs: [warehouse_floors.clear_height_m]
 trigger: "true"
 severity:
-  red:    "warehouse_floors.clear_height_m.min < th.clear_height.red"
-  yellow: "warehouse_floors.clear_height_m.min < th.clear_height.yellow"
+  red:    "min_below(warehouse_floors.clear_height_m, th.clear_height.red)"
+  yellow: "min_below(warehouse_floors.clear_height_m, th.clear_height.yellow)"
   green:  "otherwise"
 on_missing: hold
 llm_adjust: up_one
@@ -56,11 +56,18 @@ provenance: {source: engine_v1, deals: [], approved: null}
 ```
 
 - **근본 원인:** 유효층고가 낮으면 랙 단수가 줄어 보관 효율이 떨어진다. 이 룰은 **유효층고(바닥에서 천정·보·스프링클러 배관 하단까지)** 를 비교한다. 층고(FL~FL)가 아니다 — 시장 자료의 '층고 10m'를 그대로 기준으로 쓰지 않는다.
+- **측정 기준(basis)과 상한값:** 유효층고 값마다 측정 기준(`basis`: 배관 하단·천장 하단·보 하단·슬래브 하단)을 기록한다. 보·슬래브 하단은 배관·덕트를 반영하지 않으므로 실제 유효층고의 **상한**(`precision: upper_bound`)이다. `min_below`는 층 값을 구간으로 보고 판정한다(2026-10-18 사용자 결정):
+  - 어느 창고층이든 상한(또는 확정값)이 기준 미만 → 🔴 확정
+  - 상한만 있는 층이 기준 이상 → ⚪ "상한값만 있음 — 배관 하단 확인 필요" (공제폭을 빼서 추정하지 않는다)
+  - IM의 '유효고 n m 이상'(lower_bound)은 적힌 값으로 비교한다 — 기준 미만이면 🔴(원칙 5: '이상' 표기로 심각도를 낮추지 않는다. 화성 IM '8.2m 이상' → 🔴 유지)
+  - 저온창고 유닛쿨러(배관) 하단은 국부 제약이라 유효층고 기준으로 쓰지 않는다 — note·DD 포인트로만 남긴다
+  - 사례: 북항(golden bukhang p68) 도면 보 하단 8.55m인데 실측 배관 하단 8.025m(기준층), 9F 7.852m — 보 하단과 배관 하단 차이 약 0.5m
 - **연쇄 리스크:**
   - → 재무: 평당 보관량 감소에 따른 임대료 경쟁력 저하
   - → 임대차: 자동화·고단 랙 임차인 유치 제약
 - **DD 확인 포인트:**
-  - 단면도 층고와 보·배관 하단 실측 유효고
+  - 단면도 층고와 보·배관 하단 실측 유효고 — 도면 값이 보 하단 기준이면 스프링클러·덕트·조명 배관 하단 실측 확인
+  - 저온창고 유닛쿨러(배관) 하단 높이와 그 아래 랙 배치 제약(북항: 유닛쿨러 배관 하단 6.3~6.5m)
   - 스프링클러 헤드 하단 이격 확보 여부
   - 층별 편차(저층 vs 상층)
 

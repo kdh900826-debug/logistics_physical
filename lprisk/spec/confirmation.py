@@ -12,6 +12,7 @@
   #   {"action": "correct", "value": 193, "reason": "...", "source_doc": "input/.../A-021.pdf",
   #    "source_locator": {"page": 1, "sheet_no": "A-021"}, "raw_text": "...", "method": "vision" | "vector",
   #    "precision": "approx"}
+  # 유효층고(clear_height_m)는 측정 기준 "basis"(배관 하단|천장 하단|보 하단|슬래브 하단)를 함께 준다 — 보·슬래브 하단은 상한
   "claims":     {"claim:0": "확정" | "미확인"},
   "bulk":       "rest_unconfirmed" | null,
   "submitted_at": "..."
@@ -58,8 +59,12 @@ def _decide(it: dict, d: dict) -> dict:
         return cand_to_value(c, "주장값", "IM주장")
     if act == "correct":
         # 출처를 함께 주면(도면 재확인값) 그 출처를 남기고, 없으면 사용자 정정으로 기록
+        # basis(유효층고 측정 기준)가 상한 기준(보·슬래브 하단)이면 precision은 upper_bound
+        bdef = field_def(it["field"]).get("basis") or {}
+        prec = d.get("precision") or ("upper_bound" if d.get("basis") in (bdef.get("upper_bound") or []) else "exact")
         return {"value": d["value"], "unit": field_def(it["field"]).get("unit"), "raw_text": d.get("raw_text"),
-                "precision": d.get("precision") or "exact", "source_doc": d.get("source_doc") or "G2 사용자 정정",
+                **({"basis": d["basis"]} if d.get("basis") else {}),
+                "precision": prec, "source_doc": d.get("source_doc") or "G2 사용자 정정",
                 "source_locator": d.get("source_locator") or {"g2": it["slot"]},
                 "method": d.get("method") or "user", "confidence": "high", "source_grade": "확정", "status": "확정",
                 "note": d.get("reason")}

@@ -59,6 +59,7 @@ IM 주장값(`w2_02_im_claims.json`), 도면 추출값(`w2_03_drawing_specs.json
 | source_locator.bbox | 도면 판독 시 페이지 좌표 [x0,y0,x1,y1] (pt) |
 | method | im_text / vision / vision_hinted / script / dxf / public_api / user / vector (벡터 PDF 좌표 측정 — 도면에 치수로 적힌 값이 아니라 선·원호 좌표로 잰 값. 사용자가 지시한 경우만 쓰고, 이 값으로 판정한 룰은 보고서에 📐벡터 측정으로 표시된다) |
 | confidence | method별 기본값은 스크립트가 부여. 추출자는 근거가 약하면 낮출 수만 있음 |
+| basis | (clear_height_m만) 측정 기준 — 배관 하단 / 천장 하단 / 보 하단 / 슬래브 하단. 보·슬래브 하단은 정규화에서 `precision: upper_bound`(실제 유효층고의 상한)가 된다 |
 
 ## ClaimObj (IM 서술형 주장)
 

@@ -1,0 +1,10 @@
+{
+  "approved": false,
+  "comments": [
+    {
+      "type": "spec",
+      "target": "유효층고 clear_height_m (main 1F·3F~9F)",
+      "text": "측정 기준 보 하단(A-601 확대단면도-1, p171) 반영 — 배관 미반영 상한값. 값은 그대로 — 채팅 지시"
+    }
+  ]
+}

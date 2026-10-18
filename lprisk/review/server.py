@@ -13,9 +13,10 @@ from pathlib import Path
 
 import fitz
 from flask import Flask, abort, jsonify, render_template, request, send_file
+from markupsafe import Markup
 
 from ..io import load_json, load_yaml, now_iso, save_json
-from ..paths import INPUT, OUTPUT, ROOT, input_dir, wf2_dir
+from ..paths import INPUT, OUTPUT, ROOT, TESTS, input_dir, wf2_dir
 
 app = Flask(__name__, template_folder=str(Path(__file__).parent / "templates"))
 app.json.ensure_ascii = False
@@ -24,6 +25,9 @@ SERVE_ROOTS = [OUTPUT.resolve(), INPUT.resolve()]
 
 _URL = re.compile(r"https?://[^\s|;)]+")
 app.jinja_env.filters["regex_urls"] = lambda s: _URL.findall(s or "")
+app.jinja_env.globals["SEV"] = {"red": "🔴", "yellow": "🟡", "green": "🟢", "hold": "⚪", "none": "—"}
+app.jinja_env.globals["SEVTXT"] = {"red": "발동", "yellow": "주의", "green": "양호", "hold": "보류", "none": "미발동"}
+app.jinja_env.filters["md_inline"] = lambda s: Markup(re.sub(r"^<p>|</p>$", "", _md_html(s or "").strip()))
 app.jinja_env.filters["strip_urls"] = lambda s: re.sub(r"\s*\|?\s*" + _URL.pattern, "", s or "").strip(" |;")
 
 
@@ -43,7 +47,8 @@ def index():
         st = d / "session_state.json"
         if st.exists():
             s = load_json(st)
-            assets.append({"asset_id": d.name, "state": s.get("state"), "mode": s.get("mode")})
+            assets.append({"asset_id": d.name, "state": s.get("state"), "mode": s.get("mode"),
+                           "pca": (TESTS / "golden" / d.name / "golden_spec.json").exists()})
     return render_template("index.html", assets=assets)
 
 
@@ -170,13 +175,24 @@ def thresholds_submit():
     return jsonify({"ok": True, **r})
 
 
+@app.get("/pca/<asset_id>")
+def pca(asset_id):
+    """실사 대조: WF2 결과 ↔ 물리실사 골든 (tests/golden/{a}/)."""
+    from ..golden import golden_dir
+    from .pca_compare import build
+    if not (golden_dir(asset_id) / "golden_spec.json").exists():
+        abort(404)
+    return render_template("pca.html", asset_id=asset_id, d=build(asset_id))
+
+
 @app.get("/report/<asset_id>")
 def report(asset_id):
     out = wf2_dir(asset_id)
     p = next(out.glob(f"{asset_id}_logistics_risk_report*.md"), None) or out / f"{asset_id}_report_skeleton.md"
     if not p.exists():
         abort(404)
-    return render_template("report.html", asset_id=asset_id, title=p.name, html=_md_html(p.read_text(encoding="utf-8")))
+    return render_template("report.html", asset_id=asset_id, title=p.name, html=_md_html(p.read_text(encoding="utf-8")),
+                           pca=(TESTS / "golden" / asset_id / "golden_spec.json").exists())
 
 
 def _md_html(text: str) -> str:

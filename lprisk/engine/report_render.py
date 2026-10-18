@@ -15,6 +15,29 @@ GRADE_MARK = {"claimed": " †IM 기준", "verified": ""}
 VECTOR_MARK = " 📐벡터 측정"     # 도면 치수 표기값이 아니라 벡터 PDF 좌표로 잰 값(method: vector)이 판정 입력
 
 
+def _bound(v: dict) -> tuple[str, str]:
+    """상·하한 기호와 측정 기준 꼬리표 — 예: '≤8.55 m (보 하단)'."""
+    pre = {"upper_bound": "≤", "lower_bound": "≥"}.get(v.get("precision"), "")
+    return pre, f" ({v['basis']})" if v.get("basis") else ""
+
+
+def _is_series(v) -> bool:
+    return isinstance(v, list) and bool(v) and all(isinstance(x, dict) and "floor" in x for x in v)
+
+
+def _fmt_fact(v) -> str:
+    """판정 입력 표시. 층 시리즈는 '9F ≤8.35 (보 하단); 1F ≤8.55 (보 하단)'처럼 층마다(값 오름차순, 미확인 층은 끝)."""
+    if not _is_series(v):
+        return _fmt(v)
+    known = sorted((x for x in v if x.get("value") is not None), key=lambda x: x["value"])
+    parts = []
+    for x in known:
+        pre, basis = _bound(x)
+        parts.append(f"{x['floor']} {pre}{_fmt(x['value'])}{basis}")
+    parts += [f"{x['floor']} —" for x in v if x.get("value") is None]
+    return "[" + "; ".join(parts) + "]"
+
+
 def _vmark(v: dict) -> str:
     return VECTOR_MARK if v.get("method") == "vector" else ""
 
@@ -116,7 +139,8 @@ def render(asset_id: str) -> str:
                 def cell(k):
                     v = g(k)
                     mark = "" if v.get("status") in ("확정", "확정(교차)", None) else f" ({v.get('status')})"
-                    return _fmt(v.get("value"), v.get("unit")) + mark + _vmark(v)
+                    pre, basis = _bound(v) if v.get("value") is not None else ("", "")
+                    return pre + _fmt(v.get("value"), v.get("unit")) + basis + mark + _vmark(v)
                 L.append(f"| {fl['floor']} | {cell('use')} | {cell('area_m2')} | {cell('floor_load_tpm2')} | "
                          f"{cell('clear_height_m')} | {cell('direct_truck_access')} |")
         L.append("")
@@ -171,7 +195,8 @@ def render(asset_id: str) -> str:
         if r["severity_final"] == "hold":
             L.append(f"- **판정 보류 사유:** {n['hold_reason']} — 미확인 입력: "
                      + (", ".join(_slot_label(p) for p in n["missing_inputs"]) or "—"))
-        facts = ", ".join(f"{k}={_fmt(v)}" for k, v in n["facts"].items() if not isinstance(v, (list, dict)))
+        facts = ", ".join(f"{k}={_fmt_fact(v)}" for k, v in n["facts"].items()
+                          if not isinstance(v, (list, dict)) or _is_series(v))
         L.append(f"- **판정 입력:** {facts or '—'}")
         if n.get("thresholds"):
             L.append("- **적용 임계값:** " + "; ".join(

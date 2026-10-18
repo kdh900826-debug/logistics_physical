@@ -1,0 +1,2166 @@
+{
+  "asset_id": "bukhang",
+  "record_type": "golden_spec",
+  "created_at": "2026-10-18T12:00:00+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 27351.5,
+        "unit": "m2",
+        "raw_text": "Site area 27,351.50m² (8,273.82py)",
+        "precision": "exact",
+        "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "source_locator": {
+          "page": 7,
+          "sheet_no": null,
+          "bbox": null,
+          "crop": null
+        },
+        "method": "user",
+        "confidence": "high",
+        "source_grade": "확정",
+        "status": "확정",
+        "conflict": false,
+        "note": "p7 국문 '대지면적 27,351.50m²'. 393-53·393-54 2필지"
+      }
+    ],
+    "truck_yard_depth_m": [
+      {
+        "value": 13,
+        "unit": "m",
+        "raw_text": "Driveway 는 14m, Berth 는 13m 모듈 기준이며, 합산 27m",
+        "precision": "exact",
+        "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+        "source_locator": {
+          "page": 52,
+          "sheet_no": null,
+          "bbox": null,
+          "crop": null
+        },
+        "method": "user",
+        "confidence": "high",
+        "source_grade": "확정",
+        "status": "확정",
+        "conflict": false,
+        "note": "창고 북측 1면 하역장. Berth(화물차 주차·접안 구획) 13m = 도크면~차로 경계, 차로(Driveway) 14m는 별도. p13 Key Findings 동일. 보고서는 '타 물류센터 대비 여유, 입·출하 및 화물차 동선 이상 없음'으로 평가"
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "창고동(물류센터)",
+      "phase": "원준공",
+      "fields": {
+        "completion_year": [
+          {
+            "value": 2023,
+            "unit": "year",
+            "raw_text": "사용 승인은 2023년 11월 2일에 사용 승인서를 교부",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 34,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "사용승인서 2023.11.02(p35), 소방완공 2023.10.31. 착공 2021.03.12, 건축허가 2020.12.15(p34; p9 표는 2020.02.15로 상이). 2026.05.12는 현장실사일(p9) — 영문 서두(p6) 'completed on May 12, 2026'은 실사일을 가리킴"
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 111934.06,
+            "unit": "m2",
+            "raw_text": "연면적 합계 111,934.06m²",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "창고동만(준공도면 2026.04.23). 사용승인서 111,959.24㎡는 경비실 25.18㎡ 포함 합계(p8 면적표 Total 111,959.24 = 창고동 + Security office 25.18) — 보고서는 '불일치, 확인 필요'(p8, p90)로 적음. 건축허가·착공 시 112,038.73㎡(p9)"
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 10,
+            "unit": "floor",
+            "raw_text": "지하 1 층, 지상 10",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "지하 1 층, 지상 10",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": null
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "복합",
+            "unit": null,
+            "raw_text": "Reinforced Concrete Structure, Steel Frame Structure",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "구조편 p94: HyFo 합성보+데크 슬래브의 철골철근콘크리트(SRC)조 및 철골조. p100 구조형식표: 1F~지붕 SRC Frame, B1 RC Frame. 기초 PHC D600 파일. 주골조만 보면 SRC라 SRC도 정답 인정",
+            "accept_also": [
+              "SRC"
+            ]
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "창고 구조 모듈은 11m X 11m Span",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 52,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p12 Key Findings 동일. 수록 평면도(p55) 창고 X축 11,000 그리드"
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11,
+            "unit": "m",
+            "raw_text": "창고 구조 모듈은 11m X 11m Span",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 52,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "수록 평면도(p55) Y축: 창고 11,000(끝 경간 9,600), 작업장 11,000, Berth 13,000, Driveway 14,000"
+          }
+        ],
+        "dock_count": [
+          {
+            "value": 192,
+            "unit": "ea",
+            "raw_text": "화물주차는 각 층 Berth 에 24 대 주차 가능하며, 10 층에 28 대 추가",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "표(p45): 1F 24, 기준층(3F~9F) 24×7 = 168, 10F 28(옥상 주차, 접안 아님), 1F 화물 대기 27면(주차대수 미산입). 창고층 Berth 구획 = 도크: 24 × 8개층(1F, 3F~9F) = 192. 수록 주차계획도(p47)·기준층 평면도(p55)에서 Berth '화물주차장' 구획이 작업장 벽(도크면, 하역장 FL-1,000)에 직각 접안 확인. 10F 28·1F 대기 27 제외. 개요표(p7) 'cargo vehicles 220' = 192 + 28"
+          }
+        ],
+        "dock_leveler_count": [
+          {
+            "value": 16,
+            "unit": "ea",
+            "raw_text": "각 층에 도크레벨러가 2개소 설치",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 53,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p51 영문 'Two dock levelers are installed on each floor'. 창고 8개층(1F, 3F~9F) × 2 = 16으로 합산(층 범위는 '각 층'에서 끌어냄). 실사 시 3개소 작동 테스트 중 1개소 미작동"
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "양방향",
+            "unit": null,
+            "raw_text": "양방향 차량 램프와 창고가 결합된 형태",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 40,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p11 'bidirectional vehicle ramp'. 7m×2차로(p45). 수록 평면도(p55) 램프에 '올라옴·내려감' 동시 표기"
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "나선형",
+            "unit": null,
+            "raw_text": "Ramp (straight sections / curved sections)",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 55,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "본문에 형상 단어 없음(직선구간·곡선구간 경사만, p45). 수록 기준층 평면도(p55)·주차계획도(p47) 이미지에서 건물 서측 타원형 루프 램프(직선+반원)가 층마다 이어지는 나선형으로 확인"
+          }
+        ],
+        "ramp_slope_pct": [
+          {
+            "value": 10.69,
+            "unit": "pct",
+            "raw_text": "곡선구간 램프 내측 10.68~10.69%",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p45-46: 직선구간 8.68~8.76%(10층 8.55~8.59%), 곡선구간 내측 10.68~10.69%(10층 10.52~10.54%), 외측 7.43~7.47%(10층 7.32~7.33%), 시·종점 완화차로 2.81~4.00%. 최대값(곡선 내측)을 정답으로, 직선구간 최대 8.76도 정답 인정",
+            "accept_also": [
+              8.76
+            ]
+          }
+        ],
+        "ramp_width_m": [
+          {
+            "value": 14,
+            "unit": "m",
+            "raw_text": "차량 램프의 너비는 7m x 2차로로 14m",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "양방향 2차로 전체 폭. 차로당 7m"
+          }
+        ],
+        "turning_radius_m": [
+          {
+            "value": 12.5,
+            "unit": "m",
+            "raw_text": "회전반경은 R=12.5m",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "차량 램프 회전반경. 하역장 출차부 R·회전 궤적 검토는 없음"
+          }
+        ],
+        "freight_elevator_count": [
+          {
+            "value": 0,
+            "unit": "ea",
+            "raw_text": "소방구조용 승강기 6대가 2023년 9월 설치",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 23,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "운송설비(p23, p178)는 소방구조용 승강기 6대(16인승, 1,200kg, 1.75m/s, MRL)뿐. 화물용 승강기 기재 없음에서 끌어낸 값. 수직반송기도 기재 없음(vrc_count 미기재)"
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "외벽 마감재료는 THK50 글라스울 패널",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 66,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p13 Key Findings 동일. 콘크리트면 외부용 수성페인트. 법규표(p38) 외장재 불연·준불연 사용"
+          }
+        ],
+        "fire_compartment_max_m2": [
+          {
+            "value": 3000,
+            "unit": "m2",
+            "raw_text": "방화구획은 관련 법규 기준에 따라 3,000㎡ 이하의 면적으로 계획",
+            "precision": "upper_bound",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 73,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "저온창고 방화구획 벽체 THK200 글라스울 판넬. 작업장 OHD 구간(필로티 주차장 인접)·저온창고 출입문에 방화셔터. 법규표(p37) '3,000㎡ 이내마다'"
+          }
+        ],
+        "sprinkler_type": [
+          {
+            "value": "준비작동식",
+            "unit": null,
+            "raw_text": "Pre-action valves are installed in storages",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 194,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "국문 '건물 전체에 프리액션밸브가 설치', 창고 공기흡입형감지기, 사무 등 공용부 알람밸브(습식). 소방설비표(p189) '준비작동식(P/V), 습식(A/V)'. 사진 'In-rack head(4th floor)'(p195) — 4층 인랙 헤드가 있어 '혼합'도 정답 인정. 헤드 형식(표준형·ESFR) 기재 없음",
+            "accept_also": [
+              "혼합"
+            ]
+          }
+        ],
+        "refrigerant": [
+          {
+            "value": "암모니아",
+            "unit": null,
+            "raw_text": "1차측에는 R717(NH3)을 사용하고, … 2차측에는 CO2",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 127,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "NH3/CO2 캐스케이드: 압축기~증발식 응축기 1차 R717, 캐스케이드 응축기~유니트쿨러 2차 CO2. 방재실 가스누설 감시(p130)"
+          }
+        ],
+        "refrigeration_system": [
+          {
+            "value": "NH3/CO2 캐스케이드 — 스크류 컴프레서 유닛 8대(저온창고 381kW×6, 작업장 475kW×2, 3F·7F 기계실) + 증발식 응축기 400RT×4(옥상) + 유니트쿨러 96+87대",
+            "unit": null,
+            "raw_text": "Compressor unit 8대는 지상3층 냉동 기계실과 지상7층 냉동기계실",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 127,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "장비표 p128: 펌프 패키지 2F·6F, 제상수 탱크 B1·5F(18ton×2, 저장고 살수제상·작업장 공기제상), 고압수액기·리퀴드트랩 3F·7F. 방재실 제어 PC. 실사 당일 일부 층 상온 운용으로 일부 설비만 운전(p131)"
+          }
+        ],
+        "cold_insulation_material": [
+          {
+            "value": "우레탄",
+            "unit": null,
+            "raw_text": "외벽은 T100 우레탄 패널 + T150 우레탄 뿜칠",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 85,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "저온창고 방열: 바닥 우레탄 뿜칠, 외벽 우레탄 패널+뿜칠, 칸막이·천장 우레탄 뿜칠. 4~5층 창고 천장 우레탄·무기질 뿜칠 곰팡이(p85)"
+          }
+        ],
+        "cold_insulation_thickness_mm": [
+          {
+            "value": 150,
+            "unit": "mm",
+            "raw_text": "기준층 바닥 T150 우레탄 뿜칠",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 85,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "부위별: 바닥 1F T200·기준층 T150, 외벽 T100 우레탄 패널+T150 뿜칠, 저온창고 내부 칸막이 T100, 저온창고-작업장 칸막이 T150, 천장 최상층 T250·기준층 T150. 가장 많은 부위의 T150을 정답으로, 100·200·250도 정답 인정",
+            "accept_also": [
+              100,
+              200,
+              250
+            ]
+          }
+        ],
+        "power_capacity_kw": [
+          {
+            "value": 9750,
+            "unit": "kW",
+            "raw_text": "계약전력은 9,750kW",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 180,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "수전용량 9,750kVA(p19, p134). 2025.03~2026.03 최대수요전력 약 1,300kW, 2026.03 706kW — 기본요금은 계약전력 30% 2,925kW 기준"
+          }
+        ],
+        "transformer_capacity_kva": [
+          {
+            "value": 9750,
+            "unit": "kVA",
+            "raw_text": "변압기는 750KVA 1대, 1,250KVA 1대, 1,500KVA 4대, 1,750KVA 1대, 총 7대",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 137,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "p136 표: TR-1 1,250 일반, TR-2 1,500·TR-3 750 동력/비상, TR-4~6 1,500×3·TR-7 1,750 저온동력. 몰드 변압기. 발전기 900kW(소방부하우선) + 2,250kW(저온동력)"
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "기계",
+                "unit": null,
+                "raw_text": "지하1 층에는 기계, 전기실이 위치",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 7,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "면적표(p8) B1F 창고 425.35 + 기타공용(기계·전기실) 951.76. 기계실·전기실·발전기실·정화조(p52). B1 창고(조명 불량 지적 p149)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 1377.11,
+                "unit": "m2",
+                "raw_text": "B1F 425.35 / 951.76 / 1377.11",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "1F Warehouse 7355.70, Office 260.74",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "1층 동측 경비실·방재실, 서측 주출입구 로비. 사무 260.74㎡"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온 창고는 1층,3층~9층에 위치",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 127,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13318.73,
+                "unit": "m2",
+                "raw_text": "1F 7616.44 + Berth 1275.81 + Ramp/Driveway 4426.48",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "면적표 1F 합계 13,343.91은 별동 경비실(Security office 25.18) 포함 — 창고동 합계(7,616.44 + 1,275.81 + 4,426.48)로 넣음. 표 합계도 정답 인정",
+                "accept_also": [
+                  13343.91
+                ]
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "1F 층고 10",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층고·유효높이표(p68) 준공도면 층고"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.482,
+                "unit": "m",
+                "raw_text": "1F Beam soffit 8.482 / Unit cooler piping soffit 6.319",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "1F 실측(p68, 사진 p71): 슬래브 하단 9.277, 보 하단 8.482, 유닛쿨러 배관하부 6.319m. 일반 배관하부 값 없음 — 보 하단을 정답으로, 유닛쿨러 배관하부도 정답 인정 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+                "basis": "보 하단"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "1F Truck Parking 24 (Truck waiting parking 27)",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "1F 하역장 Berth 24 + 화물 대기 27(주차대수 미산입). 수록 주차계획도 p46"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 52,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "사무실은 2 개층 (2 층 및 10 층)",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 7,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "면적표(p8) 2F 창고 688.94·사무 1,202.61·공용 145.42. 1층 Berth 상부. 사무실-3 칸막이 분할 임대(준공도서·대장 미반영, p52), 샤워·탈의실 미사용, 냉동기계실(X17-Y6) 위치"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 2036.97,
+                "unit": "m2",
+                "raw_text": "2F 688.94 / 1202.61 / 145.42 / 2036.97",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 4,
+                "unit": "kN/m2",
+                "raw_text": "Office 사무실 4.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "3F Warehouse (Table 1.2.2-2)",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온 창고는 1층,3층~9층에 위치",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 127,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "3F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)"
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "Typical floor Story height 10",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.025,
+                "unit": "m",
+                "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+                "basis": "배관 하단"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 52,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "4F Warehouse (Table 1.2.2-2)",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온 창고는 1층,3층~9층에 위치",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 127,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "4F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)"
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "Typical floor Story height 10",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.025,
+                "unit": "m",
+                "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+                "basis": "배관 하단"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 52,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "5F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "5F Warehouse (Table 1.2.2-2)",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온 창고는 1층,3층~9층에 위치",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 127,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계는 전 층 저온창고. 매도인 설명상 5층(503호 부분 임대)은 상온창고로 운용(p51-52) — 상온 구간 유니트쿨러·배관 존치(p131)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "5F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)"
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "Typical floor Story height 10",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.025,
+                "unit": "m",
+                "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+                "basis": "배관 하단"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 52,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "6F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "6F Warehouse (Table 1.2.2-2)",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온 창고는 1층,3층~9층에 위치",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 127,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "매도인 설명상 6~8층은 저온창고로 임대·운영(p51-52)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "6F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)"
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "Typical floor Story height 10",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.025,
+                "unit": "m",
+                "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+                "basis": "배관 하단"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 52,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "7F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "7F Warehouse (Table 1.2.2-2)",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온 창고는 1층,3층~9층에 위치",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 127,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "매도인 설명상 6~8층은 저온창고로 임대·운영(p51-52)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "7F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)"
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "Typical floor Story height 10",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.025,
+                "unit": "m",
+                "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+                "basis": "배관 하단"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 52,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "8F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "8F Warehouse (Table 1.2.2-2)",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온 창고는 1층,3층~9층에 위치",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 127,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "매도인 설명상 6~8층은 저온창고로 임대·운영(p51-52)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "8F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)"
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "Typical floor Story height 10",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.025,
+                "unit": "m",
+                "raw_text": "Typical floor Piping soffit 8.025 / Unit cooler piping soffit 6,451",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "기준층 실측(p68, 사진 8F p72): 슬래브 하단 9.382, 보 하단 8.576, 배관하부 8.025, 유닛쿨러 배관하부 6.451m. 배관하부 값을 정답으로, 유닛쿨러 배관하부·보 하단도 정답 인정. '기준층'은 보고서가 3F~9F로 정의(p45, p55)하나 9F는 별도 실측이 있어 3F~8F에 적용 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+                "basis": "배관 하단"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 52,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "9F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "9F Warehouse (Table 1.2.2-2)",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온 창고는 1층,3층~9층에 위치",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 127,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계는 저온창고(구조표 p100 'Low temperature'). 매도인 설명상 9층은 상온창고로 임대·운영(p51-52) — 유니트쿨러·배관 존치(p131)"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "9F 7514.22 / 0 / 100.40 / 7614.62 / 1275.81 / 4426.48 / 13316.91",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층 합계(창고 7,514.22 + 공용 100.40 + Berth 1,275.81 + 램프/차로 4,426.48)"
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 25,
+                "unit": "kN/m2",
+                "raw_text": "저온창고 25.0 kN/㎡",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "설계하중표(p101): 저온창고·하역장·램프·옥상주차장 25.0 kN/㎡, 사무실 4.0. 국문 본문 '저온창고의 적재하중도 … 25.0 kN/m2'(p101), 영문 본문은 '20.0 kN/m2 … ambient'로 상이"
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 10,
+                "unit": "m",
+                "raw_text": "9F Story height 10",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "층고·유효높이표(p68) 준공도면 층고. p13 '창고의 층고는 10m'"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 7.852,
+                "unit": "m",
+                "raw_text": "9F Piping soffit 7.852",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 68,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "9F 실측(p68, 사진 p72): 슬래브 하단 9.132, 보 하단 8.568, 배관하부 7.852m. 배관하부를 정답으로, 보 하단도 정답 인정 — accept_also(보 하단·유닛쿨러 하단) 삭제: 측정 기준 basis 도입(2026-10-18), 유닛쿨러 하단은 참고값",
+                "basis": "배관 하단"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Typical floor (3F~9F) Truck Parking 24*7F",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 45,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "차량 램프가 각 층 창고 북측 차로와 연결(p11, p41). 사진 'nF Driveway & Berth'(p49-50)"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "하역장의 입ᆞ출하 작업 및 화물차의 동선 관련하여 이상 없을 것으로 판단",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 52,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "Driveway 14m + Berth 13m = 27m로 여유(p13, p52). 램프→차로 진입부 기둥 간섭 언급 없음. 다만 전층 Y7열(차로-Berth 경계) 기둥 전면 스틸 보호대 설치 권장(p16, p92) — Berth 구획 앞 기둥 충돌 노출이지 램프→하역장 동선 간섭 판정은 아님"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "10F",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "10 층에는 사무실 및 식당이 계획",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 7,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "면적표(p8) 10F 창고 655.79·사무 1,327.09. 사무실·한식뷔페 식당·주방, 사무실-5·6 칸막이 분할(p52). 옥상 주차(화물 28·일반 76·장애인 3, p45)는 바닥면적 외"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 1982.88,
+                "unit": "m2",
+                "raw_text": "10F 655.79 / 1327.09 / 0 / 1982.88",
+                "precision": "exact",
+                "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+                "source_locator": {
+                  "page": 8,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "building_id": "guard",
+      "label": "경비동(부속)",
+      "phase": "원준공",
+      "fields": {
+        "floors_above": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "경비동은 지상1 층 규모로 남측 20m 도로 차량진입구 부근",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 12,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "면적표(p8) Security office 25.18㎡(1F). 부속건축물"
+          }
+        ]
+      },
+      "floors": []
+    }
+  ],
+  "claims": [],
+  "missing": []
+}

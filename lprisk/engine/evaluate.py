@@ -39,7 +39,7 @@ def _eval_once(rule: dict, ctx: dict, segment: dict) -> dict:
     def hold(m: Missing):
         res.update(status="hold", severity="hold", hold_reason=m.reason)
         path = m.path
-        res["missing_inputs"] = sorted(set((ctx.get("missing") or {}).get(path, []) or [path]))
+        res["missing_inputs"] = sorted(set(m.inputs or (ctx.get("missing") or {}).get(path, []) or [path]))
 
     try:
         trig = ev.eval(rule["trigger"])

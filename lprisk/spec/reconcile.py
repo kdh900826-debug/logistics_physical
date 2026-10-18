@@ -96,7 +96,7 @@ def _cand(origin: str, v: dict, i: int) -> dict:
     return {"cand_id": f"{origin}:{i}", "origin": origin, "value": v.get("value"), "unit": v.get("unit"),
             "raw_text": v.get("raw_text"), "precision": v.get("precision"), "source_doc": v.get("source_doc"),
             "locator": loc, "crop": loc.get("crop"), "method": v.get("method"), "confidence": v.get("confidence"),
-            "flags": v.get("flags", []), "granularity": v.get("granularity")}
+            "flags": v.get("flags", []), "granularity": v.get("granularity"), "basis": v.get("basis")}
 
 
 def _consistent(field: str, values: list[dict]) -> bool:

@@ -1,0 +1,113 @@
+{
+  "asset_id": "bukhang",
+  "state": "FINAL",
+  "mode": "도면 단독(IM 미제공, 사용자 승인)",
+  "ruleset_version": "ruleset-untagged@7fb5838",
+  "created_at": "2026-10-18T12:22:15+09:00",
+  "history": [
+    {
+      "at": "2026-10-18T12:22:15+09:00",
+      "state": "INTAKE"
+    },
+    {
+      "at": "2026-10-18T12:24:04+09:00",
+      "state": "EXTRACTING",
+      "note": "NO_IM — 사용자 지시(2026-10-18)로 도면 단독 진행. 건축도면 PDF 1개(211쪽) 외 자료 참조 금지"
+    },
+    {
+      "at": "2026-10-18T12:55:40+09:00",
+      "state": "RECONCILED",
+      "note": "확인 67 / 자동확정 0"
+    },
+    {
+      "at": "2026-10-18T12:55:52+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "G2 대기 (도면 단독)"
+    },
+    {
+      "at": "2026-10-18T16:57:35+09:00",
+      "state": "PROFILED",
+      "note": "G2 반영"
+    },
+    {
+      "at": "2026-10-18T17:03:56+09:00",
+      "state": "EVALUATED",
+      "note": null
+    },
+    {
+      "at": "2026-10-18T17:05:59+09:00",
+      "state": "REPORT_DRAFT",
+      "note": null
+    },
+    {
+      "at": "2026-10-18T17:06:19+09:00",
+      "state": "AWAITING_REVIEW",
+      "note": null
+    },
+    {
+      "at": "2026-10-18T17:08:48+09:00",
+      "state": "FINAL",
+      "note": "G3 승인"
+    },
+    {
+      "at": "2026-10-18T18:52:53+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "G3 피드백 → W2-⑤"
+    },
+    {
+      "at": "2026-10-18T18:53:06+09:00",
+      "state": "RECONCILED",
+      "note": "확인 67 / 자동확정 0"
+    },
+    {
+      "at": "2026-10-18T18:53:15+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "재진입 W2-⑤: 유효층고 측정 기준(보 하단) 반영 — 채팅 지시"
+    },
+    {
+      "at": "2026-10-18T18:53:15+09:00",
+      "state": "PROFILED",
+      "note": "G2 반영"
+    },
+    {
+      "at": "2026-10-18T18:53:28+09:00",
+      "state": "PROFILED",
+      "note": "G2 반영"
+    },
+    {
+      "at": "2026-10-18T18:54:26+09:00",
+      "state": "EVALUATED",
+      "note": null
+    },
+    {
+      "at": "2026-10-18T18:55:50+09:00",
+      "state": "REPORT_DRAFT",
+      "note": null
+    },
+    {
+      "at": "2026-10-18T18:56:45+09:00",
+      "state": "REPORT_DRAFT",
+      "note": null
+    },
+    {
+      "at": "2026-10-18T18:56:54+09:00",
+      "state": "AWAITING_REVIEW",
+      "note": "재진입 후 G3 대기(유효층고 측정 기준 반영)"
+    },
+    {
+      "at": "2026-10-18T19:02:57+09:00",
+      "state": "FINAL",
+      "note": "G3 승인"
+    }
+  ],
+  "halt_reason": null,
+  "revisions": [
+    {
+      "at": "2026-10-18T18:52:53+09:00",
+      "reason": "[유효층고 clear_height_m (main 1F·3F~9F)] 측정 기준 보 하단(A-601 확대단면도-1, p171) 반영 — 배관 미반영 상한값. 값은 그대로 — 채팅 지시",
+      "reentry": "W2-⑤"
+    }
+  ],
+  "final_report": "bukhang_logistics_risk_report_final.md",
+  "final_report_html": "bukhang_logistics_risk_report_final.html"
+}

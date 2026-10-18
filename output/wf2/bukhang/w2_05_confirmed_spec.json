@@ -1,0 +1,2936 @@
+{
+  "asset_id": "bukhang",
+  "record_type": "confirmed",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 27351.5,
+        "unit": "m2",
+        "raw_text": "대지면적 27,351.50㎡",
+        "precision": "exact",
+        "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "source_locator": {
+          "page": 6,
+          "sheet_no": "A-101",
+          "bbox": [
+            174.0,
+            126.0,
+            220.0,
+            134.0
+          ],
+          "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r0c0.png",
+          "tile_box": [
+            0.3323,
+            0.2406,
+            0.4202,
+            0.2559
+          ],
+          "crop": "output/wf2/bukhang/crops/asset_x_x_site_area_m2_0.png"
+        },
+        "method": "vision",
+        "confidence": "low",
+        "source_grade": "확정",
+        "status": "확정"
+      }
+    ],
+    "truck_yard_depth_m": [
+      {
+        "value": 13.0,
+        "unit": "m",
+        "raw_text": "Y6~Y7 13,000 (화물주차장 단면)",
+        "precision": "exact",
+        "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+        "source_locator": {
+          "page": 178,
+          "sheet_no": "A-702",
+          "bbox": [
+            808.0,
+            153.0,
+            825.0,
+            158.0
+          ],
+          "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p178/r0c1.png",
+          "tile_box": [
+            0.643,
+            0.2922,
+            0.6755,
+            0.3018
+          ],
+          "crop": "output/wf2/bukhang/crops/asset_x_x_truck_yard_depth_m_0.png"
+        },
+        "method": "vision",
+        "confidence": "low",
+        "source_grade": "확정",
+        "status": "확정"
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "물류센터 (주건축물)",
+      "phase": "원준공",
+      "fields": {
+        "cold_insulation_thickness_mm": [
+          {
+            "value": 150.0,
+            "unit": "mm",
+            "raw_text": "THK150 우레탄 뿜칠 (W1 외벽, THK100 우레탄 패널 병설)",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": "A-181",
+              "bbox": [
+                619.0,
+                720.0,
+                867.0,
+                726.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p045/r1c1.png",
+              "tile_box": [
+                0.2821,
+                0.6709,
+                0.7557,
+                0.6871
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_cold_insulation_thickness_mm_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "cold_insulation_material": [
+          {
+            "value": "우레탄",
+            "unit": null,
+            "raw_text": "건축마감 + THK100 우레탄 패널 + THK150 우레탄 뿜칠 + 구갑망 + THK0.5 갈바륨",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 45,
+              "sheet_no": "A-181",
+              "bbox": [
+                619.0,
+                720.0,
+                867.0,
+                726.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p045/r1c1.png",
+              "tile_box": [
+                0.2821,
+                0.6709,
+                0.7557,
+                0.6871
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_cold_insulation_material_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "X6~X18 11,000 (12스팬)",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 96,
+              "sheet_no": "A-302",
+              "bbox": [
+                434.0,
+                160.0,
+                878.0,
+                164.0
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_column_span_x_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "Y2~Y6 11,000 (Y1~Y2 9,600)",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 96,
+              "sheet_no": "A-302",
+              "bbox": [
+                114.0,
+                444.0,
+                119.0,
+                575.0
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_column_span_y_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "dock_count": [
+          {
+            "value": 192,
+            "unit": "ea",
+            "raw_text": "화물 3.1X11.0m: 지상1층 24대, 지상3~9층 각 24대 (10층 28대 제외)",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 22,
+              "sheet_no": "A-131",
+              "bbox": [
+                55.0,
+                780.0,
+                560.0,
+                800.0
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_dock_count_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "dock_leveler_count": [
+          {
+            "value": 16,
+            "unit": "ea",
+            "raw_text": "D/L-1 W2000 X H4000 X D600 QUANTITY 16 SET",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 188,
+              "sheet_no": "A-731",
+              "bbox": [
+                706.0,
+                769.0,
+                907.0,
+                790.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p188/r1c1.png",
+              "tile_box": [
+                0.4482,
+                0.8031,
+                0.8321,
+                0.8597
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_dock_leveler_count_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "fire_compartment_max_m2": [
+          {
+            "value": 1925.27,
+            "unit": "m2",
+            "raw_text": "1,925.27㎡ (방화구획 면적)",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 29,
+              "sheet_no": "A-152",
+              "bbox": [
+                635.0,
+                546.0,
+                676.0,
+                553.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p029/r1c1.png",
+              "tile_box": [
+                0.3126,
+                0.2015,
+                0.3909,
+                0.2204
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_fire_compartment_max_m2_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 10,
+            "unit": "floor",
+            "raw_text": "지하1층, 지상 10층 (사무실 2개층 + 창고 8개층)",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 6,
+              "sheet_no": "A-101",
+              "bbox": [
+                174.0,
+                292.0,
+                393.0,
+                300.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r0c0.png",
+              "tile_box": [
+                0.3323,
+                0.5577,
+                0.7506,
+                0.573
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_floors_above_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "지하1층, 지상 10층",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 6,
+              "sheet_no": "A-101",
+              "bbox": [
+                174.0,
+                292.0,
+                393.0,
+                300.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r0c0.png",
+              "tile_box": [
+                0.3323,
+                0.5577,
+                0.7506,
+                0.573
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_floors_below_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "freight_elevator_count": [
+          {
+            "value": 0,
+            "unit": "ea",
+            "raw_text": "엘리베이터 사양: 승용 Elev.#1~#6 비상용 16인승/1200Kg",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 26,
+              "sheet_no": "A-141",
+              "bbox": [
+                70.0,
+                605.0,
+                680.0,
+                715.0
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_freight_elevator_count_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 111934.06,
+            "unit": "m2",
+            "raw_text": "연면적 합계 주건축물(물류센터) 111,934.06㎡",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 6,
+              "sheet_no": "A-101",
+              "bbox": [
+                174.0,
+                203.0,
+                225.0,
+                211.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r0c0.png",
+              "tile_box": [
+                0.3323,
+                0.3877,
+                0.4297,
+                0.403
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_gross_floor_area_m2_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "나선형",
+            "unit": null,
+            "raw_text": "RAMP (하부 OPEN)",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 98,
+              "sheet_no": "A-304",
+              "bbox": [
+                296.0,
+                460.0,
+                321.0,
+                473.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p098/r0c0.png",
+              "tile_box": [
+                0.5653,
+                0.8785,
+                0.6131,
+                0.9034
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_ramp_form_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "양방향",
+            "unit": null,
+            "raw_text": "RAMP 내려감 / RAMP 올라옴, RAMP 올라감 / RAMP 내려옴",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 23,
+              "sheet_no": "A-132",
+              "bbox": [
+                300.0,
+                340.0,
+                400.0,
+                430.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p023/r0c0.png",
+              "tile_box": [
+                0.573,
+                0.6494,
+                0.7639,
+                0.8212
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_ramp_type_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "ramp_width_m": [
+          {
+            "value": 14.0,
+            "unit": "m",
+            "raw_text": "14.0m (순수램프폭원), 0.85m(연석) 양측",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": "A-108",
+              "bbox": [
+                211.0,
+                631.0,
+                238.0,
+                651.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p013/r1c0.png",
+              "tile_box": [
+                0.403,
+                0.4308,
+                0.4545,
+                0.4848
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_ramp_width_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "복합",
+            "unit": null,
+            "raw_text": "구조: 철근콘크리트조, 철골조",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 6,
+              "sheet_no": "A-101",
+              "bbox": [
+                174.0,
+                267.0,
+                259.0,
+                274.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r0c0.png",
+              "tile_box": [
+                0.3323,
+                0.5099,
+                0.4947,
+                0.5233
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_structure_type_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "terrain_multi_level_access": [
+          {
+            "value": false,
+            "unit": null,
+            "raw_text": "20M 도로 FH:+6.84 / FH:+7.50 / 15M 도로 FH:+7.26, 1F FL EL+8.50",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 10,
+              "sheet_no": "A-105",
+              "bbox": [
+                396.0,
+                331.0,
+                805.0,
+                346.0
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_terrain_multi_level_access_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "turning_radius_m": [
+          {
+            "value": 12.0,
+            "unit": "m",
+            "raw_text": "R=12.0m (적정 회전반경 확보(R=12.0m)를 위한 지상10층 주차장 진출입 곡선부 도류화)",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 13,
+              "sheet_no": "A-108",
+              "bbox": [
+                190.0,
+                602.0,
+                205.0,
+                616.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p013/r1c0.png",
+              "tile_box": [
+                0.3629,
+                0.3526,
+                0.3915,
+                0.3903
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_turning_radius_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "THK50 글라스울패널 지정색A/B",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 107,
+              "sheet_no": "A-321",
+              "bbox": [
+                446.0,
+                91.0,
+                526.0,
+                97.0
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_wall_panel_core_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ],
+        "warehouse_depth_m": [
+          {
+            "value": 53.6,
+            "unit": "m",
+            "raw_text": "Y1~Y2 9,600 + Y2~Y6 11,000×4 (A-601 치수열)",
+            "precision": "approx",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 171,
+              "sheet_no": "A-601",
+              "bbox": [
+                300.0,
+                60.0,
+                640.0,
+                75.0
+              ],
+              "crop": "output/wf2/bukhang/crops/building_main_x_warehouse_depth_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 7.4,
+                "unit": "m",
+                "raw_text": "7,400",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    262.0,
+                    351.0,
+                    267.0,
+                    364.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5004,
+                    0.6704,
+                    0.5099,
+                    0.6952
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_B1_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 1377.11,
+                "unit": "m2",
+                "raw_text": "지하 1층 합계 1,377.11",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    468.0,
+                    555.0,
+                    476.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r0c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.8938,
+                    0.1599,
+                    0.9091
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_B1_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "기계",
+                "unit": null,
+                "raw_text": "지하 1층 창고 425.35 / 기타공용(기계전기실) 951.76",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    100.0,
+                    468.0,
+                    555.0,
+                    476.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_B1_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 5.0,
+                "unit": "m",
+                "raw_text": "5,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    334.0,
+                    276.0,
+                    346.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.6379,
+                    0.5271,
+                    0.6608
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_1F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13343.91,
+                "unit": "m2",
+                "raw_text": "지상 1층 합계 13,343.91",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    515.0,
+                    555.0,
+                    523.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.1179,
+                    0.1599,
+                    0.1395
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_1F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.55,
+                "unit": "m",
+                "raw_text": "8,550 (저온창고)",
+                "basis": "보 하단",
+                "precision": "upper_bound",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 171,
+                  "sheet_no": "A-601",
+                  "bbox": [
+                    441.0,
+                    677.0,
+                    447.0,
+                    688.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171/r1c0.png",
+                  "tile_box": [
+                    0.8422,
+                    0.5549,
+                    0.8537,
+                    0.5846
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_1F_clear_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "도크 TYPE-1/2 단면도(1F): 화물주차장 / 오버헤드 도어 / 도크씰 / DOCK 1,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 186,
+                  "sheet_no": "A-721",
+                  "bbox": [
+                    197.0,
+                    700.0,
+                    900.0,
+                    800.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_1F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "dock_route_column_conflict": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "진입동선(차량)/진출동선(차량) — 차로 서측 개구부 통과",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 22,
+                  "sheet_no": "A-131",
+                  "bbox": [
+                    330.0,
+                    340.0,
+                    460.0,
+                    380.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p022/r0c0.png",
+                  "tile_box": [
+                    0.6303,
+                    0.6494,
+                    0.8785,
+                    0.7257
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_1F_dock_route_column_conflict_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 96,
+                  "sheet_no": "A-302",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p096/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_1F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 96,
+                  "sheet_no": "A-302",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p096/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_1F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 5.0,
+                "unit": "m",
+                "raw_text": "5,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    320.0,
+                    276.0,
+                    332.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.6112,
+                    0.5271,
+                    0.6341
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_2F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 2036.97,
+                "unit": "m2",
+                "raw_text": "지상 2층 합계 2,036.97",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    539.0,
+                    555.0,
+                    547.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.1826,
+                    0.1599,
+                    0.2042
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_2F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 2.4,
+                "unit": "m",
+                "raw_text": "CH: 2,400 (사무실)",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 178,
+                  "sheet_no": "A-702",
+                  "bbox": [
+                    714.0,
+                    271.0,
+                    719.0,
+                    295.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p178/r0c1.png",
+                  "tile_box": [
+                    0.4635,
+                    0.5176,
+                    0.4731,
+                    0.5634
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_2F_clear_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "지상 2층 창고 688.94 / 오피스/지원 1,202.61 / 기타공용 145.42",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    100.0,
+                    539.0,
+                    555.0,
+                    547.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_2F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    297.0,
+                    276.0,
+                    312.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.5672,
+                    0.5271,
+                    0.5959
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_3F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "지상 3층 합계 13,316.91",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    563.0,
+                    555.0,
+                    571.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.2474,
+                    0.1599,
+                    0.269
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_3F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.55,
+                "unit": "m",
+                "raw_text": "8,550 (저온창고)",
+                "basis": "보 하단",
+                "precision": "upper_bound",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 171,
+                  "sheet_no": "A-601",
+                  "bbox": [
+                    441.0,
+                    606.0,
+                    447.0,
+                    617.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171/r1c0.png",
+                  "tile_box": [
+                    0.8422,
+                    0.3634,
+                    0.8537,
+                    0.393
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_3F_clear_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 187,
+                  "sheet_no": "A-722",
+                  "bbox": [
+                    232.0,
+                    700.0,
+                    920.0,
+                    800.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_3F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 98,
+                  "sheet_no": "A-304",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p098/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_3F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 98,
+                  "sheet_no": "A-304",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p098/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_3F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    269.0,
+                    276.0,
+                    283.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.5138,
+                    0.5271,
+                    0.5405
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_4F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "지상 4층 합계 13,316.91",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    586.0,
+                    555.0,
+                    594.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.3094,
+                    0.1599,
+                    0.331
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_4F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.55,
+                "unit": "m",
+                "raw_text": "8,550 (저온창고)",
+                "basis": "보 하단",
+                "precision": "upper_bound",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 171,
+                  "sheet_no": "A-601",
+                  "bbox": [
+                    441.0,
+                    535.0,
+                    447.0,
+                    546.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171/r1c0.png",
+                  "tile_box": [
+                    0.8422,
+                    0.1718,
+                    0.8537,
+                    0.2015
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_4F_clear_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 187,
+                  "sheet_no": "A-722",
+                  "bbox": [
+                    232.0,
+                    700.0,
+                    920.0,
+                    800.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_4F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 99,
+                  "sheet_no": "A-305",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p099/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_4F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 99,
+                  "sheet_no": "A-305",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p099/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_4F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "5F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    241.0,
+                    276.0,
+                    255.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.4603,
+                    0.5271,
+                    0.487
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_5F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "지상 5층 합계 13,316.91",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    610.0,
+                    555.0,
+                    618.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.3742,
+                    0.1599,
+                    0.3957
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_5F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.55,
+                "unit": "m",
+                "raw_text": "8,550 (저온창고)",
+                "basis": "보 하단",
+                "precision": "upper_bound",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 171,
+                  "sheet_no": "A-601",
+                  "bbox": [
+                    441.0,
+                    464.0,
+                    447.0,
+                    475.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171/r0c0.png",
+                  "tile_box": [
+                    0.8422,
+                    0.8862,
+                    0.8537,
+                    0.9072
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_5F_clear_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 187,
+                  "sheet_no": "A-722",
+                  "bbox": [
+                    232.0,
+                    700.0,
+                    920.0,
+                    800.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_5F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 100,
+                  "sheet_no": "A-306",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p100/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_5F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 100,
+                  "sheet_no": "A-306",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p100/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_5F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "6F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    212.0,
+                    276.0,
+                    227.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.4049,
+                    0.5271,
+                    0.4335
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_6F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "지상 6층 합계 13,316.91",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    634.0,
+                    555.0,
+                    642.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.4389,
+                    0.1599,
+                    0.4605
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_6F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.55,
+                "unit": "m",
+                "raw_text": "8,550 (저온창고)",
+                "basis": "보 하단",
+                "precision": "upper_bound",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 171,
+                  "sheet_no": "A-601",
+                  "bbox": [
+                    441.0,
+                    394.0,
+                    447.0,
+                    404.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171/r0c0.png",
+                  "tile_box": [
+                    0.8422,
+                    0.7525,
+                    0.8537,
+                    0.7716
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_6F_clear_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 187,
+                  "sheet_no": "A-722",
+                  "bbox": [
+                    232.0,
+                    700.0,
+                    920.0,
+                    800.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_6F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": "A-307",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p101/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_6F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 101,
+                  "sheet_no": "A-307",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p101/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_6F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "7F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    184.0,
+                    276.0,
+                    198.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.3514,
+                    0.5271,
+                    0.3782
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_7F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "지상 7층 합계 13,316.91",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    658.0,
+                    555.0,
+                    666.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.5036,
+                    0.1599,
+                    0.5252
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_7F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.55,
+                "unit": "m",
+                "raw_text": "8,550 (저온창고)",
+                "basis": "보 하단",
+                "precision": "upper_bound",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 171,
+                  "sheet_no": "A-601",
+                  "bbox": [
+                    441.0,
+                    323.0,
+                    447.0,
+                    333.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171/r0c0.png",
+                  "tile_box": [
+                    0.8422,
+                    0.6169,
+                    0.8537,
+                    0.636
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_7F_clear_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 187,
+                  "sheet_no": "A-722",
+                  "bbox": [
+                    232.0,
+                    700.0,
+                    920.0,
+                    800.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_7F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 102,
+                  "sheet_no": "A-308",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p102/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_7F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 102,
+                  "sheet_no": "A-308",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p102/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_7F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "8F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    156.0,
+                    276.0,
+                    170.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.2979,
+                    0.5271,
+                    0.3247
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_8F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "지상 8층 합계 13,316.91",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    681.0,
+                    555.0,
+                    689.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.5657,
+                    0.1599,
+                    0.5873
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_8F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.55,
+                "unit": "m",
+                "raw_text": "8,550 (저온창고)",
+                "basis": "보 하단",
+                "precision": "upper_bound",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 171,
+                  "sheet_no": "A-601",
+                  "bbox": [
+                    441.0,
+                    252.0,
+                    447.0,
+                    263.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171/r0c0.png",
+                  "tile_box": [
+                    0.8422,
+                    0.4813,
+                    0.8537,
+                    0.5023
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_8F_clear_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 187,
+                  "sheet_no": "A-722",
+                  "bbox": [
+                    232.0,
+                    700.0,
+                    920.0,
+                    800.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_8F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 103,
+                  "sheet_no": "A-309",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p103/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_8F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 103,
+                  "sheet_no": "A-309",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p103/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_8F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "9F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10,000",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    127.0,
+                    276.0,
+                    142.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.2426,
+                    0.5271,
+                    0.2712
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_9F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 13316.91,
+                "unit": "m2",
+                "raw_text": "지상 9층 합계 13,316.91",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    705.0,
+                    555.0,
+                    713.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.6304,
+                    0.1599,
+                    0.652
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_9F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.35,
+                "unit": "m",
+                "raw_text": "8,350 (저온창고)",
+                "basis": "보 하단",
+                "precision": "upper_bound",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 171,
+                  "sheet_no": "A-601",
+                  "bbox": [
+                    441.0,
+                    182.0,
+                    447.0,
+                    193.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171/r0c0.png",
+                  "tile_box": [
+                    0.8422,
+                    0.3476,
+                    0.8537,
+                    0.3686
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_9F_clear_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "note": "측정 기준 보 하단 반영(A-601 FL~보 하단 치수, 배관 미반영 상한) — 채팅 지시 2026-10-18"
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "도크 TYPE-3/4 단면도(3~9F): 화물주차장 / 오버헤드 도어 / 도크씰",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 187,
+                  "sheet_no": "A-722",
+                  "bbox": [
+                    232.0,
+                    700.0,
+                    920.0,
+                    800.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_9F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "temp": [
+              {
+                "value": "저온",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 104,
+                  "sheet_no": "A-310",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p104/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_9F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "저온창고",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 104,
+                  "sheet_no": "A-310",
+                  "bbox": [
+                    644.0,
+                    527.0,
+                    668.0,
+                    533.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p104/r1c1.png",
+                  "tile_box": [
+                    0.3298,
+                    0.1503,
+                    0.3757,
+                    0.1664
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_9F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "10F",
+          "fields": {
+            "floor_height_m": [
+              {
+                "value": 5.5,
+                "unit": "m",
+                "raw_text": "5,500",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 109,
+                  "sheet_no": "A-331",
+                  "bbox": [
+                    271.0,
+                    106.0,
+                    276.0,
+                    118.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109/r0c0.png",
+                  "tile_box": [
+                    0.5176,
+                    0.2024,
+                    0.5271,
+                    0.2254
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_10F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 1982.88,
+                "unit": "m2",
+                "raw_text": "지상 10층 합계 1,982.88",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    516.0,
+                    729.0,
+                    555.0,
+                    737.0
+                  ],
+                  "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r1c1.png",
+                  "tile_box": [
+                    0.0854,
+                    0.6952,
+                    0.1599,
+                    0.7168
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_10F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ],
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "지상 10층 창고 655.79 / 오피스/지원 1,327.09",
+                "precision": "exact",
+                "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+                "source_locator": {
+                  "page": 6,
+                  "sheet_no": "A-101",
+                  "bbox": [
+                    100.0,
+                    729.0,
+                    555.0,
+                    737.0
+                  ],
+                  "crop": "output/wf2/bukhang/crops/floor_main_10F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": "확정"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "building_id": "guard",
+      "label": "경비동 (부속건축물)",
+      "phase": "원준공",
+      "fields": {
+        "gross_floor_area_m2": [
+          {
+            "value": 25.18,
+            "unit": "m2",
+            "raw_text": "연면적 합계 부속건축물(경비동) 25.18㎡",
+            "precision": "exact",
+            "source_doc": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+            "source_locator": {
+              "page": 6,
+              "sheet_no": "A-101",
+              "bbox": [
+                299.0,
+                203.0,
+                328.0,
+                211.0
+              ],
+              "tile": "output/wf2/bukhang/tiles/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006/r0c0.png",
+              "tile_box": [
+                0.571,
+                0.3877,
+                0.6264,
+                0.403
+              ],
+              "crop": "output/wf2/bukhang/crops/building_guard_x_gross_floor_area_m2_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": "확정"
+          }
+        ]
+      },
+      "floors": []
+    }
+  ],
+  "claims": [],
+  "missing": [
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-132 지상3~9층 주차계획도",
+        "A-304 평면도",
+        "A-409 지상3층 확대평면도-1"
+      ],
+      "note": "주차계획도 진입·진출동선은 램프 구간에만 표시되고 램프 착지부→차로 진입부에는 동선 없음. 램프 착지부(X3~X5)→차로(Y7~Y8, 14,000) 진입 개구부(X5~X6 E.J선, Y8 기둥과 CORE#1 사이) 안에 기둥 없음. 개구부 기준만으로 false 기록하지 않음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-132 지상3~9층 주차계획도",
+        "A-305 평면도",
+        "A-409~A-436 확대평면도"
+      ],
+      "note": "주차계획도 진입·진출동선은 램프 구간에만 표시되고 램프 착지부→차로 진입부에는 동선 없음. 램프 착지부(X3~X5)→차로(Y7~Y8, 14,000) 진입 개구부(X5~X6 E.J선, Y8 기둥과 CORE#1 사이) 안에 기둥 없음. 개구부 기준만으로 false 기록하지 않음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-132 지상3~9층 주차계획도",
+        "A-306 평면도",
+        "A-409~A-436 확대평면도"
+      ],
+      "note": "주차계획도 진입·진출동선은 램프 구간에만 표시되고 램프 착지부→차로 진입부에는 동선 없음. 램프 착지부(X3~X5)→차로(Y7~Y8, 14,000) 진입 개구부(X5~X6 E.J선, Y8 기둥과 CORE#1 사이) 안에 기둥 없음. 개구부 기준만으로 false 기록하지 않음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "6F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-132 지상3~9층 주차계획도",
+        "A-307 평면도",
+        "A-409~A-436 확대평면도"
+      ],
+      "note": "주차계획도 진입·진출동선은 램프 구간에만 표시되고 램프 착지부→차로 진입부에는 동선 없음. 램프 착지부(X3~X5)→차로(Y7~Y8, 14,000) 진입 개구부(X5~X6 E.J선, Y8 기둥과 CORE#1 사이) 안에 기둥 없음. 개구부 기준만으로 false 기록하지 않음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-132 지상3~9층 주차계획도",
+        "A-308 평면도",
+        "A-409~A-436 확대평면도"
+      ],
+      "note": "주차계획도 진입·진출동선은 램프 구간에만 표시되고 램프 착지부→차로 진입부에는 동선 없음. 램프 착지부(X3~X5)→차로(Y7~Y8, 14,000) 진입 개구부(X5~X6 E.J선, Y8 기둥과 CORE#1 사이) 안에 기둥 없음. 개구부 기준만으로 false 기록하지 않음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "8F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-132 지상3~9층 주차계획도",
+        "A-309 평면도",
+        "A-409~A-436 확대평면도"
+      ],
+      "note": "주차계획도 진입·진출동선은 램프 구간에만 표시되고 램프 착지부→차로 진입부에는 동선 없음. 램프 착지부(X3~X5)→차로(Y7~Y8, 14,000) 진입 개구부(X5~X6 E.J선, Y8 기둥과 CORE#1 사이) 안에 기둥 없음. 개구부 기준만으로 false 기록하지 않음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-132 지상3~9층 주차계획도",
+        "A-310 평면도",
+        "A-409~A-436 확대평면도"
+      ],
+      "note": "주차계획도 진입·진출동선은 램프 구간에만 표시되고 램프 착지부→차로 진입부에는 동선 없음. 램프 착지부(X3~X5)→차로(Y7~Y8, 14,000) 진입 개구부(X5~X6 E.J선, Y8 기둥과 CORE#1 사이) 안에 기둥 없음. 개구부 기준만으로 false 기록하지 않음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-301 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-302 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-303 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-304 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-305 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-306 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "6F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-307 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-308 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "8F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-309 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-310 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "10F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-011 건축일반사항",
+        "A-101 건축개요",
+        "A-311 평면도 NOTES"
+      ],
+      "note": "구조도면(S-xxx)·구조일반사항이 PDF에 없음. 건축도면 평면 주기·일반사항에 바닥 설계하중 표기 없음(text-search '하중|kN|kg/|t/㎡' 무)"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-331~A-334 종·횡단면도",
+        "A-601~A-606 확대단면도"
+      ],
+      "note": "B1: 기계·전기실, 단면에 유효고 치수 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "10F",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-331~A-334 종·횡단면도",
+        "A-601~A-606 확대단면도",
+        "A-455 부분확대 평면도-5"
+      ],
+      "note": "10F: 부분확대(A-455) 실별 CH 3,400·2,400 상이, 층 대표 유효고 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "completion_year",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-101 건축개요",
+        "표제란(A-001~A-906)"
+      ],
+      "note": "표제란 일자 2021.03은 설계일. 사용승인일 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-101 층별면적",
+        "A-111·A-112 바닥면적산출 근거표",
+        "A-181~A-184 방열계획도"
+      ],
+      "note": "층별면적표는 '창고' 열(합계 61,725.32㎡)만 있고 저온·냉동 구분 면적 표기 없음. 평면 실명은 1F·3F~9F '저온창고'"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_ratio_pct",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-101 건축개요·층별면적"
+      ],
+      "note": "저온 비율 기재 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_slope_pct",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-001~A-004 도면목록표",
+        "A-304 지상3층 평면도",
+        "A-603 확대단면도-3",
+        "A-606 확대단면도-6",
+        "A-108 교통 종합개선안도"
+      ],
+      "note": "램프 확대평면·확대단면도(A-1201~A-1208)가 목록에만 있고 PDF에 없음. 평면·확대단면에 램프 경사(% 또는 1/n) 표기 없음(text-search 무)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "freight_elevator_capacity_t",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-141 엘리베이터 운영계획도"
+      ],
+      "note": "화물용 승강기 없음(승용 16인승/1200Kg 6대만)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "vrc_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-302~A-311 평면도",
+        "A-141 엘리베이터 운영계획도"
+      ],
+      "note": "수직반송기 표기 없음. 기계도면 패키지에 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "roof_panel_core",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-312 지붕 평면도",
+        "A-601 확대단면도-1",
+        "A-761 외벽 평입단면 상세도-1"
+      ],
+      "note": "지붕은 RC 슬래브 위 옥상주차장·옥상정원(10F FL)·사무동 지붕(ROOF FL +94.00) — 지붕 패널 표기 없음. 9F 저온창고 천장 방열 THK250 우레탄 뿜칠(A-181 C1)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "roof_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-312 지붕 평면도",
+        "A-101 건축개요"
+      ],
+      "note": "지붕 면적 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "solar_installed",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-312 지붕 평면도",
+        "A-311 지상10층 평면도"
+      ],
+      "note": "지붕평면도에 태양광 패널 표기 없음(text-search '태양광|PV|SOLAR' 무). 설치 여부 판단 근거 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ohd_sprinkler_gap",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-702~A-709 화물주차장 상세도",
+        "A-721·A-722 도크 상세도"
+      ],
+      "note": "소방(스프링클러) 도면이 패키지에 없음. 도크 상세에 OHD·스크린방화셔터만 표기, 헤드 위치 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "sprinkler_type",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-271 실내재료마감 일반사항",
+        "A-151~A-157 방화구획도"
+      ],
+      "note": "소방도면 없음. A-271에 '천장은 노출로 하고 ... 스프링클러는 상향식으로 조정' 일반 주기만 있음(헤드 형식·ESFR 여부 미기재)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "refrigerant",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-452 부분확대 평면도-2(냉동기계실)"
+      ],
+      "note": "기계(냉동)도면이 패키지에 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "refrigeration_system",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-452 부분확대 평면도-2(냉동기계실)"
+      ],
+      "note": "기계(냉동)도면이 패키지에 없음. 냉동기계실은 2F·3~9F에 실명만 있음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_floor_heave_protection",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-181 지상1층 방열계획도",
+        "A-185~A-188 방열계획 상세도",
+        "A-211 우배수공사 일반사항"
+      ],
+      "note": "1F 저온창고 바닥 'P.E FILM + THK200우레탄 뿜칠 + 수성방습 + 배수판'(A-181 F1)만 표기, 동상방지 히팅·환기관 표기 없음(열선은 우수 드레인용만)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "power_capacity_kw",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-001~A-004 도면목록표"
+      ],
+      "note": "전기(단선결선도) 도면이 패키지에 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "transformer_capacity_kva",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-001~A-004 도면목록표"
+      ],
+      "note": "전기(단선결선도) 도면이 패키지에 없음"
+    }
+  ],
+  "confirmed_at": "2026-10-18T18:53:28+09:00"
+}

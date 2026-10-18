@@ -1,0 +1,4501 @@
+{
+ "asset_id": "bukhang",
+ "created_at": "2026-10-18T12:25:59+09:00",
+ "sheets": [
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p001",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 1,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-001 도면목록표-1 도면 목록표-1 (건축) A-001 A-102 도면목록표-",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p001.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p001_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-001",
+   "title": "도면목록표-1",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "도면목록표(도면번호-도면명 대응표)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p002",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 2,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-002 도면목록표-2 도면 목록표-2 (건축) A-301 A-302 A-303 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p002.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p002_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-002",
+   "title": "도면목록표-2",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "도면목록표(도면번호-도면명 대응표)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p003",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 3,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-003 도면목록표-3 도면 목록표-3 (건축) 파라펫 상세도-1 A-821 1/",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p003.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p003_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-003",
+   "title": "도면목록표-3",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "도면목록표(도면번호-도면명 대응표)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p004",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 4,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-004 도면목록표-4 도면 목록표-4 (건축) 벽 체 일 람 지하1층 내부벽체 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p004.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p004_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-004",
+   "title": "도면목록표-4",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "도면목록표(도면번호-도면명 대응표)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p005",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 5,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - 모든 공사 및 자재는 관계법령과 조례/규정에 적합하여야 하며, 각 도면과 시방서",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p005.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p005_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-011",
+   "title": "건축일반사항",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "건축일반사항(내화기준 등 일반 표)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 6,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 ■ 건축 개요 ■ 조감도 ■ 위치도 단위: ㎡ ■ 층별면적 구 분 창고 오피스/지원",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p006_titleblock.png",
+   "drawing_type": "면적표",
+   "sheet_no": "A-101",
+   "title": "건축개요, 위치도",
+   "building_id": null,
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": "건축개요·층별면적표·조감도·위치도 한 장"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p007",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 7,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "1 2 3 4 5 6 7 1 2 3 1 4 5 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 인천광역시 서구 원창동 393-53,",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p007.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p007_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-102",
+   "title": "지구단위계획 결정고시도",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "지구단위계획 결정고시도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p008",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 8,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "393-175 잡 393-154 잡 393-155 잡 393-56 도 393-61 잡 393-21 잡 393-10 잡 393-54 잡 393-52 잡 393-53 잡 393-67 잡 393-66 잡 393-7 잡 393-8 잡 393-9 잡 393 잡 485-2 도 A-103 대지 구적도 - 대지 구적도 1 축척 A1 : 1/500 축척 A3 : 1/1000 BY CAD 번호 면적(㎡) 1 6,892.86 2 6,719.12 3 6,587.40 4 410.10 5 3,186.65 6 394.81 7 3,160.56 산출근거 BY C",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p008.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p008_titleblock.png",
+   "drawing_type": "측량성과도",
+   "sheet_no": "A-103",
+   "title": "대지 구적도",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "대지 구적도(필지별 면적 구적)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p009",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 9,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "인 천 세 관 보 세 구 역 삼삼기업 선인북항보세창고 준호목재 엔지니어링 문경 제일비엠씨 동일에티스(주) (주)동양특수목재 E-1 D-1 E-2 C-2 D-2 F-1 보루네오가구 항보세창고 준호목재 문경 동일 C-2 보루네오가구 - 배 치 도 1 축척 A1 : 1/500 축척 A3 : 1/1000 A-104 배 치 도 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p009.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p009_titleblock.png",
+   "drawing_type": "배치도",
+   "sheet_no": "A-104",
+   "title": "배치도",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p010",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 10,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - 대지 종단면도 1 축척 A1 : 1/500 축척 A3 : 1/1000 - 대지 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p010.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p010_titleblock.png",
+   "drawing_type": "배치도",
+   "sheet_no": "A-105",
+   "title": "대지 종,횡단면도",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "대지 종·횡단면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p011",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 11,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "인 천 세 관 보 세 구 역 삼삼기업 선인북항보세창고 준호목재 엔지니어링 문경 제일비엠씨 동일에티스(주) (주)동양특수목재 E-1 D-1 E-2 C-2 D-2 F-1 보루네오가구 항보세창고 준호목재 문경 동일 C-2 보루네오가구 - 레벨 계획도 1 축척 A1 : 1/500 축척 A3 : 1/1000 A-106 레벨 계획도 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROV",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p011.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p011_titleblock.png",
+   "drawing_type": "배치도",
+   "sheet_no": "A-106",
+   "title": "레벨 계획도",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "레벨 계획도(대지 레벨)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p012",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 12,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 항보세창고 준호목재 문경 동일 C-2 보루네오가구 방 방 지게차 충전소 A-107 포장범위 구분도 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 1",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p012.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p012_titleblock.png",
+   "drawing_type": "배치도",
+   "sheet_no": "A-107",
+   "title": "포장범위 구분도",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "포장범위 구분도(대지)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p013",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 13,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "인천부두 CJ 인천세관보세구역제4보세장치장 인 천 세 관 보 세 구 역 한진중공업 삼삼기업 대한 통운 (주)재활용품선별장 50 50 50 40 40 비보호 비보호 비보호 40 비보호 40 40 40 율도공원북항 배후단지 40 40 40 40 40 40 40 북항 배후단지 시 청시 청 비보호 40 40 40 40 40 40 40 40 40 40 주정차금지 40 40 주정차금지 40 주정차금지 견인지역 40 연속설치 40 주정차금지 횡 단 보 도 연속설치 주정차금지 견인지역 40 40 주정차금지 40 주정차금지 견인지역 3 3 3 3 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p013.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p013_titleblock.png",
+   "drawing_type": "배치도",
+   "sheet_no": "A-108",
+   "title": "교통 종합개선안도",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "교통 종합개선안도(대지 외 도로 포함)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p014",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 14,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "항보세창고 준호목재 문경 동일 C-2 보루네오가구 동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p014.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p014_titleblock.png",
+   "drawing_type": "배치도",
+   "sheet_no": "A-109",
+   "title": "옥외시설물 안내도",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "옥외시설물 안내도(대지)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p015",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 15,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "A-111 바닥면적산출 근거표-1 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X6 X7 X8 X9 X10 X11 X12 X13 Y8 Y7 Y6 Y5 Y4 Y3 Y2 Y1 13,000 11,000 11,000 11,000 11,000 4,750 15,500 11,750 11,750 15,500 X5 X15 X16 X17 X18 54,500 지하1층 지상1층 지상2층 지",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p015.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p015_titleblock.png",
+   "drawing_type": "면적표",
+   "sheet_no": "A-111",
+   "title": "바닥면적산출 근거표-1",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "바닥면적 산출 근거표(층 범위 표제에 미표기)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p016",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 16,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "A-112 바닥면적산출 근거표-2 지상10층 건축면적 산출근거 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 80,600 14,0",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p016.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p016_titleblock.png",
+   "drawing_type": "면적표",
+   "sheet_no": "A-112",
+   "title": "바닥면적산출 근거표-2",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "바닥면적 산출 근거표(층 범위 표제에 미표기)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p017",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 17,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "통신단자 SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN A-121 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p017.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p017_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-121",
+   "title": "지하1층 피난동선 계획도",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": "피난동선 계획도(평면 기반). 방화구획도는 아님, 유형 경계 사례"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p018",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 18,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "항보세창고 준호목재 문경 동일 C-2 보루네오가구 동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 A-122 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p018.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p018_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-122",
+   "title": "지상1층 피난동선 계획도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "피난동선 계획도(평면 기반). 방화구획도는 아님, 유형 경계 사례"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p019",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 19,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 A-123 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p019.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p019_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-123",
+   "title": "지상2층 피난동선 계획도",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": "피난동선 계획도(평면 기반). 방화구획도는 아님, 유형 경계 사례"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p020",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 20,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 A-124 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p020.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p020_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-124",
+   "title": "지상3~9층 피난동선 계획도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "피난동선 계획도(평면 기반). 방화구획도는 아님, 유형 경계 사례"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p021",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 21,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000 Y8 Y7 Y6 Y5 Y4 Y3 Y2 Y1 4,750 X14 X18 54,500 15,500 11,750 11,750 15,500 X15 X16 X17 G.T 출입통제단자 비상분전반 일반분전반 통신",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p021.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p021_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-125",
+   "title": "지상10층 피난동선 계획도",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "피난동선 계획도(평면 기반). 방화구획도는 아님, 유형 경계 사례"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p022",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 22,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 항보세창고 준호목재 문경 동일 C-2 보루네오가구 A-131 - 지상1층 주차계획도 1 축척 A1 : 1/400 축척 A3 : 1/800 (18대) 확장형 (27대) 대기주차 RAMP 내려옴 RAMP 올라감 (20대) 보관소 자전거 구분 일반형 확장형 확장형(대형) 합계 ■ 주차장계",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p022.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p022_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-131",
+   "title": "지상1층 주차계획도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "주차계획도(1/800 평면 기반, 주차 대수표 포함). 대지 배치 포함"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p023",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 23,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 A-132 - 지상3~9층 주차계획도 1 축척 A1 : 1/400 축척 A3 : 1/800 RAMP 내려감 RAMP 올라옴 RAMP 내려옴 RAMP 올라감 구분 일반형 확장형 확장형(대형) 합계 ■ 주차장계획 2.5X5.0m 2.6X5.2m 3.3X11.0m 3.1X11.0m 지상1층 지상2층 지상3층 지상4층 지상5층 지상6층 지상7층",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p023.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p023_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-132",
+   "title": "지상3~9층 주차계획도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "주차계획도(1/800 평면 기반, 주차 대수표 포함)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p024",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 24,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "G.T 출입통제단자 비상분전반 일반분전반 통신단자 TV단자 MAIN TV단자 방송단자 출입통제단자 출입통제단자 A-133 - 지상10층 주차계획도 1 축척 A1 : 1/400 축척 A3 : 1/800 스노우멜팅 설치부분 (전기도면 참조) RAMP 내려감 RAMP 올라옴 구분 일반형 확장형 확장형(대형) 합계 ■ 주차장계획 2.5X5.0m 2.6X5.2m 3.3X11.0m 3.1X11.0m 지상1층 지상2층 지상3층 지상4층 지상5층 지상6층 지상7층 지상8층 지상9층 지상10층 - - - - - - - - - - 합계 진입동선(차량",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p024.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p024_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-133",
+   "title": "지상10층 주차계획도",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "주차계획도(1/800 평면 기반, 주차 대수표 포함)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p025",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 25,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 1 노면마킹 상세도 SCALE: NONE 150 150 R=1000 R=500 60",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p025.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p025_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-134",
+   "title": "주차계획 상세도",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "주차계획 상세도(노면마킹·휠스토퍼 등)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p026",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 26,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 A-141 엘레베이터 운영계획도 - 엘레베이터 운영계획도 1 축척 A1 : NONE 축척 A3 : NONE Elev. 구분 승용 Elev.#1 권상방식 인승/용량 16인승/1200Kg 속도 105m/min Over Head 4.9m PIT 높이 1.4m Door Type 2매 중앙개",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p026.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p026_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-141",
+   "title": "엘레베이터 운영계획도",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "엘리베이터 운영계획도/예시도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p027",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 27,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "HOISTWAY PLAN OVERHEAD PLAN SLAB 480 MIN.150 R.STEEL (BY BUILDER) 480 160 M/C ROOM CEILING E&I Panel 525 1,375 525 OP 1,000 CONC. 1,500 1,175 150 30 40 30 40 350 300 1,000 600 600 1,100 ELEVATOR DOOR 200 200 100 115 910 300 795 30 1,325 1,125 HW : 2,450 HD : 2,100 50 HOOK 3ton HOISTING BEAM H150*150",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p027.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p027_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-142",
+   "title": "엘리베이터 예시도",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "엘리베이터 운영계획도/예시도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p028",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 28,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "통신단자 SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN A-151 명 칭 범 례 완 방화구획 (내화벽체설치) 층간방화재 충진 스크린방화셔터 완강기 설치 비 고 *방화구획 -10층 이하 층은 바닥면적 1,000㎡ 이내 마다 구획 (스프링클러 설치 시 3,000㎡ 이내 마다 구획) 구 구조대 설치 Chkd. N",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p028.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p028_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-151",
+   "title": "지하1층 방화구획도",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p029",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 29,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 항보세창고 준호목재 문경 동일 C-2 보루네오가구 A-152 1.각 코아 계단실, 엘리베이터승강로, PD, EPS, TPS, AD, PV, 휀룸, 엘리베이터 별도로 표기하지 않았음. 기계실 등의 방화구획선은 2.방화구획상의 도어는 갑종방화문 3.방화구획상의 시공조인트 부위, 이질재 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p029.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p029_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-152",
+   "title": "지상1층 방화구획도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p030",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 30,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 A-153 1.각 코아 계단실, 엘리베이터승강로, PD, EPS, TPS, AD, PV, 휀룸, 엘리베이터 별도로 표기하지 않았음. 기계실 등의 방화구획선은 2.방화구획상의 도어는 갑종방화문 3.방화구획상의 시공조인트 부위, 이질재 접합 부위는 방화용 실란트 적용할 것. 4.방화구획을 통과하는 모든 설비 관통 부위는 내화 충진 인증 제품을 내화 기준에 맞게 적용할 것. 지 붕 틀 바 닥 보 · 기 둥 내벽 외벽 내 벽 비내력 연소 우",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p030.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p030_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-153",
+   "title": "지상2층 방화구획도",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p031",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 31,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 - 지상3~6층 방화구획도 1 축척 A1 : 1/400 축척 A3 : 1/800 A-154 지상3~6층 방화구획도 1.각 코아 계단실, 엘리베이터승강로, PD, EPS, TPS, AD, PV, 휀룸, 엘리베이터 별도로 표기하지 않았음. 기계실 등의 방화구획선은 2.방화구획상의 도어는 갑종방화문 3.방화구획상의 시공조인트 부위, 이질재 접",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p031.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p031_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-154",
+   "title": "지상3~6층 방화구획도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p032",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 32,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 A-155 지상7~8층 방화구획도 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p032.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p032_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-155",
+   "title": "지상7~8층 방화구획도",
+   "building_id": "main",
+   "floors": [
+    "7F",
+    "8F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p033",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 33,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 A-156 지상9층 방화구획도 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p033.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p033_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-156",
+   "title": "지상9층 방화구획도",
+   "building_id": "main",
+   "floors": [
+    "9F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p034",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 34,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "G.T 출입통제단자 비상분전반 일반분전반 통신단자 TV단자 MAIN TV단자 방송단자 출입통제단자 출입통제단자 A-157 지상10층 방화구획도 1.각 코아 계단실, 엘리베이터승강로, PD, EPS, TPS, AD, PV, 휀룸, 엘리베이터 별도로 표기하지 않았음. 기계실 등의 방화구획선은 2.방화구획상의 도어는 갑종방화문 3.방화구획상의 시공조인트 부위, 이질재 접합 부위는 방화용 실란트 적용할 것. 4.방화구획을 통과하는 모든 설비 관통 부위는 내화 충진 인증 제품을 내화 기준에 맞게 적용할 것. 지 붕 틀 바 닥 보 · 기 둥 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p034.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p034_titleblock.png",
+   "drawing_type": "방화계획도",
+   "sheet_no": "A-157",
+   "title": "지상10층 방화구획도",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p035",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 35,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "통신단자 SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN A-161 지하1층 단열계획도 W12벽:THK65 우레탄보온판 F3 바닥:THK70 우레탄보온판 따라 감리자와 협의 하여 적합하게 4. 본 도면은 기본단열에 대한 기준을 천장 및 벽체하부로 1m이상 단열재 2. 외주부의 단열경계 부분은 구조체에서 보강할",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p035.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p035_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-161",
+   "title": "지하1층 단열계획도",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p036",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 36,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 항보세창고 준호목재 문경 동일 C-2 보루네오가구 W1 A-162 지상1층 단열계획도 따라 감리자와 협의 하여 적합하게 4. 본 도면은 기본단열에 대한 기준을 천장 및 벽체하부로 1m이상 단열재 2. 외주부의 단열경계 부분은 구조체에서 보강할 것 (보 위치 및 시공여건에 표기한 것이",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p036.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p036_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-162",
+   "title": "지상1층 단열계획도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p037",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 37,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 W13 W11 벽:THK135 글라스울 W3 W10 벽:THK135 글라스울 바닥:THK100 우레탄뿜칠 F1 천장:THK130 우레탄뿜칠 R1 바닥:THK100 우레탄뿜칠 F1 천장:THK130 우레탄뿜칠 R1 천장:THK130 우레탄뿜칠 R2 A-163 지상2층 단열계획도 따라 감리자와 협의 하여 적합하게 4. 본 도면은 기본단열에 대한 기준을 천장 및 벽체하부로 1m이상 단열재 2. 외주부의 단열경계 부분은 구조체에서 보강할 것",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p037.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p037_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-163",
+   "title": "지상2층 단열계획도",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p038",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 38,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 W13 W13 W2 A-164 지상3~8층 단열계획도 따라 감리자와 협의 하여 적합하게 4. 본 도면은 기본단열에 대한 기준을 천장 및 벽체하부로 1m이상 단열재 2. 외주부의 단열경계 부분은 구조체에서 보강할 것 (보 위치 및 시공여건에 표기한 것이므로 각부위에 대한 상세는 해당도면을 참조할 것 5. 천장없이 단열재가 노출되는 부위는 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p038.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p038_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-164",
+   "title": "지상3~8층 단열계획도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p039",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 39,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 A-165 지상9층 단열계획도 따라 감리자와 협의 하여 적합하게 4. 본 도면은 기본단열에 대한 기준을 천장 및 벽체하부로 1m이상 단열재 2. 외주부의 단열경계 부분은 구조체에서 보강할 것 (보 위치 및 시공여건에 표기한 것이므로 각부위에 대한 상세는 해당도면을 참조할 것 5. 천장없이 단열재가 노출되는 부위는 THK15 무기질계 뿜칠 시공할 것. 6. 모든 화",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p039.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p039_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-165",
+   "title": "지상9층 단열계획도",
+   "building_id": "main",
+   "floors": [
+    "9F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p040",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 40,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "G.T 출입통제단자 비상분전반 일반분전반 통신단자 TV단자 MAIN TV단자 방송단자 출입통제단자 출입통제단자 R1 천장:THK130 경질우레탄 뿜칠 R1 천장:THK130 경질우레탄 뿜칠 R1 천장:THK130 경질우레탄 뿜칠 W13 W13 W2 W2 벽:THK200 글라스울 패널 바닥:THK250 우레탄뿜칠 F4 천장:THK130 우레탄뿜칠 R1 W13 A-166 지상10층 단열계획도 따라 감리자와 협의 하여 적합하게 4. 본 도면은 기본단열에 대한 기준을 천장 및 벽체하부로 1m이상 단열재 2. 외주부의 단열경계 부분은 구조체",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p040.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p040_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-166",
+   "title": "지상10층 단열계획도",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p041",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 41,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2020. 11. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-171 단열형별성능 기준표-1 열 관 류 율 계 산 결 과 단 면 구 조 구 분",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p041.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p041_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-171",
+   "title": "단열형별성능 기준표-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "단열형별 성능 기준표(표)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p042",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 42,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2020. 11. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-172 단열형별성능 기준표-2 형별성능관계내역-2 열 관 류 율 계 산 결 과 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p042.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p042_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-172",
+   "title": "단열형별성능 기준표-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "단열형별 성능 기준표(표)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p043",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 43,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "단열형별성능 기준표-3 A-173 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2020. 11. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 1 2 3 4 5 6 7 8 재료명 두께 (mm)",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p043.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p043_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-173",
+   "title": "단열형별성능 기준표-3",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "단열형별 성능 기준표(표)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p044",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 44,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2020. 11. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-174 단열형별성능 기준표-4 1.275 1.500 24mm(5LE+14Ar+5",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p044.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p044_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-174",
+   "title": "단열형별성능 기준표-4",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "단열형별 성능 기준표(표)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p045",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 45,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 항보세창고 C-2 보루네오가구 P1 - 지상1층 방열계획도 1 축척 A1 : 1/400 축척 A3 : 1/800 A-181 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Dr",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p045.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p045_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-181",
+   "title": "지상1층 방열계획도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "방열(저온창고 단열)계획"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p046",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 46,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 C2 C2 C3 A-182 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p046.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p046_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-182",
+   "title": "지상2층 방열계획도",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": "방열(저온창고 단열)계획"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p047",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 47,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 - 지상3~8층 방열계획도 1 축척 A1 : 1/400 축척 A3 : 1/800 A-183 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p047.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p047_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-183",
+   "title": "지상3~8층 방열계획도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F"
+   ],
+   "readable": true,
+   "note": "방열(저온창고 단열)계획"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p048",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 48,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 - 지상9층 방열계획도 1 축척 A1 : 1/400 축척 A3 : 1/800 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p048.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p048_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-184",
+   "title": "지상9층 방열계획도",
+   "building_id": "main",
+   "floors": [
+    "9F"
+   ],
+   "readable": true,
+   "note": "방열(저온창고 단열)계획"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p049",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 49,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-185 방열계획 상세도-1 - 방열계획 상세도-1 1 축척 A1 : NONE 축",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p049.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p049_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-185",
+   "title": "방열계획 상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "방열(저온창고 단열)계획 상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p050",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 50,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "- 방열계획 상세도-2 1 축척 A1 : NONE 축척 A3 : NONE Ø16 P.E.단열볼트 Y방향 @1,200 3. 4. 5. 2. 1. 벽 체 단 열 100mm + 100mm (저온창고 간벽) - W2 THK200 글라스울 패널(건축마감) 6. 7. 8. 45X45(각재) THK100 우레탄 뿜칠 THK100 우레탄 뿜칠 Ø16 P.E.단열볼트 Y방향 @1,200 THK0.5 갈바륨 V-115 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Con",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p050.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p050_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-186",
+   "title": "방열계획 상세도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "방열(저온창고 단열)계획 상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p051",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 51,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "- 방열계획 상세도-3 1 축척 A1 : NONE 축척 A3 : NONE Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-187",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p051.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p051_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-187",
+   "title": "방열계획 상세도-3",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "방열(저온창고 단열)계획 상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p052",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 52,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "THK0.5 갈바륨 W-140 각재 45X45 y@1,200 4. 5. 3. 2. 1. Ø16 P.E.단열볼트 Y방향 @1,200 6. 건조된 바탕손질 기 둥 단 열 100mm - P2 2 3 [ 기둥상부 평면상세도 ] 1 [ 기둥하부 평면상세도 ] 5 4 6 1800 VAR y1 x1 y1 x1 7 T0.5 갈바륨 W-140 VAR ① T3.2 스틸플레이트 광명단위 지정색 O.P 7. THK100 우레탄뿜칠 방습제 2회 THK150 우레탄뿜칠 접합 4. 5. 3. 2. 1. Ø9 셋트앙카 L=300 6. 건조된 바탕손질 기 둥 단",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p052.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p052_titleblock.png",
+   "drawing_type": "단열계획도",
+   "sheet_no": "A-188",
+   "title": "방열단면 상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "방열(저온창고 단열)계획 상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p053",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 53,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "통신단자 SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 5",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p053.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p053_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-191",
+   "title": "지하1층 방수계획도",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": "방수계획도(평면 기반)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p054",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 54,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "EL+6.80 항보세창고 준호목재 문경 동일 C-2 보루네오가구 동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 1. 정확한 방수 디테일및 미표기부분은 해당실의 단면 또는 부분상세도 참조 2. 방수 시공되는 각실은 주변실과의 경계에 방수턱설치를 원칙으로 함 (설치높이-단면도 및 잡상세 참조) 3. 방수연장 지하 외부옹벽과 연결된 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p054.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p054_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-192",
+   "title": "지상1층 방수계획도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "방수계획도(평면 기반)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p055",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 55,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p055.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p055_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-193",
+   "title": "지상2층 방수계획도",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": "방수계획도(평면 기반)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p056",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 56,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p056.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p056_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-194",
+   "title": "지상3~9층 방수계획도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "방수계획도(평면 기반)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p057",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 57,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "G.T 출입통제단자 비상분전반 일반분전반 통신단자 TV단자 MAIN TV단자 방송단자 출입통제단자 출입통제단자 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p057.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p057_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-195",
+   "title": "지상10층 방수계획도",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "방수계획도(평면 기반)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p058",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 58,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "M M M Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 1. 정확한 방수 디테일및 미표기부분은 해당실의 단면 또는 부분상세도 참",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p058.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p058_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-196",
+   "title": "지붕층 방수계획도",
+   "building_id": "main",
+   "floors": [
+    "RF"
+   ],
+   "readable": true,
+   "note": "방수계획도(평면 기반)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p059",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 59,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "- 오수계획 평면도(토목) 1 축척 A1 : 1/500 축척 A3 : 1/1000 A-201 오수계획 평면도(토목) 인 천 세 관 보 세 구 역 삼삼기업 선인북항보세창고 준호목재 엔지니어링 문경 제일비엠씨 동일에티스(주) C-2 보루네오가구 기존 오수관로 D300mm 기존 오수관로 D400mm 기존 오수관로 D300mm 1. 기존오수 관로의 관저고가 육안 및 하수과 자료 참고시 확인히 불가하여, 관저고를 확인하여 인입에 문제가 없도록 하여야 하며, 인입위치 및 감리원에 보고, 협의, 승인을 득한 후 허가권자와 협의하여 기존하수 관로",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p059.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p059_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-201",
+   "title": "오수계획 평면도(토목)",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "토목 오수/우수계획 평면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p060",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 60,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 경비실 보안 사무실 운전자 대기실 로비 로비 경비실 화물주차장 주차장 화물주차장 작업장 저온창고 RAMP 차량진입구 차량출구 부출입구 주출입구 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consult",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p060.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p060_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-202",
+   "title": "우수계획 평면도(토목)",
+   "building_id": null,
+   "floors": [],
+   "readable": true,
+   "note": "토목 오수/우수계획 평면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p061",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 61,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "A-203 기초바닥 배수계획 평면도 - 기초바닥 배수계획 평면도 1 축척 A1 : 1/400 축척 A3 : 1/800 EL+7.20 EL+7.08 EL+6.90 EL+6.71 EL+7.30 EL+7.21 EL+7.20 EL+7.25 20m도로(북항로 207번길) (북항로 207번길) 20m도로 15m도로(북항단지로) 80,600 132,000 X1 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 Y8 Y7 Y6 Y5 Y4 Y3 Y2 Y1 4,750 X14 X18 54,500 X15 X16 X17 시스템 배수로",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p061.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p061_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-203",
+   "title": "기초바닥 배수계획 평면도",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": "기초바닥 배수계획 평면도(기초 레벨, 지하1층 하부)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p062",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 62,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-211 우배수공사 일반사항 우배수공사 일반사항 1. 골조공사시 우배수 계획도의 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p062.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p062_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-211",
+   "title": "우배수공사 일반사항",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "우배수계획(건축) 일반사항"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p063",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 63,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "통신단자 SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN A-212 고강도 스틸그레이팅 W=200 아연도 그레이팅 커버 W=150 9. 오픈트렌치 W=150(옥탑지붕W=200) 8. 기계실, 전기실, 저수조실, 코어등의 후 시공할 것. 경우 공사 감독자와 협의, 승인을 득한 7. 건축도면과 기타 관련도면이 상",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p063.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p063_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-212",
+   "title": "지하1층 우배수계획도(건축)",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": "우배수계획(건축)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p064",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 64,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "항보세창고 준호목재 문경 동일 C-2 보루네오가구 동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 A-213 고강도 스틸그레이팅 W=200 아연도 그레이팅 커버 W=150 9. 오픈트렌치 W=150(옥탑지붕W=200) 8. 기계실, 전기실, 저수조실, 코어등의 후 시공할 것. 경우 공사 감독자와 협의, 승인을 득한 7. 건축도면과",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p064.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p064_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-213",
+   "title": "지상1층 우배수계획도(건축)",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "우배수계획(건축)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p065",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 65,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 A-214 고강도 스틸그레이팅 W=200 아연도 그레이팅 커버 W=150 9. 오픈트렌치 W=150(옥탑지붕W=200) 8. 기계실, 전기실, 저수조실, 코어등의 후 시공할 것. 경우 공사 감독자와 협의, 승인을 득한 7. 건축도면과 기타 관련도면이 상이할 하고 감리원과 협의하여 시공할것. 관련도면 참조할 것. 1. 전기, 토목, 설비, 조경, 소방 관련 부분은 관련도면 참조할 것. 2. 기계실, 전기실, 우수조, 소화수조 등은 5.",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p065.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p065_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-214",
+   "title": "지상2층 우배수계획도(건축)",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": "우배수계획(건축)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p066",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 66,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 A-215 고강도 스틸그레이팅 W=200 아연도 그레이팅 커버 W=150 9. 오픈트렌치 W=150(옥탑지붕W=200) 8. 기계실, 전기실, 저수조실, 코어등의 후 시공할 것. 경우 공사 감독자와 협의, 승인을 득한 7. 건축도면과 기타 관련도면이 상이할 하고 감리원과 협의하여 시공할것. 관련도면 참조할 것. 1. 전기, 토목, 설비,",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p066.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p066_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-215",
+   "title": "지상3~9층 우배수계획도(건축)",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "우배수계획(건축)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p067",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 67,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "G.T 출입통제단자 비상분전반 일반분전반 통신단자 TV단자 MAIN TV단자 방송단자 출입통제단자 출입통제단자 A-216 고강도 스틸그레이팅 W=200 아연도 그레이팅 커버 W=150 9. 오픈트렌치 W=150(옥탑지붕W=200) 8. 기계실, 전기실, 저수조실, 코어등의 후 시공할 것. 경우 공사 감독자와 협의, 승인을 득한 7. 건축도면과 기타 관련도면이 상이할 하고 감리원과 협의하여 시공할것. 관련도면 참조할 것. 1. 전기, 토목, 설비, 조경, 소방 관련 부분은 관련도면 참조할 것. 2. 기계실, 전기실, 우수조, 소화수조",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p067.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p067_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-216",
+   "title": "지상10층 우배수계획도(건축)",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "우배수계획(건축)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p068",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 68,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "M M M A-217 고강도 스틸그레이팅 W=200 아연도 그레이팅 커버 W=150 9. 오픈트렌치 W=150(옥탑지붕W=200) 8. 기계실, 전기실, 저수조실, 코어등의 후 시공할 것. 경우 공사 감독자와 협의, 승인을 득한 7. 건축도면과 기타 관련도면이 상이할 하고 감리원과 협의하여 시공할것. 관련도면 참조할 것. 1. 전기, 토목, 설비, 조경, 소방 관련 부분은 관련도면 참조할 것. 2. 기계실, 전기실, 우수조, 소화수조 등은 5. 우수관연결상세계획은 설비도면 참조 6. 토목우수상세계획은 토목,조경,설비 도면 참조할것.",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p068.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p068_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-217",
+   "title": "지붕 우배수계획도(건축)",
+   "building_id": "main",
+   "floors": [
+    "RF"
+   ],
+   "readable": true,
+   "note": "우배수계획(건축)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p069",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 69,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 항보세창고 준호목재 문경 동일 C-2 보루네오가구 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p069.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p069_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-231",
+   "title": "지상1층 우수계획도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "우수계획(기계)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p070",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 70,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p070.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p070_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-232",
+   "title": "지상2층 우수계획도",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": "우수계획(기계)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p071",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 71,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p071.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p071_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-233",
+   "title": "지상3~8층 우수계획도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F"
+   ],
+   "readable": true,
+   "note": "우수계획(기계)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p072",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 72,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p072.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p072_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-234",
+   "title": "지상9층 우수계획도",
+   "building_id": "main",
+   "floors": [
+    "9F"
+   ],
+   "readable": true,
+   "note": "우수계획(기계)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p073",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 73,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-235 지상10층 우수계획도 고강도 스틸그레이팅 W=200 아연도 그레이팅 커버",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p073.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p073_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-235",
+   "title": "지상10층 우수계획도",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "우수계획(기계)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p074",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 74,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "M M M Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-236 지붕 우수계획도 고강도 스틸그레이팅 W=200 아연도 그레이팅",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p074.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p074_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-236",
+   "title": "지붕 우수계획도",
+   "building_id": "main",
+   "floors": [
+    "RF"
+   ],
+   "readable": true,
+   "note": "우수계획(기계)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p075",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 75,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-237 사이포닉 상세도 - 사이포닉 상세도 1 축척 A1 : NONE 축척 A3",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p075.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p075_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-237",
+   "title": "사이포닉 상세도",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "우수계획(기계)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p076",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 76,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "항보세창고 준호목재 문경 동일 C-2 보루네오가구 동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p076.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p076_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-241",
+   "title": "지상1층 보호대 계획도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "보호대 계획/상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p077",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 77,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p077.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p077_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-242",
+   "title": "지상3~9층 보호대 계획도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "보호대 계획/상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p078",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 78,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "G.T 출입통제단자 비상분전반 일반분전반 통신단자 TV단자 MAIN TV단자 방송단자 출입통제단자 출입통제단자 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p078.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p078_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-243",
+   "title": "지상10층 보호대 계획도",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "보호대 계획/상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p079",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 79,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "B1 볼라드-1 상세도 1,200 Ø100x5t 충돌방지용 ST'L포스트 W/에폭시페인트 마감(지정색) 4-27앵커 볼트 90 180 90 BASE PL.-180x180x6T 180 60 30 60 30 M27(L=100) 평면상세도(TYPE 1) - 보호대 상세도-1 1 축척 A1 : 1/15 축척 A3 : 1/30 단면상세 지정색 평면상세도(TYPE 3) 평면상세도(TYPE 4) (화물주차장) 평면상세도(TYPE 2) 평면상세도(TYPE 5) Chkd. No. 설계명 Date Revision Description NOTES 협력",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p079.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p079_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-244",
+   "title": "보호대 상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "보호대 계획/상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p080",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 80,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "- 보호대 상세도-2 1 축척 A1 : 1/15 축척 A3 : 1/30 B2 400 VAR. 400 400 VAR. 100 100 100 100 Ø100x5t 충돌방지용 ST'L포스트 W/에폭시페인트마감-황색 (H=1200 TYP.) 400 400 100 Ø100x5t 충돌방지용 ST'L포스트 W/에폭시페인트마감-황색 (H=1200 TYP.) 100 4-27앵커 볼트 90 180 90 BASE PL.-180x180x6T 180 60 30 60 30 M27(L=100) 4-27앵커 볼트 90 180 90 BASE PL.-180x180",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p080.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p080_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-245",
+   "title": "보호대 상세도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "보호대 계획/상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p081",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 81,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "항보세창고 준호목재 문경 동일 C-2 보루네오가구 동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p081.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p081_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-251",
+   "title": "지상1층 벽체하부보호대 계획도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "벽체하부 보호대 계획"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p082",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 82,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p082.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p082_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-252",
+   "title": "지상3~9층 벽체하부보호대 계획도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "벽체하부 보호대 계획"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p083",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 83,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "G.T 출입통제단자 비상분전반 일반분전반 통신단자 TV단자 MAIN TV단자 방송단자 출입통제단자 출입통제단자 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p083.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p083_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-253",
+   "title": "지상10층 벽체하부보호대 계획도",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "벽체하부 보호대 계획"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p084",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 84,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 항보세창고 준호목재 문경 동일 C-2 보루네오가구 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p084.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p084_titleblock.png",
+   "drawing_type": "바닥상세도",
+   "sheet_no": "A-261",
+   "title": "지상1층 초평탄바닥 안내도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "초평탄바닥 안내도(평면 기반)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p085",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 85,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p085.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p085_titleblock.png",
+   "drawing_type": "바닥상세도",
+   "sheet_no": "A-262",
+   "title": "지상3~9층 초평탄바닥 안내도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "초평탄바닥 안내도(평면 기반)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p086",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 86,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-263 초평탄바닥 상세도 D6x200x200 Weld Mesh Min 150mm",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p086.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p086_titleblock.png",
+   "drawing_type": "바닥상세도",
+   "sheet_no": "A-263",
+   "title": "초평탄바닥 상세도",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "초평탄바닥 상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p087",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 87,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "실내재료 마감 일반사항 1. 실내,외 입면의 색채계획은 색채계획도 참조 2. 사무실 바탕벽체는 확대평면도, 벽체일람표 참조 3. 낙서방지용 수성페인트 도장범위는 FL+2400이며 FL+2400 이상 상부는 수성페인트 도장 (낙서방지용 페인트는 도어 헤드에 맞출 것) 4. 차로, 화물중차장, RAMP, 옥상주차장 등 차량 및 지게차 통행부분의 무근콘크리트는 27Mpa, 7mmx150x150 용접철망 시공할 것. 6. 초평탄콘크리트는 초평탄 계획도 및 시방서를 기준으로 시공할 것. 9. 몰탈의 시멘트 : 모래 비율 = 1 : 3 10.",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p087.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p087_titleblock.png",
+   "drawing_type": "마감표",
+   "sheet_no": "A-271",
+   "title": "실내재료마감 일반사항",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "일반사항"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p088",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 88,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "실내재료마감표-1 바닥 걸레받이 벽체 천장 실명 층 동 바탕 마감 마감 두께 상세 번호 바탕 마감 바탕 마감 바탕 마감 실내재료마감표-1 공통 CORE PIT(화장실, ELEV.) 마감 높이 상세 번호 마감 두께 상세 번호 천장 높이 상세 번호 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p088.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p088_titleblock.png",
+   "drawing_type": "마감표",
+   "sheet_no": "A-272",
+   "title": "실내재료마감표-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p089",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 89,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "실내재료마감표-2 바닥 걸레받이 벽체 천장 실명 층 동 바탕 마감 마감 두께 상세 번호 바탕 마감 바탕 마감 바탕 마감 실내재료마감표-2 마감 높이 상세 번호 마감 두께 상세 번호 천장 높이 상세 번호 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p089.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p089_titleblock.png",
+   "drawing_type": "마감표",
+   "sheet_no": "A-273",
+   "title": "실내재료마감표-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p090",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 90,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "실내재료마감표-3 바닥 걸레받이 벽체 천장 실명 층 동 바탕 마감 마감 두께 상세 번호 바탕 마감 바탕 마감 바탕 마감 실내재료마감표-3 마감 높이 상세 번호 마감 두께 상세 번호 천장 높이 상세 번호 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p090.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p090_titleblock.png",
+   "drawing_type": "마감표",
+   "sheet_no": "A-274",
+   "title": "실내재료마감표-3",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p091",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 91,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "실내재료마감표-4 바닥 걸레받이 벽체 천장 실명 층 동 바탕 마감 마감 두께 상세 번호 바탕 마감 바탕 마감 바탕 마감 실내재료마감표-4 마감 높이 상세 번호 마감 두께 상세 번호 천장 높이 상세 번호 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p091.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p091_titleblock.png",
+   "drawing_type": "마감표",
+   "sheet_no": "A-275",
+   "title": "실내재료마감표-4",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p092",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 92,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "실내재료 마감상세도-1 구분 F-01 F-02 F-03 F-04 F-05 A-276 실내재료 마감상세도-1 F-06 F-07 F-08 F-09 F-10 F-11 F-12 F-13 형태 구분 형태 구분 형태 구분 형태 100 (80) THK100(80) 무근콘크리트 침투성 방수 THK10 포세린타일 THK3 무석면타일마감 THK27(77) 시멘트몰탈 30 (80) 80 THK8 자기질바닥타일(논슬립) 우레탄 도막방수 / THK30 보호몰탈 THK42 붙임몰탈 150 THK150 무근콘크리트 / 기계미장 THK45 배수판 45 or 에",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p092.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p092_titleblock.png",
+   "drawing_type": "마감표",
+   "sheet_no": "A-276",
+   "title": "실내재료 마감상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "실내재료 마감상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p093",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 93,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "F-14 실내재료 마감상세도-2 구분 B-01 B-02 B-03 B-04 B-05 A-277 실내재료 마감상세도-2 형태 구분 형태 구분 형태 구분 형태 100 바닥 마감선 THK20 지정 화강석 VAR. THK20 지정 화강석 100 바닥 마감선 THK18 시멘트몰탈 /걸레받이용 수성페인트 (전도성,불연재 포함) or 에폭시계페인트(전도성, 불연재포함) 100 바닥 마감선 or 콘크리트면처리 /걸레받이용 수성페인트 (전도성,불연재 포함) or 에폭시계페인트(전도성, 불연재) 콘크리트면처리+견출마감 150 바닥 마감선 연석(W=30",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p093.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p093_titleblock.png",
+   "drawing_type": "마감표",
+   "sheet_no": "A-277",
+   "title": "실내재료 마감상세도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "실내재료 마감상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p094",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 94,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "W-01 W-02 W-03 W-04 W-05 W-06 W-07 침투성 액체방수 THK18 보호몰탈 20 석고보드 or 방화석고보드 벽체일람표 참조(불연, 준불연재) 수성페인트(불연재) 20 THK20 지정 화강석 마감 (히브리 펄) 콘크리트면처리 낙서방지용수성페인트 20 or 수성페인트(불연재) THK18 시멘트몰탈 낙서방지용수성페인트 or 수성페인트(불연재) 20 우레탄도막방수 THK23 시멘트몰탈 THK7 자기질벽타일 30 (화장실:H=1200, 샤워실:H=1800) 8인치 보강블럭 or 6인치 보강블럭 200 (150) 수성페",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p094.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p094_titleblock.png",
+   "drawing_type": "마감표",
+   "sheet_no": "A-278",
+   "title": "실내재료 마감상세도-3",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "실내재료 마감상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p095",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 95,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "통신단자 SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p095.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p095_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-301",
+   "title": "지하1층 평면도",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p096",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 96,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "항보세창고 준호목재 문경 동일 C-2 보루네오가구 동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p096.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p096_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-302",
+   "title": "지상1층 평면도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p097",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 97,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p097.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p097_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-303",
+   "title": "지상2층 평면도",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p098",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 98,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 비상분전반 일반분전반 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 방송단자 출입통제단자 보행자 통로 보행자 통로 직통 계단 보행자 통로 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p098.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p098_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-304",
+   "title": "지상3층 평면도",
+   "building_id": "main",
+   "floors": [
+    "3F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p099",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 99,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000 Y8 Y7 Y6 Y5 Y4",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p099.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p099_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-305",
+   "title": "지상4층 평면도",
+   "building_id": "main",
+   "floors": [
+    "4F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p100",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 100,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000 Y8 Y7 Y6 Y5 Y4",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p100.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p100_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-306",
+   "title": "지상5층 평면도",
+   "building_id": "main",
+   "floors": [
+    "5F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p101",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 101,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000 Y8 Y7 Y6 Y5 Y4",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p101.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p101_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-307",
+   "title": "지상6층 평면도",
+   "building_id": "main",
+   "floors": [
+    "6F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p102",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 102,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000 Y8 Y7 Y6 Y5 Y4",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p102.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p102_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-308",
+   "title": "지상7층 평면도",
+   "building_id": "main",
+   "floors": [
+    "7F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p103",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 103,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000 Y8 Y7 Y6 Y5 Y4",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p103.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p103_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-309",
+   "title": "지상8층 평면도",
+   "building_id": "main",
+   "floors": [
+    "8F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p104",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 104,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 동력분전반 비상분전반 일반분전반 방송단자 보행자 통로 보행자 통로 보행자 통로 직통 계단 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000 Y8 Y7 Y6 Y5 Y4",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p104.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p104_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-310",
+   "title": "지상9층 평면도",
+   "building_id": "main",
+   "floors": [
+    "9F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p105",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 105,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "G.T 출입통제단자 비상분전반 일반분전반 통신단자 TV단자 MAIN TV단자 방송단자 출입통제단자 출입통제단자 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000 Y8 Y7 Y6 Y5 Y4 Y3 Y2 Y1 4,750 X14 X18 54,500 15,",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p105.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p105_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-311",
+   "title": "지상10층 평면도",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p106",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 106,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "M M M 80,600 14,000 132,000 11,000 X1 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 X2 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 9,600 11,000 11,000 11,000 11,000 13,000 Y8 Y7 Y6 Y5 Y4 Y3 Y2 Y1 4,750 X14 X18 54,500 15,500 11,750 11,750 15,500 X15 X16 X17 Chkd. No. 설계명 Date ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p106.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p106_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-312",
+   "title": "지붕 평면도",
+   "building_id": "main",
+   "floors": [
+    "RF"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p107",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 107,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "X1 11,000 X3 X2 132,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,500 11,750 11,750 15,500 54,500 4,750 X4 X5 X6 X7 X8 X9 X10 X11 X12 X13 X14 X15 X16 X17 X18 11,000 132,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 15,500 11,75",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p107.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p107_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-321",
+   "title": "입면도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p108",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 108,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Y8 10,000 10,000 10,000 10,000 10,000 10,000 5,000 10,000 5,000 Y1 80,600 13,000 11,000 14,000 11,000 11,000 11,000 9,600 Y2 Y3 Y4 Y5 Y6 Y7 80,600 13,000 11,000 14,000 11,000 11,000 11,000 9,600 Y8 Y7 Y6 Y5 Y4 Y3 Y2 Y1 1F FL. EL. + 8.50 3F FL. EL. +18.50 2F FL. EL. +13.50 4F FL. EL. +28.50 5F FL. EL",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p108.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p108_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-322",
+   "title": "입면도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 109,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "- 종단면도-2 2 축척 A1 : 1/500 축척 A3 : 1/1000 - 종단면도-1 1 축척 A1 : 1/500 축척 A3 : 1/1000 종단면도-1 A-331 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p109_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-331",
+   "title": "종단면도-1",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p110",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 110,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "종단면도-2 A-332 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - 종단면도-4 2 축척 A1 : 1/500 축척 A3 : ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p110.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p110_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-332",
+   "title": "종단면도-2",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p111",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 111,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "횡단면도-1 A-333 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - 횡단면도-2 2 축척 A1 : 1/500 축척 A3 : ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p111.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p111_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-333",
+   "title": "횡단면도-1",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p112",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 112,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "횡단면도-2 A-334 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 저온창고 저온창고 저온창고 저온창고 저온창고 저온창고 저온창",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p112.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p112_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-334",
+   "title": "횡단면도-2",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": null
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p113",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 113,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-401 - 지하1층 확대평면도-1 1 축척 A1 : 1/15",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p113.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p113_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-401",
+   "title": "지하1층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p114",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 114,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "통신단자 SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN ■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p114.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p114_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-402",
+   "title": "지하1층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p115",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 115,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 ■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p115.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p115_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-403",
+   "title": "지상1층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p116",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 116,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 동력분전반 비상분전반 일반분전반 통신단자 TV단자 방송단자 출입통제단자 ■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p116.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p116_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-404",
+   "title": "지상1층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p117",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 117,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상1층 확대평면도-3 A-405 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p117.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p117_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-405",
+   "title": "지상1층 확대평면도-3",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p118",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 118,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상1층 확대평면도-4 A-406 66,000 11,000 11",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p118.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p118_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-406",
+   "title": "지상1층 확대평면도-4",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p119",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 119,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 ■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p119.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p119_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-407",
+   "title": "지상2층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p120",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 120,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 비상분전반 일반분전반 통신단자 TV단자 ■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p120.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p120_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-408",
+   "title": "지상2층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p121",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 121,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "보행자 통로 ■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상3층 확대평면도-1 A-409 X5 4,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p121.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p121_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-409",
+   "title": "지상3층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "3F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p122",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 122,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상3층 확대평면도-2 A-410 Y5 11,000 38,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p122.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p122_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-410",
+   "title": "지상3층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "3F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p123",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 123,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상3층 확대평면도-3 A-411 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p123.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p123_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-411",
+   "title": "지상3층 확대평면도-3",
+   "building_id": "main",
+   "floors": [
+    "3F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p124",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 124,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-412 지상3층 확대평면도-4 66,000 11,000 11",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p124.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p124_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-412",
+   "title": "지상3층 확대평면도-4",
+   "building_id": "main",
+   "floors": [
+    "3F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p125",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 125,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상4층 확대평면도-1 A-413 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p125.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p125_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-413",
+   "title": "지상4층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "4F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p126",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 126,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상4층 확대평면도-2 A-414 Y5 11,000 38,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p126.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p126_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-414",
+   "title": "지상4층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "4F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p127",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 127,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상4층 확대평면도-3 A-415 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p127.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p127_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-415",
+   "title": "지상4층 확대평면도-3",
+   "building_id": "main",
+   "floors": [
+    "4F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p128",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 128,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상4층 확대평면도-4 A-416 66,000 11,000 11",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p128.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p128_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-416",
+   "title": "지상4층 확대평면도-4",
+   "building_id": "main",
+   "floors": [
+    "4F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p129",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 129,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상5층 확대평면도-1 A-417 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p129.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p129_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-417",
+   "title": "지상5층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "5F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p130",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 130,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상5층 확대평면도-2 A-418 Y5 11,000 38,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p130.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p130_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-418",
+   "title": "지상5층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "5F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p131",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 131,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상5층 확대평면도-3 A-419 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p131.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p131_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-419",
+   "title": "지상5층 확대평면도-3",
+   "building_id": "main",
+   "floors": [
+    "5F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p132",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 132,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상5층 확대평면도-4 A-420 66,000 11,000 11",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p132.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p132_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-420",
+   "title": "지상5층 확대평면도-4",
+   "building_id": "main",
+   "floors": [
+    "5F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p133",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 133,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상6층 확대평면도-1 A-421 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p133.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p133_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-421",
+   "title": "지상6층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "6F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p134",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 134,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상6층 확대평면도-2 A-422 Y5 11,000 38,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p134.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p134_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-422",
+   "title": "지상6층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "6F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p135",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 135,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상6층 확대평면도-3 A-423 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p135.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p135_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-423",
+   "title": "지상6층 확대평면도-3",
+   "building_id": "main",
+   "floors": [
+    "6F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p136",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 136,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상6층 확대평면도-4 A-424 66,000 11,000 11",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p136.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p136_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-424",
+   "title": "지상6층 확대평면도-4",
+   "building_id": "main",
+   "floors": [
+    "6F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p137",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 137,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상7층 확대평면도-1 A-425 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p137.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p137_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-425",
+   "title": "지상7층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "7F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p138",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 138,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상7층 확대평면도-2 A-426 Y5 11,000 38,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p138.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p138_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-426",
+   "title": "지상7층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "7F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p139",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 139,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상7층 확대평면도-3 A-427 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p139.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p139_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-427",
+   "title": "지상7층 확대평면도-3",
+   "building_id": "main",
+   "floors": [
+    "7F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p140",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 140,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상7층 확대평면도-4 A-428 66,000 11,000 11",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p140.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p140_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-428",
+   "title": "지상7층 확대평면도-4",
+   "building_id": "main",
+   "floors": [
+    "7F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p141",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 141,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상8층 확대평면도-1 A-429 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p141.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p141_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-429",
+   "title": "지상8층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "8F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p142",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 142,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상8층 확대평면도-2 A-430 Y5 11,000 38,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p142.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p142_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-430",
+   "title": "지상8층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "8F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p143",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 143,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상8층 확대평면도-3 A-431 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p143.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p143_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-431",
+   "title": "지상8층 확대평면도-3",
+   "building_id": "main",
+   "floors": [
+    "8F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p144",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 144,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상8층 확대평면도-4 A-432 66,000 11,000 11",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p144.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p144_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-432",
+   "title": "지상8층 확대평면도-4",
+   "building_id": "main",
+   "floors": [
+    "8F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p145",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 145,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상9층 확대평면도-1 A-433 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p145.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p145_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-433",
+   "title": "지상9층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "9F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p146",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 146,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상9층 확대평면도-2 A-434 Y5 11,000 38,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p146.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p146_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-434",
+   "title": "지상9층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "9F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p147",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 147,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상9층 확대평면도-3 A-435 X5 4,750 70,750 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p147.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p147_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-435",
+   "title": "지상9층 확대평면도-3",
+   "building_id": "main",
+   "floors": [
+    "9F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p148",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 148,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상9층 확대평면도-4 A-436 66,000 11,000 11",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p148.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p148_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-436",
+   "title": "지상9층 확대평면도-4",
+   "building_id": "main",
+   "floors": [
+    "9F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p149",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 149,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "출입통제단자 출입통제단자 ■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상10층 확대평면도-1 A-437 X",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p149.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p149_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-437",
+   "title": "지상10층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p150",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 150,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상10층 확대평면도-2 A-438 Y5 11,000 38,00",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p150.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p150_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-438",
+   "title": "지상10층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p151",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 151,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상10층 확대평면도-3 A-439 X5 4,750 70,750",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p151.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p151_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-439",
+   "title": "지상10층 확대평면도-3",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p152",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 152,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지상10층 확대평면도-4 A-440 66,000 11,000 1",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p152.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p152_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-440",
+   "title": "지상10층 확대평면도-4",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p153",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 153,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지붕층 확대평면도-1 A-441 Y5 11,000 38,000 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p153.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p153_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-441",
+   "title": "지붕층 확대평면도-1",
+   "building_id": "main",
+   "floors": [
+    "RF"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p154",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 154,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "■ KEY PLAN Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 지붕층 확대평면도-2 A-442 66,000 11,000 11,",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p154.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p154_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-442",
+   "title": "지붕층 확대평면도-2",
+   "building_id": "main",
+   "floors": [
+    "RF"
+   ],
+   "readable": true,
+   "note": "확대평면도(부분 확대)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p155",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 155,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN SAFETY PIN FL SL 소화가스실 ±0 -250 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p155.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p155_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-451",
+   "title": "부분확대 평면도-1",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": "부분확대 평면도(지하1층)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p156",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 156,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-452 부분확대 평면도-2 1. 모든 실내재료는 실내재료마감표를 참조 할 것. ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p156.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p156_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-452",
+   "title": "부분확대 평면도-2",
+   "building_id": "main",
+   "floors": [
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "냉동기계실 부분확대(2F, 3~9F)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p157",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 157,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "- 샤워/탈의실/보일러실 부분확대평면도 1 축척 A1 : 1/50 축척 A3 : 1/100 FL SL 남자 샤워실 ±0 -80 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p157.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p157_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-453",
+   "title": "부분확대 평면도-3",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "샤워/탈의실/보일러실 부분확대(층 미표기)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p158",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 158,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "비상분전반 일반분전반 통신단자 TV단자 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-454 부분확대 평면도-4 1. 모든 실",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p158.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p158_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-454",
+   "title": "부분확대 평면도-4",
+   "building_id": "main",
+   "floors": [
+    "2F"
+   ],
+   "readable": true,
+   "note": "사무실 부분확대(지상2층)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p159",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 159,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-455 부분확대 평면도-5 - 지상10층 사무실 부분확대평면도 1 축척 A1 :",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p159.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p159_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-455",
+   "title": "부분확대 평면도-5",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "부분확대 평면도: 10층 냉각탑·사무실 + 출입구 부분단면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p160",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 160,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "- 지상10층 식당,주방 부분확대평면도 1 축척 A1 : 1/100 축척 A3 : 1/200 Y2 31,600 11,000 Y3 Y1 9,600 X14 11,000 X15 44,000 11,000 X16 11,000 X17 11,000 X18 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03.",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p160.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p160_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-456",
+   "title": "부분확대 평면도-6",
+   "building_id": "main",
+   "floors": [
+    "10F"
+   ],
+   "readable": true,
+   "note": "10층 식당·주방 부분확대"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p161",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 161,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 9,400 3,000 450 600 1 지상10층 냉각탑펜스 입면상세도-1 A3 1",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p161.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p161_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-470",
+   "title": "펜스 상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "펜스 상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p162",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 162,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 5,400 3,000 450 600 1 지상1층 가스저장탱크 펜스 입면상세도-1 A",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p162.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p162_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-471",
+   "title": "펜스 상세도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "펜스 상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p163",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 163,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "1. 실내,외 입면의 색채계획은 색채보고서 참조. 2. 모든 벽체도장 FL+2100까지는 낙서방지용 3. 차로기둥 Y7열, Y8열 기둥의 마감. -FL±0~+1500 : 안전페인트 5. 그라스울패널 유광은 광택도 75%이상을 사용할 것. 6. 대형 입면부착 간판은 발주처와 협의하여 페인트마감임(낙성방지용 수성페인트는 도어 헤드에 맞출것. -FL+1500~+3000 : 낙서방지용 수성페인트 -FL+3000~ : 수성페인트 4. 창고내부의 기둥의 마감. -FL±0~+1500 : 안전페인트 감독관의 승인을 득한후 시공할 것. 7. 그릴 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p163.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p163_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-501",
+   "title": "확대입면도-1(정면)",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "확대입면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p164",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 164,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "1. 실내,외 입면의 색채계획은 색채보고서 참조. 2. 모든 벽체도장 FL+2100까지는 낙서방지용 3. 차로기둥 Y7열, Y8열 기둥의 마감. -FL±0~+1500 : 안전페인트 5. 그라스울패널 유광은 광택도 75%이상을 사용할 것. 6. 대형 입면부착 간판은 발주처와 협의하여 페인트마감임(낙성방지용 수성페인트는 도어 헤드에 맞출것. -FL+1500~+3000 : 낙서방지용 수성페인트 -FL+3000~ : 수성페인트 4. 창고내부의 기둥의 마감. -FL±0~+1500 : 안전페인트 감독관의 승인을 득한후 시공할 것. 7. 그릴 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p164.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p164_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-502",
+   "title": "확대입면도-2(정면)",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "확대입면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p165",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 165,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "1. 실내,외 입면의 색채계획은 색채보고서 참조. 2. 모든 벽체도장 FL+2100까지는 낙서방지용 3. 차로기둥 Y7열, Y8열 기둥의 마감. -FL±0~+1500 : 안전페인트 5. 그라스울패널 유광은 광택도 75%이상을 사용할 것. 6. 대형 입면부착 간판은 발주처와 협의하여 페인트마감임(낙성방지용 수성페인트는 도어 헤드에 맞출것. -FL+1500~+3000 : 낙서방지용 수성페인트 -FL+3000~ : 수성페인트 4. 창고내부의 기둥의 마감. -FL±0~+1500 : 안전페인트 감독관의 승인을 득한후 시공할 것. 7. 그릴 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p165.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p165_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-503",
+   "title": "확대입면도-3(배면)",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "확대입면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p166",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 166,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "1. 실내,외 입면의 색채계획은 색채보고서 참조. 2. 모든 벽체도장 FL+2100까지는 낙서방지용 3. 차로기둥 Y7열, Y8열 기둥의 마감. -FL±0~+1500 : 안전페인트 5. 그라스울패널 유광은 광택도 75%이상을 사용할 것. 6. 대형 입면부착 간판은 발주처와 협의하여 페인트마감임(낙성방지용 수성페인트는 도어 헤드에 맞출것. -FL+1500~+3000 : 낙서방지용 수성페인트 -FL+3000~ : 수성페인트 4. 창고내부의 기둥의 마감. -FL±0~+1500 : 안전페인트 감독관의 승인을 득한후 시공할 것. 7. 그릴 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p166.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p166_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-504",
+   "title": "확대입면도-4(배면)",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "확대입면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p167",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 167,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "1. 실내,외 입면의 색채계획은 색채보고서 참조. 2. 모든 벽체도장 FL+2100까지는 낙서방지용 3. 차로기둥 Y7열, Y8열 기둥의 마감. -FL±0~+1500 : 안전페인트 5. 그라스울패널 유광은 광택도 75%이상을 사용할 것. 6. 대형 입면부착 간판은 발주처와 협의하여 페인트마감임(낙성방지용 수성페인트는 도어 헤드에 맞출것. -FL+1500~+3000 : 낙서방지용 수성페인트 -FL+3000~ : 수성페인트 4. 창고내부의 기둥의 마감. -FL±0~+1500 : 안전페인트 감독관의 승인을 득한후 시공할 것. 7. 그릴 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p167.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p167_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-505",
+   "title": "확대입면도-5(우측면)",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "확대입면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p168",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 168,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "1. 실내,외 입면의 색채계획은 색채보고서 참조. 2. 모든 벽체도장 FL+2100까지는 낙서방지용 3. 차로기둥 Y7열, Y8열 기둥의 마감. -FL±0~+1500 : 안전페인트 5. 그라스울패널 유광은 광택도 75%이상을 사용할 것. 6. 대형 입면부착 간판은 발주처와 협의하여 페인트마감임(낙성방지용 수성페인트는 도어 헤드에 맞출것. -FL+1500~+3000 : 낙서방지용 수성페인트 -FL+3000~ : 수성페인트 4. 창고내부의 기둥의 마감. -FL±0~+1500 : 안전페인트 감독관의 승인을 득한후 시공할 것. 7. 그릴 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p168.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p168_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-506",
+   "title": "확대입면도-6(좌측면)",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "확대입면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p169",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 169,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "1. 실내,외 입면의 색채계획은 색채보고서 참조. 2. 모든 벽체도장 FL+2100까지는 낙서방지용 3. 차로기둥 Y7열, Y8열 기둥의 마감. -FL±0~+1500 : 안전페인트 5. 그라스울패널 유광은 광택도 75%이상을 사용할 것. 6. 대형 입면부착 간판은 발주처와 협의하여 페인트마감임(낙성방지용 수성페인트는 도어 헤드에 맞출것. -FL+1500~+3000 : 낙서방지용 수성페인트 -FL+3000~ : 수성페인트 4. 창고내부의 기둥의 마감. -FL±0~+1500 : 안전페인트 감독관의 승인을 득한후 시공할 것. 7. 그릴 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p169.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p169_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-507",
+   "title": "내부확대입면도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "내부 확대입면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p170",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 170,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "1. 실내,외 입면의 색채계획은 색채보고서 참조. 2. 모든 벽체도장 FL+2100까지는 낙서방지용 3. 차로기둥 Y7열, Y8열 기둥의 마감. -FL±0~+1500 : 안전페인트 5. 그라스울패널 유광은 광택도 75%이상을 사용할 것. 6. 대형 입면부착 간판은 발주처와 협의하여 페인트마감임(낙성방지용 수성페인트는 도어 헤드에 맞출것. -FL+1500~+3000 : 낙서방지용 수성페인트 -FL+3000~ : 수성페인트 4. 창고내부의 기둥의 마감. -FL±0~+1500 : 안전페인트 감독관의 승인을 득한후 시공할 것. 7. 그릴 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p170.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p170_titleblock.png",
+   "drawing_type": "입면도",
+   "sheet_no": "A-508",
+   "title": "내부확대입면도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "내부 확대입면도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 171,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 ■ KEYMAP 지하 1층 1층 2층 3층 4층 5층 6층 7층+ EL 58.50 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p171_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-601",
+   "title": "확대단면도-1",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대단면도(전층)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p172",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 172,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-602 확대단면도-2 5,000 5,000 10,000 10,000 10,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p172.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p172_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-602",
+   "title": "확대단면도-2",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대단면도(전층)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p173",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 173,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-603 확대단면도-3 5,000 5,000 10,000 10,000 10,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p173.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p173_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-603",
+   "title": "확대단면도-3",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대단면도(전층) 램프 단면 포함"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p174",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 174,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-604 확대단면도-4 5,000 5,000 10,000 10,000 10,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p174.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p174_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-604",
+   "title": "확대단면도-4",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대단면도(전층)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p175",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 175,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-605 확대단면도-5 5,000 5,000 10,000 10,000 10,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p175.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p175_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-605",
+   "title": "확대단면도-5",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대단면도(전층)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p176",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 176,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-606 확대단면도-6 5,000 5,000 10,000 10,000 10,000",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p176.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p176_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-606",
+   "title": "확대단면도-6",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F",
+    "2F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F",
+    "10F"
+   ],
+   "readable": true,
+   "note": "확대단면도(전층) 램프 단면 포함"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p177",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 177,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "동력분전반 비상분전반 일반분전반 통신단자 방송단자 출입통제단자 일반분전반 통신단자 TV단자 방송단자 력분전반 통신단자 TV단자 방송단자 출입통제단자 보행자 통로 보행자 통로 보행자 통로 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p177.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p177_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-701",
+   "title": "화물주차 안내도",
+   "building_id": "main",
+   "floors": [
+    "1F",
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "화물주차 안내도(1F: A~D TYPE, 3~9F: E~H TYPE)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p178",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 178,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-702 A TYPE 화물주차장 상세도 - A TYPE 화물주차장 평면도 1 축척",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p178.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p178_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-702",
+   "title": "A TYPE 화물주차장 상세도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "A TYPE 화물주차장 평면·단면 상세(층은 A-701 안내도 기준)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p179",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 179,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "화물주차장 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-703 B TYPE 화물주차장 상세도 - B TYPE 화물주차장 평면",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p179.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p179_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-703",
+   "title": "B TYPE 화물주차장 상세도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "B TYPE 화물주차장 평면·단면 상세(층은 A-701 안내도 기준)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p180",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 180,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-704 C TYPE 화물주차장 상세도 - C TYPE 화물주차장 평면도 1 축척",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p180.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p180_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-704",
+   "title": "C TYPE 화물주차장 상세도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "C TYPE 화물주차장 평면·단면 상세(층은 A-701 안내도 기준)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p181",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 181,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "화물주차장 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-705 D TYPE 화물주차장 상세도 - D TYPE 화물주차장 평면",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p181.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p181_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-705",
+   "title": "D TYPE 화물주차장 상세도",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "D TYPE 화물주차장 평면·단면 상세(층은 A-701 안내도 기준)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p182",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 182,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - E TYPE 화물주차장 평면도 1 축척 A1 : 1/60 축척 A3 : 1/12",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p182.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p182_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-706",
+   "title": "E TYPE 화물주차장 상세도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "E TYPE 화물주차장 평면·단면 상세(층은 A-701 안내도 기준)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p183",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 183,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - F TYPE 화물주차장 평면도 1 축척 A1 : 1/60 축척 A3 : 1/12",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p183.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p183_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-707",
+   "title": "F TYPE 화물주차장 상세도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "F TYPE 화물주차장 평면·단면 상세(층은 A-701 안내도 기준)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p184",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 184,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - G TYPE 화물주차장 평면도 1 축척 A1 : 1/60 축척 A3 : 1/12",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p184.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p184_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-708",
+   "title": "G TYPE 화물주차장 상세도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "G TYPE 화물주차장 평면·단면 상세(층은 A-701 안내도 기준)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p185",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 185,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - H TYPE 화물주차장 평면도 1 축척 A1 : 1/60 축척 A3 : 1/12",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p185.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p185_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-709",
+   "title": "H TYPE 화물주차장 상세도",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "H TYPE 화물주차장 평면·단면 상세(층은 A-701 안내도 기준)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p186",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 186,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Y6 Y6 CL 화물주차장 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-721 도크 상세도-1 - Y6열 부분 평면도(1F)",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p186.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p186_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-721",
+   "title": "도크 상세도-1",
+   "building_id": "main",
+   "floors": [
+    "1F"
+   ],
+   "readable": true,
+   "note": "도크 상세(Y6열 부분평면 + 도크 단면)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p187",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 187,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-722 도크 상세도-2 - Y6열 부분 평면도(3~9F) 1 축척 A1 : 1/",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p187.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p187_titleblock.png",
+   "drawing_type": "평면도",
+   "sheet_no": "A-722",
+   "title": "도크 상세도-2",
+   "building_id": "main",
+   "floors": [
+    "3F",
+    "4F",
+    "5F",
+    "6F",
+    "7F",
+    "8F",
+    "9F"
+   ],
+   "readable": true,
+   "note": "도크 상세(Y6열 부분평면 + 도크 단면)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p188",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 188,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "* DOCK LEVELER SPECIFICATION * 1. MODE : (주)하나기공 HANNARO HDL-2000 SERIES 2. 용 량 : 12.0 TON (DYNAMIC:6.0 TON, STATIC: 12.0TON) 3. PLATFORM : 6/8MM STEEL TREAD PLATE + 구조용 형강 하부 보강 FRAME 구조 4. LIP : 16MM STEEL TREAD PLATE(LIP LENGTH : 450mm) 5. POWER PACK : ITALY 수입 완제품 HYDRAPP MOTOR & PUMP, 0.75KW, 3",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p188.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p188_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-731",
+   "title": "도크레벨러 일람표 및 상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "도크레벨러 일람표 및 상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p189",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 189,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "4000 CONTROL & O/P BOX ANCHOR-13D@300 CONDUIT BOX 100x100x50 2050 600 DOCK LEVELER PIT WIDTH \"2,050\" (LEVELER \"W\" + 50) DOCK LEVELER PIT LENGTH\"4,000\" (LEVELER 길이와 동일) ㄱ-75*75*6T 500 22mm 배선배관(2EA) 도크레벨러 콘트롤과 연결 ㄱ-75*75*6T ㄱ-75*75*6T DOCK LEVELER PIT LENGTH\"4,000\" (LEVELER 길이와 동일) 600 DOCK HEIGHT \"1",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p189.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p189_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-732",
+   "title": "도크레벨러 일람표 및 상세도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "도크레벨러 일람표 및 상세도"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p190",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 190,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "알루미늄그릴 - 지상1층 부분 확대평면도 1 축척 A1 : 1/100 축척 A3 : 1/200 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)56",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p190.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p190_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-761",
+   "title": "외벽 평입단면 상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽 평·입·단면 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p191",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 191,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "알루미늄그릴 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-762 외벽 평입단면 상세도-2 Y2열까지 11,000 Y2열까지 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p191.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p191_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-762",
+   "title": "외벽 평입단면 상세도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽 평·입·단면 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p192",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 192,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "THK50 그라스울패널 지정색B (유광) THK50 그라스울패널 지정색B (무광) Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p192.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p192_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-763",
+   "title": "외벽 평입단면 상세도-3",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽 평·입·단면 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p193",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 193,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "G.T Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-764 외벽 평입단면 상세도-4 11,000 X17열까지 15,500 1",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p193.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p193_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-764",
+   "title": "외벽 평입단면 상세도-4",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽 평·입·단면 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p194",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 194,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Y7열까지 14,000 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-765 외벽 평입단면 상세도-5 11,000 500 50",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p194.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p194_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-765",
+   "title": "외벽 평입단면 상세도-5",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽 평·입·단면 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p195",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 195,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "THK50 그라스울패널 지정색B (유광) 1,000 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 A-766 외벽 평입단면 상세도",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p195.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p195_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-766",
+   "title": "외벽 평입단면 상세도-6",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽 평·입·단면 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p196",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 196,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "CL - 저온창고 외벽 단면상세도 1 축척 A1 : 1/15 축척 A3 : 1/30 A-811 부분단면상세도-1 1. 벽체패널 고정용 하지철물 및 방청페인트, 노출부위는 방청 위 3. 현장 실측 후 패널,철골 하지틀 및 감독관의 승인을 득한 후 시공할 것 2. 패널의 색상, 규격 등은 동일 성능의 득한 후 시공할 것. 화스너의 규격, 용접길이 등에 대한 구조 검토 및 shop.dwg 작성하여 브라켓, 윈드컬럼은, 비노출부위는 제품을 적용하며 시공전 샘플을 제시 하여 발주처 및 감독관의 승인을 6. 항균폴리우레탄 스프레이 시공시 패널",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p196.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p196_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-811",
+   "title": "부분단면상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "저온창고 외벽/벽체 단면상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p197",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 197,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "CL A-812 부분단면상세도-2 1. 벽체패널 고정용 하지철물 및 방청페인트, 노출부위는 방청 위 3. 현장 실측 후 패널,철골 하지틀 및 감독관의 승인을 득한 후 시공할 것 2. 패널의 색상, 규격 등은 동일 성능의 득한 후 시공할 것. 화스너의 규격, 용접길이 등에 대한 구조 검토 및 shop.dwg 작성하여 브라켓, 윈드컬럼은, 비노출부위는 제품을 적용하며 시공전 샘플을 제시 하여 발주처 및 감독관의 승인을 6. 항균폴리우레탄 스프레이 시공시 패널 조인트 부분, 패널과 골조 사이 등 이질재료가 접한 부분은 방열이 끊기지 않도",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p197.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p197_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-812",
+   "title": "부분단면상세도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "저온창고 외벽/벽체 단면상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p198",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 198,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "200 7,400 1F FL. EL. + 8.50 B1F EL. + 1.10 A-813 부분단면상세도-3 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p198.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p198_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-813",
+   "title": "부분단면상세도-3",
+   "building_id": "main",
+   "floors": [
+    "B1"
+   ],
+   "readable": true,
+   "note": "지하외벽 단면상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p199",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 199,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "A-814 부분단면상세도-4 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - 부분 단면상세도-3(Y1~Y2) 1 축척 A1 : ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p199.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p199_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-814",
+   "title": "부분단면상세도-4",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "부분 단면상세도(1/100, 층 레벨 표기)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p200",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 200,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "A-815 부분단면상세도-5 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - 부분 단면상세도-2(Y7~Y8) 3 축척 A1 : ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p200.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p200_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-815",
+   "title": "부분단면상세도-5",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "부분 단면상세도(1/100, 층 레벨 표기)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p201",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 201,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "A-816 부분단면상세도-6 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 경량철골천장틀(M-bar) THK12 암면흡음텍스 - ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p201.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p201_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-816",
+   "title": "부분단면상세도-6",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "부분 단면상세도(1/100, 층 레벨 표기)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p202",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 202,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "THK12암면흡음텍스 A-817 부분단면상세도-7 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - 부분 단면상세도(X17~X18",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p202.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p202_titleblock.png",
+   "drawing_type": "단면도",
+   "sheet_no": "A-817",
+   "title": "부분단면상세도-7",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "부분 단면상세도(1/100, 층 레벨 표기)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p203",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 203,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "A-818 장비반입구 상세도 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - \"B\" 부분상세도 5 축척 A1 : 1/6 축척 A",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p203.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p203_titleblock.png",
+   "drawing_type": "기타",
+   "sheet_no": "A-818",
+   "title": "장비반입구 상세도",
+   "building_id": "main",
+   "floors": [
+    "B1",
+    "1F"
+   ],
+   "readable": true,
+   "note": "장비반입구 상세(지하1층·지상1층 평면)"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p204",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 204,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 1 SCALE A1:1/15 A3:1/30 4 SCALE A1:1/15 A3:1/3",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p204.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p204_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-821",
+   "title": "파라펫상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "파라펫 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p205",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 205,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "지붕층 파라펫 상세도 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 7 SCALE A1:1/15 A3:1/30 10 SCALE A",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p205.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p205_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-822",
+   "title": "파라펫상세도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "파라펫 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p206",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 206,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 1,000 50 50 우레탄 충전 수직 보강재 ㅁ-100*50*3.2T GLASS ",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p206.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p206_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-901",
+   "title": "외벽패널 상세도-1",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽패널 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p207",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 207,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "수직 보강재 ㅁ-100*50*3.2T P.I.R THK 100MM 100 S/D SCREW D6*110 외부강판:THK0.8mm 도장용융 아연도금 강판 (초저광택 WRINKLE 수지도장-무광,유광) INSULATION : PIR FOAM ( 밀도 : 40 kg/㎥이상 ) 내부강판:THK0.5mm 도장용융 아연도금 강판(실리콘 폴리에스터 도장) 30 20 30 20 80 C/S 0.8T 횡죠인트 후레싱 WALL LENGTH WALL LENGTH 수직 보강재 ∅6 스테인레스스틸 셀프 스크류볼트 0.8T C/S 내부 후레싱 BOLT @5",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p207.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p207_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-902",
+   "title": "외벽패널 상세도-2",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽패널 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p208",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 208,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Y1 COLUMN X15 A-903 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 외벽패널 상세도-3 1. 벽체패널 고정용 하지철",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p208.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p208_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-903",
+   "title": "외벽패널 상세도-3",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽패널 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p209",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 209,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Y1 C/S 0.8T 횡죠인트 후레싱 GIRTH ㅁ-100×50×3.2t THK50 G/W 외벽패널 GIRTH ㅁ-100×50×3.2t COLUMN THK50 G/W 외벽패널 외벽패널 상세도-4 A-904 Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p209.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p209_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-904",
+   "title": "외벽패널 상세도-4",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽패널 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p210",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 210,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Y1 350 400 750 THK220 무근콘크리트/표면강화제 THK30 복합방수 위 보호몰탈 옥상조경(조경계획도 참조) 50T 단열재 TOP 후레싱 WALL PANEL GLASS WOOL 10F FL. 1,300 THK 50MM GIRTH ㅁ-100*50 THK150 초평탄콘크리트 THK200 우레탄뿜칠 Y1 750 1F FL. 800 GIRTH ㅁ-100*50 WALL PANEL GLASS WOOL THK 50MM 벽하단 SUS 1.0T Y1 750 WALL PANEL GLASS WOOL THK 50MM GIRTH ㅁ-100*5",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p210.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p210_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-905",
+   "title": "외벽패널 상세도-5",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "외벽패널 상세"
+  },
+  {
+   "sheet_id": "건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p211",
+   "file": "input/bukhang/drawings/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021.03.pdf",
+   "page": 211,
+   "page_size_pt": [
+    1191.0,
+    842.0
+   ],
+   "text_hint": "Chkd. No. 설계명 Date Revision Description NOTES 협력설계 도면번호 일자 도면명 Project Consultant DATE Drawing No. SUBJECT TITLE APPROVED 인천 서구 원창동 393-53, 54 북항물류센터 신축공사 2021. 03. DSGN 권문선 CHCK 구경모 김의기 서울특별시 강남구 테헤란로26길 12 제일비전타워 TEL : (02)3011-1400 FAX : (02)564-2971 - PIR 내벽패널 SHAPE(가로패널) 1 축척 A1 : 1/5 축척 A3 : 1",
+   "thumb": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p211.png",
+   "titleblock": "output/wf2/bukhang/thumbs/건축도면 - 인천 서구 그레이트원창 북항물류센터_2021._p211_titleblock.png",
+   "drawing_type": "외벽상세도",
+   "sheet_no": "A-906",
+   "title": "PIR패널 상세도",
+   "building_id": "main",
+   "floors": [],
+   "readable": true,
+   "note": "PIR 패널 상세"
+  }
+ ]
+}

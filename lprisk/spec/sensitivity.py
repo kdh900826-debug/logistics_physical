@@ -15,7 +15,7 @@ def cand_to_value(c: dict, status: str, source_grade: str | None = None) -> dict
     return {"value": c["value"], "unit": c.get("unit"), "raw_text": c.get("raw_text"),
             "precision": c.get("precision"), "source_doc": c.get("source_doc"),
             "source_locator": c.get("locator") or {}, "method": c.get("method"),
-            "confidence": c.get("confidence"),
+            "confidence": c.get("confidence"), **({"basis": c["basis"]} if c.get("basis") else {}),
             "source_grade": source_grade or ("IM주장" if c["origin"] == "im" else "확정"),
             "status": status}
 

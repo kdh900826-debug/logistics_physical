@@ -474,7 +474,8 @@
                 "source_grade": "확정",
                 "status": "확정",
                 "conflict": false,
-                "note": "바닥 → 스프링클러 메인배관 하단 실측"
+                "note": "바닥 → 스프링클러 메인배관 하단 실측",
+                "basis": "배관 하단"
               }
             ],
             "direct_truck_access": [

@@ -2,7 +2,7 @@
 
 허용: 비교(== != < <= > >= in, not in), and/or/not, 숫자·문자열·불리언·null·리스트 리터럴,
 점 표기 변수(building_age, warehouse_floors.floor_load_tpm2.min), th. 임계값 참조,
-화이트리스트 함수(area_share_below, area_share_above, floors_below, floors_above, count, any_of).
+화이트리스트 함수(area_share_below, area_share_above, floors_below, floors_above, count, any_of, min_below).
 
 미확인 값은 3치 논리로 다룬다: 비교에 null 값이 들어가면 Missing. and/or는 Kleene 규칙.
 단, `x == null` / `x != null`은 명시적 null 검사로 보고 미확인을 None으로 판정한다.
@@ -19,9 +19,10 @@ LITERALS = {"null": None, "true": True, "false": False}
 
 class Missing(Exception):
     """입력 미확인 — 룰은 ⚪ 판정 보류."""
-    def __init__(self, path: str, reason: str = "입력 미확인"):
+    def __init__(self, path: str, reason: str = "입력 미확인", inputs: list[str] | None = None):
         super().__init__(path)
         self.path, self.reason = path, reason
+        self.inputs = inputs          # 보류 원인 슬롯을 직접 지정할 때 (없으면 프로파일 missing 맵에서 찾음)
 
 
 class ExprError(Exception):
@@ -32,7 +33,7 @@ _ALLOWED = (ast.Expression, ast.BoolOp, ast.And, ast.Or, ast.UnaryOp, ast.Not, a
             ast.Eq, ast.NotEq, ast.Lt, ast.LtE, ast.Gt, ast.GtE, ast.In, ast.NotIn, ast.Name, ast.Load,
             ast.Attribute, ast.Constant, ast.List, ast.Tuple, ast.Call)
 
-FUNCS = {"area_share_below", "area_share_above", "floors_below", "floors_above", "count", "any_of"}
+FUNCS = {"area_share_below", "area_share_above", "floors_below", "floors_above", "count", "any_of", "min_below"}
 
 
 def parse(src: str) -> ast.Expression:
@@ -70,6 +71,26 @@ def variables(src: str) -> set[str]:
                 out.add(p)
     # 하위 경로(a.b)만 남기고 상위 접두(a)는 제거
     return {p for p in out if not any(q != p and q.startswith(p + ".") for q in out)}
+
+
+def _min_below(series: list[dict], x, path: str) -> bool:
+    """층 시리즈의 (실제) 최솟값이 x 미만인가 — 상한값(upper_bound)을 구간으로 본다.
+
+    upper_bound = 그 값 이하(예: 유효층고 '보 하단' — 배관 미반영). 어느 층이든 값(상한 포함)이 x 미만이면 참(확정).
+    상한만 있는 층이 x 이상이면 실제 값이 x 미만일 수 있으므로 Missing(판정 보류) — 공제폭을 빼서 추정하지 않는다.
+    lower_bound(IM '8.2m 이상' 등)는 적힌 값으로 비교한다 — 매도자 유리 방향 비대칭(원칙 5): '이상' 표기로 심각도를 낮추지 않는다.
+    """
+    if any(s.get("value") is not None and s["value"] < x for s in series):
+        return True
+    unknown = [s for s in series if s.get("value") is None]
+    upper = [s for s in series if s.get("value") is not None and s.get("precision") == "upper_bound"]
+    if upper:
+        fl = ", ".join(f"{s['floor']} {s['value']}" + (f"({s['basis']})" if s.get("basis") else "") for s in upper)
+        raise Missing(path, f"상한값만 있음 — {fl}: 실제 값이 이보다 낮을 수 있어 기준 이상으로 확정 못 함",
+                      [s["slot"] for s in upper if s.get("slot")] or None)
+    if unknown:
+        raise Missing(path)
+    return False
 
 
 class Evaluator:
@@ -119,6 +140,8 @@ class Evaluator:
         path = dotted(node.args[0]) or name
         if series is None or x is None:
             raise Missing(path)
+        if name == "min_below":
+            return _min_below(series, x, path)
         known = [s for s in series if s.get("value") is not None]
         if name in ("floors_below", "floors_above"):
             cmp = (lambda v: v < x) if name == "floors_below" else (lambda v: v > x)

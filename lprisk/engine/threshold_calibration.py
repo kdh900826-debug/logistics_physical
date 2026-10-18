@@ -17,7 +17,8 @@ from . import evaluate as ev_mod
 from .rules import load_rules
 from .thresholds import ThresholdResolver, load_thresholds
 
-SHORT_NAMES = {"cheongna": "청라", "seoknam": "석남", "icheon": "이천", "songon": "송온2", "songon1": "송온1", "hyeonbang": "현방"}
+SHORT_NAMES = {"cheongna": "청라", "seoknam": "석남", "icheon": "이천", "songon": "송온2", "songon1": "송온1", "hyeonbang": "현방",
+               "bukhang": "북항"}
 
 
 def golden_assets() -> dict[str, str]:

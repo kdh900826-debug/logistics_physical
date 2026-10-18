@@ -77,6 +77,11 @@ def normalize_value(field: str, v: dict) -> dict:
         if CONF_RANK.get(out.get("confidence"), 0) > CONF_RANK[cap]:
             out["confidence"] = cap
 
+    # 측정 기준(basis)이 상한 기준(예: 유효층고 '보 하단' — 배관 미반영)이면 실제 값은 이보다 작거나 같다
+    bdef = fd.get("basis")
+    if bdef and out.get("basis") in (bdef.get("upper_bound") or []) and (out.get("precision") or "exact") == "exact":
+        out["precision"] = "upper_bound"
+
     if t in ("number", "int"):
         target = fd.get("unit")
         if "raw_value" not in out:

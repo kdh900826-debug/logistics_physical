@@ -10,7 +10,8 @@
 {%- endmacro %}
 {% macro cand_body(c) %}
   <div class="val">{{ c.value }}{% if c.unit %} <span class="small muted">{{ c.unit }}</span>{% endif %}</div>
-  {% if c.raw_text %}<div class="small">“{{ c.raw_text }}”{% if c.precision and c.precision != 'exact' %} <span class="chip">{{ c.precision }}</span>{% endif %}</div>{% endif %}
+  {% if c.raw_text %}<div class="small">“{{ c.raw_text }}”{% if c.precision and c.precision != 'exact' %} <span class="chip">{{ {"upper_bound": "상한(이하)", "lower_bound": "하한(이상)", "approx": "약", "rounded": "반올림"}.get(c.precision, c.precision) }}</span>{% endif %}</div>{% endif %}
+  {% if c.basis %}<div class="small"><span class="chip {{ 'over' if c.precision == 'upper_bound' }}" title="유효층고 측정 기준">측정: {{ c.basis }}</span>{% if c.precision == 'upper_bound' %} <span class="muted">배관·덕트 미반영 — 실제 유효층고는 이 값 이하</span>{% endif %}</div>{% endif %}
   <div class="small muted">{% if c.method == 'vector' %}<span class="chip" title="도면에 치수로 적힌 값이 아니라 벡터 PDF 좌표로 잰 값">📐벡터 측정</span> {% endif %}{{ c.method }} · confidence {{ c.confidence }} {{ srclink(c) }}</div>
   {% if c.crop %}<a href="/file?path={{ c.crop|urlencode }}" target="_blank"><img src="/file?path={{ c.crop|urlencode }}" alt="판독 근거"></a>{% endif %}
   {% if c.flags %}<div class="small" style="color:var(--red)">{{ c.flags|join(', ') }}</div>{% endif %}

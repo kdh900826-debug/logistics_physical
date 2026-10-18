@@ -184,6 +184,11 @@ def cmd_golden_check(a):
     return check(a.asset, a.target)
 
 
+def cmd_pca_compare(a):
+    from .review.pca_compare import run
+    return run(a.asset)
+
+
 def cmd_finalize(a):
     from .review.finalize import finalize
     return finalize(a.asset)
@@ -233,6 +238,7 @@ def main(argv=None):
     add("review", cmd_review, (("--port",), {"type": int, "default": 8765}), (("--no-browser",), {"action": "store_true"}))
     add("prepare-golden", cmd_prepare_golden)
     add("golden-check", cmd_golden_check, (("--target",), {"choices": ["im", "drawing", "confirmed"], "default": "im"}))
+    add("pca-compare", cmd_pca_compare)
     add("finalize", cmd_finalize)
     add("render-html", cmd_render_html, (("--draft",), {"action": "store_true", "help": "초안 보고서(_final 아님)를 변환"}))
 

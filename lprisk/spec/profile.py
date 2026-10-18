@@ -162,7 +162,12 @@ def build_building(bid: str, label: str, slots: dict[Slot, list], asset_vars: di
                 miss += v.missing
             else:
                 grades.add(v.grade)
-            series.append({"floor": fl, "value": v.value, "area": a.value})
+            item = {"floor": fl, "value": v.value, "area": a.value}
+            if v.value is not None:      # 측정 기준·정밀도 — 상·하한 값은 룰 함수(min_below)가 구간으로 다룬다
+                raw = (slots.get(Slot("floor", bid, fl, f)) or [{}])[0]
+                item.update(precision=raw.get("precision") or "exact", basis=raw.get("basis"),
+                            slot=Slot("floor", bid, fl, f).key)
+            series.append(item)
         known = [s["value"] for s in series if s["value"] is not None]
         g = "claimed" if "claimed" in grades else "verified"
         V[f"warehouse_floors.{f}"] = Var(series, g, deps, miss)

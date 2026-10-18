@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+{% block title %}실사 대조 — {{ asset_id }}{% endblock %}
+{% block header %}<h1>실사 대조 — {{ d.asset_name or asset_id }}</h1>
+<a href="/report/{{ asset_id }}">보고서</a><a href="/g3/{{ asset_id }}">G3 최종 검토</a><a href="/">자산 목록</a>{% endblock %}
+{% block body %}
+{% macro sev(s) %}<span class="sev sev-{{ s or 'none' }}" title="{{ SEVTXT[s or "none"] }}">{{ SEV[s or "none"] }} <span class="small">{{ SEVTXT[s or "none"] }}</span></span>{% endmacro %}
+{% macro val(v, unit) %}{% set U = {"pct": "%", "year": "년", "floor": "층", "m2": "㎡", "t/m2": "t/㎡", "ea": "개"} %}{% if v is none %}<span class="muted">—</span>{% elif v is sameas true %}예{% elif v is sameas false %}아니오{% elif v is number %}{% if unit == "year" %}{{ v|int }}{% else %}{{ '{:,.3f}'.format(v).rstrip('0').rstrip('.') }}{% endif %}{% if unit and unit not in ('bool', 'enum', 'text', 'count') %} <span class="muted small">{{ U.get(unit, unit) }}</span>{% endif %}{% elif v is iterable and v is not string %}{{ v|join(', ') }}{% else %}{{ v }}{% endif %}{% endmacro %}
+{% macro bound(x) %}{% if x.basis %} <span class="chip {{ 'over' if x.precision == 'upper_bound' }}" title="유효층고 측정 기준">{{ x.basis }}{% if x.precision == 'upper_bound' %} · 상한{% endif %}</span>{% elif x.precision in ('upper_bound', 'lower_bound') %} <span class="chip">{{ '이하' if x.precision == 'upper_bound' else '이상' }}</span>{% endif %}{% endmacro %}
+{% macro ddpage(doc, page) %}{% if page %}{% if doc %}<a href="/render?path={{ doc|urlencode }}&page={{ page }}&dpi=130" target="_blank">실사 p{{ page }}</a>{% else %}실사 p{{ page }}{% endif %}{% endif %}{% endmacro %}
+<style>
+header a{font-size:13px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:10px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.kpi h3{margin:0 0 6px;font-size:13px;color:var(--muted);font-weight:600}
+.kpi .big{font-size:26px;font-weight:700;line-height:1.2}
+.vrow{display:flex;align-items:center;gap:8px;margin:4px 0;font-size:13px}
+.vrow b{width:64px;font-weight:600}
+.pill{display:inline-block;white-space:nowrap;min-width:34px;text-align:center;border-radius:999px;padding:1px 8px;font-size:12px;background:var(--chip)}
+.bar{display:flex;height:10px;border-radius:5px;overflow:hidden;background:var(--chip);margin:8px 0 6px}
+.bar span{display:block;height:100%}
+.c-ok{background:var(--green)}.c-bad{background:var(--red)}.c-miss{background:var(--yellow)}.c-extra{background:var(--hold)}
+h2{font-size:17px;margin:26px 0 4px}
+.lead{margin:0 0 8px;color:var(--muted);font-size:13px}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.filters button{background:transparent;color:var(--fg);border:1px solid var(--line);padding:4px 12px;border-radius:999px;font-size:13px}
+.filters button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+details.rule{background:var(--card);border:1px solid var(--line);border-radius:8px;margin:6px 0}
+details.rule[open]{box-shadow:0 1px 4px rgba(0,0,0,.06)}
+details.rule>summary{list-style:none;padding:10px 12px;display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;gap:10px;align-items:center;font-weight:400}
+details.rule>summary::-webkit-details-marker{display:none}
+.rid{font-weight:700;margin-right:6px}
+.flow{white-space:nowrap;font-size:15px}
+.flow .arr{color:var(--muted);margin:0 4px}
+.chg{font-size:12px;border-radius:999px;padding:2px 9px;background:var(--chip);white-space:nowrap}
+.chg.up{background:#ffe3e3;color:#a01d1d}.chg.res{background:#e3f4e6;color:#1d6b2a}.chg.down{background:#e5efff;color:#174ea6}.chg.lack{background:#fff0d6;color:#8a5300}
+@media (prefers-color-scheme:dark){.chg.up{background:#4a1f1f;color:#ffb3b3}.chg.res{background:#1d3a24;color:#a6e3b0}.chg.down{background:#1d2c4a;color:#a8c7ff}.chg.lack{background:#4a3818;color:#ffd38a}}
+.fcount{font-size:12px;white-space:nowrap}
+.fcount .d{color:var(--red);font-weight:600}
+.rbody{padding:0 14px 12px;border-top:1px solid var(--line)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.flist{margin:6px 0;padding:0;list-style:none}
+.flist li{padding:6px 0 6px 10px;border-left:3px solid var(--line);margin:4px 0}
+.flist li.결함{border-left-color:var(--red)}.flist li.경미{border-left-color:var(--yellow)}.flist li.양호{border-left-color:var(--green)}
+.tag{font-size:11px;font-weight:700;margin-right:4px}
+.tag.결함{color:var(--red)}.tag.경미{color:var(--yellow)}.tag.양호{color:var(--green)}
+tr.diff td{background:var(--warn)}
+.tbl{overflow-x:auto}
+.spec td{font-size:13px}
+.res{font-size:12px;font-weight:700;white-space:nowrap}
+.res.일치{color:var(--green)}.res.불일치{color:var(--red)}.res.WF2.누락,.res.누락{color:var(--yellow)}.res.미기재{color:var(--hold)}
+.quote{color:var(--muted);font-size:12px}
+.thumb{max-height:54px;max-width:120px;border:1px solid var(--line);display:block;margin-top:4px}
+.todo li{margin:6px 0}
+.sev .small{color:var(--muted)}
+@media (max-width:700px){details.rule>summary{grid-template-columns:1fr auto}.fcount,.chg{grid-column:1/-1;justify-self:start}.cols{grid-template-columns:1fr}}
+</style>
+
+<div class="banner small">
+<b>무엇을 비교하나</b> — 왼쪽은 WF2 결과(도면 기반, {{ d.ours_source }}), 오른쪽은 물리실사 보고서를 옮긴 골든(<code>tests/golden/{{ asset_id }}/</code>)입니다.
+'실사 값 판정'은 실사 값을 확정 스펙으로 두고 <b>같은 룰셋</b>으로 다시 평가한 결과이며, WF2 산출물은 바꾸지 않습니다.
+{% if d.golden.source %}<br>실사 출처: {{ d.golden.source|md_inline }}{% endif %}
+<br>골든은 <b>사용자 검토 전 초안</b>입니다 — 아래 4절의 검토 항목을 확인한 뒤 확정하세요.
+{% if not d.findings_doc %}<br>⚠ 실사 원문 PDF가 <code>input/{{ asset_id }}/dd/</code>에 없어 페이지 링크가 열리지 않습니다.{% endif %}
+</div>
+
+{% set s = d.summary %}
+<div class="kpis">
+  <div class="kpi"><h3>룰 판정 분포</h3>
+    <div class="vrow"><b>WF2</b>{% if d.wf2_evaluated %}{% for k in ["red","green","hold"] %}<span class="pill">{{ SEV[k] }} {{ s.verdicts.ours[k] }}</span>{% endfor %}{% else %}<span class="muted small">룰 평가 전</span>{% endif %}</div>
+    <div class="vrow"><b>실사 값</b>{% for k in ["red","green","hold"] %}<span class="pill">{{ SEV[k] }} {{ s.verdicts.pca[k] }}</span>{% endfor %}</div>
+    <div class="small muted">미발동 {{ s.verdicts.ours.none }} · 🟡 WF2 {{ s.verdicts.ours.yellow }} / 실사 {{ s.verdicts.pca.yellow }}</div>
+  </div>
+  <div class="kpi"><h3>판정이 달라진 룰</h3>
+    <div class="big">{{ s.changed }}</div>
+    <div class="small">{% for k, n in s.changes.items() if k not in ("같음", "WF2 미평가") and n %}<span class="chip">{{ k }} {{ n }}</span>{% endfor %}</div>
+  </div>
+  <div class="kpi"><h3>스펙 대조 (골든 {{ s.gold_slots }}슬롯)</h3>
+    <div class="big">{{ (100 * s.spec["일치"] / (s.gold_slots or 1))|round|int }}<span class="small muted">% 일치</span></div>
+    <div class="bar">
+      <span class="c-ok" style="width:{{ 100 * s.spec['일치'] / (s.gold_slots or 1) }}%"></span>
+      <span class="c-bad" style="width:{{ 100 * s.spec['불일치'] / (s.gold_slots or 1) }}%"></span>
+      <span class="c-miss" style="width:{{ 100 * s.spec['WF2 누락'] / (s.gold_slots or 1) }}%"></span>
+    </div>
+    <div class="small">일치 {{ s.spec["일치"] }} · <span class="sev-red">불일치 {{ s.spec["불일치"] }}</span> · <span class="sev-yellow">WF2 누락 {{ s.spec["WF2 누락"] }}</span> · 실사 미기재 {{ s.spec["실사 미기재"] }}</div>
+  </div>
+  <div class="kpi"><h3>실사 소견</h3>
+    <div class="big sev-red">{{ s.findings["결함"] }}<span class="small muted"> 결함급</span></div>
+    <div class="small">경미 {{ s.findings["경미"] }} · 양호 {{ s.findings["양호"] }}</div>
+    <div class="small"><b>룰이 못 잡은 결함 {{ s.uncaught_defects }}건</b> (두 판정 모두 🔴 아님)</div>
+  </div>
+</div>
+
+<h2>1. 룰 판정 대조</h2>
+{% if not d.wf2_evaluated %}<div class="banner small">이 자산은 WF2 룰 평가(W2-⑧)를 아직 하지 않아 실사 값 판정만 보입니다. '전체'에서 확인하세요.</div>{% endif %}
+<p class="lead">줄을 누르면 판정 입력값(WF2 ↔ 실사 값)과 실사 소견이 펼쳐집니다. 노란 칸은 두 쪽 값이 다른 입력입니다.</p>
+<div class="filters" data-target="rule">
+  <button class="on" data-f="changed">달라진 룰</button>
+  <button data-f="uncaught">결함 미포착</button>
+  <button data-f="all">전체</button>
+</div>
+{% for r in d.rules %}
+{% set cls = {"실사 값으로 🔴": "up", "실사 기준 상향": "up", "실사로 해소": "res", "실사 기준 하향": "down", "실사 자료 부족": "lack"}.get(r.change, "") %}
+<details class="rule" data-changed="{{ 1 if r.change not in ('같음', 'WF2 미평가') else 0 }}" data-uncaught="{{ 1 if r.uncaught else 0 }}">
+<summary>
+  <div><span class="rid">{{ r.rule_id }}</span>{{ r.title }}{% if r.uncaught %} <span class="chip sens">결함 미포착</span>{% endif %}</div>
+  <div class="flow">{{ sev(r.ours) }}<span class="arr">→</span>{{ sev(r.pca) }}</div>
+  <div><span class="chg {{ cls }}">{{ r.change }}</span></div>
+  <div class="fcount">{% if r.findings %}소견 {{ r.findings|length }}{% if r.defects %} · <span class="d">결함 {{ r.defects }}</span>{% endif %}{% else %}<span class="muted">소견 없음</span>{% endif %}</div>
+</summary>
+<div class="rbody">
+  <div class="cols">
+    <div>
+      <h4>판정 입력값</h4>
+      {% if r.facts %}
+      <div class="tbl"><table>
+        <tr><th>변수</th><th>WF2</th><th>실사 값</th></tr>
+        {% for f in r.facts %}<tr class="{{ 'diff' if f.diff else '' }}"><td class="small">{{ f.var }}</td><td>{{ val(f.ours) }}</td><td>{{ val(f.pca) }}</td></tr>{% endfor %}
+      </table></div>
+      {% else %}<p class="muted small">입력값 없음</p>{% endif %}
+      {% if r.thresholds %}<p class="small"><b>적용 기준</b>: {% for th in r.thresholds %}<span class="chip">{{ th.key }} {{ val(th.value) }}{% if th.segment and th.segment != 'default' %} · {{ th.segment }}{% endif %}{% if not th.verified %} · 미검증{% endif %}</span>{% endfor %}</p>{% endif %}
+      {% if r.ours_hold %}<p class="small"><b>WF2 보류 사유</b>: {{ r.ours_hold.reason }}{% if r.ours_hold.inputs %} — {{ r.ours_hold.inputs|join(', ') }}{% endif %}</p>{% endif %}
+      {% if r.pca_hold %}<p class="small"><b>실사 값 보류 사유</b>: {{ r.pca_hold.reason }}{% if r.pca_hold.inputs %} — {{ r.pca_hold.inputs|join(', ') }}{% endif %}</p>{% endif %}
+      {% if r.root_cause %}<p class="small muted">WF2 서술: {{ r.root_cause }}</p>{% endif %}
+    </div>
+    <div>
+      <h4>실사 소견</h4>
+      {% if r.findings %}
+      <ul class="flist">{% for f in r.findings %}
+        <li class="{{ f.severity }}"><span class="tag {{ f.severity }}">{{ f.severity }}</span>{{ f.text }} <span class="small">{{ ddpage(d.findings_doc, f.page) }}</span></li>
+      {% endfor %}</ul>
+      {% else %}<p class="muted small">이 룰에 해당하는 실사 소견이 없습니다.</p>{% endif %}
+    </div>
+  </div>
+</div>
+</details>
+{% endfor %}
+
+<h2>2. 스펙 대조</h2>
+<p class="lead">WF2 확정값과 실사 값을 슬롯별로 맞댑니다. '관련 룰'은 그 값을 판정 입력으로 쓰는 룰입니다.</p>
+<div class="filters" data-target="spec">
+  <button class="on" data-f="issue">불일치·WF2 누락</button>
+  <button data-f="ruleinput">룰 입력만</button>
+  <button data-f="extra">실사 미기재</button>
+  <button data-f="all">전체</button>
+</div>
+<div class="card tbl"><table class="spec">
+<tr><th>항목</th><th>WF2 (도면)</th><th>실사</th><th>결과</th><th>관련 룰</th></tr>
+{% for x in d.spec %}
+<tr data-result="{{ x.result }}" data-ri="{{ 1 if x.rule_input else 0 }}">
+  <td>{{ x.label }}</td>
+  <td>{% if x.ours %}<b>{{ val(x.ours.value, x.unit) }}</b>{{ bound(x.ours) }}
+      <div class="small muted">{% if x.ours.sheet_no %}{{ x.ours.sheet_no }} {% endif %}{% if x.ours.page and x.ours.doc %}<a href="/render?path={{ x.ours.doc|urlencode }}&page={{ x.ours.page }}&dpi=110" target="_blank">p{{ x.ours.page }}</a>{% endif %}
+      {% if x.ours.method == 'vector' %} 📐벡터{% endif %}{% for fl in x.ours.flags %} <span class="chip over">{{ fl }}</span>{% endfor %}</div>
+      {% if x.ours.crop %}<a href="/file?path={{ x.ours.crop|urlencode }}" target="_blank"><img class="thumb" src="/file?path={{ x.ours.crop|urlencode }}" alt="판독 크롭" loading="lazy"></a>{% endif %}
+    {% else %}<span class="muted">—</span>{% endif %}</td>
+  <td>{% if x.gold %}<b>{{ val(x.gold.value, x.unit) }}</b>{{ bound(x.gold) }}{% if x.gold.confidence == 'medium' %} <span class="chip over" title="본문 서술·합산에서 끌어낸 값">추론</span>{% endif %}
+      {% if x.gold.accept_also %}<div class="small muted">허용: {{ x.gold.accept_also|join(', ') }}</div>{% endif %}
+      {% if x.gold.raw_text %}<div class="quote">“{{ x.gold.raw_text }}”</div>{% endif %}
+      <div class="small">{{ ddpage(x.gold.doc, x.gold.page) }}</div>
+    {% else %}<span class="muted">—</span>{% endif %}</td>
+  <td><span class="res {{ x.result }}">{{ x.result }}</span></td>
+  <td class="small">{{ x.rules|join(', ') }}</td>
+</tr>
+{% endfor %}
+</table></div>
+
+<h2>3. 룰이 못 잡은 실사 결함</h2>
+<p class="lead">실사가 결함으로 본 소견 중 WF2·실사 값 판정 어느 쪽에서도 🔴가 나오지 않은 룰입니다. 도면·연식만으로는 드러나지 않는 시공·운영 하자로, 현장 실사로만 확인됩니다.</p>
+{% for u in d.uncaught %}
+<div class="card"><b>{{ u.rule_id }} {{ u.title }}</b> <span class="small">{{ sev(u.ours) }} → {{ sev(u.pca) }}</span>
+<ul class="flist">{% for f in u["items"] %}<li class="결함">{{ f.text }} <span class="small">{{ ddpage(d.findings_doc, f.page) }}</span></li>{% endfor %}</ul></div>
+{% else %}<p class="muted">없음</p>{% endfor %}
+
+<h2>4. 골든 검토 필요</h2>
+<p class="lead">실사 보고서를 골든으로 옮기며 판단이 들어간 항목입니다. 확정·수정은 <code>tests/golden/{{ asset_id }}/README.md</code>·<code>golden_spec.json</code>에서 합니다.</p>
+<div class="card"><ul class="todo">{% for t in d.golden.todo %}<li>{{ '☑' if t.done else '☐' }} {{ t.text|md_inline }}</li>{% else %}<li class="muted">검토 항목 없음</li>{% endfor %}</ul></div>
+<p class="small muted">생성 {{ d.created_at }} · WF2 상태 {{ d.wf2_state }}</p>
+{% endblock %}
+{% block script %}
+<script>
+document.querySelectorAll('.filters').forEach(bar => {
+  const target = bar.dataset.target;
+  const apply = f => {
+    bar.querySelectorAll('button').forEach(b => b.classList.toggle('on', b.dataset.f === f));
+    if (target === 'rule') {
+      document.querySelectorAll('details.rule').forEach(el => {
+        el.hidden = !(f === 'all' || (f === 'changed' && el.dataset.changed === '1') || (f === 'uncaught' && el.dataset.uncaught === '1'));
+      });
+    } else {
+      document.querySelectorAll('table.spec tr[data-result]').forEach(tr => {
+        const r = tr.dataset.result;
+        tr.hidden = !(f === 'all' || (f === 'issue' && (r === '불일치' || r === 'WF2 누락'))
+                      || (f === 'ruleinput' && tr.dataset.ri === '1') || (f === 'extra' && r === '실사 미기재'));
+      });
+    }
+  };
+  bar.addEventListener('click', e => { if (e.target.dataset.f) apply(e.target.dataset.f); });
+  apply(bar.querySelector('button.on').dataset.f);
+});
+</script>
+{% endblock %}

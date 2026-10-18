@@ -43,6 +43,11 @@ def validate_record(record: dict, building_ids: list[str] | None = None) -> dict
                 errors.append(f"{tag}: method 값 오류 {v.get('method')}")
             if v.get("precision") and v["precision"] not in ALLOWED["precision"]:
                 errors.append(f"{tag}: precision 값 오류 {v.get('precision')}")
+            if v.get("basis") is not None:
+                bdef = fd.get("basis")
+                allowed = load_schema()["enums"].get(bdef["enum"], []) if bdef else []
+                if v["basis"] not in allowed:
+                    errors.append(f"{tag}: basis 값 오류 {v.get('basis')} (허용: {', '.join(allowed) or '이 필드는 basis 없음'})")
             for fl in v.get("flags") or []:
                 flags.append({"slot": where, "index": i, "flag": fl, "value": v.get("value")})
     for m in record.get("missing") or []:
