@@ -64,6 +64,26 @@ def cmd_vector_radius(a):
     return vector_measure.ramp_radius(a.asset, a.file, a.page, a.scale)
 
 
+def cmd_vector_lines(a):
+    from .doc_ingest import vector_measure
+    return vector_measure.lines_near(a.asset, a.file, a.page, a.at, a.radius, a.scale)
+
+
+def cmd_vector_distance(a):
+    from .doc_ingest import vector_measure
+    return vector_measure.distance(a.asset, a.file, a.page, a.a, a.b, a.c, a.d, a.scale, a.name, a.snap)
+
+
+def cmd_vector_depth_min(a):
+    from .doc_ingest import vector_measure
+    return vector_measure.depth_min(a.asset, a.file, a.page, a.a, getattr(a, "from"), a.to, a.b, a.scale, a.name, a.snap)
+
+
+def cmd_vector_area_sum(a):
+    from .doc_ingest import vector_measure
+    return vector_measure.area_sum(a.asset, a.names)
+
+
 def cmd_crop(a):
     from .doc_ingest import sheets
     p = sheets.crop_evidence(a.asset, a.file, a.page, [float(x) for x in a.bbox.split(",")], a.name)
@@ -222,6 +242,22 @@ def main(argv=None):
     add("text-search", cmd_text_search, (("--pattern",), {"required": True, "help": "정규식"}))
     add("vector-radius", cmd_vector_radius, (("--file",), {"required": True}), (("--page",), {"type": int, "required": True}),
         (("--scale",), {"type": float, "default": None, "help": "mm/pt (축척 표기 자동 인식 실패 시)"}))
+    add("vector-lines", cmd_vector_lines, (("--file",), {"required": True}), (("--page",), {"type": int, "required": True}),
+        (("--at",), {"required": True, "help": "x,y (PDF 원본 pt)"}), (("--radius",), {"type": float, "default": 15.0}),
+        (("--scale",), {"type": float, "default": None}))
+    add("vector-distance", cmd_vector_distance, (("--file",), {"required": True}), (("--page",), {"type": int, "required": True}),
+        (("--a",), {"required": True, "help": "x,y — 첫 번째 선 위의 점"}), (("--b",), {"required": True, "help": "x,y — 두 번째 선 위의 점"}),
+        (("--c",), {"default": None}), (("--d",), {"default": None, "help": "c–d: 두 번째 거리(직각) → 면적"}),
+        (("--scale",), {"type": float, "default": None}), (("--name",), {"required": True}),
+        (("--snap",), {"type": float, "default": 6.0}))
+    add("vector-depth-min", cmd_vector_depth_min, (("--file",), {"required": True}), (("--page",), {"type": int, "required": True}),
+        (("--a",), {"required": True, "help": "x,y — 도크면(직선) 위의 점"}),
+        (("--from",), {"required": True, "help": "x,y — 접안 구간 한쪽 끝(첫 구획 바깥 선)"}),
+        (("--to",), {"required": True, "help": "x,y — 접안 구간 다른 끝"}),
+        (("--b",), {"required": True, "help": "x,y[;x,y…] — 반대편 경계(연석·옹벽·주차 구획선) 위의 점. 경로가 여러 개면 ';'"}),
+        (("--scale",), {"type": float, "default": None}), (("--name",), {"required": True}),
+        (("--snap",), {"type": float, "default": 6.0}))
+    add("vector-area-sum", cmd_vector_area_sum, (("--names",), {"required": True, "help": "vector-distance --name 목록(쉼표)"}))
     add("validate", cmd_validate, (("which",), {"help": "im | drawing | 파일명"}))
     add("reconcile", cmd_reconcile)
     add("apply-confirmation", cmd_apply_confirmation)

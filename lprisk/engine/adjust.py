@@ -72,7 +72,8 @@ def run(asset_id: str) -> dict:
         r["adjustment"] = None
         nar = rule["narrative"]
         r.update(root_cause=nar.get("root_cause"), cascade_risks=nar.get("cascade"),
-                 dd_checkpoints=list(nar.get("dd_checkpoints") or []), inference_basis=None, reset_note=None)
+                 dd_checkpoints=list(nar.get("dd_checkpoints") or []), inference_basis=None, reset_note=None,
+                 dd_on_green=bool(rule.get("dd_on_green")))
         if x:
             for k in ("inference_basis", "root_cause", "cascade_risks", "reset_note"):
                 if x.get(k):

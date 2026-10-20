@@ -200,8 +200,12 @@ def run(asset_id: str) -> dict:
         if k in done:
             continue
         fd = field_def(m["field"])
-        unresolved.append(dict(m, slot=k, label=Slot.from_key(k).label(), unit=fd.get("unit"),
-                               rule_input=bool(fd.get("rule_input")), blocks_rules=[]))
+        entry = dict(m, slot=k, label=Slot.from_key(k).label(), unit=fd.get("unit"),
+                     rule_input=bool(fd.get("rule_input")), blocks_rules=[])
+        # 옥외 야드 자산: 단지 트럭야드 깊이 대신 층별 yard_depth_m이 SP06 입력이다(profile) — 미발견 룰 입력으로 세지 않는다
+        if m["field"] == "truck_yard_depth_m" and any(Slot.from_key(d).field == "yard_depth_m" for d in done):
+            entry.update(rule_input=False, note="옥외 야드 — 층별 야드 깊이(yard_depth_m)로 SP06 판정")
+        unresolved.append(entry)
     unresolved.sort(key=lambda m: (not m["rule_input"], m["slot"]))
 
     claims = []

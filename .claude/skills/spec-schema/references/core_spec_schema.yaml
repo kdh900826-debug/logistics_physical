@@ -89,6 +89,17 @@ fields:
   floor_height_m:        {level: floor, type: number, unit: m, range: [2.5, 25], favorable: higher, rule_input: false, label: 층고(바닥~바닥), drawing_types: [단면도]}
   direct_truck_access:   {level: floor, type: bool, favorable: higher, rule_input: true, label: 차량 직접접안 가능, drawing_types: [평면도, 단면도]}
   dock_route_column_conflict: {level: floor, type: bool, favorable: lower, rule_input: true, label: 램프→하역장 동선 기둥 간섭(대형차), drawing_types: [평면도]}
+  # 하역장·야드 (2026-10-20 사용자 요청, 와이드크릭 3개 자산 — 옥외·데크 야드)
+  # 치수 표기가 없으면 vector-distance로 잰다(method: vector). 층에 야드가 여러 곳이면 가장 작은 값, 나머지는 note
+  # yard_depth_m은 옥외 야드 SP06 입력(profile이 층별 최솟값을 truck_yard_depth_m으로 씀) → rule_input
+  berth_length_m:        {level: floor, type: number, unit: m, range: [5, 40], favorable: higher, rule_input: false, label: 접안 구획 깊이(Berth 길이), drawing_types: [평면도, 주차계획도, 배치도]}
+  berth_width_m:         {level: floor, type: number, unit: m, range: [2, 8], favorable: higher, rule_input: false, label: 접안 구획 폭(Berth 폭), drawing_types: [평면도, 주차계획도]}
+  yard_depth_m:          {level: floor, type: number, unit: m, range: [5, 150], favorable: higher, rule_input: true, label: 야드 전체 깊이(도크면~야드 반대편 끝, 차로 포함), drawing_types: [평면도, 배치도]}
+  # 하역장 하부: 위층 야드(데크)가 이 층 창고 위에 얹힌 구역. 층 대표값(clear_height_m 등)은 일반 구역 값을 쓰고 여기 따로 적는다
+  under_yard_floor_height_m: {level: floor, type: number, unit: m, range: [2.5, 25], favorable: higher, rule_input: false, label: 하역장 하부 층고, drawing_types: [단면도]}
+  under_yard_clear_height_m: {level: floor, type: number, unit: m, range: [2.5, 20], favorable: higher, rule_input: false, label: 하역장 하부 유효층고, drawing_types: [단면도],
+                              basis: {enum: clear_height_basis, upper_bound: [보 하단, 슬래브 하단]}}
+  under_yard_area_m2:    {level: floor, type: number, unit: m2, range: [10, 300000], favorable: lower, rule_input: false, label: 하역장 하부 면적(위층 야드 데크 아래 구역), drawing_types: [평면도, 단면도]}
 
 # 층 라벨 정규화: B2, B1, 1F, 2F, … , RF (지붕), M1F(메자닌)
 floor_label_pattern: "^(B[1-9]|[1-9][0-9]?F|M[1-9][0-9]?F|RF)$"

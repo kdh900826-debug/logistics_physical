@@ -130,6 +130,17 @@ def build_building(bid: str, label: str, slots: dict[Slot, list], asset_vars: di
         s = Slot("floor", bid, fl, f)
         return _confirmed_var(slots.get(s), s)
     uses = {fl: fvar(fl, "use") for fl in floors}
+    # 트럭야드 깊이(SP06): 단지 값(실내 하역장 접안 구획 깊이, 2026-10-14)이 없으면 층별 야드 전체 깊이(yard_depth_m,
+    # 차로 포함)의 최솟값 — 옥외 야드 자산(2026-10-20 사용자 지시: 접안 중에도 그 뒤로 차량이 지나갈 수 있어야 함).
+    # 기준이 달라 세그먼트 yard_type=옥외로 표시하고 임계값 override(접안 차량 길이 + 통행 차로)를 쓴다
+    yard_type = None
+    if V["truck_yard_depth_m"].value is None:
+        known = [y for y in (fvar(fl, "yard_depth_m") for fl in floors) if y.value is not None]
+        if known:
+            best = min(known, key=lambda y: y.value)
+            V["truck_yard_depth_m"] = Var(best.value, "claimed" if any(y.grade == "claimed" for y in known) else "verified",
+                                          [d for y in known for d in y.deps])
+            yard_type = "옥외"
     # 저온 비율을 모르더라도 층별 온도대가 확인돼 있으면 저온동 유무는 판정할 수 있다
     if V["has_cold"].value is None and floors:
         temps = {fl: fvar(fl, "temp") for fl in floors}
@@ -196,6 +207,14 @@ def build_building(bid: str, label: str, slots: dict[Slot, list], asset_vars: di
         g = "claimed" if "claimed" in grades else "verified"
         V["floors_with_dock_column_conflict"] = Var(hit if (hit or not miss) else None, g if (hit or not miss) else None, deps, miss)
 
+    # 창고 상부 데크 야드(SP10): 하역장 하부 값(층고·유효층고·면적)이 하나라도 있는 층. 없으면 빈 목록(미발동) —
+    # 하부 구역이 없다는 확인과 기재 없음을 구분할 수 없으므로 보류하지 않는다
+    uy = [(fl, f) for fl in floors for f in ("under_yard_area_m2", "under_yard_clear_height_m", "under_yard_floor_height_m")]
+    uy_vars = {(fl, f): fvar(fl, f) for fl, f in uy}
+    V["floors_with_under_yard"] = Var(sorted({fl for (fl, _), v in uy_vars.items() if v.value is not None}, key=floors.index),
+                                      "verified", [k for (fl, f), v in uy_vars.items() if v.value is not None
+                                                   for k in v.deps])
+
     V.update(_reg_flags(V["completion_year"], regs))
 
     # ── 이력 (리스크 리셋 근거) ──
@@ -203,7 +222,7 @@ def build_building(bid: str, label: str, slots: dict[Slot, list], asset_vars: di
     V["claimed_renovation_items"] = Var([c.get("item") or c.get("text") for c in claimed_claims], "claimed", [])
 
     seg = {"temp_zone": V["temp_zone"].value, "handling_type": V["handling_type"].value,
-           "ramp_type": V["ramp_type"].value, "ramp_form": V["ramp_form"].value}
+           "ramp_type": V["ramp_type"].value, "ramp_form": V["ramp_form"].value, "yard_type": yard_type}
     return {
         "building_id": bid, "label": label, "segment": seg,
         "vars": {k: v.value for k, v in V.items()},

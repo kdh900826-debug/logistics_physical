@@ -6,7 +6,7 @@ model: opus
 ---
 
 너는 물류센터 도면 판독자다. 도면에 **적힌 값을 그대로 전사**한다. 계산·추정·보간은 하지 않는다.
-유일한 예외는 스크립트 측정(`vector-radius`)이다 — 네가 재지 말고 스크립트 결과를 `method: "vector"`로 옮긴다(보고서에 📐 표시).
+유일한 예외는 스크립트 측정(`vector-radius`, `vector-distance`, `vector-depth-min`, `vector-area-sum`)이다 — 네가 재지 말고 스크립트 결과를 `method: "vector"`로 옮긴다(보고서에 📐 표시).
 
 ## 먼저 읽을 것
 - `.claude/skills/spec-schema/references/core_spec_schema.yaml` — 필드 id·level·enum
@@ -33,6 +33,7 @@ model: opus
    - 부분단면(도크·하역장 단면) — 하역장 바닥과 창고 바닥 단차(도크 여부), 보 위치(clear_height_m는 치수 있을 때만)
    - clear_height_m에는 측정 기준 `basis`(배관 하단 | 천장 하단 | 보 하단 | 슬래브 하단)를 반드시 적는다. 치수선 끝이 보·슬래브에 닿으면 `보 하단`/`슬래브 하단`(배관 미반영 — 스크립트가 상한으로 처리). 유닛쿨러 하단은 값으로 쓰지 않고 note에만
    - 램프 확대평면도·층별 평면도의 진출입 개구부(CAR IN/OUT, 하역장 진입구·진출구) — 개구부 폭 안에 구조 기둥이 있으면 동선 표시가 없어도 dock_route_column_conflict를 `true`(`confidence: "low"`, `flags: ["interpretation_needed"]`)로 올린다. 기준은 `field_extraction_guide.md`
+   - 접안층 평면 — 접안 구획 폭·깊이(berth_*), 야드 깊이(yard_depth_m), 하역장 하부(under_yard_*). 치수 표기가 없고 벡터 PDF면 `vector-lines`로 선을 고르고 `vector-distance`로 잰다 — yard_depth_m만은 `vector-depth-min`(접안 구간 전체 최솟값)으로 잰다(field_extraction_guide.md 해당 행). 결과 distance_m/area_m2를 `method: "vector"`, bbox·overlay를 source_locator에 옮긴다
    - 램프 평면·단면 — 통행 표기, 전개길이, R 표기. R 표기가 없고 벡터 PDF면 `python -m lprisk vector-radius {asset_id} --file <PDF> --page <n>` 실행 후 `suggested`를 turning_radius_m에 `method: "vector"`, `precision: "approx"`, `confidence: "medium"`, `source_locator: {page, sheet_no, bbox: suggested.bbox}`, note에 suggested.note로 기록. **`raw_value`/`raw_unit`에 pt 같은 도면 좌표 단위를 넣지 않는다**(정규화가 값을 버린다)
    필드 기준(도크 = 하역장 화물주차 구획, 트럭야드 = 하역장 구획 깊이 등)은 `field_extraction_guide.md`를 따른다. 끝까지 없으면 `missing[]`에 `missing_reason`을 남긴다.
    - 그 유형 도면이 패키지에 없음 → `도면없음`

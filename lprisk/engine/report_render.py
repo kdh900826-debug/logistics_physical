@@ -143,6 +143,7 @@ def render(asset_id: str) -> str:
                     return pre + _fmt(v.get("value"), v.get("unit")) + basis + mark + _vmark(v)
                 L.append(f"| {fl['floor']} | {cell('use')} | {cell('area_m2')} | {cell('floor_load_tpm2')} | "
                          f"{cell('clear_height_m')} | {cell('direct_truck_access')} |")
+            L += _yard_table(b["floors"])
         L.append("")
     if conf.get("asset"):
         L += ["### 단지 공용", "", "| 항목 | 값 | 상태 | 출처 |", "|---|---|---|---|"]
@@ -212,7 +213,11 @@ def render(asset_id: str) -> str:
             dd = r.get("dd_checkpoints") or []
             L += ["- **DD 확인 포인트:** 미확인 입력 확보" + ("; " + "; ".join(dd) if dd else ""), ""]
         elif r["severity_final"] == "green":
-            L += [f"- **추론 근거:** <!-- LLM:basis:{key} -->", ""]
+            L += [f"- **추론 근거:** <!-- LLM:basis:{key} -->"]
+            if r.get("dd_on_green") and r.get("dd_checkpoints"):
+                # 등급과 별개로 실사에서 볼 구조 특성(룰 dd_on_green: true) — 예: SP10 창고 상부 데크 야드
+                L += ["- **DD 확인 포인트:**"] + [f"  - {d}" for d in r["dd_checkpoints"]]
+            L.append("")
         else:
             L += [f"- **추론 근거:** <!-- LLM:basis:{key} -->",
                   f"- **근본 원인:** <!-- LLM:root:{key} -->",
@@ -246,6 +251,37 @@ def render(asset_id: str) -> str:
     text = "\n".join(L) + "\n"
     save_text(out / f"{asset_id}_report_skeleton.md", text)
     return text
+
+
+YARD_FIELDS = ("berth_length_m", "berth_width_m", "yard_depth_m",
+               "under_yard_floor_height_m", "under_yard_clear_height_m", "under_yard_area_m2")
+
+
+def _yard_table(floors: list[dict]) -> list[str]:
+    """§1 하역장·야드 표 (2026-10-20): 접안 구획·야드 깊이와 하역장 하부(위층 야드 데크 아래) 층고·면적·비중.
+    비중 = 하역장 하부 면적 ÷ 층 면적 — 층 대표 유효층고는 일반 구역 값이고, 이 표가 하부 구역을 따로 보인다."""
+    rows = [fl for fl in floors if any((fl["fields"].get(k) or [{}])[0].get("value") is not None for k in YARD_FIELDS)]
+    if not rows:
+        return []
+    L = ["", "**하역장·야드** (하역장 하부 = 위층 야드 데크 아래 구역. 층 대표 유효층고는 일반 구역 값)", "",
+         "| 층 | 접안 구획 폭×깊이 | 야드 깊이 | 하역장 하부 층고 / 유효층고 | 하역장 하부 면적 (층 면적 대비) |",
+         "|---|---|---|---|---|"]
+    for fl in sorted(rows, key=lambda x: floor_sort_key(x["floor"])):
+        g = lambda k: (fl["fields"].get(k) or [{}])[0]
+        def val(k):
+            v = g(k)
+            if v.get("value") is None:
+                return "—"
+            pre, basis = _bound(v)
+            mark = "" if v.get("status") in ("확정", "확정(교차)", None) else f" ({v.get('status')})"
+            return pre + _fmt(v.get("value"), v.get("unit")) + basis + mark + _vmark(v)
+        bw, bl = g("berth_width_m"), g("berth_length_m")
+        berth = "—" if bw.get("value") is None and bl.get("value") is None else f"{val('berth_width_m')} × {val('berth_length_m')}"
+        ua, area = g("under_yard_area_m2").get("value"), g("area_m2").get("value")
+        share = f" ({ua / area * 100:.1f}%)" if ua is not None and area else ""
+        L.append(f"| {fl['floor']} | {berth} | {val('yard_depth_m')} | "
+                 f"{val('under_yard_floor_height_m')} / {val('under_yard_clear_height_m')} | {val('under_yard_area_m2')}{share} |")
+    return L
 
 
 def _slot_label(p: str) -> str:

@@ -288,5 +288,17 @@
         "comment": "채팅 확인(2026-10-14) — 세미트레일러 최소회전반지름 12.0m를 SP08 🔴 기준으로 확정. bangchori 회전반경 15.7m(📐벡터 측정) 판정용"
       }
     }
+  },
+  {
+    "at": "2026-10-20T18:00:52+09:00",
+    "changed": [
+      "th:truck_yard_depth:override:0:red"
+    ],
+    "decisions": {
+      "th:truck_yard_depth:override:0:red": {
+        "action": "verify",
+        "comment": "채팅 확인(2026-10-20) — 옥외 야드 SP06 🔴 19.95m(세미트레일러 16.7m + 통행 1차로 3.25m) 확정"
+      }
+    }
   }
 ]

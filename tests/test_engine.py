@@ -274,3 +274,12 @@ def test_report_html_relative_links():
     from lprisk.review.report_html import md_to_html
     html = md_to_html("| a |\n|---|\n| [근거](output/wf2/x/crops/c.png) |", ROOT / "output" / "wf2" / "x")
     assert "<table>" in html and 'href="crops/c.png"' in html
+
+
+def test_outdoor_yard_override():
+    """SP06: 옥외 야드(yard_type=옥외)는 접안 차량 + 통행 차로 기준 override를 쓴다 (2026-10-20)."""
+    t = {"truck_yard_depth": {"default": {"red": {"value": 13, "verified": True}},
+                              "overrides": [{"when": {"yard_type": "옥외"}, "red": {"value": 19.95, "verified": True}}]}}
+    assert ThresholdResolver({}, t)("truck_yard_depth.red") == 13
+    assert ThresholdResolver({"yard_type": None}, t)("truck_yard_depth.red") == 13
+    assert ThresholdResolver({"yard_type": "옥외"}, t)("truck_yard_depth.red") == 19.95
