@@ -215,6 +215,14 @@ def build_building(bid: str, label: str, slots: dict[Slot, list], asset_vars: di
                                       "verified", [k for (fl, f), v in uy_vars.items() if v.value is not None
                                                    for k in v.deps])
 
+    # 하역장 하부 비중(%) = 하역장 하부 면적 ÷ 층 면적 — 보고서 §1 하역장·야드 표용(룰 입력 아님)
+    share = {}
+    for fl in floors:
+        ua, ar = fvar(fl, "under_yard_area_m2"), fvar(fl, "area_m2")
+        if ua.value is not None and ar.value:
+            share[fl] = round(ua.value / ar.value * 100, 1)
+    V["under_yard_share_pct"] = Var(share, "verified", [])
+
     V.update(_reg_flags(V["completion_year"], regs))
 
     # ── 이력 (리스크 리셋 근거) ──

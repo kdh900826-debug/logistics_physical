@@ -137,7 +137,7 @@ category: spec
 scope: per_building
 horizon: now
 inputs: [ramp_type, ramp_form, ramp_slope_pct, ramp_width_m, floors_without_direct_access, floors_above]
-trigger: "floors_above > 1 and ramp_type != '없음'"
+trigger: "floors_above > 1 and (ramp_type != '없음' or ramp_slope_pct != null)"   # 옥외 대지 경사로 경사가 확인되면 램프 통행 표기가 없어도 판정(2026-10-21)
 severity:
   red:    "ramp_slope_pct > th.ramp_slope.red or ramp_width_m < th.ramp_width.red"
   yellow: "count(floors_without_direct_access) > 0"     # 램프 경사·폭은 🔴 단일 등급(2026-10-13 사용자 결정)

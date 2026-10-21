@@ -71,6 +71,7 @@ def render(asset_id: str) -> str:
     top = load_json(out / "w2_10_top3.json")["top3"]
     ev = load_json(out / "w2_08_risk_evaluation.json")
     conf = load_json(out / "w2_05_confirmed_spec.json")
+    prof = load_json(out / "w2_06_profile.json") if (out / "w2_06_profile.json").exists() else {}
     rec = load_json(out / "w2_04_reconciled.json")
     pairs = load_json(out / "w2_09_pairs.json")["pairs"]
     corr = load_json(out / "w2_09_correlations.json") if (out / "w2_09_correlations.json").exists() else {}
@@ -143,7 +144,8 @@ def render(asset_id: str) -> str:
                     return pre + _fmt(v.get("value"), v.get("unit")) + basis + mark + _vmark(v)
                 L.append(f"| {fl['floor']} | {cell('use')} | {cell('area_m2')} | {cell('floor_load_tpm2')} | "
                          f"{cell('clear_height_m')} | {cell('direct_truck_access')} |")
-            L += _yard_table(b["floors"])
+            pb = next((x for x in prof.get("buildings", []) if x["building_id"] == b["building_id"]), {})
+            L += _yard_table(b["floors"], (pb.get("vars") or {}).get("under_yard_share_pct") or {})
         L.append("")
     if conf.get("asset"):
         L += ["### 단지 공용", "", "| 항목 | 값 | 상태 | 출처 |", "|---|---|---|---|"]
@@ -257,9 +259,10 @@ YARD_FIELDS = ("berth_length_m", "berth_width_m", "yard_depth_m",
                "under_yard_floor_height_m", "under_yard_clear_height_m", "under_yard_area_m2")
 
 
-def _yard_table(floors: list[dict]) -> list[str]:
+def _yard_table(floors: list[dict], share: dict) -> list[str]:
     """§1 하역장·야드 표 (2026-10-20): 접안 구획·야드 깊이와 하역장 하부(위층 야드 데크 아래) 층고·면적·비중.
-    비중 = 하역장 하부 면적 ÷ 층 면적 — 층 대표 유효층고는 일반 구역 값이고, 이 표가 하부 구역을 따로 보인다."""
+    비중(share)은 profile의 under_yard_share_pct(하역장 하부 면적 ÷ 층 면적) — 층 대표 유효층고는 일반 구역 값이고,
+    이 표가 하부 구역을 따로 보인다."""
     rows = [fl for fl in floors if any((fl["fields"].get(k) or [{}])[0].get("value") is not None for k in YARD_FIELDS)]
     if not rows:
         return []
@@ -277,10 +280,9 @@ def _yard_table(floors: list[dict]) -> list[str]:
             return pre + _fmt(v.get("value"), v.get("unit")) + basis + mark + _vmark(v)
         bw, bl = g("berth_width_m"), g("berth_length_m")
         berth = "—" if bw.get("value") is None and bl.get("value") is None else f"{val('berth_width_m')} × {val('berth_length_m')}"
-        ua, area = g("under_yard_area_m2").get("value"), g("area_m2").get("value")
-        share = f" ({ua / area * 100:.1f}%)" if ua is not None and area else ""
+        pct = f" ({share[fl['floor']]:.1f}%)" if fl["floor"] in share else ""
         L.append(f"| {fl['floor']} | {berth} | {val('yard_depth_m')} | "
-                 f"{val('under_yard_floor_height_m')} / {val('under_yard_clear_height_m')} | {val('under_yard_area_m2')}{share} |")
+                 f"{val('under_yard_floor_height_m')} / {val('under_yard_clear_height_m')} | {val('under_yard_area_m2')}{pct} |")
     return L
 
 
