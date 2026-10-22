@@ -1,11 +1,5 @@
 ﻿logged_at,asset_id,slot,field,drawing_type,method,confidence,drawing_value,final_value,final_status,action,reason
 2026-10-14T14:04:24+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
-2026-10-14T14:19:14+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
-2026-10-14T16:14:16+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
-2026-10-14T16:15:32+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
-2026-10-14T16:35:47+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
-2026-10-14T16:36:15+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
-2026-10-14T16:51:52+09:00,bangchori,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,154.0,56.5,확정,correct,채팅 지시 — 하역장 측 벽~반대편 벽(중앙 하역장 제외) 56.5m
 2026-10-15T09:49:20+09:00,hwaseong,building|main|-|warehouse_depth_m,warehouse_depth_m,평면도,vision,low,71.0,96.0,확정,cand,
 2026-10-15T09:49:20+09:00,hwaseong,building|main|-|cold_area_m2,cold_area_m2,면적표,vision,low,7821.34,8101.98,확정,cand,
 2026-10-15T09:49:20+09:00,hwaseong,building|main|-|cold_area_m2,cold_area_m2,면적표,vision_hinted,low,7821.34,8101.98,확정,cand,
@@ -23,3 +17,4 @@
 2026-10-21T16:45:12+09:00,gunryang_b,floor|main|2F|clear_height_m,clear_height_m,단면도,vision,low,2.7,2.4,확정,cand,채팅 지시: 도면 값 채택(도면 값끼리 다르면 불리한 값)
 2026-10-21T16:45:12+09:00,gunryang_b,floor|main|B1|clear_height_m,clear_height_m,단면도,vision,low,2.7,2.4,확정,cand,채팅 지시: 도면 값 채택(도면 값끼리 다르면 불리한 값)
 2026-10-21T16:45:15+09:00,yangpyeong,building|main|-|ramp_slope_pct,ramp_slope_pct,배치도,vision,low,9.51,10.0,확정,cand,채팅 지시: 도면 값 채택(도면 값끼리 다르면 불리한 값)
+2026-10-22T15:38:49+09:00,yangpyeong,floor|main|4F|dock_route_column_conflict,dock_route_column_conflict,평면도,vision,low,True,,미확인,unconfirmed,"4F 램프 곡선부 X18/Y2 □는 3F 물류창고 304 기둥(램프 하부)으로 판단 — 3F A31-005 회색 채움 기둥, 4F A31-006 램프 빗금이 □를 끊김 없이 통과, 같은 시트 야드의 □도 SP06에서 하부 기둥으로 처리. 곡선부 단면 없음 → 값 미확인으로 정정, DD에서 현장 확인 — 채팅 지시"

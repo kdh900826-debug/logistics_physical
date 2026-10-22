@@ -153,8 +153,13 @@ def run(asset_id: str) -> dict:
     rec["confirmed_at"] = resp.get("submitted_at") or now_iso()
     save_json(out_dir / "w2_05_confirmed_spec.json", rec)
 
+    path = KB / "extraction_log.csv"
+    if log_rows and path.exists():
+        # 재진입(G3 → W2-⑤)으로 같은 결정을 다시 반영할 때 이미 기록된 정정은 다시 쓰지 않는다(logged_at 제외 비교)
+        with open(path, encoding="utf-8-sig", newline="") as f:
+            seen = {tuple(r.get(c) or "" for c in LOG_COLUMNS[1:]) for r in csv.DictReader(f)}
+        log_rows = [r for r in log_rows if tuple("" if r[c] is None else str(r[c]) for c in LOG_COLUMNS[1:]) not in seen]
     if log_rows:
-        path = KB / "extraction_log.csv"
         new = not path.exists()
         with open(path, "a", encoding="utf-8-sig", newline="") as f:
             w = csv.DictWriter(f, fieldnames=LOG_COLUMNS)

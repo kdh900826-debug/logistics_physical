@@ -37,3 +37,16 @@ def test_unknown_slot_rejected(tmp_path, monkeypatch):
     _setup(tmp_path, monkeypatch, {"building|main|-|dock_count": {"action": "correct", "value": 1}})
     with pytest.raises(ValueError):
         cf.run("t")
+
+
+def test_reentry_does_not_relog(tmp_path, monkeypatch):
+    """재진입으로 같은 G2 결정을 다시 반영해도 정정 로그(extraction_log.csv)에 같은 행을 또 쓰지 않는다."""
+    _setup(tmp_path, monkeypatch, {"building|main|-|ramp_width_m": {"action": "unconfirmed", "reason": "채팅"}})
+    ci = json.loads((tmp_path / "out" / "w2_04_confirmation_items.json").read_text(encoding="utf-8"))
+    ci["items"] = [{"slot": "building|main|-|ramp_width_m", "field": "ramp_width_m", "candidates": [
+        {"cand_id": "drawing:0", "origin": "drawing", "value": 9.19, "method": "vision", "confidence": "low",
+         "source_doc": "x.pdf", "locator": {"page": 1}}]}]
+    (tmp_path / "out" / "w2_04_confirmation_items.json").write_text(json.dumps(ci), encoding="utf-8")
+    assert cf.run("t")["log_rows"] == 1
+    assert cf.run("t")["log_rows"] == 0
+    assert len((tmp_path / "extraction_log.csv").read_text(encoding="utf-8-sig").strip().splitlines()) == 2
