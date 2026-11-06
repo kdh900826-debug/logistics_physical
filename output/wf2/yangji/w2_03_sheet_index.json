@@ -1,0 +1,911 @@
+{
+  "asset_id": "yangji",
+  "created_at": "2026-11-05T11:13:54+09:00",
+  "sheets": [
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p001",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 1,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p001.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": null,
+      "title": "설계개요",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "첨부1-1 전체 건물 설계개요 표(설계단계 2017)"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p002",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 2,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p002.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p002_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": null,
+      "title": "층별면적개요",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "첨부1-2 목적물 면적표"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p003",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 3,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p003.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p003_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": null,
+      "title": "임대면적개요",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "층별 임대면적 표"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p004",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 4,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p004.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p004_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0303",
+      "title": "1층 평면도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 표제란 도면번호 판독 불확실(스캔)"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p005",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 5,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p005.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p005_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0304",
+      "title": "2층 평면도",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p006",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 6,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p006.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p006_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0305",
+      "title": "3층 평면도",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p007",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 7,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p007.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p007_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0306",
+      "title": "4층 평면도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p008",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 8,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p008.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p008_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0307",
+      "title": "5층 평면도",
+      "building_id": "main",
+      "floors": [
+        "5F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p009",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 9,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p009.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p009_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0308",
+      "title": "6층 평면도",
+      "building_id": "main",
+      "floors": [
+        "6F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p010",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 10,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p010.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p010_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0309",
+      "title": "7층 평면도",
+      "building_id": "main",
+      "floors": [
+        "7F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p011",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 11,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p011.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p011_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0310",
+      "title": "8층 평면도",
+      "building_id": "main",
+      "floors": [
+        "8F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p012",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 12,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p012.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p012_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0311",
+      "title": "9층 평면도",
+      "building_id": "main",
+      "floors": [
+        "9F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p013",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 13,
+      "page_size_pt": [
+        841.7,
+        595.1
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p013.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p013_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0312",
+      "title": "10층 평면도",
+      "building_id": "main",
+      "floors": [
+        "10F"
+      ],
+      "readable": true,
+      "note": "2017 설계단계 평면도; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p014",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 14,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p014.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p014_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "1층·2층 평면도 (추가합의서 별첨)",
+      "building_id": "main",
+      "floors": [
+        "1F",
+        "2F"
+      ],
+      "readable": true,
+      "note": "한 쪽에 1F·2F 2개 축소 평면, 구역·면적 범례 포함"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p015",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 15,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p015.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p015_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "3층·4층 평면도 (추가합의서 별첨)",
+      "building_id": "main",
+      "floors": [
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": "한 쪽에 3F·4F 2개 축소 평면, 구역·면적 범례 포함"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p016",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 16,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p016.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p016_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "5층·6층 평면도 (추가합의서 별첨)",
+      "building_id": "main",
+      "floors": [
+        "5F",
+        "6F"
+      ],
+      "readable": true,
+      "note": "한 쪽에 5F·6F 2개 축소 평면, 구역·면적 범례 포함"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p017",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 17,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p017.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p017_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "7층·8층 평면도 (추가합의서 별첨)",
+      "building_id": "main",
+      "floors": [
+        "7F",
+        "8F"
+      ],
+      "readable": true,
+      "note": "한 쪽에 7F·8F 2개 축소 평면, 구역·면적 범례 포함"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p018",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 18,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p018.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p018_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "9층·10층 평면도 (추가합의서 별첨)",
+      "building_id": "main",
+      "floors": [
+        "9F",
+        "10F"
+      ],
+      "readable": true,
+      "note": "한 쪽에 9F·10F 2개 축소 평면, 구역·면적 범례 포함"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p019",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 19,
+      "page_size_pt": [
+        595.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p019.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p019_titleblock.png",
+      "drawing_type": "구조평면도",
+      "sheet_no": null,
+      "title": "메자닌 구조물 설치 계획도(BEAM PLAN)",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "메자닌 보 배치·부재 범례; 설치 층 표기 없음(floors 비움)"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p020",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 20,
+      "page_size_pt": [
+        842.4,
+        595.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p020.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p020_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": null,
+      "title": "주차장 계획·용도 변경(안) 대수표",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "층별 주차대수 표(도면 아님)"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p021",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 21,
+      "page_size_pt": [
+        842.4,
+        595.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p021.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p021_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0201",
+      "title": "지하2층 교통계획도",
+      "building_id": "main",
+      "floors": [
+        "B2"
+      ],
+      "readable": true,
+      "note": "주차장 용도변경(2안) 평면; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p022",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 22,
+      "page_size_pt": [
+        842.4,
+        595.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p022.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p022_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0202",
+      "title": "지하1층 교통계획도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "주차장 용도변경(2안) 평면; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p023",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 23,
+      "page_size_pt": [
+        842.4,
+        595.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p023.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p023_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0203",
+      "title": "1층 교통계획도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "주차장 용도변경(2안) 평면; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p024",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 24,
+      "page_size_pt": [
+        842.4,
+        595.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p024.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p024_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0204",
+      "title": "3층 교통계획도",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "주차장 용도변경(2안) 평면; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p025",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 25,
+      "page_size_pt": [
+        842.4,
+        595.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p025.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p025_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0205",
+      "title": "5층 교통계획도",
+      "building_id": "main",
+      "floors": [
+        "5F"
+      ],
+      "readable": true,
+      "note": "주차장 용도변경(2안) 평면; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p026",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 26,
+      "page_size_pt": [
+        842.4,
+        595.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p026.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p026_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0206",
+      "title": "7층 교통계획도",
+      "building_id": "main",
+      "floors": [
+        "7F"
+      ],
+      "readable": true,
+      "note": "주차장 용도변경(2안) 평면; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p027",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 27,
+      "page_size_pt": [
+        842.4,
+        595.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p027.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p027_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-0207",
+      "title": "9층 교통계획도",
+      "building_id": "main",
+      "floors": [
+        "9F"
+      ],
+      "readable": true,
+      "note": "주차장 용도변경(2안) 평면; 도면번호는 스캔상 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p028",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 28,
+      "page_size_pt": [
+        595.2,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p028.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p028_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "대수선 공사 계획도 B2F·1F 부분확대 평면(X19~20/Y15~16)",
+      "building_id": "main",
+      "floors": [
+        "B2",
+        "1F"
+      ],
+      "readable": true,
+      "note": "부분 확대 평면 2건(B2·1F), 컨베이어/버티컬 시설 구획"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p029",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 29,
+      "page_size_pt": [
+        595.2,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p029.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p029_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "대수선 공사 계획도 B2F·1F 부분확대 평면(X27~28/Y16~17)",
+      "building_id": "main",
+      "floors": [
+        "B2",
+        "1F"
+      ],
+      "readable": true,
+      "note": "부분 확대 평면 2건(B2·1F), 스파이럴 콘베이어"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p030",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 30,
+      "page_size_pt": [
+        595.2,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p030.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p030_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": null,
+      "title": "B2F 부분 단면도(대수선)",
+      "building_id": "main",
+      "floors": [
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "readable": true,
+      "note": "부분 단면, FL 레벨 표기"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p031",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 31,
+      "page_size_pt": [
+        595.2,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p031.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p031_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": null,
+      "title": "1F 부분 단면도(대수선)",
+      "building_id": "main",
+      "floors": [
+        "1F",
+        "2F",
+        "3F"
+      ],
+      "readable": true,
+      "note": "부분 단면, FL 레벨 표기"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p032",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 32,
+      "page_size_pt": [
+        595.0,
+        841.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p032.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p032_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": null,
+      "title": "방화구획 변경(안) 지하2층 확대 평면도(변경 후)",
+      "building_id": "main",
+      "floors": [
+        "B2"
+      ],
+      "readable": true,
+      "note": "기둥열·방화구획선 부분 확대"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p033",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 33,
+      "page_size_pt": [
+        595.8,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p033.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p033_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 B2(창고)·B1(사무공간 확대)",
+      "building_id": "main",
+      "floors": [
+        "B2",
+        "B1"
+      ],
+      "readable": true,
+      "note": "한 쪽 2개 층(B2 전체, B1 확대)"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p034",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 34,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p034.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p034_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 지하2층(창고)",
+      "building_id": "main",
+      "floors": [
+        "B2"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p035",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 35,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p035.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p035_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 지하1층(사무실)",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p036",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 36,
+      "page_size_pt": [
+        594.0,
+        841.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p036.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p036_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 지하2층(창고, 7센터)",
+      "building_id": "main",
+      "floors": [
+        "B2"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p037",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 37,
+      "page_size_pt": [
+        594.0,
+        841.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p037.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p037_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 지하1층(사무실)",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p038",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 38,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p038.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p038_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 지하2층(창고)",
+      "building_id": "main",
+      "floors": [
+        "B2"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p039",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 39,
+      "page_size_pt": [
+        595.1,
+        841.7
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p039.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p039_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 지하1층(사무실)",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p040",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 40,
+      "page_size_pt": [
+        595.4,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p040.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p040_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 지하2층(섹터 ①~⑭)",
+      "building_id": "main",
+      "floors": [
+        "B2"
+      ],
+      "readable": true,
+      "note": "해상도 낮음(저화질 스캔), 섹터 번호 표시"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p041",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 41,
+      "page_size_pt": [
+        595.7,
+        842.4
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p041.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p041_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도(층 표기 없음, 13·14 섹터)",
+      "building_id": "main",
+      "floors": [
+        "B2"
+      ],
+      "readable": true,
+      "note": "90도 회전 상태. 층 표기 없음; 섹터 13·14 및 하단 램프부로 B2 추정"
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p042",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 42,
+      "page_size_pt": [
+        594.0,
+        841.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p042.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p042_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 지하2층(창고 11~14번 구역)",
+      "building_id": "main",
+      "floors": [
+        "B2"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "임대차계약서_별첨도면_추출본_p043",
+      "file": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+      "page": 43,
+      "page_size_pt": [
+        595.0,
+        841.0
+      ],
+      "text_hint": "",
+      "thumb": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p043.png",
+      "titleblock": "output/wf2/yangji/thumbs/임대차계약서_별첨도면_추출본_p043_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": null,
+      "title": "임대차목적물 평면도 지하1층 3구역 부분(구내식당·탕비실·휴게실)",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "3구역 부분 확대, EL+152.90 표기"
+    }
+  ]
+}

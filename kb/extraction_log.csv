@@ -18,3 +18,4 @@
 2026-10-21T16:45:12+09:00,gunryang_b,floor|main|B1|clear_height_m,clear_height_m,단면도,vision,low,2.7,2.4,확정,cand,채팅 지시: 도면 값 채택(도면 값끼리 다르면 불리한 값)
 2026-10-21T16:45:15+09:00,yangpyeong,building|main|-|ramp_slope_pct,ramp_slope_pct,배치도,vision,low,9.51,10.0,확정,cand,채팅 지시: 도면 값 채택(도면 값끼리 다르면 불리한 값)
 2026-10-22T15:38:49+09:00,yangpyeong,floor|main|4F|dock_route_column_conflict,dock_route_column_conflict,평면도,vision,low,True,,미확인,unconfirmed,"4F 램프 곡선부 X18/Y2 □는 3F 물류창고 304 기둥(램프 하부)으로 판단 — 3F A31-005 회색 채움 기둥, 4F A31-006 램프 빗금이 □를 끊김 없이 통과, 같은 시트 야드의 □도 SP06에서 하부 기둥으로 처리. 곡선부 단면 없음 → 값 미확인으로 정정, DD에서 현장 확인 — 채팅 지시"
+2026-11-05T14:13:16+09:00,yangji,building|main|-|dock_count,dock_count,기타,vision,low,764,747,확정,cand,채팅 지시(도면>IM 순 일괄 채택) — 도면 후보 2개(764 현재기준 / 747 2안 용도변경 후) 중 2023 건축물표시변경으로 시행된 2안 — IM 747과 일치

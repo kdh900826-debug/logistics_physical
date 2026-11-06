@@ -1,0 +1,5200 @@
+{
+  "asset_id": "yangji",
+  "created_at": "2026-11-05T13:21:56+09:00",
+  "entries": [
+    {
+      "slot": "asset|-|-|site_area_m2",
+      "label": "대지면적",
+      "level": "asset",
+      "building_id": null,
+      "floor": null,
+      "field": "site_area_m2",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 93748.2,
+          "unit": "m2",
+          "raw_text": "대지면적 93,748.20㎡(28,359평)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 93748.2,
+          "raw_unit": "m2",
+          "flags": []
+        },
+        {
+          "value": 93748.2,
+          "unit": "m2",
+          "raw_text": "대지면적 93,748.20㎡ (28,359평)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 93748.2,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 93741.0,
+          "unit": "m2",
+          "raw_text": "대지면적 93741.00㎡ (28356.65평)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p001/r0c0.png",
+            "tile_box": [
+              0.434,
+              0.373,
+              0.595,
+              0.392
+            ],
+            "bbox": [
+              227.2,
+              195.3,
+              311.5,
+              205.3
+            ],
+            "crop": "output/wf2/yangji/crops/asset_x_x_site_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p1 첨부1-1 설계개요(2017-01 설계단계, 사용승인 이전)",
+          "flags": [],
+          "raw_value": 93741.0,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "asset|-|-|truck_yard_depth_m",
+      "label": "트럭야드 깊이",
+      "level": "asset",
+      "building_id": null,
+      "floor": null,
+      "field": "truck_yard_depth_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "Berth 13m + Path 16m 구조의원활한차량동선",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "Berth(하역 구획) 13m가 구획 깊이, Path(차로) 16m는 별도 표기. 중앙 하역장 구조(Berth 13 + Path 16 + Berth 13 = 42m, p13 도식). 차로 폭은 값에 포함하지 않음",
+          "raw_value": 13,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "Y8~Y9 13000 / Y9~Y10 16000 / Y10~Y11 13000",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 4,
+            "sheet_no": "A-0303",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p004/r1c0.png",
+            "tile_box": [
+              0.614,
+              0.523,
+              0.693,
+              0.591
+            ],
+            "bbox": [
+              321.5,
+              665.0,
+              362.9,
+              690.2
+            ],
+            "crop": "output/wf2/yangji/crops/asset_x_x_truck_yard_depth_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "실내 중앙 하역장. 1층 평면도(2017) Y축 치수열: 하역장(BERTH) 13,000(Y8~Y9) + 차로 16,000(Y9~Y10) + 하역장 13,000(Y10~Y11). 도크면~하역장 구획 끝 13,000 채택(차로 16,000 제외, bangchori 기준). 교통계획도 표(p20) 화물 구획 규격 3.2X13.0(M)과 같음. B2층 옥내 구획은 3.2X12.5(M), B2 북측 옥외 구획 3.2X9.0(M)",
+          "flags": [],
+          "raw_value": 13000,
+          "raw_unit": "mm"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|column_span_x_m",
+      "label": "기둥 스팬(장변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_x_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "X1~X36 11000 반복",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 4,
+            "sheet_no": "A-0303",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p004/r1c0.png",
+            "tile_box": [
+              0.341,
+              0.182,
+              0.364,
+              0.455
+            ],
+            "bbox": [
+              178.5,
+              538.7,
+              190.6,
+              639.8
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_column_span_x_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "1층 평면도(2017) X축 치수열 11,000 반복(교통계획도 p21 상단 치수열도 11000). 동측 끝 일부 구간은 단스팬",
+          "flags": [],
+          "raw_value": 11000,
+          "raw_unit": "mm"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|column_span_y_m",
+      "label": "기둥 스팬(단변) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "column_span_y_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 11.0,
+          "unit": "m",
+          "raw_text": "Y2~Y8, Y11~Y17 11000 / Y8~Y9 13000 / Y9~Y10 16000",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 4,
+            "sheet_no": "A-0303",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p004/r1c0.png",
+            "tile_box": [
+              0.489,
+              0.523,
+              0.693,
+              0.591
+            ],
+            "bbox": [
+              256.0,
+              665.0,
+              362.9,
+              690.2
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_column_span_y_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "1층 평면도(2017) Y축 치수열: 창고 구간 11,000, 하역장 13,000, 차로 16,000, 외곽 Y1~Y2 8,200 / Y17~Y18 8,700, 계 198,200. 창고 구간 대표값 11,000",
+          "flags": [],
+          "raw_value": 11000,
+          "raw_unit": "mm"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|completion_year",
+      "label": "준공연도(사용승인) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "completion_year",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2019,
+          "unit": "year",
+          "raw_text": "사용승인 2019년1월",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "사용승인 표기",
+          "raw_value": 2019,
+          "raw_unit": "year",
+          "flags": []
+        },
+        {
+          "value": 2019,
+          "unit": "year",
+          "raw_text": "사용승인 2019년1월",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "투자자IM 자산개요",
+          "raw_value": 2019,
+          "raw_unit": "year",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|dock_count",
+      "label": "도크 수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "dock_count",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 764,
+          "unit": "ea",
+          "raw_text": "현재 기준 화물: B2 옥외A 54·옥내A 123 / 1F 옥내A 110·옥외B 41 / 3F 108 / 5F 108 / 7F 108 / 9F 112",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c0.png",
+            "tile_box": [
+              0.249,
+              0.239,
+              1.0,
+              0.455
+            ],
+            "bbox": [
+              130.4,
+              125.1,
+              523.6,
+              238.2
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_dock_count_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "표 값(현재 기준). 구획 개별 계수 불가(스캔 해상도: 교통계획도 화물 구획이 빗금 채움이라 구획선 구분 안 됨) → 가이드 5항에 따라 표기값 후보 병기. 층별: B2: 표 177(옥내A 123 + 옥외A 54) / 접안 확인 177(표기값) / 제외 0 / 근거: 옥내A=중앙 하역장 창고벽 직각 구획(p21, 면적표 B2 BERTH 8,875.11㎡), 옥외A=북측 외벽에 직각으로 닿는 '화물주차장'(p21·p36, 외부 EL+147.10 vs B2FL EL+148.30 — 저화질 판독) — 옥외A 접안 여부 해석 필요 / p21·p36. 1F: 표 151(옥내A 110 + 옥외B 41) / 접안 확인 151(표기값) / 제외 0 / 근거: 중앙 하역장(차로 EL+157.50 vs 창고 EL+158.70, 2017 평면 p4), 남측 외벽 '하역장' 띠(옥외B, 야드 EL+157.50) / p4·p23. 3F: 표 108 / 접안 108(표기값) / 제외 0 / 근거: 하역장#1·#2 창고벽 직각, 차로 EL+167.50 vs 창고 EL+168.70 / p6·p24. 5F: 표 108 / 108 / 0 / 차로 EL+177.50 vs 창고 EL+178.70 / p8·p25. 7F: 표 108 / 108 / 0 / 차로 EL+187.50 vs 창고 EL+188.70 / p10·p26. 9F: 표 112 / 112 / 0 / 하역장#1·#2 창고벽 직각(차로 EL 판독 불확실) / p12·p27. B1·2·4·6·8·10F: 화물주차 없음. 합산 177+151+108+108+108+112=764. 참고: p20 제목 '대형화물 669대→652대', p1 설계개요(2017) 화물주차 옥내 684·옥외 95(계 779)",
+          "flags": [
+            "interpretation_needed"
+          ],
+          "raw_value": 764,
+          "raw_unit": "대"
+        },
+        {
+          "value": 747,
+          "unit": "ea",
+          "raw_text": "[2안] 용도변경 후 화물: B2 52·123 / 1F 107·41 / 3F 104 / 5F 104 / 7F 104 / 9F 112",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c0.png",
+            "tile_box": [
+              0.249,
+              0.512,
+              1.0,
+              0.716
+            ],
+            "bbox": [
+              130.4,
+              268.1,
+              523.6,
+              374.9
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_dock_count_1.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": true,
+          "note": "p20 '[2안] 주차장 계획(용도 변경 후)' 표기값. 교통계획도(p21~p27) 노란 '주차장 용도변경 조정 위치(△n대)' 반영안 — 시행 여부 도면으로 확인 불가. 층별 접안 판정은 현재 기준 후보와 같음. 합산 175+148+104+104+104+112=747",
+          "flags": [
+            "interpretation_needed"
+          ],
+          "raw_value": 747,
+          "raw_unit": "대"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면상충",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|floors_above",
+      "label": "지상층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_above",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": 10,
+          "unit": "floor",
+          "raw_text": "규모 B2 ~ 10F (창고6개층)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 10,
+          "raw_unit": "floor",
+          "flags": []
+        },
+        {
+          "value": 10,
+          "unit": "floor",
+          "raw_text": "규모 B2 ~ 10F (창고6개층)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 10,
+          "raw_unit": "floor",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 10,
+          "unit": "floor",
+          "raw_text": "건축규모 지하2층, 지상10층",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p001/r0c0.png",
+            "tile_box": [
+              0.434,
+              0.665,
+              0.547,
+              0.683
+            ],
+            "bbox": [
+              227.2,
+              348.2,
+              286.4,
+              357.6
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_floors_above_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p1 설계개요. 층별면적표(p2): 지상 2·4·6·8·10층은 사무실·공용(1,769~2,786㎡) 부분층, 창고층은 B2·1·3·5·7·9층",
+          "flags": [],
+          "raw_value": 10,
+          "raw_unit": "층"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|floors_below",
+      "label": "지하층수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "floors_below",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": 2,
+          "unit": "floor",
+          "raw_text": "규모 B2 ~ 10F (창고6개층)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 2,
+          "raw_unit": "floor",
+          "flags": []
+        },
+        {
+          "value": 2,
+          "unit": "floor",
+          "raw_text": "규모 B2 ~ 10F (창고6개층)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 2,
+          "raw_unit": "floor",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 2,
+          "unit": "floor",
+          "raw_text": "건축규모 지하2층, 지상10층",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p001/r0c0.png",
+            "tile_box": [
+              0.434,
+              0.665,
+              0.547,
+              0.683
+            ],
+            "bbox": [
+              227.2,
+              348.2,
+              286.4,
+              357.6
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_floors_below_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p1 설계개요. B1은 부분층(8,192.64㎡: 사무실·주차장·기계전기실). 부분단면(p30) B2FL EL+148.30 / B1FL EL+152.90",
+          "flags": [],
+          "raw_value": 2,
+          "raw_unit": "층"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|freight_elevator_capacity_t",
+      "label": "화물용 승강기 용량 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "freight_elevator_capacity_t",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 5.0,
+          "unit": "t",
+          "raw_text": "화물용 E.V ... 규격 : 5톤/대",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2017-01 세부약정서",
+          "raw_value": 5,
+          "raw_unit": "t",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "도면없음",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|freight_elevator_count",
+      "label": "화물용 승강기 대수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "freight_elevator_count",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 4,
+          "unit": "ea",
+          "raw_text": "승강기 승객21대, 화물4대",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 4,
+          "raw_unit": "ea",
+          "flags": []
+        },
+        {
+          "value": 4,
+          "unit": "ea",
+          "raw_text": "승강기 승객21대, 화물4대",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 4,
+          "raw_unit": "ea",
+          "flags": []
+        },
+        {
+          "value": 4,
+          "unit": "ea",
+          "raw_text": "화물용 E.V 대수 : 각도크당 2대 설치(총 4대)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2017-01 임대차계약 세부약정서(설계 단계 약정). 규격 5톤/대, '창고 1층부터 설치'",
+          "raw_value": 4,
+          "raw_unit": "ea",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "판독불가",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|gross_floor_area_m2",
+      "label": "연면적 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "gross_floor_area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 349722.27,
+          "unit": "m2",
+          "raw_text": "연면적 349,722.27㎡(105,791평)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 349722.27,
+          "raw_unit": "m2",
+          "flags": []
+        },
+        {
+          "value": 349722.27,
+          "unit": "m2",
+          "raw_text": "연면적 349,722.27㎡ (105,791평)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 349722.27,
+          "raw_unit": "m2",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 346364.8,
+          "unit": "m2",
+          "raw_text": "연면적 합계 346364.80㎡ (104775.35평)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p001/r0c0.png",
+            "tile_box": [
+              0.434,
+              0.503,
+              0.595,
+              0.524
+            ],
+            "bbox": [
+              227.2,
+              263.4,
+              311.5,
+              274.4
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_gross_floor_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p1 설계개요(2017 설계단계). 지하 75371.45 / 지상 270993.35. 사용승인 이전 설계값 — 준공 연면적과 다를 수 있음",
+          "flags": [],
+          "raw_value": 346364.8,
+          "raw_unit": "㎡"
+        },
+        {
+          "value": 346364.8,
+          "unit": "m2",
+          "raw_text": "합계 346364.80",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c1.png",
+            "tile_box": [
+              0.318,
+              0.9,
+              0.421,
+              0.918
+            ],
+            "bbox": [
+              589.1,
+              471.2,
+              627.2,
+              480.7
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_gross_floor_area_m2_1.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요 합계(2017). p1과 일치",
+          "flags": [],
+          "raw_value": 346364.8,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [
+        {
+          "value": 346364.8,
+          "unit": "m2",
+          "raw_text": "연면적 합계 346364.80㎡ (104775.35평)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p001/r0c0.png",
+            "tile_box": [
+              0.434,
+              0.503,
+              0.595,
+              0.524
+            ],
+            "bbox": [
+              227.2,
+              263.4,
+              311.5,
+              274.4
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_gross_floor_area_m2_2.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "W2-④ 힌트 재판독(IM 349,722.27㎡ 주장). p1 첨부1-1 설계개요 연면적 지하 75371.45 / 지상 270993.35 / 합계 346364.80㎡, p2 층별면적개요 합계열 346364.80㎡로 두 표가 같음. 도면은 2017 설계단계 임대차 별첨이며 사용승인(2019-01) 후 준공 연면적은 도면에 없음 — 도면 표기 그대로 유지, IM 값과 다름",
+          "flags": [],
+          "raw_value": 346364.8,
+          "raw_unit": "㎡"
+        }
+      ],
+      "missing_reason": null,
+      "direction": "overstated",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_form",
+      "label": "램프 형상 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_form",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "직선형",
+          "unit": null,
+          "raw_text": "폭8.6m의 직선형램프",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        },
+        {
+          "value": "직선형",
+          "unit": null,
+          "raw_text": "9-10% / 8.7m / 상행·하행독립동선/ 직선형",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 24
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "직선형",
+          "unit": null,
+          "raw_text": "외곽 직선 램프 + 모서리 곡선부",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 4,
+            "sheet_no": "A-0303",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p004/r0c0.png",
+            "tile_box": [
+              0.398,
+              0.643,
+              0.818,
+              1.0
+            ],
+            "bbox": [
+              208.4,
+              336.7,
+              428.3,
+              523.6
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_ramp_form_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "1층·3층 평면도(2017)·교통계획도: 건물 외곽(북·남·동·서)을 따라 도는 직선 램프에 모서리 곡선부. 나선형 아님. 직선형/곡선형 분류 확인 필요",
+          "flags": [
+            "interpretation_needed"
+          ]
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|ramp_slope_pct",
+      "label": "램프 경사 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_slope_pct",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [
+        {
+          "value": 9.0,
+          "unit": "pct",
+          "raw_text": "RAMP는9-10% 완만한경사",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 14
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "범위 '9-10%'의 하단 후보 — 양끝값을 별도 후보로 기록",
+          "raw_value": 9,
+          "raw_unit": "%",
+          "flags": []
+        },
+        {
+          "value": 10.0,
+          "unit": "pct",
+          "raw_text": "RAMP는9-10% 완만한경사",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 14
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "범위 '9-10%'의 상단 후보",
+          "raw_value": 10,
+          "raw_unit": "%",
+          "flags": []
+        },
+        {
+          "value": 9.0,
+          "unit": "pct",
+          "raw_text": "RAMP는9-10% 완만한경사와8.7m 폭을보유",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 23
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "범위 하단 후보",
+          "raw_value": 9,
+          "raw_unit": "%",
+          "flags": []
+        },
+        {
+          "value": 10.0,
+          "unit": "pct",
+          "raw_text": "RAMP는9-10% 완만한경사와8.7m 폭을보유",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 23
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "범위 상단 후보",
+          "raw_value": 10,
+          "raw_unit": "%",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|ramp_type",
+      "label": "램프 통행 방향 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "단방향",
+          "unit": null,
+          "raw_text": "One-way 전층접안가능한폭8.6m의 직선형램프",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "IM 표기 'One-way'. p14 '상행·하행 및 층별 독립동선 RAMP'",
+          "flags": []
+        },
+        {
+          "value": "단방향",
+          "unit": null,
+          "raw_text": "9-10% / 8.7m / 상행·하행독립동선/ 직선형",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 24
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "단방향",
+          "unit": null,
+          "raw_text": "진출구(7층)◀내려옴 / 올라감◀진입구(3층)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 4,
+            "sheet_no": "A-0303",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p004/r0c0.png",
+            "tile_box": [
+              0.46,
+              0.643,
+              0.489,
+              1.0
+            ],
+            "bbox": [
+              240.9,
+              336.7,
+              256.0,
+              523.6
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_ramp_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "1층 평면도(2017) 외곽 램프 입구마다 층별 '진입구(n층) 올라감'·'진출구(n층) 내려옴' 따로 표기(북측 진출구 3·5·7층, 서측 진출구 9층, 남서측 진입구 3층). 교통계획도(p21~p27)도 층마다 서측 램프로 올라와 중앙 차로를 동쪽으로 통과 후 동측 램프로 '내려감'(일방 순환). 상·하행 램프 분리 → 단방향",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "building|main|-|ramp_width_m",
+      "label": "램프 폭 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ramp_width_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.6,
+          "unit": "m",
+          "raw_text": "One-way 전층접안가능한폭8.6m의 직선형램프",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "투자자IM(8.7m)과 상충",
+          "raw_value": 8.6,
+          "raw_unit": "m",
+          "flags": []
+        },
+        {
+          "value": 8.6,
+          "unit": "m",
+          "raw_text": "RAMP는9-10% 완만한경사와8.6m 폭을보유",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 14
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": null,
+          "raw_value": 8.6,
+          "raw_unit": "m",
+          "flags": []
+        },
+        {
+          "value": 8.7,
+          "unit": "m",
+          "raw_text": "9-10% / 8.7m / 상행·하행독립동선/ 직선형",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 7
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "매입IM p7 시장평균 비교표는 8.7m, 같은 IM p9·p14는 8.6m",
+          "raw_value": 8.7,
+          "raw_unit": "m",
+          "flags": []
+        },
+        {
+          "value": 8.7,
+          "unit": "m",
+          "raw_text": "폭8.7m의 직선형램프",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": null,
+          "raw_value": 8.7,
+          "raw_unit": "m",
+          "flags": []
+        },
+        {
+          "value": 8.7,
+          "unit": "m",
+          "raw_text": "RAMP는9-10% 완만한경사와8.7m 폭을보유",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 23
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": null,
+          "raw_value": 8.7,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|sprinkler_type",
+      "label": "스프링클러 형식 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "sprinkler_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "ESFR",
+          "unit": null,
+          "raw_text": "상회: 창고구간조기진압형스프링클러(ESFR) → 분당475L / 헤드12개기준, 최상층Large Drop 적용",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 52
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "p53: 창고구간 ESFR 60분 살수, 최상층(10m 이상) Large Drop + 하부 In-Rack, 메자닌 하부 동일 Spec. 세부약정서(5층 인랙헤드)와 상이",
+          "flags": []
+        },
+        {
+          "value": "혼합",
+          "unit": null,
+          "raw_text": "스프링클러 1~4층 조기진압형 / 5층 인랙헤드 (층고 13.7M 이상(5층)은 조기진압형 안됨)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 2
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": true,
+          "note": "2017-01 세부약정서: 1~4층 ESFR + 5층 In-Rack 헤드 = 형식 혼재. 매입IM·투자자IM의 ESFR 단일 표기와 상충",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "도면없음",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|structure_type",
+      "label": "구조형식 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "structure_type",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "SRC",
+          "unit": null,
+          "raw_text": "건축구조 SRC (철골철근콘크리트합성구조)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        },
+        {
+          "value": "SRC",
+          "unit": null,
+          "raw_text": "주요구조 SRC 합성구조 (시장평균 PC 구조)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 24
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "복합",
+          "unit": null,
+          "raw_text": "PC구조, 철골철근콘크리트조, 철근콘크리트조, 철골조, LTS조(지붕)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p001/r0c0.png",
+            "tile_box": [
+              0.434,
+              0.636,
+              0.772,
+              0.656
+            ],
+            "bbox": [
+              227.2,
+              333.0,
+              404.2,
+              343.5
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_structure_type_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p1 설계개요 '구조' 병기 → 복합. 부분단면(p30·p31)에 PC 더블T 슬래브·PSG 보 표현",
+          "flags": []
+        }
+      ],
+      "hinted": [
+        {
+          "value": "복합",
+          "unit": null,
+          "raw_text": "PC구조, 철골철근콘크리트조, 철근콘크리트조, 철골조, LTS조(지붕)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 1,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p001/r0c0.png",
+            "tile_box": [
+              0.434,
+              0.636,
+              0.772,
+              0.656
+            ],
+            "bbox": [
+              227.2,
+              333.0,
+              404.2,
+              343.5
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_structure_type_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "W2-④ 힌트 재판독(IM 'SRC' 주장). p1 설계개요 '구조' 칸에 5개 구조 병기, SRC(철골철근콘크리트조)는 그중 하나로 주구조 단독 표기 아님 → 가이드대로 '복합' 유지. 부분단면(p30·p31) PC 더블T 슬래브·PSG 보 표현과도 맞음. 2017 설계단계 도면",
+          "flags": []
+        }
+      ],
+      "missing_reason": null,
+      "direction": "neutral",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|terrain_multi_level_access",
+      "label": "지형 단차 진입도로로 여러 층 직접 접안 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "terrain_multi_level_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지하층 차량진입구 EL+147.80 / 19.5M 도로 EL+157.84~158.66",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 4,
+            "sheet_no": "A-0303",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p004/r0c0.png",
+            "tile_box": [
+              0.398,
+              0.514,
+              0.909,
+              1.0
+            ],
+            "bbox": [
+              208.4,
+              269.1,
+              476.0,
+              523.6
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_terrain_multi_level_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "1층 평면도(2017): 북측 10M 도로 EL+147.80~148.16에 '지하층 차량진입구'(B2FL EL+148.30 레벨), 남측 19.5M 도로 EL+157.84~158.66·서측 '지상층 차량진출입구'에서 1층 야드 EL+157.50(1FL EL+158.70)로 직접 진입. 교통계획도 B2(p21): 북측 외곽 화물(옥외A) 3.2X9.0 구획·북동 차량진출입 동선. 대지 레벨 차로 B2·1F 하역장 직접 접안, 3·5·7·9층은 외곽 램프. 대지 종횡단면도 없음",
+          "flags": [
+            "interpretation_needed"
+          ]
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|transformer_capacity_kva",
+      "label": "변압기 총용량 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "transformer_capacity_kva",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 11000.0,
+          "unit": "kVA",
+          "raw_text": "수변전용량 11,000kVA",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 9
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "'수변전용량' 표기 — 변압기 총용량(kVA)으로 분류",
+          "raw_value": 11000,
+          "raw_unit": "kVA",
+          "flags": []
+        },
+        {
+          "value": 11000.0,
+          "unit": "kVA",
+          "raw_text": "전기 1,000~2,000kVA 이내 / 11,000kVA",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 7
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 11000,
+          "raw_unit": "kVA",
+          "flags": []
+        },
+        {
+          "value": 11000.0,
+          "unit": "kVA",
+          "raw_text": "수변전용량 11,000kVA",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 16
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "raw_value": 11000,
+          "raw_unit": "kVA",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "도면없음",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|vrc_count",
+      "label": "수직반송기 대수 (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "vrc_count",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 4,
+          "unit": "ea",
+          "raw_text": "수직반송기 대수 : 각도크당 2대 설치(총 4대)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2017-01 세부약정서. '창고 2층부터 설치'",
+          "raw_value": 4,
+          "raw_unit": "ea",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "building|main|-|warehouse_depth_m",
+      "label": "창고 내부 깊이(하역장 측 벽~반대편 벽) (main)",
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "warehouse_depth_m",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": 66.0,
+          "unit": "m",
+          "raw_text": "Y11~Y17 11000×6 (Y2~Y8 11000×6)",
+          "precision": "approx",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 4,
+            "sheet_no": "A-0303",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p004/r1c0.png",
+            "tile_box": [
+              0.489,
+              0.523,
+              0.625,
+              0.591
+            ],
+            "bbox": [
+              256.0,
+              665.0,
+              327.2,
+              690.2
+            ],
+            "crop": "output/wf2/yangji/crops/building_main_x_warehouse_depth_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "그리드 치수 합계(11m×6스팬=66m). 중앙 하역장 양쪽 창고 구역: 하역장측 벽 Y8(남측 창고)·Y11(북측 창고)~외벽 Y2·Y17. Y17~Y17' 소간격·외곽 램프대(Y17~Y18 8,700, Y1~Y2 8,200)는 제외. 외벽선 정확 위치(Y17/Y17') 확인 필요",
+          "flags": [
+            "interpretation_needed"
+          ],
+          "raw_value": 66000,
+          "raw_unit": "mm",
+          "precision_halfwidth": 0.5
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|10F|area_m2",
+      "label": "층 면적 (main 10F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "10F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 1776.71,
+          "unit": "m2",
+          "raw_text": "10F 합계 1,776.71",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.816,
+              1.0,
+              0.837
+            ],
+            "bbox": [
+              142.9,
+              427.3,
+              523.6,
+              438.3
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_10F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 1776.71,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|10F|use",
+      "label": "층 용도 (main 10F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "10F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실면적 + 공용(코어)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.816,
+              1.0,
+              0.837
+            ],
+            "bbox": [
+              142.9,
+              427.3,
+              523.6,
+              438.3
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_10F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2: 창고면적 '-', 사무실 1,387.69~2,342.67㎡ + 공용. 2017 평면(p5·p7·p9·p11·p13)은 대부분 하부 창고 오픈(X 표시) + 코어부 사무실 — 창고층(1·3·5·7·9F) 상부 부분층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|area_m2",
+      "label": "층 면적 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 53125.1,
+          "unit": "m2",
+          "raw_text": "1F 합계 53,125.10",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.441,
+              1.0,
+              0.461
+            ],
+            "bbox": [
+              142.9,
+              230.9,
+              523.6,
+              241.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_1F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 53125.1,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|berth_length_m",
+      "label": "접안 구획 깊이(Berth 길이) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "berth_length_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 위임합의서: 주차장 계획/용도 변경(2안) 대상 화물 구획 규격. 1층 3대",
+          "raw_value": 13.0,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_1F_berth_length_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격. 1F 옥외B도 3.2X13.0(M). 2017 평면 하역장 구획 깊이(Y축 13,000)와 같음",
+          "flags": [],
+          "raw_value": 13.0,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|berth_width_m",
+      "label": "접안 구획 폭(Berth 폭) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "berth_width_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 위임합의서: 화물 구획 규격",
+          "raw_value": 3.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_1F_berth_width_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격",
+          "flags": [],
+          "raw_value": 3.2,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.2,
+          "unit": "m",
+          "raw_text": "유효고 지상1~4층 : 8.2M",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 '유효고' 표기. 측정 기준(보·배관 하단 등) 미기재 / 세부약정서 '지상1층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 1F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 8.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 23
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "대기차로 EL+157.50 / 상온창고 EL+158.70",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 4,
+            "sheet_no": "A-0303",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p004/r1c0.png",
+            "tile_box": [
+              0.489,
+              0.0,
+              0.568,
+              0.318
+            ],
+            "bbox": [
+              256.0,
+              471.3,
+              297.4,
+              589.1
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_1F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "2017 1층 평면(p4) 중앙 하역장 차로가 창고보다 1.2m 낮음. 남측 '하역장' 띠도 야드 EL+157.50. 교통계획도 p23 화물 옥내A 110·옥외B 41",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 4.7,
+          "unit": "m",
+          "raw_text": "1FL(EL+158.70)~2FL(EL+163.40) 4,700",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 31,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p031/r1c0.png",
+            "tile_box": [
+              0.125,
+              0.0,
+              0.307,
+              0.682
+            ],
+            "bbox": [
+              65.5,
+              471.3,
+              160.7,
+              723.9
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_1F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "1F 부분단면도(대수선, p31). 2F는 사무 부분층이고 1층 창고 일반구역은 3FL(EL+168.70)까지 트임 — 1FL~3FL 단일 치수 없음(4,700+5,300 두 치수). 2017 평면 FL EL: 1F 158.70 / 3F 168.70 / 5F 178.70 / 7F 188.70 / 9F 198.70(계산하지 않음)",
+          "flags": [
+            "interpretation_needed"
+          ],
+          "raw_value": 4700,
+          "raw_unit": "mm"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2.5,
+          "unit": "t/m2",
+          "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기 / 세부약정서 '지상1층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 1F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 2.5,
+          "raw_unit": "t/m2",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "도면없음",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|1F|temp",
+      "label": "층 온도대 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 '지상1층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 1F로 매핑(사용자 지시 2026-11-05)",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "CJ 미임대 상온창고 / CJ임대 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c1.png",
+            "tile_box": [
+              0.409,
+              0.364,
+              0.489,
+              0.682
+            ],
+            "bbox": [
+              622.8,
+              190.6,
+              652.4,
+              357.1
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_1F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 비고란 '상온창고'. 2017·2019 평면 실명 '상온창고'. 저온·냉동 표기 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|1F|use",
+      "label": "층 용도 (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고면적 30712.10 / BERTH 8260.98",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.441,
+              1.0,
+              0.461
+            ],
+            "bbox": [
+              142.9,
+              230.9,
+              523.6,
+              241.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_1F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요: 창고+BERTH(하역장)+경사로·PATH. 2017 평면 실명 '상온창고'·'하역장'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|area_m2",
+      "label": "층 면적 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 2786.54,
+          "unit": "m2",
+          "raw_text": "2F 합계 2,786.54",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.484,
+              1.0,
+              0.505
+            ],
+            "bbox": [
+              142.9,
+              253.4,
+              523.6,
+              264.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_2F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 2786.54,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 5.3,
+          "unit": "m",
+          "raw_text": "2FL(EL+163.40)~3FL(EL+168.70) 5,300",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 31,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p031/r0c0.png",
+            "tile_box": [
+              0.125,
+              0.241,
+              0.307,
+              0.804
+            ],
+            "bbox": [
+              65.5,
+              126.2,
+              160.7,
+              421.0
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_2F_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p31 1F 부분단면 좌측 치수. 2F 사무 부분층",
+          "flags": [],
+          "raw_value": 5300,
+          "raw_unit": "mm"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|2F|use",
+      "label": "층 용도 (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실면적 + 공용(코어)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.484,
+              1.0,
+              0.505
+            ],
+            "bbox": [
+              142.9,
+              253.4,
+              523.6,
+              264.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_2F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2: 창고면적 '-', 사무실 1,387.69~2,342.67㎡ + 공용. 2017 평면(p5·p7·p9·p11·p13)은 대부분 하부 창고 오픈(X 표시) + 코어부 사무실 — 창고층(1·3·5·7·9F) 상부 부분층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|area_m2",
+      "label": "층 면적 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 51372.11,
+          "unit": "m2",
+          "raw_text": "3F 합계 51,372.11",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.526,
+              1.0,
+              0.547
+            ],
+            "bbox": [
+              142.9,
+              275.4,
+              523.6,
+              286.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_3F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 51372.11,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|berth_length_m",
+      "label": "접안 구획 깊이(Berth 길이) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "berth_length_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 위임합의서: 주차장 계획/용도 변경(2안) 대상 화물 구획 규격. 3층 4대",
+          "raw_value": 13.0,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_3F_berth_length_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격. 1F 옥외B도 3.2X13.0(M). 2017 평면 하역장 구획 깊이(Y축 13,000)와 같음",
+          "flags": [],
+          "raw_value": 13.0,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|berth_width_m",
+      "label": "접안 구획 폭(Berth 폭) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "berth_width_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 위임합의서: 화물 구획 규격",
+          "raw_value": 3.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_3F_berth_width_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격",
+          "flags": [],
+          "raw_value": 3.2,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.2,
+          "unit": "m",
+          "raw_text": "유효고 지상1~4층 : 8.2M",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 '유효고' 표기. 측정 기준(보·배관 하단 등) 미기재 / 세부약정서 '지상2층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 3F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 8.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 23
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "305 차로 EL+167.50 / 상온창고 EL+168.70",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 6,
+            "sheet_no": "A-0305",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p006/r0c0.png",
+            "tile_box": [
+              0.691,
+              0.534,
+              0.788,
+              0.665
+            ],
+            "bbox": [
+              361.8,
+              279.6,
+              412.6,
+              348.2
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_3F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "2017 3층 평면(p6) 하역장#1·#2(303·304)가 창고벽에 접함, 차로가 1.2m 낮음. 교통계획도 p24",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2.5,
+          "unit": "t/m2",
+          "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기 / 세부약정서 '지상2층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 3F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 2.5,
+          "raw_unit": "t/m2",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "도면없음",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|temp",
+      "label": "층 온도대 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 '지상2층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 3F로 매핑(사용자 지시 2026-11-05)",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "CJ 미임대 상온창고 / CJ임대 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c1.png",
+            "tile_box": [
+              0.409,
+              0.364,
+              0.489,
+              0.682
+            ],
+            "bbox": [
+              622.8,
+              190.6,
+              652.4,
+              357.1
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_3F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 비고란 '상온창고'. 2017·2019 평면 실명 '상온창고'. 저온·냉동 표기 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|3F|use",
+      "label": "층 용도 (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고면적 32910.96 / BERTH 6403.08",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.526,
+              1.0,
+              0.547
+            ],
+            "bbox": [
+              142.9,
+              275.4,
+              523.6,
+              286.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_3F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요: 창고+BERTH(하역장)+경사로·PATH. 2017 평면 실명 '상온창고'·'하역장'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|4F|area_m2",
+      "label": "층 면적 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 1769.57,
+          "unit": "m2",
+          "raw_text": "4F 합계 1,769.57",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.567,
+              1.0,
+              0.588
+            ],
+            "bbox": [
+              142.9,
+              296.9,
+              523.6,
+              307.9
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_4F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 1769.57,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|4F|use",
+      "label": "층 용도 (main 4F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실면적 + 공용(코어)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.567,
+              1.0,
+              0.588
+            ],
+            "bbox": [
+              142.9,
+              296.9,
+              523.6,
+              307.9
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_4F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2: 창고면적 '-', 사무실 1,387.69~2,342.67㎡ + 공용. 2017 평면(p5·p7·p9·p11·p13)은 대부분 하부 창고 오픈(X 표시) + 코어부 사무실 — 창고층(1·3·5·7·9F) 상부 부분층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|5F|area_m2",
+      "label": "층 면적 (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 50213.85,
+          "unit": "m2",
+          "raw_text": "5F 합계 50,213.85",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.61,
+              1.0,
+              0.631
+            ],
+            "bbox": [
+              142.9,
+              319.4,
+              523.6,
+              330.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_5F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 50213.85,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|5F|berth_length_m",
+      "label": "접안 구획 깊이(Berth 길이) (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "berth_length_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 위임합의서: 주차장 계획/용도 변경(2안) 대상 화물 구획 규격. 5층 4대",
+          "raw_value": 13.0,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_5F_berth_length_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격. 1F 옥외B도 3.2X13.0(M). 2017 평면 하역장 구획 깊이(Y축 13,000)와 같음",
+          "flags": [],
+          "raw_value": 13.0,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|5F|berth_width_m",
+      "label": "접안 구획 폭(Berth 폭) (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "berth_width_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 위임합의서: 화물 구획 규격",
+          "raw_value": 3.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_5F_berth_width_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격",
+          "flags": [],
+          "raw_value": 3.2,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|5F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.2,
+          "unit": "m",
+          "raw_text": "유효고 지상1~4층 : 8.2M",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 '유효고' 표기. 측정 기준(보·배관 하단 등) 미기재 / 세부약정서 '지상3층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 5F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 8.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|5F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 23
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "차로 EL+177.50 / 상온창고 EL+178.70",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 8,
+            "sheet_no": "A-0307",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p008/r0c0.png",
+            "tile_box": [
+              0.691,
+              0.534,
+              0.788,
+              0.665
+            ],
+            "bbox": [
+              361.8,
+              279.6,
+              412.6,
+              348.2
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_5F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "2017 5층 평면(p8) 하역장#1·#2. 교통계획도 p25",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|5F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2.5,
+          "unit": "t/m2",
+          "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기 / 세부약정서 '지상3층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 5F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 2.5,
+          "raw_unit": "t/m2",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "도면없음",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|5F|temp",
+      "label": "층 온도대 (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 '지상3층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 5F로 매핑(사용자 지시 2026-11-05)",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "CJ 미임대 상온창고 / CJ임대 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c1.png",
+            "tile_box": [
+              0.409,
+              0.364,
+              0.489,
+              0.682
+            ],
+            "bbox": [
+              622.8,
+              190.6,
+              652.4,
+              357.1
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_5F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 비고란 '상온창고'. 2017·2019 평면 실명 '상온창고'. 저온·냉동 표기 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|5F|use",
+      "label": "층 용도 (main 5F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "5F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고면적 35089.82 / BERTH 6403.08",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.61,
+              1.0,
+              0.631
+            ],
+            "bbox": [
+              142.9,
+              319.4,
+              523.6,
+              330.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_5F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요: 창고+BERTH(하역장)+경사로·PATH. 2017 평면 실명 '상온창고'·'하역장'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|6F|area_m2",
+      "label": "층 면적 (main 6F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "6F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 1769.57,
+          "unit": "m2",
+          "raw_text": "6F 합계 1,769.57",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.651,
+              1.0,
+              0.672
+            ],
+            "bbox": [
+              142.9,
+              340.9,
+              523.6,
+              351.9
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_6F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 1769.57,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|6F|use",
+      "label": "층 용도 (main 6F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "6F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실면적 + 공용(코어)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.651,
+              1.0,
+              0.672
+            ],
+            "bbox": [
+              142.9,
+              340.9,
+              523.6,
+              351.9
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_6F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2: 창고면적 '-', 사무실 1,387.69~2,342.67㎡ + 공용. 2017 평면(p5·p7·p9·p11·p13)은 대부분 하부 창고 오픈(X 표시) + 코어부 사무실 — 창고층(1·3·5·7·9F) 상부 부분층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|7F|area_m2",
+      "label": "층 면적 (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 52223.04,
+          "unit": "m2",
+          "raw_text": "7F 합계 52,223.04",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.694,
+              1.0,
+              0.715
+            ],
+            "bbox": [
+              142.9,
+              363.4,
+              523.6,
+              374.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_7F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 52223.04,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|7F|berth_length_m",
+      "label": "접안 구획 깊이(Berth 길이) (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "berth_length_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 위임합의서: 주차장 계획/용도 변경(2안) 대상 화물 구획 규격. 7층 4대",
+          "raw_value": 13.0,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_7F_berth_length_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격. 1F 옥외B도 3.2X13.0(M). 2017 평면 하역장 구획 깊이(Y축 13,000)와 같음",
+          "flags": [],
+          "raw_value": 13.0,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|7F|berth_width_m",
+      "label": "접안 구획 폭(Berth 폭) (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "berth_width_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 위임합의서: 화물 구획 규격",
+          "raw_value": 3.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_7F_berth_width_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격",
+          "flags": [],
+          "raw_value": 3.2,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|7F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 8.2,
+          "unit": "m",
+          "raw_text": "유효고 지상1~4층 : 8.2M",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 '유효고' 표기. 측정 기준(보·배관 하단 등) 미기재 / 세부약정서 '지상4층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 7F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 8.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|7F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 23
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "차로 EL+187.50 / 상온창고 EL+188.70",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 10,
+            "sheet_no": "A-0309",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p010/r0c0.png",
+            "tile_box": [
+              0.691,
+              0.534,
+              0.788,
+              0.665
+            ],
+            "bbox": [
+              361.8,
+              279.6,
+              412.6,
+              348.2
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_7F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "2017 7층 평면(p10) 하역장#1·#2(703·704). 교통계획도 p26",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|7F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2.5,
+          "unit": "t/m2",
+          "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기 / 세부약정서 '지상4층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 7F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 2.5,
+          "raw_unit": "t/m2",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "도면없음",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|7F|temp",
+      "label": "층 온도대 (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 '지상4층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 7F로 매핑(사용자 지시 2026-11-05)",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "CJ 미임대 상온창고 / CJ임대 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c1.png",
+            "tile_box": [
+              0.409,
+              0.364,
+              0.489,
+              0.682
+            ],
+            "bbox": [
+              622.8,
+              190.6,
+              652.4,
+              357.1
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_7F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 비고란 '상온창고'. 2017·2019 평면 실명 '상온창고'. 저온·냉동 표기 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|7F|use",
+      "label": "층 용도 (main 7F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "7F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고면적 35089.82 / BERTH 6403.08",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.694,
+              1.0,
+              0.715
+            ],
+            "bbox": [
+              142.9,
+              363.4,
+              523.6,
+              374.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_7F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요: 창고+BERTH(하역장)+경사로·PATH. 2017 평면 실명 '상온창고'·'하역장'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|8F|area_m2",
+      "label": "층 면적 (main 8F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "8F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 1769.57,
+          "unit": "m2",
+          "raw_text": "8F 합계 1,769.57",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.734,
+              1.0,
+              0.755
+            ],
+            "bbox": [
+              142.9,
+              384.3,
+              523.6,
+              395.3
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_8F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 1769.57,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|8F|use",
+      "label": "층 용도 (main 8F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "8F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "사무실면적 + 공용(코어)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.734,
+              1.0,
+              0.755
+            ],
+            "bbox": [
+              142.9,
+              384.3,
+              523.6,
+              395.3
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_8F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2: 창고면적 '-', 사무실 1,387.69~2,342.67㎡ + 공용. 2017 평면(p5·p7·p9·p11·p13)은 대부분 하부 창고 오픈(X 표시) + 코어부 사무실 — 창고층(1·3·5·7·9F) 상부 부분층",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|9F|area_m2",
+      "label": "층 면적 (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 54187.29,
+          "unit": "m2",
+          "raw_text": "9F 합계 54,187.29",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.775,
+              1.0,
+              0.796
+            ],
+            "bbox": [
+              142.9,
+              405.8,
+              523.6,
+              416.8
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_9F_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 54187.29,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|9F|berth_length_m",
+      "label": "접안 구획 깊이(Berth 길이) (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "berth_length_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 13.0,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_9F_berth_length_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격. 1F 옥외B도 3.2X13.0(M). 2017 평면 하역장 구획 깊이(Y축 13,000)와 같음",
+          "flags": [],
+          "raw_value": 13.0,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|9F|berth_width_m",
+      "label": "접안 구획 폭(Berth 폭) (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "berth_width_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥내A) 3.2X13.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c1.png",
+            "tile_box": [
+              0.024,
+              0.284,
+              0.205,
+              0.307
+            ],
+            "bbox": [
+              480.2,
+              148.7,
+              547.4,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_9F_berth_width_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 주차장 계획표 화물 구획 규격",
+          "flags": [],
+          "raw_value": 3.2,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|9F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 12.2,
+          "unit": "m",
+          "raw_text": "유효고 지상5층 : 12.2M",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 비고 '5층은 평치 창고'. 측정 기준 미기재 / 세부약정서 '지상5층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 9F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 12.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "미기재",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|9F|direct_truck_access",
+      "label": "차량 직접접안 가능 (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+          "source_locator": {
+            "page": 23
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "903 하역장#1 / 904 하역장#2 / 909 차로",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 12,
+            "sheet_no": "A-0311",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p012/r0c0.png",
+            "tile_box": [
+              0.643,
+              0.534,
+              0.9,
+              0.705
+            ],
+            "bbox": [
+              336.7,
+              279.6,
+              471.2,
+              369.1
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_9F_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "2017 9층 평면(p12) 하역장#1·#2가 창고벽에 접함(차로 EL 판독 불확실). 교통계획도 p27 화물 112",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|9F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "floor_load_tpm2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 2.5,
+          "unit": "t/m2",
+          "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기 / 세부약정서 '지상5층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 9F로 매핑(사용자 지시 2026-11-05)",
+          "raw_value": 2.5,
+          "raw_unit": "t/m2",
+          "flags": []
+        }
+      ],
+      "drawing": [],
+      "hinted": [],
+      "missing_reason": "도면없음",
+      "direction": null,
+      "state": "IM만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|9F|temp",
+      "label": "층 온도대 (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 1
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "세부약정서 '지상5층'은 창고층 순번(지상1~5층=1·3·5·7·9F, 짝수층은 사무 부분층) — 실제 9F로 매핑(사용자 지시 2026-11-05)",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "CJ 미임대 상온창고 / CJ임대 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c1.png",
+            "tile_box": [
+              0.409,
+              0.364,
+              0.489,
+              0.682
+            ],
+            "bbox": [
+              622.8,
+              190.6,
+              652.4,
+              357.1
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_9F_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 비고란 '상온창고'. 2017·2019 평면 실명 '상온창고'. 저온·냉동 표기 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|9F|use",
+      "label": "층 용도 (main 9F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "9F",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고면적 35011.48 / BERTH 6481.44",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.775,
+              1.0,
+              0.796
+            ],
+            "bbox": [
+              142.9,
+              405.8,
+              523.6,
+              416.8
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_9F_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요: 창고+BERTH(하역장)+경사로·PATH. 2017 평면 실명 '상온창고'·'하역장'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|area_m2",
+      "label": "층 면적 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 8192.64,
+          "unit": "m2",
+          "raw_text": "B1 합계 8,192.64",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.356,
+              1.0,
+              0.376
+            ],
+            "bbox": [
+              142.9,
+              186.4,
+              523.6,
+              196.9
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B1_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 8192.64,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B1|use",
+      "label": "층 용도 (main B1)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "사무",
+          "unit": null,
+          "raw_text": "B1 사무실 CJ대한통운 590평 / 휴게실 편의점 53평 / 사무실 공실 341평",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 15
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "B1 임대면적 구성이 사무실·휴게실 위주 (p13 도식 라벨에는 '지하1층주차장' 표기)",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "주차",
+          "unit": null,
+          "raw_text": "사무실 974.74 / 주차장 6002.84 / 기계전기실 1057.06",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.356,
+              1.0,
+              0.376
+            ],
+            "bbox": [
+              142.9,
+              186.4,
+              523.6,
+              196.9
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B1_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요 B1 합계 8,192.64㎡ 중 주차장 6,002.84㎡가 최대. 임대차목적물 평면도(p35·p43)는 B1 '사무실' 임대 구역. 교통계획도 p22 '지하1층 173대'(일반·확장형) — B2 상부 부분층",
+          "flags": [
+            "interpretation_needed"
+          ]
+        }
+      ],
+      "hinted": [
+        {
+          "value": "주차",
+          "unit": null,
+          "raw_text": "B1 사무실 974.74 / 주차장 6002.84 / 기계전기실 1057.06 / 코어-1 158.00 / 합계 8192.64 (㎡)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.356,
+              1.0,
+              0.376
+            ],
+            "bbox": [
+              142.9,
+              186.4,
+              523.6,
+              196.9
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B1_use_1.png"
+          },
+          "method": "vision_hinted",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "W2-④ 힌트 재판독(IM '사무' 주장 — 임대 사무·휴게·편의점 구역 기준). p2 층별면적개요 B1행: 주차장 6002.84㎡가 합계 8192.64㎡ 중 최대, 사무실 974.74㎡. p22 지하1층 교통계획도(A-0202): '[지하 1층 : 173대] ※주차장 대수 유지', 동측 주차구획 블록, 나머지 X자 표시 구역은 B2 상부 오픈(부분층). p35 '지하1층 임대차 목적물(사무실) 196.95㎡', p43 3구역 구내식당 110.28 / 탕비실 25.97 / 휴게실 38.02㎡ — 사무·부대시설은 임대 구역(부수 용도). 주용도는 주차로 유지. 2017 설계단계 도면",
+          "flags": [
+            "interpretation_needed"
+          ]
+        }
+      ],
+      "missing_reason": null,
+      "direction": "neutral",
+      "state": "불일치",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|area_m2",
+      "label": "층 면적 (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "area_m2",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 67178.81,
+          "unit": "m2",
+          "raw_text": "B2 합계 67,178.81",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.315,
+              1.0,
+              0.335
+            ],
+            "bbox": [
+              142.9,
+              164.9,
+              523.6,
+              175.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B2_area_m2_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요(2017 설계단계) 층 합계(㎡)",
+          "flags": [],
+          "raw_value": 67178.81,
+          "raw_unit": "㎡"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|berth_length_m",
+      "label": "접안 구획 깊이(Berth 길이) (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "berth_length_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 9.0,
+          "unit": "m",
+          "raw_text": "지2층 주차장 ... 대형(옥외A) 3.2 X 9.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 대상 2대 규격(옥외A)",
+          "raw_value": 9.0,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 9.0,
+          "unit": "m",
+          "raw_text": "대형(옥외A) 3.2X9.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c0.png",
+            "tile_box": [
+              0.644,
+              0.284,
+              0.772,
+              0.307
+            ],
+            "bbox": [
+              337.2,
+              148.7,
+              404.2,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B2_berth_length_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "B2 화물 구획 2종 중 작은 값. 중앙 하역장 옥내A 3.2X12.5(M) 123대, 북측 외곽 옥외A 3.2X9.0(M) 54대",
+          "flags": [],
+          "raw_value": 9.0,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B2|berth_width_m",
+      "label": "접안 구획 폭(Berth 폭) (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "berth_width_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "지2층 주차장 ... 대형(옥외A) 3.2 X 9.0(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+          "source_locator": {
+            "page": 20
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": "2023-10 건축물표시변경 대상 2대 규격(옥외A)",
+          "raw_value": 3.2,
+          "raw_unit": "m",
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": 3.2,
+          "unit": "m",
+          "raw_text": "대형(옥외A) 3.2X9.0(M) / 대형(옥내A) 3.2X12.5(M)",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 20,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p020/r0c0.png",
+            "tile_box": [
+              0.644,
+              0.284,
+              0.917,
+              0.307
+            ],
+            "bbox": [
+              337.2,
+              148.7,
+              480.1,
+              160.7
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B2_berth_width_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p20 표 규격",
+          "flags": [],
+          "raw_value": 3.2,
+          "raw_unit": "m"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    },
+    {
+      "slot": "floor|main|B2|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "clear_height_m",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 9.2,
+          "unit": "m",
+          "raw_text": "B2FL(EL+148.30) ~ 9,200 / ~1FL 1,200",
+          "precision": "upper_bound",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 30,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p030/r0c0.png",
+            "tile_box": [
+              0.125,
+              0.257,
+              0.307,
+              1.0
+            ],
+            "bbox": [
+              65.5,
+              134.6,
+              160.7,
+              523.6
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B2_clear_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p30 B2F 부분단면 좌측 치수: B2FL~(1FL 아래 1,200 선) 9,200. 1,200 선은 1층 PC 더블T 슬래브 아래 PSG 보 하단선으로 보임 → 보 하단(배관 미반영 상한). 스파이럴 컨베이어 설치부 단면이라 창고 일반구역 대표값인지 확인 필요",
+          "flags": [
+            "interpretation_needed"
+          ],
+          "raw_value": 9200,
+          "raw_unit": "mm",
+          "basis": "보 하단"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|direct_truck_access",
+      "label": "차량 직접접안 가능 (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "direct_truck_access",
+      "rule_input": true,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "교통계획도 B2 중앙 화물(옥내A) 구획·북측 화물(옥외A) 구획",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 21,
+            "sheet_no": "A-0201",
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p021/r0c0.png",
+            "tile_box": [
+              0.418,
+              0.534,
+              1.0,
+              0.671
+            ],
+            "bbox": [
+              218.9,
+              279.6,
+              523.6,
+              351.3
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B2_direct_truck_access_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p21 중앙 하역장 양측 창고벽에 직각 화물 구획, 면적표 BERTH 8,875.11㎡. 차로 FL 단차는 저화질로 판독 불확실",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|floor_height_m",
+      "label": "층고(바닥~바닥) (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "floor_height_m",
+      "rule_input": false,
+      "favorable": "higher",
+      "im": [],
+      "drawing": [
+        {
+          "value": 4.6,
+          "unit": "m",
+          "raw_text": "B2FL(EL+148.30)~B1FL(EL+152.90) 4,600",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 30,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p030/r1c0.png",
+            "tile_box": [
+              0.125,
+              0.0,
+              0.307,
+              0.682
+            ],
+            "bbox": [
+              65.5,
+              471.3,
+              160.7,
+              723.9
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B2_floor_height_m_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "B2F 부분단면도(대수선, p30) 좌측 치수. B1은 부분층(사무·주차)이라 B2 창고 일반구역은 B2FL~1FL(EL+158.70)까지 트여 있음 — 그 구간은 9,200+1,200 두 치수로만 적혀 있어 층고 단일 치수 없음(EL 차 계산 안 함)",
+          "flags": [
+            "interpretation_needed"
+          ],
+          "raw_value": 4600,
+          "raw_unit": "mm"
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|temp",
+      "label": "층 온도대 (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "temp",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [],
+      "drawing": [
+        {
+          "value": "상온",
+          "unit": null,
+          "raw_text": "CJ 미임대 상온창고 / CJ임대 상온창고",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c1.png",
+            "tile_box": [
+              0.409,
+              0.364,
+              0.489,
+              0.682
+            ],
+            "bbox": [
+              622.8,
+              190.6,
+              652.4,
+              357.1
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B2_temp_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 비고란 '상온창고'. 2017·2019 평면 실명 '상온창고'. 저온·냉동 표기 없음",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|use",
+      "label": "층 용도 (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "use",
+      "rule_input": true,
+      "favorable": "none",
+      "im": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "B2 창고 CJ대한통운 11,079평 / 용마로지스 4,897평",
+          "precision": "exact",
+          "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+          "source_locator": {
+            "page": 15
+          },
+          "method": "im_text",
+          "confidence": "medium",
+          "source_grade": "IM주장",
+          "status": "주장값",
+          "conflict": false,
+          "note": null,
+          "flags": []
+        }
+      ],
+      "drawing": [
+        {
+          "value": "창고",
+          "unit": null,
+          "raw_text": "창고면적 42268.30 / BERTH 8875.11",
+          "precision": "exact",
+          "source_doc": "input/yangji/drawings/임대차계약서_별첨도면_추출본.pdf",
+          "source_locator": {
+            "page": 2,
+            "sheet_no": null,
+            "tile": "output/wf2/yangji/tiles/임대차계약서_별첨도면_추출본_p002/r0c0.png",
+            "tile_box": [
+              0.273,
+              0.315,
+              1.0,
+              0.335
+            ],
+            "bbox": [
+              142.9,
+              164.9,
+              523.6,
+              175.4
+            ],
+            "crop": "output/wf2/yangji/crops/floor_main_B2_use_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "p2 층별면적개요: 창고+BERTH(하역장)+경사로·PATH. 2017 평면 실명 '상온창고'·'하역장'",
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "일치",
+      "auto_status": "확정(교차)"
+    }
+  ],
+  "validation": {
+    "im": {
+      "ok": true,
+      "errors": [],
+      "flags": []
+    },
+    "drawing": {
+      "ok": true,
+      "errors": [],
+      "flags": [
+        {
+          "slot": "building|main|-|warehouse_depth_m",
+          "index": 0,
+          "flag": "interpretation_needed",
+          "value": 66.0
+        },
+        {
+          "slot": "building|main|-|ramp_form",
+          "index": 0,
+          "flag": "interpretation_needed",
+          "value": "직선형"
+        },
+        {
+          "slot": "building|main|-|terrain_multi_level_access",
+          "index": 0,
+          "flag": "interpretation_needed",
+          "value": true
+        },
+        {
+          "slot": "building|main|-|dock_count",
+          "index": 0,
+          "flag": "interpretation_needed",
+          "value": 764
+        },
+        {
+          "slot": "building|main|-|dock_count",
+          "index": 1,
+          "flag": "interpretation_needed",
+          "value": 747
+        },
+        {
+          "slot": "floor|main|B2|floor_height_m",
+          "index": 0,
+          "flag": "interpretation_needed",
+          "value": 4.6
+        },
+        {
+          "slot": "floor|main|B2|clear_height_m",
+          "index": 0,
+          "flag": "interpretation_needed",
+          "value": 9.2
+        },
+        {
+          "slot": "floor|main|B1|use",
+          "index": 0,
+          "flag": "interpretation_needed",
+          "value": "주차"
+        },
+        {
+          "slot": "floor|main|B1|use",
+          "index": 1,
+          "flag": "interpretation_needed",
+          "value": "주차"
+        },
+        {
+          "slot": "floor|main|1F|floor_height_m",
+          "index": 0,
+          "flag": "interpretation_needed",
+          "value": 4.7
+        }
+      ]
+    }
+  }
+}

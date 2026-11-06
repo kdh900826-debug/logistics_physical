@@ -1,0 +1,1968 @@
+{
+  "asset_id": "yangji",
+  "record_type": "im_claims",
+  "created_at": "2026-11-05T12:00:00+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 93748.2,
+        "unit": "m2",
+        "raw_text": "대지면적 93,748.20㎡(28,359평)",
+        "precision": "exact",
+        "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+        "source_locator": {
+          "page": 9
+        },
+        "method": "im_text",
+        "confidence": "medium",
+        "source_grade": "IM주장",
+        "status": "주장값",
+        "conflict": false,
+        "note": null,
+        "raw_value": 93748.2,
+        "raw_unit": "m2",
+        "flags": []
+      },
+      {
+        "value": 93748.2,
+        "unit": "m2",
+        "raw_text": "대지면적 93,748.20㎡ (28,359평)",
+        "precision": "exact",
+        "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+        "source_locator": {
+          "page": 16
+        },
+        "method": "im_text",
+        "confidence": "medium",
+        "source_grade": "IM주장",
+        "status": "주장값",
+        "conflict": false,
+        "note": null,
+        "raw_value": 93748.2,
+        "raw_unit": "m2",
+        "flags": []
+      }
+    ],
+    "truck_yard_depth_m": [
+      {
+        "value": 13.0,
+        "unit": "m",
+        "raw_text": "Berth 13m + Path 16m 구조의원활한차량동선",
+        "precision": "exact",
+        "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+        "source_locator": {
+          "page": 9
+        },
+        "method": "im_text",
+        "confidence": "medium",
+        "source_grade": "IM주장",
+        "status": "주장값",
+        "conflict": false,
+        "note": "Berth(하역 구획) 13m가 구획 깊이, Path(차로) 16m는 별도 표기. 중앙 하역장 구조(Berth 13 + Path 16 + Berth 13 = 42m, p13 도식). 차로 폭은 값에 포함하지 않음",
+        "raw_value": 13,
+        "raw_unit": "m",
+        "flags": []
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "물류센터 (양지유통업무설비창고A)",
+      "phase": "원준공",
+      "fields": {
+        "completion_year": [
+          {
+            "value": 2019,
+            "unit": "year",
+            "raw_text": "사용승인 2019년1월",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "사용승인 표기",
+            "raw_value": 2019,
+            "raw_unit": "year",
+            "flags": []
+          },
+          {
+            "value": 2019,
+            "unit": "year",
+            "raw_text": "사용승인 2019년1월",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 16
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "투자자IM 자산개요",
+            "raw_value": 2019,
+            "raw_unit": "year",
+            "flags": []
+          }
+        ],
+        "gross_floor_area_m2": [
+          {
+            "value": 349722.27,
+            "unit": "m2",
+            "raw_text": "연면적 349,722.27㎡(105,791평)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 349722.27,
+            "raw_unit": "m2",
+            "flags": []
+          },
+          {
+            "value": 349722.27,
+            "unit": "m2",
+            "raw_text": "연면적 349,722.27㎡ (105,791평)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 16
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 349722.27,
+            "raw_unit": "m2",
+            "flags": []
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 10,
+            "unit": "floor",
+            "raw_text": "규모 B2 ~ 10F (창고6개층)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 10,
+            "raw_unit": "floor",
+            "flags": []
+          },
+          {
+            "value": 10,
+            "unit": "floor",
+            "raw_text": "규모 B2 ~ 10F (창고6개층)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 16
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 10,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 2,
+            "unit": "floor",
+            "raw_text": "규모 B2 ~ 10F (창고6개층)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 2,
+            "raw_unit": "floor",
+            "flags": []
+          },
+          {
+            "value": 2,
+            "unit": "floor",
+            "raw_text": "규모 B2 ~ 10F (창고6개층)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 16
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 2,
+            "raw_unit": "floor",
+            "flags": []
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "SRC",
+            "unit": null,
+            "raw_text": "건축구조 SRC (철골철근콘크리트합성구조)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "flags": []
+          },
+          {
+            "value": "SRC",
+            "unit": null,
+            "raw_text": "주요구조 SRC 합성구조 (시장평균 PC 구조)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 24
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "flags": []
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "단방향",
+            "unit": null,
+            "raw_text": "One-way 전층접안가능한폭8.6m의 직선형램프",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "IM 표기 'One-way'. p14 '상행·하행 및 층별 독립동선 RAMP'",
+            "flags": []
+          },
+          {
+            "value": "단방향",
+            "unit": null,
+            "raw_text": "9-10% / 8.7m / 상행·하행독립동선/ 직선형",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 24
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "flags": []
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "직선형",
+            "unit": null,
+            "raw_text": "폭8.6m의 직선형램프",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "flags": []
+          },
+          {
+            "value": "직선형",
+            "unit": null,
+            "raw_text": "9-10% / 8.7m / 상행·하행독립동선/ 직선형",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 24
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "flags": []
+          }
+        ],
+        "ramp_width_m": [
+          {
+            "value": 8.6,
+            "unit": "m",
+            "raw_text": "One-way 전층접안가능한폭8.6m의 직선형램프",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "투자자IM(8.7m)과 상충",
+            "raw_value": 8.6,
+            "raw_unit": "m",
+            "flags": []
+          },
+          {
+            "value": 8.6,
+            "unit": "m",
+            "raw_text": "RAMP는9-10% 완만한경사와8.6m 폭을보유",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 14
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": null,
+            "raw_value": 8.6,
+            "raw_unit": "m",
+            "flags": []
+          },
+          {
+            "value": 8.7,
+            "unit": "m",
+            "raw_text": "9-10% / 8.7m / 상행·하행독립동선/ 직선형",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 7
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "매입IM p7 시장평균 비교표는 8.7m, 같은 IM p9·p14는 8.6m",
+            "raw_value": 8.7,
+            "raw_unit": "m",
+            "flags": []
+          },
+          {
+            "value": 8.7,
+            "unit": "m",
+            "raw_text": "폭8.7m의 직선형램프",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 16
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": null,
+            "raw_value": 8.7,
+            "raw_unit": "m",
+            "flags": []
+          },
+          {
+            "value": 8.7,
+            "unit": "m",
+            "raw_text": "RAMP는9-10% 완만한경사와8.7m 폭을보유",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 23
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": null,
+            "raw_value": 8.7,
+            "raw_unit": "m",
+            "flags": []
+          }
+        ],
+        "ramp_slope_pct": [
+          {
+            "value": 9.0,
+            "unit": "pct",
+            "raw_text": "RAMP는9-10% 완만한경사",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 14
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "범위 '9-10%'의 하단 후보 — 양끝값을 별도 후보로 기록",
+            "raw_value": 9,
+            "raw_unit": "%",
+            "flags": []
+          },
+          {
+            "value": 10.0,
+            "unit": "pct",
+            "raw_text": "RAMP는9-10% 완만한경사",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 14
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "범위 '9-10%'의 상단 후보",
+            "raw_value": 10,
+            "raw_unit": "%",
+            "flags": []
+          },
+          {
+            "value": 9.0,
+            "unit": "pct",
+            "raw_text": "RAMP는9-10% 완만한경사와8.7m 폭을보유",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 23
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "범위 하단 후보",
+            "raw_value": 9,
+            "raw_unit": "%",
+            "flags": []
+          },
+          {
+            "value": 10.0,
+            "unit": "pct",
+            "raw_text": "RAMP는9-10% 완만한경사와8.7m 폭을보유",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 23
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "범위 상단 후보",
+            "raw_value": 10,
+            "raw_unit": "%",
+            "flags": []
+          }
+        ],
+        "freight_elevator_count": [
+          {
+            "value": 4,
+            "unit": "ea",
+            "raw_text": "승강기 승객21대, 화물4대",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 4,
+            "raw_unit": "ea",
+            "flags": []
+          },
+          {
+            "value": 4,
+            "unit": "ea",
+            "raw_text": "승강기 승객21대, 화물4대",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 16
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 4,
+            "raw_unit": "ea",
+            "flags": []
+          },
+          {
+            "value": 4,
+            "unit": "ea",
+            "raw_text": "화물용 E.V 대수 : 각도크당 2대 설치(총 4대)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+            "source_locator": {
+              "page": 1
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "2017-01 임대차계약 세부약정서(설계 단계 약정). 규격 5톤/대, '창고 1층부터 설치'",
+            "raw_value": 4,
+            "raw_unit": "ea",
+            "flags": []
+          }
+        ],
+        "freight_elevator_capacity_t": [
+          {
+            "value": 5.0,
+            "unit": "t",
+            "raw_text": "화물용 E.V ... 규격 : 5톤/대",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+            "source_locator": {
+              "page": 1
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "2017-01 세부약정서",
+            "raw_value": 5,
+            "raw_unit": "t",
+            "flags": []
+          }
+        ],
+        "vrc_count": [
+          {
+            "value": 4,
+            "unit": "ea",
+            "raw_text": "수직반송기 대수 : 각도크당 2대 설치(총 4대)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+            "source_locator": {
+              "page": 1
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "2017-01 세부약정서. '창고 2층부터 설치'",
+            "raw_value": 4,
+            "raw_unit": "ea",
+            "flags": []
+          }
+        ],
+        "sprinkler_type": [
+          {
+            "value": "ESFR",
+            "unit": null,
+            "raw_text": "상회: 창고구간조기진압형스프링클러(ESFR) → 분당475L / 헤드12개기준, 최상층Large Drop 적용",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 52
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "p53: 창고구간 ESFR 60분 살수, 최상층(10m 이상) Large Drop + 하부 In-Rack, 메자닌 하부 동일 Spec. 세부약정서(5층 인랙헤드)와 상이",
+            "flags": []
+          },
+          {
+            "value": "혼합",
+            "unit": null,
+            "raw_text": "스프링클러 1~4층 조기진압형 / 5층 인랙헤드 (층고 13.7M 이상(5층)은 조기진압형 안됨)",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+            "source_locator": {
+              "page": 2
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": true,
+            "note": "2017-01 세부약정서: 1~4층 ESFR + 5층 In-Rack 헤드 = 형식 혼재. 매입IM·투자자IM의 ESFR 단일 표기와 상충",
+            "flags": []
+          }
+        ],
+        "transformer_capacity_kva": [
+          {
+            "value": 11000.0,
+            "unit": "kVA",
+            "raw_text": "수변전용량 11,000kVA",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 9
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": "'수변전용량' 표기 — 변압기 총용량(kVA)으로 분류",
+            "raw_value": 11000,
+            "raw_unit": "kVA",
+            "flags": []
+          },
+          {
+            "value": 11000.0,
+            "unit": "kVA",
+            "raw_text": "전기 1,000~2,000kVA 이내 / 11,000kVA",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+            "source_locator": {
+              "page": 7
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 11000,
+            "raw_unit": "kVA",
+            "flags": []
+          },
+          {
+            "value": 11000.0,
+            "unit": "kVA",
+            "raw_text": "수변전용량 11,000kVA",
+            "precision": "exact",
+            "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+            "source_locator": {
+              "page": 16
+            },
+            "method": "im_text",
+            "confidence": "medium",
+            "source_grade": "IM주장",
+            "status": "주장값",
+            "conflict": false,
+            "note": null,
+            "raw_value": 11000,
+            "raw_unit": "kVA",
+            "flags": []
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B2",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "B2 창고 CJ대한통운 11,079평 / 용마로지스 4,897평",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+                "source_locator": {
+                  "page": 15
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "berth_length_m": [
+              {
+                "value": 9.0,
+                "unit": "m",
+                "raw_text": "지2층 주차장 ... 대형(옥외A) 3.2 X 9.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 대상 2대 규격(옥외A)",
+                "raw_value": 9.0,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "berth_width_m": [
+              {
+                "value": 3.2,
+                "unit": "m",
+                "raw_text": "지2층 주차장 ... 대형(옥외A) 3.2 X 9.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 대상 2대 규격(옥외A)",
+                "raw_value": 3.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "사무",
+                "unit": null,
+                "raw_text": "B1 사무실 CJ대한통운 590평 / 휴게실 편의점 53평 / 사무실 공실 341평",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+                "source_locator": {
+                  "page": 15
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "B1 임대면적 구성이 사무실·휴게실 위주 (p13 도식 라벨에는 '지하1층주차장' 표기)",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 2.5,
+                "unit": "t/m2",
+                "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기",
+                "raw_value": 2.5,
+                "raw_unit": "t/m2",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.2,
+                "unit": "m",
+                "raw_text": "유효고 지상1~4층 : 8.2M",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "세부약정서 '유효고' 표기. 측정 기준(보·배관 하단 등) 미기재",
+                "raw_value": 8.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+                "source_locator": {
+                  "page": 23
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+                "flags": []
+              }
+            ],
+            "berth_length_m": [
+              {
+                "value": 13.0,
+                "unit": "m",
+                "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 위임합의서: 주차장 계획/용도 변경(2안) 대상 화물 구획 규격. 1층 3대",
+                "raw_value": 13.0,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "berth_width_m": [
+              {
+                "value": 3.2,
+                "unit": "m",
+                "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 위임합의서: 화물 구획 규격",
+                "raw_value": 3.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 2.5,
+                "unit": "t/m2",
+                "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기",
+                "raw_value": 2.5,
+                "raw_unit": "t/m2",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.2,
+                "unit": "m",
+                "raw_text": "유효고 지상1~4층 : 8.2M",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "세부약정서 '유효고' 표기. 측정 기준(보·배관 하단 등) 미기재",
+                "raw_value": 8.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 2.5,
+                "unit": "t/m2",
+                "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기",
+                "raw_value": 2.5,
+                "raw_unit": "t/m2",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.2,
+                "unit": "m",
+                "raw_text": "유효고 지상1~4층 : 8.2M",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "세부약정서 '유효고' 표기. 측정 기준(보·배관 하단 등) 미기재",
+                "raw_value": 8.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+                "source_locator": {
+                  "page": 23
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+                "flags": []
+              }
+            ],
+            "berth_length_m": [
+              {
+                "value": 13.0,
+                "unit": "m",
+                "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 위임합의서: 주차장 계획/용도 변경(2안) 대상 화물 구획 규격. 3층 4대",
+                "raw_value": 13.0,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "berth_width_m": [
+              {
+                "value": 3.2,
+                "unit": "m",
+                "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 위임합의서: 화물 구획 규격",
+                "raw_value": 3.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 2.5,
+                "unit": "t/m2",
+                "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기",
+                "raw_value": 2.5,
+                "raw_unit": "t/m2",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 8.2,
+                "unit": "m",
+                "raw_text": "유효고 지상1~4층 : 8.2M",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "세부약정서 '유효고' 표기. 측정 기준(보·배관 하단 등) 미기재",
+                "raw_value": 8.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "5F",
+          "fields": {
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "사용층 위치 지상1층 ~ 지상5층 / 상온창고",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "floor_load_tpm2": [
+              {
+                "value": 2.5,
+                "unit": "t/m2",
+                "raw_text": "적재하중 창고 : 2.5ton/m2 (등분포 하중)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2017-01 세부약정서 '사용층 위치 지상1층~지상5층 상온창고'. 1PLT당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준) 병기",
+                "raw_value": 2.5,
+                "raw_unit": "t/m2",
+                "flags": []
+              }
+            ],
+            "clear_height_m": [
+              {
+                "value": 12.2,
+                "unit": "m",
+                "raw_text": "유효고 지상5층 : 12.2M",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 1
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "세부약정서 비고 '5층은 평치 창고'. 측정 기준 미기재",
+                "raw_value": 12.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+                "source_locator": {
+                  "page": 23
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+                "flags": []
+              }
+            ],
+            "berth_length_m": [
+              {
+                "value": 13.0,
+                "unit": "m",
+                "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 위임합의서: 주차장 계획/용도 변경(2안) 대상 화물 구획 규격. 5층 4대",
+                "raw_value": 13.0,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "berth_width_m": [
+              {
+                "value": 3.2,
+                "unit": "m",
+                "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 위임합의서: 화물 구획 규격",
+                "raw_value": 3.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "7F",
+          "fields": {
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+                "source_locator": {
+                  "page": 23
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+                "flags": []
+              }
+            ],
+            "berth_length_m": [
+              {
+                "value": 13.0,
+                "unit": "m",
+                "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 위임합의서: 주차장 계획/용도 변경(2안) 대상 화물 구획 규격. 7층 4대",
+                "raw_value": 13.0,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ],
+            "berth_width_m": [
+              {
+                "value": 3.2,
+                "unit": "m",
+                "raw_text": "대형(옥내A) 3.2 X 13.0(M)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+                "source_locator": {
+                  "page": 20
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "2023-10 건축물표시변경 위임합의서: 화물 구획 규격",
+                "raw_value": 3.2,
+                "raw_unit": "m",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "9F",
+          "fields": {
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "Truck In 1F / 3F진입 / 5,7,9F진입 (전층자주식접안)",
+                "precision": "exact",
+                "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+                "source_locator": {
+                  "page": 23
+                },
+                "method": "im_text",
+                "confidence": "medium",
+                "source_grade": "IM주장",
+                "status": "주장값",
+                "conflict": false,
+                "note": "IM '전층접안' 표기 — 램프 도식에 접안 레벨로 표시된 1·3·5·7·9F만 기록",
+                "flags": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2025년(합의서 일자 2025-01, 일자란 공란) 1층 창고(6번방) 내 메자닌 구조물(중2층 적층랙 H4,740) 설치 공사 및 소방공사(조기진압형 폐쇄형 헤드 238EA, 소화 내진, 동파방지 메탈히터) — 임대인 승인 합의(공사 안)",
+      "quote": "1층 창고(6번방) 내 하기 자재를 사용한 메자닌 구조물 설치(중2층 적층랙(H4, 740)) / 화재조기진압형 헤드 폐쇄형 : 총 238EA / 동파방지용 메탈히터 설치 등",
+      "year": 2025,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 13
+      },
+      "item": "1층 창고(6번방) 메자닌 구조물 설치 및 소방 공사"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2023년 10월 건축물표시변경: 주차장 계획/용도 변경(2안) — 화물 대형 669대→652대(△17대: 지하2층 2대, 1층 3대, 3층 4대, 5층 4대, 7층 4대), 총 1,202대→1,185대. 원상회복 임차인",
+      "quote": "건축물대장 상 주차장 면적 中 총 주차면수 총 17대 면적 / 대형화물 669대 ▶ 652대(△17대)",
+      "year": 2023,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 20
+      },
+      "item": "주차장 계획/용도 변경(건축물표시변경, 화물주차 17대 감축)"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2024년 6월 B2층 창고 3번방/4번방, 4번방/5번방 사이 방화구획(방화벽 글라스울 판넬) 철거 및 방화스크린 설치 대수선 허가(공사) 위임",
+      "quote": "B2층 창고 3번방/4번방, 4번방/5번방 사이의 방화구획(방화벽) 글라스울 판넬 철거 / 방화구획(방화스크린) 스크린 설치",
+      "year": 2024,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 51
+      },
+      "item": "B2 창고 방화구획 변경 대수선(글라스울 판넬 방화벽 철거, 방화스크린 설치)"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2024년 7월 공동사업표준협약서: 지하2층 대수선(방화벽→스크린 방화셔터, 7개소) 인허가 제출용 (사업명 '양지 올리브영 지하2층 대수선 공사')",
+      "quote": "지하2층 대수선(방화벽→스크린 방화셔터, 7개소) 인허가 제출용",
+      "year": 2024,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 46
+      },
+      "item": "지하2층 대수선(방화벽→스크린 방화셔터 7개소)"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2026년 6월 대수선 허가(공사) 위임: 1층 창고 3섹터/6섹터·지하2층 창고 5섹터/7섹터 슬라브 타공(1,580x1,670mm 1개소, 3,000x3,200mm 및 1,580x1,470mm 2개소), 스파이럴 컨베이어·버치레이터 설비 및 방화벽체(판넬) 설치, PD/상수도/소방 배관 우회, 화재수신반·방화스크린 이설",
+      "quote": "슬라브 타공(대수선 허가) / 스파이럴 컨베이어 설비 및 방화벽체(판넬) 설치 / 버치레이터 설비 및 방화벽체(판넬) 설치 / 전기, 소방 등 부대작업",
+      "year": 2026,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 32
+      },
+      "item": "1F·B2 슬라브 타공 및 스파이럴 컨베이어·버치레이터 설치 대수선"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2026년 6월 공동사업표준협약서(사업명 'FT) 양지올리브영센터 대수선공사', 협약기간 2026-06-01 ~ 2026-12-31, 지상1층·지하2층 5섹터 및 7섹터, 인허가 제출용)",
+      "quote": "사업명 : FT)양지올리브영센터 대수선공사 / 사업지 : 용인시 처인구 남평로 111-73, 지상1층, 지하2층 5섹터 및 7섹터 / 협약기간 : 협약일(2026년 [6]월 [1]일)~공동사업 완료일(2026년 [12]월 [31]일)",
+      "year": 2026,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 41
+      },
+      "item": "양지올리브영센터 대수선공사(공동사업표준협약, 2026-12-31 완료 예정)"
+    },
+    {
+      "type": "renovation",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2019년 2월 추가합의서: 임대차 개시일 2019-03-01 ~ 2034-02-28(180개월)로 변경, 임대료 28개월 면제 (물리 변경 아님 — 임대 조건)",
+      "quote": "본 계약의 임대차기간은 2019년 03월01일 부터 2034년 02월 28일까지 (180개월)",
+      "year": 2019,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 4
+      },
+      "item": "임대차 개시일 변경 및 임대료 면제 (공사 아님)"
+    },
+    {
+      "type": "ownership",
+      "building_id": "main",
+      "field": "rack_owner",
+      "text": "2025 메자닌 구조물: 설치된 메자닌 구조물에 대한 수선은 임차인(CJ대한통운)의 책임과 비용, 임차인은 필요비·유익비상환청구권 없음. 소유 귀속 자체는 명시 없음",
+      "quote": "본건 공사로 설치된 메자닌 구조물에 대한 수선은 \"임차인\"의 책임과 비용으로 한다 / 임차인은 필요비, 유익비상환청구권을 가지지 아니한다",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 14
+      },
+      "scope": "메자닌(중2층 적층랙)"
+    },
+    {
+      "type": "ownership",
+      "building_id": "main",
+      "field": "rack_owner",
+      "text": "2025 메자닌 공사 원상회복은 임차인 부담 (임대차 종료일로부터 30일 이내, 임대인은 원상회복 면제 가능)",
+      "quote": "임차인은 ... 본건 공사로 인하여 변경된 사항의 원상회복과 그에 수반되는 법적 절차를 포함한다)을 완료하고",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 14
+      },
+      "scope": "메자닌 구조물 원상회복"
+    },
+    {
+      "type": "ownership",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2023 건축물표시변경(주차선 마킹 및 증설) 원상회복은 임차인 부담",
+      "quote": "건축물표시변경으로 인하여 감축된 주차장 17대 면수의 주차라인 마킹 및 증설을 위한 법적 절차를 포함한다)을 완료",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 21
+      },
+      "scope": "주차 구획 원상회복"
+    },
+    {
+      "type": "ownership",
+      "building_id": "main",
+      "field": "vrc_owner",
+      "text": "2026 대수선(스파이럴 컨베이어·버치레이터 설치): 공동사업 수행 책임과 사업비 등 일체를 임차인이 부담. 설비 소유 귀속은 명시 없음",
+      "quote": "본 협약서에 의하여 발생하는 모든 분담 업무에 대한 수행 책임과 사업비 등 대내외적 제반 책임과 비용 일체는 모두 임차인이 부담",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 40
+      },
+      "scope": "스파이럴 컨베이어·버치레이터"
+    },
+    {
+      "type": "ownership",
+      "building_id": "main",
+      "field": "vrc_owner",
+      "text": "2026 대수선 원상회복: 임대차 종료 시 임차인이 대수선(슬라브 타공 등)으로 변경된 사항의 원상회복 및 법적 절차 완료, 임대인 별도 확인 필요(임대인 판단으로 면제 가능)",
+      "quote": "해당 종료 임대차계약의 임대차목적물 명도일까지 해당 목적물에 대해 원상회복(대수선 허가(공사)로 인하여 변경된 사항의 원상회복과 그에 수반되는 법적 절차를 포함한다.)을 완료",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 33
+      },
+      "scope": "대수선 변경 부분 원상회복"
+    },
+    {
+      "type": "ownership",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2024 B2 방화구획 대수선 원상회복은 임차인 부담",
+      "quote": "임차인은 본건 임대차계약의 임대차 계약기간의 종료 등으로 인한 퇴거 시 ... 원상회복(대수선 허가(공사)로 인하여 변경된 사항의 원상회복...)을 완료",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 52
+      },
+      "scope": "B2 방화구획 원상회복"
+    },
+    {
+      "type": "ownership",
+      "building_id": "main",
+      "field": "dock_equipment_owner",
+      "text": "세부약정서: 도크레벨러 설치(1~4층) 각 도크당 2개 설치, 컨테이너 하역용 — 소유·부담 주체 명시 없음 (설비 소유 미확인)",
+      "quote": "도크레벨러 설치 (1~4층) 각 도크당 2개 설치 / 컨테이너 하역용",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 1
+      },
+      "scope": "도크레벨러"
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "sprinkler_type",
+      "text": "소방성능위주설계로 NFPC 609(24년 제정)을 대부분 충족하고 일부(ESFR)는 상회, 최고수준 소방설비 Spec 적용",
+      "quote": "’17년에인허가를得하였음에도[소방성능위주설계심의사항] 및[CJ대한통운의화재안전Needs]에따라최고수준의소방설비Spec이적용되었으며, 이는‘24년에제정된현행기준의『NFPC 609』를대부분충족하며일부설비는상회(ESFR 스프링클러)하는수준임",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 51
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "sprinkler_type",
+      "text": "창고 전 구간 습식배관 + 동파방지 메탈히터, Path/Berth 구간은 프리액션 방식, 총 소화용수 704ton(주수원 528 + 보조수원 176), 비상발전기 총 120분",
+      "quote": "상회: 창고구간“습식”배관+ 동파방지용메탈히터적용(Path/Berth 구간→ 프리액션방식) / 충족: 소화용수총704ton (주수원(지하) 528ton / 보조수원(옥상) 176ton)",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 52
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "fire_compartment_max_m2",
+      "text": "전 구간 방화구획 충족(자동화 구간 드렌처 설비), 차량 하역부분 외기개방 구조 및 제연설비",
+      "quote": "충족: 전구간방화구획충족(자동화구간드렌쳐설비(수벽형성)) / 충족: 차량하역부분외기개방구조및제연설비설치",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 52
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "text": "층고 7~10m 시장평균 대비 본건 9.2~17m, 4단 Rack(최상층 5단) 설치 가능 (매입IM)",
+      "quote": "층고 7~10 m / 9.2~17m / 4단Rack 설치(최상층5단) 가능",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 7
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "text": "투자자IM은 9.2~15m(최상층 평치구조)로 상한을 달리 표기, 최상층 층고 12~15m",
+      "quote": "층고 7~10 m / 9.2~15m (최상층평치구조) / 4단Rack 설치(최상층5단) 가능 ; 최상층층고12~15m",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 24
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "text": "하중 시장평균 1.7~2.3t/㎡ 대비 본건 2.0~2.5t/㎡ (매입IM)",
+      "quote": "하중 1.7 ~ 2.3t/㎡ / 2.0~2.5t/㎡ / 중량물적재가능, 내구성高",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 7
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "text": "투자자IM은 시장평균 1.7~2.0t/㎡ 대비 본건 2.3~2.5t/㎡로 하단값을 달리 표기 (매입IM 2.0~2.5와 상충)",
+      "quote": "하중 1.7 ~ 2.0t/㎡ / 2.3~2.5t/㎡",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 24
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "text": "전층 자주식 접안(Berth 13m + Path 16m), 상하차 효율 향상, 도크 @1대/105평(시장평균 120~150평)",
+      "quote": "접안방식 전층자주식접안(Berth 13m) / 도크 @1대/ 105평",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 7
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "ramp_type",
+      "text": "상행·하행 및 층별 독립동선 RAMP로 대규모 물동량 병목 최소화, 대형 트럭 원활한 이동",
+      "quote": "대규모물동량처리시병목현상을최소화할수있도록상행·하행및층별독립동선RAMP 설계",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 14
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "warehouse_depth_m",
+      "text": "최대 298m x 186m 장방형 Large Plate(층당 최대 1.7만평), 지상층 기준 약 260m X 70m 표기 병존, 투자자IM Highlight는 '길이 약 300m·단일층 최대 1.5만평'",
+      "quote": "층당최대1.7만평규모의바닥면적이확보된장방형라지플레이트(최대298m x 186m 규모주)) / 지상층기준약260m X 70m의Large Plate 구조 / 단일층최대1.5만평, 길이약300m Large Plate",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 13
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "structure_type",
+      "text": "SRC 합성구조의 슬림한 기둥/보로 유효면적 극대화, 평활도 FM2",
+      "quote": "주요구조 SRC 합성구조 / 슬림한기둥/보 등으로유효면적극대화 ; 평활도 FM2",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 24
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "cold_ratio_pct",
+      "text": "100% 상온창고 (저온·냉동 없음으로 표기)",
+      "quote": "창고구분 100% 상온창고, 지원시설",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 9
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "transformer_capacity_kva",
+      "text": "전기 11,000kVA로 자동화 설비 증설 가능 (시장평균 1,000~2,000kVA 이내)",
+      "quote": "전기 1,000~2,000kVA 이내 / 11,000kVA / 자동화설비증설가능",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 7
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "대형화재 이력 'Zero' 주장: 1930년 조선미곡창고 창사 이래, CJ대한통운 안전경영실",
+      "quote": "1930년조선미곡창고(CJ대한통운의최초전신) 창사이래, 대형화재이력“Zero”",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 37
+      }
+    },
+    {
+      "type": "marketing",
+      "building_id": "main",
+      "field": "direct_truck_access",
+      "text": "경기도 조례(25.10) 대비 본건 건축물 높이 68.6m·길이 265.2m, 단지전용 순환도로 직결(폭 12m 이상)로 충족 주장",
+      "quote": "본건건축물 높이: 68.6m / 본건건축물 길이: 265.2m / 단지전용순환도로직결(폭12m이상) / 충족",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 24
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "text": "매입IM 자산개요 '층고' 9.2 ~ 10.4m (Top floor 14.5m ~ 17.0m). 층고(바닥~바닥) 표기이며 유효고와 구분 필요: 2017 세부약정서는 유효고 지상1~4층 8.2M, 5층 12.2M. 층 특정이 없어 floors에 넣지 않음",
+      "quote": "층고 9.2 ~ 10.4m (Top floor: 14.5m ~ 17.0m)",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 9
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "text": "투자자IM 자산개요 동일 표기 9.2 ~ 10.4m (Top floor: 14.5m ~ 17.0m); 주요특장점 표는 9.2~15m (최상층 평치구조), 최상층 층고 12~15m",
+      "quote": "층고 9.2 ~ 10.4m (Top floor: 14.5m ~ 17.0m)",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 16
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "text": "임대차계약 세부약정서(2017-01-25) 유효고: 지상1~4층 8.2M, 지상5층 12.2M (5층 평치 창고). IM '층고 9.2~10.4m'와 수치 차이 — 층별 값은 floors에 기록",
+      "quote": "유효고 지상1~4층 : 8.2M , 지상5층 : 12.2M / 5층은 평치 창고",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 1
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "text": "세부약정서 EL 도면 주석(B2F 단면도, 2026 대수선 계획도): B2FL EL+148.30, B1FL EL+152.90, 1FL EL+158.70, G.L EL+157.50, 치수 4,600/2,600/2,000/9,200/1,200 — 측정 기준 불명, 값으로 채택하지 않음(참고)",
+      "quote": "B2FL (EL+148.30) ... 9,200 ... 1FL (EL+158.70)",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 38
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "text": "세부약정서 1F 단면도 주석: 1FL EL+158.70, 2FL EL+163.40, 3FL EL+168.70, 치수 4,700/5,300 — 2FL은 메자닌 레벨로 보이며 값으로 채택하지 않음(참고)",
+      "quote": "3FL (EL+168.70) 5,300 / 2FL (EL+163.40) 4,700 / 1FL (EL+158.70)",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 39
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "text": "세부약정서 적재하중: 창고 2.5ton/m2(등분포), 1PLT(1.1m x 1.1m) 당 Max 1.3ton x 4단(집중하중), 차로 2.5ton/m2(25톤 차량 기준)",
+      "quote": "창고 : 2.5ton/m2 (등분포 하중) / 1개 PLT 당 Max 1.3ton x 4단 (집중하중) / 차로 : 2.5ton/m2 (25톤 차량 기준)",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 1
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "dock_count",
+      "text": "세부약정서 도크 사양: 도크높이(데크) 1.2m, 각 도크당 지게차 램프 3개(고정2·이동1), 도크 끝 범퍼 有. 도크 수는 미기재 (도크 @1대/105평은 면적 비율, 매입IM p7)",
+      "quote": "도크높이(데크) 1.2 m, 각 도크당 지게차 램프 3개 (고정2,이동1) 설치 / 도크 끝 범퍼 有 ; 도크 @1대/ 105평",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 1
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "dock_leveler_count",
+      "text": "세부약정서: 도크레벨러 설치(1~4층), 각 도크당 2개, 컨테이너 하역용. 총수 미기재",
+      "quote": "도크레벨러 설치 (1~4층) 각 도크당 2개 설치",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 1
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "dock_count",
+      "text": "주차대수 소형438대, 화물747대(총 1,185대) — 주차 계획 수치이며 도크 수 아님",
+      "quote": "주차대수 소형438대, 화물747대(총 1,185대)",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 9
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "dock_count",
+      "text": "2023 건축물표시변경 주차장 계획표(표 회전 스캔): 화물 합계 669대→652대(△17대), 합계 1,202대→1,185대; 변경 후 일반 128+310, 화물 3.2x9.0 52·3.2x12.5 123·3.2x13.0 531·3.2x13.0(옥외B) 41 (세부 칸은 판독 해상도 한계)",
+      "quote": "대형화물 669대 ▶ 652대(△17대) / 합계 1202 → 1185",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 23
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "truck_yard_depth_m",
+      "text": "중앙 Path 양측 Berth 도식: 78m / 66m / 42m, Berth 13m·Path 16m (p13 도식 해석 필요)",
+      "quote": "78m 66m 42m 창고 사무실 창고 16m 13m 13m 16m",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] IM_260728.pdf",
+      "source_locator": {
+        "page": 13
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "sprinkler_type",
+      "text": "세부약정서(2017): 방재센터 지상1층 주출입구, 스프링클러 1~4층 조기진압형·5층 인랙헤드(층고 13.7M 이상(5층)은 조기진압형 안됨), 방화셔터 전동모터형·방범도어 겸용·자동개폐, 임차인 물류설비 확정 시 방화구획·방화셔터 재조정",
+      "quote": "1~4층 조기진압형 / 5층 인랙헤드 / 층고 13.7M 이상(5층)은 조기진압형 안됨 / 방화셔터 전동모터형 ... 재조정한다",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 2
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "세부약정서(2017): 창고바닥 타공 — 층간이송벨트 컨베이어용, 좌우동 각층당 8 Point x 1.5㎡ (예정), 임차인 요청 시 반영",
+      "quote": "층간이송벨트 컨베이어 용도 창고바닥 타공 규격: 좌우동 각층당 8 Point x 1.5㎡ (예정)",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 2
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "2023-01-09 임대차계약(지하1층 1구역 사무실 및 지하2층 창고 1~5섹터), 2024-02-01 임대차계약(지하1층 2구역 사무실 일부 및 지하2층 창고 7섹터) — 지하층 임대 이력",
+      "quote": "2023. 1. 9.에는 지하1층 1구역 사무실 및 지하2층 창고(1~5섹터), 2024. 2. 1.에는 지하1층 2구역 사무실 일부 및 지하2층 창고(7섹터)에 대해 각각의 임대차계약을 체결",
+      "year": null,
+      "source_doc": "input/yangji/im/임대차계약서_세부약정서_기타합의서_발췌.pdf",
+      "source_locator": {
+        "page": 31
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "임차인(CJ대한통운) 시설투자·유지관리 비용 지원 목적 TI 총 1,011억원(매입 시 980억원, 운용 시 31억원) 지급 가정 (투자자IM) — 사용처 공사 내역 미기재",
+      "quote": "임차인시설투자및유지관리비용지원목적TI 총 1,011억원(매입시 980억원, 운용시31억원) 지급",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 33
+      }
+    },
+    {
+      "type": "other",
+      "building_id": "main",
+      "field": "renovation_history",
+      "text": "투자자IM 소방 부록: 본건 '17.05 인허가 득, 소방성능위주설계 심의 적용; '추후설치된 메자닌 구역도 기준과 동일한 방호기준 적용', '전층 메자닌 하부 ESFR 적용'",
+      "quote": "[본건(’17.05.인허가得)] / 충족: 추후설치된메자닌구역도기준과동일한방호기준적용 / 전층메자닌하부ESFR 적용",
+      "year": null,
+      "source_doc": "input/yangji/im/[아레나스양지] 투자자IM_v5.1.pdf",
+      "source_locator": {
+        "page": 52
+      }
+    }
+  ],
+  "missing": []
+}

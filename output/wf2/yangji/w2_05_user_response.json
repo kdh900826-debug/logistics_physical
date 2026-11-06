@@ -1,0 +1,250 @@
+{
+  "decisions": {
+    "building|main|-|ramp_slope_pct": {
+      "action": "cand",
+      "cand_id": "im:1",
+      "reason": "채팅 지시(도면>IM 순 일괄 채택) — IM '9-10%' 범위 — 보수 방향(급경사) 10% 채택"
+    },
+    "building|main|-|column_span_x_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "building|main|-|column_span_y_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "building|main|-|completion_year": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "building|main|-|freight_elevator_count": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "building|main|-|terrain_multi_level_access": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "building|main|-|vrc_count": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "building|main|-|warehouse_depth_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|10F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|10F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|1F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|1F|clear_height_m": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|1F|floor_load_tpm2": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|1F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|2F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|2F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|3F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|3F|clear_height_m": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|3F|floor_load_tpm2": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|3F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|4F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|4F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|5F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|5F|clear_height_m": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|5F|floor_load_tpm2": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|5F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|6F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|6F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|7F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|7F|clear_height_m": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|7F|floor_load_tpm2": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|7F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|8F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|8F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|9F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|9F|clear_height_m": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|9F|floor_load_tpm2": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시 — 도면 값 없음, IM 값 채택(도면>IM 순)"
+    },
+    "floor|main|9F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|B1|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|B2|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|B2|clear_height_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|B2|direct_truck_access": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|B2|temp": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "building|main|-|dock_count": {
+      "action": "cand",
+      "cand_id": "drawing:1",
+      "reason": "채팅 지시(도면>IM 순 일괄 채택) — 도면 후보 2개(764 현재기준 / 747 2안 용도변경 후) 중 2023 건축물표시변경으로 시행된 2안 — IM 747과 일치"
+    },
+    "building|main|-|gross_floor_area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "building|main|-|ramp_width_m": {
+      "action": "cand",
+      "cand_id": "im:0",
+      "reason": "채팅 지시(도면>IM 순 일괄 채택) — IM 내 8.6m·8.7m 혼재 — 보수 방향(좁은 폭) 8.6m 채택"
+    },
+    "building|main|-|sprinkler_type": {
+      "action": "cand",
+      "cand_id": "im:1",
+      "reason": "채팅 지시(도면>IM 순 일괄 채택) — 투자자IM ESFR vs 세부약정서 1~4층 조기진압형+5층 인랙헤드 — 층별 기재가 구체적인 세부약정서(혼합) 채택"
+    },
+    "building|main|-|structure_type": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    },
+    "floor|main|B1|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시 — 도면 판독값 채택(도면>IM 순)"
+    }
+  },
+  "bulk": null
+}
