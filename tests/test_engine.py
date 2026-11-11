@@ -283,3 +283,32 @@ def test_outdoor_yard_override():
     assert ThresholdResolver({}, t)("truck_yard_depth.red") == 13
     assert ThresholdResolver({"yard_type": None}, t)("truck_yard_depth.red") == 13
     assert ThresholdResolver({"yard_type": "옥외"}, t)("truck_yard_depth.red") == 19.95
+
+
+def test_sp10_sp11_dd_rules():
+    """SP10 램프 접합·하부 창고 / SP11 상온창고 기계 환기 부재: 등급 없이 DD 포인트(dd_on_green) (2026-11-11)."""
+    from lprisk.engine.rules import load_rules
+    rules = {r["id"]: r for r in load_rules()["rules"]}
+    sp10, sp11 = rules["SP10"], rules["SP11"]
+    assert sp10.get("dd_on_green") and sp11.get("dd_on_green")
+    def c(**v):
+        return {"building_id": "main", "vars": v, "grades": {}, "deps": {}, "missing": {}}
+    r = ev_mod.evaluate_context(sp10, c(floors_with_under_yard=[], floors_with_under_ramp=["1F"]), {})
+    assert (r["status"], r["severity_base"]) == ("triggered", "green")
+    r = ev_mod.evaluate_context(sp10, c(floors_with_under_yard=[], floors_with_under_ramp=[]), {})
+    assert r["status"] == "not_triggered"
+    assert ev_mod.evaluate_context(sp11, c(floors_without_mech_ventilation=["1F"]), {})["status"] == "triggered"
+    assert ev_mod.evaluate_context(sp11, c(floors_without_mech_ventilation=[]), {})["status"] == "not_triggered"
+    assert ev_mod.evaluate_context(sp11, c(floors_without_mech_ventilation=None), {})["severity_base"] == "hold"
+
+
+def test_profile_under_ramp_and_ventilation():
+    """골든 송온2: 램프 접합 1F·2F(DD p42), 기계 환기 없는 상온창고 1F~3F(DD p60). B2 저온층은 환기 판정 제외."""
+    from lprisk.engine.threshold_calibration import golden_profiles
+    gp = golden_profiles()
+    v = {b["building_id"]: b["vars"] for b in gp["songon"]["profile"]["buildings"]}["main"]
+    assert v["floors_with_under_ramp"] == ["1F", "2F"]
+    assert v["floors_without_mech_ventilation"] == ["1F", "2F", "3F"]
+    # 환기 값이 없는 골든(송온1)은 상온 창고층이 미확인으로 남아 판정 보류
+    v1 = {b["building_id"]: b["vars"] for b in gp["songon1"]["profile"]["buildings"]}["main"]
+    assert v1["floors_with_under_ramp"] == []

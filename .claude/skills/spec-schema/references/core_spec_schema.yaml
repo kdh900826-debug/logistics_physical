@@ -100,6 +100,12 @@ fields:
   under_yard_clear_height_m: {level: floor, type: number, unit: m, range: [2.5, 20], favorable: higher, rule_input: false, label: 하역장 하부 유효층고, drawing_types: [단면도],
                               basis: {enum: clear_height_basis, upper_bound: [보 하단, 슬래브 하단]}}
   under_yard_area_m2:    {level: floor, type: number, unit: m2, range: [10, 300000], favorable: lower, rule_input: false, label: 하역장 하부 면적(위층 야드 데크 아래 구역), drawing_types: [평면도, 단면도]}
+  # 램프 접합·하부 창고 (2026-11-11 사용자 요청, 송온리 2센터 사후 누수): 건물 램프의 슬래브·벽체·난간이 이 층 창고
+  # 위를 지나거나 창고 외벽·지붕에 붙은 구역. 위치(그리드)는 note에 적는다. SP10 입력(profile floors_with_under_ramp)
+  ramp_warehouse_interface: {level: floor, type: bool, favorable: lower, rule_input: false, label: 램프 접합·하부 창고 구역(램프가 이 층 창고 위·옆에 붙음), drawing_types: [평면도, 단면도, 램프상세도]}
+  under_ramp_area_m2:    {level: floor, type: number, unit: m2, range: [10, 300000], favorable: lower, rule_input: false, label: 램프 하부 창고 면적(램프 슬래브 바로 아래가 창고인 구역), drawing_types: [평면도, 단면도]}
+  # 창고 기계 환기 (2026-11-11 사용자 요청, 송온리 2센터 상온창고 곰팡이·고온다습): 상온·혼합 창고 구역의 급배기팬·유인팬. SP11 입력
+  warehouse_mech_ventilation: {level: floor, type: bool, favorable: higher, rule_input: true, label: 창고 기계식 환기(급배기팬·유인팬), drawing_types: [기계도면, 평면도]}
 
 # 층 라벨 정규화: B2, B1, 1F, 2F, … , RF (지붕), M1F(메자닌)
 floor_label_pattern: "^(B[1-9]|[1-9][0-9]?F|M[1-9][0-9]?F|RF)$"

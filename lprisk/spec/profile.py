@@ -215,6 +215,32 @@ def build_building(bid: str, label: str, slots: dict[Slot, list], asset_vars: di
                                       "verified", [k for (fl, f), v in uy_vars.items() if v.value is not None
                                                    for k in v.deps])
 
+    # 램프 접합·하부 창고(SP10 확장, 2026-11-11): ramp_warehouse_interface가 true이거나 램프 하부 면적이 있는 층.
+    # 하역장 하부와 같은 정책 — 미기재는 보류하지 않는다(접합 구역이 없다는 확인과 기재 없음을 구분할 수 없음)
+    ur = {fl: (fvar(fl, "ramp_warehouse_interface"), fvar(fl, "under_ramp_area_m2")) for fl in floors}
+    hit = [fl for fl, (i, a) in ur.items() if i.value is True or a.value is not None]
+    V["floors_with_under_ramp"] = Var(hit, "verified", [d for fl in hit for x in ur[fl] if x.value is not None for d in x.deps])
+
+    # 창고 기계 환기 부재(SP11, 2026-11-11): 상온·혼합 창고층 중 급배기팬·유인팬이 없다고 확인된 층.
+    # 저온·냉동층은 제외. 없는 층이 하나도 확인되지 않았는데 미확인(환기 또는 온도대)이 남으면 None(판정 보류)
+    hit, deps, miss, grades = [], [], [], set()
+    for fl in wh:
+        t, v = fvar(fl, "temp"), fvar(fl, "warehouse_mech_ventilation")
+        if t.value in ("저온", "냉동") or v.value is True:
+            continue
+        deps += t.deps + v.deps
+        if v.value is None or t.value is None:
+            miss += (v.missing if v.value is None else []) + (t.missing if t.value is None else [])
+            continue
+        hit.append(fl)
+        grades |= {t.grade, v.grade}
+    g = "claimed" if "claimed" in grades else "verified"
+    if not wh:
+        V["floors_without_mech_ventilation"] = Var(None, None, [], [f"{bid}: 창고 용도 층 미확인"])
+    else:
+        V["floors_without_mech_ventilation"] = Var(hit if (hit or not miss) else None, g if (hit or not miss) else None,
+                                                   deps, miss)
+
     # 하역장 하부 비중(%) = 하역장 하부 면적 ÷ 층 면적 — 보고서 §1 하역장·야드 표용(룰 입력 아님)
     share = {}
     for fl in floors:

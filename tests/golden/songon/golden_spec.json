@@ -822,6 +822,48 @@
                 "conflict": false,
                 "note": null
               }
+            ],
+            "ramp_warehouse_interface": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "원인 1) 램프 난간(외부): 기둥과 난간 후레싱 틈새로 물이 침투(지상1층 A~F) / 원인 2-1) 램프 난간(내측) … 침투(지상1층 J, G, H, I / 지상2층 D)",
+                "precision": "exact",
+                "source_doc": "230209_이천송온리물류2센터_준공실사(DD)보고서_r3.pdf",
+                "source_locator": {
+                  "page": 42,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "지상1→3층 램프 난간·기둥 접합부 누수가 1층 창고로 들어옴(2023.01.13 사고 원인분석). 사후: 1층 Y7~8열 램프 하부 기둥 상부 누수 반복(하자리스트 2023.12~2024.03), 2025.03·07 자동화 구역 상부 차수판(PM 검토서 '3층 램프 하부로 누수 취약 구역')"
+              }
+            ],
+            "warehouse_mech_ventilation": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "타 물류센터 대비 상온창고 및 사무실 공간에 별도에 환기설비가 미 반영되었으며 … 창고에 급·배기팬+유인팬(8천만원) … 반영 시 대략 1억 4천만원",
+                "precision": "exact",
+                "source_doc": "230209_이천송온리물류2센터_준공실사(DD)보고서_r3.pdf",
+                "source_locator": {
+                  "page": 60,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "상온창고 기계 환기 미반영(냉동기계실·전기실 등 실별 환기팬만). B2 하이브리드 창고는 상온용 환기팬·기류유인팬 설치(시운전 미실시) — B2는 저온층이라 기록하지 않음"
+              }
             ]
           }
         },
@@ -953,6 +995,48 @@
                 "conflict": false,
                 "note": "하역장-창고 사이 방화구획(방화셔터) 미시공(p33)"
               }
+            ],
+            "ramp_warehouse_interface": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "원인 2-1) 램프 난간(내측): 지상3층 하역장 부위(X22열) 난간 후레싱으로부터 침투(… 지상2층 D)",
+                "precision": "exact",
+                "source_doc": "230209_이천송온리물류2센터_준공실사(DD)보고서_r3.pdf",
+                "source_locator": {
+                  "page": 42,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "2~3층 램프 판넬·난간 후레싱 누수가 2층 창고로 들어옴. 사후: 2023.07.05 누수보고서 '2층~3층 램프 판넬 방수 미흡' 지점"
+              }
+            ],
+            "warehouse_mech_ventilation": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "타 물류센터 대비 상온창고 및 사무실 공간에 별도에 환기설비가 미 반영되었으며 … 창고에 급·배기팬+유인팬(8천만원) … 반영 시 대략 1억 4천만원",
+                "precision": "exact",
+                "source_doc": "230209_이천송온리물류2센터_준공실사(DD)보고서_r3.pdf",
+                "source_locator": {
+                  "page": 60,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "상온창고 기계 환기 미반영(냉동기계실·전기실 등 실별 환기팬만). B2 하이브리드 창고는 상온용 환기팬·기류유인팬 설치(시운전 미실시) — B2는 저온층이라 기록하지 않음"
+              }
             ]
           }
         },
@@ -1083,6 +1167,27 @@
                 "status": "확정",
                 "conflict": false,
                 "note": null
+              }
+            ],
+            "warehouse_mech_ventilation": [
+              {
+                "value": false,
+                "unit": null,
+                "raw_text": "타 물류센터 대비 상온창고 및 사무실 공간에 별도에 환기설비가 미 반영되었으며 … 창고에 급·배기팬+유인팬(8천만원) … 반영 시 대략 1억 4천만원",
+                "precision": "exact",
+                "source_doc": "230209_이천송온리물류2센터_준공실사(DD)보고서_r3.pdf",
+                "source_locator": {
+                  "page": 60,
+                  "sheet_no": null,
+                  "bbox": null,
+                  "crop": null
+                },
+                "method": "user",
+                "confidence": "high",
+                "source_grade": "확정",
+                "status": "확정",
+                "conflict": false,
+                "note": "상온창고 기계 환기 미반영(냉동기계실·전기실 등 실별 환기팬만). B2 하이브리드 창고는 상온용 환기팬·기류유인팬 설치(시운전 미실시) — B2는 저온층이라 기록하지 않음"
               }
             ]
           }

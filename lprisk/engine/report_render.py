@@ -256,7 +256,8 @@ def render(asset_id: str) -> str:
 
 
 YARD_FIELDS = ("berth_length_m", "berth_width_m", "yard_depth_m",
-               "under_yard_floor_height_m", "under_yard_clear_height_m", "under_yard_area_m2")
+               "under_yard_floor_height_m", "under_yard_clear_height_m", "under_yard_area_m2",
+               "ramp_warehouse_interface", "under_ramp_area_m2")
 
 
 def _yard_table(floors: list[dict], share: dict) -> list[str]:
@@ -266,9 +267,10 @@ def _yard_table(floors: list[dict], share: dict) -> list[str]:
     rows = [fl for fl in floors if any((fl["fields"].get(k) or [{}])[0].get("value") is not None for k in YARD_FIELDS)]
     if not rows:
         return []
-    L = ["", "**하역장·야드** (하역장 하부 = 위층 야드 데크 아래 구역. 층 대표 유효층고는 일반 구역 값)", "",
-         "| 층 | 접안 구획 폭×깊이 | 야드 깊이 | 하역장 하부 층고 / 유효층고 | 하역장 하부 면적 (층 면적 대비) |",
-         "|---|---|---|---|---|"]
+    L = ["", "**하역장·야드** (하역장 하부 = 위층 야드 데크 아래 구역. 층 대표 유효층고는 일반 구역 값. "
+         "램프 접합·하부 = 건물 램프가 이 층 창고 위·옆에 붙은 구역)", "",
+         "| 층 | 접안 구획 폭×깊이 | 야드 깊이 | 하역장 하부 층고 / 유효층고 | 하역장 하부 면적 (층 면적 대비) | 램프 접합·하부 (면적) |",
+         "|---|---|---|---|---|---|"]
     for fl in sorted(rows, key=lambda x: floor_sort_key(x["floor"])):
         g = lambda k: (fl["fields"].get(k) or [{}])[0]
         def val(k):
@@ -281,8 +283,15 @@ def _yard_table(floors: list[dict], share: dict) -> list[str]:
         bw, bl = g("berth_width_m"), g("berth_length_m")
         berth = "—" if bw.get("value") is None and bl.get("value") is None else f"{val('berth_width_m')} × {val('berth_length_m')}"
         pct = f" ({share[fl['floor']]:.1f}%)" if fl["floor"] in share else ""
+        ri, ua = g("ramp_warehouse_interface"), g("under_ramp_area_m2")
+        # 접합 여부 + 하부 면적. 면적만 있어도 하부 구역이 있다는 뜻
+        ramp = {True: "있음", False: "없음"}.get(ri.get("value"), "있음" if ua.get("value") is not None else "—")
+        if ri.get("value") is not None:
+            ramp += ("" if ri.get("status") in ("확정", "확정(교차)", None) else f" ({ri.get('status')})") + _vmark(ri)
+        if ua.get("value") is not None:
+            ramp += f" ({val('under_ramp_area_m2')})"
         L.append(f"| {fl['floor']} | {berth} | {val('yard_depth_m')} | "
-                 f"{val('under_yard_floor_height_m')} / {val('under_yard_clear_height_m')} | {val('under_yard_area_m2')}{pct} |")
+                 f"{val('under_yard_floor_height_m')} / {val('under_yard_clear_height_m')} | {val('under_yard_area_m2')}{pct} | {ramp} |")
     return L
 
 

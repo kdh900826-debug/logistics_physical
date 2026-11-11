@@ -20,4 +20,6 @@ keywords:
   power_capacity_kw: [수전, kW, kVA, TR, 변압기]
   turning_radius_m: [회전반경, 회전반지름, 회전, "R-", "R=", RADIUS]
   dock_route_column_conflict: [기둥, 간섭, 진입구, 진출구, 하역장, RAMP]
+  ramp_warehouse_interface: [램프, RAMP, 난간, 후레싱, 이중벽, 신축줄눈, "EXP.J"]
+  warehouse_mech_ventilation: [급기팬, 배기팬, 유인팬, 기류유인, 제트팬, 전열교환기, "S.F", "E.F", "INDUCTION", 환기횟수]
   truck_yard_depth_m: [야드, 회차, 주차, 대기]
