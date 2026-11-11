@@ -300,5 +300,18 @@
         "comment": "채팅 확인(2026-10-20) — 옥외 야드 SP06 🔴 19.95m(세미트레일러 16.7m + 통행 1차로 3.25m) 확정"
       }
     }
+  },
+  {
+    "at": "2026-11-11T13:29:15+09:00",
+    "changed": [
+      "th:access_road_width:default::red"
+    ],
+    "decisions": {
+      "th:access_road_width:default::red": {
+        "action": "edit",
+        "value": 8,
+        "comment": "채팅 확인(2026-11-11) — SP13 단지 진입로 차도 폭 🔴 8.0m 확정(제안 7.5m에서 사용자 수정)"
+      }
+    }
   }
 ]

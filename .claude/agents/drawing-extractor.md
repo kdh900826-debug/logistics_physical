@@ -37,6 +37,8 @@ model: opus
    - 램프 폭(ramp_width_m) — 건물 램프와 화물차용 옥외 대지 경사로의 연석 안쪽 주행면 폭(빗금 범위) 중 가장 좁은 곳. 표기가 없고 벡터 PDF면 직선부 `vector-distance`, 곡선부 `vector-depth-min`으로 재고 구간별 값은 note(field_extraction_guide.md 해당 행)
    - 램프가 지나는 층 평면·단면 — 램프 차로·벽체·난간이 창고 위를 지나거나 창고 외벽·지붕에 붙은 구역을 **아래·옆 창고 층**에 ramp_warehouse_interface(true만 기록)·under_ramp_area_m2로 적는다. 그리드 위치·램프 구간·접합 형태는 note(field_extraction_guide.md 해당 행)
    - 기계설비 도면(환기 계통도·장비일람표) — 상온·혼합 창고층마다 warehouse_mech_ventilation. 창고 담당 급배기팬·유인팬이 있으면 true, 기계 도면 세트가 있는데 창고 담당 팬이 없을 때만 false. 실별 환기팬(기계실·전기실 등)은 창고 환기가 아니다
+   - 램프 단면·입면·지붕평면도 — 지붕 없이 노출된 화물차 램프 구간(최상층·옥상 램프, 외부 나선 램프, 옥외 대지 경사로)이면 ramp_open_section `true`(노출 구간은 note). 노출 구간이 있으면 전기 간선·분전반 계통도·단선결선도에서 스노우멜팅(SMP·로드히팅·발열선·전용 변압기)을 찾아 ramp_snow_melting. false는 전기 도면 세트가 있는데 회로가 없을 때만. 지붕·거터·소화배관 동파방지 열선은 램프 스노우멜팅이 아니다
+   - 배치도·토목 도로 연결공사 도면 — 단지 진입로(공로 → 단지 출입구 → 야드·램프 진입부)의 차도 폭 최솟값을 access_road_width_m에, 구간별 폭·진출입 분리·가감속차로·점용/기부채납 표기는 note(field_extraction_guide.md 해당 행)
    - 램프 평면·단면 — 통행 표기, 전개길이, R 표기. R 표기가 없고 벡터 PDF면 `python -m lprisk vector-radius {asset_id} --file <PDF> --page <n>` 실행 후 `suggested`를 turning_radius_m에 `method: "vector"`, `precision: "approx"`, `confidence: "medium"`, `source_locator: {page, sheet_no, bbox: suggested.bbox}`, note에 suggested.note로 기록. **`raw_value`/`raw_unit`에 pt 같은 도면 좌표 단위를 넣지 않는다**(정규화가 값을 버린다)
    필드 기준(도크 = 하역장 화물주차 구획, 트럭야드 = 하역장 구획 깊이 등)은 `field_extraction_guide.md`를 따른다. 끝까지 없으면 `missing[]`에 `missing_reason`을 남긴다.
    - 그 유형 도면이 패키지에 없음 → `도면없음`

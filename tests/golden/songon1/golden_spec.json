@@ -408,6 +408,27 @@
             "conflict": false,
             "note": null
           }
+        ],
+        "ramp_snow_melting": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "스노우멜팅 센서 동작 확인",
+            "precision": "exact",
+            "source_doc": "첨부 2. 211124_이천송온리물류1센터_준공실사(DD)보고서.pdf",
+            "source_locator": {
+              "page": 52,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "medium",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "DD p52 스노우멜팅 센서 지적. 설계용량 SMP-1~4 합계 480.081kW, 전용 변압기 500kVA(incidents 2023-10-16 임차사 요청사항). 오픈 구간 범위는 미기재(ramp_open_section 미기재)"
+          }
         ]
       },
       "floors": [

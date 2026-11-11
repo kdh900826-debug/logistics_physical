@@ -140,7 +140,7 @@ incidents:
     damage: 겨울철 과부하 위험
     handling: 임대인 용량 검토 중(요청사항 회신)
     prevention: null
-    rules: [G02]
+    rules: [G02, SP12]
     severity_hint: 결함
     dd_flagged: no       # DD p52는 스노우멜팅 센서 동작 확인만 지적
     source:

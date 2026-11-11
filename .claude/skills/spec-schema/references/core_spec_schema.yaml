@@ -33,6 +33,9 @@ fields:
   # ── 단지 공용 (asset) ─────────────────────────────
   site_area_m2:          {level: asset, type: number, unit: m2, range: [1000, 2000000], favorable: higher, rule_input: false, label: 대지면적, drawing_types: [배치도]}
   truck_yard_depth_m:    {level: asset, type: number, unit: m, range: [5, 100], favorable: higher, rule_input: true, label: 트럭야드 깊이, drawing_types: [배치도]}
+  # 단지 진입로 — 공로(간선)에서 단지 출입구를 거쳐 야드·램프 진입부까지 화물차가 지나는 길(접도 도로 + 구내 진입로)의
+  # 차도 폭 최솟값(보도·연석 밖 제외). 구간별 폭·진출입 분리·가감속차로는 note. SP13 입력
+  access_road_width_m:   {level: asset, type: number, unit: m, range: [3, 60], favorable: higher, rule_input: true, label: 단지 진입로 차도 폭(최소), drawing_types: [배치도, 토목 공사계획평면도, 주차계획도]}
   flood_trace:           {level: asset, type: bool, favorable: lower, rule_input: true, label: 침수흔적 여부, sources: [public_api]}
   flood_depth_m:         {level: asset, type: number, unit: m, range: [0, 20], favorable: lower, rule_input: true, label: 홍수위험지도 예상 침수심, sources: [public_api]}
   soft_ground:           {level: asset, type: bool, favorable: lower, rule_input: true, label: 연약지반·매립지 해당, sources: [public_api]}
@@ -54,6 +57,10 @@ fields:
   terrain_multi_level_access: {level: building, type: bool, favorable: higher, rule_input: true, label: 지형 단차 진입도로로 여러 층 직접 접안, drawing_types: [배치도, 단면도, 토목 공사계획평면도]}
   ramp_slope_pct:        {level: building, type: number, unit: pct, range: [0, 30], favorable: lower, rule_input: true, label: 램프 경사, drawing_types: [단면도, 램프상세도]}
   ramp_width_m:          {level: building, type: number, unit: m, range: [3, 40], favorable: higher, rule_input: true, label: 램프 폭, drawing_types: [평면도, 램프상세도]}
+  # 오픈 램프 결빙 — 지붕 없이 눈·비에 노출된 화물차 램프 구간(최상층·옥상 주차 램프, 외부 나선 램프, 옥외 대지 경사로).
+  # 지붕 덮인 램프만 있으면 false. 스노우멜팅(로드히팅·열선)은 오픈 구간에 설비가 있으면 true, 구간·용량은 note. SP12 입력
+  ramp_open_section:     {level: building, type: bool, favorable: lower, rule_input: true, label: 오픈(지붕 없는) 램프 구간, drawing_types: [단면도, 입면도, 램프상세도, 지붕평면도, 배치도]}
+  ramp_snow_melting:     {level: building, type: bool, favorable: higher, rule_input: true, label: 오픈 램프 스노우멜팅(로드히팅·열선) 설비, drawing_types: [전기도면, 단선결선도, 램프상세도, 기계도면]}
   turning_radius_m:      {level: building, type: number, unit: m, range: [3, 50], favorable: higher, rule_input: true, label: 대형차 최소 회전반경(램프·하역장 동선), drawing_types: [평면도, 램프상세도, 배치도]}
   freight_elevator_count: {level: building, type: int, unit: ea, range: [0, 200], favorable: higher, rule_input: true, label: 화물용 승강기 대수, drawing_types: [평면도, 기계도면]}
   freight_elevator_capacity_t: {level: building, type: number, unit: t, range: [0.5, 30], favorable: higher, rule_input: false, label: 화물용 승강기 용량, drawing_types: [기계도면]}

@@ -569,6 +569,48 @@
             "conflict": false,
             "note": "p136 표: TR-1 1,250 일반, TR-2 1,500·TR-3 750 동력/비상, TR-4~6 1,500×3·TR-7 1,750 저온동력. 몰드 변압기. 발전기 900kW(소방부하우선) + 2,250kW(저온동력)"
           }
+        ],
+        "ramp_open_section": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "9~10층 오픈 주차램프 구간 스노우멜팅 설비 설치",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 22,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "9~10층 사이 램프가 지붕 없는 오픈 구간(옥상 주차장 진입). raw_text는 findings 요약 문구 — 원문 대조 필요"
+          }
+        ],
+        "ramp_snow_melting": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "9~10층 오픈 주차램프 구간 스노우멜팅 설비 설치(결빙 사고 예방)",
+            "precision": "exact",
+            "source_doc": "물리실사_20260605_WonCoda TDD_Report.pdf",
+            "source_locator": {
+              "page": 22,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "오픈 구간 스노우멜팅 설치 — DD 양호. raw_text는 findings 요약 문구 — 원문 대조 필요"
+          }
         ]
       },
       "floors": [

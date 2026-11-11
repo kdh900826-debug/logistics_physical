@@ -302,6 +302,57 @@ def test_sp10_sp11_dd_rules():
     assert ev_mod.evaluate_context(sp11, c(floors_without_mech_ventilation=None), {})["severity_base"] == "hold"
 
 
+def test_sp12_open_ramp_snow_melting():
+    """SP12 오픈 램프 스노우멜팅: 램프·대지 경사로가 있고 오픈 구간이 있을 때만 발동, 설비 없으면 🟡 (2026-11-11)."""
+    from lprisk.engine.rules import load_rules
+    sp12 = {r["id"]: r for r in load_rules()["rules"]}["SP12"]
+    assert sp12.get("dd_on_green")
+    def c(**v):
+        base = dict(floors_above=3, ramp_type="양방향", ramp_slope_pct=None, terrain_multi_level_access=False,
+                    ramp_open_section=True, ramp_snow_melting=None)
+        base.update(v)
+        return {"building_id": "main", "vars": base, "grades": {}, "deps": {}, "missing": {}}
+    def run(**v):
+        r = ev_mod.evaluate_context(sp12, c(**v), {})
+        return r["status"], r["severity_base"]
+    assert run(ramp_snow_melting=False) == ("triggered", "yellow")
+    assert run(ramp_snow_melting=True) == ("triggered", "green")
+    assert run() == ("hold", "hold")                                       # 설비 미확인
+    assert run(ramp_open_section=False)[0] == "not_triggered"              # 지붕 덮인 램프
+    assert run(ramp_type="없음")[0] == "not_triggered"                     # 램프·대지 경사로 없음
+    assert run(ramp_type="없음", ramp_slope_pct=12.0, ramp_snow_melting=False) == ("triggered", "yellow")  # 옥외 대지 경사로
+    assert run(ramp_open_section=None)[0] == "hold"                        # 오픈 여부 미확인
+    assert run(ramp_type="없음", terrain_multi_level_access=True, ramp_snow_melting=False)[1] == "yellow"  # 지형접안 진입도로
+    assert run(floors_above=1, ramp_open_section=None)[0] == "not_triggered"   # 단층은 ⚪ 노이즈 없이 미발동
+
+
+def test_sp13_access_road_unverified_threshold_holds():
+    """SP13 단지 진입로: 🔴 기준(7.5m)이 사용자 확인 전(verified: false)이라 값이 있어도 ⚪ — 원칙 7."""
+    from lprisk.engine.rules import load_rules
+    from lprisk.engine.thresholds import load_thresholds
+    sp13 = {r["id"]: r for r in load_rules()["rules"]}["SP13"]
+    assert sp13["scope"] == "asset" and sp13.get("dd_on_green")
+    ctx = {"building_id": None, "vars": {"access_road_width_m": 6.0}, "grades": {}, "deps": {}, "missing": {}}
+    r = ev_mod.evaluate_context(sp13, ctx, {})
+    th = load_thresholds()["access_road_width"]["default"]["red"]
+    if th.get("verified"):
+        assert r["severity_base"] == ("red" if 6.0 < th["value"] else "green")
+    else:
+        assert (r["severity_base"], r["now"]["hold_reason"]) == ("hold", "기준값 미검증")
+    ctx["vars"]["access_road_width_m"] = None
+    assert ev_mod.evaluate_context(sp13, ctx, {})["severity_base"] == "hold"
+
+
+def test_golden_snow_melting_values():
+    """골든: 북항 오픈 램프+스노우멜팅(DD p22) → SP12 🟢, 청라·송온1은 스노우멜팅만 기재 → 오픈 여부 미확인."""
+    from lprisk.engine.threshold_calibration import golden_profiles
+    gp = golden_profiles()
+    def v(a):
+        return {b["building_id"]: b["vars"] for b in gp[a]["profile"]["buildings"]}["main"]
+    assert (v("bukhang")["ramp_open_section"], v("bukhang")["ramp_snow_melting"]) == (True, True)
+    assert v("cheongna")["ramp_snow_melting"] is True and v("cheongna")["ramp_open_section"] is None
+    assert v("songon1")["ramp_snow_melting"] is True
+
 def test_profile_under_ramp_and_ventilation():
     """골든 송온2: 램프 접합 1F·2F(DD p42), 기계 환기 없는 상온창고 1F~3F(DD p60). B2 저온층은 환기 판정 제외."""
     from lprisk.engine.threshold_calibration import golden_profiles

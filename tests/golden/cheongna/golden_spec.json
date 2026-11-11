@@ -554,6 +554,27 @@
             "conflict": false,
             "note": "2026-10-13 추가: 본문 텍스트에 형상 기재 없음(p5 '2개의 램프, 일방향 주행'). PCA 수록 평면도(p29) 이미지로 확인"
           }
+        ],
+        "ramp_snow_melting": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "1층·10층 램프 스노우멜팅 설치",
+            "precision": "exact",
+            "source_doc": "1020 청라로지스틱스 물리실사 보고서_최종.pdf",
+            "source_locator": {
+              "page": 7,
+              "sheet_no": null,
+              "bbox": null,
+              "crop": null
+            },
+            "method": "user",
+            "confidence": "high",
+            "source_grade": "확정",
+            "status": "확정",
+            "conflict": false,
+            "note": "1층·10층 램프 구간. 오픈 구간 범위는 DD에 기재 없음(ramp_open_section 미기재). raw_text는 findings 요약 문구 — 원문 대조 필요"
+          }
         ]
       },
       "floors": [
