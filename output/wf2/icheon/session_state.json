@@ -1,0 +1,30 @@
+{
+  "asset_id": "icheon",
+  "state": "AWAITING_CONFIRMATION",
+  "mode": "도면 단독(IM 미제공, 사용자 승인)",
+  "ruleset_version": "ruleset-untagged@3c33fe4",
+  "created_at": "2026-11-11T08:34:01+09:00",
+  "history": [
+    {
+      "at": "2026-11-11T08:34:01+09:00",
+      "state": "INTAKE"
+    },
+    {
+      "at": "2026-11-11T08:34:21+09:00",
+      "state": "EXTRACTING",
+      "note": "NO_IM — 사용자 지시(2026-11-10)로 도면 단독 진행. 건축 준공도면(DWG→벡터 PDF 변환본) 외 자료 참조 금지"
+    },
+    {
+      "at": "2026-11-11T09:09:36+09:00",
+      "state": "RECONCILED",
+      "note": "확인 40 / 자동확정 0"
+    },
+    {
+      "at": "2026-11-11T09:09:57+09:00",
+      "state": "AWAITING_CONFIRMATION",
+      "note": "G2 대기 (도면 단독)"
+    }
+  ],
+  "halt_reason": null,
+  "revisions": []
+}

@@ -1,0 +1,53 @@
+{
+  "file": "input/icheon/drawings/A-016-평면도-지상3층(준공).pdf",
+  "page": 1,
+  "name": "yard_3F",
+  "method": "vector",
+  "precision": "approx",
+  "scale_mm_per_pt": 282.22,
+  "scale_source": "사용자 지정(--scale)",
+  "coord": "PDF 원본(회전 전) pt",
+  "d1": {
+    "mode": "min_over_frontage",
+    "distance_m": 32.69,
+    "distance_pt": 115.83,
+    "max_m": 43.93,
+    "frontage_m": 46.96,
+    "coverage": 1.0,
+    "seg_a": {
+      "pt": [
+        476.06,
+        370.8,
+        476.06,
+        401.05
+      ],
+      "length_m": 8.54,
+      "angle_deg": 90.0
+    },
+    "boundary_paths": 2,
+    "boundary_segments": 5,
+    "min_at": [
+      360.23,
+      302.7
+    ],
+    "foot_on_a": [
+      476.06,
+      302.7
+    ]
+  },
+  "distance_m": 32.69,
+  "overlay": "output/wf2/icheon/crops/vector_yard_3F.png",
+  "bbox": [
+    320.4,
+    274.4,
+    476.1,
+    561.9
+  ],
+  "bbox_raw": [
+    320.4,
+    274.4,
+    476.1,
+    561.9
+  ],
+  "note": "벡터 좌표 측정: 접안 구간 46.96m 전체에서 도크면~경계 수직거리 최솟값 32.69m (최대 43.93m). 축척 282.2mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님"
+}

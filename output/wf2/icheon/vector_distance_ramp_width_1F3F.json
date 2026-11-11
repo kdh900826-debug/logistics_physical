@@ -1,0 +1,65 @@
+{
+  "file": "input/icheon/drawings/A-015-평면도-지상2층(준공).pdf",
+  "page": 1,
+  "name": "ramp_width_1F3F",
+  "method": "vector",
+  "precision": "approx",
+  "scale_mm_per_pt": 282.22,
+  "scale_source": "사용자 지정(--scale)",
+  "coord": "PDF 원본(회전 전) pt",
+  "d1": {
+    "mode": "parallel",
+    "distance_m": 10.14,
+    "distance_pt": 35.94,
+    "angle_diff_deg": 0.0,
+    "seg_a": {
+      "pt": [
+        634.74,
+        251.03,
+        782.96,
+        251.03
+      ],
+      "length_m": 41.83,
+      "angle_deg": 0.0
+    },
+    "seg_b": {
+      "pt": [
+        634.44,
+        286.97,
+        783.13,
+        286.97
+      ],
+      "length_m": 41.97,
+      "angle_deg": 0.0
+    },
+    "snap_pt": [
+      [
+        700.0,
+        251.03
+      ],
+      [
+        700.0,
+        286.97
+      ]
+    ],
+    "snap_dist_pt": [
+      0.0,
+      0.0
+    ],
+    "dir_deg": 0.0
+  },
+  "overlay": "output/wf2/icheon/crops/vector_ramp_width_1F3F.png",
+  "bbox": [
+    700.0,
+    251.0,
+    700.0,
+    287.0
+  ],
+  "bbox_raw": [
+    700.0,
+    251.0,
+    700.0,
+    287.0
+  ],
+  "note": "벡터 좌표 측정: 선 사이 수직거리 10.14m. 축척 282.2mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님"
+}

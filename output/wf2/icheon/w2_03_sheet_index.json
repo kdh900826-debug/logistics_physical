@@ -1,0 +1,1874 @@
+{
+  "asset_id": "icheon",
+  "created_at": "2026-11-11T08:35:00+09:00",
+  "sheets": [
+    {
+      "sheet_id": "A-000-표지_p001",
+      "file": "input/icheon/drawings/A-000-표지.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1190.0,
+        840.0
+      ],
+      "text_hint": "(주)세방종합건설 창고시설 신축공사 준 공 도 면 (건 축) 2023. 12. 10. (주)탑인프라",
+      "thumb": "output/wf2/icheon/thumbs/A-000-표지_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-000-표지_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-000",
+      "title": "표지",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-0001-도면목록표_p001",
+      "file": "input/icheon/drawings/A-0001-도면목록표.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 (주)세방 물류센터 신축공사 도면목록표-1 1 / 100 1/1,000 건물배치도 비 고 도 면 명 A-000 도면 목록표 - 1 A-003 A-001 A-002 대지 종,횡 단면",
+      "thumb": "output/wf2/icheon/thumbs/A-0001-도면목록표_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-0001-도면목록표_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-0001",
+      "title": "도면목록표 (1/2)",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "도면 목록"
+    },
+    {
+      "sheet_id": "A-0001-도면목록표_p002",
+      "file": "input/icheon/drawings/A-0001-도면목록표.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 도면목록표-2 1 / 100 비 고 도 면 명 도 면 목 록 표 - 2 도면번호 건 축 축 척 도 면 명 도면번호 구 분 구 분 공 통 축 척 비 고 공 통 (주)세방 물류센터 신",
+      "thumb": "output/wf2/icheon/thumbs/A-0001-도면목록표_p002.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-0001-도면목록표_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-0001",
+      "title": "도면목록표 (2/2)",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "도면 목록"
+    },
+    {
+      "sheet_id": "A-001-건축개요서-(준공)_p001",
+      "file": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "* 건 물 명 세 서 * (사용승인) 구 분 용 도 바 닥 면 적 비 고 바 닥 면 적 건 축 면 적 건 폐 율 용 적 율 건물 최고 높이 도 로 현 황 정 화 조 음 용 수 주 차 11,608.95 / 29,152.00 x 100 = 39.82% 11.0 M 계획도로에 약 70.5 M접함 계 획 구 조 , 지붕 동 별 구 조 1 동 연 면 적 소 계 층 별 1 층 법 적 창고시설 : 267M2 당 1대 (43,795.98 /267 = 164.02 대) 시 상수도 침지식 막분리활성슬러지공법 (40 M3/일) 11,608.95 M2 ",
+      "thumb": "output/wf2/icheon/thumbs/A-001-건축개요서-(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-001-건축개요서-(준공)_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-001",
+      "title": "건축개요서(건물명세서) 사용승인본",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-001-건축개요서-(준공)_p002",
+      "file": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "* 건 물 명 세 서 * (3차변경) 구 분 용 도 바 닥 면 적 비 고 바 닥 면 적 건 축 면 적 건 폐 율 용 적 율 건물 최고 높이 도 로 현 황 정 화 조 음 용 수 주 차 11,608.95 / 29,152.00 x 100 = 39.82% 11.0 M 계획도로에 약 70.5 M접함 계 획 구 조 , 지붕 동 별 구 조 1 동 연 면 적 소 계 층 별 1 층 법 적 창고시설 : 267M2 당 1대 (43,795.98 /267 = 164.02 대) 시 상수도 MBR공법 (침지식활성슬러지공법) (10 M3/일) 11,608.95",
+      "thumb": "output/wf2/icheon/thumbs/A-001-건축개요서-(준공)_p002.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-001-건축개요서-(준공)_p002_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-001",
+      "title": "건축개요서(건물명세서) 3차변경본",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F",
+        "4F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-002-지적도 및 지적조서(준공)_p001",
+      "file": "input/icheon/drawings/A-002-지적도 및 지적조서(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "지적도 및 지적조서 1 / 1200 (주)세방 물류센터 신축공사 A-002 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 3 29-1 전 29 전 28 답 29-2 임 1-25 임 1-2 전 3 답 2-2 임 522-16 ",
+      "thumb": "output/wf2/icheon/thumbs/A-002-지적도 및 지적조서(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-002-지적도 및 지적조서(준공)_p001_titleblock.png",
+      "drawing_type": "측량성과도",
+      "sheet_no": "A-002",
+      "title": "지적도 및 지적조서",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-003-건물배치도(준공)_p001",
+      "file": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 (주)세방 물류센터 신축공사 건물 배치도 1 / 1,200 A-003 대 표 자 제 도 설 계 심 사 도 면 명 도 면 SIZE 도 면 번 호 집수정1500 집수정1500 흄관",
+      "thumb": "output/wf2/icheon/thumbs/A-003-건물배치도(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-003-건물배치도(준공)_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-003",
+      "title": "건물배치도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-004-대지종,횡단면도(준공)_p001",
+      "file": "input/icheon/drawings/A-004-대지종,횡단면도(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "창고부지 대지경계선 대지경계선 (주)세방 물류센터 신축공사 대지 종,횡 단면도 1 / 1,000 19,351 174,000 25,510 9,700 9,500 9,500 9,500 1,800 40,000 9,700 1,800 40,000 1 A 01 SCALE 1/1,000 1 A 01 대 지 횡 단 면 도 SCALE 1/1,000 G.L 6,000 사무실 하역장 창고 시설 창고 시설 창고 시설 창고 시설 (저온창고) (상온창고) (상온창고) (상온창고) 9,500 9,500 9,500 EL. 83.3 EL. 93.0 상온 창고 지상",
+      "thumb": "output/wf2/icheon/thumbs/A-004-대지종,횡단면도(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-004-대지종,횡단면도(준공)_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-004",
+      "title": "대지 종,횡단면도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-005-오수,우수계획도(준공)_p001",
+      "file": "input/icheon/drawings/A-005-오수,우수계획도(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "(주)세방 물류센터 신축공사 오수,우수 계획도 1 / 1,000 A-005 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 비관리청도로공사시행허가지 오수,우수 계획도 축척 : 1 / 1,000 집수정1500 집수정1500 흄",
+      "thumb": "output/wf2/icheon/thumbs/A-005-오수,우수계획도(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-005-오수,우수계획도(준공)_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-005",
+      "title": "오수,우수계획도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "대지 부속 계획도(오수,우수계획도)"
+    },
+    {
+      "sheet_id": "A-006-녹지계획도(준공)_p001",
+      "file": "input/icheon/drawings/A-006-녹지계획도(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "(주)세방 물류센터 신축공사 녹지 계획도 1 / 1,000 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 A-006 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일",
+      "thumb": "output/wf2/icheon/thumbs/A-006-녹지계획도(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-006-녹지계획도(준공)_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-006",
+      "title": "녹지계획도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "대지 부속 계획도(녹지계획도)"
+    },
+    {
+      "sheet_id": "A-007-1-소방동선계획도(준공)_p001",
+      "file": "input/icheon/drawings/A-007-1-소방동선계획도(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "(주)세방 물류센터 신축공사 소방동선 계획도 1 / 1,000 A-007-1 지상4층 하역장 지하1층 하역장 지상1층(동측) 하역장 지상3층 하역장 지상1층(서측) 하역장 소방동선 계획도 축척 : 1 / 1,000 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545",
+      "thumb": "output/wf2/icheon/thumbs/A-007-1-소방동선계획도(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-007-1-소방동선계획도(준공)_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-007-1",
+      "title": "소방동선계획도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "대지 부속 계획도(소방동선계획도)"
+    },
+    {
+      "sheet_id": "A-007-주차동선계획도(준공)_p001",
+      "file": "input/icheon/drawings/A-007-주차동선계획도(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "(주)세방 물류센터 신축공사 주차동선 계획도 1 / 1,000 A-007 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 주 차 대 수 법 정 설 치 법정주차대수 : 164.02대 / 실주차대수 : 165대 주 차 면 적 주",
+      "thumb": "output/wf2/icheon/thumbs/A-007-주차동선계획도(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-007-주차동선계획도(준공)_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-007",
+      "title": "주차동선계획도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "대지 부속 계획도(주차동선계획도)"
+    },
+    {
+      "sheet_id": "A-008-바닥면적산출표 -1(준공)_p001",
+      "file": "input/icheon/drawings/A-008-바닥면적산출표 -1(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "(주)세방물류센터 신축공사 바닥면적 산출표-1 1 / 1,200 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY TEL : 031-635-4545, FAX : 031-635-1700 경기도 이천시 설봉로 36 (중리동) (우: 467-808) (주) 이 천 건 축 사 사 무 소 11,000 130,000 33,000 174,000 99,000 174,000 바닥면적 산출식 부호 면 적 소 계 1 ",
+      "thumb": "output/wf2/icheon/thumbs/A-008-바닥면적산출표 -1(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-008-바닥면적산출표 -1(준공)_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-008",
+      "title": "바닥면적 산출표-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "층 구분은 본문 확인 필요(층별 산출 가능)"
+    },
+    {
+      "sheet_id": "A-009-1-냉,난방 설치 면적산출표_p001",
+      "file": "input/icheon/drawings/A-009-1-냉,난방 설치 면적산출표.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 계단실 코어 계단실 코어 계단실 코어 (주)세방물류센터 신축공사 창고시설(창고) 냉,난방기 미설치 지상4층 냉,난방설치 계획도 축척 : 1 / 800 냉,난방 설치 계획도 지상4층 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING ",
+      "thumb": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-009-1",
+      "title": "지상4층 냉,난방설치 계획도(면적산출)",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "쪽 순서 4F,B1,1F,2F,3F (표제란 기준)"
+    },
+    {
+      "sheet_id": "A-009-1-냉,난방 설치 면적산출표_p002",
+      "file": "input/icheon/drawings/A-009-1-냉,난방 설치 면적산출표.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "1 / 800 하역장 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 계단실 코어 계단실 코어 계단실 코어 계단실 코어 계단실 코어 계단실 코어 GNR 물류센터 신축공사 (창고시설) 냉,난방기 미설치 지하1층 냉,난방설치 계획도 축척 : 1 / 800 냉,난방 설치 계획도 지하1층 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 ",
+      "thumb": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p002.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p002_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-009-1",
+      "title": "지하1층 냉,난방설치 계획도(면적산출)",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "쪽 순서 4F,B1,1F,2F,3F (표제란 기준)"
+    },
+    {
+      "sheet_id": "A-009-1-냉,난방 설치 면적산출표_p003",
+      "file": "input/icheon/drawings/A-009-1-냉,난방 설치 면적산출표.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 계단실 코어 계단실 코어 계단실 코어 계단실 코어 계단실 코어 계단실 코어 (주)세방물류센터 신축공사 창고시설(창고) 냉,난방기 미설치 지상1층 냉,난방설치 계획도 축척 : 1 / 800 냉,난방 설치 계획도 지상1층 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 D",
+      "thumb": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p003.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p003_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-009-1",
+      "title": "지상1층 냉,난방설치 계획도(면적산출)",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "쪽 순서 4F,B1,1F,2F,3F (표제란 기준)"
+    },
+    {
+      "sheet_id": "A-009-1-냉,난방 설치 면적산출표_p004",
+      "file": "input/icheon/drawings/A-009-1-냉,난방 설치 면적산출표.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 계단실 코어 계단실 (주)세방물류센터 신축공사 냉난방 설치면적 : 115.68 m² 부자재 창고 사무실 부자재 창고 화장실 코어 (남,여) 창고시설(사무실) 냉,난방기 설치 창고시설(창고) 냉,난방기 미설치 지상2층 냉,난방설치 계획도 축척 : 1 / 800 냉,난방 설치 계획도 지상2층 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 ",
+      "thumb": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p004.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p004_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-009-1",
+      "title": "지상2층 냉,난방설치 계획도(면적산출)",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "쪽 순서 4F,B1,1F,2F,3F (표제란 기준)"
+    },
+    {
+      "sheet_id": "A-009-1-냉,난방 설치 면적산출표_p005",
+      "file": "input/icheon/drawings/A-009-1-냉,난방 설치 면적산출표.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 계단실 코어 계단실 코어 계단실 코어 계단실 코어 (주)세방물류센터 신축공사 창고시설(창고) 냉,난방기 미설치 지상3층 냉,난방설치 계획도 축척 : 1 / 800 냉,난방 설치 계획도 지상3층 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE D",
+      "thumb": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p005.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-009-1-냉,난방 설치 면적산출표_p005_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-009-1",
+      "title": "지상3층 냉,난방설치 계획도(면적산출)",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "쪽 순서 4F,B1,1F,2F,3F (표제란 기준)"
+    },
+    {
+      "sheet_id": "A-009-바닥면적산출표 -2(준공)_p001",
+      "file": "input/icheon/drawings/A-009-바닥면적산출표 -2(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY TEL : 031-635-4545, FAX : 031-635-1700 경기도 이천시 설봉로 36 (중리동) (우: 467-808) (주) 이 천 건 축 사 사 무 소 (주)세방물류센터 신축공사 바닥면적 산출표-2 1 / 1,200 바닥면적 산출식 부호 면 적 소 계 1 97.525 x 89.05 8,684.60 8,702.47 2 3 23.0375 ",
+      "thumb": "output/wf2/icheon/thumbs/A-009-바닥면적산출표 -2(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-009-바닥면적산출표 -2(준공)_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-009",
+      "title": "바닥면적 산출표-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "층 구분은 본문 확인 필요(층별 산출 가능)"
+    },
+    {
+      "sheet_id": "A-010-지하층가중평균 G.L높이 산출표(준공)_p001",
+      "file": "input/icheon/drawings/A-010-지하층가중평균 G.L높이 산출표(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "정면 9,700 9,700 배면 9,700 9,700 174,000 좌측면 총 길이 흙에 접한 면적 H = 546.504 M (1,513.80+125.40+764.99+764.99) = 3,169.18 M2 H = = 5.80 M (지하층 가중평균 G.L 높이) 99,252 8,700 1,000 8,700 1,000 186.76 m² 흙 : 764.99 m² 1,562.40 m² 흙 : 1,513.80 m² 174.00 m2 88,252 11,000 8,700 1,000 4,700 5,000 9,700 가중평균 G.L 높이 산출표 ",
+      "thumb": "output/wf2/icheon/thumbs/A-010-지하층가중평균 G.L높이 산출표(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-010-지하층가중평균 G.L높이 산출표(준공)_p001_titleblock.png",
+      "drawing_type": "면적표",
+      "sheet_no": "A-010",
+      "title": "지하층 가중평균 G.L 높이 산출표",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-011-공작물 옹벽 배치도_p001",
+      "file": "input/icheon/drawings/A-011-공작물 옹벽 배치도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "공작물 배치도 1/ 1,000 (주)세방 물류센터 신축공사 A-011 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 1.0 SUNKEN-1 3 1-2 332 1-14 73 전 54 전 구 □지적조서 지 목 비 고 계 위 치",
+      "thumb": "output/wf2/icheon/thumbs/A-011-공작물 옹벽 배치도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-011-공작물 옹벽 배치도_p001_titleblock.png",
+      "drawing_type": "배치도",
+      "sheet_no": "A-011",
+      "title": "공작물(옹벽) 배치도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-012-1-보강토옹벽단면도_p001",
+      "file": "input/icheon/drawings/A-012-1-보강토옹벽단면도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "(주)세방 물류센터 신축공사 NONE 블럭식보강토옹벽 단면도 1 C 00 블럭식보강토옹벽 단면도 SCALE 1/200 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 PROJECT TITLE 설 계 명 DRAWING NO 도",
+      "thumb": "output/wf2/icheon/thumbs/A-012-1-보강토옹벽단면도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-012-1-보강토옹벽단면도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-012-1",
+      "title": "옹벽 보강토옹벽단면도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "옹벽·공작물 상세"
+    },
+    {
+      "sheet_id": "A-012-2-식생보강토옹벽상세도_p001",
+      "file": "input/icheon/drawings/A-012-2-식생보강토옹벽상세도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "식생블럭 상세도 1/ 25 (주)세방 물류센터 신축공사 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 A-012-2 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY",
+      "thumb": "output/wf2/icheon/thumbs/A-012-2-식생보강토옹벽상세도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-012-2-식생보강토옹벽상세도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-012-2",
+      "title": "옹벽 식생보강토옹벽상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "옹벽·공작물 상세"
+    },
+    {
+      "sheet_id": "A-012-3-콘크리트 L형옹벽 상세도_p001",
+      "file": "input/icheon/drawings/A-012-3-콘크리트 L형옹벽 상세도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "L형옹벽 상세도 1/ 200 (주)세방 물류센터 신축공사 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 A-012-3 -. 뒷채움은 투수성이 좋은 사질토로 하고, 현장여건에 따라 적절한 배수설비를 설치하여 (상시안전율:1.",
+      "thumb": "output/wf2/icheon/thumbs/A-012-3-콘크리트 L형옹벽 상세도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-012-3-콘크리트 L형옹벽 상세도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-012-3",
+      "title": "옹벽 콘크리트 L형옹벽 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "옹벽·공작물 상세"
+    },
+    {
+      "sheet_id": "A-012-공작물 옹벽 전개도_p001",
+      "file": "input/icheon/drawings/A-012-공작물 옹벽 전개도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 공작물 전개도 1/ 1,000 (주)세방 물류센터 신축공사 A-012 1호-보강토옹벽 H=0.0 H=0.0 206,500 1호-보강토 옹벽 시작점 1호-보강토 옹벽 끝점 H=1",
+      "thumb": "output/wf2/icheon/thumbs/A-012-공작물 옹벽 전개도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-012-공작물 옹벽 전개도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-012",
+      "title": "옹벽 공작물 옹벽 전개도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "옹벽·공작물 상세"
+    },
+    {
+      "sheet_id": "A-013-평면도-지하1층(준공)_p001",
+      "file": "input/icheon/drawings/A-013-평면도-지하1층(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "174,000 지하1층 평면도 축척 : 1 / 800 525 99,000 99,525 174,000 525 99,000 99,525 77,000 22,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 9,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,",
+      "thumb": "output/wf2/icheon/thumbs/A-013-평면도-지하1층(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-013-평면도-지하1층(준공)_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-013",
+      "title": "지하1층 평면도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-014-평면도-지상1층(준공)_p001",
+      "file": "input/icheon/drawings/A-014-평면도-지상1층(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "창고시설 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상1층 평면도 축척 : 1 / 800 (주)세방물류센터 신축공사 지상1층 평면도 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X1",
+      "thumb": "output/wf2/icheon/thumbs/A-014-평면도-지상1층(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-014-평면도-지상1층(준공)_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-014",
+      "title": "지상1층 평면도",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-015-평면도-지상2층(준공)_p001",
+      "file": "input/icheon/drawings/A-015-평면도-지상2층(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "지상2층 평면도 축척 : 1 / 800 (주)세방물류센터 신축공사 지상2층 평면도 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 SLOPE - 9.0% 차량통로 부자재 창고 UP DN 여 PS 남 청소함 UP DN 프리액션 밸브실 DN 승용 승강기 1대 525 130,000 525 131,050 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000",
+      "thumb": "output/wf2/icheon/thumbs/A-015-평면도-지상2층(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-015-평면도-지상2층(준공)_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-015",
+      "title": "지상2층 평면도",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-016-평면도-지상3층(준공)_p001",
+      "file": "input/icheon/drawings/A-016-평면도-지상3층(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "지상3층 평면도 축척 : 1 / 800 (주)세방물류센터 신축공사 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 98,050 525 97,000 525 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 9,000 98,050 525 97,000 525 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 9,0",
+      "thumb": "output/wf2/icheon/thumbs/A-016-평면도-지상3층(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-016-평면도-지상3층(준공)_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-016",
+      "title": "지상3층 평면도",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-017-평면도-지상4층(준공)_p001",
+      "file": "input/icheon/drawings/A-017-평면도-지상4층(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "지상4층 평면도 축척 : 1 / 800 (주)세방물류센터 신축공사 지상4층 평면도 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 98,050 525 97,000 525 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 9,000 34,050 64,000 98,050 525 97,000 525 11,000 11,000 11,000 11,000 11,000 1",
+      "thumb": "output/wf2/icheon/thumbs/A-017-평면도-지상4층(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-017-평면도-지상4층(준공)_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-017",
+      "title": "지상4층 평면도",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-018-평면도-지붕(준공)_p001",
+      "file": "input/icheon/drawings/A-018-평면도-지붕(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지붕 평면도 축척 : 1 / 800 (주)세방 물류센터 신축공사 지붕 평면도 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X1",
+      "thumb": "output/wf2/icheon/thumbs/A-018-평면도-지붕(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-018-평면도-지붕(준공)_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-018",
+      "title": "지붕 평면도",
+      "building_id": "main",
+      "floors": [
+        "RF"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-019-입면도-1(준공)_p001",
+      "file": "input/icheon/drawings/A-019-입면도-1(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 축척 : 1 / 600 정 면 도 G.L (주)세방물류센터 신축공사 입 면 도 -1 1 / 600 축척 : 1 / 600 우 측 면 도 G.L X3 X4 X5 X6 X7 X8 X9",
+      "thumb": "output/wf2/icheon/thumbs/A-019-입면도-1(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-019-입면도-1(준공)_p001_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-019",
+      "title": "입면도-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-020-입면도-2(준공)_p001",
+      "file": "input/icheon/drawings/A-020-입면도-2(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 (주)세방물류센터 신축공사 입면도-2 1 / 600 G.L X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 화재확산 방지용",
+      "thumb": "output/wf2/icheon/thumbs/A-020-입면도-2(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-020-입면도-2(준공)_p001_titleblock.png",
+      "drawing_type": "입면도",
+      "sheet_no": "A-020",
+      "title": "입면도-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-021-단면도-횡(준공)_p001",
+      "file": "input/icheon/drawings/A-021-단면도-횡(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "축척 : 1 / 600 횡 단 면 도 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 G.L 9,700 9,500 1,800 40,000 9,700 9,500 9,500 9,500 1,800 40,000 1,000 8,700 Φ",
+      "thumb": "output/wf2/icheon/thumbs/A-021-단면도-횡(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-021-단면도-횡(준공)_p001_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-021",
+      "title": "단면도-횡",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F",
+        "4F",
+        "RF"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-022-단면도-종(준공)_p001",
+      "file": "input/icheon/drawings/A-022-단면도-종(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 축척 : 1 / 600 종 단 면 도 9,700 9,500 1,800 40,000 9,700 9,500 9,500 9,500 1,800 40,000 1,000 8,700 Φ300 ",
+      "thumb": "output/wf2/icheon/thumbs/A-022-단면도-종(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-022-단면도-종(준공)_p001_titleblock.png",
+      "drawing_type": "단면도",
+      "sheet_no": "A-022",
+      "title": "단면도-종",
+      "building_id": "main",
+      "floors": [
+        "B1",
+        "1F",
+        "2F",
+        "3F",
+        "4F",
+        "RF"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-023-지하1층 방화구획도-1(준공)_p001",
+      "file": "input/icheon/drawings/A-023-지하1층 방화구획도-1(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "174,000 525 99,000 99,525 174,000 525 99,000 99,525 77,000 22,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 9,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,0",
+      "thumb": "output/wf2/icheon/thumbs/A-023-지하1층 방화구획도-1(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-023-지하1층 방화구획도-1(준공)_p001_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-023",
+      "title": "지하1층 방화구획도-1",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-023-지하1층 방화구획도-1(준공)_p002",
+      "file": "input/icheon/drawings/A-023-지하1층 방화구획도-1(준공).pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "1 / 800 방화구획 산출식 (스프링쿨러 설치시 3,000 M2 마다 방화구획) X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 GNR 물류센터 신축공사 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 ",
+      "thumb": "output/wf2/icheon/thumbs/A-023-지하1층 방화구획도-1(준공)_p002.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-023-지하1층 방화구획도-1(준공)_p002_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-023",
+      "title": "지하1층 방화구획도-1 (방화구획 면적 산출)",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "방화구획 면적 산출 쪽; 표제란 설계명이 타 프로젝트(GNR)로 남아 있음(그리드·실명은 본건)"
+    },
+    {
+      "sheet_id": "A-024-지상1층 방화구획도-2(준공)_p001",
+      "file": "input/icheon/drawings/A-024-지상1층 방화구획도-2(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 (주)세방물류센터 신축공사 지상1층 방화구획도 1 / 800 A-014 방화문 개폐 방향 변경 방화문 개폐 방향 변경 방화문 개폐 방향 변경 방화문 개폐 방향 변경 방화문 개폐 방",
+      "thumb": "output/wf2/icheon/thumbs/A-024-지상1층 방화구획도-2(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-024-지상1층 방화구획도-2(준공)_p001_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-024",
+      "title": "지상1층 방화구획도-2",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-024-지상1층 방화구획도-2(준공)_p002",
+      "file": "input/icheon/drawings/A-024-지상1층 방화구획도-2(준공).pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상1층 방화구획도 1 / 800 2,872.98 m² 2,900.97 m² 2,872.98 m² 2,962.03 m² 지상1층 방화구획도 축척 : 1 / 800 방화구획 산출식 ",
+      "thumb": "output/wf2/icheon/thumbs/A-024-지상1층 방화구획도-2(준공)_p002.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-024-지상1층 방화구획도-2(준공)_p002_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-024",
+      "title": "지상1층 방화구획도-2 (방화구획 면적 산출)",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "방화구획 면적 산출 쪽"
+    },
+    {
+      "sheet_id": "A-025-지상2층 방화구획도-3(준공)_p001",
+      "file": "input/icheon/drawings/A-025-지상2층 방화구획도-3(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상2층 방화구획도 1 / 800 지상2층 방화구획도 축척 : 1 / 800 (주)세방물류센터 신축공사 A-025 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 ",
+      "thumb": "output/wf2/icheon/thumbs/A-025-지상2층 방화구획도-3(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-025-지상2층 방화구획도-3(준공)_p001_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-025",
+      "title": "지상2층 방화구획도-3",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-025-지상2층 방화구획도-3(준공)_p002",
+      "file": "input/icheon/drawings/A-025-지상2층 방화구획도-3(준공).pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 1 / 800 방화구획 산출식 (스프링쿨러 설치시 3,000 M2 마다 방화구획) X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16",
+      "thumb": "output/wf2/icheon/thumbs/A-025-지상2층 방화구획도-3(준공)_p002.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-025-지상2층 방화구획도-3(준공)_p002_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-025",
+      "title": "지상2층 방화구획도-3 (방화구획 면적 산출)",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "방화구획 면적 산출 쪽"
+    },
+    {
+      "sheet_id": "A-026-지상3층 방화구획도-4(준공)_p001",
+      "file": "input/icheon/drawings/A-026-지상3층 방화구획도-4(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 1 / 800 방화구획 산출식 (스프링쿨러 설치시 3,000 M2 마다 방화구획) X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16",
+      "thumb": "output/wf2/icheon/thumbs/A-026-지상3층 방화구획도-4(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-026-지상3층 방화구획도-4(준공)_p001_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-026",
+      "title": "지상3층 방화구획도-4",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-027-지상4층 방화구획도-5(준공)_p001",
+      "file": "input/icheon/drawings/A-027-지상4층 방화구획도-5(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 1 / 800 방화구획 산출식 (스프링쿨러 설치시 3,000 M2 마다 방화구획) X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16",
+      "thumb": "output/wf2/icheon/thumbs/A-027-지상4층 방화구획도-5(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-027-지상4층 방화구획도-5(준공)_p001_titleblock.png",
+      "drawing_type": "방화계획도",
+      "sheet_no": "A-027",
+      "title": "지상4층 방화구획도-5",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-028-지하1층 보행거리계획도-1(준공)_p001",
+      "file": "input/icheon/drawings/A-028-지하1층 보행거리계획도-1(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "525 창고시설 UP 저온전실-2 50,000 50,000 50,000 50,000 50,000 피난방향 지시 바닥라인 (랙 설치 금지구간) 피난방향 지시 바닥라인 (랙 설치 금지구간) (L=99.5M) (L=99.1M) (L=99.6M) (L=99.8M) (L=67.5M) (L=74.6M) (L=81.2M) (L=11.6M) 외부피난 174,000 525 99,000 99,525 525 99,000 99,525 77,000 22,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,0",
+      "thumb": "output/wf2/icheon/thumbs/A-028-지하1층 보행거리계획도-1(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-028-지하1층 보행거리계획도-1(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-028",
+      "title": "지하1층 보행거리계획도-1",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "피난 보행거리 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-029-지상1층 보행거리계획도-2(준공)_p001",
+      "file": "input/icheon/drawings/A-029-지상1층 보행거리계획도-2(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상1층 보행거리(피난층) 축척 : 1 / 800 법적기준「건축물의 피난ㆍ방화구조 등의 기준에 관한 규칙」11조 보행거리는 영 제34조제1항의 규정에 의한 거리의 2배 이하 거실의",
+      "thumb": "output/wf2/icheon/thumbs/A-029-지상1층 보행거리계획도-2(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-029-지상1층 보행거리계획도-2(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-029",
+      "title": "지상1층 보행거리계획도-2",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "피난 보행거리 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-030-지상2층 보행거리계획도-3(준공)_p001",
+      "file": "input/icheon/drawings/A-030-지상2층 보행거리계획도-3(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "지상2층 보행거리 축척 : 1 / 800 지상2층 보행거리 1 / 800 법적기준 (법49조, 령34조) 부터 계단에 이르는 보행거리가 30M이하가 되도록 설치. 피난층 또는 지상으로 통하는 직통계단을 거실의 각 부분으로 (주요 구조부가 내화구조 또는 불연재료로 된 건축물 50M이하) 건축물의 피난층 외의 층에서는 (주)세방물류센터 신축공사 A-030 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING B",
+      "thumb": "output/wf2/icheon/thumbs/A-030-지상2층 보행거리계획도-3(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-030-지상2층 보행거리계획도-3(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-030",
+      "title": "지상2층 보행거리계획도-3",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "피난 보행거리 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-031-지상3층 보행거리계획도-4(준공)_p001",
+      "file": "input/icheon/drawings/A-031-지상3층 보행거리계획도-4(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "지상3층 보행거리 A-031 (주)세방물류센터 신축공사 1 / 800 지상3층 보행거리 축척 : 1 / 800 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 법적기준 (법49조, 령34조) 부터 계단에 이르는 보행거리가 3",
+      "thumb": "output/wf2/icheon/thumbs/A-031-지상3층 보행거리계획도-4(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-031-지상3층 보행거리계획도-4(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-031",
+      "title": "지상3층 보행거리계획도-4",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "피난 보행거리 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-032-지상4층 보행거리계획도-5(준공)_p001",
+      "file": "input/icheon/drawings/A-032-지상4층 보행거리계획도-5(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "지상4층 보행거리 축척 : 1 / 800 지상4층 보행거리 1 / 800 법적기준 (법49조, 령34조) 부터 계단에 이르는 보행거리가 30M이하가 되도록 설치. 피난층 또는 지상으로 통하는 직통계단을 거실의 각 부분으로 (주요 구조부가 내화구조 또는 불연재료로 된 건축물 50M이하) 건축물의 피난층 외의 층에서는 (주)세방물류센터 신축공사 A-032 50000 (보행거리) 50000 (보행거리) PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면",
+      "thumb": "output/wf2/icheon/thumbs/A-032-지상4층 보행거리계획도-5(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-032-지상4층 보행거리계획도-5(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-032",
+      "title": "지상4층 보행거리계획도-5",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "피난 보행거리 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-033-지하1층 창호위치도-1(준공)_p001",
+      "file": "input/icheon/drawings/A-033-지하1층 창호위치도-1(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 2,100 (주)세방 물류센터 신축공사 지하1층 창호위치도 축척 : 1 / 800 지하1층 창호위치도 1 / 800 A-033 FSD 1 FSD 2 FS 2 FS 1-1 FS ",
+      "thumb": "output/wf2/icheon/thumbs/A-033-지하1층 창호위치도-1(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-033-지하1층 창호위치도-1(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-033",
+      "title": "지하1층 창호위치도-1",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "창호위치도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-034-지상1층 창호위치도-2(준공)_p001",
+      "file": "input/icheon/drawings/A-034-지상1층 창호위치도-2(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상1층 창호위치도 축척 : 1 / 800 지상1층 창호위치도 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X1",
+      "thumb": "output/wf2/icheon/thumbs/A-034-지상1층 창호위치도-2(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-034-지상1층 창호위치도-2(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-034",
+      "title": "지상1층 창호위치도-2",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "창호위치도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-035-지상2층 창호위치도-3(준공)_p001",
+      "file": "input/icheon/drawings/A-035-지상2층 창호위치도-3(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상2층 창호위치도 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y",
+      "thumb": "output/wf2/icheon/thumbs/A-035-지상2층 창호위치도-3(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-035-지상2층 창호위치도-3(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-035",
+      "title": "지상2층 창호위치도-3",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "창호위치도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-036-지상3층 창호위치도-4(준공)_p001",
+      "file": "input/icheon/drawings/A-036-지상3층 창호위치도-4(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상3층 창호위치도 1 / 800 지상3층 창호위치도 축척 : 1 / 800 (주)세방물류센터 신축공사 A-036 FSD 2 FSD 2 FSD 2 FSD 2 FSD 3 FSD 2 ",
+      "thumb": "output/wf2/icheon/thumbs/A-036-지상3층 창호위치도-4(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-036-지상3층 창호위치도-4(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-036",
+      "title": "지상3층 창호위치도-4",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "창호위치도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-037-지상4층 창호위치도-5(준공)_p001",
+      "file": "input/icheon/drawings/A-037-지상4층 창호위치도-5(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상4층 창호위치도 1 / 800 지상4층 창호위치도 축척 : 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X1",
+      "thumb": "output/wf2/icheon/thumbs/A-037-지상4층 창호위치도-5(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-037-지상4층 창호위치도-5(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-037",
+      "title": "지상4층 창호위치도-5",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "창호위치도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-038-창호일람표-1(준공)_p001",
+      "file": "input/icheon/drawings/A-038-창호일람표-1(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "창 호 도 - 1 1 / 100 (주)세방물류센터 신축공사 A-038 기 호 입 면 명 칭 유리 , 마감 재 료 위치 , 개소 기 호 입 면 명 칭 유리 , 마감 재 료 위치 , 개소 기 호 입 면 명 칭 유리 , 마감 재 료 위치 , 개소 1 ASD 1 SD 1 개 소 판넬 양여닫이 문 부속재료 일절포함 지하1층 = 발전기실 900 900 1,800 2,100 6 개 소 100 개 소 1,000 2,100 지하1층,1층 = 계단실,발전기실,기계실,펌프실 42x100x1.6t ST'L PL THK0.8 ST'L PL (전기용융아연도",
+      "thumb": "output/wf2/icheon/thumbs/A-038-창호일람표-1(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-038-창호일람표-1(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-038",
+      "title": "창호일람표-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "창호일람표"
+    },
+    {
+      "sheet_id": "A-039-창호일람표-2(준공)_p001",
+      "file": "input/icheon/drawings/A-039-창호일람표-2(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "창 호 도 - 2 1 / 100 (주)세방물류센터 신축공사 A-039 기 호 입 면 명 칭 유리 , 마감 재 료 위치 , 개소 기 호 입 면 명 칭 유리 , 마감 재 료 위치 , 개소 기 호 입 면 명 칭 유리 , 마감 재 료 위치 , 개소 내밀이창 및 고정창 115M/M 알루미늄 단열바 , 24M/M 로이복층유리 부속재료 일절포함 지상2층 : 사무실 , 자재창고 3 개 소 1 AW 1,600 2,000 2,000 6,000 바닥 진입창 소방관 지름20cm 이상의 역삼각형 표시 (붉은색, 반사 처리 등) 3 PW 고정창 부속재료 일",
+      "thumb": "output/wf2/icheon/thumbs/A-039-창호일람표-2(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-039-창호일람표-2(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-039",
+      "title": "창호일람표-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "창호일람표"
+    },
+    {
+      "sheet_id": "A-040-창호일람표-3(준공)_p001",
+      "file": "input/icheon/drawings/A-040-창호일람표-3(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "기 호 입 면 명 칭 유리 , 마감 재 료 위치 , 개소 기 호 입 면 명 칭 유리 , 마감 재 료 위치 , 개소 창 호 도 - 3 1 / 100 4 OHD 제작자 일식 (전동기포함) , 자동,반자동 포함 지하1층 =상온창고,저온전실 , 지상1층 : 창고 8,300 오버해드 도어 지하1층 : 냉장창고 (주)세방물류센터 신축공사 제작자 일식 창문: 640x335mm 이중아크릴 명창 상부씰 중간힌지 2\"수직트랙 상부힌지 하부힌지 케이블드럼 브라켓트 스프링 샤후드 충돌 보호판 (PE5mm) Bottom Pad L-PAD DOCK SEAL",
+      "thumb": "output/wf2/icheon/thumbs/A-040-창호일람표-3(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-040-창호일람표-3(준공)_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-040",
+      "title": "창호일람표-3",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "창호일람표"
+    },
+    {
+      "sheet_id": "A-041-재료마감표-1(준공)_p001",
+      "file": "input/icheon/drawings/A-041-재료마감표-1(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "(주)세방물류센터 신축공사 실내 재료 마감표-1 1 / 100 지 상 2 층 저온창고/ 걸 레 받 이 실 명 바 닥 바 탕 마 감 벽 천 정 지 하 1 층 마 감 바 탕 마 감 바 탕 마 감 바 탕 층 별 실내재료마감표-1 비 고 지 상 3 층 계단실 화장실(남,여) 지 상 1 층 침투식 콘크리트표면 강화제 PC 부재노출 / THK10 고강도계단용색소지타일 무늬코트 무늬코트 경량철골천정틀(CLIP-BAR) 열경화성수지천정재(SMC) 2,400 도기질타일(7x300x600) 마감 두께 상세 번호 80 50 THK18 시멘트몰탈 에폭시",
+      "thumb": "output/wf2/icheon/thumbs/A-041-재료마감표-1(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-041-재료마감표-1(준공)_p001_titleblock.png",
+      "drawing_type": "마감표",
+      "sheet_no": "A-041",
+      "title": "실내 재료마감표-1",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "2층 저온창고/실 포함 표(본문 확인)"
+    },
+    {
+      "sheet_id": "A-042-재료마감표-2(준공)_p001",
+      "file": "input/icheon/drawings/A-042-재료마감표-2(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "1. THK9 무석면텍스(집텍스)는 불연재 인증재료 적용 할 것 2. 바탕 마감은 확대평면 및 코어 확대평면도를 참조 할 것 3. 무근콘크리트 시공 시 7mmx150x150 용접철망, 또는 섬유보강재등 용도에 맞게 시공 할 것 4. 초평탄콘크리트는 FM3 (TR34-3rd) 5. 몰탈의 시멘트 : 모래 비율 = 1 : 3 6. 각실 벽,천장,바닥 단열은 건축물의 에너지 절약 설계기준에 맞게 적용 할 것 7. 기타 실내재료마감에 표현되지 않은 마감은 상세도 기준으로 마감 할 것 8. 철골조의 주요구조부위는 내화마감하고, 그 외의 부분",
+      "thumb": "output/wf2/icheon/thumbs/A-042-재료마감표-2(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-042-재료마감표-2(준공)_p001_titleblock.png",
+      "drawing_type": "마감표",
+      "sheet_no": "A-042",
+      "title": "실내 재료마감표-2",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "층 구분은 본문 확인 필요"
+    },
+    {
+      "sheet_id": "A-043-재료마감상세도(준공)_p001",
+      "file": "input/icheon/drawings/A-043-재료마감상세도(준공).pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 (주)세방물류센터 신축공사 실내 재료 마감상세도-1 1 / 100 (규격 : #8-150X150) 1. 무근(경량)콘크리트의 두께가 100이상시 와이어메쉬 배근 바닥 : 시멘트몰탈",
+      "thumb": "output/wf2/icheon/thumbs/A-043-재료마감상세도(준공)_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-043-재료마감상세도(준공)_p001_titleblock.png",
+      "drawing_type": "마감표",
+      "sheet_no": "A-043",
+      "title": "재료마감상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "바닥·벽 마감 단면 상세"
+    },
+    {
+      "sheet_id": "A-044-사무실 확대평면 및 단면도_p001",
+      "file": "input/icheon/drawings/A-044-사무실 확대평면 및 단면도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "2층 사무실 확대평면도 축척 : 1 / 150 (주)세방물류센터 신축공사 2층 사무실 확대평면도 1 / 150 1ST SL 3ND SL 9,500 축척 : 1 / 150 2층 사무실 단면도 창고시설 (창고) 창고시설 (창고) 창고시설 (사무소) 2ST SL 기 호 입 면 명 칭 유리 , 마감 재 료 위치 , 개소 미서기창 115M/M 알루미늄 단열바 , 24M/M 로이복층유리 부속재료 일절포함 2층 : 사무실 1 개 소 1 AW (열관류율1.5W/㎡k이하) T.3 P-타일마감 THK125 그라스울 판넬 (1시간 내화) T.9 석고보",
+      "thumb": "output/wf2/icheon/thumbs/A-044-사무실 확대평면 및 단면도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-044-사무실 확대평면 및 단면도_p001_titleblock.png",
+      "drawing_type": "평면도",
+      "sheet_no": "A-044",
+      "title": "2층 사무실 확대평면도 및 단면도",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "확대평면+단면 혼재"
+    },
+    {
+      "sheet_id": "A-059-저온바닥조성계획도_p001",
+      "file": "input/icheon/drawings/A-059-저온바닥조성계획도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 (주)세방물류센터 신축공사 지하1층 1 / 800 174000 130000 11000 11000 11000 11000 11000 11000 11000 11000 9000 99000",
+      "thumb": "output/wf2/icheon/thumbs/A-059-저온바닥조성계획도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-059-저온바닥조성계획도_p001_titleblock.png",
+      "drawing_type": "바닥상세도",
+      "sheet_no": "A-059",
+      "title": "저온바닥조성계획도",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "층 표기는 본문 확인 필요(저온창고 바닥)"
+    },
+    {
+      "sheet_id": "A-060-지하1층 초평탄조인트 및 타설계획도-1_p001",
+      "file": "input/icheon/drawings/A-060-지하1층 초평탄조인트 및 타설계획도-1.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지하1층 평면도 축척 : 1 / 800 (주)세방물류센터 신축공사 지하1층 초평탄 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14",
+      "thumb": "output/wf2/icheon/thumbs/A-060-지하1층 초평탄조인트 및 타설계획도-1_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-060-지하1층 초평탄조인트 및 타설계획도-1_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-060",
+      "title": "지하1층 초평탄조인트 및 타설계획도-1",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "초평탄 조인트 및 타설계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-061-지상1층 초평탄조인트 및 타설계획도-2_p001",
+      "file": "input/icheon/drawings/A-061-지상1층 초평탄조인트 및 타설계획도-2.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 창고시설 지상1층 평면도 축척 : 1 / 800 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6",
+      "thumb": "output/wf2/icheon/thumbs/A-061-지상1층 초평탄조인트 및 타설계획도-2_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-061-지상1층 초평탄조인트 및 타설계획도-2_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-061",
+      "title": "지상1층 초평탄조인트 및 타설계획도-2",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "초평탄 조인트 및 타설계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-062-지상3층 초평탄조인트 및 타설계획도-3_p001",
+      "file": "input/icheon/drawings/A-062-지상3층 초평탄조인트 및 타설계획도-3.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상3층 평면도 축척 : 1 / 800 (주)세방물류센터 신축공사 1 / 800 탈형식 Angle Joint #1 #2 #3 #4 #5 #6 초평탄 조인트 및 타설계획도 지상3층 ",
+      "thumb": "output/wf2/icheon/thumbs/A-062-지상3층 초평탄조인트 및 타설계획도-3_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-062-지상3층 초평탄조인트 및 타설계획도-3_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-062",
+      "title": "지상3층 초평탄조인트 및 타설계획도-3",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "초평탄 조인트 및 타설계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-063-지상4층 초평탄조인트 및 타설계획도-4_p001",
+      "file": "input/icheon/drawings/A-063-지상4층 초평탄조인트 및 타설계획도-4.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "지상4층 평면도 축척 : 1 / 800 탈형식 Angle Joint #1 #2 #3 #4 #5 초평탄 조인트 및 타설계획도 (주)세방물류센터 신축공사 지상4층 초평탄 1 / 800 조인트 및 타설계획도 A-063 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 98,050 525 97,000 525 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 9,000 34,050 ",
+      "thumb": "output/wf2/icheon/thumbs/A-063-지상4층 초평탄조인트 및 타설계획도-4_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-063-지상4층 초평탄조인트 및 타설계획도-4_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-063",
+      "title": "지상4층 초평탄조인트 및 타설계획도-4",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "초평탄 조인트 및 타설계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-064-지하1층 사이포닉 계획도-1_p001",
+      "file": "input/icheon/drawings/A-064-지하1층 사이포닉 계획도-1.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지하1층 사이포닉 계획도 축척 : 1 / 800 (주)세방물류센터 신축공사 사이포닉 계획도 1 / 800 (외벽 1.5m이후 공사는 토목공사) 지하1층 A-064 174,000 5",
+      "thumb": "output/wf2/icheon/thumbs/A-064-지하1층 사이포닉 계획도-1_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-064-지하1층 사이포닉 계획도-1_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-064",
+      "title": "지하1층 사이포닉 계획도-1",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "사이포닉 배수 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-065-지상1층 사이포닉 계획도-2_p001",
+      "file": "input/icheon/drawings/A-065-지상1층 사이포닉 계획도-2.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 525 88,000",
+      "thumb": "output/wf2/icheon/thumbs/A-065-지상1층 사이포닉 계획도-2_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-065-지상1층 사이포닉 계획도-2_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-065",
+      "title": "지상1층 사이포닉 계획도-2",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "사이포닉 배수 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-066-지상2층 사이포닉 계획도-3_p001",
+      "file": "input/icheon/drawings/A-066-지상2층 사이포닉 계획도-3.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 지상2층 사이포닉 ",
+      "thumb": "output/wf2/icheon/thumbs/A-066-지상2층 사이포닉 계획도-3_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-066-지상2층 사이포닉 계획도-3_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-066",
+      "title": "지상2층 사이포닉 계획도-3",
+      "building_id": "main",
+      "floors": [
+        "2F"
+      ],
+      "readable": true,
+      "note": "사이포닉 배수 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-067-지상3층 사이포닉 계획도-4_p001",
+      "file": "input/icheon/drawings/A-067-지상3층 사이포닉 계획도-4.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 98,050 525",
+      "thumb": "output/wf2/icheon/thumbs/A-067-지상3층 사이포닉 계획도-4_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-067-지상3층 사이포닉 계획도-4_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-067",
+      "title": "지상3층 사이포닉 계획도-4",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "사이포닉 배수 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-068-지상4층 사이포닉 계획도-5_p001",
+      "file": "input/icheon/drawings/A-068-지상4층 사이포닉 계획도-5.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 98,050 525",
+      "thumb": "output/wf2/icheon/thumbs/A-068-지상4층 사이포닉 계획도-5_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-068-지상4층 사이포닉 계획도-5_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-068",
+      "title": "지상4층 사이포닉 계획도-5",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "사이포닉 배수 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-069-지붕층 사이포닉 계획도-6_p001",
+      "file": "input/icheon/drawings/A-069-지붕층 사이포닉 계획도-6.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "X3 X4 X5 X6 X7 X8 X9 X10 X11 X12 X1 X2 X13 X14 X15 X16 X17 Y1 Y2 Y3 Y4 Y6 Y7 Y8 Y9 Y10 Y5 98,050 525 97,000 525 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 9,000 34,000 64,050 98,050 525 97,000 525 11,000 11,000 11,000 11,000 11,000 11,000 11,000 11,000 9,000 475 525 77,000 525 78,050 11",
+      "thumb": "output/wf2/icheon/thumbs/A-069-지붕층 사이포닉 계획도-6_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-069-지붕층 사이포닉 계획도-6_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-069",
+      "title": "지붕층 사이포닉 계획도-6",
+      "building_id": "main",
+      "floors": [
+        "RF"
+      ],
+      "readable": true,
+      "note": "사이포닉 배수 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-070-사이포닉 상세 계획도-7_p001",
+      "file": "input/icheon/drawings/A-070-사이포닉 상세 계획도-7.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 사이포닉 상세도 NONE 수평관 설치 상세도 입상관 설치 상세도 아웃렛 설치 일반 상세도 HDPE 배관 보온재 충진 슬리브강관 보온재 HDPE PIPE 실란트 D : 관의 구경 D",
+      "thumb": "output/wf2/icheon/thumbs/A-070-사이포닉 상세 계획도-7_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-070-사이포닉 상세 계획도-7_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-070",
+      "title": "사이포닉 상세 계획도-7",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "사이포닉 배수 계획도(상세)"
+    },
+    {
+      "sheet_id": "A-071-지하1층 충돌방지대 계획도-1_p001",
+      "file": "input/icheon/drawings/A-071-지하1층 충돌방지대 계획도-1.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지하1층 충동방지대 계획도 축척 : 1 / 800 (주)세방물류센터 신축공사 지하1층 1 / 800 충돌방지대 계획도 A-071 174,000 525 99,000 99,525 17",
+      "thumb": "output/wf2/icheon/thumbs/A-071-지하1층 충돌방지대 계획도-1_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-071-지하1층 충돌방지대 계획도-1_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-071",
+      "title": "지하1층 충돌방지대 계획도-1",
+      "building_id": "main",
+      "floors": [
+        "B1"
+      ],
+      "readable": true,
+      "note": "충돌방지대 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-072-지상1층 충돌방지대 계획도-2_p001",
+      "file": "input/icheon/drawings/A-072-지상1층 충돌방지대 계획도-2.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상1층 충돌방지대 계획도 축척 : 1 / 800 (주)세방물류센터 신축공사 지상1층 1 / 800 충돌방지대 계획도 A-072 창고시설 X3 X4 X5 X6 X7 X8 X9 X1",
+      "thumb": "output/wf2/icheon/thumbs/A-072-지상1층 충돌방지대 계획도-2_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-072-지상1층 충돌방지대 계획도-2_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-072",
+      "title": "지상1층 충돌방지대 계획도-2",
+      "building_id": "main",
+      "floors": [
+        "1F"
+      ],
+      "readable": true,
+      "note": "충돌방지대 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-073-지상3층 충돌방지대 계획도-3_p001",
+      "file": "input/icheon/drawings/A-073-지상3층 충돌방지대 계획도-3.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상3층 충돌방지대 계획도 축척 : 1 / 800 (주)세방물류센터 신축공사 지상3층 1 / 800 충돌방지대 계획도 A-073 X3 X4 X5 X6 X7 X8 X9 X10 X11",
+      "thumb": "output/wf2/icheon/thumbs/A-073-지상3층 충돌방지대 계획도-3_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-073-지상3층 충돌방지대 계획도-3_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-073",
+      "title": "지상3층 충돌방지대 계획도-3",
+      "building_id": "main",
+      "floors": [
+        "3F"
+      ],
+      "readable": true,
+      "note": "충돌방지대 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-074-지상4층 충돌방지대 계획도-4_p001",
+      "file": "input/icheon/drawings/A-074-지상4층 충돌방지대 계획도-4.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 지상4층 충돌방지대 계획도 축척 : 1 / 800 (주)세방물류센터 신축공사 지상4층 1 / 800 충돌방지대 계획도 A-074 X3 X4 X5 X6 X7 X8 X9 X10 X11",
+      "thumb": "output/wf2/icheon/thumbs/A-074-지상4층 충돌방지대 계획도-4_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-074-지상4층 충돌방지대 계획도-4_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-074",
+      "title": "지상4층 충돌방지대 계획도-4",
+      "building_id": "main",
+      "floors": [
+        "4F"
+      ],
+      "readable": true,
+      "note": "충돌방지대 계획도(평면 기반)"
+    },
+    {
+      "sheet_id": "A-075-충돌방지대 상세계획도-5_p001",
+      "file": "input/icheon/drawings/A-075-충돌방지대 상세계획도-5.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "충격보호대상세도-마 ㄱ Ø100X5T강관 (방청도장위O.P) ø19 셋트 앙카(스텐) -4EA (구조슬라브 Z=150이상매입) 입 면 도 평 면 도 Ø100X5T강관 (방청도장위O.P) 입 면 도 평 면 도 ø19 셋트 앙카(스텐) -4EA (구조슬라브 Z=150이상매입) 충돌보호대상세도-라 ㄷ E' : 1400 I Ø100X5T강관 (방청도장위O.P) 입 면 도 평 면 도 ø19 셋트 앙카(스텐) -4EA (구조슬라브 Z=150이상매입) 충격보호대상세도-바 입 면 도 방열문 보호대 상세도-사 E 2400 ※방열문업체 공사분 SCA",
+      "thumb": "output/wf2/icheon/thumbs/A-075-충돌방지대 상세계획도-5_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-075-충돌방지대 상세계획도-5_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-075",
+      "title": "충돌방지대 상세계획도-5",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "충돌방지대 상세"
+    },
+    {
+      "sheet_id": "A-076-지붕판넬 부분상세도_p001",
+      "file": "input/icheon/drawings/A-076-지붕판넬 부분상세도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "지붕판넬 부분 상세도 1 / 10 (주)세방물류센터 신축공사 PARAPET FLASHING C/S 0.5T 불소 코팅 @400 Ø4 BLIND RIVET THK 50 그라스울 판넬[불연재료] C/S 0.5T 불소 코팅 COVER FLASHING ST'L 1.6T 처마홈통 ST'L 3.2T FLAT BAR @1,000 C/S 0.5T 불소 코팅 L-ANGLE THK50 우레탄판넬(가등급/준불연재) PURLIN Ø6 ROOF BOLT C/S 0.5T 불소 코팅 ROOF END CAP 용마루하부 후레싱 C/S 0.5T 불소 코팅 PURL",
+      "thumb": "output/wf2/icheon/thumbs/A-076-지붕판넬 부분상세도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-076-지붕판넬 부분상세도_p001_titleblock.png",
+      "drawing_type": "외벽상세도",
+      "sheet_no": "A-076",
+      "title": "지붕판넬 부분상세도",
+      "building_id": "main",
+      "floors": [
+        "RF"
+      ],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-077-캐노피상세도_p001",
+      "file": "input/icheon/drawings/A-077-캐노피상세도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "SCG1 : H 450x200x9/14 V1 : P 139.8x4T 3000 SCB1 : H 350x175x7/11 P-22t (SS275) 6,000 THK0.5 C/S END CAP SUS 1.6T NON JOINT GUTTER ㅁ - 40 x 40 x 3T GUTTER SUPPORT 씨리콘 코킹 (구조 캐노피 철골 상세도참조) 캐노피 상세도 1 / 30 (주)세방물류센터 신축공사 PURLIN : LC-250x75x25x4.5 @1000 THK50그라스울판넬(준불연재) L THK50 그라스울판넬(준불연재) SCB1 : H 350",
+      "thumb": "output/wf2/icheon/thumbs/A-077-캐노피상세도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-077-캐노피상세도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-077",
+      "title": "캐노피 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "캐노피 구조·부재 상세"
+    },
+    {
+      "sheet_id": "A-078-블럭 시공상세도_p001",
+      "file": "input/icheon/drawings/A-078-블럭 시공상세도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 (주)세방물류센터 신축공사 블럭시공 상세도 1 / 100 (SPAN당 2개소 설치) Ø50 PVC 통수관 수평:#8-블록메쉬@600 수직:D10@800 점선:블럭보강 8\" 보강블럭",
+      "thumb": "output/wf2/icheon/thumbs/A-078-블럭 시공상세도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-078-블럭 시공상세도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-078",
+      "title": "블럭 시공상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": "옹벽 블럭 시공"
+    },
+    {
+      "sheet_id": "A-079-하역장 충돌방지턱 상세도_p001",
+      "file": "input/icheon/drawings/A-079-하역장 충돌방지턱 상세도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 (주)세방물류센터 신축공사 하역장 충돌방지턱 상세도 1 / 100 ㄱ-75X75X6T 합성고무범퍼 THK450 PC SLAB THK150 TOPPING CON'C(쇠흙손마감) TH",
+      "thumb": "output/wf2/icheon/thumbs/A-079-하역장 충돌방지턱 상세도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-079-하역장 충돌방지턱 상세도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-079",
+      "title": "하역장 충돌방지턱 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-080-휀스담장 상세도_p001",
+      "file": "input/icheon/drawings/A-080-휀스담장 상세도.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 설봉로 36 (중리동, 2층) (우: 17375) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 (주)세방물류센터 신축공사 휀스담장 상세도 1 / 100 SUS BOLT/N Ø5 Ø7 Ø11 U-BAND MESH FENCE SUS SS41 SS41 SS41 1800x2000 ",
+      "thumb": "output/wf2/icheon/thumbs/A-080-휀스담장 상세도_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-080-휀스담장 상세도_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-080",
+      "title": "휀스담장 상세도",
+      "building_id": "main",
+      "floors": [],
+      "readable": true,
+      "note": null
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p001",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 1,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 사 양 50A x 0.16m3/min x 8mH x 0.4kW 50A x 3.0m3/min x 3500mmAq x 3.7kW 기 계 기 구 일 람 표 C-103. 세정조 설비 ",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p001.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p001_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p1",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p002",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 2,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "3,600 200 1,500 200 1,500 200 A - A` 단 면 도 축 척 : 1/80 폭기조 3,700 200 3,500 유량조2실 3,500 200 3,700 200 1,500 200 1,500 200 3,600 1,500 2,000 3,000 500 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 ",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p002.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p002_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p2 단면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p003",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 3,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 축 척 : 1/80 3,200 200 3,600 9,500 200 200 2,400 200 200 4,500 200 3,300 200 9,500 200 1,500 200 1,5",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p003.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p003_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p3",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p004",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 4,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "3,500 200 3,700 폭기조 축 척 : 1/80 B - B` 단 면 도 200 4,500 200 3,300 200 900 200 9,500 유량조1실 1,500 2,000 3,000 500 3,500 200 3,700 2,800 700 방류조 200 4,500 200 3,300 1,600 900 200 9,500 M M 1,800 돋움 400 1,700 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAW",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p004.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p004_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p4 단면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p005",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 5,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 A-083 상부 구조 평면도 1/80 축 척 : 1/80 3,200 200 3,600 9,500 200 200 2,400 200 200 4,500 200 3,300 200 9,",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p005.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p005_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p5",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p006",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 6,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "3,500 200 3,700 막분리조 축 척 : 1/80 C - C` 단 면 도 200 5,400 200 2,400 200 900 200 9,500 유량조2실 1,500 2,000 3,000 500 3,500 200 3,700 세정조 1,800 돋움 200 5,400 200 2,400 200 900 200 9,500 400 1,800 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 ",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p006.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p006_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p6 단면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p007",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 7,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "200 MAT 기초 HD13@150 HD13@150 1000 3,700 HD13@150 HD13@150 (수직근) (수직근) (수직근) (수직근) 1W1 (T = 200) THK = 200mm HD13@200 HD13@200 (수평근) (수평근) 벽 체 일 람 표 1/ 50 400 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) ",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p007.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p007_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p7",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p008",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 8,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "처 리 계 통 도 축 척 : 1/NONE 막 분 리 조 INFLUENT 유량조정조 BLOWER B M 흡입펌프 FLOW-METER 폭 기 조 방 류 조 M M P P P LS LS 세 정 조 P EFFLUENT C-101 C-102 C-103 C-104 M-101 M-207 M-202 M-205 M-204 M-203 M-201 C-102 인제거설비 M-208 PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWI",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p008.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p008_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p8 처리계통도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p009",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 9,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "PROJECT TITLE 설 계 명 DRAWING NO 도면번호 축 척 검 토 SCALE CHEKED BY 일 자 제 도 DATE 도 면 명 DRAWING TITLE DRAWING BY 경기도 이천시 이섭대천로1454번길11 (3층) (우: 17348) (주) 이 천 건 축 사 사 무 소 TEL : 031-635-4545 / FAX : 031-635-1700 A-085 하부 평면도 1/80 하 부 평 면 도 축 척 : 1/80 3,200 200 3,600 9,500 200 200 2,400 200 200 4,500 200 3,300",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p009.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p009_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p9",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    },
+    {
+      "sheet_id": "A-081~090-정화조 도면_p010",
+      "file": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "page": 10,
+      "page_size_pt": [
+        1191.0,
+        841.0
+      ],
+      "text_hint": "축 척 : 1/80 상 부 평 면 도 3,200 200 3,600 9,500 200 200 2,400 200 방류조 유량조1실 200 1,500 200 1,500 5,400 A 막분리조 900 1,500 OPEN 900 OPEN 800 700 OPEN 700 750 유량조2실 폭기조 3,200 200 3,600 200 1,500 200 1,500 B` B C` C 200 1,200 500 1,500 300 500 700 400 * 패드끝선은 경계선안쪽으로 설치 * 기계실 패드 설치 H:200 3,300 PROJECT TITLE 설 ",
+      "thumb": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p010.png",
+      "titleblock": "output/wf2/icheon/thumbs/A-081~090-정화조 도면_p010_titleblock.png",
+      "drawing_type": "기타",
+      "sheet_no": "A-081~090",
+      "title": "정화조 도면 p10 상부평면도",
+      "building_id": null,
+      "floors": [],
+      "readable": true,
+      "note": "정화조 설비 도면"
+    }
+  ]
+}

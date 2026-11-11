@@ -1,0 +1,65 @@
+{
+  "file": "input/icheon/drawings/A-017-평면도-지상4층(준공).pdf",
+  "page": 1,
+  "name": "scale_check_4F",
+  "method": "vector",
+  "precision": "approx",
+  "scale_mm_per_pt": 282.22,
+  "scale_source": "사용자 지정(--scale)",
+  "coord": "PDF 원본(회전 전) pt",
+  "d1": {
+    "mode": "parallel",
+    "distance_m": 10.99,
+    "distance_pt": 38.94,
+    "angle_diff_deg": 0.0,
+    "seg_a": {
+      "pt": [
+        438.12,
+        274.4,
+        438.12,
+        359.37
+      ],
+      "length_m": 23.98,
+      "angle_deg": 90.0
+    },
+    "seg_b": {
+      "pt": [
+        477.06,
+        274.4,
+        477.06,
+        359.37
+      ],
+      "length_m": 23.98,
+      "angle_deg": 90.0
+    },
+    "snap_pt": [
+      [
+        438.12,
+        300.0
+      ],
+      [
+        477.06,
+        300.0
+      ]
+    ],
+    "snap_dist_pt": [
+      0.32,
+      0.36
+    ],
+    "dir_deg": 90.0
+  },
+  "overlay": "output/wf2/icheon/crops/vector_scale_check_4F.png",
+  "bbox": [
+    438.1,
+    300.0,
+    477.1,
+    300.0
+  ],
+  "bbox_raw": [
+    438.1,
+    300.0,
+    477.1,
+    300.0
+  ],
+  "note": "벡터 좌표 측정: 선 사이 수직거리 10.99m. 축척 282.2mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님"
+}

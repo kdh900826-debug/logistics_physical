@@ -1,0 +1,65 @@
+{
+  "file": "input/icheon/drawings/A-017-평면도-지상4층(준공).pdf",
+  "page": 1,
+  "name": "ramp_width_3F4F",
+  "method": "vector",
+  "precision": "approx",
+  "scale_mm_per_pt": 282.22,
+  "scale_source": "사용자 지정(--scale)",
+  "coord": "PDF 원본(회전 전) pt",
+  "d1": {
+    "mode": "parallel",
+    "distance_m": 8.99,
+    "distance_pt": 31.86,
+    "angle_diff_deg": 0.0,
+    "seg_a": {
+      "pt": [
+        324.83,
+        402.31,
+        324.83,
+        399.48
+      ],
+      "length_m": 0.8,
+      "angle_deg": 90.0
+    },
+    "seg_b": {
+      "pt": [
+        356.69,
+        327.51,
+        356.69,
+        405.4
+      ],
+      "length_m": 21.98,
+      "angle_deg": 90.0
+    },
+    "snap_pt": [
+      [
+        324.83,
+        400.5
+      ],
+      [
+        356.69,
+        400.0
+      ]
+    ],
+    "snap_dist_pt": [
+      0.0,
+      0.0
+    ],
+    "dir_deg": 90.0
+  },
+  "overlay": "output/wf2/icheon/crops/vector_ramp_width_3F4F.png",
+  "bbox": [
+    324.8,
+    400.0,
+    356.7,
+    400.5
+  ],
+  "bbox_raw": [
+    324.8,
+    400.0,
+    356.7,
+    400.5
+  ],
+  "note": "벡터 좌표 측정: 선 사이 수직거리 8.99m. 축척 282.2mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님"
+}

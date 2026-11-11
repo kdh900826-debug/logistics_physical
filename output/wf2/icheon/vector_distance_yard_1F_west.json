@@ -1,0 +1,53 @@
+{
+  "file": "input/icheon/drawings/A-014-평면도-지상1층(준공).pdf",
+  "page": 1,
+  "name": "yard_1F_west",
+  "method": "vector",
+  "precision": "approx",
+  "scale_mm_per_pt": 282.22,
+  "scale_source": "사용자 지정(--scale)",
+  "coord": "PDF 원본(회전 전) pt",
+  "d1": {
+    "mode": "min_over_frontage",
+    "distance_m": 26.95,
+    "distance_pt": 95.5,
+    "max_m": 32.65,
+    "frontage_m": 50.46,
+    "coverage": 0.626,
+    "seg_a": {
+      "pt": [
+        375.97,
+        398.32,
+        375.97,
+        313.35
+      ],
+      "length_m": 23.98,
+      "angle_deg": 90.0
+    },
+    "boundary_paths": 16,
+    "boundary_segments": 56,
+    "min_at": [
+      280.46,
+      508.1
+    ],
+    "foot_on_a": [
+      375.97,
+      508.1
+    ]
+  },
+  "distance_m": 26.95,
+  "overlay": "output/wf2/icheon/crops/vector_yard_1F_west.png",
+  "bbox": [
+    260.3,
+    329.3,
+    376.0,
+    542.1
+  ],
+  "bbox_raw": [
+    260.3,
+    329.3,
+    376.0,
+    542.1
+  ],
+  "note": "벡터 좌표 측정: 접안 구간 50.46m 전체에서 도크면~경계 수직거리 최솟값 26.95m (최대 32.65m). 축척 282.2mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님. 경계가 접안 구간의 63%만 덮음 — 나머지 구간 경계 점(b) 추가 필요"
+}

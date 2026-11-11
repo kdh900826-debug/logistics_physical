@@ -1,0 +1,53 @@
+{
+  "file": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+  "page": 1,
+  "name": "yard_1F_east",
+  "method": "vector",
+  "precision": "approx",
+  "scale_mm_per_pt": 423.33,
+  "scale_source": "사용자 지정(--scale)",
+  "coord": "PDF 원본(회전 전) pt",
+  "d1": {
+    "mode": "min_over_frontage",
+    "distance_m": 24.58,
+    "distance_pt": 58.06,
+    "max_m": 50.77,
+    "frontage_m": 66.0,
+    "coverage": 1.0,
+    "seg_a": {
+      "pt": [
+        610.43,
+        428.35,
+        571.63,
+        554.21
+      ],
+      "length_m": 55.75,
+      "angle_deg": 107.1
+    },
+    "boundary_paths": 17,
+    "boundary_segments": 70,
+    "min_at": [
+      622.69,
+      585.66
+    ],
+    "foot_on_a": [
+      567.21,
+      568.56
+    ]
+  },
+  "distance_m": 24.58,
+  "overlay": "output/wf2/icheon/crops/vector_yard_1F_east.png",
+  "bbox": [
+    556.3,
+    447.6,
+    725.2,
+    692.5
+  ],
+  "bbox_raw": [
+    556.3,
+    447.6,
+    725.2,
+    692.5
+  ],
+  "note": "벡터 좌표 측정: 접안 구간 66.0m 전체에서 도크면~경계 수직거리 최솟값 24.58m (최대 50.77m). 축척 423.3mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님"
+}

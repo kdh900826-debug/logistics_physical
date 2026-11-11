@@ -1,0 +1,65 @@
+{
+  "file": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+  "page": 1,
+  "name": "scale_check_site",
+  "method": "vector",
+  "precision": "approx",
+  "scale_mm_per_pt": 423.33,
+  "scale_source": "사용자 지정(--scale)",
+  "coord": "PDF 원본(회전 전) pt",
+  "d1": {
+    "mode": "point",
+    "distance_m": 29.12,
+    "distance_pt": 68.79,
+    "angle_diff_deg": 90.0,
+    "seg_a": {
+      "pt": [
+        597.18,
+        643.59,
+        205.16,
+        522.74
+      ],
+      "length_m": 173.66,
+      "angle_deg": 17.1
+    },
+    "seg_b": {
+      "pt": [
+        437.85,
+        663.79,
+        435.45,
+        671.58
+      ],
+      "length_m": 3.45,
+      "angle_deg": 107.1
+    },
+    "snap_pt": [
+      [
+        457.22,
+        600.44
+      ],
+      [
+        437.1,
+        666.23
+      ]
+    ],
+    "snap_dist_pt": [
+      0.06,
+      0.1
+    ],
+    "dir_deg": 17.1
+  },
+  "overlay": "output/wf2/icheon/crops/vector_scale_check_site.png",
+  "bbox": [
+    437.1,
+    600.4,
+    457.2,
+    666.2
+  ],
+  "bbox_raw": [
+    437.1,
+    600.4,
+    457.2,
+    666.2
+  ],
+  "note": "벡터 좌표 측정: 선 사이 점 간거리 29.12m. 축척 423.3mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님"
+}

@@ -1,0 +1,53 @@
+{
+  "file": "input/icheon/drawings/A-017-평면도-지상4층(준공).pdf",
+  "page": 1,
+  "name": "yard_4F",
+  "method": "vector",
+  "precision": "approx",
+  "scale_mm_per_pt": 282.22,
+  "scale_source": "사용자 지정(--scale)",
+  "coord": "PDF 원본(회전 전) pt",
+  "d1": {
+    "mode": "min_over_frontage",
+    "distance_m": 27.37,
+    "distance_pt": 96.97,
+    "max_m": 32.89,
+    "frontage_m": 54.98,
+    "coverage": 1.0,
+    "seg_a": {
+      "pt": [
+        589.55,
+        445.35,
+        568.24,
+        445.35
+      ],
+      "length_m": 6.01,
+      "angle_deg": 0.0
+    },
+    "boundary_paths": 16,
+    "boundary_segments": 60,
+    "min_at": [
+      762.1,
+      542.32
+    ],
+    "foot_on_a": [
+      762.1,
+      445.35
+    ]
+  },
+  "distance_m": 27.37,
+  "overlay": "output/wf2/icheon/crops/vector_yard_4F.png",
+  "bbox": [
+    436.4,
+    445.3,
+    782.2,
+    561.9
+  ],
+  "bbox_raw": [
+    436.4,
+    445.3,
+    782.2,
+    561.9
+  ],
+  "note": "벡터 좌표 측정: 접안 구간 54.98m 전체에서 도크면~경계 수직거리 최솟값 27.37m (최대 32.89m). 축척 282.2mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님"
+}

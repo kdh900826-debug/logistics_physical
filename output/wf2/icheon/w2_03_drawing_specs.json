@@ -1,0 +1,2616 @@
+{
+  "asset_id": "icheon",
+  "record_type": "drawing_specs",
+  "created_at": "2026-11-11T12:00:00+09:00",
+  "asset": {
+    "site_area_m2": [
+      {
+        "value": 29152.0,
+        "unit": "m2",
+        "raw_text": "11,608.95 / 29,152.00 x 100 = 39.82%",
+        "precision": "exact",
+        "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+        "source_locator": {
+          "page": 1,
+          "sheet_no": "A-001",
+          "bbox": [
+            669.7,
+            321.2,
+            813.6,
+            332.4
+          ],
+          "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c1.png",
+          "tile_box": [
+            0.379,
+            0.613,
+            0.654,
+            0.635
+          ],
+          "crop": "output/wf2/icheon/crops/asset_x_x_site_area_m2_0.png"
+        },
+        "method": "vision",
+        "confidence": "low",
+        "source_grade": "확정",
+        "status": null,
+        "conflict": false,
+        "note": "개요서 건폐율 산식의 대지면적(건축부지). 지적조서 계 20필지 29,994㎡ = 건축부지 29,152 + 도로부지 842(A-001·A-002 지적조서)",
+        "raw_value": 29152.0,
+        "raw_unit": "㎡",
+        "flags": []
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "building_id": "main",
+      "label": "1동 (창고동)",
+      "phase": "원준공",
+      "fields": {
+        "gross_floor_area_m2": [
+          {
+            "value": 43798.61,
+            "unit": "m2",
+            "raw_text": "연 면 적 43,798.61 M2",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-001",
+              "bbox": [
+                669.7,
+                290.2,
+                720.9,
+                301.4
+              ],
+              "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.379,
+                0.554,
+                0.477,
+                0.576
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_gross_floor_area_m2_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "건물명세서(사용승인). 3차변경본(A-001 p2)도 같은 합계",
+            "raw_value": 43798.61,
+            "raw_unit": "㎡",
+            "flags": []
+          }
+        ],
+        "floors_above": [
+          {
+            "value": 4,
+            "unit": "floor",
+            "raw_text": "1 층 / 2 층 / 3 층 / 4 층 (건물명세서 층별)",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-001",
+              "bbox": [
+                701.8,
+                200.0,
+                720.7,
+                211.2
+              ],
+              "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.44,
+                0.382,
+                0.476,
+                0.403
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_floors_above_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "2층은 사무실·부자재창고 메자닌(783.43㎡, 1층 FL~3층 FL 9,500 안). 단면도 A-021·A-022도 지상 1·(2)·3·4층+지붕. 최고높이 34.20M",
+            "raw_value": 4,
+            "raw_unit": "층",
+            "flags": []
+          }
+        ],
+        "floors_below": [
+          {
+            "value": 1,
+            "unit": "floor",
+            "raw_text": "지하1층 PC 구조 / RC 구조 16,458.96",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-001",
+              "bbox": [
+                698.3,
+                104.2,
+                728.1,
+                115.3
+              ],
+              "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.434,
+                0.199,
+                0.49,
+                0.22
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_floors_below_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "건물명세서·평면도(A-013 지하1층 평면도) 기준. 대지 종단면도(A-004)와 배치도(A-003)는 최하층을 '지하 2층'·'지하2층 하역장'으로 적음(실명 표기 차이) — 지하층은 1개 층뿐",
+            "raw_value": 1,
+            "raw_unit": "층",
+            "flags": []
+          }
+        ],
+        "structure_type": [
+          {
+            "value": "복합",
+            "unit": null,
+            "raw_text": "PC구조+RC구조+철골구조 / 판넬지붕",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-001",
+              "bbox": [
+                669.7,
+                367.7,
+                811.9,
+                378.9
+              ],
+              "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.379,
+                0.702,
+                0.65,
+                0.724
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_structure_type_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "층별: 지하1층 PC 구조 / RC 구조, 1~3층 PC 구조, 4층 철골조(건물명세서). 단면도 '기둥 : H 빔'(A-021)",
+            "flags": []
+          }
+        ],
+        "column_span_x_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "11,000 (X열 그리드 치수)",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-014-평면도-지상1층(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-014",
+              "bbox": [
+                391.1,
+                124.8,
+                403.4,
+                130.3
+              ],
+              "tile": "output/wf2/icheon/tiles/A-014-평면도-지상1층(준공)_p001/r0c0.png",
+              "tile_box": [
+                0.747,
+                0.238,
+                0.77,
+                0.249
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_column_span_x_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "장변(X) 방향 X3~X15 130,000 = 11,000 기본 + X14~X15 9,000. vector 그리드 1칸 10.99m(축척 확인)",
+            "raw_value": 11000,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ],
+        "column_span_y_m": [
+          {
+            "value": 11.0,
+            "unit": "m",
+            "raw_text": "11,000 (Y열 그리드 치수)",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-014-평면도-지상1층(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-014",
+              "bbox": [
+                199.8,
+                547.9,
+                205.3,
+                560.2
+              ],
+              "tile": "output/wf2/icheon/tiles/A-014-평면도-지상1층(준공)_p001/r1c0.png",
+              "tile_box": [
+                0.382,
+                0.207,
+                0.392,
+                0.24
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_column_span_y_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "단변(Y) 방향 Y1~Y9 88,000 — 11,000 기본, Y8~Y9 구간 10,525/11,050 표기",
+            "raw_value": 11000,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ],
+        "dock_count": [
+          {
+            "value": 77,
+            "unit": "ea",
+            "raw_text": "64대 - 접안주차 : (14.0x3.25=45.50 M2 x29대) (10.0x3.00=30.00 M2 x35대) / 3층 접안주차 13대는 법정주차대수 산정에서 제외 / 평면 '접안 주차 22대'·'접안주차 : 14대'·'접안주차 : 13대'·'접안주차 15대'",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-001",
+              "bbox": [
+                703.1,
+                618.3,
+                764.4,
+                629.1
+              ],
+              "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r1c1.png",
+              "tile_box": [
+                0.443,
+                0.398,
+                0.56,
+                0.427
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_dock_count_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "B1: 표(평면 주기 '접안 주차 22대') 22 / 접안 확인 22 / 제외 0 / 근거: 남측 창고 벽(1층 슬래브 하부 하역장)에 22구획 짧은 변 직각(단구획 14·장구획 8), 벽 OHD 20개소(A-033), 야드 FH:83.3 vs 지하층 EL. 84.3(A-004), 종단면 하역장 1,000 단차(A-022) / A-013·A-033·A-022\n1F: 표 서측 '접안주차 : 14대'·동측 '접안주차 : 13대' / 접안 확인 27(서 14 + 동 13) / 제외 0 / 근거: 서측 X3열·동측 X15열 창고 외벽에 직각, 벽 OHD(A-034 10개소), 야드 FH:93.0 vs 1층 EL. 94.0(A-004), 횡단면 1,000 단차(A-021), 화재확산 방지용 캐노피 / A-014·A-034\n2F: 화물주차 없음(사무실·부자재창고 메자닌)\n3F: 표(배치도 '접안13대', 개요서 '3층 접안주차 13대는 법정주차대수 산정에서 제외') 13 / 접안 확인 13 / 제외 0 / 근거: 지상3층 하역장(1층 위 데크) X7열 창고 서측 벽에 직각, X6~X7 하역장(4층 바닥 하부) 안, OHD(A-036 5개소), 야드 FH:102.5 vs 3층 EL. 103.5(A-004) / A-016·A-036. 3층 평면도에는 대수 주기 없음 — 구획 13개 직접 셈\n4F: 표 '접안주차 15대' / 접안 확인 15 / 제외 0(맞은편 확장형주차 18대·경차주차 2대는 일반 주차라 처음부터 미포함) / 근거: 3층 지붕 위 지상4층 하역장 데크, Y4열 창고 남측 벽에 직각, OHD(A-037 6개소), 야드 FH:112.0 vs 4층 EL. 113.0(A-004) / A-017·A-037\nOHD: 창호일람표(A-040) OHD-4 8,500×3,500 18개소·OHD-5 6,000×3,500 6개소(지하1층·지상1·3·4층 창고), OHD-1·2·3(지하1층 냉장창고). 도크레벨러 표기 없음, DOCK SEAL(L-PAD) 표기\n합산: 22 + 27 + 13 + 15 = 77 (개요서·주차동선계획도 주차계획표 '64대 - 접안주차'는 3층 13대를 뺀 수 — 64 + 13 = 77)",
+            "flags": [
+              "interpretation_needed"
+            ],
+            "raw_value": 77,
+            "raw_unit": "개"
+          }
+        ],
+        "ramp_type": [
+          {
+            "value": "양방향",
+            "unit": null,
+            "raw_text": "차량통로 SLOPE - 9.0% UP / DN (1층→3층), UP DN (3층→4층 램프)",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-014-평면도-지상1층(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-014",
+              "bbox": [
+                879.2,
+                254.2,
+                889.7,
+                265.2
+              ],
+              "tile": "output/wf2/icheon/tiles/A-014-평면도-지상1층(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.779,
+                0.485,
+                0.799,
+                0.506
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_ramp_type_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "건물 램프 2개소 모두 램프 1개소에 UP·DN 차로가 함께 표기: ①1층 동측 하역장~3층 하역장 '차량통로'(북측 Y8~Y9, A-014·A-015·A-016) ②3층 하역장~4층 하역장 램프(서측 X3~X4, 남서 모서리 곡선, A-016·A-017 'UP DN'). 화물차량동선 범례는 없음 — UP/DN 표기 기준",
+            "flags": []
+          }
+        ],
+        "ramp_form": [
+          {
+            "value": "직선형",
+            "unit": null,
+            "raw_text": "차량통로 SLOPE - 9.0%",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-015-평면도-지상2층(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-015",
+              "bbox": [
+                695.4,
+                262.3,
+                723.7,
+                268.4
+              ],
+              "tile": "output/wf2/icheon/tiles/A-015-평면도-지상2층(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.428,
+                0.501,
+                0.482,
+                0.513
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_ramp_form_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": true,
+            "note": "1층→3층 차량통로(북측 Y8~Y9 직선, 2층 통과). 램프 2개소 형상이 달라 후보 2개 — 도면 간 상충 아님",
+            "flags": []
+          },
+          {
+            "value": "곡선형",
+            "unit": null,
+            "raw_text": "S - 9.0% (3층→4층 램프, 레벨 103→105→107→109, 남서 모서리 곡선)",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-017-평면도-지상4층(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-017",
+              "bbox": [
+                411.0,
+                535.0,
+                428.5,
+                541.2
+              ],
+              "tile": "output/wf2/icheon/tiles/A-017-평면도-지상4층(준공)_p001/r1c0.png",
+              "tile_box": [
+                0.785,
+                0.172,
+                0.818,
+                0.189
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_ramp_form_1.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": true,
+            "note": "3층→4층 램프: 서측 직선 구간 뒤 남서 모서리 90° 곡선으로 4층 하역장 진입(L자). 램프 2개소 형상이 다름",
+            "flags": []
+          }
+        ],
+        "terrain_multi_level_access": [
+          {
+            "value": true,
+            "unit": null,
+            "raw_text": "지하2층 하역장 FH:83.3 / 지상1층(서측)·(동측) 하역장 FH:93.0",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-003",
+              "bbox": [
+                358.6,
+                602.9,
+                375.5,
+                613.6
+              ],
+              "tile": "output/wf2/icheon/tiles/A-003-건물배치도(준공)_p001/r1c0.png",
+              "tile_box": [
+                0.685,
+                0.356,
+                0.717,
+                0.385
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_terrain_multi_level_access_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "부지 경사로 2개 층에 직접 접안: 지하1층(배치도 표기 '지하2층') 남측 야드 FH 83.3과 지상1층 서·동측 야드 FH 93.0이 대지 도로(S - 9.0%)로 이어지고, 진입로는 북측 공도에서 S=10.0%로 1층 레벨 진입(A-003·A-007). 대지 종단면도(A-004) 남측 야드 EL. 83.3·북측 EL. 93.0, 대지 횡단면도 소방도로 EL. 93.0. 3층(FH 102.5)·4층(FH 112.0) 하역장은 건물 램프(차량통로·3→4층 램프)로만 연결",
+            "flags": []
+          }
+        ],
+        "ramp_slope_pct": [
+          {
+            "value": 10.0,
+            "unit": "pct",
+            "raw_text": "S=10.0%",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-003",
+              "bbox": [
+                807.9,
+                286.7,
+                821.0,
+                312.1
+              ],
+              "tile": "output/wf2/icheon/tiles/A-003-건물배치도(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.643,
+                0.548,
+                0.668,
+                0.596
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_ramp_slope_pct_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "가장 큰 값 = 대지 진입로(북동측 공도→1층 동측 야드, 화살표 3차로) S=10.0%(A-003·A-007). 그 밖: 건물 램프 1층→3층 차량통로 'SLOPE - 9.0%'(A-014·A-015·A-016), 3층→4층 램프 'S - 9.0%'(A-016·A-017), 대지 도로 1층 동측 야드→지하1층 야드 'S - 9.0%'(A-003 남동측), 진입부 'S - 5.0%'·'S - 8.0%'(A-003)",
+            "raw_value": 10.0,
+            "raw_unit": "%",
+            "flags": []
+          }
+        ],
+        "ramp_width_m": [
+          {
+            "value": 8.99,
+            "unit": "m",
+            "raw_text": "벡터 측정 8.99m (도면 치수 표기 없음)",
+            "precision": "approx",
+            "source_doc": "input/icheon/drawings/A-017-평면도-지상4층(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-017",
+              "bbox": [
+                324.8,
+                400.0,
+                356.7,
+                400.5
+              ],
+              "crop": "output/wf2/icheon/crops/vector_ramp_width_3F4F.png"
+            },
+            "method": "vector",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "벡터 좌표 측정: 선 사이 수직거리 8.99m. 축척 282.2mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님 / A-017 3층→4층 램프 직선부(X3~X4) 양측 램프 외곽선(1점쇄선) 사이. UP·DN 2차로, 차로 사이 선 3줄만 있고 연석·빗금 표기 없음 → 연석 안쪽 면 확인 불가(외곽선 기준이라 실제 주행면보다 클 수 있음). 다른 구간: 1층→3층 차량통로 10.14m(A-015 램프 박스 상·하 선 사이, 내부 선 3줄·연석 표기 없음). 대지 경사로(진입로 S=10.0%, 지하1층행 S - 9.0%)는 경계가 곡선 요소이거나 차로 구성(유입 1·유출 2)이 불명확해 미측정. 축척 1/800(25.4/72×800), 같은 쪽 그리드 X6~X7 10.99m(-0.1%)",
+            "flags": [
+              "interpretation_needed"
+            ],
+            "raw_value": 8.99,
+            "raw_unit": "m",
+            "precision_halfwidth": 0.005
+          }
+        ],
+        "wall_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "외벽 : THK150 그라스울판넬 (불연재료)(30분내화)",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-042-재료마감표-2(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-042",
+              "bbox": [
+                260.9,
+                386.2,
+                331.4,
+                393.6
+              ],
+              "tile": "output/wf2/icheon/tiles/A-042-재료마감표-2(준공)_p001/r0c0.png",
+              "tile_box": [
+                0.498,
+                0.738,
+                0.633,
+                0.752
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_wall_panel_core_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "실외재료마감표. 단면도 A-021·A-022 'THK150 그라스울 판넬(불연재료)(30분내화)'. 캐노피 판넬은 도면마다 다름(A-015·A-018 'T.50 그라스울 판넬(불연)', A-025·A-030 'T.50 EPS 판넬(준불연)', A-076 'THK50 우레탄판넬') — 외벽 아님",
+            "flags": []
+          }
+        ],
+        "roof_panel_core": [
+          {
+            "value": "글라스울",
+            "unit": null,
+            "raw_text": "THK220 그라스울 판넬(불연재료)(30분내화)",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-018-평면도-지붕(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-018",
+              "bbox": [
+                657.9,
+                220.4,
+                765.7,
+                227.8
+              ],
+              "tile": "output/wf2/icheon/tiles/A-018-평면도-지붕(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.356,
+                0.421,
+                0.562,
+                0.435
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_roof_panel_core_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "지붕 평면도. 실외재료마감표 A-042 '경사지붕 : THK220 그라스울판넬 (불연재료)(30분내화)', 단면도 A-021 동일. 지붕 마감 C/S 모노루프 0.6T",
+            "flags": []
+          }
+        ],
+        "warehouse_depth_m": [
+          {
+            "value": 130.0,
+            "unit": "m",
+            "raw_text": "130,000 (X3~X15)",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-014-평면도-지상1층(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-014",
+              "bbox": [
+                600.7,
+                116.3,
+                615.2,
+                121.8
+              ],
+              "tile": "output/wf2/icheon/tiles/A-014-평면도-지상1층(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.247,
+                0.222,
+                0.275,
+                0.233
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_warehouse_depth_m_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "1층: 서측(X3열)·동측(X15열) 외벽이 모두 도크면 — 도크면~반대편 도크면 그리드 치수 X3~X15 130,000(외곽 131,050). 다른 창고층: 지하1층 남측 도크 → Y방향 88,000(외곽 89,050, 남측 하역장 캐노피부 포함), 3층 서측 도크 → X6~X15 97,000(X6~X7 하역장 포함), 4층 남측 도크 → Y4~Y9 55,000(56,000). 창고층 중 가장 깊은 1층 값. 양측 도크라 소방대 진입 거리로는 해석 필요",
+            "flags": [
+              "interpretation_needed"
+            ],
+            "raw_value": 130000,
+            "raw_unit": "mm"
+          }
+        ],
+        "fire_compartment_max_m2": [
+          {
+            "value": 2966.4,
+            "unit": "m2",
+            "raw_text": "2,966.40 m² (저온전실-1)",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-023-지하1층 방화구획도-1(준공).pdf",
+            "source_locator": {
+              "page": 2,
+              "sheet_no": "A-023",
+              "bbox": [
+                635.4,
+                467.0,
+                669.8,
+                479.2
+              ],
+              "tile": "output/wf2/icheon/tiles/A-023-지하1층 방화구획도-1(준공)_p002/r0c1.png",
+              "tile_box": [
+                0.313,
+                0.892,
+                0.379,
+                0.915
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_fire_compartment_max_m2_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "방화구획 산출식(스프링쿨러 설치시 3,000 M2 마다 방화구획) 표기값 중 최대. 층별 최대: 지하1층 2,966.40(저온전실-1), 지상1층 2,962.03, 지상2층 783.43, 지상3층 2,835.44, 지상4층 2,628.18(A-023~A-027). A-023 p2 표제란 설계명이 타 프로젝트(GNR)로 남아 있으나 그리드·실명은 본건",
+            "raw_value": 2966.4,
+            "raw_unit": "㎡",
+            "flags": []
+          }
+        ],
+        "cold_insulation_material": [
+          {
+            "value": "우레탄",
+            "unit": null,
+            "raw_text": "저온창고/저온전실: THK150우레탄스프레이 / 내벽: THK100,150 우레탄 판넬 / THK150,220 우레탄뿜칠",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-041-재료마감표-1(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-041",
+              "bbox": [
+                247.5,
+                137.6,
+                322.7,
+                146.8
+              ],
+              "tile": "output/wf2/icheon/tiles/A-041-재료마감표-1(준공)_p001/r0c0.png",
+              "tile_box": [
+                0.473,
+                0.263,
+                0.616,
+                0.28
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_cold_insulation_material_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": false,
+            "note": "지하1층 저온창고·저온전실 바닥 단열 우레탄 스프레이, 내벽 우레탄 판넬(준불연), 천정 우레탄뿜칠(실내재료마감표-1). 저온바닥조성계획도 A-059 'T:150 우레탄 스프레이'",
+            "flags": []
+          }
+        ],
+        "cold_insulation_thickness_mm": [
+          {
+            "value": 150.0,
+            "unit": "mm",
+            "raw_text": "T:150 우레탄 스프레이",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-059-저온바닥조성계획도.pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-059",
+              "bbox": [
+                979.2,
+                550.9,
+                1072.5,
+                563.1
+              ],
+              "tile": "output/wf2/icheon/tiles/A-059-저온바닥조성계획도_p001/r1c2.png",
+              "tile_box": [
+                0.148,
+                0.215,
+                0.523,
+                0.248
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_cold_insulation_thickness_mm_0.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": true,
+            "note": "저온창고 바닥 단열(A-059 범례, A-041 'THK150우레탄스프레이'). 부위별 두께가 달라 후보 여럿",
+            "raw_value": 150,
+            "raw_unit": "mm",
+            "flags": []
+          },
+          {
+            "value": 100.0,
+            "unit": "mm",
+            "raw_text": "내벽: THK100,150 우레탄 판넬",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-041-재료마감표-1(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-041",
+              "bbox": [
+                613.1,
+                142.8,
+                707.3,
+                151.9
+              ],
+              "tile": "output/wf2/icheon/tiles/A-041-재료마감표-1(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.271,
+                0.273,
+                0.451,
+                0.29
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_cold_insulation_thickness_mm_1.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": true,
+            "note": "저온창고 내벽 우레탄 판넬 100·150(실내재료마감표-1) — 작은 값",
+            "raw_value": 100,
+            "raw_unit": "mm",
+            "flags": []
+          },
+          {
+            "value": 220.0,
+            "unit": "mm",
+            "raw_text": "THK150,220 우레탄뿜칠",
+            "precision": "exact",
+            "source_doc": "input/icheon/drawings/A-041-재료마감표-1(준공).pdf",
+            "source_locator": {
+              "page": 1,
+              "sheet_no": "A-041",
+              "bbox": [
+                828.3,
+                137.8,
+                902.3,
+                147.0
+              ],
+              "tile": "output/wf2/icheon/tiles/A-041-재료마감표-1(준공)_p001/r0c1.png",
+              "tile_box": [
+                0.682,
+                0.263,
+                0.823,
+                0.281
+              ],
+              "crop": "output/wf2/icheon/crops/building_main_x_cold_insulation_thickness_mm_2.png"
+            },
+            "method": "vision",
+            "confidence": "low",
+            "source_grade": "확정",
+            "status": null,
+            "conflict": true,
+            "note": "저온창고 천정 우레탄뿜칠 150·220 — 큰 값",
+            "raw_value": 220,
+            "raw_unit": "mm",
+            "flags": []
+          }
+        ]
+      },
+      "floors": [
+        {
+          "floor": "B1",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "지하1층 창고시설(저온,냉장창고)",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    857.3,
+                    104.8,
+                    937.0,
+                    114.6
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c1.png",
+                  "tile_box": [
+                    0.737,
+                    0.2,
+                    0.889,
+                    0.219
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_B1_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "실: 저온창고-1·2, 저온전실-1·2, 상온창고-1·2, 상온전실, 저온 기계실·전기실·발전기실(A-013)",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "혼합",
+                "unit": null,
+                "raw_text": "저온창고/ 저온전실 / 상온창고 (지하1층)",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-041-재료마감표-1(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-041",
+                  "bbox": [
+                    142.6,
+                    136.6,
+                    172.9,
+                    145.8
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-041-재료마감표-1(준공)_p001/r0c0.png",
+                  "tile_box": [
+                    0.272,
+                    0.261,
+                    0.33,
+                    0.278
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_B1_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "지하1층에 저온창고-1·2·저온전실-1·2와 상온창고-1·2·상온전실이 함께 있음(A-013·A-023). 개요서 용도 '창고시설(저온,냉장창고)'. 설계 온도 표기 없음(기계도면 미포함)",
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 16458.96,
+                "unit": "m2",
+                "raw_text": "바닥면적 16,458.96",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    963.0,
+                    104.2,
+                    999.0,
+                    115.3
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c2.png",
+                  "tile_box": [
+                    0.082,
+                    0.199,
+                    0.227,
+                    0.22
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_B1_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "건물명세서(사용승인) 층별 바닥면적",
+                "raw_value": 16458.96,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 9.7,
+                "unit": "m",
+                "raw_text": "9,700",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-021-단면도-횡(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-021",
+                  "bbox": [
+                    102.3,
+                    576.4,
+                    107.8,
+                    586.4
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-021-단면도-횡(준공)_p001/r1c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.284,
+                    0.206,
+                    0.311
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_B1_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 층고 치수열(9,700/9,500/9,500/9,500/1,800 = 40,000). 종단면도 A-022 동일. 레벨 EL. 84.3→94.0(A-004)",
+                "raw_value": 9700,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "접안 주차 22대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-013-평면도-지하1층(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-013",
+                  "bbox": [
+                    544.1,
+                    576.3,
+                    572.3,
+                    581.8
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-013-평면도-지하1층(준공)_p001/r1c1.png",
+                  "tile_box": [
+                    0.139,
+                    0.284,
+                    0.193,
+                    0.299
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_B1_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "창고 벽 OHD에 화물차 직각 접안(dock_count note 참조)",
+                "flags": []
+              }
+            ],
+            "yard_depth_m": [
+              {
+                "value": 20.12,
+                "unit": "m",
+                "raw_text": "벡터 측정 20.12m (도면 치수 표기 없음)",
+                "precision": "approx",
+                "source_doc": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-003",
+                  "bbox": [
+                    288.7,
+                    548.5,
+                    501.8,
+                    666.1
+                  ],
+                  "crop": "output/wf2/icheon/crops/vector_yard_B1.png"
+                },
+                "method": "vector",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "벡터 좌표 측정: 접안 구간 94.4m 전체에서 도크면~경계 수직거리 최솟값 20.12m (최대 28.83m). 축척 423.3mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님. 경계가 접안 구간의 56%만 덮음 — 나머지 구간 경계 점(b) 추가 필요 / A-003 배치도: 지하1층(배치도 '지하2층') 하역장 접안 구간 건물선(남측 외곽선, 구획 시작선)~반대편 일반주차 10대·정화조·일반주차 구획선·조경 녹지 경계 최솟값 — 일반주차 10대 구획선 앞. 지하1층 평면도(A-013)상 도크면(창고 남측 벽)은 Y1 건물선보다 안쪽(1층 슬래브 하부 하역장)인데 배치도는 구획을 건물선에서 시작하게 그림 — 도크면 기준 실제 깊이는 이보다 클 수 있음. 서측 끝·동측 끝 구간은 경계 미도시(coverage 56%, 야드가 대지 도로로 열림). 축척 1/1,200(423.33mm/pt), 29,115 치수 실측 29.12m(+0.02%)",
+                "flags": [
+                  "interpretation_needed"
+                ],
+                "raw_value": 20.12,
+                "raw_unit": "m",
+                "precision_halfwidth": 0.005
+              }
+            ],
+            "berth_length_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10.0x3.00=30.00 M2 x35대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    777.0,
+                    629.0,
+                    931.5,
+                    639.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r1c1.png",
+                  "tile_box": [
+                    0.584,
+                    0.427,
+                    0.879,
+                    0.456
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_B1_berth_length_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "개요서 주차면적 '64대 - 접안주차 : (14.0x3.25=45.50 M2 x29대) (10.0x3.00=30.00 M2 x35대)' — 층 구분 없음. 평면도에서 층마다 짧은 구획과 긴 구획이 섞여 있음(B1 14+8, 1F 12+15, 4F 9+6; 3F 13대는 64대에서 제외되나 같은 작도). 층 값은 작은 규격 10.0x3.00, 큰 규격 14.0x3.25는 note",
+                "flags": [
+                  "interpretation_needed"
+                ],
+                "raw_value": 10.0,
+                "raw_unit": "m"
+              }
+            ],
+            "berth_width_m": [
+              {
+                "value": 3.0,
+                "unit": "m",
+                "raw_text": "10.0x3.00=30.00 M2 x35대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    777.0,
+                    629.0,
+                    931.5,
+                    639.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r1c1.png",
+                  "tile_box": [
+                    0.584,
+                    0.427,
+                    0.879,
+                    0.456
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_B1_berth_width_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "개요서 주차면적 '64대 - 접안주차 : (14.0x3.25=45.50 M2 x29대) (10.0x3.00=30.00 M2 x35대)' — 층 구분 없음. 평면도에서 층마다 짧은 구획과 긴 구획이 섞여 있음(B1 14+8, 1F 12+15, 4F 9+6; 3F 13대는 64대에서 제외되나 같은 작도). 층 값은 작은 규격 10.0x3.00, 큰 규격 14.0x3.25는 note",
+                "flags": [
+                  "interpretation_needed"
+                ],
+                "raw_value": 3.0,
+                "raw_unit": "m"
+              }
+            ],
+            "under_yard_floor_height_m": [
+              {
+                "value": 8.7,
+                "unit": "m",
+                "raw_text": "1,000 / 8,700",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-021-단면도-횡(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-021",
+                  "bbox": [
+                    110.8,
+                    578.7,
+                    116.3,
+                    588.8
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-021-단면도-횡(준공)_p001/r1c0.png",
+                  "tile_box": [
+                    0.212,
+                    0.291,
+                    0.222,
+                    0.318
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_B1_under_yard_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "1층 서측·동측 하역장(야드 FH 93.0)이 지하1층 창고 위 데크 — 지하1층 FL~1층 야드 슬래브 8,700(1층 FL보다 1,000 낮음). 횡단면도 양측(A-021), 종단면도 A-022 북측 동일",
+                "raw_value": 8700,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "1F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "1 층 창고시설(창고)",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    857.3,
+                    153.0,
+                    912.8,
+                    164.2
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c1.png",
+                  "tile_box": [
+                    0.737,
+                    0.292,
+                    0.843,
+                    0.314
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_1F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "실내재료마감표 '물류창고 (상온창고)'",
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지 상 1 층 물류창고 (상온창고)",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-041-재료마감표-1(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-041",
+                  "bbox": [
+                    141.9,
+                    337.3,
+                    175.8,
+                    347.1
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-041-재료마감표-1(준공)_p001/r0c0.png",
+                  "tile_box": [
+                    0.271,
+                    0.644,
+                    0.336,
+                    0.663
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_1F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 11608.95,
+                "unit": "m2",
+                "raw_text": "바닥면적 11,608.95",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    963.0,
+                    153.5,
+                    999.0,
+                    164.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c2.png",
+                  "tile_box": [
+                    0.082,
+                    0.293,
+                    0.227,
+                    0.315
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_1F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "건물명세서(사용승인) 층별 바닥면적",
+                "raw_value": 11608.95,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 9.5,
+                "unit": "m",
+                "raw_text": "9,500",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-021-단면도-횡(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-021",
+                  "bbox": [
+                    102.3,
+                    531.1,
+                    107.8,
+                    541.1
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-021-단면도-횡(준공)_p001/r1c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.162,
+                    0.206,
+                    0.189
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_1F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "1층 FL~3층 FL(2층은 메자닌). 사무실 구역은 1ST SL~2ST SL 5,180(A-044)",
+                "raw_value": 9500,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "접안주차 : 14대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-014-평면도-지상1층(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-014",
+                  "bbox": [
+                    342.8,
+                    410.6,
+                    362.2,
+                    414.4
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-014-평면도-지상1층(준공)_p001/r0c0.png",
+                  "tile_box": [
+                    0.655,
+                    0.784,
+                    0.692,
+                    0.791
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_1F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "창고 벽 OHD에 화물차 직각 접안(dock_count note 참조)",
+                "flags": []
+              }
+            ],
+            "yard_depth_m": [
+              {
+                "value": 24.58,
+                "unit": "m",
+                "raw_text": "벡터 측정 24.58m (도면 치수 표기 없음)",
+                "precision": "approx",
+                "source_doc": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-003",
+                  "bbox": [
+                    556.3,
+                    447.6,
+                    725.2,
+                    692.5
+                  ],
+                  "crop": "output/wf2/icheon/crops/vector_yard_1F_east.png"
+                },
+                "method": "vector",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "벡터 좌표 측정: 접안 구간 66.0m 전체에서 도크면~경계 수직거리 최솟값 24.58m (최대 50.77m). 축척 423.3mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님 / A-003 배치도: 지상1층(동측) 하역장 도크면(동측 외벽선)~확장형주차 15대 섬 구획선 최솟값(상부 구간 맞은편은 진입 도로 경계). 같은 층 서측 하역장은 26.95m(A-014 1층 평면도, 서측 외벽 X3열~일반주차 14대 섬 구획선, coverage 63% — 섬 북쪽은 대지 도로로 열림, 그리드 10.99m). 층 값은 두 야드 중 작은 값. 축척 1/1,200, 29,115 치수 실측 29.12m",
+                "flags": [],
+                "raw_value": 24.58,
+                "raw_unit": "m",
+                "precision_halfwidth": 0.005
+              }
+            ],
+            "berth_length_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10.0x3.00=30.00 M2 x35대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    777.0,
+                    629.0,
+                    931.5,
+                    639.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r1c1.png",
+                  "tile_box": [
+                    0.584,
+                    0.427,
+                    0.879,
+                    0.456
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_1F_berth_length_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "개요서 주차면적 '64대 - 접안주차 : (14.0x3.25=45.50 M2 x29대) (10.0x3.00=30.00 M2 x35대)' — 층 구분 없음. 평면도에서 층마다 짧은 구획과 긴 구획이 섞여 있음(B1 14+8, 1F 12+15, 4F 9+6; 3F 13대는 64대에서 제외되나 같은 작도). 층 값은 작은 규격 10.0x3.00, 큰 규격 14.0x3.25는 note",
+                "flags": [
+                  "interpretation_needed"
+                ],
+                "raw_value": 10.0,
+                "raw_unit": "m"
+              }
+            ],
+            "berth_width_m": [
+              {
+                "value": 3.0,
+                "unit": "m",
+                "raw_text": "10.0x3.00=30.00 M2 x35대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    777.0,
+                    629.0,
+                    931.5,
+                    639.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r1c1.png",
+                  "tile_box": [
+                    0.584,
+                    0.427,
+                    0.879,
+                    0.456
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_1F_berth_width_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "개요서 주차면적 '64대 - 접안주차 : (14.0x3.25=45.50 M2 x29대) (10.0x3.00=30.00 M2 x35대)' — 층 구분 없음. 평면도에서 층마다 짧은 구획과 긴 구획이 섞여 있음(B1 14+8, 1F 12+15, 4F 9+6; 3F 13대는 64대에서 제외되나 같은 작도). 층 값은 작은 규격 10.0x3.00, 큰 규격 14.0x3.25는 note",
+                "flags": [
+                  "interpretation_needed"
+                ],
+                "raw_value": 3.0,
+                "raw_unit": "m"
+              }
+            ]
+          }
+        },
+        {
+          "floor": "2F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "2 층 창고시설(창고) 783.43 / 비고 사무실 : 115.68",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    974.1,
+                    169.0,
+                    999.0,
+                    180.2
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c2.png",
+                  "tile_box": [
+                    0.127,
+                    0.323,
+                    0.227,
+                    0.344
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_2F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "부자재창고(4개실) + 사무실 115.68㎡(A-015·A-044) — 1층 안 메자닌",
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 783.43,
+                "unit": "m2",
+                "raw_text": "바닥면적 783.43",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    974.1,
+                    169.0,
+                    999.0,
+                    180.2
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c2.png",
+                  "tile_box": [
+                    0.127,
+                    0.323,
+                    0.227,
+                    0.344
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_2F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "건물명세서(사용승인) 층별 바닥면적",
+                "raw_value": 783.43,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 4.32,
+                "unit": "m",
+                "raw_text": "2ST SL ~ 3ND SL 4,320",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-044-사무실 확대평면 및 단면도.pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-044",
+                  "bbox": [
+                    521.7,
+                    492.0,
+                    531.5,
+                    509.8
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-044-사무실 확대평면 및 단면도_p001/r0c1.png",
+                  "tile_box": [
+                    0.096,
+                    0.94,
+                    0.115,
+                    0.974
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_2F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "2층 사무실 단면도(1ST SL~2ST SL 5,180 + 4,320 = 9,500)",
+                "raw_value": 4320,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "3F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "3 층 창고시설(창고)",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    857.3,
+                    184.0,
+                    912.8,
+                    195.2
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c1.png",
+                  "tile_box": [
+                    0.737,
+                    0.351,
+                    0.843,
+                    0.373
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_3F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지 상 3 층 물류창고 (상온창고)",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-041-재료마감표-1(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-041",
+                  "bbox": [
+                    141.9,
+                    606.3,
+                    175.8,
+                    616.1
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-041-재료마감표-1(준공)_p001/r1c0.png",
+                  "tile_box": [
+                    0.271,
+                    0.365,
+                    0.336,
+                    0.392
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_3F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 8702.47,
+                "unit": "m2",
+                "raw_text": "바닥면적 8,702.47",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    967.6,
+                    184.5,
+                    999.0,
+                    195.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c2.png",
+                  "tile_box": [
+                    0.101,
+                    0.352,
+                    0.227,
+                    0.374
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_3F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "건물명세서(사용승인) 층별 바닥면적",
+                "raw_value": 8702.47,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 9.5,
+                "unit": "m",
+                "raw_text": "9,500",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-021-단면도-횡(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-021",
+                  "bbox": [
+                    102.3,
+                    486.2,
+                    107.8,
+                    496.2
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-021-단면도-횡(준공)_p001/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.929,
+                    0.206,
+                    0.948
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_3F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 층고 치수열",
+                "raw_value": 9500,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "접안13대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-003",
+                  "bbox": [
+                    358.1,
+                    446.9,
+                    367.2,
+                    462.8
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-003-건물배치도(준공)_p001/r0c0.png",
+                  "tile_box": [
+                    0.684,
+                    0.854,
+                    0.701,
+                    0.884
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_3F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "창고 벽 OHD에 화물차 직각 접안(dock_count note 참조)",
+                "flags": []
+              }
+            ],
+            "yard_depth_m": [
+              {
+                "value": 32.69,
+                "unit": "m",
+                "raw_text": "벡터 측정 32.69m (도면 치수 표기 없음)",
+                "precision": "approx",
+                "source_doc": "input/icheon/drawings/A-016-평면도-지상3층(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-016",
+                  "bbox": [
+                    320.4,
+                    274.4,
+                    476.1,
+                    561.9
+                  ],
+                  "crop": "output/wf2/icheon/crops/vector_yard_3F.png"
+                },
+                "method": "vector",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "벡터 좌표 측정: 접안 구간 46.96m 전체에서 도크면~경계 수직거리 최솟값 32.69m (최대 43.93m). 축척 282.2mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님 / A-016 3층 평면도: 도크면(X7열 창고 서측 벽 OHD 선)~3층→4층 램프 동측 벽(X4열 실선)·북측 서단 콘크리트 난간 최솟값. 램프 아래(남측)에 3층 레벨 일반주차 12대·확장형주차 7대. 축척 1/800, 그리드 X6~X7 10.99m",
+                "flags": [],
+                "raw_value": 32.69,
+                "raw_unit": "m",
+                "precision_halfwidth": 0.005
+              }
+            ],
+            "berth_length_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10.0x3.00=30.00 M2 x35대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    777.0,
+                    629.0,
+                    931.5,
+                    639.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r1c1.png",
+                  "tile_box": [
+                    0.584,
+                    0.427,
+                    0.879,
+                    0.456
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_3F_berth_length_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "개요서 주차면적 '64대 - 접안주차 : (14.0x3.25=45.50 M2 x29대) (10.0x3.00=30.00 M2 x35대)' — 층 구분 없음. 평면도에서 층마다 짧은 구획과 긴 구획이 섞여 있음(B1 14+8, 1F 12+15, 4F 9+6; 3F 13대는 64대에서 제외되나 같은 작도). 층 값은 작은 규격 10.0x3.00, 큰 규격 14.0x3.25는 note / 3층 구획 규격은 개요서에 따로 없음(평면 작도 동일)",
+                "flags": [
+                  "interpretation_needed"
+                ],
+                "raw_value": 10.0,
+                "raw_unit": "m"
+              }
+            ],
+            "berth_width_m": [
+              {
+                "value": 3.0,
+                "unit": "m",
+                "raw_text": "10.0x3.00=30.00 M2 x35대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    777.0,
+                    629.0,
+                    931.5,
+                    639.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r1c1.png",
+                  "tile_box": [
+                    0.584,
+                    0.427,
+                    0.879,
+                    0.456
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_3F_berth_width_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "개요서 주차면적 '64대 - 접안주차 : (14.0x3.25=45.50 M2 x29대) (10.0x3.00=30.00 M2 x35대)' — 층 구분 없음. 평면도에서 층마다 짧은 구획과 긴 구획이 섞여 있음(B1 14+8, 1F 12+15, 4F 9+6; 3F 13대는 64대에서 제외되나 같은 작도). 층 값은 작은 규격 10.0x3.00, 큰 규격 14.0x3.25는 note / 3층 구획 규격은 개요서에 따로 없음(평면 작도 동일)",
+                "flags": [
+                  "interpretation_needed"
+                ],
+                "raw_value": 3.0,
+                "raw_unit": "m"
+              }
+            ],
+            "under_yard_floor_height_m": [
+              {
+                "value": 8.335,
+                "unit": "m",
+                "raw_text": "8,335 / 1,165",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-022-단면도-종(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-022",
+                  "bbox": [
+                    182.8,
+                    489.0,
+                    188.3,
+                    499.0
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-022-단면도-종(준공)_p001/r0c0.png",
+                  "tile_box": [
+                    0.349,
+                    0.934,
+                    0.36,
+                    0.953
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_3F_under_yard_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "4층 하역장(FH 112.0)이 3층 창고 남측(Y1~Y4) 위 데크 — 3층 FL~4층 야드 슬래브 8,335, 그 위 4층 FL까지 1,165(종단면도)",
+                "raw_value": 8335,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ]
+          }
+        },
+        {
+          "floor": "4F",
+          "fields": {
+            "use": [
+              {
+                "value": "창고",
+                "unit": null,
+                "raw_text": "4 층 창고시설(창고)",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    857.3,
+                    199.5,
+                    912.8,
+                    210.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c1.png",
+                  "tile_box": [
+                    0.737,
+                    0.381,
+                    0.843,
+                    0.402
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_4F_use_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "temp": [
+              {
+                "value": "상온",
+                "unit": null,
+                "raw_text": "지 상 4 층 물류창고 (상온창고)",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-042-재료마감표-2(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-042",
+                  "bbox": [
+                    144.9,
+                    141.8,
+                    178.9,
+                    151.6
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-042-재료마감표-2(준공)_p001/r0c0.png",
+                  "tile_box": [
+                    0.277,
+                    0.271,
+                    0.342,
+                    0.29
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_4F_temp_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": null,
+                "flags": []
+              }
+            ],
+            "area_m2": [
+              {
+                "value": 6244.8,
+                "unit": "m2",
+                "raw_text": "바닥면적 6,244.80",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    967.6,
+                    200.0,
+                    999.0,
+                    211.2
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r0c2.png",
+                  "tile_box": [
+                    0.101,
+                    0.382,
+                    0.227,
+                    0.403
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_4F_area_m2_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "건물명세서(사용승인) 층별 바닥면적",
+                "raw_value": 6244.8,
+                "raw_unit": "㎡",
+                "flags": []
+              }
+            ],
+            "floor_height_m": [
+              {
+                "value": 9.5,
+                "unit": "m",
+                "raw_text": "9,500",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-021-단면도-횡(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-021",
+                  "bbox": [
+                    102.3,
+                    441.4,
+                    107.8,
+                    451.4
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-021-단면도-횡(준공)_p001/r0c0.png",
+                  "tile_box": [
+                    0.195,
+                    0.843,
+                    0.206,
+                    0.862
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_4F_floor_height_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "횡단면도 층고 치수열(4층 FL~지붕), 위 파라펫 1,800",
+                "raw_value": 9500,
+                "raw_unit": "mm",
+                "flags": []
+              }
+            ],
+            "direct_truck_access": [
+              {
+                "value": true,
+                "unit": null,
+                "raw_text": "접안주차 15대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-017-평면도-지상4층(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-017",
+                  "bbox": [
+                    640.6,
+                    466.6,
+                    676.2,
+                    473.9
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-017-평면도-지상4층(준공)_p001/r0c1.png",
+                  "tile_box": [
+                    0.323,
+                    0.891,
+                    0.391,
+                    0.905
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_4F_direct_truck_access_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "창고 벽 OHD에 화물차 직각 접안(dock_count note 참조)",
+                "flags": []
+              }
+            ],
+            "yard_depth_m": [
+              {
+                "value": 27.37,
+                "unit": "m",
+                "raw_text": "벡터 측정 27.37m (도면 치수 표기 없음)",
+                "precision": "approx",
+                "source_doc": "input/icheon/drawings/A-017-평면도-지상4층(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-017",
+                  "bbox": [
+                    436.4,
+                    445.3,
+                    782.2,
+                    561.9
+                  ],
+                  "crop": "output/wf2/icheon/crops/vector_yard_4F.png"
+                },
+                "method": "vector",
+                "confidence": "medium",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "벡터 좌표 측정: 접안 구간 54.98m 전체에서 도크면~경계 수직거리 최솟값 27.37m (최대 32.89m). 축척 282.2mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님 / A-017 4층 평면도: 도크면(Y4열 창고 남측 벽 OHD 선)~확장형주차 18대 구획선(동측 15구획)·남측 콘크리트 난간(H=1500) 최솟값 — 확장형주차 구획 앞. 3층 지붕 위 데크 야드. 축척 1/800, 그리드 X6~X7 10.99m",
+                "flags": [],
+                "raw_value": 27.37,
+                "raw_unit": "m",
+                "precision_halfwidth": 0.005
+              }
+            ],
+            "berth_length_m": [
+              {
+                "value": 10.0,
+                "unit": "m",
+                "raw_text": "10.0x3.00=30.00 M2 x35대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    777.0,
+                    629.0,
+                    931.5,
+                    639.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r1c1.png",
+                  "tile_box": [
+                    0.584,
+                    0.427,
+                    0.879,
+                    0.456
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_4F_berth_length_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "개요서 주차면적 '64대 - 접안주차 : (14.0x3.25=45.50 M2 x29대) (10.0x3.00=30.00 M2 x35대)' — 층 구분 없음. 평면도에서 층마다 짧은 구획과 긴 구획이 섞여 있음(B1 14+8, 1F 12+15, 4F 9+6; 3F 13대는 64대에서 제외되나 같은 작도). 층 값은 작은 규격 10.0x3.00, 큰 규격 14.0x3.25는 note",
+                "flags": [
+                  "interpretation_needed"
+                ],
+                "raw_value": 10.0,
+                "raw_unit": "m"
+              }
+            ],
+            "berth_width_m": [
+              {
+                "value": 3.0,
+                "unit": "m",
+                "raw_text": "10.0x3.00=30.00 M2 x35대",
+                "precision": "exact",
+                "source_doc": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+                "source_locator": {
+                  "page": 1,
+                  "sheet_no": "A-001",
+                  "bbox": [
+                    777.0,
+                    629.0,
+                    931.5,
+                    639.7
+                  ],
+                  "tile": "output/wf2/icheon/tiles/A-001-건축개요서-(준공)_p001/r1c1.png",
+                  "tile_box": [
+                    0.584,
+                    0.427,
+                    0.879,
+                    0.456
+                  ],
+                  "crop": "output/wf2/icheon/crops/floor_main_4F_berth_width_m_0.png"
+                },
+                "method": "vision",
+                "confidence": "low",
+                "source_grade": "확정",
+                "status": null,
+                "conflict": false,
+                "note": "개요서 주차면적 '64대 - 접안주차 : (14.0x3.25=45.50 M2 x29대) (10.0x3.00=30.00 M2 x35대)' — 층 구분 없음. 평면도에서 층마다 짧은 구획과 긴 구획이 섞여 있음(B1 14+8, 1F 12+15, 4F 9+6; 3F 13대는 64대에서 제외되나 같은 작도). 층 값은 작은 규격 10.0x3.00, 큰 규격 14.0x3.25는 note",
+                "flags": [
+                  "interpretation_needed"
+                ],
+                "raw_value": 3.0,
+                "raw_unit": "m"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "missing": [
+    {
+      "level": "asset",
+      "building_id": null,
+      "floor": null,
+      "field": "truck_yard_depth_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-003 건물배치도",
+        "A-004 대지 종,횡단면도",
+        "A-007 주차동선계획도",
+        "A-013~A-017 층별 평면도"
+      ],
+      "note": "하역장이 층별 옥외·데크 야드(지하1층 남측, 1층 서·동측, 3층 서측 데크, 4층 남측 데크) — 단지 단일 하역장 구획 깊이 치수 표기 없음(1층 X1~X3·X15~X17 그리드 22,000만). 층별 yard_depth_m(벡터 측정)을 기재함"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "completion_year",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-000 표지",
+        "A-001 건축개요서(사용승인·3차변경)"
+      ],
+      "note": "사용승인일 표기 없음. 표지 '준 공 도 면 (건 축) 2023. 12. 10.'은 준공도면 작성일(도면 일자 ≠ 사용승인일). 개요서 제목 '건물명세서 (사용승인)'에도 일자 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-001 건축개요서",
+        "A-013 지하1층 평면도",
+        "A-023 지하1층 방화구획도(면적 산출)",
+        "A-041 실내재료마감표-1"
+      ],
+      "note": "저온·냉동 면적 합계 표기 없음. 개요서 지하1층 16,458.96㎡는 '창고시설(저온,냉장창고)'이나 상온창고·상온전실 포함. 방화구획 면적 산출(A-023 p2) 구획별: 저온창고-1 2,434.95 / 저온창고-2 2,216.16 / 저온전실-1 2,966.40 / 저온전실-2 1,995.98 / 상온창고 2,512.96·2,549.22 / 상온전실 622.76 / 저온 기계실 268.94 ㎡ — 합산은 G2에서"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_ratio_pct",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-001 건축개요서"
+      ],
+      "note": "저온 면적 비율 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "dock_leveler_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-013~A-017 평면도",
+        "A-033~A-037 창호위치도",
+        "A-040 창호일람표-3"
+      ],
+      "note": "도크레벨러 표기 없음. 창호일람표 OHD(오버헤드도어) 상세에 'L-PAD DOCK SEAL S-3000HL'·'DOCK SEAL H'=3000', 도크범퍼(A-079 하역장 충돌방지턱 상세도 — 텍스트만 확인)만 있음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "turning_radius_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-003 건물배치도",
+        "A-007 주차동선계획도",
+        "A-014 1층 평면도",
+        "A-016 3층 평면도",
+        "A-017 4층 평면도"
+      ],
+      "note": "R 표기 없음(텍스트 검색 'R=·회전' 무). 램프상세도 없음. vector-radius(축척 지정) 결과 원 중심(W.P) 표시가 없어 측정 불가(centers 0) — A-003·A-007·A-014·A-016·A-017. 3층→4층 램프 남서 모서리 곡선부(동심원 3줄)만 있음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "freight_elevator_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-013~A-017 층별 평면도"
+      ],
+      "note": "평면도 승강기 표기는 '승용 승강기 1대'(계단#1·#4), '비상용 승강기 1대·2대'(계단#5·#6), '승객용엘리베이터(15인승,90m/min)'뿐 — 화물용 승강기 표기 없음. 승강기(기계) 도면 미포함"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "freight_elevator_capacity_t",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-013~A-017 층별 평면도"
+      ],
+      "note": "승강기(기계) 도면 미포함, 화물용 승강기 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "vrc_count",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-013~A-017 층별 평면도"
+      ],
+      "note": "수직반송기 표기 없음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "roof_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-018 지붕 평면도",
+        "A-001 건축개요서"
+      ],
+      "note": "지붕 면적 표기 없음(건축면적 11,608.95㎡만)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "solar_installed",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-018 지붕 평면도"
+      ],
+      "note": "태양광 표기 없음(지붕 C/S 모노루프 0.6T, THK220 그라스울 판넬)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "ohd_sprinkler_gap",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-033~A-037 창호위치도",
+        "A-040 창호일람표-3"
+      ],
+      "note": "소방(스프링클러) 도면 미포함. 하역장 OHD는 지하1층·지상1·3·4층 창고 벽에 있음"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "sprinkler_type",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-023~A-027 방화구획도"
+      ],
+      "note": "소방도면 미포함. 방화구획도에 '스프링쿨러 설치시 3,000 M2 마다 방화구획' 문구만 있음(형식 미기재)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "refrigerant",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-013 지하1층 평면도",
+        "A-059 저온바닥조성계획도"
+      ],
+      "note": "냉동냉장설비 도면 미포함(지하1층 '저온 기계실'·'냉각탑' 실명만)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "refrigeration_system",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-013 지하1층 평면도"
+      ],
+      "note": "냉동냉장설비 도면 미포함"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "cold_floor_heave_protection",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-059 저온바닥조성계획도",
+        "A-041 실내재료마감표-1",
+        "A-021·A-022 단면도"
+      ],
+      "note": "동상방지(히팅·통기관) 명시 없음. 저온바닥 구성: 표면강화제 / T:200 누름콘크리트 / P.E FILM 0.03t×2 / T:150 우레탄 스프레이 / TAR-URETHANE 방습 2회 / T:100 무근콘크리트 / T:70 통기배수판 / T:80 버림콘크리트(A-059 범례)"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "power_capacity_kw",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-0001 도면목록표"
+      ],
+      "note": "전기도면(단선결선도) 미포함"
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "floor": null,
+      "field": "transformer_capacity_kva",
+      "missing_reason": "도면없음",
+      "searched": [
+        "A-0001 도면목록표"
+      ],
+      "note": "전기도면 미포함"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021·A-022 단면도",
+        "A-013 지하1층 평면도",
+        "A-041·A-042 재료마감표"
+      ],
+      "note": "구조도면(구조일반사항 설계하중표) 미포함, 건축도면에 바닥 하중 표기 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021 횡단면도",
+        "A-022 종단면도",
+        "A-004 대지 종,횡단면도"
+      ],
+      "note": "단면도에 FL~FL 층고 치수만 있고 보·배관·천장 하단 치수 없음(창고는 'PC 부재노출'·'노출마감'). 구조·소방 도면 미포함"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021·A-022 단면도",
+        "A-014 1층 평면도",
+        "A-041·A-042 재료마감표"
+      ],
+      "note": "구조도면(구조일반사항 설계하중표) 미포함, 건축도면에 바닥 하중 표기 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021 횡단면도",
+        "A-022 종단면도",
+        "A-004 대지 종,횡단면도"
+      ],
+      "note": "단면도에 FL~FL 층고 치수만 있고 보·배관·천장 하단 치수 없음(창고는 'PC 부재노출'·'노출마감'). 구조·소방 도면 미포함"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021·A-022 단면도",
+        "A-015 2층 평면도",
+        "A-041·A-042 재료마감표"
+      ],
+      "note": "구조도면(구조일반사항 설계하중표) 미포함, 건축도면에 바닥 하중 표기 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021 횡단면도",
+        "A-022 종단면도",
+        "A-004 대지 종,횡단면도",
+        "A-044 사무실 확대평면 및 단면도"
+      ],
+      "note": "단면도에 FL~FL 층고 치수만 있고 보·배관·천장 하단 치수 없음(창고는 'PC 부재노출'·'노출마감'). 구조·소방 도면 미포함. 2층 사무실 천장고 표기 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021·A-022 단면도",
+        "A-016 3층 평면도",
+        "A-041·A-042 재료마감표"
+      ],
+      "note": "구조도면(구조일반사항 설계하중표) 미포함, 건축도면에 바닥 하중 표기 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021 횡단면도",
+        "A-022 종단면도",
+        "A-004 대지 종,횡단면도"
+      ],
+      "note": "단면도에 FL~FL 층고 치수만 있고 보·배관·천장 하단 치수 없음(창고는 'PC 부재노출'·'노출마감'). 구조·소방 도면 미포함"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021·A-022 단면도",
+        "A-017 4층 평면도",
+        "A-041·A-042 재료마감표"
+      ],
+      "note": "구조도면(구조일반사항 설계하중표) 미포함, 건축도면에 바닥 하중 표기 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021 횡단면도",
+        "A-022 종단면도",
+        "A-004 대지 종,횡단면도"
+      ],
+      "note": "단면도에 FL~FL 층고 치수만 있고 보·배관·천장 하단 치수 없음(창고는 'PC 부재노출'·'노출마감'). 구조·소방 도면 미포함"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "temp",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-015 2층 평면도",
+        "A-041 실내재료마감표-1",
+        "A-044 사무실 확대평면 및 단면도"
+      ],
+      "note": "2층 부자재창고·사무실 온도대 표기 없음(1·3·4층만 '(상온창고)')"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-007 주차동선계획도",
+        "A-003 건물배치도",
+        "A-013 지하1층 평면도"
+      ],
+      "note": "화물차량동선 범례 없음(주차동선계획도는 범례 없는 진행 화살표). 지하1층 야드는 건물 밖 옥외(대지 도로 S - 9.0%로 진입) — 진출입 개구부 없음, 개구부 내 기둥 없음. 남측 하역장(Y1열 슬래브 하부) 기둥은 접안 구획 사이(하역장 내부) — 판단 제외"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-007 주차동선계획도",
+        "A-003 건물배치도",
+        "A-014 1층 평면도",
+        "A-015 2층 평면도"
+      ],
+      "note": "화물차량동선 범례 없음. 서·동측 야드는 옥외(X1~X3·X15~X17 구간 기둥 없음). 1층→3층 차량통로 진입 개구부(동측 X15열, Y8~Y9 사이) 안 기둥 없음 — 기둥은 X15/Y8 모서리. 동선 표시 기준 판정 불가"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-007 주차동선계획도",
+        "A-003 건물배치도",
+        "A-016 3층 평면도"
+      ],
+      "note": "화물차량동선 범례 없음. 차량통로가 3층 하역장 북단(X6열, Y8~Y9)으로 들어오는 개구부 안 기둥 없음(모서리 X6/Y8·Y9). 하역장 X6~X7 구간 X6열 기둥은 접안 구획 사이 — 판단 제외"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "4F",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-007 주차동선계획도",
+        "A-003 건물배치도",
+        "A-017 4층 평면도"
+      ],
+      "note": "화물차량동선 범례 없음. 3층→4층 램프가 4층 하역장 서단(X7열, Y1~Y2 사이)으로 들어오는 개구부 안 기둥 없음(X7/Y2 모서리). 4층 하역장은 3층 지붕 데크로 기둥 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "under_yard_floor_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021 횡단면도",
+        "A-022 종단면도"
+      ],
+      "note": "1층 창고 서측(X3~X7 부근) 위에 3층 하역장 데크가 얹힘. 1층 FL~3층 야드 슬래브는 분할 치수 4,750 + 3,585(그 위 3층 FL까지 1,165)만 있고 단일 치수 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "under_yard_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-013 지하1층 평면도",
+        "A-021 횡단면도",
+        "A-022 종단면도"
+      ],
+      "note": "1층 서·동측 하역장(데크) 아래 지하1층 창고 — 면적 표기 없음, 벡터 면적 측정 미수행"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B1",
+      "field": "under_yard_clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021 횡단면도",
+        "A-022 종단면도"
+      ],
+      "note": "1층 서·동측 하역장(데크) 아래 지하1층 창고 — 보·슬래브 하단 치수 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "under_yard_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-014 1층 평면도",
+        "A-021 횡단면도",
+        "A-022 종단면도"
+      ],
+      "note": "3층 하역장(데크) 아래 1층 창고 — 면적 표기 없음, 벡터 면적 측정 미수행"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "under_yard_clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021 횡단면도",
+        "A-022 종단면도"
+      ],
+      "note": "3층 하역장(데크) 아래 1층 창고 — 보·슬래브 하단 치수 없음"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "under_yard_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-016 3층 평면도",
+        "A-021 횡단면도",
+        "A-022 종단면도"
+      ],
+      "note": "4층 하역장(데크) 아래 3층 창고 남측 Y1~Y4 — 면적 표기 없음, 벡터 면적 측정 미수행"
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "under_yard_clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-021 횡단면도",
+        "A-022 종단면도"
+      ],
+      "note": "4층 하역장(데크) 아래 3층 창고 남측 Y1~Y4 — 보·슬래브 하단 치수 없음"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "file": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+  "page": 1,
+  "name": "yard_B1_test",
+  "method": "vector",
+  "precision": "approx",
+  "scale_mm_per_pt": 423.33,
+  "scale_source": "사용자 지정(--scale)",
+  "coord": "PDF 원본(회전 전) pt",
+  "d1": {
+    "mode": "min_over_frontage",
+    "distance_m": 16.4,
+    "distance_pt": 38.74,
+    "max_m": 28.83,
+    "frontage_m": 94.4,
+    "coverage": 0.284,
+    "seg_a": {
+      "pt": [
+        548.68,
+        628.64,
+        253.66,
+        537.69
+      ],
+      "length_m": 130.69,
+      "angle_deg": 17.1
+    },
+    "boundary_paths": 4,
+    "boundary_segments": 11,
+    "min_at": [
+      490.39,
+      651.21
+    ],
+    "foot_on_a": [
+      501.8,
+      614.19
+    ]
+  },
+  "distance_m": 16.4,
+  "overlay": "output/wf2/icheon/crops/vector_yard_B1_test.png",
+  "bbox": [
+    288.7,
+    548.5,
+    509.3,
+    654.8
+  ],
+  "bbox_raw": [
+    288.7,
+    548.5,
+    509.3,
+    654.8
+  ],
+  "note": "벡터 좌표 측정: 접안 구간 94.4m 전체에서 도크면~경계 수직거리 최솟값 16.4m (최대 28.83m). 축척 423.3mm/pt(사용자 지정(--scale)). 도면 치수 표기 아님. 경계가 접안 구간의 28%만 덮음 — 나머지 구간 경계 점(b) 추가 필요"
+}

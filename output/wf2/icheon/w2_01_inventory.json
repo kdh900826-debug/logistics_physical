@@ -1,0 +1,1824 @@
+{
+  "asset_id": "icheon",
+  "created_at": "2026-11-11T08:34:01+09:00",
+  "im": [],
+  "drawings": [
+    {
+      "path": "input/icheon/drawings/A-000-표지.pdf",
+      "name": "A-000-표지.pdf",
+      "bytes": 66846,
+      "format": "pdf_scan",
+      "pages": 1,
+      "scan_page_ratio": 1.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 60,
+          "scan": true,
+          "size_mm": [
+            420,
+            296
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 2,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-0001-도면목록표.pdf",
+      "name": "A-0001-도면목록표.pdf",
+      "bytes": 175081,
+      "format": "pdf_vector",
+      "pages": 2,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1556,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 1514,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-001-건축개요서-(준공).pdf",
+      "name": "A-001-건축개요서-(준공).pdf",
+      "bytes": 217438,
+      "format": "pdf_vector",
+      "pages": 2,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2276,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 2483,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-002-지적도 및 지적조서(준공).pdf",
+      "name": "A-002-지적도 및 지적조서(준공).pdf",
+      "bytes": 244949,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1046,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-003-건물배치도(준공).pdf",
+      "name": "A-003-건물배치도(준공).pdf",
+      "bytes": 975185,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 4200,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-004-대지종,횡단면도(준공).pdf",
+      "name": "A-004-대지종,횡단면도(준공).pdf",
+      "bytes": 583606,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 748,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-005-오수,우수계획도(준공).pdf",
+      "name": "A-005-오수,우수계획도(준공).pdf",
+      "bytes": 755619,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2997,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-006-녹지계획도(준공).pdf",
+      "name": "A-006-녹지계획도(준공).pdf",
+      "bytes": 692927,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2748,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-007-1-소방동선계획도(준공).pdf",
+      "name": "A-007-1-소방동선계획도(준공).pdf",
+      "bytes": 611176,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2456,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-007-주차동선계획도(준공).pdf",
+      "name": "A-007-주차동선계획도(준공).pdf",
+      "bytes": 777371,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 3269,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-008-바닥면적산출표 -1(준공).pdf",
+      "name": "A-008-바닥면적산출표 -1(준공).pdf",
+      "bytes": 280968,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1326,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-009-1-냉,난방 설치 면적산출표.pdf",
+      "name": "A-009-1-냉,난방 설치 면적산출표.pdf",
+      "bytes": 233273,
+      "format": "pdf_vector",
+      "pages": 5,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 422,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 444,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 443,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 483,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 429,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-009-바닥면적산출표 -2(준공).pdf",
+      "name": "A-009-바닥면적산출표 -2(준공).pdf",
+      "bytes": 262730,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1104,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-010-지하층가중평균 G.L높이 산출표(준공).pdf",
+      "name": "A-010-지하층가중평균 G.L높이 산출표(준공).pdf",
+      "bytes": 180470,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1017,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-011-공작물 옹벽 배치도.pdf",
+      "name": "A-011-공작물 옹벽 배치도.pdf",
+      "bytes": 190444,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1715,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-012-1-보강토옹벽단면도.pdf",
+      "name": "A-012-1-보강토옹벽단면도.pdf",
+      "bytes": 158359,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2154,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-012-2-식생보강토옹벽상세도.pdf",
+      "name": "A-012-2-식생보강토옹벽상세도.pdf",
+      "bytes": 1029177,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1242,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-012-3-콘크리트 L형옹벽 상세도.pdf",
+      "name": "A-012-3-콘크리트 L형옹벽 상세도.pdf",
+      "bytes": 284711,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2943,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-012-공작물 옹벽 전개도.pdf",
+      "name": "A-012-공작물 옹벽 전개도.pdf",
+      "bytes": 189781,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1695,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-013-평면도-지하1층(준공).pdf",
+      "name": "A-013-평면도-지하1층(준공).pdf",
+      "bytes": 606288,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2446,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-014-평면도-지상1층(준공).pdf",
+      "name": "A-014-평면도-지상1층(준공).pdf",
+      "bytes": 370805,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1617,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-015-평면도-지상2층(준공).pdf",
+      "name": "A-015-평면도-지상2층(준공).pdf",
+      "bytes": 215876,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1161,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-016-평면도-지상3층(준공).pdf",
+      "name": "A-016-평면도-지상3층(준공).pdf",
+      "bytes": 276318,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1777,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-017-평면도-지상4층(준공).pdf",
+      "name": "A-017-평면도-지상4층(준공).pdf",
+      "bytes": 261644,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1437,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-018-평면도-지붕(준공).pdf",
+      "name": "A-018-평면도-지붕(준공).pdf",
+      "bytes": 144799,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 991,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-019-입면도-1(준공).pdf",
+      "name": "A-019-입면도-1(준공).pdf",
+      "bytes": 256297,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 702,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-020-입면도-2(준공).pdf",
+      "name": "A-020-입면도-2(준공).pdf",
+      "bytes": 184928,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 593,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-021-단면도-횡(준공).pdf",
+      "name": "A-021-단면도-횡(준공).pdf",
+      "bytes": 514533,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2129,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-022-단면도-종(준공).pdf",
+      "name": "A-022-단면도-종(준공).pdf",
+      "bytes": 374326,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1744,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-023-지하1층 방화구획도-1(준공).pdf",
+      "name": "A-023-지하1층 방화구획도-1(준공).pdf",
+      "bytes": 848969,
+      "format": "pdf_vector",
+      "pages": 2,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2313,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 686,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-024-지상1층 방화구획도-2(준공).pdf",
+      "name": "A-024-지상1층 방화구획도-2(준공).pdf",
+      "bytes": 544747,
+      "format": "pdf_vector",
+      "pages": 2,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1755,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 498,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-025-지상2층 방화구획도-3(준공).pdf",
+      "name": "A-025-지상2층 방화구획도-3(준공).pdf",
+      "bytes": 323362,
+      "format": "pdf_vector",
+      "pages": 2,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1206,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 428,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-026-지상3층 방화구획도-4(준공).pdf",
+      "name": "A-026-지상3층 방화구획도-4(준공).pdf",
+      "bytes": 232903,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 528,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-027-지상4층 방화구획도-5(준공).pdf",
+      "name": "A-027-지상4층 방화구획도-5(준공).pdf",
+      "bytes": 231563,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 455,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-028-지하1층 보행거리계획도-1(준공).pdf",
+      "name": "A-028-지하1층 보행거리계획도-1(준공).pdf",
+      "bytes": 684434,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2992,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-029-지상1층 보행거리계획도-2(준공).pdf",
+      "name": "A-029-지상1층 보행거리계획도-2(준공).pdf",
+      "bytes": 367871,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1801,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-030-지상2층 보행거리계획도-3(준공).pdf",
+      "name": "A-030-지상2층 보행거리계획도-3(준공).pdf",
+      "bytes": 236773,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1090,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-031-지상3층 보행거리계획도-4(준공).pdf",
+      "name": "A-031-지상3층 보행거리계획도-4(준공).pdf",
+      "bytes": 414103,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1833,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-032-지상4층 보행거리계획도-5(준공).pdf",
+      "name": "A-032-지상4층 보행거리계획도-5(준공).pdf",
+      "bytes": 355192,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1376,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-033-지하1층 창호위치도-1(준공).pdf",
+      "name": "A-033-지하1층 창호위치도-1(준공).pdf",
+      "bytes": 790747,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2595,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-034-지상1층 창호위치도-2(준공).pdf",
+      "name": "A-034-지상1층 창호위치도-2(준공).pdf",
+      "bytes": 302192,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1496,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-035-지상2층 창호위치도-3(준공).pdf",
+      "name": "A-035-지상2층 창호위치도-3(준공).pdf",
+      "bytes": 214609,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1129,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-036-지상3층 창호위치도-4(준공).pdf",
+      "name": "A-036-지상3층 창호위치도-4(준공).pdf",
+      "bytes": 250753,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1504,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-037-지상4층 창호위치도-5(준공).pdf",
+      "name": "A-037-지상4층 창호위치도-5(준공).pdf",
+      "bytes": 264757,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1326,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-038-창호일람표-1(준공).pdf",
+      "name": "A-038-창호일람표-1(준공).pdf",
+      "bytes": 419256,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2355,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-039-창호일람표-2(준공).pdf",
+      "name": "A-039-창호일람표-2(준공).pdf",
+      "bytes": 152957,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1323,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-040-창호일람표-3(준공).pdf",
+      "name": "A-040-창호일람표-3(준공).pdf",
+      "bytes": 260540,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1507,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-041-재료마감표-1(준공).pdf",
+      "name": "A-041-재료마감표-1(준공).pdf",
+      "bytes": 190803,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 4014,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-042-재료마감표-2(준공).pdf",
+      "name": "A-042-재료마감표-2(준공).pdf",
+      "bytes": 147022,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2161,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-043-재료마감상세도(준공).pdf",
+      "name": "A-043-재료마감상세도(준공).pdf",
+      "bytes": 355442,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1961,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-044-사무실 확대평면 및 단면도.pdf",
+      "name": "A-044-사무실 확대평면 및 단면도.pdf",
+      "bytes": 153527,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1650,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-059-저온바닥조성계획도.pdf",
+      "name": "A-059-저온바닥조성계획도.pdf",
+      "bytes": 182004,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 841,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-060-지하1층 초평탄조인트 및 타설계획도-1.pdf",
+      "name": "A-060-지하1층 초평탄조인트 및 타설계획도-1.pdf",
+      "bytes": 629587,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2345,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-061-지상1층 초평탄조인트 및 타설계획도-2.pdf",
+      "name": "A-061-지상1층 초평탄조인트 및 타설계획도-2.pdf",
+      "bytes": 340844,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1747,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-062-지상3층 초평탄조인트 및 타설계획도-3.pdf",
+      "name": "A-062-지상3층 초평탄조인트 및 타설계획도-3.pdf",
+      "bytes": 248624,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1703,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-063-지상4층 초평탄조인트 및 타설계획도-4.pdf",
+      "name": "A-063-지상4층 초평탄조인트 및 타설계획도-4.pdf",
+      "bytes": 242926,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1431,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-064-지하1층 사이포닉 계획도-1.pdf",
+      "name": "A-064-지하1층 사이포닉 계획도-1.pdf",
+      "bytes": 566775,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2642,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-065-지상1층 사이포닉 계획도-2.pdf",
+      "name": "A-065-지상1층 사이포닉 계획도-2.pdf",
+      "bytes": 349283,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1904,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-066-지상2층 사이포닉 계획도-3.pdf",
+      "name": "A-066-지상2층 사이포닉 계획도-3.pdf",
+      "bytes": 200140,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1252,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-067-지상3층 사이포닉 계획도-4.pdf",
+      "name": "A-067-지상3층 사이포닉 계획도-4.pdf",
+      "bytes": 267547,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1865,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-068-지상4층 사이포닉 계획도-5.pdf",
+      "name": "A-068-지상4층 사이포닉 계획도-5.pdf",
+      "bytes": 254368,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1521,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-069-지붕층 사이포닉 계획도-6.pdf",
+      "name": "A-069-지붕층 사이포닉 계획도-6.pdf",
+      "bytes": 144361,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1081,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-070-사이포닉 상세 계획도-7.pdf",
+      "name": "A-070-사이포닉 상세 계획도-7.pdf",
+      "bytes": 245664,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1579,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-071-지하1층 충돌방지대 계획도-1.pdf",
+      "name": "A-071-지하1층 충돌방지대 계획도-1.pdf",
+      "bytes": 1481425,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 2529,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-072-지상1층 충돌방지대 계획도-2.pdf",
+      "name": "A-072-지상1층 충돌방지대 계획도-2.pdf",
+      "bytes": 690453,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1793,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-073-지상3층 충돌방지대 계획도-3.pdf",
+      "name": "A-073-지상3층 충돌방지대 계획도-3.pdf",
+      "bytes": 474770,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1765,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-074-지상4층 충돌방지대 계획도-4.pdf",
+      "name": "A-074-지상4층 충돌방지대 계획도-4.pdf",
+      "bytes": 498648,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1492,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-075-충돌방지대 상세계획도-5.pdf",
+      "name": "A-075-충돌방지대 상세계획도-5.pdf",
+      "bytes": 196258,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 813,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-076-지붕판넬 부분상세도.pdf",
+      "name": "A-076-지붕판넬 부분상세도.pdf",
+      "bytes": 196042,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 1205,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-077-캐노피상세도.pdf",
+      "name": "A-077-캐노피상세도.pdf",
+      "bytes": 104523,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 590,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-078-블럭 시공상세도.pdf",
+      "name": "A-078-블럭 시공상세도.pdf",
+      "bytes": 139350,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 849,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-079-하역장 충돌방지턱 상세도.pdf",
+      "name": "A-079-하역장 충돌방지턱 상세도.pdf",
+      "bytes": 256173,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 967,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-080-휀스담장 상세도.pdf",
+      "name": "A-080-휀스담장 상세도.pdf",
+      "bytes": 139251,
+      "format": "pdf_vector",
+      "pages": 1,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 897,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    },
+    {
+      "path": "input/icheon/drawings/A-081~090-정화조 도면.pdf",
+      "name": "A-081~090-정화조 도면.pdf",
+      "bytes": 632833,
+      "format": "pdf_vector",
+      "pages": 10,
+      "scan_page_ratio": 0.0,
+      "page_info": [
+        {
+          "page": 1,
+          "text_chars": 823,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 2,
+          "text_chars": 397,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 3,
+          "text_chars": 453,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 4,
+          "text_chars": 452,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 5,
+          "text_chars": 450,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 6,
+          "text_chars": 437,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 7,
+          "text_chars": 410,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 8,
+          "text_chars": 445,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 9,
+          "text_chars": 559,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        },
+        {
+          "page": 10,
+          "text_chars": 532,
+          "scan": false,
+          "size_mm": [
+            420,
+            297
+          ],
+          "est_tiles": 2
+        }
+      ],
+      "est_tiles": 0,
+      "readable": true
+    }
+  ],
+  "dwg_requests": [],
+  "mode": "정규",
+  "est_vision_tiles": 2,
+  "escalations": [
+    {
+      "code": "NO_IM",
+      "message": "판독 가능한 IM이 없습니다. 진행 불가."
+    }
+  ]
+}
