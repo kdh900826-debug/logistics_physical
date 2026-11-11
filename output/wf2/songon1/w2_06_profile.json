@@ -1,6 +1,6 @@
 {
   "asset_id": "songon1",
-  "created_at": "2026-10-15T11:29:32+09:00",
+  "created_at": "2026-11-11T16:20:09+09:00",
   "analysis_date": null,
   "holding_years": null,
   "vector_slots": [],
@@ -12,11 +12,13 @@
         "temp_zone": null,
         "handling_type": "다층 램프형",
         "ramp_type": "양방향",
-        "ramp_form": "곡선형"
+        "ramp_form": "곡선형",
+        "yard_type": null
       },
       "vars": {
         "site_area_m2": 29587.0,
         "truck_yard_depth_m": 11.0,
+        "access_road_width_m": null,
         "flood_trace": null,
         "flood_depth_m": null,
         "soft_ground": null,
@@ -36,7 +38,10 @@
         "terrain_multi_level_access": true,
         "ramp_slope_pct": 10.0,
         "ramp_width_m": 9.6,
+        "ramp_open_section": null,
+        "ramp_snow_melting": null,
         "turning_radius_m": null,
+        "truck_route_clearance_m": null,
         "freight_elevator_count": null,
         "freight_elevator_capacity_t": null,
         "vrc_count": null,
@@ -116,7 +121,10 @@
           {
             "floor": "3F",
             "value": 8.0,
-            "area": 9506.63
+            "area": 9506.63,
+            "precision": "exact",
+            "basis": null,
+            "slot": "floor|main|3F|clear_height_m"
           },
           {
             "floor": "B2",
@@ -131,22 +139,34 @@
           {
             "floor": "1F",
             "value": true,
-            "area": 11692.23
+            "area": 11692.23,
+            "precision": "exact",
+            "basis": null,
+            "slot": "floor|main|1F|direct_truck_access"
           },
           {
             "floor": "2F",
             "value": true,
-            "area": 12678.64
+            "area": 12678.64,
+            "precision": "exact",
+            "basis": null,
+            "slot": "floor|main|2F|direct_truck_access"
           },
           {
             "floor": "3F",
             "value": true,
-            "area": 9506.63
+            "area": 9506.63,
+            "precision": "exact",
+            "basis": null,
+            "slot": "floor|main|3F|direct_truck_access"
           },
           {
             "floor": "B2",
             "value": true,
-            "area": 18920.13
+            "area": 18920.13,
+            "precision": "exact",
+            "basis": null,
+            "slot": "floor|main|B2|direct_truck_access"
           }
         ],
         "warehouse_floors.direct_truck_access.missing_count": 0,
@@ -154,6 +174,13 @@
         "warehouse_floors.direct_truck_access.max": null,
         "floors_without_direct_access": [],
         "floors_with_dock_column_conflict": null,
+        "floors_with_under_yard": [
+          "2F",
+          "B2"
+        ],
+        "floors_with_under_ramp": [],
+        "floors_without_mech_ventilation": null,
+        "under_yard_share_pct": {},
         "regulation_flags.ext_wall_finish_2019": null,
         "regulation_flags.composite_panel_core_nonflammable_2022": null,
         "regulation_flags.composite_panel_mockup_test_2022": null,
@@ -173,6 +200,7 @@
       "grades": {
         "site_area_m2": "verified",
         "truck_yard_depth_m": "verified",
+        "access_road_width_m": null,
         "flood_trace": null,
         "flood_depth_m": null,
         "soft_ground": null,
@@ -192,7 +220,10 @@
         "terrain_multi_level_access": "verified",
         "ramp_slope_pct": "verified",
         "ramp_width_m": "verified",
+        "ramp_open_section": null,
+        "ramp_snow_melting": null,
         "turning_radius_m": null,
+        "truck_route_clearance_m": null,
         "freight_elevator_count": null,
         "freight_elevator_capacity_t": null,
         "vrc_count": null,
@@ -242,6 +273,10 @@
         "warehouse_floors.direct_truck_access.max": null,
         "floors_without_direct_access": "verified",
         "floors_with_dock_column_conflict": null,
+        "floors_with_under_yard": "verified",
+        "floors_with_under_ramp": "verified",
+        "floors_without_mech_ventilation": null,
+        "under_yard_share_pct": "verified",
         "regulation_flags.ext_wall_finish_2019": null,
         "regulation_flags.composite_panel_core_nonflammable_2022": null,
         "regulation_flags.composite_panel_mockup_test_2022": null,
@@ -264,6 +299,9 @@
         ],
         "truck_yard_depth_m": [
           "asset|-|-|truck_yard_depth_m"
+        ],
+        "access_road_width_m": [
+          "asset|-|-|access_road_width_m"
         ],
         "flood_trace": [
           "asset|-|-|flood_trace"
@@ -322,8 +360,17 @@
         "ramp_width_m": [
           "building|main|-|ramp_width_m"
         ],
+        "ramp_open_section": [
+          "building|main|-|ramp_open_section"
+        ],
+        "ramp_snow_melting": [
+          "building|main|-|ramp_snow_melting"
+        ],
         "turning_radius_m": [
           "building|main|-|turning_radius_m"
+        ],
+        "truck_route_clearance_m": [
+          "building|main|-|truck_route_clearance_m"
         ],
         "freight_elevator_count": [
           "building|main|-|freight_elevator_count"
@@ -575,6 +622,18 @@
           "floor|main|3F|dock_route_column_conflict",
           "floor|main|B2|dock_route_column_conflict"
         ],
+        "floors_with_under_yard": [
+          "floor|main|2F|yard_deck_over_warehouse",
+          "floor|main|B2|yard_deck_over_warehouse"
+        ],
+        "floors_with_under_ramp": [],
+        "floors_without_mech_ventilation": [
+          "floor|main|2F|temp",
+          "floor|main|2F|warehouse_mech_ventilation",
+          "floor|main|3F|temp",
+          "floor|main|3F|warehouse_mech_ventilation"
+        ],
+        "under_yard_share_pct": [],
         "regulation_flags.ext_wall_finish_2019": [
           "building|main|-|completion_year"
         ],
@@ -618,6 +677,9 @@
         "claimed_renovation_items": []
       },
       "missing": {
+        "access_road_width_m": [
+          "asset|-|-|access_road_width_m"
+        ],
         "flood_trace": [
           "asset|-|-|flood_trace"
         ],
@@ -639,8 +701,17 @@
         "dock_leveler_count": [
           "building|main|-|dock_leveler_count"
         ],
+        "ramp_open_section": [
+          "building|main|-|ramp_open_section"
+        ],
+        "ramp_snow_melting": [
+          "building|main|-|ramp_snow_melting"
+        ],
         "turning_radius_m": [
           "building|main|-|turning_radius_m"
+        ],
+        "truck_route_clearance_m": [
+          "building|main|-|truck_route_clearance_m"
         ],
         "freight_elevator_count": [
           "building|main|-|freight_elevator_count"
@@ -736,6 +807,10 @@
           "floor|main|2F|dock_route_column_conflict",
           "floor|main|3F|dock_route_column_conflict",
           "floor|main|B2|dock_route_column_conflict"
+        ],
+        "floors_without_mech_ventilation": [
+          "floor|main|2F|warehouse_mech_ventilation",
+          "floor|main|3F|warehouse_mech_ventilation"
         ],
         "regulation_flags.ext_wall_finish_2019": [
           "building|main|-|completion_year"

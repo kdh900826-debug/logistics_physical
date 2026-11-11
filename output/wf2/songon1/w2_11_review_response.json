@@ -1,6 +1,10 @@
 {
-  "approved": true,
-  "corpus_include": false,
-  "comments": [],
-  "submitted_at": "2026-10-16T09:28:59+09:00"
+  "approved": false,
+  "comments": [
+    {
+      "type": "spec",
+      "target": "B2·창고층 yard_deck_over_warehouse · SP10",
+      "text": "창고 상부 차량 데크(yard_deck_over_warehouse) 판독 추가 후 SP10 재평가 — SP10(2026-10-20 신설) 이전 분석이라 누락. 운영 중 B2 저온창고 천장 누수 반복(PM 사고보고서 2024-12-01 등) — 채팅 지시"
+    }
+  ]
 }

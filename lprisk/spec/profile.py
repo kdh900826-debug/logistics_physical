@@ -207,13 +207,15 @@ def build_building(bid: str, label: str, slots: dict[Slot, list], asset_vars: di
         g = "claimed" if "claimed" in grades else "verified"
         V["floors_with_dock_column_conflict"] = Var(hit if (hit or not miss) else None, g if (hit or not miss) else None, deps, miss)
 
-    # 창고 상부 데크 야드(SP10): 하역장 하부 값(층고·유효층고·면적)이 하나라도 있는 층. 없으면 빈 목록(미발동) —
-    # 하부 구역이 없다는 확인과 기재 없음을 구분할 수 없으므로 보류하지 않는다
+    # 창고 상부 데크 야드(SP10): 하역장 하부 값(층고·유효층고·면적)이 하나라도 있거나 yard_deck_over_warehouse가 true인 층.
+    # 없으면 빈 목록(미발동) — 미기재는 보류하지 않는다(누락은 G2 '미발견 룰 입력'으로 드러난다, rule_input)
     uy = [(fl, f) for fl in floors for f in ("under_yard_area_m2", "under_yard_clear_height_m", "under_yard_floor_height_m")]
     uy_vars = {(fl, f): fvar(fl, f) for fl, f in uy}
-    V["floors_with_under_yard"] = Var(sorted({fl for (fl, _), v in uy_vars.items() if v.value is not None}, key=floors.index),
-                                      "verified", [k for (fl, f), v in uy_vars.items() if v.value is not None
-                                                   for k in v.deps])
+    deck = {fl: fvar(fl, "yard_deck_over_warehouse") for fl in floors}
+    uy_hit = {fl for (fl, _), v in uy_vars.items() if v.value is not None} | {fl for fl, v in deck.items() if v.value is True}
+    V["floors_with_under_yard"] = Var(sorted(uy_hit, key=floors.index), "verified",
+                                      [k for (fl, f), v in uy_vars.items() if v.value is not None for k in v.deps] +
+                                      [k for fl, v in deck.items() if v.value is True for k in v.deps])
 
     # 램프 접합·하부 창고(SP10 확장, 2026-11-11): ramp_warehouse_interface가 true이거나 램프 하부 면적이 있는 층.
     # 하역장 하부와 같은 정책 — 미기재는 보류하지 않는다(접합 구역이 없다는 확인과 기재 없음을 구분할 수 없음)

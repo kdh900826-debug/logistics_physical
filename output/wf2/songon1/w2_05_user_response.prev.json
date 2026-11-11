@@ -1,0 +1,208 @@
+{
+  "decisions": {
+    "asset|-|-|truck_yard_depth_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|cold_insulation_material": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|column_span_x_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|column_span_y_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|dock_count": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|fire_compartment_max_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|floors_above": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|floors_below": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|gross_floor_area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|ramp_form": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|ramp_type": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|ramp_width_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|refrigerant": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|roof_panel_core": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|sprinkler_type": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|structure_type": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|terrain_multi_level_access": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|wall_panel_core": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|warehouse_depth_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|1F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|1F|direct_truck_access": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|1F|temp": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|1F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|2F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|2F|direct_truck_access": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|2F|temp": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|2F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|3F|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|3F|clear_height_m": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|3F|direct_truck_access": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|3F|temp": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|3F|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|B1|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|B1|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|B2|area_m2": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|B2|direct_truck_access": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|B2|temp": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "floor|main|B2|use": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|ramp_slope_pct": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    },
+    "building|main|-|cold_insulation_thickness_mm": {
+      "action": "cand",
+      "cand_id": "drawing:0",
+      "reason": "채팅 지시: G2 전부 도면 값 채택"
+    }
+  },
+  "overrides": {},
+  "claims": {},
+  "bulk": null,
+  "submitted_at": "2026-10-15T11:29:25+09:00"
+}

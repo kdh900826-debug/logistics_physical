@@ -264,7 +264,8 @@ def _yard_table(floors: list[dict], share: dict) -> list[str]:
     """§1 하역장·야드 표 (2026-10-20): 접안 구획·야드 깊이와 하역장 하부(위층 야드 데크 아래) 층고·면적·비중.
     비중(share)은 profile의 under_yard_share_pct(하역장 하부 면적 ÷ 층 면적) — 층 대표 유효층고는 일반 구역 값이고,
     이 표가 하부 구역을 따로 보인다."""
-    rows = [fl for fl in floors if any((fl["fields"].get(k) or [{}])[0].get("value") is not None for k in YARD_FIELDS)]
+    rows = [fl for fl in floors if any((fl["fields"].get(k) or [{}])[0].get("value") is not None for k in YARD_FIELDS)
+            or (fl["fields"].get("yard_deck_over_warehouse") or [{}])[0].get("value") is True]
     if not rows:
         return []
     L = ["", "**하역장·야드** (하역장 하부 = 위층 야드 데크 아래 구역. 층 대표 유효층고는 일반 구역 값. "
@@ -283,6 +284,11 @@ def _yard_table(floors: list[dict], share: dict) -> list[str]:
         bw, bl = g("berth_width_m"), g("berth_length_m")
         berth = "—" if bw.get("value") is None and bl.get("value") is None else f"{val('berth_width_m')} × {val('berth_length_m')}"
         pct = f" ({share[fl['floor']]:.1f}%)" if fl["floor"] in share else ""
+        deck = g("yard_deck_over_warehouse")
+        uy_area = val("under_yard_area_m2")
+        if uy_area == "—" and deck.get("value") is True:     # 데크는 확인, 면적은 미측정
+            uy_area = "있음(면적 미측정)" + ("" if deck.get("status") in ("확정", "확정(교차)", None)
+                                        else f" ({deck.get('status')})") + _vmark(deck)
         ri, ua = g("ramp_warehouse_interface"), g("under_ramp_area_m2")
         # 접합 여부 + 하부 면적. 면적만 있어도 하부 구역이 있다는 뜻
         ramp = {True: "있음", False: "없음"}.get(ri.get("value"), "있음" if ua.get("value") is not None else "—")
@@ -291,7 +297,7 @@ def _yard_table(floors: list[dict], share: dict) -> list[str]:
         if ua.get("value") is not None:
             ramp += f" ({val('under_ramp_area_m2')})"
         L.append(f"| {fl['floor']} | {berth} | {val('yard_depth_m')} | "
-                 f"{val('under_yard_floor_height_m')} / {val('under_yard_clear_height_m')} | {val('under_yard_area_m2')}{pct} | {ramp} |")
+                 f"{val('under_yard_floor_height_m')} / {val('under_yard_clear_height_m')} | {uy_area}{pct} | {ramp} |")
     return L
 
 

@@ -1,7 +1,7 @@
 {
   "asset_id": "songon1",
-  "created_at": "2026-10-15T11:29:39+09:00",
-  "rule_count": 32,
+  "created_at": "2026-11-11T16:20:24+09:00",
+  "rule_count": 37,
   "single_grade": true,
   "consistency": {
     "v01_items": [],
@@ -10,7 +10,10 @@
       "building|main|-|cold_area_m2",
       "building|main|-|cold_ratio_pct",
       "building|main|-|dock_leveler_count",
+      "building|main|-|ramp_open_section",
+      "building|main|-|ramp_snow_melting",
       "building|main|-|turning_radius_m",
+      "building|main|-|truck_route_clearance_m",
       "building|main|-|freight_elevator_count",
       "building|main|-|vrc_count",
       "building|main|-|solar_installed",
@@ -18,7 +21,7 @@
       "building|main|-|cold_floor_heave_protection",
       "building|main|-|power_capacity_kw"
     ],
-    "v02_total": 30
+    "v02_total": 33
   },
   "results": [
     {
@@ -775,7 +778,7 @@
         "claimed_inputs": [],
         "thresholds": [],
         "facts": {
-          "v02.unconfirmed_ratio": 0.3667
+          "v02.unconfirmed_ratio": 0.4242
         },
         "fact_deps": {
           "v02.unconfirmed_ratio": []
@@ -1112,10 +1115,34 @@
           }
         ],
         "facts": {
-          "warehouse_floors.clear_height_m.min": 8.0
+          "warehouse_floors.clear_height_m": [
+            {
+              "floor": "1F",
+              "value": null,
+              "area": 11692.23
+            },
+            {
+              "floor": "2F",
+              "value": null,
+              "area": 12678.64
+            },
+            {
+              "floor": "3F",
+              "value": 8.0,
+              "area": 9506.63,
+              "precision": "exact",
+              "basis": null,
+              "slot": "floor|main|3F|clear_height_m"
+            },
+            {
+              "floor": "B2",
+              "value": null,
+              "area": 18920.13
+            }
+          ]
         },
         "fact_deps": {
-          "warehouse_floors.clear_height_m.min": [
+          "warehouse_floors.clear_height_m": [
             "floor|main|1F|clear_height_m",
             "floor|main|1F|area_m2",
             "floor|main|2F|clear_height_m",
@@ -1406,6 +1433,183 @@
       },
       "status": "triggered",
       "severity_base": "green",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP10",
+      "title": "창고 상부 데크 야드·램프 (하부·접합부 누수)",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "triggered",
+        "severity": "green",
+        "hold_reason": null,
+        "missing_inputs": [],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "floors_with_under_ramp": [],
+          "floors_with_under_yard": [
+            "2F",
+            "B2"
+          ]
+        },
+        "fact_deps": {
+          "floors_with_under_ramp": [],
+          "floors_with_under_yard": [
+            "floor|main|2F|yard_deck_over_warehouse",
+            "floor|main|B2|yard_deck_over_warehouse"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "triggered",
+      "severity_base": "green",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP11",
+      "title": "상온창고 기계 환기 부재 (곰팡이·고온다습)",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "floor|main|2F|warehouse_mech_ventilation",
+          "floor|main|3F|warehouse_mech_ventilation"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "floors_without_mech_ventilation": null
+        },
+        "fact_deps": {
+          "floors_without_mech_ventilation": [
+            "floor|main|2F|temp",
+            "floor|main|2F|warehouse_mech_ventilation",
+            "floor|main|3F|temp",
+            "floor|main|3F|warehouse_mech_ventilation"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP12",
+      "title": "오픈 램프 결빙 방지 설비 부재",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "building|main|-|ramp_open_section"
+        ],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "floors_above": 3,
+          "ramp_open_section": null,
+          "ramp_slope_pct": 10.0,
+          "ramp_type": "양방향",
+          "terrain_multi_level_access": true
+        },
+        "fact_deps": {
+          "floors_above": [
+            "building|main|-|floors_above"
+          ],
+          "ramp_open_section": [
+            "building|main|-|ramp_open_section"
+          ],
+          "ramp_slope_pct": [
+            "building|main|-|ramp_slope_pct"
+          ],
+          "ramp_type": [
+            "building|main|-|ramp_type"
+          ],
+          "terrain_multi_level_access": [
+            "building|main|-|terrain_multi_level_access"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP13",
+      "title": "단지 진입로 제약",
+      "category": "spec",
+      "building_id": null,
+      "horizon": "now",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "asset|-|-|access_road_width_m"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "access_road_width_m": null
+        },
+        "fact_deps": {
+          "access_road_width_m": [
+            "asset|-|-|access_road_width_m"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
+      "severity_exit": null
+    },
+    {
+      "rule_id": "SP14",
+      "title": "화물차 동선 통과 높이 부족",
+      "category": "spec",
+      "building_id": "main",
+      "horizon": "now",
+      "now": {
+        "status": "hold",
+        "severity": "hold",
+        "hold_reason": "입력 미확인",
+        "missing_inputs": [
+          "building|main|-|truck_route_clearance_m"
+        ],
+        "levels_skipped": [],
+        "input_grade": "verified",
+        "claimed_inputs": [],
+        "thresholds": [],
+        "facts": {
+          "truck_route_clearance_m": null
+        },
+        "fact_deps": {
+          "truck_route_clearance_m": [
+            "building|main|-|truck_route_clearance_m"
+          ]
+        },
+        "vector_inputs": []
+      },
+      "status": "hold",
+      "severity_base": "hold",
       "severity_exit": null
     }
   ]

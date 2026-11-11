@@ -107,6 +107,9 @@ fields:
   under_yard_clear_height_m: {level: floor, type: number, unit: m, range: [2.5, 20], favorable: higher, rule_input: false, label: 하역장 하부 유효층고, drawing_types: [단면도],
                               basis: {enum: clear_height_basis, upper_bound: [보 하단, 슬래브 하단]}}
   under_yard_area_m2:    {level: floor, type: number, unit: m2, range: [10, 300000], favorable: lower, rule_input: false, label: 하역장 하부 면적(위층 야드 데크 아래 구역), drawing_types: [평면도, 단면도]}
+  # 창고 상부 차량 데크 유무 (2026-11-11 사용자 요청, 송온리 1센터 B2 저온창고 위 1층 아스콘 포장 데크 → 운영 3년 누수 반복).
+  # 치수가 없어도 SP10을 발동시키는 존재 여부 필드. 창고층마다 확인한다(true/false, 판단 불가면 missing). SP10 입력(profile floors_with_under_yard)
+  yard_deck_over_warehouse: {level: floor, type: bool, favorable: lower, rule_input: true, label: 창고 상부 차량 데크(야드·주차장·차로·하역장 포장이 이 층 창고 위에 얹힘), drawing_types: [단면도, 평면도, 배치도]}
   # 램프 접합·하부 창고 (2026-11-11 사용자 요청, 송온리 2센터 사후 누수): 건물 램프의 슬래브·벽체·난간이 이 층 창고
   # 위를 지나거나 창고 외벽·지붕에 붙은 구역. 위치(그리드)는 note에 적는다. SP10 입력(profile floors_with_under_ramp)
   ramp_warehouse_interface: {level: floor, type: bool, favorable: lower, rule_input: false, label: 램프 접합·하부 창고 구역(램프가 이 층 창고 위·옆에 붙음), drawing_types: [평면도, 단면도, 램프상세도]}

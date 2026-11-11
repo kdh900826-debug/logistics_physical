@@ -1,6 +1,6 @@
 {
   "asset_id": "songon1",
-  "created_at": "2026-10-15T11:20:54+09:00",
+  "created_at": "2026-11-11T16:19:54+09:00",
   "entries": [
     {
       "slot": "asset|-|-|site_area_m2",
@@ -1517,6 +1517,58 @@
       "auto_status": null
     },
     {
+      "slot": "floor|main|1F|yard_deck_over_warehouse",
+      "label": "창고 상부 차량 데크(야드·주차장·차로·하역장 포장이 이 층 창고 위에 얹힘) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "yard_deck_over_warehouse",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "2층 '상온창고' / 1층 '냉동창고#2'·'통로', 2층 '하역장' / 1층 '하역장' (A-401)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p062_zoom/right.png",
+            "tile_box": [
+              0.3,
+              0.2,
+              0.56,
+              0.64
+            ],
+            "bbox": [
+              633,
+              321,
+              731,
+              407
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_1F_yard_deck_over_warehouse_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "1F 창고(냉동창고#1-1·#1-2·#1~#7·#6-1) 위는 2F 상온창고(같은 건물 실내층). 2F 하역장·차량통로(면적포함)는 X8~X15, Y3~Y6로 1F 하역장·차량통로와 같은 위치에 겹쳐 있음(A-203·A-204 평면 대조) — 1F 창고 위가 아님. A-401 종단면(1F 냉동창고#2·통로 위 2F 상온창고, 1F 하역장 위 2F 하역장), A-402 횡단면(1F 냉동창고#2·#3·#5 위 X4~X21 2F 상온창고) 확인. 1F 건물 외곽(X4~X21, Y2~Y11)과 2F 외곽 동일, 2·3층 램프는 건물 외곽 밖(서측·동측 곡선) — 램프 접합은 ramp_warehouse_interface 소관",
+          "raw_value": false,
+          "raw_unit": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
       "slot": "floor|main|2F|area_m2",
       "label": "층 면적 (main 2F)",
       "level": "floor",
@@ -1757,6 +1809,58 @@
       "auto_status": null
     },
     {
+      "slot": "floor|main|2F|yard_deck_over_warehouse",
+      "label": "창고 상부 차량 데크(야드·주차장·차로·하역장 포장이 이 층 창고 위에 얹힘) (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "yard_deck_over_warehouse",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "지붕 범례 '우레탄비노출도막방수(하부층지붕)' 해치 — 지상3층 하역장 X11~X21, Y3~Y6",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 47,
+            "sheet_no": "A-175",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p047_zoom/plan.png",
+            "tile_box": [
+              0.44,
+              0.47,
+              0.99,
+              0.84
+            ],
+            "bbox": [
+              560,
+              315,
+              870,
+              406
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_2F_yard_deck_over_warehouse_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "3F 하역장(출하장) 노출 데크가 2F 지붕 위에 있음: A-205 지상3층 평면 X11~X21, Y3~Y6 '하역장'·트럭 구획·'캐노피 선'·'H1300파라펫'·'W=300 트랜치 아연도스틸그레이팅'(노출 포장면). 그 아래 2F(A-204): X11~X15는 2F 하역장·차량통로(면적포함), X15(계단실#6 동측)~X21, Y3~Y6는 2F 상온창고(하역장 외벽 'T125EPS판넬' 밖, 방화구획 T125그라스울 구획). → 2F 상온창고 X15~X21/Y3~Y6 위가 3F 트럭 하역장 데크. 근거 마감: A-175 지상3층 방수계획도 지붕 범례 '우레탄비노출도막방수(하부층지붕)' 해치가 같은 범위에 칠해짐. 종·횡 주단면도(A-401·A-402)는 이 구간을 지나지 않아 단면 마감 주기 없음(그리드 범위는 평면 대조로 읽은 것, 확인 필요). 면적 미측정",
+          "raw_value": true,
+          "raw_unit": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
       "slot": "floor|main|3F|area_m2",
       "label": "층 면적 (main 3F)",
       "level": "floor",
@@ -1987,6 +2091,58 @@
           "status": null,
           "conflict": false,
           "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|3F|yard_deck_over_warehouse",
+      "label": "창고 상부 차량 데크(야드·주차장·차로·하역장 포장이 이 층 창고 위에 얹힘) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "yard_deck_over_warehouse",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": false,
+          "unit": null,
+          "raw_text": "THK225 EPS판넬(준불연) 지붕 / 3층 '상온창고' (A-401)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p062/r0c1.png",
+            "tile_box": [
+              0.0,
+              0.43,
+              0.67,
+              0.62
+            ],
+            "bbox": [
+              471,
+              227,
+              823,
+              325
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_3F_yard_deck_over_warehouse_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "최상층: 3F 상온창고 위는 지붕(THK225 EPS판넬, A-401·A-402 종·횡단면, A-176 지붕 방수계획도)뿐이고 지붕 위 차량 구역 없음. 3F 하역장 데크(X11~X21, Y3~Y6)는 3F 창고와 같은 층 옆에 붙은 것이지 창고 위가 아님 — 아래 2F 창고에 기록. 램프 접합은 ramp_warehouse_interface 소관",
+          "raw_value": false,
+          "raw_unit": null,
           "flags": []
         }
       ],
@@ -2374,6 +2530,58 @@
           "status": null,
           "conflict": false,
           "note": null,
+          "flags": []
+        }
+      ],
+      "hinted": [],
+      "missing_reason": null,
+      "direction": null,
+      "state": "도면만",
+      "auto_status": null
+    },
+    {
+      "slot": "floor|main|B2|yard_deck_over_warehouse",
+      "label": "창고 상부 차량 데크(야드·주차장·차로·하역장 포장이 이 층 창고 위에 얹힘) (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "yard_deck_over_warehouse",
+      "rule_input": true,
+      "favorable": "lower",
+      "im": [],
+      "drawing": [
+        {
+          "value": true,
+          "unit": null,
+          "raw_text": "THK50아스콘포장 / THK230~330 콘크리트(D10@300#) / 보호필름 / 우레탄비노출도막방수 / 콘크리트 기계미장 — 1층 차량통로 슬래브, 아래 냉동창고#5-1",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "source_locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p062_zoom/left.png",
+            "tile_box": [
+              0.44,
+              0.35,
+              0.74,
+              0.84
+            ],
+            "bbox": [
+              300,
+              345,
+              445,
+              450
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B2_yard_deck_over_warehouse_0.png"
+          },
+          "method": "vision",
+          "confidence": "low",
+          "source_grade": "확정",
+          "status": null,
+          "conflict": false,
+          "note": "B2 냉동창고가 지상층(X4~X21, Y2~Y11) 밖으로 나가 그 위가 1층 대지 레벨(GL±0) 포장 차량통로·주차장: 남측 Y0~Y3(냉동창고#4-1·#5-1·#6-1·#7-1·#8-1 일대, 위 1층 '피로티-차량통로'·주차구획), 서측 X0~X4(냉동창고#1·#2·#3, 위 1층 주차구획·'지상2,3층창고 차량출입구' 램프 진입부), 동측 X21~X24(냉동창고#9·#10·#11, 위 1층 주차구획). 근거 마감 주기 'THK50아스콘포장/THK230~330 콘크리트(D10@300#)/보호필름/우레탄비노출도막방수/콘크리트 기계미장'이 A-401(종단면 Y0~Y3, 냉동창고#5-1 위)과 A-402(횡단면 X0~X4 냉동창고#1 위 '차량통로', X21~X24 냉동창고#11 위) 양단에 동일 기재. A-103 대지 종·횡단면도: 지하층 264,000(X0~X24) vs 지상층 186,000(X4~X21), 지하층 위 '계획지반선(상부)'. 평면 대조 A-201(B2 X0~X24, Y0~Y9) vs A-203(1F 건물 외곽 밖 주차구획·차량통로, GL±0 EL+79.8). 건물 안에서도 1F 하역장·차량통로(X8~X15, Y3~Y6) 바닥 아래가 B2 냉동창고(A-401 Y3~Y6 냉동창고#5). 면적 미측정",
+          "raw_value": true,
+          "raw_unit": null,
           "flags": []
         }
       ],

@@ -1,6 +1,6 @@
 {
   "asset_id": "songon1",
-  "created_at": "2026-10-15T11:20:53+09:00",
+  "created_at": "2026-11-11T16:19:54+09:00",
   "mode": "정규",
   "items": [
     {
@@ -39,7 +39,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -81,7 +82,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -130,7 +132,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -172,7 +175,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -214,7 +218,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -256,7 +261,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -305,7 +311,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -354,7 +361,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -403,7 +411,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -445,7 +454,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -487,7 +497,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -529,7 +540,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -571,7 +583,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -620,7 +633,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -662,7 +676,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -711,7 +726,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -753,7 +769,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -795,7 +812,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -837,7 +855,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -886,7 +905,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -928,7 +948,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -977,7 +998,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1026,7 +1048,58 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|1F|yard_deck_over_warehouse",
+      "label": "창고 상부 차량 데크(야드·주차장·차로·하역장 포장이 이 층 창고 위에 얹힘) (main 1F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "1F",
+      "field": "yard_deck_over_warehouse",
+      "unit": null,
+      "rule_input": true,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": false,
+          "unit": null,
+          "raw_text": "2층 '상온창고' / 1층 '냉동창고#2'·'통로', 2층 '하역장' / 1층 '하역장' (A-401)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p062_zoom/right.png",
+            "tile_box": [
+              0.3,
+              0.2,
+              0.56,
+              0.64
+            ],
+            "bbox": [
+              633,
+              321,
+              731,
+              407
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_1F_yard_deck_over_warehouse_0.png"
+          },
+          "crop": "output/wf2/songon1/crops/floor_main_1F_yard_deck_over_warehouse_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1075,7 +1148,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1117,7 +1191,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1166,7 +1241,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1215,7 +1291,58 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|2F|yard_deck_over_warehouse",
+      "label": "창고 상부 차량 데크(야드·주차장·차로·하역장 포장이 이 층 창고 위에 얹힘) (main 2F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "2F",
+      "field": "yard_deck_over_warehouse",
+      "unit": null,
+      "rule_input": true,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "지붕 범례 '우레탄비노출도막방수(하부층지붕)' 해치 — 지상3층 하역장 X11~X21, Y3~Y6",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "locator": {
+            "page": 47,
+            "sheet_no": "A-175",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p047_zoom/plan.png",
+            "tile_box": [
+              0.44,
+              0.47,
+              0.99,
+              0.84
+            ],
+            "bbox": [
+              560,
+              315,
+              870,
+              406
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_2F_yard_deck_over_warehouse_0.png"
+          },
+          "crop": "output/wf2/songon1/crops/floor_main_2F_yard_deck_over_warehouse_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1264,7 +1391,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1306,7 +1434,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1348,7 +1477,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1397,7 +1527,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1446,7 +1577,58 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|3F|yard_deck_over_warehouse",
+      "label": "창고 상부 차량 데크(야드·주차장·차로·하역장 포장이 이 층 창고 위에 얹힘) (main 3F)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "3F",
+      "field": "yard_deck_over_warehouse",
+      "unit": null,
+      "rule_input": true,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": false,
+          "unit": null,
+          "raw_text": "THK225 EPS판넬(준불연) 지붕 / 3층 '상온창고' (A-401)",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p062/r0c1.png",
+            "tile_box": [
+              0.0,
+              0.43,
+              0.67,
+              0.62
+            ],
+            "bbox": [
+              471,
+              227,
+              823,
+              325
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_3F_yard_deck_over_warehouse_0.png"
+          },
+          "crop": "output/wf2/songon1/crops/floor_main_3F_yard_deck_over_warehouse_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1495,7 +1677,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1544,7 +1727,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1593,7 +1777,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1635,7 +1820,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1684,7 +1870,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1733,7 +1920,58 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
+        }
+      ],
+      "sensitive": null,
+      "default_action": null
+    },
+    {
+      "slot": "floor|main|B2|yard_deck_over_warehouse",
+      "label": "창고 상부 차량 데크(야드·주차장·차로·하역장 포장이 이 층 창고 위에 얹힘) (main B2)",
+      "level": "floor",
+      "building_id": "main",
+      "floor": "B2",
+      "field": "yard_deck_over_warehouse",
+      "unit": null,
+      "rule_input": true,
+      "state": "도면만",
+      "direction": null,
+      "missing_reason": null,
+      "candidates": [
+        {
+          "cand_id": "drawing:0",
+          "origin": "drawing",
+          "value": true,
+          "unit": null,
+          "raw_text": "THK50아스콘포장 / THK230~330 콘크리트(D10@300#) / 보호필름 / 우레탄비노출도막방수 / 콘크리트 기계미장 — 1층 차량통로 슬래브, 아래 냉동창고#5-1",
+          "precision": "exact",
+          "source_doc": "input/songon1/drawings/1-1.건축.pdf",
+          "locator": {
+            "page": 62,
+            "sheet_no": "A-401",
+            "tile": "output/wf2/songon1/tiles/1-1.건축_p062_zoom/left.png",
+            "tile_box": [
+              0.44,
+              0.35,
+              0.74,
+              0.84
+            ],
+            "bbox": [
+              300,
+              345,
+              445,
+              450
+            ],
+            "crop": "output/wf2/songon1/crops/floor_main_B2_yard_deck_over_warehouse_0.png"
+          },
+          "crop": "output/wf2/songon1/crops/floor_main_B2_yard_deck_over_warehouse_0.png",
+          "method": "vision",
+          "confidence": "low",
+          "flags": [],
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1775,7 +2013,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         },
         {
           "cand_id": "drawing:1",
@@ -1800,7 +2039,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": false,
@@ -1842,7 +2082,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         },
         {
           "cand_id": "drawing:1",
@@ -1867,7 +2108,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": false,
@@ -1918,7 +2160,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -1967,7 +2210,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -2018,7 +2262,8 @@
           "flags": [
             "range_out"
           ],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -2060,7 +2305,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -2109,7 +2355,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -2151,7 +2398,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -2193,7 +2441,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -2235,7 +2484,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -2277,7 +2527,8 @@
           "method": "vision",
           "confidence": "low",
           "flags": [],
-          "granularity": null
+          "granularity": null,
+          "basis": null
         }
       ],
       "sensitive": null,
@@ -2290,24 +2541,37 @@
     {
       "level": "building",
       "building_id": "main",
-      "field": "completion_year",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-101 건축개요",
-        "표제란(A-101~A-206)"
-      ],
-      "note": "표제란 일자 2021.09(설계일)뿐, 사용승인일 표기 없음. 허가 2020.03.11(A-101)은 준공 아님"
-    },
-    {
-      "level": "building",
-      "building_id": "main",
       "field": "cold_area_m2",
       "missing_reason": "미기재",
       "searched": [
         "A-101 동별면적표",
         "A-108 바닥면적산출근거-1"
       ],
-      "note": "층별 냉동창고 면적만 기재(B2 17,618.30, 1F 9,164.01) - 동 합계 표기 없어 합산하지 않음"
+      "note": "층별 냉동창고 면적만 기재(B2 17,618.30, 1F 9,164.01) - 동 합계 표기 없어 합산하지 않음",
+      "slot": "building|main|-|cold_area_m2",
+      "label": "저온·냉동 면적 (main)",
+      "unit": "m2",
+      "rule_input": true,
+      "blocks_rules": []
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "cold_floor_heave_protection",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-511 각층 냉동창고 부위별 마감상세도-1",
+        "A-501 실내재료마감표-1",
+        "MR-002 장비일람표"
+      ],
+      "note": "B2 냉동실 바닥: 무근콘크리트/PE FILM/THK150 우레탄발포/타르우레탄(방습층)/THK130 무근콘크리트/THK70 배수판 - 히팅·통기관 등 동상방지 설비 표기 없음",
+      "slot": "building|main|-|cold_floor_heave_protection",
+      "label": "저온동 바닥 동상 방지 설비 (main)",
+      "unit": null,
+      "rule_input": true,
+      "blocks_rules": [
+        "CL02"
+      ]
     },
     {
       "level": "building",
@@ -2318,7 +2582,40 @@
         "A-101 동별면적표",
         "A-108 바닥면적산출근거-1"
       ],
-      "note": "저온·냉동 비율 기재 없음"
+      "note": "저온·냉동 비율 기재 없음",
+      "slot": "building|main|-|cold_ratio_pct",
+      "label": "저온·냉동 면적 비율(기재값) (main)",
+      "unit": "pct",
+      "rule_input": true,
+      "blocks_rules": []
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "completion_year",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-101 건축개요",
+        "표제란(A-101~A-206)"
+      ],
+      "note": "표제란 일자 2021.09(설계일)뿐, 사용승인일 표기 없음. 허가 2020.03.11(A-101)은 준공 아님",
+      "slot": "building|main|-|completion_year",
+      "label": "준공연도(사용승인) (main)",
+      "unit": "year",
+      "rule_input": true,
+      "blocks_rules": [
+        "CL01",
+        "CL03",
+        "G01",
+        "G02",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G09",
+        "G10"
+      ]
     },
     {
       "level": "building",
@@ -2334,21 +2631,12 @@
         "A-204 지상2층 평면도",
         "A-205 지상3층 평면도"
       ],
-      "note": "OHD·도크씰(DOCK SEAL)·Laminated Bumper만 표기, 도크레벨러 표기 없음"
-    },
-    {
-      "level": "building",
-      "building_id": "main",
-      "field": "turning_radius_m",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-441 램프 확대평면도(1F)",
-        "A-442 램프 확대평면도(1F~3F)",
-        "A-443 램프 확대단면도",
-        "A-102 건물배치도",
-        "A-104 주차계획도"
-      ],
-      "note": "램프 곡선부에 원 중심점과 '60°(곡선구간)'만 있고 R 치수 없음. 건축 PDF는 스캔(텍스트 레이어 없음)이라 vector-radius 측정 불가"
+      "note": "OHD·도크씰(DOCK SEAL)·Laminated Bumper만 표기, 도크레벨러 표기 없음",
+      "slot": "building|main|-|dock_leveler_count",
+      "label": "도크레벨러 수 (main)",
+      "unit": "ea",
+      "rule_input": true,
+      "blocks_rules": []
     },
     {
       "level": "building",
@@ -2364,21 +2652,86 @@
         "A-421 계단실#1,ELEV 확대단면도",
         "전기소방 p46 단선결선도"
       ],
-      "note": "평면에 승용 EV(16P) 1대만 표기, 화물용 승강기 표기 없음(0대로 단정하지 않음). 전기소방 결선도 'P-ELEV'"
+      "note": "평면에 승용 EV(16P) 1대만 표기, 화물용 승강기 표기 없음(0대로 단정하지 않음). 전기소방 결선도 'P-ELEV'",
+      "slot": "building|main|-|freight_elevator_count",
+      "label": "화물용 승강기 대수 (main)",
+      "unit": "ea",
+      "rule_input": true,
+      "blocks_rules": [
+        "G03"
+      ]
     },
     {
       "level": "building",
       "building_id": "main",
-      "field": "freight_elevator_capacity_t",
+      "field": "ohd_sprinkler_gap",
       "missing_reason": "미기재",
       "searched": [
-        "A-201 지하2층 평면도",
-        "A-202 지하1층 평면도",
-        "A-203 지상1층 평면도",
-        "A-204 지상2층 평면도",
-        "A-205 지상3층 평면도"
+        "MF-101 소화배관 계통도(범례)",
+        "MF-117~MF-131 스프링클러 배관 평면도(텍스트 검색)",
+        "A-621 오버헤드도어 상세도-1"
       ],
-      "note": "화물용 승강기 표기 없음"
+      "note": "OHD 하부 헤드 설치·미설치 표기 없음. 필로티 하역장 조기반응형 헤드 68℃ 주기만 있음",
+      "slot": "building|main|-|ohd_sprinkler_gap",
+      "label": "오버헤드도어 하부 스프링클러 살수장애(헤드 미설치) (main)",
+      "unit": null,
+      "rule_input": true,
+      "blocks_rules": [
+        "FR06"
+      ]
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "power_capacity_kw",
+      "missing_reason": "미기재",
+      "searched": [
+        "EE-004 22.9KV 수변전설비 단선결선도(5.설비-전기 p5)",
+        "전기소방 p46 단선결선도"
+      ],
+      "note": "KEPCO 22.9kV 인입, 수전(계약)용량 표기 없음",
+      "slot": "building|main|-|power_capacity_kw",
+      "label": "수전 용량 (main)",
+      "unit": "kW",
+      "rule_input": true,
+      "blocks_rules": []
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "solar_installed",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-206 지붕평면도",
+        "S-115 지상2층 바닥 구조평면도"
+      ],
+      "note": "지붕평면도에 태양광 표기 없음(미설치로 단정하지 않음)",
+      "slot": "building|main|-|solar_installed",
+      "label": "태양광 설치 여부 (main)",
+      "unit": null,
+      "rule_input": true,
+      "blocks_rules": []
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "turning_radius_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-441 램프 확대평면도(1F)",
+        "A-442 램프 확대평면도(1F~3F)",
+        "A-443 램프 확대단면도",
+        "A-102 건물배치도",
+        "A-104 주차계획도"
+      ],
+      "note": "램프 곡선부에 원 중심점과 '60°(곡선구간)'만 있고 R 치수 없음. 건축 PDF는 스캔(텍스트 레이어 없음)이라 vector-radius 측정 불가",
+      "slot": "building|main|-|turning_radius_m",
+      "label": "대형차 최소 회전반경(램프·하역장 동선) (main)",
+      "unit": "m",
+      "rule_input": true,
+      "blocks_rules": [
+        "SP08"
+      ]
     },
     {
       "level": "building",
@@ -2392,145 +2745,12 @@
         "A-204 지상2층 평면도",
         "A-205 지상3층 평면도"
       ],
-      "note": "수직반송기 표기 없음(0대로 단정하지 않음)"
-    },
-    {
-      "level": "building",
-      "building_id": "main",
-      "field": "roof_area_m2",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-206 지붕평면도",
-        "A-101 건축개요"
-      ],
-      "note": "지붕 면적 표기 없음(건축면적 11,739.36㎡만 기재)"
-    },
-    {
-      "level": "building",
-      "building_id": "main",
-      "field": "solar_installed",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-206 지붕평면도",
-        "S-115 지상2층 바닥 구조평면도"
-      ],
-      "note": "지붕평면도에 태양광 표기 없음(미설치로 단정하지 않음)"
-    },
-    {
-      "level": "building",
-      "building_id": "main",
-      "field": "ohd_sprinkler_gap",
-      "missing_reason": "미기재",
-      "searched": [
-        "MF-101 소화배관 계통도(범례)",
-        "MF-117~MF-131 스프링클러 배관 평면도(텍스트 검색)",
-        "A-621 오버헤드도어 상세도-1"
-      ],
-      "note": "OHD 하부 헤드 설치·미설치 표기 없음. 필로티 하역장 조기반응형 헤드 68℃ 주기만 있음"
-    },
-    {
-      "level": "building",
-      "building_id": "main",
-      "field": "cold_floor_heave_protection",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-511 각층 냉동창고 부위별 마감상세도-1",
-        "A-501 실내재료마감표-1",
-        "MR-002 장비일람표"
-      ],
-      "note": "B2 냉동실 바닥: 무근콘크리트/PE FILM/THK150 우레탄발포/타르우레탄(방습층)/THK130 무근콘크리트/THK70 배수판 - 히팅·통기관 등 동상방지 설비 표기 없음"
-    },
-    {
-      "level": "building",
-      "building_id": "main",
-      "field": "power_capacity_kw",
-      "missing_reason": "미기재",
-      "searched": [
-        "EE-004 22.9KV 수변전설비 단선결선도(5.설비-전기 p5)",
-        "전기소방 p46 단선결선도"
-      ],
-      "note": "KEPCO 22.9kV 인입, 수전(계약)용량 표기 없음"
-    },
-    {
-      "level": "building",
-      "building_id": "main",
-      "field": "transformer_capacity_kva",
-      "missing_reason": "미기재",
-      "searched": [
-        "EE-004 22.9KV 수변전설비 단선결선도",
-        "전기소방 p46 단선결선도"
-      ],
-      "note": "변압기별 용량만 기재(TR#1 1,000kVA 냉동냉장1, TR#2 1,000kVA 냉동냉장2, TR#3 500kVA SMP용, TR#4 1,000kVA 일반·비상) - 총용량 표기 없어 합산하지 않음"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "floor_load_tpm2",
-      "missing_reason": "미기재",
-      "searched": [
-        "S-021~S-034 구조일반사항(RC)",
-        "S-041~S-048 구조일반사항(SC)",
-        "S-115 지상2층 바닥 구조평면도",
-        "S-271~S-276 슬라브 일람표(PC)"
-      ],
-      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
-      "floor": "B2"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "floor_load_tpm2",
-      "missing_reason": "미기재",
-      "searched": [
-        "S-021~S-034 구조일반사항(RC)",
-        "S-041~S-048 구조일반사항(SC)",
-        "S-115 지상2층 바닥 구조평면도",
-        "S-271~S-276 슬라브 일람표(PC)"
-      ],
-      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
-      "floor": "B1"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "floor_load_tpm2",
-      "missing_reason": "미기재",
-      "searched": [
-        "S-021~S-034 구조일반사항(RC)",
-        "S-041~S-048 구조일반사항(SC)",
-        "S-115 지상2층 바닥 구조평면도",
-        "S-271~S-276 슬라브 일람표(PC)"
-      ],
-      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
-      "floor": "1F"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "floor_load_tpm2",
-      "missing_reason": "미기재",
-      "searched": [
-        "S-021~S-034 구조일반사항(RC)",
-        "S-041~S-048 구조일반사항(SC)",
-        "S-115 지상2층 바닥 구조평면도",
-        "S-271~S-276 슬라브 일람표(PC)"
-      ],
-      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
-      "floor": "2F"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "floor_load_tpm2",
-      "missing_reason": "미기재",
-      "searched": [
-        "S-021~S-034 구조일반사항(RC)",
-        "S-041~S-048 구조일반사항(SC)",
-        "S-115 지상2층 바닥 구조평면도",
-        "S-271~S-276 슬라브 일람표(PC)"
-      ],
-      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
-      "floor": "3F"
+      "note": "수직반송기 표기 없음(0대로 단정하지 않음)",
+      "slot": "building|main|-|vrc_count",
+      "label": "수직반송기 대수 (main)",
+      "unit": "ea",
+      "rule_input": true,
+      "blocks_rules": []
     },
     {
       "level": "floor",
@@ -2544,74 +2764,14 @@
         "A-501 실내재료마감표-1"
       ],
       "note": "층고(FL~FL)만 기재. 1F 7,750·2F 8,050은 FL에서 상층 하역장·차량통로 슬래브(상층 F.FL-1,100)까지 치수로 유효고 아님. 냉동창고 천장고는 '냉동창고 도면 참조', 천장고 칸 공란",
-      "floor": "B2"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "clear_height_m",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-401 건물 주 단면도(종)",
-        "A-402 건물 주 단면도(횡)",
-        "A-103 대지 종·횡단면도",
-        "A-501 실내재료마감표-1"
-      ],
-      "note": "층고(FL~FL)만 기재. 1F 7,750·2F 8,050은 FL에서 상층 하역장·차량통로 슬래브(상층 F.FL-1,100)까지 치수로 유효고 아님. 냉동창고 천장고는 '냉동창고 도면 참조', 천장고 칸 공란",
-      "floor": "B1"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "clear_height_m",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-401 건물 주 단면도(종)",
-        "A-402 건물 주 단면도(횡)",
-        "A-103 대지 종·횡단면도",
-        "A-501 실내재료마감표-1"
-      ],
-      "note": "층고(FL~FL)만 기재. 1F 7,750·2F 8,050은 FL에서 상층 하역장·차량통로 슬래브(상층 F.FL-1,100)까지 치수로 유효고 아님. 냉동창고 천장고는 '냉동창고 도면 참조', 천장고 칸 공란",
-      "floor": "1F"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "clear_height_m",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-401 건물 주 단면도(종)",
-        "A-402 건물 주 단면도(횡)",
-        "A-103 대지 종·횡단면도",
-        "A-501 실내재료마감표-1"
-      ],
-      "note": "층고(FL~FL)만 기재. 1F 7,750·2F 8,050은 FL에서 상층 하역장·차량통로 슬래브(상층 F.FL-1,100)까지 치수로 유효고 아님. 냉동창고 천장고는 '냉동창고 도면 참조', 천장고 칸 공란",
-      "floor": "2F"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "floor_height_m",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-401 건물 주 단면도(종)"
-      ],
-      "note": "최상층: 3rd F.FL~지붕골조하단 8,000만 있고 바닥~바닥 층고 해당 없음",
-      "floor": "3F"
-    },
-    {
-      "level": "floor",
-      "building_id": "main",
-      "field": "dock_route_column_conflict",
-      "missing_reason": "미기재",
-      "searched": [
-        "A-104 주차계획도",
-        "A-441 램프 확대평면도(1F)",
-        "A-442 램프 확대평면도(1F~3F)",
-        "A-201 지하2층 평면도"
-      ],
-      "note": "주차계획도 차량동선은 대지 레벨만 표시(범례 없음), 건물 내 램프->하역장 동선·기둥 간섭 표기 없음. 2F 차량통로(Y3~Y5) 중간 Y4열 기둥 존재",
-      "floor": "B2"
+      "floor": "1F",
+      "slot": "floor|main|1F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 1F)",
+      "unit": "m",
+      "rule_input": true,
+      "blocks_rules": [
+        "FR03"
+      ]
     },
     {
       "level": "floor",
@@ -2625,7 +2785,56 @@
         "A-203 지상1층 평면도"
       ],
       "note": "주차계획도 차량동선은 대지 레벨만 표시(범례 없음), 건물 내 램프->하역장 동선·기둥 간섭 표기 없음. 2F 차량통로(Y3~Y5) 중간 Y4열 기둥 존재",
-      "floor": "1F"
+      "floor": "1F",
+      "slot": "floor|main|1F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 1F)",
+      "unit": null,
+      "rule_input": true,
+      "blocks_rules": [
+        "SP09"
+      ]
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "S-021~S-034 구조일반사항(RC)",
+        "S-041~S-048 구조일반사항(SC)",
+        "S-115 지상2층 바닥 구조평면도",
+        "S-271~S-276 슬라브 일람표(PC)"
+      ],
+      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
+      "floor": "1F",
+      "slot": "floor|main|1F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 1F)",
+      "unit": "t/m2",
+      "rule_input": true,
+      "blocks_rules": [
+        "SP01"
+      ]
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-401 건물 주 단면도(종)",
+        "A-402 건물 주 단면도(횡)",
+        "A-103 대지 종·횡단면도",
+        "A-501 실내재료마감표-1"
+      ],
+      "note": "층고(FL~FL)만 기재. 1F 7,750·2F 8,050은 FL에서 상층 하역장·차량통로 슬래브(상층 F.FL-1,100)까지 치수로 유효고 아님. 냉동창고 천장고는 '냉동창고 도면 참조', 천장고 칸 공란",
+      "floor": "2F",
+      "slot": "floor|main|2F|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main 2F)",
+      "unit": "m",
+      "rule_input": true,
+      "blocks_rules": [
+        "FR03"
+      ]
     },
     {
       "level": "floor",
@@ -2639,7 +2848,35 @@
         "A-204 지상2층 평면도"
       ],
       "note": "주차계획도 차량동선은 대지 레벨만 표시(범례 없음), 건물 내 램프->하역장 동선·기둥 간섭 표기 없음. 2F 차량통로(Y3~Y5) 중간 Y4열 기둥 존재",
-      "floor": "2F"
+      "floor": "2F",
+      "slot": "floor|main|2F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 2F)",
+      "unit": null,
+      "rule_input": true,
+      "blocks_rules": [
+        "SP09"
+      ]
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "S-021~S-034 구조일반사항(RC)",
+        "S-041~S-048 구조일반사항(SC)",
+        "S-115 지상2층 바닥 구조평면도",
+        "S-271~S-276 슬라브 일람표(PC)"
+      ],
+      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
+      "floor": "2F",
+      "slot": "floor|main|2F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 2F)",
+      "unit": "t/m2",
+      "rule_input": true,
+      "blocks_rules": [
+        "SP01"
+      ]
     },
     {
       "level": "floor",
@@ -2653,15 +2890,212 @@
         "A-205 지상3층 평면도"
       ],
       "note": "주차계획도 차량동선은 대지 레벨만 표시(범례 없음), 건물 내 램프->하역장 동선·기둥 간섭 표기 없음. 2F 차량통로(Y3~Y5) 중간 Y4열 기둥 존재",
-      "floor": "3F"
+      "floor": "3F",
+      "slot": "floor|main|3F|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main 3F)",
+      "unit": null,
+      "rule_input": true,
+      "blocks_rules": [
+        "SP09"
+      ]
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "S-021~S-034 구조일반사항(RC)",
+        "S-041~S-048 구조일반사항(SC)",
+        "S-115 지상2층 바닥 구조평면도",
+        "S-271~S-276 슬라브 일람표(PC)"
+      ],
+      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
+      "floor": "3F",
+      "slot": "floor|main|3F|floor_load_tpm2",
+      "label": "바닥 설계하중 (main 3F)",
+      "unit": "t/m2",
+      "rule_input": true,
+      "blocks_rules": [
+        "SP01"
+      ]
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-401 건물 주 단면도(종)",
+        "A-402 건물 주 단면도(횡)",
+        "A-103 대지 종·횡단면도",
+        "A-501 실내재료마감표-1"
+      ],
+      "note": "층고(FL~FL)만 기재. 1F 7,750·2F 8,050은 FL에서 상층 하역장·차량통로 슬래브(상층 F.FL-1,100)까지 치수로 유효고 아님. 냉동창고 천장고는 '냉동창고 도면 참조', 천장고 칸 공란",
+      "floor": "B1",
+      "slot": "floor|main|B1|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main B1)",
+      "unit": "m",
+      "rule_input": true,
+      "blocks_rules": []
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "S-021~S-034 구조일반사항(RC)",
+        "S-041~S-048 구조일반사항(SC)",
+        "S-115 지상2층 바닥 구조평면도",
+        "S-271~S-276 슬라브 일람표(PC)"
+      ],
+      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
+      "floor": "B1",
+      "slot": "floor|main|B1|floor_load_tpm2",
+      "label": "바닥 설계하중 (main B1)",
+      "unit": "t/m2",
+      "rule_input": true,
+      "blocks_rules": []
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "clear_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-401 건물 주 단면도(종)",
+        "A-402 건물 주 단면도(횡)",
+        "A-103 대지 종·횡단면도",
+        "A-501 실내재료마감표-1"
+      ],
+      "note": "층고(FL~FL)만 기재. 1F 7,750·2F 8,050은 FL에서 상층 하역장·차량통로 슬래브(상층 F.FL-1,100)까지 치수로 유효고 아님. 냉동창고 천장고는 '냉동창고 도면 참조', 천장고 칸 공란",
+      "floor": "B2",
+      "slot": "floor|main|B2|clear_height_m",
+      "label": "유효층고(천정·보·배관 하단) (main B2)",
+      "unit": "m",
+      "rule_input": true,
+      "blocks_rules": [
+        "FR03"
+      ]
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "dock_route_column_conflict",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-104 주차계획도",
+        "A-441 램프 확대평면도(1F)",
+        "A-442 램프 확대평면도(1F~3F)",
+        "A-201 지하2층 평면도"
+      ],
+      "note": "주차계획도 차량동선은 대지 레벨만 표시(범례 없음), 건물 내 램프->하역장 동선·기둥 간섭 표기 없음. 2F 차량통로(Y3~Y5) 중간 Y4열 기둥 존재",
+      "floor": "B2",
+      "slot": "floor|main|B2|dock_route_column_conflict",
+      "label": "램프→하역장 동선 기둥 간섭(대형차) (main B2)",
+      "unit": null,
+      "rule_input": true,
+      "blocks_rules": [
+        "SP09"
+      ]
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_load_tpm2",
+      "missing_reason": "미기재",
+      "searched": [
+        "S-021~S-034 구조일반사항(RC)",
+        "S-041~S-048 구조일반사항(SC)",
+        "S-115 지상2층 바닥 구조평면도",
+        "S-271~S-276 슬라브 일람표(PC)"
+      ],
+      "note": "구조일반사항에 풍·적설·지진하중만 있고 바닥 활하중표 없음. S-271 상단 '2.99KN/m2'는 항목 표기 없어 적재하중으로 채택하지 않음",
+      "floor": "B2",
+      "slot": "floor|main|B2|floor_load_tpm2",
+      "label": "바닥 설계하중 (main B2)",
+      "unit": "t/m2",
+      "rule_input": true,
+      "blocks_rules": [
+        "SP01"
+      ]
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "freight_elevator_capacity_t",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-201 지하2층 평면도",
+        "A-202 지하1층 평면도",
+        "A-203 지상1층 평면도",
+        "A-204 지상2층 평면도",
+        "A-205 지상3층 평면도"
+      ],
+      "note": "화물용 승강기 표기 없음",
+      "slot": "building|main|-|freight_elevator_capacity_t",
+      "label": "화물용 승강기 용량 (main)",
+      "unit": "t",
+      "rule_input": false,
+      "blocks_rules": []
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "roof_area_m2",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-206 지붕평면도",
+        "A-101 건축개요"
+      ],
+      "note": "지붕 면적 표기 없음(건축면적 11,739.36㎡만 기재)",
+      "slot": "building|main|-|roof_area_m2",
+      "label": "지붕 면적 (main)",
+      "unit": "m2",
+      "rule_input": false,
+      "blocks_rules": []
+    },
+    {
+      "level": "building",
+      "building_id": "main",
+      "field": "transformer_capacity_kva",
+      "missing_reason": "미기재",
+      "searched": [
+        "EE-004 22.9KV 수변전설비 단선결선도",
+        "전기소방 p46 단선결선도"
+      ],
+      "note": "변압기별 용량만 기재(TR#1 1,000kVA 냉동냉장1, TR#2 1,000kVA 냉동냉장2, TR#3 500kVA SMP용, TR#4 1,000kVA 일반·비상) - 총용량 표기 없어 합산하지 않음",
+      "slot": "building|main|-|transformer_capacity_kva",
+      "label": "변압기 총용량 (main)",
+      "unit": "kVA",
+      "rule_input": false,
+      "blocks_rules": []
+    },
+    {
+      "level": "floor",
+      "building_id": "main",
+      "field": "floor_height_m",
+      "missing_reason": "미기재",
+      "searched": [
+        "A-401 건물 주 단면도(종)"
+      ],
+      "note": "최상층: 3rd F.FL~지붕골조하단 8,000만 있고 바닥~바닥 층고 해당 없음",
+      "floor": "3F",
+      "slot": "floor|main|3F|floor_height_m",
+      "label": "층고(바닥~바닥) (main 3F)",
+      "unit": "m",
+      "rule_input": false,
+      "blocks_rules": []
     }
   ],
   "location": null,
   "summary": {
-    "needs_review": 40,
+    "needs_review": 44,
     "auto_confirmed": 0,
     "reference": 9,
     "claims": 0,
-    "hint_requests": 0
+    "hint_requests": 0,
+    "unresolved_rule_inputs": 24
   }
 }

@@ -363,3 +363,32 @@ def test_profile_under_ramp_and_ventilation():
     # 환기 값이 없는 골든(송온1)은 상온 창고층이 미확인으로 남아 판정 보류
     v1 = {b["building_id"]: b["vars"] for b in gp["songon1"]["profile"]["buildings"]}["main"]
     assert v1["floors_with_under_ramp"] == []
+
+
+def test_profile_yard_deck_over_warehouse():
+    """창고 상부 차량 데크 유무(2026-11-11, 송온1 B2): 치수 없이 true만 있어도 floors_with_under_yard에 들어가 SP10이 발동하고,
+    false는 넣지 않는다."""
+    import copy
+    from lprisk.engine.threshold_calibration import TESTS
+    from lprisk.io import load_json, load_yaml
+    from lprisk.spec.normalize import normalize_record
+    from lprisk.spec.profile import build_profile, load_regulations
+    g = TESTS / "golden" / "songon1"
+    base = load_json(g / "golden_spec.json")
+    meta = load_yaml(g / "asset_meta.yaml")
+
+    def run(vals: dict):
+        rec = copy.deepcopy(base)
+        floors = {f["floor"]: f for f in rec["buildings"][0]["floors"]}
+        for fl, v in vals.items():
+            floors[fl]["fields"]["yard_deck_over_warehouse"] = [{
+                "value": v, "unit": None, "raw_text": "THK50 아스콘포장 / 우레탄비노출도막방수", "precision": "exact",
+                "source_doc": "1-1.건축.pdf", "source_locator": {"page": 62, "sheet_no": "A-401", "bbox": None, "crop": None},
+                "method": "user", "confidence": "high", "source_grade": "확정", "status": "확정", "conflict": False}]
+        prof = build_profile(normalize_record(rec), meta, {"asset": {}}, regs=load_regulations())
+        return {b["building_id"]: b["vars"] for b in prof["buildings"]}["main"]["floors_with_under_yard"]
+
+    assert run({}) == []
+    assert run({"B2": True, "1F": False}) == ["B2"]
+
+
